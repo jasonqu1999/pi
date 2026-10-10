@@ -1,0 +1,15 @@
+{
+  "runs": [
+    {
+      "date": "2026-10-04T04:03:50.557292+00:00",
+      "files": 1818,
+      "input_tokens": null,
+      "output_tokens": null,
+      "usage_status": "unknown",
+      "ast_model_tokens": 0
+    }
+  ],
+  "total_input_tokens": null,
+  "total_output_tokens": null,
+  "usage_status": "unknown; do not sum placeholder zero counters"
+}

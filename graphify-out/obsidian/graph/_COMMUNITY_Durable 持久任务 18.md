@@ -1,0 +1,267 @@
+---
+type: community
+cohesion: 0.03
+members: 216
+---
+
+# Durable 持久任务 18
+
+**Cohesion:** 0.03 - loosely connected
+**Members:** 216 nodes
+
+## Members
+- [[dot-absolutePath()_1]] - code - packages/durable/src/env/node.ts
+- [[dot-appendFile()_1]] - code - packages/durable/src/env/node.ts
+- [[dot-appendFile()_2]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-byteLength()]] - code - packages/durable/src/truncate.ts
+- [[dot-canonicalPath()_1]] - code - packages/durable/src/env/node.ts
+- [[dot-cleanup()_6]] - code - packages/durable/src/env/index.ts
+- [[dot-cleanup()_7]] - code - packages/durable/src/env/node.ts
+- [[dot-clear()_7]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-close()_30]] - code - packages/durable/src/env/node.ts
+- [[dot-commit()_15]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-constructor()_250]] - code - packages/durable/src/env/index.ts
+- [[dot-constructor()_249]] - code - packages/durable/src/env/index.ts
+- [[dot-constructor()_252]] - code - packages/durable/src/env/node.ts
+- [[dot-constructor()_251]] - code - packages/durable/src/env/node.ts
+- [[dot-createDir()_1]] - code - packages/durable/src/env/node.ts
+- [[dot-createTempDir()_1]] - code - packages/durable/src/env/node.ts
+- [[dot-createTempFile()_1]] - code - packages/durable/src/env/node.ts
+- [[dot-createTempFile()_2]] - code - packages/durable/test/env-node.test.ts
+- [[dot-exec()_1]] - code - packages/durable/src/env/index.ts
+- [[dot-exec()_2]] - code - packages/durable/src/env/node.ts
+- [[dot-exec()_6]] - code - packages/durable/test/tools.test.ts
+- [[dot-exists()_1]] - code - packages/durable/src/env/node.ts
+- [[dot-fail()_5]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-fileInfo()_1]] - code - packages/durable/src/env/node.ts
+- [[dot-flushFile()_1]] - code - packages/durable/src/env/node.ts
+- [[dot-flushFile()_2]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-joinPath()_1]] - code - packages/durable/src/env/node.ts
+- [[dot-listDir()_1]] - code - packages/durable/src/env/node.ts
+- [[dot-openTextLineReader()_1]] - code - packages/durable/src/env/node.ts
+- [[dot-readBinaryFile()_1]] - code - packages/durable/src/env/node.ts
+- [[dot-readLine()_1]] - code - packages/durable/src/env/node.ts
+- [[dot-readTextFile()_1]] - code - packages/durable/src/env/node.ts
+- [[dot-readTextFile()_2]] - code - packages/durable/test/tools.test.ts
+- [[dot-readTextLines()_1]] - code - packages/durable/src/env/node.ts
+- [[dot-remove()_6]] - code - packages/durable/src/env/node.ts
+- [[dot-remove()_7]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-renameFile()_1]] - code - packages/durable/src/env/node.ts
+- [[dot-renameFile()_2]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-resetObservations()]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-truncateFile()_1]] - code - packages/durable/src/env/node.ts
+- [[dot-writeFile()_1]] - code - packages/durable/src/env/node.ts
+- [[dot-writeFile()_2]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-writeFile()_4]] - code - packages/durable/test/tools.test.ts
+- [[dot-writeFile()_3]] - code - packages/durable/test/tools.test.ts
+- [[AppliedEditsResult_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[BashExecution]] - code - packages/durable/src/tools/bash.ts
+- [[BashPrepare]] - code - packages/durable/src/tools/bash.ts
+- [[BashToolInput_1]] - code - packages/durable/src/tools/bash.ts
+- [[BashToolOptions_1]] - code - packages/durable/src/tools/bash.ts
+- [[BlockingEditExecutionEnv]] - code - packages/durable/test/tools.test.ts
+- [[BlockingWriteExecutionEnv]] - code - packages/durable/test/tools.test.ts
+- [[DEFAULT_MAX_BYTES_1]] - code - packages/durable/src/truncate.ts
+- [[DEFAULT_MAX_LINES_1]] - code - packages/durable/src/truncate.ts
+- [[Edit_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[EditToolDetails_1]] - code - packages/durable/src/tools/edit.ts
+- [[EditToolInput_1]] - code - packages/durable/src/tools/edit.ts
+- [[ExecutionEnv]] - code - packages/durable/src/env/index.ts
+- [[ExecutionError]] - code - packages/durable/src/env/index.ts
+- [[ExecutionErrorCode]] - code - packages/durable/src/env/index.ts
+- [[FailingSpillExecutionEnv]] - code - packages/durable/test/env-node.test.ts
+- [[Failure_3]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[FileError]] - code - packages/durable/src/env/index.ts
+- [[FileErrorCode]] - code - packages/durable/src/env/index.ts
+- [[FileInfo]] - code - packages/durable/src/env/index.ts
+- [[FileKind]] - code - packages/durable/src/env/index.ts
+- [[FuzzyMatchResult_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[InstrumentedEnv]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[LegacyEditToolInput_1]] - code - packages/durable/src/tools/edit.ts
+- [[LineSpan_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[MatchedEdit_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[NodeExecutionEnv]] - code - packages/durable/src/env/node.ts
+- [[NodeTextLineReader]] - code - packages/durable/src/env/node.ts
+- [[OtherFileSystem]] - code - packages/durable/test/tools.test.ts
+- [[ReadToolDetails_1]] - code - packages/durable/src/tools/read.ts
+- [[ReadToolInput_1]] - code - packages/durable/src/tools/read.ts
+- [[Result_3]] - code - packages/durable/src/env/index.ts
+- [[RuntimeBuffer]] - code - packages/durable/src/truncate.ts
+- [[Shell]] - code - packages/durable/src/env/index.ts
+- [[ShellConfig_1]] - code - packages/durable/src/env/node.ts
+- [[ShellExecOptions]] - code - packages/durable/src/env/index.ts
+- [[ShellExecResult]] - code - packages/durable/src/env/index.ts
+- [[ShellSpillOptions]] - code - packages/durable/src/env/index.ts
+- [[SingleEditInput_1]] - code - packages/durable/src/tools/edit.ts
+- [[SlowReadExecutionEnv]] - code - packages/durable/test/tools.test.ts
+- [[SpillChunk]] - code - packages/durable/src/env/node.ts
+- [[StoredTask_5]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[TextLine]] - code - packages/durable/src/env/index.ts
+- [[TextLineReader]] - code - packages/durable/src/env/index.ts
+- [[TextReplacement_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[TimeoutOutputExecutionEnv]] - code - packages/durable/test/tools.test.ts
+- [[TruncationOptions_1]] - code - packages/durable/src/truncate.ts
+- [[TruncationResult_1]] - code - packages/durable/src/truncate.ts
+- [[WriteToolInput_1]] - code - packages/durable/src/tools/write.ts
+- [[abortResult()]] - code - packages/durable/src/env/node.ts
+- [[abortedContext()]] - code - packages/durable/test/env-node.test.ts
+- [[applyEditsToNormalizedContent()_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[applyReplacements()_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[applyReplacementsPreservingUnchangedLines()_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[bashSchema_1]] - code - packages/durable/src/tools/bash.ts
+- [[byteLength()_1]] - code - packages/durable/test/env-truncate.test.ts
+- [[canonical()]] - code - packages/durable/src/tools/file-mutation-queue.ts
+- [[characterEnd()]] - code - packages/durable/src/harness/output.ts
+- [[chmodRestorePaths]] - code - packages/durable/test/env-node.test.ts
+- [[cleanupDetachedChild()_1]] - code - packages/durable/test/env-node.test.ts
+- [[collectShellOutput()]] - code - packages/durable/test/env-node.test.ts
+- [[countOccurrences()_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[createBashTool()_1]] - code - packages/durable/src/tools/bash.ts
+- [[createEditTool()_1]] - code - packages/durable/src/tools/edit.ts
+- [[createEnv()]] - code - packages/durable/test/tools.test.ts
+- [[createInheritedStdioCommand()_1]] - code - packages/durable/test/env-node.test.ts
+- [[createReadTool()_1]] - code - packages/durable/src/tools/read.ts
+- [[createRoot()_1]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[createStorage()]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[createTempDir()_11]] - code - packages/durable/test/env-node.test.ts
+- [[createTempDir()_12]] - code - packages/durable/test/tools.test.ts
+- [[createWriteTool()_1]] - code - packages/durable/src/tools/write.ts
+- [[deferred()_4]] - code - packages/durable/test/tools.test.ts
+- [[delay()_4]] - code - packages/durable/test/tools.test.ts
+- [[detectLineEnding()_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[diagnosticText()]] - code - packages/durable/test/tools.test.ts
+- [[durabletesttools.test.ts]] - code - packages/durable/test/tools.test.ts
+- [[editAccessError()]] - code - packages/durable/src/tools/edit.ts
+- [[editSchema_1]] - code - packages/durable/src/tools/edit.ts
+- [[encoder_3]] - code - packages/durable/test/env-truncate.test.ts
+- [[env-node-spill.test.ts]] - code - packages/durable/test/env-node-spill.test.ts
+- [[env-node.test.ts]] - code - packages/durable/test/env-node.test.ts
+- [[env-truncate.test.ts]] - code - packages/durable/test/env-truncate.test.ts
+- [[env.ts]] - code - packages/durable/src/tools/env.ts
+- [[envindex.ts]] - code - packages/durable/src/env/index.ts
+- [[envnode.ts]] - code - packages/durable/src/env/node.ts
+- [[err()]] - code - packages/durable/src/env/index.ts
+- [[fakeApi()]] - code - packages/durable/test/tools.test.ts
+- [[fileExists()_1]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[fileHandlePrototype()]] - code - packages/durable/test/env-node.test.ts
+- [[fileInfoFromStats()]] - code - packages/durable/src/env/node.ts
+- [[fileKindFromStats()]] - code - packages/durable/src/env/node.ts
+- [[findBashOnPath()]] - code - packages/durable/src/env/node.ts
+- [[formatSize()_1]] - code - packages/durable/src/truncate.ts
+- [[fuzzyFindText()_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[generateDiffString()_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[generateUnifiedPatch()_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[getBashShellConfig()_1]] - code - packages/durable/src/env/node.ts
+- [[getDuplicateError()_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[getEmptyOldTextError()_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[getLineSpans()_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[getNoChangeError()_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[getNotFoundError()_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[getOrThrow()]] - code - packages/durable/src/env/index.ts
+- [[getOrUndefined()]] - code - packages/durable/src/env/index.ts
+- [[getReplacementLineRange()_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[getShellConfig()_1]] - code - packages/durable/src/env/node.ts
+- [[getShellEnv()_1]] - code - packages/durable/src/env/node.ts
+- [[inputs]] - code - packages/durable/test/fixtures/utf8-byte-length-without-buffer.ts
+- [[isLegacyWslBashPath()_1]] - code - packages/durable/src/env/node.ts
+- [[isNodeError()]] - code - packages/durable/src/env/node.ts
+- [[isSingleEditInput()_1]] - code - packages/durable/src/tools/edit.ts
+- [[jsonl-storage.test.ts]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[killProcessTree()_1]] - code - packages/durable/src/env/node.ts
+- [[makeSocketPath()_1]] - code - packages/server/test/server.test.ts
+- [[mutationKey()]] - code - packages/durable/src/tools/file-mutation-queue.ts
+- [[normalizeForFuzzyMatch()_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[normalizeToLF()_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[normalizeToolPath()]] - code - packages/durable/src/tools/path-utils.ts
+- [[ok()]] - code - packages/durable/src/env/index.ts
+- [[openStorage()]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[openStorages]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[pathExists()_2]] - code - packages/durable/src/env/node.ts
+- [[pendingTask()_1]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[prepareEditArguments()_1]] - code - packages/durable/src/tools/edit.ts
+- [[queues]] - code - packages/durable/src/tools/file-mutation-queue.ts
+- [[readLines()]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[readSchema_2]] - code - packages/durable/src/tools/read.ts
+- [[replaceEditSchema_1]] - code - packages/durable/src/tools/edit.ts
+- [[requireEnv()]] - code - packages/durable/src/tools/env.ts
+- [[resolvePath()_2]] - code - packages/durable/src/env/node.ts
+- [[resolveReadToolPath()]] - code - packages/durable/src/tools/path-utils.ts
+- [[resolveTimeoutMs()_1]] - code - packages/durable/src/env/node.ts
+- [[resolveToolPath()]] - code - packages/durable/src/tools/path-utils.ts
+- [[restoreLineEndings()_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[run()_7]] - code - packages/durable/test/tools.test.ts
+- [[runCommand()_2]] - code - packages/durable/src/env/node.ts
+- [[runFailing()]] - code - packages/durable/test/tools.test.ts
+- [[sessionDocument()]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[spill]] - code - packages/durable/test/env-node-spill.test.ts
+- [[splitLinesForCounting()_1]] - code - packages/durable/src/truncate.ts
+- [[splitLinesWithEndings()_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[srctoolsbash.ts]] - code - packages/durable/src/tools/bash.ts
+- [[srctoolsedit-diff.ts]] - code - packages/durable/src/tools/edit-diff.ts
+- [[srctoolsedit.ts]] - code - packages/durable/src/tools/edit.ts
+- [[srctoolsfile-mutation-queue.ts]] - code - packages/durable/src/tools/file-mutation-queue.ts
+- [[srctoolsindex.ts]] - code - packages/durable/src/tools/index.ts
+- [[srctoolspath-utils.ts]] - code - packages/durable/src/tools/path-utils.ts
+- [[srctoolsread.ts]] - code - packages/durable/src/tools/read.ts
+- [[srctoolswrite.ts]] - code - packages/durable/src/tools/write.ts
+- [[srctruncate.ts]] - code - packages/durable/src/truncate.ts
+- [[stripBom()_1]] - code - packages/durable/src/tools/edit-diff.ts
+- [[tempDirectories_2]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[tempDirectory()]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[tempDirs_13]] - code - packages/durable/test/env-node-spill.test.ts
+- [[tempDirs_14]] - code - packages/durable/test/env-node.test.ts
+- [[tempDirs_15]] - code - packages/durable/test/tools.test.ts
+- [[terminalTask()]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[textOutput()]] - code - packages/durable/test/tools.test.ts
+- [[toBashSingleQuotedArg()_1]] - code - packages/durable/test/env-node.test.ts
+- [[toError()_6]] - code - packages/durable/src/env/index.ts
+- [[toFileError()]] - code - packages/durable/src/env/node.ts
+- [[truncateHead()_1]] - code - packages/durable/src/truncate.ts
+- [[utf8-byte-length-without-buffer.ts]] - code - packages/durable/test/fixtures/utf8-byte-length-without-buffer.ts
+- [[utf8ByteLength()]] - code - packages/durable/src/truncate.ts
+- [[validateEditInput()_1]] - code - packages/durable/src/tools/edit.ts
+- [[validateTimeout()]] - code - packages/durable/src/tools/bash.ts
+- [[waitFor()_2]] - code - packages/durable/test/env-node.test.ts
+- [[waitForChildProcess()_1]] - code - packages/durable/src/env/node.ts
+- [[withFileMutationQueue()_1]] - code - packages/durable/src/tools/file-mutation-queue.ts
+- [[withTimeout()_1]] - code - packages/durable/test/env-node.test.ts
+- [[writeSchema_1]] - code - packages/durable/src/tools/write.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Durable_持久任务_18
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 100 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 65 edges to [[_COMMUNITY_Durable 持久任务 5]]
+- 22 edges to [[_COMMUNITY_Durable 持久任务 21]]
+- 21 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 19 edges to [[_COMMUNITY_Durable 持久任务 4]]
+- 13 edges to [[_COMMUNITY_Durable 持久任务 86]]
+- 9 edges to [[_COMMUNITY_Durable 持久任务 58]]
+- 9 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 8]]
+- 6 edges to [[_COMMUNITY_Durable 持久任务 164]]
+- 5 edges to [[_COMMUNITY_Durable 持久任务 293]]
+- 5 edges to [[_COMMUNITY_Durable 持久任务 38]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 65]]
+- 3 edges to [[_COMMUNITY_Durable 持久任务 45]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 49]]
+- 2 edges to [[_COMMUNITY_Chord 服务状态 30]]
+- 2 edges to [[_COMMUNITY_Server 会话路由 20]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 19]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 60]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 28]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 63]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 180]]
+
+## Top bridge nodes
+- [[jsonl-storage.test.ts]] - degree 64, connects to 11 communities
+- [[durabletesttools.test.ts]] - degree 56, connects to 11 communities
+- [[srctoolsbash.ts]] - degree 22, connects to 6 communities
+- [[srctoolsread.ts]] - degree 28, connects to 5 communities
+- [[envnode.ts]] - degree 61, connects to 4 communities

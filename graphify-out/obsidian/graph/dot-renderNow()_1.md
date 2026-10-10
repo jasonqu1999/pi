@@ -1,0 +1,23 @@
+---
+source_file: "packages/tui/src/tui.ts"
+type: "code"
+community: "TUI 终端组件 89"
+location: "L982"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/TUI_终端组件_89
+---
+
+# .renderNow()
+
+## Connections
+- [[dot-cancelRenderTimer()]] - `calls` [EXTRACTED]
+- [[dot-doRender()_2]] - `calls` [EXTRACTED]
+- [[dot-resetRenderState()_2]] - `calls` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/TUI_终端组件_89
+
+## 源码入口
+
+[packages/tui/src/tui.ts](../../../packages/tui/src/tui.ts)

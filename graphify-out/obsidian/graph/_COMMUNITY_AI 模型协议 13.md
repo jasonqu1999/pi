@@ -1,0 +1,293 @@
+---
+type: community
+cohesion: 0.02
+members: 247
+---
+
+# AI 模型协议 13
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 247 nodes
+
+## Members
+- [[dot-cancel()]] - code - packages/ai/src/auth/oauth/callback-server.ts
+- [[dot-close()_1]] - code - packages/ai/src/auth/oauth/callback-server.ts
+- [[dot-constructor()_11]] - code - packages/ai/src/auth/oauth/radius.ts
+- [[dot-login()_1]] - code - packages/ai/src/auth/types.ts
+- [[dot-refresh()]] - code - packages/ai/src/auth/types.ts
+- [[dot-resolve()]] - code - packages/ai/src/auth/types.ts
+- [[dot-toAuth()]] - code - packages/ai/src/auth/types.ts
+- [[dot-wait()]] - code - packages/ai/src/auth/oauth/callback-server.ts
+- [[AuthEvent]] - code - packages/ai/src/auth/types.ts
+- [[AuthorizationResult]] - code - packages/ai/src/auth/oauth/openai-chatgpt.ts
+- [[CLIENT_ID]] - code - packages/ai/src/auth/oauth/anthropic.ts
+- [[CLIENT_ID_1]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[COPILOT_HEADERS]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[CallbackServer]] - code - packages/ai/src/auth/oauth/openai-chatgpt.ts
+- [[DeviceAuthInfo]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[DeviceAuthorization]] - code - packages/ai/src/auth/oauth/kimi-coding.ts
+- [[DeviceAuthorization_1]] - code - packages/ai/src/auth/oauth/meta.ts
+- [[DeviceAuthorizationResponse]] - code - packages/ai/src/auth/oauth/radius.ts
+- [[DeviceCodeInfo]] - code - packages/ai/test/xai-oauth.test.ts
+- [[DeviceCodeResponse]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[DeviceTokenErrorResponse]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[DeviceTokenSuccess]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[DeviceTokenSuccessResponse]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[JsonObject]] - code - packages/ai/src/auth/oauth/openrouter.ts
+- [[JsonObject_1]] - code - packages/ai/src/auth/oauth/xai.ts
+- [[JwtPayload]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[NOTE This module uses Node.js crypto and http (via callback-server.ts) for the…]] - rationale - packages/ai/src/auth/oauth/openai-codex.ts
+- [[NOTE This module uses Node.js http.createServer for the OAuth callback server.]] - rationale - packages/ai/src/auth/oauth/anthropic.ts
+- [[NOTE This module uses nodehttp (via callback-server.ts) for the OAuth…]] - rationale - packages/ai/src/auth/oauth/openrouter.ts
+- [[NOTE This module uses nodehttp (via callback-server.ts) for the OAuth…_1]] - rationale - packages/ai/src/auth/oauth/radius.ts
+- [[NOTE This module uses nodehttp. It is only reachable through the lazily]] - rationale - packages/ai/src/auth/oauth/callback-server.ts
+- [[OAuthAuth]] - code - packages/ai/src/auth/types.ts
+- [[OAuthCallbackServer]] - code - packages/ai/src/auth/oauth/callback-server.ts
+- [[OAuthCallbackServerOptions]] - code - packages/ai/src/auth/oauth/callback-server.ts
+- [[OAuthCredential]] - code - packages/ai/src/auth/types.ts
+- [[OAuthDeviceCodeIncompletePollResult]] - code - packages/ai/src/auth/oauth/device-code.ts
+- [[OAuthDeviceCodePollOptions]] - code - packages/ai/src/auth/oauth/device-code.ts
+- [[OAuthDeviceCodePollResult]] - code - packages/ai/src/auth/oauth/device-code.ts
+- [[OAuthHttpResponse]] - code - packages/ai/src/auth/oauth/xai.ts
+- [[OAuthResponseError]] - code - packages/ai/src/auth/oauth/radius.ts
+- [[OAuthToken]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[ProviderAuthInteraction]] - code - packages/ai/src/auth/types.ts
+- [[RFC-8628]] - concept - packages/ai/src/auth/oauth/device-code.ts
+- [[RFC-8628_1]] - concept - packages/ai/src/auth/oauth/kimi-coding.ts
+- [[RFC-8628_2]] - concept - packages/ai/src/auth/oauth/meta.ts
+- [[RFC-8628_3]] - concept - packages/ai/src/auth/oauth/xai.ts
+- [[RFC-8628_4]] - concept - packages/ai/test/xai-oauth.test.ts
+- [[RadiusOAuthDiscovery]] - code - packages/ai/src/auth/oauth/radius.ts
+- [[RadiusOAuthOptions]] - code - packages/ai/src/auth/oauth/radius.ts
+- [[TokenOperation]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[TokenResponse]] - code - packages/ai/src/auth/oauth/kimi-coding.ts
+- [[TokenResponse_1]] - code - packages/ai/src/auth/oauth/openai-chatgpt.ts
+- [[XaiDeviceCode]] - code - packages/ai/src/auth/oauth/xai.ts
+- [[abortableSleep()]] - code - packages/ai/src/auth/oauth/device-code.ts
+- [[agentHostId()]] - code - packages/ai/src/auth/oauth/openai-chatgpt.ts
+- [[aisrcutilssleep.ts]] - code - packages/ai/src/utils/sleep.ts
+- [[anthropic-oauth.test.ts]] - code - packages/ai/test/anthropic-oauth.test.ts
+- [[anthropicOAuth]] - code - packages/ai/src/auth/oauth/anthropic.ts
+- [[asRecord()]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[authorizationResultFromCallback()]] - code - packages/ai/src/auth/oauth/openai-chatgpt.ts
+- [[authorizationResultFromManualInput()]] - code - packages/ai/src/auth/oauth/openai-chatgpt.ts
+- [[base64url()]] - code - packages/ai/test/openrouter-oauth.test.ts
+- [[base64urlEncode()]] - code - packages/ai/src/auth/oauth/pkce.ts
+- [[bun-oauth.ts]] - code - packages/ai/src/bun-oauth.ts
+- [[callback-server.ts]] - code - packages/ai/src/auth/oauth/callback-server.ts
+- [[callbackUrl()]] - code - packages/ai/test/oauth-callback-server.test.ts
+- [[close()]] - code - packages/ai/test/oauth-callback-server.test.ts
+- [[connectedCredential()]] - code - packages/ai/test/openai-chatgpt-oauth.test.ts
+- [[copilotEnterpriseDomain()]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[createAccessToken()]] - code - packages/ai/test/openai-codex-oauth.test.ts
+- [[createAuthorizationFlow()]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[createInteraction()]] - code - packages/ai/test/kimi-coding-oauth.test.ts
+- [[createInteraction()_1]] - code - packages/ai/test/meta-oauth.test.ts
+- [[createRadiusOAuth()]] - code - packages/ai/src/auth/oauth/radius.ts
+- [[createState()]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[credentialFromTokenResponse()]] - code - packages/ai/src/auth/oauth/openai-chatgpt.ts
+- [[credentialsFromToken()]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[credentialsFromTokenResponse()]] - code - packages/ai/src/auth/oauth/xai.ts
+- [[decode()]] - code - packages/ai/src/auth/oauth/anthropic.ts
+- [[decode()_1]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[decodeJwt()]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[device-code.ts]] - code - packages/ai/src/auth/oauth/device-code.ts
+- [[deviceAuthPendingResponse()]] - code - packages/ai/test/openai-codex-oauth.test.ts
+- [[deviceAuthorizationResponse()]] - code - packages/ai/test/kimi-coding-oauth.test.ts
+- [[deviceCodeResponse()]] - code - packages/ai/test/xai-oauth.test.ts
+- [[enableGitHubCopilotModel()]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[enableGitHubCopilotModels()]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[errorDetail()]] - code - packages/ai/src/auth/oauth/meta.ts
+- [[errorDetail()_1]] - code - packages/ai/src/auth/oauth/openrouter.ts
+- [[escapeHtml()]] - code - packages/ai/src/utils/oauth-page.ts
+- [[exchangeAuthorizationCode()]] - code - packages/ai/src/auth/oauth/anthropic.ts
+- [[exchangeAuthorizationCode()_1]] - code - packages/ai/src/auth/oauth/openai-chatgpt.ts
+- [[exchangeAuthorizationCode()_2]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[exchangeAuthorizationCode()_3]] - code - packages/ai/src/auth/oauth/openrouter.ts
+- [[exchangeAuthorizationCodeForCredentials()]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[fetchGitHubCopilotModels()]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[fetchJson()]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[fetchWithLoginCancellation()]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[fetchWithRateLimitRetry()]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[formUrlEncode()]] - code - packages/ai/src/auth/oauth/kimi-coding.ts
+- [[formatErrorDetails()]] - code - packages/ai/src/auth/oauth/anthropic.ts
+- [[generatePKCE()]] - code - packages/ai/src/auth/oauth/pkce.ts
+- [[getAccountId()]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[getBaseUrlFromToken()]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[getCallbackHost()]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[getCallbackHost()_1]] - code - packages/ai/src/auth/oauth/openrouter.ts
+- [[getGitHubCopilotBaseUrl()]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[getJsonBody()]] - code - packages/ai/test/anthropic-oauth.test.ts
+- [[getOauthHost()]] - code - packages/ai/src/auth/oauth/kimi-coding.ts
+- [[getUrl()]] - code - packages/ai/test/anthropic-oauth.test.ts
+- [[getUrl()_1]] - code - packages/ai/test/github-copilot-oauth.test.ts
+- [[getUrl()_2]] - code - packages/ai/test/kimi-coding-oauth.test.ts
+- [[getUrl()_3]] - code - packages/ai/test/meta-oauth.test.ts
+- [[getUrl()_4]] - code - packages/ai/test/openai-codex-oauth.test.ts
+- [[getUrls()]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[github-copilot-oauth.test.ts]] - code - packages/ai/test/github-copilot-oauth.test.ts
+- [[githubCopilotOAuth]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[interaction()]] - code - packages/ai/test/oauth-callback-server.test.ts
+- [[interaction()_1]] - code - packages/ai/test/radius-oauth.test.ts
+- [[isRetryableRefreshFailure()]] - code - packages/ai/src/auth/oauth/kimi-coding.ts
+- [[jsonResponse()]] - code - packages/ai/test/anthropic-oauth.test.ts
+- [[jsonResponse()_1]] - code - packages/ai/test/github-copilot-oauth.test.ts
+- [[jsonResponse()_2]] - code - packages/ai/test/kimi-coding-oauth.test.ts
+- [[jsonResponse()_3]] - code - packages/ai/test/meta-oauth.test.ts
+- [[jsonResponse()_4]] - code - packages/ai/test/oauth-auth.test.ts
+- [[jsonResponse()_5]] - code - packages/ai/test/openai-chatgpt-oauth.test.ts
+- [[jsonResponse()_6]] - code - packages/ai/test/openai-codex-oauth.test.ts
+- [[jsonResponse()_7]] - code - packages/ai/test/openrouter-oauth.test.ts
+- [[jsonResponse()_8]] - code - packages/ai/test/radius-oauth.test.ts
+- [[jsonResponse()_9]] - code - packages/ai/test/xai-oauth.test.ts
+- [[kimi-coding-oauth.test.ts]] - code - packages/ai/test/kimi-coding-oauth.test.ts
+- [[kimiCodingOAuth]] - code - packages/ai/src/auth/oauth/kimi-coding.ts
+- [[listenForCallback()]] - code - packages/coding-agent/src/extensions/mcp/oauth.ts
+- [[loadRadiusOAuthDiscovery()]] - code - packages/ai/src/auth/oauth/radius.ts
+- [[loginAnthropic()]] - code - packages/ai/src/auth/oauth/anthropic.ts
+- [[loginAnthropicCopyCode()]] - code - packages/ai/src/auth/oauth/anthropic.ts
+- [[loginGitHubCopilot()]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[loginGitHubCopilotForTest()]] - code - packages/ai/test/github-copilot-oauth.test.ts
+- [[loginInteraction()]] - code - packages/ai/test/openai-chatgpt-oauth.test.ts
+- [[loginKimiCoding()]] - code - packages/ai/src/auth/oauth/kimi-coding.ts
+- [[loginMeta()]] - code - packages/ai/src/auth/oauth/meta.ts
+- [[loginOpenAIChatGPT()]] - code - packages/ai/src/auth/oauth/openai-chatgpt.ts
+- [[loginOpenAICodex()]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[loginOpenAICodexDeviceCode()]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[loginOpenAICodexDeviceCodeForTest()]] - code - packages/ai/test/openai-codex-oauth.test.ts
+- [[loginOpenRouter()]] - code - packages/ai/src/auth/oauth/openrouter.ts
+- [[loginWithBrowser()]] - code - packages/ai/src/auth/oauth/radius.ts
+- [[loginWithDeviceCode()]] - code - packages/ai/src/auth/oauth/radius.ts
+- [[loginXai()]] - code - packages/ai/src/auth/oauth/xai.ts
+- [[loginXaiForTest()]] - code - packages/ai/test/xai-oauth.test.ts
+- [[meta-oauth.test.ts]] - code - packages/ai/test/meta-oauth.test.ts
+- [[metaOAuth]] - code - packages/ai/src/auth/oauth/meta.ts
+- [[mintApiKey()]] - code - packages/ai/src/auth/oauth/meta.ts
+- [[nodecrypto]] - code - node:crypto
+- [[normalizeDomain()]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[oauth-auth.test.ts]] - code - packages/ai/test/oauth-auth.test.ts
+- [[oauth-callback-server.test.ts]] - code - packages/ai/test/oauth-callback-server.test.ts
+- [[oauth-device-code.test.ts]] - code - packages/ai/test/oauth-device-code.test.ts
+- [[oauth-page.ts]] - code - packages/ai/src/utils/oauth-page.ts
+- [[oauthanthropic.ts]] - code - packages/ai/src/auth/oauth/anthropic.ts
+- [[oauthgithub-copilot.ts]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[oauthkimi-coding.ts]] - code - packages/ai/src/auth/oauth/kimi-coding.ts
+- [[oauthmeta.ts]] - code - packages/ai/src/auth/oauth/meta.ts
+- [[oauthopenai-codex.ts]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[oauthopenrouter.ts]] - code - packages/ai/src/auth/oauth/openrouter.ts
+- [[oauthradius.ts]] - code - packages/ai/src/auth/oauth/radius.ts
+- [[oauthxai.ts]] - code - packages/ai/src/auth/oauth/xai.ts
+- [[oauthErrorHtml()]] - code - packages/ai/src/utils/oauth-page.ts
+- [[oauthSuccessHtml()]] - code - packages/ai/src/utils/oauth-page.ts
+- [[openRouterOAuth]] - code - packages/ai/src/auth/oauth/openrouter.ts
+- [[openai-chatgpt-oauth.test.ts]] - code - packages/ai/test/openai-chatgpt-oauth.test.ts
+- [[openai-chatgpt.ts]] - code - packages/ai/src/auth/oauth/openai-chatgpt.ts
+- [[openai-codex-oauth.test.ts]] - code - packages/ai/test/openai-codex-oauth.test.ts
+- [[openaiChatGPTOAuth]] - code - packages/ai/src/auth/oauth/openai-chatgpt.ts
+- [[openaiCodexOAuth]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[openrouter-oauth.test.ts]] - code - packages/ai/test/openrouter-oauth.test.ts
+- [[page()]] - code - packages/ai/test/oauth-callback-server.test.ts
+- [[parseAuthorizationInput()]] - code - packages/ai/src/auth/oauth/anthropic.ts
+- [[parseAuthorizationInput()_1]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[parseAuthorizationInput()_2]] - code - packages/ai/src/auth/oauth/openrouter.ts
+- [[parseDeviceCode()]] - code - packages/ai/src/auth/oauth/xai.ts
+- [[parseGitHubCopilotModelCatalog()]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[parseTokenResponse()]] - code - packages/ai/src/auth/oauth/kimi-coding.ts
+- [[pendingPrompt()]] - code - packages/ai/test/oauth-callback-server.test.ts
+- [[pkce.ts]] - code - packages/ai/src/auth/oauth/pkce.ts
+- [[pollForGitHubAccessToken()]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[pollForIdentityToken()]] - code - packages/ai/src/auth/oauth/meta.ts
+- [[pollForToken()]] - code - packages/ai/src/auth/oauth/kimi-coding.ts
+- [[pollForTokens()]] - code - packages/ai/src/auth/oauth/xai.ts
+- [[pollOAuthDeviceCodeFlow()]] - code - packages/ai/src/auth/oauth/device-code.ts
+- [[pollOpenAICodexDeviceAuth()]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[positiveNumber()]] - code - packages/ai/src/auth/oauth/meta.ts
+- [[positiveNumber()_1]] - code - packages/ai/src/auth/oauth/xai.ts
+- [[postForm()]] - code - packages/ai/src/auth/oauth/xai.ts
+- [[postJson()]] - code - packages/ai/src/auth/oauth/anthropic.ts
+- [[radius-oauth.test.ts]] - code - packages/ai/test/radius-oauth.test.ts
+- [[randomValue()]] - code - packages/ai/src/auth/oauth/openai-chatgpt.ts
+- [[readJson()]] - code - packages/ai/src/auth/oauth/kimi-coding.ts
+- [[readJson()_1]] - code - packages/ai/src/auth/oauth/meta.ts
+- [[readOAuthResponseError()]] - code - packages/ai/src/auth/oauth/radius.ts
+- [[readTokenResponse()]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[refreshAccessToken()]] - code - packages/ai/src/auth/oauth/openai-chatgpt.ts
+- [[refreshAccessToken()_1]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[refreshAnthropicToken()]] - code - packages/ai/src/auth/oauth/anthropic.ts
+- [[refreshGitHubCopilotAccessToken()]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[refreshGitHubCopilotModelsForTest()]] - code - packages/ai/test/github-copilot-oauth.test.ts
+- [[refreshGitHubCopilotToken()]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[refreshOpenAICodexToken()]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[refreshToken()]] - code - packages/ai/src/auth/oauth/kimi-coding.ts
+- [[refreshXaiForTest()]] - code - packages/ai/test/xai-oauth.test.ts
+- [[refreshXaiToken()]] - code - packages/ai/src/auth/oauth/xai.ts
+- [[registerBunOAuthFlows()]] - code - packages/ai/src/bun-oauth.ts
+- [[registerBundledOAuthFlowLoaders()]] - code - packages/ai/src/auth/oauth/load.ts
+- [[renderPage()]] - code - packages/ai/src/utils/oauth-page.ts
+- [[requestDeviceAuthorization()]] - code - packages/ai/src/auth/oauth/radius.ts
+- [[requestDeviceCode()]] - code - packages/ai/src/auth/oauth/xai.ts
+- [[requestFailure()]] - code - packages/ai/src/auth/oauth/xai.ts
+- [[requestForm()]] - code - packages/ai/test/xai-oauth.test.ts
+- [[requestOAuthToken()]] - code - packages/ai/src/auth/oauth/radius.ts
+- [[requestSignal()]] - code - packages/ai/src/auth/oauth/kimi-coding.ts
+- [[requestSignal()_1]] - code - packages/ai/src/auth/oauth/meta.ts
+- [[requestToken()]] - code - packages/ai/src/auth/oauth/openai-chatgpt.ts
+- [[requestUrl()]] - code - packages/ai/test/radius-oauth.test.ts
+- [[requestUrl()_1]] - code - packages/ai/test/xai-oauth.test.ts
+- [[requireModelId()]] - code - packages/ai/test/github-copilot-oauth.test.ts
+- [[requireTokenString()]] - code - packages/ai/src/auth/oauth/openai-chatgpt.ts
+- [[requiredString()]] - code - packages/ai/src/auth/oauth/xai.ts
+- [[resolveStoredOAuth()]] - code - packages/ai/src/auth/resolve.ts
+- [[sendHtml()]] - code - packages/ai/src/auth/oauth/openai-chatgpt.ts
+- [[sendPage()]] - code - packages/ai/src/auth/oauth/callback-server.ts
+- [[sleep()_2]] - code - packages/ai/src/utils/sleep.ts
+- [[startCallbackServer()]] - code - packages/ai/src/auth/oauth/openai-chatgpt.ts
+- [[startDeviceAuthorization()]] - code - packages/ai/src/auth/oauth/kimi-coding.ts
+- [[startDeviceAuthorization()_1]] - code - packages/ai/src/auth/oauth/meta.ts
+- [[startDeviceFlow()]] - code - packages/ai/src/auth/oauth/github-copilot.ts
+- [[startOAuthCallbackServer()]] - code - packages/ai/src/auth/oauth/callback-server.ts
+- [[startOpenAICodexDeviceAuth()]] - code - packages/ai/src/auth/oauth/openai-codex.ts
+- [[stubGitHubCopilotLoginFetch()]] - code - packages/ai/test/github-copilot-oauth.test.ts
+- [[stubTokenEndpoint()]] - code - packages/ai/test/openai-chatgpt-oauth.test.ts
+- [[tokenResponse()]] - code - packages/ai/test/openai-chatgpt-oauth.test.ts
+- [[tokenResponse()_1]] - code - packages/ai/test/xai-oauth.test.ts
+- [[trustedHttpUrl()]] - code - packages/ai/src/auth/oauth/kimi-coding.ts
+- [[trustedHttpUrl()_1]] - code - packages/ai/src/auth/oauth/meta.ts
+- [[validateVerificationUri()]] - code - packages/ai/src/auth/oauth/xai.ts
+- [[waitForCallbackOrManualInput()]] - code - packages/ai/src/auth/oauth/callback-server.ts
+- [[xai-oauth.test.ts]] - code - packages/ai/test/xai-oauth.test.ts
+- [[xaiOAuth]] - code - packages/ai/src/auth/oauth/xai.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/AI_模型协议_13
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 43 edges to [[_COMMUNITY_AI 模型协议 22]]
+- 36 edges to [[_COMMUNITY_AI 模型协议 35]]
+- 13 edges to [[_COMMUNITY_AI 模型协议 55]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 76]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 31]]
+- 4 edges to [[_COMMUNITY_AI 模型协议 203]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 43]]
+- 3 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 17]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 79]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 148]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 23]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 28]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 306]]
+- 1 edge to [[_COMMUNITY_Client 远程连接 14]]
+
+## Top bridge nodes
+- [[oauth-auth.test.ts]] - degree 28, connects to 6 communities
+- [[openai-chatgpt.ts]] - degree 34, connects to 4 communities
+- [[github-copilot-oauth.test.ts]] - degree 16, connects to 4 communities
+- [[oauth-callback-server.test.ts]] - degree 14, connects to 4 communities
+- [[openrouter-oauth.test.ts]] - degree 12, connects to 4 communities

@@ -1,0 +1,18 @@
+---
+source_file: "packages/telemetry/src/index.ts"
+type: "code"
+community: "Telemetry 遥测契约 223"
+location: "L20"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Telemetry_遥测契约_223
+---
+
+# .setAttributes()
+
+#graphify/code #graphify/EXTRACTED #community/Telemetry_遥测契约_223
+
+## 源码入口
+
+[packages/telemetry/src/index.ts](../../../packages/telemetry/src/index.ts)

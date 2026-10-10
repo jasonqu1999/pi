@@ -1,0 +1,26 @@
+---
+source_file: "packages/durable/src/harness/prompt.ts"
+type: "code"
+community: "Durable 持久任务 21"
+location: "L66"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Durable_持久任务_21
+---
+
+# planSystemEntries()
+
+## Connections
+- [[getCurrentTools()]] - `calls` [EXTRACTED]
+- [[planSections()]] - `calls` [EXTRACTED]
+- [[planTools()]] - `calls` [EXTRACTED]
+- [[replaySections()]] - `calls` [EXTRACTED]
+- [[systemEntry()]] - `calls` [EXTRACTED]
+- [[toToolDeclaration()]] - `indirect_call` [INFERRED]
+
+#graphify/code #graphify/EXTRACTED #community/Durable_持久任务_21
+
+## 源码入口
+
+[packages/durable/src/harness/prompt.ts](../../../packages/durable/src/harness/prompt.ts)

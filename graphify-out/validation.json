@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "validation_kind": "static artifacts and provenance",
+  "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+  "required_files": 20,
+  "graph_nodes": 19848,
+  "graph_relationships": 67046,
+  "claims": 38,
+  "corpus_files_hash_checked": 1818,
+  "markdown_links_checked": 20778,
+  "wiki_links_checked": 87707,
+  "obsidian_nodes_mapped": 19848,
+  "errors": [],
+  "warnings": [
+    "dangling_endpoint_edges: 1413 (raw extraction; see graph-health.json)",
+    "self_loop_edges: 221 (raw extraction; see graph-health.json)",
+    "directed_same_endpoint_collapsed_edges: 5142 (raw extraction; see graph-health.json)",
+    "215 code files yielded no symbols; packages/tui/test/latex.test.ts partially parsed; long semantic documents use declared overview depths.",
+    "Browser security policy rejected file:// preview. HTML data/initialization checked statically; browser rendering and interactions not visually verified."
+  ],
+  "runtime_tests_executed": false,
+  "browser_visual_verified": false
+}

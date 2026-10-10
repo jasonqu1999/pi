@@ -1,0 +1,106 @@
+---
+source_file: "packages/ai/src/compat.ts"
+type: "code"
+community: "AI 模型协议 1"
+location: "L1"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/AI_模型协议_1
+---
+
+# compat.ts
+
+## Connections
+- [[Api]] - `imports` [EXTRACTED]
+- [[ApiProvider]] - `contains` [EXTRACTED]
+- [[ApiProviderInternal]] - `contains` [EXTRACTED]
+- [[ApiStreamFunction]] - `contains` [EXTRACTED]
+- [[ApiStreamOptions]] - `imports` [EXTRACTED]
+- [[ApiStreamSimpleFunction]] - `contains` [EXTRACTED]
+- [[AssistantMessage]] - `imports` [EXTRACTED]
+- [[AssistantMessageEventStream]] - `imports` [EXTRACTED]
+- [[BUILTIN_APIS]] - `contains` [EXTRACTED]
+- [[BuiltinProvider]] - `re_exports` [EXTRACTED]
+- [[Context]] - `imports` [EXTRACTED]
+- [[FauxProviderRegistration]] - `imports` [EXTRACTED]
+- [[Model_2]] - `imports` [EXTRACTED]
+- [[ModelsApiStreamOptions]] - `imports` [EXTRACTED]
+- [[ProviderStreamOptions]] - `imports` [EXTRACTED]
+- [[ProviderStreams]] - `imports` [EXTRACTED]
+- [[RegisterFauxProviderOptions]] - `imports` [EXTRACTED]
+- [[RegisteredApiProvider]] - `contains` [EXTRACTED]
+- [[SimpleStreamOptions]] - `imports` [EXTRACTED]
+- [[StreamFunction]] - `imports` [EXTRACTED]
+- [[StreamOptions]] - `imports` [EXTRACTED]
+- [[TranscriptContext]] - `imports` [EXTRACTED]
+- [[aisrcindex.ts]] - `re_exports` [EXTRACTED]
+- [[aisrctypes.ts]] - `imports_from` [EXTRACTED]
+- [[all.ts]] - `re_exports` [EXTRACTED]
+- [[anthropic-messages.lazy.ts]] - `re_exports` [EXTRACTED]
+- [[anthropicMessagesApi()]] - `imports` [EXTRACTED]
+- [[apiProviderRegistry]] - `contains` [EXTRACTED]
+- [[azure-openai-responses.lazy.ts]] - `re_exports` [EXTRACTED]
+- [[azureOpenAIResponsesApi()]] - `imports` [EXTRACTED]
+- [[bedrock-converse-stream.lazy.ts]] - `re_exports` [EXTRACTED]
+- [[bedrockConverseStreamApi()]] - `imports` [EXTRACTED]
+- [[builtinApiProviderInstances]] - `contains` [EXTRACTED]
+- [[builtinModels()]] - `imports` [EXTRACTED]
+- [[clearApiProviders()]] - `contains` [EXTRACTED]
+- [[compatModels]] - `contains` [EXTRACTED]
+- [[complete()]] - `contains` [EXTRACTED]
+- [[completeSimple()]] - `contains` [EXTRACTED]
+- [[createFauxCore()]] - `imports` [EXTRACTED]
+- [[env-api-keys.ts]] - `re_exports` [EXTRACTED]
+- [[faux.ts]] - `imports_from` [EXTRACTED]
+- [[getApiProvider()]] - `contains` [EXTRACTED]
+- [[getApiProviders()]] - `contains` [EXTRACTED]
+- [[getBuiltinModel()]] - `imports` [EXTRACTED]
+- [[getBuiltinModels()]] - `imports` [EXTRACTED]
+- [[getBuiltinProviderForModel()]] - `contains` [EXTRACTED]
+- [[getBuiltinProviders()]] - `imports` [EXTRACTED]
+- [[getEnvApiKey()]] - `imports` [EXTRACTED]
+- [[getModel]] - `contains` [EXTRACTED]
+- [[getModels]] - `contains` [EXTRACTED]
+- [[getProviders]] - `contains` [EXTRACTED]
+- [[google-generative-ai.lazy.ts]] - `re_exports` [EXTRACTED]
+- [[google-vertex.lazy.ts]] - `re_exports` [EXTRACTED]
+- [[googleGenerativeAIApi()]] - `imports` [EXTRACTED]
+- [[googleVertexApi()]] - `imports` [EXTRACTED]
+- [[hasExplicitApiKey()]] - `contains` [EXTRACTED]
+- [[hasResolvedCloudflareAuth()]] - `contains` [EXTRACTED]
+- [[image-models.ts]] - `re_exports` [EXTRACTED]
+- [[images-api-registry.ts]] - `re_exports` [EXTRACTED]
+- [[images.ts]] - `re_exports` [EXTRACTED]
+- [[legacy-api-aliases.ts]] - `re_exports` [EXTRACTED]
+- [[mistral-conversations.lazy.ts]] - `re_exports` [EXTRACTED]
+- [[mistralConversationsApi()]] - `imports` [EXTRACTED]
+- [[normalizeContext()]] - `imports` [EXTRACTED]
+- [[openAICodexResponsesApi()]] - `imports` [EXTRACTED]
+- [[openAICompletionsApi()]] - `imports` [EXTRACTED]
+- [[openAIResponsesApi()]] - `imports` [EXTRACTED]
+- [[openai-codex-responses.lazy.ts]] - `re_exports` [EXTRACTED]
+- [[openai-completions.lazy.ts]] - `re_exports` [EXTRACTED]
+- [[openai-responses.lazy.ts]] - `re_exports` [EXTRACTED]
+- [[pi-messages.lazy.ts]] - `re_exports` [EXTRACTED]
+- [[piMessagesApi()]] - `imports` [EXTRACTED]
+- [[register-builtins.ts]] - `re_exports` [EXTRACTED]
+- [[registerApiProvider()]] - `contains` [EXTRACTED]
+- [[registerBuiltInApiProviders()]] - `contains` [EXTRACTED]
+- [[registerFauxProvider()]] - `contains` [EXTRACTED]
+- [[resetApiProviders()]] - `contains` [EXTRACTED]
+- [[resolveApiProvider()]] - `contains` [EXTRACTED]
+- [[srcmodels.ts]] - `imports_from` [EXTRACTED]
+- [[stream()_10]] - `contains` [EXTRACTED]
+- [[streamSimple()_10]] - `contains` [EXTRACTED]
+- [[unregisterApiProviders()]] - `contains` [EXTRACTED]
+- [[utilstranscript.ts]] - `imports_from` [EXTRACTED]
+- [[withEnvApiKey()]] - `contains` [EXTRACTED]
+- [[wrapStream()]] - `contains` [EXTRACTED]
+- [[wrapStreamSimple()]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/AI_模型协议_1
+
+## 源码入口
+
+[packages/ai/src/compat.ts](../../../packages/ai/src/compat.ts)

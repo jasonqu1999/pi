@@ -1,0 +1,22 @@
+---
+source_file: "packages/chord/src/services/instances.ts"
+type: "code"
+community: "Chord 服务状态 53"
+location: "L131"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Chord_服务状态_53
+---
+
+# .#start()
+
+## Connections
+- [[toError()_1]] - `calls` [EXTRACTED]
+- [[withCancel()]] - `calls` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Chord_服务状态_53
+
+## 源码入口
+
+[packages/chord/src/services/instances.ts](../../../packages/chord/src/services/instances.ts)

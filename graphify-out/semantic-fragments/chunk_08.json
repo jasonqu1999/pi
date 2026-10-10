@@ -1,0 +1,62 @@
+{
+  "nodes": [
+    {
+      "id": "packages_ai_test_data_red_circle_image",
+      "label": "Red circle fixture",
+      "file_type": "image",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/ai/test/data/red-circle.png",
+      "source_location": "image: Entire image",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_ai_test_data_red_circle_red_circle",
+      "label": "Solid red circle",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/ai/test/data/red-circle.png",
+      "source_location": "image: Center",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_ai_test_data_red_circle_white_background",
+      "label": "White background",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/ai/test/data/red-circle.png",
+      "source_location": "image: Background",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "packages_ai_test_data_red_circle_image",
+      "target": "packages_ai_test_data_red_circle_red_circle",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/ai/test/data/red-circle.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_ai_test_data_red_circle_red_circle",
+      "target": "packages_ai_test_data_red_circle_white_background",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/ai/test/data/red-circle.png",
+      "source_location": null,
+      "weight": 1
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

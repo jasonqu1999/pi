@@ -1,0 +1,325 @@
+---
+type: community
+cohesion: 0.02
+members: 232
+---
+
+# Coding Agent 会话工具 15
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 232 nodes
+
+## Members
+- [[dot-Symbol.asyncIterator()]] - code - packages/ai/src/utils/event-stream.ts
+- [[dot-abort()]] - code - packages/agent/src/agent.ts
+- [[dot-buildSessionContext()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-clearAllQueues()]] - code - packages/agent/src/agent.ts
+- [[dot-clearFollowUpQueue()]] - code - packages/agent/src/agent.ts
+- [[dot-clearSteeringQueue()]] - code - packages/agent/src/agent.ts
+- [[dot-constructor()_4]] - code - packages/agent/test/agent.test.ts
+- [[dot-constructor()_13]] - code - packages/ai/src/utils/event-stream.ts
+- [[dot-constructor()_245]] - code - packages/coding-agent/test/agent-session-concurrent.test.ts
+- [[dot-constructor()_246]] - code - packages/coding-agent/test/agent-session-retry.test.ts
+- [[dot-constructor()_248]] - code - packages/coding-agent/test/rpc-prompt-response-semantics.test.ts
+- [[dot-end()]] - code - packages/ai/src/utils/event-stream.ts
+- [[dot-finishRun()]] - code - packages/agent/src/agent.ts
+- [[dot-followUp()]] - code - packages/agent/src/agent.ts
+- [[dot-fromStorage()]] - code - packages/coding-agent/src/core/auth-storage.ts
+- [[dot-handleRunFailure()]] - code - packages/agent/src/agent.ts
+- [[dot-hasQueuedMessages()]] - code - packages/agent/src/agent.ts
+- [[dot-inMemory()]] - code - packages/coding-agent/src/core/auth-storage.ts
+- [[dot-inMemory()_1]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-peekQueuedMessages()]] - code - packages/agent/src/agent.ts
+- [[dot-reset()]] - code - packages/agent/src/agent.ts
+- [[dot-result()]] - code - packages/ai/src/utils/event-stream.ts
+- [[dot-runWithLifecycle()]] - code - packages/agent/src/agent.ts
+- [[dot-sessionManager()]] - code - packages/coding-agent/src/modes/interactive/interactive-mode.ts
+- [[dot-signal()]] - code - packages/agent/src/agent.ts
+- [[dot-steer()]] - code - packages/agent/src/agent.ts
+- [[dot-subscribe()]] - code - packages/agent/src/agent.ts
+- [[dot-subscribe()_10]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-waitForIdle()]] - code - packages/agent/src/agent.ts
+- [[dot-withLock()_2]] - code - packages/coding-agent/src/core/auth-storage.ts
+- [[5596-missing-theme-export.test.ts]] - code - packages/coding-agent/test/suite/regressions/5596-missing-theme-export.test.ts
+- [[6999-models-json-hot-reload.test.ts]] - code - packages/coding-agent/test/suite/regressions/6999-models-json-hot-reload.test.ts
+- [[7027-credential-refresh-hang.test.ts]] - code - packages/coding-agent/test/suite/regressions/7027-credential-refresh-hang.test.ts
+- [[API_KEY]] - code - packages/coding-agent/test/utilities.ts
+- [[AUTH_FILE_WRITE_OPTIONS]] - code - packages/coding-agent/src/core/auth-storage.ts
+- [[AUTH_PATH_1]] - code - packages/coding-agent/test/utilities.ts
+- [[Agent]] - code - packages/agent/src/agent.ts
+- [[AnthropicMessagesCompat]] - code - packages/ai/src/types.ts
+- [[ApiKeyCredential_2]] - code - packages/coding-agent/test/utilities.ts
+- [[AssistantMessageEvent]] - code - packages/ai/src/types.ts
+- [[AuthCredential_1]] - code - packages/coding-agent/test/utilities.ts
+- [[AuthFileReadState]] - code - packages/coding-agent/src/core/auth-storage.ts
+- [[AuthFileReload]] - code - packages/coding-agent/src/core/auth-storage.ts
+- [[AuthStorage_1]] - code - packages/coding-agent/src/core/auth-storage.ts
+- [[AuthStorageData]] - code - packages/coding-agent/src/core/auth-storage.ts
+- [[AuthStorageData_1]] - code - packages/coding-agent/test/utilities.ts
+- [[CredentialStore]] - code - packages/ai/src/auth/types.ts
+- [[E20 agent_end监听者结算后finishRun才清activeRun；run异常有合成失败消息兜底]] - rationale - packages/agent/src/agent.ts
+- [[EventStream]] - code - packages/ai/src/utils/event-stream.ts
+- [[FAUX_API]] - code - packages/coding-agent/test/test-harness.ts
+- [[FauxResponseInput]] - code - packages/coding-agent/test/test-harness.ts
+- [[InMemoryAuthStorageBackend]] - code - packages/coding-agent/src/core/auth-storage.ts
+- [[LockResult]] - code - packages/coding-agent/src/core/auth-storage.ts
+- [[MockAssistantStream_1]] - code - packages/agent/test/agent.test.ts
+- [[MockAssistantStream_2]] - code - packages/coding-agent/test/agent-session-concurrent.test.ts
+- [[MockAssistantStream_3]] - code - packages/coding-agent/test/agent-session-retry.test.ts
+- [[MockAssistantStream_4]] - code - packages/coding-agent/test/rpc-prompt-response-semantics.test.ts
+- [[OAuthCredentialEntry_1]] - code - packages/coding-agent/test/utilities.ts
+- [[PI_AGENT_DIR]] - code - packages/coding-agent/test/utilities.ts
+- [[ParsedOutputLine]] - code - packages/coding-agent/test/rpc-prompt-response-semantics.test.ts
+- [[SessionWithExtensionEmitHook]] - code - packages/coding-agent/test/agent-session-retry.test.ts
+- [[T05 测试表达promptwaitForIdle等待异步订阅者的预期]] - rationale - packages/agent/test/agent.test.ts
+- [[TestExtensionInput]] - code - packages/coding-agent/test/utilities.ts
+- [[TestSessionContext]] - code - packages/coding-agent/test/utilities.ts
+- [[TestSessionOptions]] - code - packages/coding-agent/test/utilities.ts
+- [[ToolCallContent]] - code - packages/agent/test/agent.test.ts
+- [[abortExecution()]] - code - packages/agent/test/e2e.test.ts
+- [[agent_2]] - code - scripts/agent-treeshake-smoke-entry.ts
+- [[agent-session-auto-compaction-queue.test.ts]] - code - packages/coding-agent/test/agent-session-auto-compaction-queue.test.ts
+- [[agent-session-concurrent.test.ts]] - code - packages/coding-agent/test/agent-session-concurrent.test.ts
+- [[agent-session-retry.test.ts]] - code - packages/coding-agent/test/agent-session-retry.test.ts
+- [[agent-session-stats.test.ts]] - code - packages/coding-agent/test/agent-session-stats.test.ts
+- [[agent-session-tree-navigation.test.ts]] - code - packages/coding-agent/test/agent-session-tree-navigation.test.ts
+- [[agent-treeshake-smoke-entry.ts]] - code - scripts/agent-treeshake-smoke-entry.ts
+- [[agent.test.ts]] - code - packages/agent/test/agent.test.ts
+- [[auth-storage.test.ts]] - code - packages/coding-agent/test/auth-storage.test.ts
+- [[auth-storage.ts]] - code - packages/coding-agent/src/core/auth-storage.ts
+- [[basicPrompt()]] - code - packages/agent/test/e2e.test.ts
+- [[buildAssistantMessage()]] - code - packages/coding-agent/test/test-harness.ts
+- [[buildUsage()]] - code - packages/coding-agent/test/test-harness.ts
+- [[captureHeaders()]] - code - packages/coding-agent/test/sdk-openrouter-attribution.test.ts
+- [[captureStreamOptions()]] - code - packages/coding-agent/test/sdk-stream-options.test.ts
+- [[chunkString()]] - code - packages/coding-agent/test/test-harness.ts
+- [[clearApiKeyCache]] - code - packages/coding-agent/src/core/provider-composer.ts
+- [[collectEvents()]] - code - packages/ai/test/faux-provider.test.ts
+- [[compaction-extensions.test.ts]] - code - packages/coding-agent/test/compaction-extensions.test.ts
+- [[complete]] - code - packages/coding-agent/test/suite/regressions/7027-credential-refresh-hang.test.ts
+- [[context_38]] - code - packages/coding-agent/test/model-runtime-classifiers.test.ts
+- [[createAssistantMessage()_1]] - code - packages/agent/test/agent.test.ts
+- [[createAssistantMessage()_2]] - code - packages/coding-agent/test/agent-session-concurrent.test.ts
+- [[createAssistantMessage()_3]] - code - packages/coding-agent/test/agent-session-retry.test.ts
+- [[createAssistantMessage()_4]] - code - packages/coding-agent/test/agent-session-stats.test.ts
+- [[createAssistantMessage()_9]] - code - packages/coding-agent/test/rpc-prompt-response-semantics.test.ts
+- [[createAssistantMessageEventStream()]] - code - packages/ai/src/utils/event-stream.ts
+- [[createAssistantToolUseMessage()]] - code - packages/agent/test/agent.test.ts
+- [[createCacheWarmingSession()]] - code - packages/coding-agent/test/sdk-stream-options.test.ts
+- [[createCodingTools()]] - code - packages/coding-agent/src/core/tools/index.ts
+- [[createDeferred()]] - code - packages/agent/test/agent.test.ts
+- [[createDoneMessage()]] - code - packages/coding-agent/test/sdk-stream-options.test.ts
+- [[createDoneStream()]] - code - packages/coding-agent/test/sdk-openrouter-attribution.test.ts
+- [[createDoneStream()_1]] - code - packages/coding-agent/test/sdk-stream-options.test.ts
+- [[createExtension()_1]] - code - packages/coding-agent/test/compaction-extensions.test.ts
+- [[createFauxRegistration()]] - code - packages/agent/test/e2e.test.ts
+- [[createFauxStreamFn()]] - code - packages/coding-agent/test/test-harness.ts
+- [[createHarness()_1]] - code - packages/coding-agent/test/test-harness.ts
+- [[createHarnessWithExtensions()]] - code - packages/coding-agent/test/test-harness.ts
+- [[createHarnessWithResourceLoader()]] - code - packages/coding-agent/test/test-harness.ts
+- [[createInMemoryModelRegistry()]] - code - packages/coding-agent/test/model-runtime-test-utils.ts
+- [[createModel()_11]] - code - packages/coding-agent/test/sdk-openrouter-attribution.test.ts
+- [[createModel()_12]] - code - packages/coding-agent/test/sdk-stream-options.test.ts
+- [[createModelRegistry()]] - code - packages/coding-agent/test/model-runtime-test-utils.ts
+- [[createRunner()]] - code - packages/coding-agent/test/extensions-input-event.test.ts
+- [[createRuntimeHost()_2]] - code - packages/coding-agent/test/rpc-prompt-response-semantics.test.ts
+- [[createSession()_2]] - code - packages/coding-agent/test/agent-session-compaction.test.ts
+- [[createSession()_3]] - code - packages/coding-agent/test/agent-session-concurrent.test.ts
+- [[createSession()_5]] - code - packages/coding-agent/test/agent-session-retry.test.ts
+- [[createSession()_6]] - code - packages/coding-agent/test/agent-session-stats.test.ts
+- [[createSession()_7]] - code - packages/coding-agent/test/compaction-extensions.test.ts
+- [[createSession()_10]] - code - packages/coding-agent/test/model-resolver.test.ts
+- [[createTempDir()_10]] - code - packages/coding-agent/test/test-harness.ts
+- [[createTestExtensionsResult()]] - code - packages/coding-agent/test/utilities.ts
+- [[createTestResourceLoader()]] - code - packages/coding-agent/test/utilities.ts
+- [[createTestSession()]] - code - packages/coding-agent/test/utilities.ts
+- [[createTool()]] - code - packages/agent/test/agent.test.ts
+- [[createToolResultMessage()_1]] - code - packages/coding-agent/test/agent-session-stats.test.ts
+- [[createUsage()_2]] - code - packages/coding-agent/test/agent-session-stats.test.ts
+- [[createUserMessage()_1]] - code - packages/agent/test/agent.test.ts
+- [[createUserMessage()_2]] - code - packages/coding-agent/test/agent-session-stats.test.ts
+- [[dynamicModel]] - code - packages/coding-agent/test/suite/regressions/7027-credential-refresh-hang.test.ts
+- [[e2e.test.ts]] - code - packages/agent/test/e2e.test.ts
+- [[event-stream.test.ts]] - code - packages/ai/test/event-stream.test.ts
+- [[execute()_1]] - code - packages/agent/test/agent.test.ts
+- [[faux-provider.test.ts]] - code - packages/ai/test/faux-provider.test.ts
+- [[fauxModel]] - code - packages/coding-agent/test/test-harness.ts
+- [[fauxThinking()]] - code - packages/ai/src/providers/faux.ts
+- [[getModelRuntime()]] - code - packages/coding-agent/test/model-runtime-test-utils.ts
+- [[getModelsForProvider()]] - code - packages/coding-agent/test/model-registry.test.ts
+- [[getPromptResponses()]] - code - packages/coding-agent/test/rpc-prompt-response-semantics.test.ts
+- [[getRealAuthStorage()]] - code - packages/coding-agent/test/utilities.ts
+- [[getTextContent()]] - code - packages/agent/test/e2e.test.ts
+- [[hasAuthForProvider()]] - code - packages/coding-agent/test/utilities.ts
+- [[loadAuthStorage()_1]] - code - packages/coding-agent/test/utilities.ts
+- [[makeEvent()]] - code - packages/coding-agent/test/test-harness.ts
+- [[mcp-oauth-store.test.ts]] - code - packages/coding-agent/test/mcp-oauth-store.test.ts
+- [[model_34]] - code - scripts/agent-treeshake-smoke-entry.ts
+- [[model()_3]] - code - packages/coding-agent/test/model-runtime-credential-sync.test.ts
+- [[model()_4]] - code - packages/coding-agent/test/model-runtime-modify-models-compat.test.ts
+- [[model-registry.test.ts]] - code - packages/coding-agent/test/model-registry.test.ts
+- [[model-runtime-auth-options.test.ts]] - code - packages/coding-agent/test/model-runtime-auth-options.test.ts
+- [[model-runtime-classifiers.test.ts]] - code - packages/coding-agent/test/model-runtime-classifiers.test.ts
+- [[model-runtime-credential-sync.test.ts]] - code - packages/coding-agent/test/model-runtime-credential-sync.test.ts
+- [[model-runtime-modify-models-compat.test.ts]] - code - packages/coding-agent/test/model-runtime-modify-models-compat.test.ts
+- [[model-runtime-test-utils.ts]] - code - packages/coding-agent/test/model-runtime-test-utils.ts
+- [[models_25]] - code - scripts/agent-treeshake-smoke-entry.ts
+- [[modelsJson()]] - code - packages/coding-agent/test/suite/regressions/6999-models-json-hot-reload.test.ts
+- [[multiTurnConversation()]] - code - packages/agent/test/e2e.test.ts
+- [[normalizeResponse()]] - code - packages/coding-agent/test/test-harness.ts
+- [[observeRefreshRender()]] - code - packages/coding-agent/test/suite/regressions/6999-models-json-hot-reload.test.ts
+- [[overrideConfig()]] - code - packages/coding-agent/test/model-registry.test.ts
+- [[packages_agent_src_index_agent]] - concept
+- [[packages_agent_src_index_agentevent]] - concept
+- [[packages_ai_src_compat_anthropicmessagescompat]] - concept
+- [[packages_ai_src_compat_assistantmessage]] - concept
+- [[packages_ai_src_compat_assistantmessageevent]] - concept
+- [[packages_ai_src_compat_eventstream]] - concept
+- [[packages_ai_src_compat_fauxproviderregistration]] - concept
+- [[packages_ai_src_compat_fauxtext]] - concept
+- [[packages_ai_src_compat_fauxthinking]] - concept
+- [[packages_ai_src_compat_fauxtoolcall]] - concept
+- [[packages_ai_src_compat_getcurrentsystemmessage]] - concept
+- [[packages_ai_src_compat_imagecontent]] - concept
+- [[packages_ai_src_compat_model]] - concept
+- [[packages_ai_src_compat_openaicompletionscompat]] - concept
+- [[packages_ai_src_compat_textcontent]] - concept
+- [[packages_ai_src_compat_totooldeclaration]] - concept
+- [[packages_ai_src_compat_type]] - concept
+- [[packages_ai_src_compat_usermessage]] - concept
+- [[packages_ai_src_index_authoperationoptions]] - concept
+- [[packages_ai_src_index_createassistantmessageeventstream]] - concept
+- [[packages_ai_src_index_createprovider]] - concept
+- [[packages_ai_src_index_credential]] - concept
+- [[packages_ai_src_index_credentialinfo]] - concept
+- [[packages_ai_src_index_credentialstore]] - concept
+- [[packages_ai_src_index_inmemorymodelsstore]] - concept
+- [[packages_ai_src_index_jsonobject]] - concept
+- [[packages_ai_src_index_model]] - concept
+- [[packages_ai_src_index_normalizecontext]] - concept
+- [[packages_ai_src_index_provider]] - concept
+- [[packages_ai_src_index_simplestreamoptions]] - concept
+- [[parseOutputLines()]] - code - packages/coding-agent/test/rpc-prompt-response-semantics.test.ts
+- [[provider()]] - code - packages/coding-agent/test/model-runtime-credential-sync.test.ts
+- [[providerConfig()]] - code - packages/coding-agent/test/model-registry.test.ts
+- [[providerWithApiKey()]] - code - packages/coding-agent/test/model-registry.test.ts
+- [[radius.test.ts]] - code - packages/coding-agent/test/radius.test.ts
+- [[radiusConfig()_1]] - code - packages/coding-agent/test/radius.test.ts
+- [[radiusOAuthCredential()]] - code - packages/coding-agent/test/radius.test.ts
+- [[ref_timers]] - concept
+- [[registrations]] - code - packages/agent/test/e2e.test.ts
+- [[registrations_1]] - code - packages/ai/test/faux-provider.test.ts
+- [[remote-catalog-provider.test.ts]] - code - packages/coding-agent/test/remote-catalog-provider.test.ts
+- [[resolveApiKey()_3]] - code - packages/coding-agent/test/utilities.ts
+- [[rpc-prompt-response-semantics.test.ts]] - code - packages/coding-agent/test/rpc-prompt-response-semantics.test.ts
+- [[rpcIo]] - code - packages/coding-agent/test/rpc-prompt-response-semantics.test.ts
+- [[runtime-credentials.test.ts]] - code - packages/coding-agent/test/runtime-credentials.test.ts
+- [[runtime-credentials.ts]] - code - packages/coding-agent/src/core/runtime-credentials.ts
+- [[runtimes_1]] - code - packages/coding-agent/test/model-runtime-test-utils.ts
+- [[saveAuthStorage()_1]] - code - packages/coding-agent/test/utilities.ts
+- [[sdk-openrouter-attribution.test.ts]] - code - packages/coding-agent/test/sdk-openrouter-attribution.test.ts
+- [[sdk-stream-options.test.ts]] - code - packages/coding-agent/test/sdk-stream-options.test.ts
+- [[select()_1]] - code - packages/coding-agent/test/virtual-models.test.ts
+- [[sleep()_6]] - code - packages/coding-agent/test/rpc-prompt-response-semantics.test.ts
+- [[startLogin()]] - code - packages/coding-agent/test/suite/regressions/7027-credential-refresh-hang.test.ts
+- [[startRpcMode()]] - code - packages/coding-agent/test/rpc-prompt-response-semantics.test.ts
+- [[state()_1]] - code - packages/coding-agent/test/mcp-oauth-store.test.ts
+- [[stateUpdates()]] - code - packages/agent/test/e2e.test.ts
+- [[storedKeys()]] - code - packages/coding-agent/test/mcp-oauth-store.test.ts
+- [[streamSimple()_10]] - code - packages/ai/src/compat.ts
+- [[streamWithDeltas()_1]] - code - packages/coding-agent/test/test-harness.ts
+- [[syncAgentMessages()]] - code - packages/coding-agent/test/agent-session-stats.test.ts
+- [[test-harness.ts]] - code - packages/coding-agent/test/test-harness.ts
+- [[testagent-session-compaction.test.ts]] - code - packages/coding-agent/test/agent-session-compaction.test.ts
+- [[testvirtual-models.test.ts]] - code - packages/coding-agent/test/virtual-models.test.ts
+- [[testModel()_2]] - code - packages/coding-agent/test/model-runtime-auth-options.test.ts
+- [[toShPath()]] - code - packages/coding-agent/test/model-registry.test.ts
+- [[toolExecution()]] - code - packages/agent/test/e2e.test.ts
+- [[unusedStreamFunction()]] - code - packages/agent/test/agent.test.ts
+- [[useScriptedStreamFn()]] - code - packages/coding-agent/test/suite/regressions/6647-compaction-retries-transient-stream-drop.test.ts
+- [[utilities.ts]] - code - packages/coding-agent/test/utilities.ts
+- [[wrap()]] - code - packages/coding-agent/test/model-runtime-test-utils.ts
+- [[writeAuthJson()]] - code - packages/coding-agent/test/auth-storage.test.ts
+- [[writeModelsJson()]] - code - packages/coding-agent/test/model-registry.test.ts
+- [[writeRawModelsJson()]] - code - packages/coding-agent/test/model-registry.test.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Coding_Agent_会话工具_15
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 181 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 178 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 96 edges to [[_COMMUNITY_AI 模型协议 1]]
+- 77 edges to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 49 edges to [[_COMMUNITY_Coding Agent 会话工具 27]]
+- 43 edges to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 38 edges to [[_COMMUNITY_Coding Agent 会话工具 19]]
+- 35 edges to [[_COMMUNITY_AI 模型协议 35]]
+- 32 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 29 edges to [[_COMMUNITY_Coding Agent 会话工具 31]]
+- 27 edges to [[_COMMUNITY_Coding Agent 会话工具 29]]
+- 26 edges to [[_COMMUNITY_Agent 控制循环 82]]
+- 20 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 18 edges to [[_COMMUNITY_Coding Agent 会话工具 76]]
+- 18 edges to [[_COMMUNITY_Coding Agent 会话工具 41]]
+- 16 edges to [[_COMMUNITY_Coding Agent 会话工具 79]]
+- 16 edges to [[_COMMUNITY_AI 模型协议 90]]
+- 15 edges to [[_COMMUNITY_Coding Agent 会话工具 23]]
+- 14 edges to [[_COMMUNITY_AI 模型协议 22]]
+- 14 edges to [[_COMMUNITY_Coding Agent 会话工具 66]]
+- 13 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 12 edges to [[_COMMUNITY_AI 模型协议 52]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 43]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 75]]
+- 7 edges to [[_COMMUNITY_AI 模型协议 54]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 69]]
+- 7 edges to [[_COMMUNITY_Client 远程连接 14]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 56]]
+- 5 edges to [[_COMMUNITY_AI 模型协议 140]]
+- 5 edges to [[_COMMUNITY_AI 模型协议 25]]
+- 4 edges to [[_COMMUNITY_MCP 远端工具 96]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 78]]
+- 3 edges to [[_COMMUNITY_Agent 控制循环 85]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 106]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 116]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 44]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 130]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 42]]
+- 3 edges to [[_COMMUNITY_Durable 持久任务 21]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 156]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 249]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 278]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 165]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 16]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 152]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 84]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 273]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 149]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 148]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 64]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 306]]
+- 1 edge to [[_COMMUNITY_Evals 行为评估 114]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 290]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 39]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 103]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 110]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 47]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 60]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 6]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 70]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 5]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 65]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 143]]
+- 1 edge to [[_COMMUNITY_Evals 行为评估 183]]
+
+## Top bridge nodes
+- [[test-harness.ts]] - degree 75, connects to 19 communities
+- [[utilities.ts]] - degree 91, connects to 13 communities
+- [[rpc-prompt-response-semantics.test.ts]] - degree 48, connects to 13 communities
+- [[agent-session-concurrent.test.ts]] - degree 43, connects to 10 communities
+- [[sdk-stream-options.test.ts]] - degree 39, connects to 10 communities

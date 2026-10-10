@@ -1,0 +1,22 @@
+---
+source_file: "packages/ai/test/context-overflow.test.ts"
+type: "code"
+community: "AI 模型协议 1"
+location: "L40"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/AI_模型协议_1
+---
+
+# OverflowResult
+
+## Connections
+- [[AssistantMessage]] - `references` [EXTRACTED]
+- [[Usage_1]] - `references` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/AI_模型协议_1
+
+## 源码入口
+
+[packages/ai/test/context-overflow.test.ts](../../../packages/ai/test/context-overflow.test.ts)

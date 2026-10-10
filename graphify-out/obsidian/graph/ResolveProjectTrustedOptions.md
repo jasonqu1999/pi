@@ -1,0 +1,24 @@
+---
+source_file: "packages/coding-agent/src/core/project-trust.ts"
+type: "code"
+community: "Coding Agent 会话工具 116"
+location: "L14"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Coding_Agent_会话工具_116
+---
+
+# ResolveProjectTrustedOptions
+
+## Connections
+- [[DefaultProjectTrust]] - `references` [EXTRACTED]
+- [[LoadExtensionsResult]] - `references` [EXTRACTED]
+- [[ProjectTrustContext]] - `references` [EXTRACTED]
+- [[ProjectTrustStore]] - `references` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Coding_Agent_会话工具_116
+
+## 源码入口
+
+[packages/coding-agent/src/core/project-trust.ts](../../../packages/coding-agent/src/core/project-trust.ts)

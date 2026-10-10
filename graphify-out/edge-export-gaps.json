@@ -1,0 +1,8 @@
+{
+  "raw_extraction_edges": 67108,
+  "exported_relationships": 67046,
+  "net_count_difference": 62,
+  "graph_nodes": 19848,
+  "raw_nodes": 19467,
+  "note": "Graphify canonicalizes aliases/adds reference endpoints; JSON exporter retains multiple relationships only when both post-build endpoints exist. Extraction preserves raw data."
+}

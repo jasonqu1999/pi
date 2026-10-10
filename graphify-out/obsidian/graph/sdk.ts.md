@@ -1,0 +1,107 @@
+---
+source_file: "packages/coding-agent/src/core/sdk.ts"
+type: "code"
+community: "Coding Agent 会话工具 2"
+location: "L1"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Coding_Agent_会话工具_2
+---
+
+# sdk.ts
+
+## Connections
+- [[Agent]] - `imports` [EXTRACTED]
+- [[AgentMessage]] - `imports` [EXTRACTED]
+- [[AgentSession]] - `imports` [EXTRACTED]
+- [[CacheWarmer]] - `imports` [EXTRACTED]
+- [[CreateAgentSessionOptions]] - `contains` [EXTRACTED]
+- [[CreateAgentSessionResult]] - `contains` [EXTRACTED]
+- [[DEFAULT_THINKING_LEVEL]] - `imports` [EXTRACTED]
+- [[DEFAULT_TOOL_NAMES]] - `imports` [EXTRACTED]
+- [[DefaultResourceLoader]] - `imports` [EXTRACTED]
+- [[ExtensionAPI]] - `re_exports` [EXTRACTED]
+- [[ExtensionCommandContext]] - `re_exports` [EXTRACTED]
+- [[ExtensionContext]] - `re_exports` [EXTRACTED]
+- [[ExtensionFactory]] - `re_exports` [EXTRACTED]
+- [[ExtensionRunner]] - `imports` [EXTRACTED]
+- [[InlineExtension]] - `re_exports` [EXTRACTED]
+- [[LoadExtensionsResult]] - `imports` [EXTRACTED]
+- [[Message]] - `imports` [EXTRACTED]
+- [[Model_2]] - `imports` [EXTRACTED]
+- [[ModelRuntime]] - `imports` [EXTRACTED]
+- [[ModelsSimpleStreamOptions]] - `imports` [EXTRACTED]
+- [[PromptTemplate]] - `re_exports` [EXTRACTED]
+- [[ResourceLoader_3]] - `imports` [EXTRACTED]
+- [[SessionManager]] - `imports` [EXTRACTED]
+- [[SessionStartEvent]] - `imports` [EXTRACTED]
+- [[SettingsManager_3]] - `imports` [EXTRACTED]
+- [[Skill]] - `re_exports` [EXTRACTED]
+- [[SlashCommandInfo]] - `re_exports` [EXTRACTED]
+- [[SlashCommandSource]] - `re_exports` [EXTRACTED]
+- [[ThinkingLevel]] - `imports` [EXTRACTED]
+- [[Tool_3]] - `re_exports` [EXTRACTED]
+- [[ToolDefinition]] - `re_exports` [EXTRACTED]
+- [[agent-session-runtime.ts]] - `re_exports` [EXTRACTED]
+- [[agent-session.ts]] - `imports_from` [EXTRACTED]
+- [[agentsrcindex.ts]] - `imports_from` [EXTRACTED]
+- [[aisrcindex.ts]] - `imports_from` [EXTRACTED]
+- [[auth-guidance.ts]] - `imports_from` [EXTRACTED]
+- [[cache-warmer.ts]] - `imports_from` [EXTRACTED]
+- [[clampThinkingLevel()]] - `imports` [EXTRACTED]
+- [[compat.ts]] - `imports_from` [EXTRACTED]
+- [[convertToLlm()]] - `imports` [EXTRACTED]
+- [[coreextensionsindex.ts]] - `re_exports` [EXTRACTED]
+- [[coretoolsindex.ts]] - `re_exports` [EXTRACTED]
+- [[createAgentSession()]] - `contains` [EXTRACTED]
+- [[createBashTool()]] - `imports` [EXTRACTED]
+- [[createCodingTools()]] - `imports` [EXTRACTED]
+- [[createEditTool()]] - `imports` [EXTRACTED]
+- [[createFindTool()]] - `imports` [EXTRACTED]
+- [[createGrepTool()]] - `imports` [EXTRACTED]
+- [[createLsTool()]] - `imports` [EXTRACTED]
+- [[createPowerShellTool()]] - `imports` [EXTRACTED]
+- [[createReadOnlyTools()]] - `imports` [EXTRACTED]
+- [[createReadTool()]] - `imports` [EXTRACTED]
+- [[createWriteTool()]] - `imports` [EXTRACTED]
+- [[defaults.ts]] - `imports_from` [EXTRACTED]
+- [[findInitialModel()]] - `imports` [EXTRACTED]
+- [[formatNoModelsAvailableMessage()]] - `imports` [EXTRACTED]
+- [[getAgentDir()]] - `imports` [EXTRACTED]
+- [[getBranchSelection()]] - `imports` [EXTRACTED]
+- [[getDefaultAgentDir()]] - `contains` [EXTRACTED]
+- [[getDefaultSessionDir()]] - `imports` [EXTRACTED]
+- [[mergeProviderAttributionHeaders()]] - `imports` [EXTRACTED]
+- [[messages.ts]] - `imports_from` [EXTRACTED]
+- [[model-resolver.ts]] - `imports_from` [EXTRACTED]
+- [[model-runtime.ts]] - `imports_from` [EXTRACTED]
+- [[packages_agent_src_index_agent]] - `imports` [EXTRACTED]
+- [[packages_agent_src_index_agentmessage]] - `imports` [EXTRACTED]
+- [[packages_agent_src_index_thinkinglevel]] - `imports` [EXTRACTED]
+- [[packages_ai_src_compat_clampthinkinglevel]] - `imports` [EXTRACTED]
+- [[packages_ai_src_compat_message]] - `imports` [EXTRACTED]
+- [[packages_ai_src_compat_model]] - `imports` [EXTRACTED]
+- [[packages_ai_src_index_modelssimplestreamoptions]] - `imports` [EXTRACTED]
+- [[paths.ts]] - `imports_from` [EXTRACTED]
+- [[prompt-templates.ts]] - `re_exports` [EXTRACTED]
+- [[provider-attribution.ts]] - `imports_from` [EXTRACTED]
+- [[ref_node_path]] - `imports_from` [EXTRACTED]
+- [[resolvePath()_1]] - `imports` [EXTRACTED]
+- [[resource-loader.ts]] - `imports_from` [EXTRACTED]
+- [[session-manager.ts]] - `imports_from` [EXTRACTED]
+- [[setDefaultStreamFn()]] - `imports` [EXTRACTED]
+- [[settings-manager.ts]] - `imports_from` [EXTRACTED]
+- [[skills.ts]] - `re_exports` [EXTRACTED]
+- [[srcconfig.ts]] - `imports_from` [EXTRACTED]
+- [[streamSimple()_10]] - `indirect_call` [INFERRED]
+- [[time()]] - `imports` [EXTRACTED]
+- [[timings.ts]] - `imports_from` [EXTRACTED]
+- [[virtual-models.ts]] - `imports_from` [EXTRACTED]
+- [[withFileMutationQueue()]] - `imports` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Coding_Agent_会话工具_2
+
+## 源码入口
+
+[packages/coding-agent/src/core/sdk.ts](../../../packages/coding-agent/src/core/sdk.ts)

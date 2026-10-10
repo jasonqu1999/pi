@@ -1,0 +1,358 @@
+---
+type: community
+cohesion: 0.02
+members: 254
+---
+
+# Coding Agent 会话工具 12
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 254 nodes
+
+## Members
+- [[dot-applyAuth()]] - code - packages/ai/src/models.ts
+- [[dot-cancelDeferred()_1]] - code - packages/ai/src/models.ts
+- [[dot-cancelDeferred()_2]] - code - packages/ai/src/models.ts
+- [[dot-cancelDeferred()]] - code - packages/ai/src/models.ts
+- [[dot-cancelDeferred()_4]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-classify()_1]] - code - packages/ai/src/models.ts
+- [[dot-classify()_2]] - code - packages/ai/src/models.ts
+- [[dot-classify()]] - code - packages/ai/src/models.ts
+- [[dot-classify()_4]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-classify()_5]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-clearProviders()]] - code - packages/ai/src/models.ts
+- [[dot-complete()]] - code - packages/ai/src/models.ts
+- [[dot-complete()_2]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-complete()_3]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-completeSimple()]] - code - packages/ai/src/models.ts
+- [[dot-completeSimple()_2]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-composeProvider()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-configureRadiusProviders()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-constructor()_15]] - code - packages/ai/src/utils/models-error.ts
+- [[dot-constructor()_135]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-constructor()_137]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-constructor()_142]] - code - packages/coding-agent/src/core/runtime-credentials.ts
+- [[dot-create()_2]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-deleteProvider()]] - code - packages/ai/src/models.ts
+- [[dot-enqueueCredentialOperation()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-fetchDeferred()_1]] - code - packages/ai/src/models.ts
+- [[dot-fetchDeferred()_2]] - code - packages/ai/src/models.ts
+- [[dot-fetchDeferred()]] - code - packages/ai/src/models.ts
+- [[dot-fetchDeferred()_4]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-find()]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-findOfType()]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-generateImages()_2]] - code - packages/ai/src/models.ts
+- [[dot-getAll()]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-getAllModels()]] - code - packages/ai/src/models.ts
+- [[dot-getApiKeyAndHeaders()]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-getAvailable()]] - code - packages/ai/src/models.ts
+- [[dot-getAvailable()_2]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-getAvailable()_3]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-getAvailableOfType()]] - code - packages/ai/src/models.ts
+- [[dot-getAvailableOfType()_2]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-getAvailableOfType()_3]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-getAvailableSnapshot()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-getCompatibilityRequestConfig()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-getError()_1]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-getError()_2]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-getModel()]] - code - packages/ai/src/models.ts
+- [[dot-getModel()_3]] - code - packages/ai/src/providers/faux.ts
+- [[dot-getModel()_2]] - code - packages/ai/src/providers/faux.ts
+- [[dot-getModel()_6]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-getModelOfType()]] - code - packages/ai/src/models.ts
+- [[dot-getModelOfType()_2]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-getModelOfType()_3]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-getModels()_1]] - code - packages/ai/src/models.ts
+- [[dot-getModels()]] - code - packages/ai/src/models.ts
+- [[dot-getModels()_3]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-getModelsOfType()]] - code - packages/ai/src/models.ts
+- [[dot-getModelsOfType()_2]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-getModelsOfType()_3]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-getPhysicalModel()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-getProvider()]] - code - packages/ai/src/models.ts
+- [[dot-getProvider()_3]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-getProvider()_4]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-getProviderAuthStatus()]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-getProviderAuthStatus()_1]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-getProviderDisplayName()]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-getProviders()]] - code - packages/ai/src/models.ts
+- [[dot-getProviders()_2]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-getRegisteredNativeProvider()]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-getRegisteredNativeProvider()_1]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-getRegisteredProviderIds()]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-getRegisteredProviderIds()_1]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-hasConfiguredAuth()]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-hasConfiguredAuth()_1]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-hasRuntimeApiKey()]] - code - packages/coding-agent/src/core/runtime-credentials.ts
+- [[dot-isUsingOAuth()]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-isUsingOAuth()_1]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-isUsingSubscription()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-logout()]] - code - packages/ai/src/models.ts
+- [[dot-logout()_2]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-markProvisionallyConfigured()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-model()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-modelRuntime()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-payload()]] - code - packages/ai/src/api/system-one-shared.ts
+- [[dot-prepareRequest()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-providerIds()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-queueAvailabilityRefresh()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-rebuildProviders()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-recomposeProvider()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-refresh()_1]] - code - packages/ai/src/models.ts
+- [[dot-refresh()_4]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-refresh()_5]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-refreshProviderAvailability()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-registerNativeProvider()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-registerProvider()_1]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-registerProvider()_2]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-registerVirtualModel()_2]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-removeRuntimeApiKey()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-removeRuntimeApiKey()_1]] - code - packages/coding-agent/src/core/runtime-credentials.ts
+- [[dot-requireChatProvider()]] - code - packages/ai/src/models.ts
+- [[dot-requireProvider()]] - code - packages/ai/src/models.ts
+- [[dot-resolveModel()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-route()_1]] - code - packages/coding-agent/src/core/virtual-models.ts
+- [[dot-runAvailabilityRefresh()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-setProvider()]] - code - packages/ai/src/models.ts
+- [[dot-setRuntimeApiKey()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-setRuntimeApiKey()_1]] - code - packages/coding-agent/src/core/runtime-credentials.ts
+- [[dot-stream()_1]] - code - packages/ai/src/models.ts
+- [[dot-stream()_2]] - code - packages/ai/src/models.ts
+- [[dot-stream()_4]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-stream()_5]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-streamDeferred()]] - code - packages/ai/src/models.ts
+- [[dot-streamDeferred()_1]] - code - packages/ai/src/models.ts
+- [[dot-streamDeferred()_2]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-streamSimple()_1]] - code - packages/ai/src/models.ts
+- [[dot-streamSimple()_2]] - code - packages/ai/src/models.ts
+- [[dot-streamSimple()_4]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-streamSimple()_5]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-synchronizeCredentialState()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-unregisterProvider()_2]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-unregisterVirtualModel()_2]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-updateModelSnapshot()]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-url()]] - code - packages/ai/src/api/system-one-shared.ts
+- [[Api]] - code - packages/ai/src/types.ts
+- [[ApiProviderInternal]] - code - packages/ai/src/compat.ts
+- [[ApiStreamOptions]] - code - packages/ai/src/types.ts
+- [[AuthStatus]] - code - packages/coding-agent/src/core/provider-composer.ts
+- [[BaseModel]] - code - packages/ai/src/types.ts
+- [[ClassifierApi]] - code - packages/ai/src/types.ts
+- [[ClassifierContext]] - code - packages/ai/src/types.ts
+- [[ClassifierModel]] - code - packages/ai/src/types.ts
+- [[ClassifierOptions]] - code - packages/ai/src/types.ts
+- [[ClassifierResult]] - code - packages/ai/src/types.ts
+- [[CollectBugReportMetadataOptions]] - code - packages/coding-agent/src/core/bug-report.ts
+- [[CompatibilityRequestConfig]] - code - packages/coding-agent/src/core/provider-composer.ts
+- [[CredentialSynchronizationOperation]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[DeferredCancelOptions]] - code - packages/ai/src/types.ts
+- [[DeferredFetchOptions]] - code - packages/ai/src/types.ts
+- [[DeferredHandle]] - code - packages/ai/src/types.ts
+- [[E26 SDK注入ModelRuntime.streamSimple，runtime分派到provider API，transcript由协议适配继续转换]] - rationale - packages/coding-agent/src/core/model-runtime.ts
+- [[InitialModelResult]] - code - packages/coding-agent/src/core/model-resolver.ts
+- [[Model_2]] - code - packages/ai/src/types.ts
+- [[ModelItem]] - code - packages/coding-agent/src/modes/interactive/components/model-selector.ts
+- [[ModelItem_1]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[ModelRegistry]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[ModelRuntime]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[ModelType]] - code - packages/ai/src/types.ts
+- [[ModelTypeMap]] - code - packages/ai/src/types.ts
+- [[Models_2]] - code - packages/ai/src/models.ts
+- [[ModelsApiStreamOptions]] - code - packages/ai/src/models.ts
+- [[ModelsClassifierOptions]] - code - packages/ai/src/models.ts
+- [[ModelsDeferredCancelOptions]] - code - packages/ai/src/models.ts
+- [[ModelsDeferredFetchOptions]] - code - packages/ai/src/models.ts
+- [[ModelsError]] - code - packages/ai/src/utils/models-error.ts
+- [[ModelsErrorCode]] - code - packages/ai/src/utils/models-error.ts
+- [[ModelsRefreshOptions]] - code - packages/ai/src/models.ts
+- [[ModelsRequestTransforms]] - code - packages/ai/src/models.ts
+- [[MutableModels]] - code - packages/ai/src/models.ts
+- [[OriginalState]] - code - packages/coding-agent/examples/extensions/preset.ts
+- [[ParsedModelResult]] - code - packages/coding-agent/src/core/model-resolver.ts
+- [[PrepareRequestContext]] - code - packages/agent/src/types.ts
+- [[ProviderChatModelConfig]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ProviderClassifierModelConfig]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ProviderImageModelConfig]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ProviderModelConfigBase]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ProviderRequestOptions]] - code - packages/ai/src/types.ts
+- [[REMOTE_CATALOG_MODEL_TYPES]] - code - packages/coding-agent/src/core/remote-catalog-provider.ts
+- [[REMOTE_CATALOG_REFRESH_INTERVAL_MS]] - code - packages/coding-agent/src/core/remote-catalog-provider.ts
+- [[RegisteredVirtualModel]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[RequestContext]] - code - packages/ai/src/api/llama-cpp-classify.ts
+- [[ResolveCliModelResult]] - code - packages/coding-agent/src/core/model-resolver.ts
+- [[RuntimeCredentials]] - code - packages/coding-agent/src/core/runtime-credentials.ts
+- [[ScopedModelItem]] - code - packages/coding-agent/src/modes/interactive/components/model-selector.ts
+- [[SystemOneTransport]] - code - packages/ai/src/api/system-one-shared.ts
+- [[assertChatModel()]] - code - packages/ai/src/utils/model-operations.ts
+- [[assertClassifierModel()]] - code - packages/ai/src/utils/model-operations.ts
+- [[assertImageModel()]] - code - packages/ai/src/utils/model-operations.ts
+- [[authOptions()]] - code - packages/coding-agent/test/model-runtime-auth-options.test.ts
+- [[chatModel()]] - code - packages/ai/test/classifier-models.test.ts
+- [[classifier-models.test.ts]] - code - packages/ai/test/classifier-models.test.ts
+- [[classifierContext_1]] - code - packages/coding-agent/test/model-runtime-images.test.ts
+- [[classifierErrorResult()]] - code - packages/ai/src/utils/model-operations.ts
+- [[classifierModel()]] - code - packages/ai/test/classifier-models.test.ts
+- [[classifierModel()_1]] - code - packages/coding-agent/test/model-runtime-images.test.ts
+- [[cloudflare-stream.test.ts]] - code - packages/ai/test/cloudflare-stream.test.ts
+- [[completedStream()]] - code - packages/ai/test/opencode-provider-headers.test.ts
+- [[composeModelProvider()]] - code - packages/coding-agent/src/core/provider-composer.ts
+- [[context_12]] - code - packages/ai/test/classifier-models.test.ts
+- [[context_13]] - code - packages/ai/test/cloudflare-stream.test.ts
+- [[context_28]] - code - packages/ai/test/opencode-provider-headers.test.ts
+- [[context_39]] - code - packages/coding-agent/test/model-runtime-images.test.ts
+- [[createCloudflareRuntime()]] - code - packages/coding-agent/test/model-runtime-cloudflare-compat.test.ts
+- [[createRuntime()_1]] - code - packages/coding-agent/test/auth-check.test.ts
+- [[createRuntime()_2]] - code - packages/coding-agent/test/credential-print.test.ts
+- [[createRuntime()_3]] - code - packages/coding-agent/test/model-runtime-images.test.ts
+- [[createRuntime()_4]] - code - packages/coding-agent/test/virtual-models.test.ts
+- [[createSetupErrorMessage()]] - code - packages/ai/src/api/lazy.ts
+- [[createVirtualModel()]] - code - packages/coding-agent/src/core/virtual-models.ts
+- [[describeProvider()]] - code - packages/coding-agent/src/core/bug-report.ts
+- [[getModelType()]] - code - packages/ai/src/utils/model-operations.ts
+- [[imageErrorResult()]] - code - packages/ai/src/utils/model-operations.ts
+- [[imageModel()_2]] - code - packages/coding-agent/test/model-runtime-images.test.ts
+- [[inspectAddedModel()]] - code - packages/evals/evals/configured-runtime.ts
+- [[inspectProvider()]] - code - packages/evals/evals/configured-runtime.ts
+- [[isModelType()]] - code - packages/ai/src/utils/model-operations.ts
+- [[isSupportedModelType()]] - code - packages/coding-agent/src/core/remote-catalog-provider.ts
+- [[lazyStream()]] - code - packages/ai/src/api/lazy.ts
+- [[mergeHeaders()_2]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[mergeModels()]] - code - packages/coding-agent/src/core/remote-catalog-provider.ts
+- [[model_7]] - code - packages/ai/test/cloudflare-stream.test.ts
+- [[model_17]] - code - packages/ai/test/opencode-provider-headers.test.ts
+- [[model()_6]] - code - packages/coding-agent/test/remote-catalog-provider.test.ts
+- [[model-operations.ts]] - code - packages/ai/src/utils/model-operations.ts
+- [[model-runtime-images.test.ts]] - code - packages/coding-agent/test/model-runtime-images.test.ts
+- [[model-runtime.ts]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[models-error.ts]] - code - packages/ai/src/utils/models-error.ts
+- [[okImageResult()]] - code - packages/coding-agent/test/model-runtime-images.test.ts
+- [[opencode-provider-headers.test.ts]] - code - packages/ai/test/opencode-provider-headers.test.ts
+- [[operationSignal()_1]] - code - packages/coding-agent/src/utils/abort.ts
+- [[packages_ai_src_index_apistreamoptions]] - concept
+- [[packages_ai_src_index_assistantimages]] - concept
+- [[packages_ai_src_index_authcheck]] - concept
+- [[packages_ai_src_index_authinteraction]] - concept
+- [[packages_ai_src_index_authtype]] - concept
+- [[packages_ai_src_index_classifieroptions]] - concept
+- [[packages_ai_src_index_classifierresult]] - concept
+- [[packages_ai_src_index_deferredcanceloptions]] - concept
+- [[packages_ai_src_index_deferredfetchoptions]] - concept
+- [[packages_ai_src_index_deferredhandle]] - concept
+- [[packages_ai_src_index_getmodeltype]] - concept
+- [[packages_ai_src_index_imagemodel]] - concept
+- [[packages_ai_src_index_imagesoptions]] - concept
+- [[packages_ai_src_index_ismodeltype]] - concept
+- [[packages_ai_src_index_lazystream]] - concept
+- [[packages_ai_src_index_loginoptions]] - concept
+- [[packages_ai_src_index_modelsapistreamoptions]] - concept
+- [[packages_ai_src_index_modelsclassifieroptions]] - concept
+- [[packages_ai_src_index_modelsdeferredcanceloptions]] - concept
+- [[packages_ai_src_index_modelsdeferredfetchoptions]] - concept
+- [[packages_ai_src_index_modelserror]] - concept
+- [[packages_ai_src_index_modelsimagesoptions]] - concept
+- [[packages_ai_src_index_modelsrequesttransforms]] - concept
+- [[packages_ai_src_index_modeltype]] - concept
+- [[packages_ai_src_index_mutablemodels]] - concept
+- [[packages_ai_src_index_providerrequestoptions]] - concept
+- [[packages_ai_src_index_streamoptions]] - concept
+- [[parseCatalog()]] - code - packages/coding-agent/src/core/remote-catalog-provider.ts
+- [[recordingStreams()]] - code - packages/ai/test/opencode-provider-headers.test.ts
+- [[remote-catalog-provider.ts]] - code - packages/coding-agent/src/core/remote-catalog-provider.ts
+- [[remoteModels()]] - code - packages/coding-agent/src/core/remote-catalog-provider.ts
+- [[restoreModelFromSession()]] - code - packages/coding-agent/src/core/model-resolver.ts
+- [[runtimeWithProvider()]] - code - packages/coding-agent/test/model-runtime-credential-sync.test.ts
+- [[testProvider()_2]] - code - packages/coding-agent/test/remote-catalog-provider.test.ts
+- [[withCauseDetail()]] - code - packages/ai/src/utils/models-error.ts
+- [[withRemoteCatalog()]] - code - packages/coding-agent/src/core/remote-catalog-provider.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Coding_Agent_会话工具_12
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 105 edges to [[_COMMUNITY_AI 模型协议 1]]
+- 104 edges to [[_COMMUNITY_AI 模型协议 22]]
+- 91 edges to [[_COMMUNITY_AI 模型协议 35]]
+- 77 edges to [[_COMMUNITY_Coding Agent 会话工具 15]]
+- 68 edges to [[_COMMUNITY_AI 模型协议 25]]
+- 52 edges to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 48 edges to [[_COMMUNITY_Coding Agent 会话工具 31]]
+- 48 edges to [[_COMMUNITY_Coding Agent 会话工具 43]]
+- 38 edges to [[_COMMUNITY_Coding Agent 会话工具 79]]
+- 37 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 37 edges to [[_COMMUNITY_Coding Agent 会话工具 19]]
+- 37 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 36 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 31 edges to [[_COMMUNITY_AI 模型协议 52]]
+- 29 edges to [[_COMMUNITY_AI 模型协议 54]]
+- 22 edges to [[_COMMUNITY_AI 模型协议 47]]
+- 21 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 20 edges to [[_COMMUNITY_Coding Agent 会话工具 65]]
+- 19 edges to [[_COMMUNITY_Coding Agent 会话工具 29]]
+- 13 edges to [[_COMMUNITY_Coding Agent 会话工具 23]]
+- 13 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 11 edges to [[_COMMUNITY_AI 模型协议 44]]
+- 10 edges to [[_COMMUNITY_AI 模型协议 90]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 78]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 42]]
+- 9 edges to [[_COMMUNITY_Coding Agent 会话工具 60]]
+- 8 edges to [[_COMMUNITY_AI 模型协议 130]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 27]]
+- 7 edges to [[_COMMUNITY_Evals 行为评估 120]]
+- 6 edges to [[_COMMUNITY_AI 模型协议 17]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 69]]
+- 5 edges to [[_COMMUNITY_Agent 控制循环 82]]
+- 5 edges to [[_COMMUNITY_AI 模型协议 102]]
+- 5 edges to [[_COMMUNITY_AI 模型协议 51]]
+- 5 edges to [[_COMMUNITY_AI 模型协议 63]]
+- 5 edges to [[_COMMUNITY_AI 模型协议 106]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 77]]
+- 5 edges to [[_COMMUNITY_Durable 持久任务 21]]
+- 4 edges to [[_COMMUNITY_AI 模型协议 64]]
+- 4 edges to [[_COMMUNITY_AI 模型协议 74]]
+- 4 edges to [[_COMMUNITY_AI 模型协议 55]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 358]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 48]]
+- 4 edges to [[_COMMUNITY_Evals 行为评估 114]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 140]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 16]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 24]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 182]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 8]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 33]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 116]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 101]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 203]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 148]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 278]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 165]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 290]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 103]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 110]]
+- 2 edges to [[_COMMUNITY_Durable 持久任务 45]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 13]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 370]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 307]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 237]]
+- 1 edge to [[_COMMUNITY_MCP 远端工具 93]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 232]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 41]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 57]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 39]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 66]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 292]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 4]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 5]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 115]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 86]]
+
+## Top bridge nodes
+- [[model-runtime.ts]] - degree 204, connects to 20 communities
+- [[model-runtime-images.test.ts]] - degree 36, connects to 9 communities
+- [[opencode-provider-headers.test.ts]] - degree 20, connects to 9 communities
+- [[remote-catalog-provider.ts]] - degree 29, connects to 8 communities
+- [[ModelRuntime]] - degree 128, connects to 6 communities

@@ -1,0 +1,846 @@
+{
+  "token_usage": "unknown: tools expose no agent input/output usage; zeros are schema placeholders, not zero consumption",
+  "files": [
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.github/ISSUE_TEMPLATE/bug.yml",
+      "batch": 1,
+      "reading_depth": "full text",
+      "bytes": 1399,
+      "nodes": 3,
+      "gaps": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.github/ISSUE_TEMPLATE/config.yml",
+      "batch": 1,
+      "reading_depth": "full text",
+      "bytes": 174,
+      "nodes": 2,
+      "gaps": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.github/ISSUE_TEMPLATE/contribution.yml",
+      "batch": 1,
+      "reading_depth": "full text",
+      "bytes": 1199,
+      "nodes": 2,
+      "gaps": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.github/ISSUE_TEMPLATE/package-report.yml",
+      "batch": 1,
+      "reading_depth": "full text",
+      "bytes": 1517,
+      "nodes": 2,
+      "gaps": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.github/workflows/approve-contributor.yml",
+      "batch": 1,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 9508,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.github/workflows/build-binaries.yml",
+      "batch": 1,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 15296,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.github/workflows/ci.yml",
+      "batch": 1,
+      "reading_depth": "full text",
+      "bytes": 1639,
+      "nodes": 2,
+      "gaps": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.github/workflows/issue-analysis.yml",
+      "batch": 1,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 27641,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.github/workflows/issue-gate.yml",
+      "batch": 1,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 5232,
+      "nodes": 3,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.github/workflows/issue-triage-labels.yml",
+      "batch": 1,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 5506,
+      "nodes": 3,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.github/workflows/nix.yml",
+      "batch": 1,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 6538,
+      "nodes": 3,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.github/workflows/npm-audit.yml",
+      "batch": 1,
+      "reading_depth": "full text",
+      "bytes": 737,
+      "nodes": 3,
+      "gaps": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.github/workflows/pr-gate.yml",
+      "batch": 1,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 5183,
+      "nodes": 3,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.github/workflows/publish-model-catalog.yml",
+      "batch": 1,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 5107,
+      "nodes": 3,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.github/workflows/remove-inprogress-on-close.yml",
+      "batch": 1,
+      "reading_depth": "full text",
+      "bytes": 881,
+      "nodes": 2,
+      "gaps": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.pi/prompts/cl.md",
+      "batch": 1,
+      "reading_depth": "full text",
+      "bytes": 2153,
+      "nodes": 3,
+      "gaps": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.pi/prompts/deslop.md",
+      "batch": 1,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 4198,
+      "nodes": 3,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.pi/prompts/is.md",
+      "batch": 1,
+      "reading_depth": "full text",
+      "bytes": 1407,
+      "nodes": 3,
+      "gaps": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.pi/prompts/pr.md",
+      "batch": 1,
+      "reading_depth": "full text",
+      "bytes": 2189,
+      "nodes": 3,
+      "gaps": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.pi/prompts/sa.md",
+      "batch": 1,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 7570,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.pi/prompts/wr.md",
+      "batch": 1,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 2776,
+      "nodes": 3,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.pi/skills/add-llm-provider.md",
+      "batch": 1,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 3097,
+      "nodes": 3,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.pi/skills/interactive-testing.md",
+      "batch": 2,
+      "reading_depth": "full text",
+      "bytes": 930,
+      "nodes": 2,
+      "gaps": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/.pi/skills/release.md",
+      "batch": 2,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 4429,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/AGENTS.md",
+      "batch": 2,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 8481,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/CONTRIBUTING.md",
+      "batch": 2,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 5033,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/README.md",
+      "batch": 2,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 9211,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/SECURITY.md",
+      "batch": 2,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 4227,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/agent/CHANGELOG.md",
+      "batch": 2,
+      "reading_depth": "overview: recent release sections and heading inventory; no per-version historical audit",
+      "bytes": 30279,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/agent/README.md",
+      "batch": 2,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 21127,
+      "nodes": 5,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/ai/CHANGELOG.md",
+      "batch": 2,
+      "reading_depth": "overview: recent release sections and heading inventory; no per-version historical audit",
+      "bytes": 182345,
+      "nodes": 3,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/ai/README.md",
+      "batch": 2,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 99749,
+      "nodes": 5,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/chord/PLANNING.md",
+      "batch": 2,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 41634,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/chord/README.md",
+      "batch": 2,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 13070,
+      "nodes": 5,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/chord/src/delta/README.md",
+      "batch": 2,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 10531,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/client/CHANGELOG.md",
+      "batch": 2,
+      "reading_depth": "full text",
+      "bytes": 858,
+      "nodes": 2,
+      "gaps": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/client/README.md",
+      "batch": 2,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 4178,
+      "nodes": 5,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/codemode/CHANGELOG.md",
+      "batch": 2,
+      "reading_depth": "full text",
+      "bytes": 1557,
+      "nodes": 3,
+      "gaps": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/codemode/README.md",
+      "batch": 2,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 11828,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/CHANGELOG.md",
+      "batch": 2,
+      "reading_depth": "overview: recent release sections and heading inventory; no per-version historical audit",
+      "bytes": 611920,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/README.md",
+      "batch": 2,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 4080,
+      "nodes": 3,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/cli-integration.md",
+      "batch": 2,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 6104,
+      "nodes": 5,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/cli.md",
+      "batch": 2,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 15194,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/codemode.md",
+      "batch": 2,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 12139,
+      "nodes": 5,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/compaction.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 23951,
+      "nodes": 5,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/configuration.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 3239,
+      "nodes": 3,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/containerization.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 7589,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/custom-provider.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 10751,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/environment-variables.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 4804,
+      "nodes": 3,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/extensions.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 19852,
+      "nodes": 5,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/how-pi-works.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 3300,
+      "nodes": 5,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/index.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 2507,
+      "nodes": 3,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/json.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 10887,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/keybindings.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 10610,
+      "nodes": 3,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/llama-cpp.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 6524,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/mcp.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 19399,
+      "nodes": 5,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/message-types.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 7182,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/models.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 11840,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/packages.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 6106,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/prompt-templates.md",
+      "batch": 3,
+      "reading_depth": "full text",
+      "bytes": 2490,
+      "nodes": 3,
+      "gaps": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/providers.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 7403,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/quickstart.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 4741,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/rpc-commands.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 21482,
+      "nodes": 5,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/rpc-extension-ui.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 6174,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/rpc.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 8897,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/sdk.md",
+      "batch": 3,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 10147,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/security.md",
+      "batch": 4,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 6542,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/session-format.md",
+      "batch": 4,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 15766,
+      "nodes": 5,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/sessions.md",
+      "batch": 4,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 4692,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/settings.md",
+      "batch": 4,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 13063,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/shell-aliases.md",
+      "batch": 4,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 3172,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/skills.md",
+      "batch": 4,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 4793,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/slash-commands.md",
+      "batch": 4,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 2649,
+      "nodes": 3,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/terminal-setup.md",
+      "batch": 4,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 8152,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/termux.md",
+      "batch": 4,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 3590,
+      "nodes": 3,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/themes.md",
+      "batch": 4,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 7995,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/tmux.md",
+      "batch": 4,
+      "reading_depth": "full text",
+      "bytes": 1813,
+      "nodes": 3,
+      "gaps": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/tui.md",
+      "batch": 4,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 8808,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/usage.md",
+      "batch": 4,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 5268,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/virtual-models.md",
+      "batch": 4,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 8177,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/windows.md",
+      "batch": 4,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 3143,
+      "nodes": 3,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/examples/README.md",
+      "batch": 4,
+      "reading_depth": "full text",
+      "bytes": 1455,
+      "nodes": 3,
+      "gaps": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/examples/extensions/README.md",
+      "batch": 4,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 10199,
+      "nodes": 5,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/examples/extensions/doom-overlay/README.md",
+      "batch": 4,
+      "reading_depth": "full text",
+      "bytes": 1322,
+      "nodes": 3,
+      "gaps": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/examples/extensions/dynamic-resources/SKILL.md",
+      "batch": 4,
+      "reading_depth": "full text",
+      "bytes": 177,
+      "nodes": 1,
+      "gaps": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/examples/extensions/dynamic-resources/dynamic.md",
+      "batch": 4,
+      "reading_depth": "full text",
+      "bytes": 160,
+      "nodes": 1,
+      "gaps": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/examples/extensions/plan-mode/README.md",
+      "batch": 4,
+      "reading_depth": "full text",
+      "bytes": 2009,
+      "nodes": 4,
+      "gaps": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/examples/extensions/subagent/README.md",
+      "batch": 4,
+      "reading_depth": "static overview: opening content and section-heading inventory; selected mechanism paragraphs where read",
+      "bytes": 6298,
+      "nodes": 4,
+      "gaps": [
+        "Not a line-by-line audit; code blocks and later reference detail not exhaustively modeled."
+      ]
+    }
+  ],
+  "failures": []
+}

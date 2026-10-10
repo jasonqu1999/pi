@@ -1,0 +1,23 @@
+---
+source_file: "packages/agent/src/agent-loop.ts"
+type: "code"
+community: "Coding Agent 会话工具 27"
+location: "L102"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Coding_Agent_会话工具_27
+---
+
+# runAgentLoop()
+
+## Connections
+- [[declareToolChanges()]] - `calls` [EXTRACTED]
+- [[getDefaultStreamFn()]] - `calls` [EXTRACTED]
+- [[runLoop()]] - `calls` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Coding_Agent_会话工具_27
+
+## 源码入口
+
+[packages/agent/src/agent-loop.ts](../../../packages/agent/src/agent-loop.ts)

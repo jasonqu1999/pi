@@ -1,0 +1,363 @@
+---
+type: community
+cohesion: 0.02
+members: 284
+---
+
+# Coding Agent 会话工具 8
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 284 nodes
+
+## Members
+- [[dot-internalServiceBinding()]] - code - packages/chord/src/facets/host.ts
+- [[dot-rebind()_3]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-acceptsUnavailableServices()]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-attach()]] - code - packages/chord/src/types.ts
+- [[dot-attachment()]] - code - packages/client/src/client.ts
+- [[dot-call()_2]] - code - packages/chord/test/services.test.ts
+- [[dot-call()_3]] - code - packages/chord/test/services.test.ts
+- [[dot-catalogue()_1]] - code - packages/chord/src/types.ts
+- [[dot-catalogue()_3]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-change()_1]] - code - packages/chord/src/types.ts
+- [[dot-constructor()_165]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-constructor()_166]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-constructor()_167]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-dispose()_6]] - code - packages/chord/src/services/provider.ts
+- [[dot-dispose()_13]] - code - packages/chord/src/types.ts
+- [[dot-dispose()_11]] - code - packages/chord/src/types.ts
+- [[dot-dispose()_14]] - code - packages/chord/test/state.test.ts
+- [[dot-dispose()_30]] - code - packages/coding-agent/src/experimental/client-runtime.ts
+- [[dot-dispose()_36]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-dispose()_37]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-dispose()_38]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-echo()]] - code - packages/chord/test/services.test.ts
+- [[dot-invoke()_1]] - code - packages/chord/src/services/provider.ts
+- [[dot-invoke()_3]] - code - packages/chord/src/types.ts
+- [[dot-list()_8]] - code - packages/coding-agent/src/experimental/services/slash-commands.ts
+- [[dot-load()]] - code - packages/chord/src/types.ts
+- [[dot-observe()_7]] - code - packages/chord/src/types.ts
+- [[dot-observe()_9]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-open()]] - code - packages/chord/src/types.ts
+- [[dot-open()_2]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-open()_3]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-read()_5]] - code - packages/chord/test/facet-loader.test.ts
+- [[dot-read()_12]] - code - packages/chord/test/facets.test.ts
+- [[dot-read()_8]] - code - packages/chord/test/facets.test.ts
+- [[dot-read()_10]] - code - packages/chord/test/facets.test.ts
+- [[dot-read()_9]] - code - packages/chord/test/facets.test.ts
+- [[dot-read()_7]] - code - packages/chord/test/facets.test.ts
+- [[dot-read()_11]] - code - packages/chord/test/facets.test.ts
+- [[dot-read()_6]] - code - packages/chord/test/facets.test.ts
+- [[dot-ready()_3]] - code - packages/chord/src/types.ts
+- [[dot-ready()_4]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-rebind()_2]] - code - packages/chord/src/types.ts
+- [[dot-register()_3]] - code - packages/coding-agent/src/experimental/services/slash-commands.ts
+- [[dot-reload()_1]] - code - packages/chord/src/types.ts
+- [[dot-replace()_3]] - code - packages/chord/src/types.ts
+- [[dot-replace()_5]] - code - packages/coding-agent/src/experimental/services/slash-commands.ts
+- [[dot-serviceReady()]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-sessionId()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-spawn()_4]] - code - packages/chord/src/types.ts
+- [[dot-subscribe()_9]] - code - packages/chord/src/types.ts
+- [[dot-subscribe()_8]] - code - packages/chord/src/types.ts
+- [[dot-subscribe()_13]] - code - packages/coding-agent/src/experimental/services/slash-commands.ts
+- [[dot-updateBound()]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-use()_2]] - code - packages/chord/src/types.ts
+- [[dot-use()_4]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-whenAttached()_1]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-whenDetached()_1]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[ActivatedClientRuntimeServer]] - code - packages/coding-agent/src/experimental/client-runtime.ts
+- [[AgentCompactionRequest]] - code - packages/coding-agent/src/experimental/services/agent-controller.ts
+- [[AgentController]] - code - packages/coding-agent/src/experimental/services/agent-controller.ts
+- [[AgentOperationError]] - code - packages/coding-agent/src/experimental/services/agent-controller.ts
+- [[AgentOperationResponse]] - code - packages/coding-agent/src/experimental/services/agent-controller.ts
+- [[AgentPromptImage]] - code - packages/coding-agent/src/experimental/services/agent-controller.ts
+- [[AgentPromptRequest]] - code - packages/coding-agent/src/experimental/services/agent-controller.ts
+- [[AgentPromptResult]] - code - packages/coding-agent/src/experimental/services/agent-controller.ts
+- [[AgentQueueResponse]] - code - packages/coding-agent/src/experimental/services/agent-controller.ts
+- [[ClientResult]] - code - packages/coding-agent/src/experimental/client.ts
+- [[ClientRuntime]] - code - packages/coding-agent/src/experimental/client-runtime.ts
+- [[ClientRuntimeRoute]] - code - packages/coding-agent/src/experimental/client-runtime.ts
+- [[ClientRuntimeServer]] - code - packages/coding-agent/src/experimental/client-runtime.ts
+- [[ClientTuiServer]] - code - packages/coding-agent/src/experimental/client-tui.ts
+- [[CombinedValue]] - code - packages/chord/test/facets.test.ts
+- [[Echo]] - code - packages/chord/test/services.test.ts
+- [[EchoPayload]] - code - packages/chord/test/services.test.ts
+- [[ExampleFacetReply]] - code - packages/coding-agent/examples/plugins/pi-example-plugin/src/contract.ts
+- [[ExampleFacetService]] - code - packages/coding-agent/examples/plugins/pi-example-plugin/src/contract.ts
+- [[FacetHost]] - code - packages/chord/src/types.ts
+- [[FacetLoader]] - code - packages/chord/src/types.ts
+- [[FacetOptions]] - code - packages/chord/src/types.ts
+- [[GenerationValue_1]] - code - packages/chord/test/facet-loader.test.ts
+- [[HostValues]] - code - packages/chord/test/facets.test.ts
+- [[InvalidJsonPart]] - code - packages/chord/src/types.ts
+- [[InvalidJsonProperty]] - code - packages/chord/src/types.ts
+- [[InvalidJsonStructure]] - code - packages/chord/src/types.ts
+- [[InvalidRemoteMember]] - code - packages/chord/src/types.ts
+- [[InvalidRemoteMemberNames]] - code - packages/chord/src/types.ts
+- [[IsAny_1]] - code - packages/chord/src/types.ts
+- [[KeyedProbe]] - code - packages/coding-agent/test/fixtures/keyed-service.ts
+- [[KeyedValue]] - code - packages/chord/test/facets.test.ts
+- [[LeftValue]] - code - packages/chord/test/facets.test.ts
+- [[LoadedFacets]] - code - packages/chord/src/types.ts
+- [[LocalGenerationValue]] - code - packages/chord/test/facet-loader.test.ts
+- [[LocalKeyedValue]] - code - packages/chord/test/facets.test.ts
+- [[ModelRef]] - code - packages/chord/test/services.test.ts
+- [[ModelRef_1]] - code - packages/coding-agent/src/experimental/services/models.ts
+- [[ModelSummary_1]] - code - packages/coding-agent/src/experimental/services/models.ts
+- [[Models_4]] - code - packages/chord/test/services.test.ts
+- [[Models_6]] - code - packages/coding-agent/src/experimental/services/models.ts
+- [[ModelsState]] - code - packages/chord/test/services.test.ts
+- [[ModelsState_1]] - code - packages/coding-agent/src/experimental/services/models.ts
+- [[MutableReplicatedState]] - code - packages/chord/src/types.ts
+- [[NonJsonArgument]] - code - packages/chord/test/services.test.ts
+- [[NonJsonResult]] - code - packages/chord/test/services.test.ts
+- [[NonJsonState]] - code - packages/chord/test/services.test.ts
+- [[OpenClientRuntimeOptions]] - code - packages/coding-agent/src/experimental/client-runtime.ts
+- [[PreparedClientSession]] - code - packages/coding-agent/src/experimental/client-tui.ts
+- [[PresentationPlugins]] - code - packages/coding-agent/src/experimental/services/plugins.ts
+- [[PresentationSelectItem]] - code - packages/coding-agent/src/experimental/services/presentation-ui.ts
+- [[PresentationUI]] - code - packages/coding-agent/src/experimental/services/presentation-ui.ts
+- [[Projection]] - code - packages/chord/test/facets.test.ts
+- [[Question]] - code - packages/chord/test/services.test.ts
+- [[QuestionDialogs]] - code - packages/chord/test/services.test.ts
+- [[REMOTE_SERVICE_ERROR_CODES]] - code - packages/chord/src/services/errors.ts
+- [[ReadonlyJsonValue]] - code - packages/chord/src/types.ts
+- [[RemoteGenerationValue]] - code - packages/chord/test/facet-loader.test.ts
+- [[RemoteServiceBinding]] - code - packages/chord/src/types.ts
+- [[RemoteServiceBindingOptions]] - code - packages/chord/src/types.ts
+- [[RemoteServiceEndpoint]] - code - packages/chord/src/services/provider.ts
+- [[RemoteServiceErrorCode]] - code - packages/chord/src/services/errors.ts
+- [[RemoteServiceSource]] - code - packages/chord/src/types.ts
+- [[RemoteServiceTransport]] - code - packages/chord/src/types.ts
+- [[RemoteServices]] - code - packages/chord/src/types.ts
+- [[ReplicatedState]] - code - packages/chord/src/types.ts
+- [[ReplicatedStateDelivery]] - code - packages/chord/src/types.ts
+- [[ReplicatedStateSource]] - code - packages/chord/src/types.ts
+- [[ReplicatedStateSourceOptions]] - code - packages/chord/src/types.ts
+- [[RightValue]] - code - packages/chord/test/facets.test.ts
+- [[RoutedServiceBinding]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[RunClientOptions]] - code - packages/coding-agent/src/experimental/client.ts
+- [[RunClientTuiOptions]] - code - packages/coding-agent/src/experimental/client-tui.ts
+- [[ScopedServiceEndpoint]] - code - packages/coding-agent/src/experimental/services/worker.ts
+- [[SecondPluginService]] - code - packages/coding-agent/test/experimental-remote-runtime.test.ts
+- [[ServerConnectionState]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[ServerServiceSource]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[ServerServiceSourceImpl]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[ServiceBindingOptions]] - code - packages/coding-agent/test/experimental-service-binding.ts
+- [[ServiceCatalogueEntry]] - code - packages/chord/src/types.ts
+- [[ServiceMemberSnapshot]] - code - packages/chord/src/types.ts
+- [[ServiceSourceOptions]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[ServiceSpawner]] - code - packages/chord/src/types.ts
+- [[SessionAddress]] - code - packages/coding-agent/src/experimental/services/sessions.ts
+- [[SessionAttachmentState]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[SessionCreateOptions]] - code - packages/coding-agent/src/experimental/services/sessions.ts
+- [[SessionDirectory]] - code - packages/coding-agent/src/experimental/services/sessions.ts
+- [[SessionDirectoryState]] - code - packages/coding-agent/src/experimental/services/sessions.ts
+- [[SessionFeature]] - code - packages/coding-agent/src/experimental/client-tui.ts
+- [[SessionManagement]] - code - packages/coding-agent/src/experimental/services/sessions.ts
+- [[SessionPlugins]] - code - packages/coding-agent/src/experimental/services/plugins.ts
+- [[SessionServiceSource]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[SessionServiceSourceImpl]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[SessionSummary]] - code - packages/coding-agent/src/experimental/services/sessions.ts
+- [[SessionWorkerRuntime]] - code - packages/coding-agent/src/experimental/services/worker.ts
+- [[SlashCommandCompletion]] - code - packages/coding-agent/src/experimental/services/slash-commands.ts
+- [[SlashCommandRunResult]] - code - packages/coding-agent/src/experimental/services/slash-commands.ts
+- [[SlashCommands]] - code - packages/coding-agent/src/experimental/services/slash-commands.ts
+- [[Source_4]] - code - packages/chord/test/facets.test.ts
+- [[THINKING_DESCRIPTIONS]] - code - packages/coding-agent/src/experimental/services/slash-commands-provider.ts
+- [[TODO check if the reserved namespace should be part of Chord.]] - rationale - packages/chord/src/api.ts
+- [[Timeline]] - code - packages/chord/test/services.test.ts
+- [[TimelineState]] - code - packages/chord/test/services.test.ts
+- [[Transcript_1]] - code - packages/coding-agent/src/experimental/services/transcript.ts
+- [[Watched]] - code - packages/chord/test/facets.test.ts
+- [[activateBuiltinClientServices()]] - code - packages/coding-agent/src/experimental/client-runtime.ts
+- [[agent-controller.ts]] - code - packages/coding-agent/src/experimental/services/agent-controller.ts
+- [[api.ts]] - code - packages/chord/src/api.ts
+- [[assertAccess()]] - code - packages/chord/test/services.test.ts
+- [[attach()]] - code - packages/chord/test/services.test.ts
+- [[attach()_1]] - code - packages/coding-agent/test/experimental-client-tui.test.ts
+- [[attachClient()_1]] - code - packages/coding-agent/test/experimental-remote-runtime.test.ts
+- [[attachSession()]] - code - packages/coding-agent/test/experimental-remote-runtime.test.ts
+- [[catalogue()]] - code - packages/chord/test/facets.test.ts
+- [[catalogue()_1]] - code - packages/coding-agent/test/experimental-client-tui.test.ts
+- [[chordsrcindex.ts]] - code - packages/chord/src/index.ts
+- [[chordsrctypes.ts]] - code - packages/chord/src/types.ts
+- [[chordtesthelpers.ts]] - code - packages/chord/test/helpers.ts
+- [[client-runtime.ts]] - code - packages/coding-agent/src/experimental/client-runtime.ts
+- [[client-tui.ts]] - code - packages/coding-agent/src/experimental/client-tui.ts
+- [[clients]] - code - packages/coding-agent/test/experimental-remote-runtime.test.ts
+- [[combineFacetLoaders()]] - code - packages/chord/src/api.ts
+- [[compactCommand()]] - code - packages/coding-agent/src/experimental/services/slash-commands-provider.ts
+- [[configureExperimentalWorkerModel()]] - code - packages/coding-agent/test/experimental-session-support.ts
+- [[contract.ts]] - code - packages/coding-agent/examples/plugins/pi-example-plugin/src/contract.ts
+- [[createBuiltInSlashCommandsFacet()]] - code - packages/coding-agent/src/experimental/services/slash-commands-provider.ts
+- [[createFacetHost()]] - code - packages/chord/src/api.ts
+- [[createLoopbackServiceTransport()]] - code - packages/chord/src/services/loopback.ts
+- [[createModelsServiceFacet()]] - code - packages/coding-agent/src/experimental/services/models-provider.ts
+- [[createProviderAttachment()]] - code - packages/coding-agent/src/experimental/services/server.ts
+- [[createRadiusClientTransportFactory()]] - code - packages/coding-agent/src/experimental/radius-relay.ts
+- [[createRemoteServiceBinding()]] - code - packages/chord/src/api.ts
+- [[createRemoteServiceEndpoint()]] - code - packages/chord/src/services/provider.ts
+- [[createServerServiceBinding()]] - code - packages/coding-agent/test/experimental-service-binding.ts
+- [[createServerServiceSource()]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[createSessionServiceBinding()]] - code - packages/coding-agent/test/experimental-service-binding.ts
+- [[createSessionServiceSource()]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[createSessionWorkerServices()]] - code - packages/coding-agent/src/experimental/services/worker.ts
+- [[createSlashCommandsRuntimeFacet()]] - code - packages/coding-agent/src/experimental/services/slash-commands-provider.ts
+- [[createStaticFacetLoader()]] - code - packages/chord/src/api.ts
+- [[createTranscriptServiceFacet()]] - code - packages/coding-agent/src/experimental/services/transcript-provider.ts
+- [[createUnixTransportFactory()]] - code - packages/client/src/unix.ts
+- [[cycleThinking()]] - code - packages/coding-agent/test/experimental-client-tui.test.ts
+- [[defineFacet()]] - code - packages/chord/src/api.ts
+- [[defineService()]] - code - packages/chord/src/api.ts
+- [[detach()]] - code - packages/coding-agent/test/experimental-client-tui.test.ts
+- [[directories_2]] - code - packages/coding-agent/test/experimental-remote-runtime.test.ts
+- [[disposeLoadedFacets()]] - code - packages/chord/src/facets/loader.ts
+- [[exactModel()]] - code - packages/coding-agent/src/experimental/services/slash-commands-provider.ts
+- [[experimental-client-tui.test.ts]] - code - packages/coding-agent/test/experimental-client-tui.test.ts
+- [[experimental-plugin-reload.test.ts]] - code - packages/coding-agent/test/experimental-plugin-reload.test.ts
+- [[experimental-remote-runtime.test.ts]] - code - packages/coding-agent/test/experimental-remote-runtime.test.ts
+- [[experimental-service-binding.ts]] - code - packages/coding-agent/test/experimental-service-binding.ts
+- [[experimental-slash-commands.test.ts]] - code - packages/coding-agent/test/experimental-slash-commands.test.ts
+- [[experimentalclient.ts]] - code - packages/coding-agent/src/experimental/client.ts
+- [[facet-loader.test.ts]] - code - packages/chord/test/facet-loader.test.ts
+- [[facets.test.ts]] - code - packages/chord/test/facets.test.ts
+- [[facetsloader.ts]] - code - packages/chord/src/facets/loader.ts
+- [[fauxWorkerEntryUrl]] - code - packages/coding-agent/test/experimental-remote-runtime.test.ts
+- [[finish()]] - code - packages/coding-agent/test/experimental-client-tui.test.ts
+- [[firstFacet]] - code - packages/chord/test/facet-loader.test.ts
+- [[getThinkingLevels()]] - code - packages/coding-agent/test/experimental-client-tui.test.ts
+- [[initial()]] - code - packages/durable/test/session-definitions.test.ts
+- [[isRemoteServiceErrorCode()]] - code - packages/chord/src/services/errors.ts
+- [[isReplicatedStateSource()]] - code - packages/chord/src/api.ts
+- [[keyed-service.ts]] - code - packages/coding-agent/test/fixtures/keyed-service.ts
+- [[load()]] - code - packages/chord/test/facet-loader.test.ts
+- [[load()_1]] - code - packages/coding-agent/test/experimental-plugin-reload.test.ts
+- [[loopback.ts]] - code - packages/chord/src/services/loopback.ts
+- [[modelCommand()]] - code - packages/coding-agent/src/experimental/services/slash-commands-provider.ts
+- [[open()]] - code - packages/chord/test/facets.test.ts
+- [[open()_1]] - code - packages/coding-agent/test/experimental-client-tui.test.ts
+- [[openClientRuntime()]] - code - packages/coding-agent/src/experimental/client-runtime.ts
+- [[packages_chord_src_index_replicatedstate]] - concept
+- [[packages_server_src_index_routedserverserviceattachment]] - concept
+- [[packages_server_src_index_routedserverservicehost]] - concept
+- [[pathExists()_1]] - code - packages/coding-agent/test/experimental-remote-runtime.test.ts
+- [[pi-example-pluginsrctui.ts]] - code - packages/coding-agent/examples/plugins/pi-example-plugin/src/tui.ts
+- [[plugin.ts]] - code - packages/coding-agent/src/experimental/plugin.ts
+- [[plugins.ts]] - code - packages/coding-agent/src/experimental/services/plugins.ts
+- [[presentation-ui.ts]] - code - packages/coding-agent/src/experimental/services/presentation-ui.ts
+- [[processExists()]] - code - packages/coding-agent/test/experimental-remote-runtime.test.ts
+- [[publishReplacement()]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[publishReplacement()_1]] - code - packages/coding-agent/test/experimental-client-tui.test.ts
+- [[read()_1]] - code - packages/chord/test/facets.test.ts
+- [[ready()]] - code - packages/chord/test/facets.test.ts
+- [[ready()_1]] - code - packages/coding-agent/test/experimental-client-tui.test.ts
+- [[refresh()_2]] - code - packages/coding-agent/test/experimental-client-tui.test.ts
+- [[remove()_1]] - code - packages/coding-agent/test/experimental-client-tui.test.ts
+- [[replicatedState()]] - code - packages/chord/src/api.ts
+- [[routeFromExplicitPath()]] - code - packages/coding-agent/src/experimental/client-runtime.ts
+- [[runClient()]] - code - packages/coding-agent/src/experimental/client.ts
+- [[sameAttachment()]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[secondFacet]] - code - packages/chord/test/facet-loader.test.ts
+- [[select()]] - code - packages/chord/test/services.test.ts
+- [[selectTheme]] - code - packages/coding-agent/src/experimental/client-tui.ts
+- [[servers_2]] - code - packages/coding-agent/test/experimental-remote-runtime.test.ts
+- [[serviceScopeKey()]] - code - packages/coding-agent/src/experimental/services/worker.ts
+- [[services.test.ts]] - code - packages/chord/test/services.test.ts
+- [[servicesconnection.ts]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[serviceserrors.ts]] - code - packages/chord/src/services/errors.ts
+- [[servicesmodels.ts]] - code - packages/coding-agent/src/experimental/services/models.ts
+- [[servicesserver.ts]] - code - packages/coding-agent/src/experimental/services/server.ts
+- [[servicessessions.ts]] - code - packages/coding-agent/src/experimental/services/sessions.ts
+- [[servicesslash-commands.ts]] - code - packages/coding-agent/src/experimental/services/slash-commands.ts
+- [[servicestranscript.ts]] - code - packages/coding-agent/src/experimental/services/transcript.ts
+- [[servicesworker.ts]] - code - packages/coding-agent/src/experimental/services/worker.ts
+- [[sessionWorkerModel]] - code - packages/coding-agent/test/experimental-remote-runtime.test.ts
+- [[setup()_3]] - code - packages/chord/test/facet-loader.test.ts
+- [[setup()_4]] - code - packages/chord/test/facets.test.ts
+- [[setup()_5]] - code - packages/coding-agent/examples/plugins/pi-example-plugin/src/session.ts
+- [[setup()_6]] - code - packages/coding-agent/examples/plugins/pi-example-plugin/src/tui.ts
+- [[setup()_8]] - code - packages/coding-agent/test/experimental-remote-runtime.test.ts
+- [[setup()_9]] - code - packages/coding-agent/test/experimental-slash-commands.test.ts
+- [[slash-commands-provider.ts]] - code - packages/coding-agent/src/experimental/services/slash-commands-provider.ts
+- [[srcsession.ts]] - code - packages/coding-agent/examples/plugins/pi-example-plugin/src/session.ts
+- [[state()]] - code - packages/chord/test/services.test.ts
+- [[submit()]] - code - packages/chord/test/services.test.ts
+- [[subscribe()]] - code - packages/chord/test/services.test.ts
+- [[thinkingCommand()]] - code - packages/coding-agent/src/experimental/services/slash-commands-provider.ts
+- [[throwFailures()]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[throwFailures()_1]] - code - packages/coding-agent/test/experimental-service-binding.ts
+- [[toError()_5]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[toServerConnectionState()]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[transcript-provider.ts]] - code - packages/coding-agent/src/experimental/services/transcript-provider.ts
+- [[whenAttached()]] - code - packages/coding-agent/test/experimental-client-tui.test.ts
+- [[whenDetached()]] - code - packages/coding-agent/test/experimental-client-tui.test.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Coding_Agent_会话工具_8
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 92 edges to [[_COMMUNITY_Durable 持久任务 5]]
+- 70 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 68 edges to [[_COMMUNITY_Chord 服务状态 36]]
+- 52 edges to [[_COMMUNITY_Coding Agent 会话工具 28]]
+- 51 edges to [[_COMMUNITY_Chord 服务状态 30]]
+- 47 edges to [[_COMMUNITY_Chord 服务状态 95]]
+- 46 edges to [[_COMMUNITY_Client 远程连接 14]]
+- 33 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 28 edges to [[_COMMUNITY_Durable 持久任务 4]]
+- 28 edges to [[_COMMUNITY_Coding Agent 会话工具 126]]
+- 25 edges to [[_COMMUNITY_Chord 服务状态 53]]
+- 19 edges to [[_COMMUNITY_Coding Agent 会话工具 65]]
+- 17 edges to [[_COMMUNITY_Coding Agent 会话工具 33]]
+- 16 edges to [[_COMMUNITY_Server 会话路由 20]]
+- 16 edges to [[_COMMUNITY_Durable 持久任务 132]]
+- 16 edges to [[_COMMUNITY_Coding Agent 会话工具 72]]
+- 14 edges to [[_COMMUNITY_Durable 持久任务 21]]
+- 14 edges to [[_COMMUNITY_Durable 持久任务 86]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 11 edges to [[_COMMUNITY_Coding Agent 会话工具 48]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 7 edges to [[_COMMUNITY_Chord 服务状态 196]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 282]]
+- 7 edges to [[_COMMUNITY_Durable 持久任务 18]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 70]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 41]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 75]]
+- 3 edges to [[_COMMUNITY_TUI 终端组件 26]]
+- 3 edges to [[_COMMUNITY_TUI 终端组件 6]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 3 edges to [[_COMMUNITY_Durable 持久任务 119]]
+- 2 edges to [[_COMMUNITY_Chord 服务状态 263]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 23]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 56]]
+- 2 edges to [[_COMMUNITY_TUI 终端组件 62]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 39]]
+- 2 edges to [[_COMMUNITY_Durable 持久任务 58]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 264]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 160]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 87]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 29]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 66]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 46]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 190]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 37]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 16]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 67]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 83]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 45]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 115]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 38]]
+
+## Top bridge nodes
+- [[client-tui.ts]] - degree 92, connects to 24 communities
+- [[experimental-client-tui.test.ts]] - degree 73, connects to 13 communities
+- [[chordsrcindex.ts]] - degree 198, connects to 12 communities
+- [[servicesworker.ts]] - degree 40, connects to 12 communities
+- [[chordsrctypes.ts]] - degree 72, connects to 10 communities

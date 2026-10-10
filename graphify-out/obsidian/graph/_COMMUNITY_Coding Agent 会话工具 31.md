@@ -1,0 +1,229 @@
+---
+type: community
+cohesion: 0.03
+members: 146
+---
+
+# Coding Agent 会话工具 31
+
+**Cohesion:** 0.03 - loosely connected
+**Members:** 146 nodes
+
+## Members
+- [[dot-constructor()_143]] - code - packages/coding-agent/src/core/session-cwd.ts
+- [[dot-getApiKeyForProvider()]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-getAuth()_2]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-getCwd()]] - code - packages/coding-agent/src/core/session-cwd.ts
+- [[dot-getProviderAuth()]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-getSessionFile()]] - code - packages/coding-agent/src/core/session-cwd.ts
+- [[APP_NAME]] - code - packages/coding-agent/src/config.ts
+- [[AUTH_COMMAND_USAGE]] - code - packages/coding-agent/src/cli/auth-command.ts
+- [[Args_1]] - code - packages/coding-agent/src/cli/args.ts
+- [[AuthCheckReason]] - code - packages/coding-agent/src/cli/auth-check.ts
+- [[AuthCheckResult]] - code - packages/coding-agent/src/cli/auth-check.ts
+- [[AuthCheckStatus]] - code - packages/coding-agent/src/cli/auth-check.ts
+- [[AuthCommand]] - code - packages/coding-agent/src/cli/auth-command.ts
+- [[AuthCommandError]] - code - packages/coding-agent/src/cli/auth-command.ts
+- [[AuthCommandKind]] - code - packages/coding-agent/src/cli/auth-command.ts
+- [[ColorValueSchema]] - code - packages/coding-agent/src/modes/interactive/theme/theme-json.ts
+- [[CredentialPrintKind]] - code - packages/coding-agent/src/cli/credential-print.ts
+- [[DEFAULT_HTTP_IDLE_TIMEOUT_MS]] - code - packages/coding-agent/src/core/http-dispatcher.ts
+- [[DISPATCHER_PROXY_ENV_KEYS]] - code - packages/coding-agent/test/http-dispatcher.test.ts
+- [[E02 CLI组合cwd服务、SessionManager和会话runtime，再按模式分派]] - rationale - packages/coding-agent/src/main.ts
+- [[ENV_SESSION_DIR]] - code - packages/coding-agent/src/config.ts
+- [[HTTP_IDLE_TIMEOUT_CHOICES]] - code - packages/coding-agent/src/core/http-dispatcher.ts
+- [[InitialMessageInput]] - code - packages/coding-agent/src/cli/initial-message.ts
+- [[InitialMessageResult]] - code - packages/coding-agent/src/cli/initial-message.ts
+- [[MissingSessionCwdError]] - code - packages/coding-agent/src/core/session-cwd.ts
+- [[Mode_7]] - code - packages/coding-agent/src/cli/args.ts
+- [[ModelScopeDiagnostic]] - code - packages/coding-agent/src/core/model-resolver.ts
+- [[PROXY_ENV_KEYS_1]] - code - packages/coding-agent/test/http-dispatcher.test.ts
+- [[ResolveModelScopeResult]] - code - packages/coding-agent/src/core/model-resolver.ts
+- [[ResolvedSession]] - code - packages/coding-agent/src/main.ts
+- [[SessionCwdIssue]] - code - packages/coding-agent/src/core/session-cwd.ts
+- [[SessionCwdSource]] - code - packages/coding-agent/src/core/session-cwd.ts
+- [[ThemeColorValue]] - code - packages/coding-agent/src/modes/interactive/theme/theme-json.ts
+- [[ThemeJsonSchema]] - code - packages/coding-agent/src/modes/interactive/theme/theme-json.ts
+- [[TimingLabel]] - code - packages/coding-agent/src/core/timings.ts
+- [[TimingNamespace]] - code - packages/coding-agent/src/core/timings.ts
+- [[VALID_THINKING_LEVELS]] - code - packages/coding-agent/src/cli/args.ts
+- [[ValidatedThemeJson]] - code - packages/coding-agent/src/modes/interactive/theme/theme-json.ts
+- [[allModels]] - code - packages/coding-agent/test/model-resolver.test.ts
+- [[args_2]] - code - packages/coding-agent/src/experimental/cli.ts
+- [[args.test.ts]] - code - packages/coding-agent/test/args.test.ts
+- [[args.ts]] - code - packages/coding-agent/src/cli/args.ts
+- [[assertSessionCwdExists()]] - code - packages/coding-agent/src/core/session-cwd.ts
+- [[auth-check.test.ts]] - code - packages/coding-agent/test/auth-check.test.ts
+- [[auth-check.ts]] - code - packages/coding-agent/src/cli/auth-check.ts
+- [[auth-command.ts]] - code - packages/coding-agent/src/cli/auth-command.ts
+- [[buildFallbackModel()]] - code - packages/coding-agent/src/core/model-resolver.ts
+- [[buildInitialMessage()]] - code - packages/coding-agent/src/cli/initial-message.ts
+- [[buildSessionOptions()]] - code - packages/coding-agent/src/main.ts
+- [[builtInExtensions]] - code - packages/coding-agent/src/extensions/index.ts
+- [[checkProviderAuth()]] - code - packages/coding-agent/src/cli/auth-check.ts
+- [[cli.lazy.ts]] - code - packages/coding-agent/src/extensions/mcp/cli.lazy.ts
+- [[coding-agentsrccli.ts]] - code - packages/coding-agent/src/cli.ts
+- [[collectSettingsDiagnostics()]] - code - packages/coding-agent/src/core/settings-diagnostics.ts
+- [[compiledThemeSchema]] - code - packages/coding-agent/src/modes/interactive/theme/theme-json.ts
+- [[configureHttpDispatcher()]] - code - packages/coding-agent/src/core/http-dispatcher.ts
+- [[createArgs()]] - code - packages/coding-agent/test/initial-message.test.ts
+- [[createAuthCheckModelRuntime()]] - code - packages/coding-agent/src/cli/auth-check.ts
+- [[createUndiciClient()]] - code - packages/coding-agent/src/core/http-dispatcher.ts
+- [[createUndiciOriginDispatcher()]] - code - packages/coding-agent/src/core/http-dispatcher.ts
+- [[credential-print.test.ts]] - code - packages/coding-agent/test/credential-print.test.ts
+- [[credential-print.ts]] - code - packages/coding-agent/src/cli/credential-print.ts
+- [[deduplicateDiagnostics()]] - code - packages/coding-agent/src/core/settings-diagnostics.ts
+- [[defaultModelPerProvider]] - code - packages/coding-agent/src/core/model-resolver.ts
+- [[findExactModelReferenceMatch()]] - code - packages/coding-agent/src/core/model-resolver.ts
+- [[formatMissingSessionCwdError()]] - code - packages/coding-agent/src/core/session-cwd.ts
+- [[formatMissingSessionCwdPrompt()]] - code - packages/coding-agent/src/core/session-cwd.ts
+- [[formatNoModelsAvailableMessage()]] - code - packages/coding-agent/src/core/auth-guidance.ts
+- [[formatTokenCount()]] - code - packages/coding-agent/src/cli/list-models.ts
+- [[getAuthCommandName()]] - code - packages/coding-agent/src/cli/auth-command.ts
+- [[getAuthCommandUsage()]] - code - packages/coding-agent/src/cli/auth-command.ts
+- [[getAuthCredential()]] - code - packages/coding-agent/src/cli/auth-command.ts
+- [[getMissingSessionCwdIssue()]] - code - packages/coding-agent/src/core/session-cwd.ts
+- [[getProviderCredential()]] - code - packages/coding-agent/src/cli/auth-check.ts
+- [[http-dispatcher.test.ts]] - code - packages/coding-agent/test/http-dispatcher.test.ts
+- [[http-dispatcher.ts]] - code - packages/coding-agent/src/core/http-dispatcher.ts
+- [[ignoreUndiciDispatcherError()]] - code - packages/coding-agent/src/core/http-dispatcher.ts
+- [[initial-message.test.ts]] - code - packages/coding-agent/test/initial-message.test.ts
+- [[initial-message.ts]] - code - packages/coding-agent/src/cli/initial-message.ts
+- [[isAlias()]] - code - packages/coding-agent/src/core/model-resolver.ts
+- [[isAuthCommandHelp()]] - code - packages/coding-agent/src/cli/auth-command.ts
+- [[isPlainRuntimeMetadataCommand()]] - code - packages/coding-agent/src/main.ts
+- [[isTruthyEnvFlag()_1]] - code - packages/coding-agent/src/main.ts
+- [[isValidThinkingLevel()]] - code - packages/coding-agent/src/cli/args.ts
+- [[list-models.ts]] - code - packages/coding-agent/src/cli/list-models.ts
+- [[listModels()]] - code - packages/coding-agent/src/cli/list-models.ts
+- [[loadDarkTheme()]] - code - packages/coding-agent/test/scrollbar-theme.test.ts
+- [[loadMcpCommand()]] - code - packages/coding-agent/src/extensions/mcp/cli.lazy.ts
+- [[main()_6]] - code - packages/coding-agent/src/main.ts
+- [[mockModels]] - code - packages/coding-agent/test/model-resolver.test.ts
+- [[mockOpenRouterModels]] - code - packages/coding-agent/test/model-resolver.test.ts
+- [[model-resolver.test.ts]] - code - packages/coding-agent/test/model-resolver.test.ts
+- [[model-resolver.ts]] - code - packages/coding-agent/src/core/model-resolver.ts
+- [[modelsAreEqual()]] - code - packages/ai/src/models.ts
+- [[normalizeSessionName()]] - code - packages/coding-agent/src/cli/args.ts
+- [[packages_ai_src_index_knownprovider]] - concept
+- [[packages_ai_src_index_modelsareequal]] - concept
+- [[parseArgs()_1]] - code - packages/coding-agent/src/cli/args.ts
+- [[parseAuthCommand()]] - code - packages/coding-agent/src/cli/auth-command.ts
+- [[parseHttpIdleTimeoutMs()]] - code - packages/coding-agent/src/core/http-dispatcher.ts
+- [[parseModelPattern()]] - code - packages/coding-agent/src/core/model-resolver.ts
+- [[prepareInitialMessage()]] - code - packages/coding-agent/src/main.ts
+- [[printAuthCommandHelp()]] - code - packages/coding-agent/src/cli/auth-command.ts
+- [[printHelp()_1]] - code - packages/coding-agent/src/cli/args.ts
+- [[printTimingGroup()]] - code - packages/coding-agent/src/core/timings.ts
+- [[printTimings()]] - code - packages/coding-agent/src/core/timings.ts
+- [[promptForMissingSessionCwd()]] - code - packages/coding-agent/src/main.ts
+- [[readPipedStdin()]] - code - packages/coding-agent/src/main.ts
+- [[ref_node_http]] - concept
+- [[ref_node_tls]] - concept
+- [[reportDiagnostics()]] - code - packages/coding-agent/src/main.ts
+- [[resetTimings()]] - code - packages/coding-agent/src/core/timings.ts
+- [[resolveAppMode()]] - code - packages/coding-agent/src/main.ts
+- [[resolveCliModel()]] - code - packages/coding-agent/src/core/model-resolver.ts
+- [[resolveCredentialForPrint()]] - code - packages/coding-agent/src/cli/credential-print.ts
+- [[resolveModelScope()]] - code - packages/coding-agent/src/core/model-resolver.ts
+- [[resolveModelScopeFromModels()]] - code - packages/coding-agent/src/core/model-resolver.ts
+- [[resolveModelScopeWithDiagnostics()]] - code - packages/coding-agent/src/core/model-resolver.ts
+- [[rpc-entry.ts]] - code - packages/coding-agent/src/rpc-entry.ts
+- [[runAuthCommand()]] - code - packages/coding-agent/src/main.ts
+- [[scrollbar-theme.test.ts]] - code - packages/coding-agent/test/scrollbar-theme.test.ts
+- [[session-cwd.ts]] - code - packages/coding-agent/src/core/session-cwd.ts
+- [[setThemeJsonValidator()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[settings-diagnostics.test.ts]] - code - packages/coding-agent/test/settings-diagnostics.test.ts
+- [[settings-diagnostics.ts]] - code - packages/coding-agent/src/core/settings-diagnostics.ts
+- [[setup.ts]] - code - packages/coding-agent/src/cli/setup.ts
+- [[setupCli()]] - code - packages/coding-agent/src/cli/setup.ts
+- [[showDeprecationWarnings()]] - code - packages/coding-agent/src/migrations.ts
+- [[srcexperimentalcli.ts]] - code - packages/coding-agent/src/experimental/cli.ts
+- [[srcmain.ts]] - code - packages/coding-agent/src/main.ts
+- [[tempDir]] - code - packages/coding-agent/test/auth-check.test.ts
+- [[tempDirs_6]] - code - packages/coding-agent/test/scrollbar-theme.test.ts
+- [[theme-json.ts]] - code - packages/coding-agent/src/modes/interactive/theme/theme-json.ts
+- [[time()]] - code - packages/coding-agent/src/core/timings.ts
+- [[timingNamespaces]] - code - packages/coding-agent/src/core/timings.ts
+- [[timings.ts]] - code - packages/coding-agent/src/core/timings.ts
+- [[toPrintOutputMode()]] - code - packages/coding-agent/src/main.ts
+- [[tryMatchModel()]] - code - packages/coding-agent/src/core/model-resolver.ts
+- [[undici_1]] - concept - packages/coding-agent/package.json
+- [[validateAuthCommandArgs()]] - code - packages/coding-agent/src/cli/auth-command.ts
+- [[validateForkFlags()]] - code - packages/coding-agent/src/main.ts
+- [[validateSessionIdFlags()]] - code - packages/coding-agent/src/main.ts
+- [[validateThemeJson()]] - code - packages/coding-agent/src/modes/interactive/theme/theme-json.ts
+- [[withLock()]] - code - packages/coding-agent/test/settings-diagnostics.test.ts
+- [[withUndiciErrorListener()]] - code - packages/coding-agent/src/core/http-dispatcher.ts
+- [[writeTheme()]] - code - packages/coding-agent/test/scrollbar-theme.test.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Coding_Agent_会话工具_31
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 98 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 48 edges to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 41 edges to [[_COMMUNITY_Coding Agent 会话工具 23]]
+- 29 edges to [[_COMMUNITY_Coding Agent 会话工具 15]]
+- 25 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 22 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 21 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 19 edges to [[_COMMUNITY_Coding Agent 会话工具 65]]
+- 15 edges to [[_COMMUNITY_Coding Agent 会话工具 70]]
+- 14 edges to [[_COMMUNITY_Coding Agent 会话工具 41]]
+- 12 edges to [[_COMMUNITY_AI 模型协议 35]]
+- 11 edges to [[_COMMUNITY_Coding Agent 会话工具 116]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 29]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 19]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 149]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 84]]
+- 6 edges to [[_COMMUNITY_AI 模型协议 1]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 79]]
+- 6 edges to [[_COMMUNITY_TUI 终端组件 6]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 75]]
+- 4 edges to [[_COMMUNITY_AI 模型协议 13]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 27]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 152]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 48]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 101]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 60]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 39]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 130]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 57]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 103]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 78]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 99]]
+- 3 edges to [[_COMMUNITY_MCP 远端工具 93]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 22]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 117]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 69]]
+- 2 edges to [[_COMMUNITY_Client 远程连接 14]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 72]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 76]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 56]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 74]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 140]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 43]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 66]]
+- 1 edge to [[_COMMUNITY_MCP 远端工具 227]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 182]]
+- 1 edge to [[_COMMUNITY_MCP 远端工具 96]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 110]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 32]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 239]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 274]]
+- 1 edge to [[_COMMUNITY_Evals 行为评估 120]]
+- 1 edge to [[_COMMUNITY_MCP 远端工具 34]]
+- 1 edge to [[_COMMUNITY_跨包 类型基础 374]]
+
+## Top bridge nodes
+- [[srcmain.ts]] - degree 162, connects to 22 communities
+- [[model-resolver.ts]] - degree 54, connects to 13 communities
+- [[main()_6]] - degree 75, connects to 12 communities
+- [[model-resolver.test.ts]] - degree 42, connects to 12 communities
+- [[args.ts]] - degree 35, connects to 7 communities

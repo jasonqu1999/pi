@@ -1,0 +1,59 @@
+{
+  "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+  "maintenance_sources": [
+    "README.md",
+    "architecture.md",
+    "core-flow.md",
+    "source-navigation.md",
+    "learning-questions.md",
+    "expansion-backlog.md",
+    "evidence.md",
+    "GRAPH_REPORT.md",
+    "rebuild.md"
+  ],
+  "derived_learning_pages": [
+    {
+      "target": "obsidian/learning/README.md",
+      "source": "README.md"
+    },
+    {
+      "target": "obsidian/learning/architecture.md",
+      "source": "architecture.md"
+    },
+    {
+      "target": "obsidian/learning/core-flow.md",
+      "source": "core-flow.md"
+    },
+    {
+      "target": "obsidian/learning/source-navigation.md",
+      "source": "source-navigation.md"
+    },
+    {
+      "target": "obsidian/learning/learning-questions.md",
+      "source": "learning-questions.md"
+    },
+    {
+      "target": "obsidian/learning/expansion-backlog.md",
+      "source": "expansion-backlog.md"
+    },
+    {
+      "target": "obsidian/learning/evidence.md",
+      "source": "evidence.md"
+    },
+    {
+      "target": "obsidian/learning/GRAPH_REPORT.md",
+      "source": "GRAPH_REPORT.md"
+    },
+    {
+      "target": "obsidian/learning/rebuild.md",
+      "source": "rebuild.md"
+    }
+  ],
+  "node_index": "obsidian-node-index.json",
+  "graphify_notes": 19848,
+  "additional_derived": [
+    "obsidian/学习入口.md",
+    "obsidian/主链节点.md",
+    "obsidian/modules/"
+  ]
+}

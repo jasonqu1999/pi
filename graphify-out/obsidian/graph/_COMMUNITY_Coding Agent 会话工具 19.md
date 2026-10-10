@@ -1,0 +1,289 @@
+---
+type: community
+cohesion: 0.02
+members: 207
+---
+
+# Coding Agent 会话工具 19
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 207 nodes
+
+## Members
+- [[dot-_checkCompaction()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_clearManualCompactionState()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_emitSessionCompactFailed()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_exceedsCompactionThreshold()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_getRequiredRequestAuth()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_getSummarizationRequestAuth()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_installAgentRequestProjection()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_recordSelection()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_resolveIdleWaitIfIdle()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_restoreToolsFromTranscript()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_runAutoCompaction()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_runDefaultCompaction()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_summarizationRetryCallbacks()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-appendCompaction()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-buildSessionProjection()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-compact()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-getContextUsage()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-getSessionStats()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-getSessionStats()_1]] - code - packages/coding-agent/src/modes/interactive/components/footer.ts
+- [[dot-navigateTree()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-routedModel()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-summarizeForBugReport()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[@earendil-workspi-agent-core_3]] - code - packages/coding-agent/src/core/messages.ts
+- [[BRANCH_SUMMARY_PREFIX]] - code - packages/coding-agent/src/core/messages.ts
+- [[BRANCH_SUMMARY_SUFFIX]] - code - packages/coding-agent/src/core/messages.ts
+- [[BashExecutionMessage]] - code - packages/coding-agent/src/core/messages.ts
+- [[BranchPreparation]] - code - packages/coding-agent/src/core/compaction/branch-summarization.ts
+- [[BranchSummaryDetails]] - code - packages/coding-agent/src/core/compaction/branch-summarization.ts
+- [[COMPACTION_SUMMARY_PREFIX]] - code - packages/coding-agent/src/core/messages.ts
+- [[COMPACTION_SUMMARY_SUFFIX]] - code - packages/coding-agent/src/core/messages.ts
+- [[CollectEntriesResult]] - code - packages/coding-agent/src/core/compaction/branch-summarization.ts
+- [[CompactionDetails]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[CompactionPreparation]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[CompactionSettings]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[ContextUsageEstimate_1]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[CustomAgentMessages_1]] - code - packages/coding-agent/src/core/messages.ts
+- [[CutPointResult]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[DEFAULT_COMPACTION_SETTINGS]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[DEFAULT_THINKING_LEVEL]] - code - packages/coding-agent/src/core/defaults.ts
+- [[E08 请求前从SessionManager投影构建canonicalContext；投影按leaf压缩context_edit生成]] - rationale - packages/coding-agent/src/core/agent-session.ts
+- [[E27 SessionManager从原始树、compaction与context_edit生成保留sourceEntry的投影]] - rationale - packages/coding-agent/src/core/session-manager.ts
+- [[FileOperations]] - code - packages/coding-agent/src/core/compaction/utils.ts
+- [[GenerateBranchSummaryOptions]] - code - packages/coding-agent/src/core/compaction/branch-summarization.ts
+- [[I02 原始记录和请求投影分离有利于保留审计历史，同时需要维护者识别修改层级]] - rationale - packages/coding-agent/src/core/session-manager.ts
+- [[ModelMutationOptions]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[ModelRouteReason]] - code - packages/coding-agent/src/core/virtual-models.ts
+- [[RetryCallbacks]] - code - packages/ai/src/utils/retry.ts
+- [[SUMMARIZATION_SYSTEM_PROMPT]] - code - packages/coding-agent/src/core/compaction/utils.ts
+- [[SessionEntry_1]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[SessionProjection]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[THINKING_LEVELS_1]] - code - packages/coding-agent/src/core/virtual-models.ts
+- [[THINKING_LEVEL_OPTIONS]] - code - packages/coding-agent/src/core/defaults.ts
+- [[ToolDefinitionEntry]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[UsageCostBreakdownEntry]] - code - packages/coding-agent/src/core/usage-totals.ts
+- [[VIRTUAL_MODEL_API]] - code - packages/coding-agent/src/core/virtual-models.ts
+- [[VIRTUAL_MODEL_STATE_ENTRY]] - code - packages/coding-agent/src/core/virtual-models.ts
+- [[VirtualModelStateData]] - code - packages/coding-agent/src/core/virtual-models.ts
+- [[WithParentToolCallId]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[addFileOp()]] - code - packages/coding-agent/src/core/compaction/utils.ts
+- [[addUsageToTotals()]] - code - packages/coding-agent/src/core/usage-totals.ts
+- [[agent-session.ts]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[auth-guidance.ts]] - code - packages/coding-agent/src/core/auth-guidance.ts
+- [[bashExecutionToText()]] - code - packages/coding-agent/src/core/messages.ts
+- [[branch-summarization.ts]] - code - packages/coding-agent/src/core/compaction/branch-summarization.ts
+- [[buildContextEntries()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[buildEntryIndex()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[buildSessionContext()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[buildSessionPath()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[buildSessionProjection()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[buildSummarizationContext()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[calculateContextTokens()_1]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[coding-agentsrcutilssleep.ts]] - code - packages/coding-agent/src/utils/sleep.ts
+- [[collectEntriesForBranchSummary()]] - code - packages/coding-agent/src/core/compaction/branch-summarization.ts
+- [[combineUsage()]] - code - packages/coding-agent/src/core/usage-totals.ts
+- [[compact()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[compaction-nested-calls.test.ts]] - code - packages/coding-agent/test/compaction-nested-calls.test.ts
+- [[compaction-summary-reasoning.test.ts]] - code - packages/coding-agent/test/compaction-summary-reasoning.test.ts
+- [[compaction.test.ts]] - code - packages/coding-agent/test/compaction.test.ts
+- [[compactioncompaction.ts]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[compactionindex.ts]] - code - packages/coding-agent/src/core/compaction/index.ts
+- [[compactionutils.ts]] - code - packages/coding-agent/src/core/compaction/utils.ts
+- [[completeSummarization()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[computeFileLists()]] - code - packages/coding-agent/src/core/compaction/utils.ts
+- [[contentText()]] - code - packages/ai/src/utils/text.ts
+- [[convertToLlm()]] - code - packages/coding-agent/src/core/messages.ts
+- [[createAssistantMessage()_6]] - code - packages/coding-agent/test/compaction.test.ts
+- [[createBranchSummaryMessage()]] - code - packages/coding-agent/src/core/messages.ts
+- [[createCompactionEntry()]] - code - packages/coding-agent/test/compaction.test.ts
+- [[createCompactionSummaryMessage()]] - code - packages/coding-agent/src/core/messages.ts
+- [[createCustomMessage()]] - code - packages/coding-agent/src/core/messages.ts
+- [[createCustomMessageEntry()]] - code - packages/coding-agent/test/compaction.test.ts
+- [[createFileOps()]] - code - packages/coding-agent/src/core/compaction/utils.ts
+- [[createMessageEntry()]] - code - packages/coding-agent/test/compaction.test.ts
+- [[createMockUsage()]] - code - packages/coding-agent/test/compaction.test.ts
+- [[createModel()_10]] - code - packages/coding-agent/test/compaction-summary-reasoning.test.ts
+- [[createModelChangeEntry()]] - code - packages/coding-agent/test/compaction.test.ts
+- [[createSummarizationOptions()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[createThinkingLevelEntry()]] - code - packages/coding-agent/test/compaction.test.ts
+- [[createUsageTotals()]] - code - packages/coding-agent/src/core/usage-totals.ts
+- [[createUserMessage()_3]] - code - packages/coding-agent/test/compaction.test.ts
+- [[custom-compaction.ts]] - code - packages/coding-agent/examples/extensions/custom-compaction.ts
+- [[defaults.ts]] - code - packages/coding-agent/src/core/defaults.ts
+- [[entryToMessage()]] - code - packages/coding-agent/examples/extensions/handoff.ts
+- [[estimateContextTokens()_1]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[estimateMessagesTokens()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[estimateProjectedContextTokens()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[estimateTextAndImageContentChars()_1]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[estimateTokens()_1]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[extractFileOperations()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[extractFileOpsFromMessage()]] - code - packages/coding-agent/src/core/compaction/utils.ts
+- [[extractText()]] - code - packages/coding-agent/test/compaction.test.ts
+- [[findCutPoint()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[findLastModelChange()]] - code - packages/coding-agent/src/core/virtual-models.ts
+- [[findLatestResponse()]] - code - packages/coding-agent/src/core/virtual-models.ts
+- [[findProjectedCutPoint()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[findProjectedTurnStartIndex()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[findTurnStartIndex()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[findValidCutPoints()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[formatFileOperations()]] - code - packages/coding-agent/src/core/compaction/utils.ts
+- [[formatNoApiKeyFoundMessage()]] - code - packages/coding-agent/src/core/auth-guidance.ts
+- [[formatNoModelSelectedMessage()]] - code - packages/coding-agent/src/core/auth-guidance.ts
+- [[generateBranchSummary()]] - code - packages/coding-agent/src/core/compaction/branch-summarization.ts
+- [[generateBugReportSummary()]] - code - packages/coding-agent/src/core/bug-report.ts
+- [[generateSummary()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[generateSummaryWithUsage()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[generateTurnPrefixSummary()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[getAssistantUsage()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[getBranchSelection()]] - code - packages/coding-agent/src/core/virtual-models.ts
+- [[getCurrentSystemMessage()]] - code - packages/ai/src/utils/transcript.ts
+- [[getDocsPath()]] - code - packages/coding-agent/src/config.ts
+- [[getHandoffMessages()]] - code - packages/coding-agent/examples/extensions/handoff.ts
+- [[getLastAssistantUsage()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[getLastAssistantUsageInfo()_1]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[getLatestCompactionEntry()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[getMessageFromEntry()]] - code - packages/coding-agent/src/core/compaction/branch-summarization.ts
+- [[getMessagesFromProjectedEntryForCompaction()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[getProviderLoginHelp()]] - code - packages/coding-agent/src/core/auth-guidance.ts
+- [[getSessionContextSettings()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[getSummarizationFailure()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[getUsageCostBreakdown()]] - code - packages/coding-agent/src/core/usage-totals.ts
+- [[getVirtualModelState()]] - code - packages/coding-agent/src/core/virtual-models.ts
+- [[handoff.ts]] - code - packages/coding-agent/examples/extensions/handoff.ts
+- [[isCutPointMessage()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[isProjectedTurnStart()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[isRecoverableLength()]] - code - packages/ai/src/utils/overflow.ts
+- [[isTurnStartEntry()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[isTurnStartMessage()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[isVirtualModel()]] - code - packages/coding-agent/src/core/virtual-models.ts
+- [[loadLargeSessionEntries()]] - code - packages/coding-agent/test/compaction.test.ts
+- [[messages]] - code - packages/coding-agent/test/compaction-summary-reasoning.test.ts
+- [[messages.ts]] - code - packages/coding-agent/src/core/messages.ts
+- [[migrateSessionEntries()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[mockSummaryResponse]] - code - packages/coding-agent/test/compaction-summary-reasoning.test.ts
+- [[mockToolCallResponse]] - code - packages/coding-agent/test/compaction-summary-reasoning.test.ts
+- [[packages_agent_src_index_aftertoolcallcontext]] - concept
+- [[packages_agent_src_index_aftertoolcallresult]] - concept
+- [[packages_agent_src_index_agentcontext]] - concept
+- [[packages_agent_src_index_agentmessage]] - concept
+- [[packages_agent_src_index_beforetoolcallcontext]] - concept
+- [[packages_agent_src_index_beforetoolcallresult]] - concept
+- [[packages_agent_src_index_preparenextturncontext]] - concept
+- [[packages_ai_src_compat_authresult]] - concept
+- [[packages_ai_src_compat_cleanupsessionresources]] - concept
+- [[packages_ai_src_compat_iscontextoverflow]] - concept
+- [[packages_ai_src_compat_isrecoverablelength]] - concept
+- [[packages_ai_src_compat_isretryableassistanterror]] - concept
+- [[packages_ai_src_compat_modelsareequal]] - concept
+- [[packages_ai_src_compat_providerheaders]] - concept
+- [[packages_ai_src_compat_retrycallbacks]] - concept
+- [[packages_ai_src_compat_systemmessage]] - concept
+- [[packages_ai_src_index_anymodel]] - concept
+- [[packages_ai_src_index_getcurrentsystemmessage]] - concept
+- [[packages_ai_src_index_retryassistantcall]] - concept
+- [[packages_ai_src_index_retrycallbacks]] - concept
+- [[packages_ai_src_index_retrydelayms]] - concept
+- [[packages_ai_src_index_thinkinglevelmap]] - concept
+- [[packages_coding_agent_src_core_compaction_index_calculatecontexttokens]] - concept
+- [[packages_coding_agent_src_core_compaction_index_collectentriesforbranchsummary]] - concept
+- [[packages_coding_agent_src_core_compaction_index_compact]] - concept
+- [[packages_coding_agent_src_core_compaction_index_compactionpreparation]] - concept
+- [[packages_coding_agent_src_core_compaction_index_compactionsettings]] - concept
+- [[packages_coding_agent_src_core_compaction_index_completesummarization]] - concept
+- [[packages_coding_agent_src_core_compaction_index_default_compaction_settings]] - concept
+- [[packages_coding_agent_src_core_compaction_index_estimatecontexttokens]] - concept
+- [[packages_coding_agent_src_core_compaction_index_findcutpoint]] - concept
+- [[packages_coding_agent_src_core_compaction_index_generatesummary]] - concept
+- [[packages_coding_agent_src_core_compaction_index_generatesummarywithusage]] - concept
+- [[packages_coding_agent_src_core_compaction_index_getlastassistantusage]] - concept
+- [[packages_coding_agent_src_core_compaction_index_preparecompaction]] - concept
+- [[packages_coding_agent_src_core_compaction_index_shouldcompact]] - concept
+- [[parseSkillBlock()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[prepareBranchEntries()]] - code - packages/coding-agent/src/core/compaction/branch-summarization.ts
+- [[prepareCompaction()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[projectContextEntry()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[resetEntryCounter()]] - code - packages/coding-agent/test/compaction.test.ts
+- [[serializeConversation()]] - code - packages/coding-agent/src/core/compaction/utils.ts
+- [[sessionEntryToContextMessages()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[shouldCompact()]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[sleep()_5]] - code - packages/coding-agent/src/utils/sleep.ts
+- [[truncateForSummary()]] - code - packages/coding-agent/src/core/compaction/utils.ts
+- [[unroutedStream()]] - code - packages/coding-agent/src/core/virtual-models.ts
+- [[usage-totals.ts]] - code - packages/coding-agent/src/core/usage-totals.ts
+- [[uuidv7()]] - code - packages/ai/src/utils/uuid.ts
+- [[virtual-models.ts]] - code - packages/coding-agent/src/core/virtual-models.ts
+- [[withVirtualModels()]] - code - packages/coding-agent/src/core/virtual-models.ts
+- [[withoutDeletedHeaders()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[{ completeSimpleMock }]] - code - packages/coding-agent/test/compaction-summary-reasoning.test.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Coding_Agent_会话工具_19
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 114 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 81 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 79 edges to [[_COMMUNITY_Coding Agent 会话工具 29]]
+- 73 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 40 edges to [[_COMMUNITY_Coding Agent 会话工具 27]]
+- 38 edges to [[_COMMUNITY_Coding Agent 会话工具 15]]
+- 37 edges to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 30 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 27 edges to [[_COMMUNITY_AI 模型协议 1]]
+- 22 edges to [[_COMMUNITY_Coding Agent 会话工具 78]]
+- 17 edges to [[_COMMUNITY_Coding Agent 会话工具 116]]
+- 16 edges to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 14 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 11 edges to [[_COMMUNITY_Coding Agent 会话工具 41]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 9 edges to [[_COMMUNITY_Coding Agent 会话工具 42]]
+- 9 edges to [[_COMMUNITY_Coding Agent 会话工具 143]]
+- 8 edges to [[_COMMUNITY_AI 模型协议 44]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 31]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 24]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 77]]
+- 6 edges to [[_COMMUNITY_Durable 持久任务 21]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 56]]
+- 6 edges to [[_COMMUNITY_Evals 行为评估 114]]
+- 5 edges to [[_COMMUNITY_AI 模型协议 54]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 103]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 51]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 22]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 99]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 23]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 66]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 165]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 25]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 52]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 35]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 152]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 206]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 163]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 205]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 65]]
+- 2 edges to [[_COMMUNITY_MCP 远端工具 227]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 18]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 80]]
+- 1 edge to [[_COMMUNITY_Agent 控制循环 85]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 47]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 75]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 43]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 194]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 26]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 9]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 101]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 190]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 112]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 70]]
+
+## Top bridge nodes
+- [[agent-session.ts]] - degree 270, connects to 32 communities
+- [[compactioncompaction.ts]] - degree 93, connects to 14 communities
+- [[virtual-models.ts]] - degree 56, connects to 14 communities
+- [[branch-summarization.ts]] - degree 51, connects to 11 communities
+- [[compaction.test.ts]] - degree 54, connects to 8 communities

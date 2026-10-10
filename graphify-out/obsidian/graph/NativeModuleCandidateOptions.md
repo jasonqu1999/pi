@@ -1,0 +1,18 @@
+---
+source_file: "packages/tui/src/native-module-path.ts"
+type: "code"
+community: "TUI 终端组件 246"
+location: "L8"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/TUI_终端组件_246
+---
+
+# NativeModuleCandidateOptions
+
+#graphify/code #graphify/EXTRACTED #community/TUI_终端组件_246
+
+## 源码入口
+
+[packages/tui/src/native-module-path.ts](../../../packages/tui/src/native-module-path.ts)

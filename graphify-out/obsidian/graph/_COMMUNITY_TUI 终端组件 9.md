@@ -1,0 +1,329 @@
+---
+type: community
+cohesion: 0.02
+members: 265
+---
+
+# TUI 终端组件 9
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 265 nodes
+
+## Members
+- [[dot-addChild()_1]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-afterTerminalStop()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-applyLineResets()]] - code - packages/tui/src/tui.ts
+- [[dot-applyMouseDispatchResult()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-applySearchHighlights()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-applySearchTextHighlight()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-applySelection()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-applySelectionHighlight()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-autoScrollSelection()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-beforeTerminalStart()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-beforeTerminalStop()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-clear()_9]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-clear()_15]] - code - packages/tui/src/utils.ts
+- [[dot-clearComponentMouseGesture()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-clearTextSelection()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-closeSearch()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-compositeFlashes()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-compositeLineAt()]] - code - packages/tui/src/tui.ts
+- [[dot-compositeOverlays()]] - code - packages/tui/src/tui.ts
+- [[dot-compositeScrollToEndIndicator()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-constructor()_322]] - code - packages/tui/src/alt-screen-search.ts
+- [[dot-constructor()_324]] - code - packages/tui/src/components/alt-screen-flash.ts
+- [[dot-constructor()_333]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-constructor()_344]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-constructor()_347]] - code - packages/tui/src/wheel-scroll.ts
+- [[dot-copyActiveSelectionToClipboard()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-copySelectionToClipboard()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-copyTextToClipboard()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-createMouseEvent()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-decodeMouseButton()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-deleteKittyImages()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-dispatchMouseToLayout()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-dispatchMouseToTarget()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-dispose()_53]] - code - packages/tui/src/components/alt-screen-flash.ts
+- [[dot-doRender()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-flash()]] - code - packages/tui/src/components/alt-screen-flash.ts
+- [[dot-flash()_1]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-focused()_18]] - code - packages/tui/src/alt-screen-search.ts
+- [[dot-getActiveBackgroundCode()]] - code - packages/tui/src/utils.ts
+- [[dot-getActiveCodes()]] - code - packages/tui/src/utils.ts
+- [[dot-getActiveSelectionText()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-getClickCount()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-getComponentClickCount()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-getContentWidth()]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-getCopyOnSelect()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-getKittyImageReservedRows()]] - code - packages/tui/src/tui-main-screen.ts
+- [[dot-getLineEndReset()]] - code - packages/tui/src/utils.ts
+- [[dot-getLineSelection()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-getNavigationDirectionAt()]] - code - packages/tui/src/alt-screen-search.ts
+- [[dot-getPrimaryScrollView()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-getScreenLines()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-getScrollSelectionPoint()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-getScrollbarTargetAt()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-getSearchNavigationDirectionAt()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-getSelectionBounds()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-getSelectionColumns()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-getSelectionPoint()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-getSelectionSourceLine()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-getWordSelection()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-handleInput()_1]] - code - packages/coding-agent/examples/extensions/modal-editor.ts
+- [[dot-handleInput()_58]] - code - packages/tui/src/alt-screen-search.ts
+- [[dot-handleMouse()_2]] - code - packages/coding-agent/src/modes/interactive/interactive-mode.ts
+- [[dot-handleMouse()_3]] - code - packages/tui/src/components/box.ts
+- [[dot-handleMouse()_5]] - code - packages/tui/src/components/input.ts
+- [[dot-handleMouse()_6]] - code - packages/tui/src/components/mouse-region.ts
+- [[dot-handleMouse()_10]] - code - packages/tui/src/tui.ts
+- [[dot-handleMouseEvent()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-handleRightClickPaste()_1]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-handleScrollToEndIndicatorMouseEvent()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-handleScrollbarMouseEvent()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-handleSearchMouseEvent()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-handleSelectionMouseEvent()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-handleViewportInput()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-hasActiveCodes()]] - code - packages/tui/src/utils.ts
+- [[dot-hasActiveSelection()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-hideTransientScrollbar()]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-invalidate()_49]] - code - packages/tui/src/alt-screen-search.ts
+- [[dot-invalidate()_50]] - code - packages/tui/src/components/alt-screen-flash.ts
+- [[dot-isFollowingEnd()]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-isFollowingOutput()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-isMouseSequence()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-isScrollbarActive()]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-isScrollbarVisible()]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-markScrollbarActivity()]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-navigateSearch()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-next()_1]] - code - packages/tui/src/wheel-scroll.ts
+- [[dot-parseSgrMouseEvent()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-parseWheelEvent()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-process()_1]] - code - packages/tui/src/utils.ts
+- [[dot-refreshSearch()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-removeChild()_1]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-render()_3]] - code - packages/coding-agent/examples/extensions/modal-editor.ts
+- [[dot-render()_43]] - code - packages/coding-agent/src/modes/interactive/components/footer.ts
+- [[dot-render()_57]] - code - packages/coding-agent/src/modes/interactive/components/visual-truncate.ts
+- [[dot-render()_59]] - code - packages/tui/src/alt-screen-search.ts
+- [[dot-render()_60]] - code - packages/tui/src/components/alt-screen-flash.ts
+- [[dot-render()_65]] - code - packages/tui/src/components/input.ts
+- [[dot-render()_69]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-render()_74]] - code - packages/tui/src/components/truncated-text.ts
+- [[dot-render()_77]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-render()_79]] - code - packages/tui/src/tui.ts
+- [[dot-renderInBorder()]] - code - packages/coding-agent/src/modes/interactive/components/status-indicator.ts
+- [[dot-renderSpinnerInBorder()]] - code - packages/coding-agent/src/modes/interactive/components/status-indicator.ts
+- [[dot-reset()_6]] - code - packages/tui/src/utils.ts
+- [[dot-reset()_7]] - code - packages/tui/src/wheel-scroll.ts
+- [[dot-resetRenderState()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-restoreRenderState()]] - code - packages/tui/src/tui-main-screen.ts
+- [[dot-routeWheel()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-scrollBy()]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-scrollBy()_1]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-scrollScrollbarToPointer()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-scrollTo()]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-scrollToBottom()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-scrollToEnd()]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-scrollToPrompt()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-scrollToStart()]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-scrollToTop()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-scrollTop()]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-scrollbar()]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-search()_1]] - code - packages/tui/src/alt-screen-search.ts
+- [[dot-setCopyOnSelect()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-setHoveredNavigationDirection()]] - code - packages/tui/src/alt-screen-search.ts
+- [[dot-setLayoutRoot()_1]] - code - packages/tui/src/tui.ts
+- [[dot-setLines()_1]] - code - packages/tui/src/wheel-scroll.ts
+- [[dot-setResult()]] - code - packages/tui/src/alt-screen-search.ts
+- [[dot-setScrollbar()]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-setScrollbarActive()]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-setScrollbarHover()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-shouldDeferViewportInputToOverlay()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-stopScrollbarDrag()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-stopScrollbarHover()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-stopSelectionAutoScroll()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-toggleSearch()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-updateLayout()]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-updateScrollbarHover()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-updateSearchQuery()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-updateSelectionAutoScroll()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-updateSelectionFocus()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-viewportHeight()]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-viewportTop()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[ActiveHyperlink]] - code - packages/tui/src/utils.ts
+- [[ActiveSearch]] - code - packages/tui/src/tui-alt-screen.ts
+- [[AltScreenFlashContainer]] - code - packages/tui/src/components/alt-screen-flash.ts
+- [[AltScreenSearchComponent]] - code - packages/tui/src/alt-screen-search.ts
+- [[AltScreenSearchIndex]] - code - packages/tui/src/alt-screen-search.ts
+- [[AltScreenSearchMatch]] - code - packages/tui/src/alt-screen-search.ts
+- [[AltScreenSearchResult]] - code - packages/tui/src/alt-screen-search.ts
+- [[AltScreenSearchSegment]] - code - packages/tui/src/alt-screen-search.ts
+- [[AnsiCodeTracker]] - code - packages/tui/src/utils.ts
+- [[CachedKittyImage]] - code - packages/tui/src/tui-alt-screen.ts
+- [[ClickTarget]] - code - packages/tui/src/tui-alt-screen.ts
+- [[FlashEntry]] - code - packages/tui/src/components/alt-screen-flash.ts
+- [[GraphemeCellRange]] - code - packages/tui/src/utils.ts
+- [[LayoutBox]] - code - packages/tui/src/layout.ts
+- [[LayoutContext]] - code - packages/tui/src/layout.ts
+- [[LayoutFrame]] - code - packages/tui/src/layout.ts
+- [[LayoutRect]] - code - packages/tui/src/layout.ts
+- [[ModalEditor]] - code - packages/coding-agent/examples/extensions/modal-editor.ts
+- [[NORMAL_KEYS]] - code - packages/coding-agent/examples/extensions/modal-editor.ts
+- [[Osc8Terminator]] - code - packages/tui/src/utils.ts
+- [[RenderCache]] - code - packages/tui/src/components/box.ts
+- [[ScrollToEndIndicatorRect]] - code - packages/tui/src/tui-alt-screen.ts
+- [[ScrollView]] - code - packages/tui/src/components/scroll-view.ts
+- [[ScrollbarDrag]] - code - packages/tui/src/tui-alt-screen.ts
+- [[ScrollbarGeometry]] - code - packages/tui/src/layout.ts
+- [[ScrollbarTarget]] - code - packages/tui/src/tui-alt-screen.ts
+- [[SearchCorpus]] - code - packages/tui/src/alt-screen-search.ts
+- [[SearchHighlightRange]] - code - packages/tui/src/tui-alt-screen.ts
+- [[SearchSelectionMode]] - code - packages/tui/src/tui-alt-screen.ts
+- [[SearchSourceSpan]] - code - packages/tui/src/alt-screen-search.ts
+- [[SelectionGranularity]] - code - packages/tui/src/tui-alt-screen.ts
+- [[SelectionPoint]] - code - packages/tui/src/tui-alt-screen.ts
+- [[SelectionRange]] - code - packages/tui/src/tui-alt-screen.ts
+- [[SgrMouseEvent]] - code - packages/tui/src/tui-alt-screen.ts
+- [[TERMINAL_WORD_SELECTION_JOINERS]] - code - packages/tui/src/tui-alt-screen.ts
+- [[TuiAltScreen]] - code - packages/tui/src/tui-alt-screen.ts
+- [[TuiMouseButton]] - code - packages/tui/src/tui.ts
+- [[TuiMouseDispatchResult]] - code - packages/tui/src/tui.ts
+- [[TuiMouseDispatchTarget]] - code - packages/tui/src/tui.ts
+- [[TuiMouseEvent]] - code - packages/tui/src/tui.ts
+- [[TuiMouseEventResult]] - code - packages/tui/src/tui.ts
+- [[VIEWPORT_TUI]] - code - packages/tui/src/tui.ts
+- [[ViewportTUI]] - code - packages/tui/src/tui.ts
+- [[WheelEvent]] - code - packages/tui/src/tui-alt-screen.ts
+- [[WheelScrollAccelerator]] - code - packages/tui/src/wheel-scroll.ts
+- [[alt-screen-flash.ts]] - code - packages/tui/src/components/alt-screen-flash.ts
+- [[alt-screen-search.ts]] - code - packages/tui/src/alt-screen-search.ts
+- [[ansiCodeLength()]] - code - packages/tui/src/utils.ts
+- [[asciiVisibleWidth()]] - code - packages/tui/src/utils.ts
+- [[box.ts]] - code - packages/tui/src/components/box.ts
+- [[breakLongWord()]] - code - packages/tui/src/utils.ts
+- [[buildSearchCorpus()]] - code - packages/tui/src/alt-screen-search.ts
+- [[cjkPunctuationRegex]] - code - packages/tui/src/utils.ts
+- [[coding-agenttesttruncate-to-width.test.ts]] - code - packages/coding-agent/test/truncate-to-width.test.ts
+- [[compositeTuiLine()]] - code - packages/tui/src/tui.ts
+- [[containsPoint()]] - code - packages/tui/src/layout.ts
+- [[couldBeEmoji()]] - code - packages/tui/src/utils.ts
+- [[createScrollBorder()]] - code - packages/tui/src/components/editor.ts
+- [[custom-footer.ts]] - code - packages/coding-agent/examples/extensions/custom-footer.ts
+- [[dispatchMouseEvent()]] - code - packages/tui/src/tui.ts
+- [[escapeRegExp()_1]] - code - packages/tui/src/alt-screen-search.ts
+- [[extractAnsiCode()]] - code - packages/tui/src/utils.ts
+- [[extractSegments()]] - code - packages/tui/src/utils.ts
+- [[finalizeTruncatedResult()]] - code - packages/tui/src/utils.ts
+- [[findAltScreenSearchMatches()]] - code - packages/tui/src/alt-screen-search.ts
+- [[findSearchCorpusMatches()]] - code - packages/tui/src/alt-screen-search.ts
+- [[formatCwdForFooter()]] - code - packages/coding-agent/src/modes/interactive/components/footer.ts
+- [[formatOsc8Close()]] - code - packages/tui/src/utils.ts
+- [[formatOsc8Hyperlink()]] - code - packages/tui/src/utils.ts
+- [[getActiveBackgroundAnsi()]] - code - packages/tui/src/utils.ts
+- [[getActiveOsc8Close()]] - code - packages/tui/src/utils.ts
+- [[getAltScreenSearchMatchKey()]] - code - packages/tui/src/alt-screen-search.ts
+- [[getGraphemeCellRange()]] - code - packages/tui/src/utils.ts
+- [[getGraphemeSegmenter()]] - code - packages/tui/src/utils.ts
+- [[getLayoutBoxesAt()]] - code - packages/tui/src/layout.ts
+- [[getLayoutNode()]] - code - packages/tui/src/layout-node.ts
+- [[getOsc8LinkAtColumn()]] - code - packages/tui/src/utils.ts
+- [[getScrollViewBox()]] - code - packages/tui/src/layout.ts
+- [[getScrollViewsAt()]] - code - packages/tui/src/layout.ts
+- [[getScrollbarGeometry()]] - code - packages/tui/src/layout.ts
+- [[graphemeSegmenter_1]] - code - packages/tui/src/utils.ts
+- [[graphemeSegments()]] - code - packages/tui/src/utils.ts
+- [[graphemeWidth()]] - code - packages/tui/src/utils.ts
+- [[intersect()]] - code - packages/tui/src/layout.ts
+- [[invalidate()]] - code - packages/coding-agent/examples/extensions/custom-footer.ts
+- [[isImageLine()]] - code - packages/tui/src/terminal-image.ts
+- [[isPrintableAscii()]] - code - packages/tui/src/utils.ts
+- [[isPunctuationChar()]] - code - packages/tui/src/utils.ts
+- [[layout.ts]] - code - packages/tui/src/layout.ts
+- [[layoutComponent()]] - code - packages/tui/src/layout.ts
+- [[measureHeight()]] - code - packages/tui/src/layout.ts
+- [[measureWidth()]] - code - packages/tui/src/layout.ts
+- [[modal-editor.ts]] - code - packages/coding-agent/examples/extensions/modal-editor.ts
+- [[normalizeQuery()]] - code - packages/tui/src/alt-screen-search.ts
+- [[paintBox()]] - code - packages/tui/src/layout.ts
+- [[paintScrollbar()]] - code - packages/tui/src/layout.ts
+- [[parseOsc8Hyperlink()]] - code - packages/tui/src/utils.ts
+- [[pooledStyleTracker]] - code - packages/tui/src/utils.ts
+- [[regression-overlay-cjk-boundary.test.ts]] - code - packages/tui/test/regression-overlay-cjk-boundary.test.ts
+- [[render()]] - code - packages/coding-agent/examples/extensions/custom-footer.ts
+- [[renderCached()]] - code - packages/tui/src/layout.ts
+- [[renderHorizontalViewport()]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[renderLayoutFrame()]] - code - packages/tui/src/layout.ts
+- [[replaceScrollbarCell()]] - code - packages/tui/src/layout.ts
+- [[retargetMouseEvent()]] - code - packages/tui/src/tui.ts
+- [[sanitizeStatusText()]] - code - packages/coding-agent/src/modes/interactive/components/footer.ts
+- [[scroll()]] - code - packages/tui/test/wheel-scroll.test.ts
+- [[segmenter_1]] - code - packages/tui/src/alt-screen-search.ts
+- [[sliceByColumn()]] - code - packages/tui/src/utils.ts
+- [[sliceWithWidth()]] - code - packages/tui/src/utils.ts
+- [[splitIntoTokensWithAnsi()]] - code - packages/tui/src/utils.ts
+- [[srcutils.ts]] - code - packages/tui/src/utils.ts
+- [[translateBox()]] - code - packages/tui/src/layout.ts
+- [[truncateFragmentToWidth()]] - code - packages/tui/src/utils.ts
+- [[truncateToWidth()]] - code - packages/tui/src/utils.ts
+- [[tui-alt-screen.ts]] - code - packages/tui/src/tui-alt-screen.ts
+- [[updateClips()]] - code - packages/tui/src/layout.ts
+- [[updateTrackerFromText()]] - code - packages/tui/src/utils.ts
+- [[visibleIndexOf()]] - code - packages/tui/test/select-list.test.ts
+- [[visibleWidth()]] - code - packages/tui/src/utils.ts
+- [[widthCache]] - code - packages/tui/src/utils.ts
+- [[withParent()]] - code - packages/tui/src/layout.ts
+- [[wordSegmenter_1]] - code - packages/tui/src/tui-alt-screen.ts
+- [[wordSegmenter_2]] - code - packages/tui/src/utils.ts
+- [[wrapSingleLine()]] - code - packages/tui/src/utils.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/TUI_终端组件_9
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 183 edges to [[_COMMUNITY_TUI 终端组件 6]]
+- 54 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 35 edges to [[_COMMUNITY_TUI 终端组件 26]]
+- 28 edges to [[_COMMUNITY_TUI 终端组件 37]]
+- 27 edges to [[_COMMUNITY_Coding Agent 会话工具 16]]
+- 22 edges to [[_COMMUNITY_TUI 终端组件 80]]
+- 14 edges to [[_COMMUNITY_TUI 终端组件 62]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 39]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 94]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 46]]
+- 9 edges to [[_COMMUNITY_TUI 终端组件 68]]
+- 9 edges to [[_COMMUNITY_TUI 终端组件 89]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 71]]
+- 6 edges to [[_COMMUNITY_TUI 终端组件 105]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 81]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 60]]
+- 4 edges to [[_COMMUNITY_TUI 终端组件 67]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 166]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 56]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 24]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 269]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 238]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 189]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 171]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 70]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 84]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 1]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 127]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 19]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 163]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 190]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 142]]
+
+## Top bridge nodes
+- [[tui-alt-screen.ts]] - degree 87, connects to 8 communities
+- [[alt-screen-search.ts]] - degree 29, connects to 5 communities
+- [[custom-footer.ts]] - degree 11, connects to 5 communities
+- [[modal-editor.ts]] - degree 10, connects to 5 communities
+- [[TuiAltScreen]] - degree 109, connects to 4 communities

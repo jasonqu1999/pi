@@ -1,0 +1,17 @@
+{
+  "kind": "static graph query",
+  "command": "graphify query 'streamAssistantResponse createToolResultMessage buildSessionProjection' --budget 900",
+  "status": "completed",
+  "traversal": "BFS depth=2",
+  "matched_start_nodes": ["streamAssistantResponse()", "buildSessionProjection()", "createToolResultMessage()"],
+  "nodes_found": 55,
+  "nodes_shown": 20,
+  "budget_truncated": true,
+  "source_locations": {
+    "streamAssistantResponse": "packages/agent/src/agent-loop.ts:L381",
+    "createToolResultMessage": "packages/agent/src/agent-loop.ts:L922",
+    "buildSessionProjection": "packages/coding-agent/src/core/session-manager.ts:L543"
+  },
+  "interpretation": "Query resolves source vocabulary and returns source-bearing nodes; budget truncation is visible. This does not verify runtime order or behavior.",
+  "provider_request": false
+}

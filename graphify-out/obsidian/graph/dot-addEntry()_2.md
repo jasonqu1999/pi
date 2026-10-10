@@ -1,0 +1,28 @@
+---
+source_file: "packages/coding-agent/src/experimental/vacation/tui.ts"
+type: "code"
+community: "Coding Agent 会话工具 46"
+location: "L428"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Coding_Agent_会话工具_46
+---
+
+# .#addEntry()
+
+## Connections
+- [[dot-addText()_4]] - `calls` [EXTRACTED]
+- [[dot-tool()_2]] - `calls` [EXTRACTED]
+- [[AssistantMessageComponent]] - `calls` [EXTRACTED]
+- [[CompactionComponent_1]] - `calls` [EXTRACTED]
+- [[EntryRecord]] - `references` [EXTRACTED]
+- [[Spacer]] - `calls` [EXTRACTED]
+- [[UserMessageComponent]] - `calls` [EXTRACTED]
+- [[userText()_2]] - `calls` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Coding_Agent_会话工具_46
+
+## 源码入口
+
+[packages/coding-agent/src/experimental/vacation/tui.ts](../../../packages/coding-agent/src/experimental/vacation/tui.ts)

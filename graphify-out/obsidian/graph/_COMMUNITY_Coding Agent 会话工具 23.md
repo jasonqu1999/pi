@@ -1,0 +1,290 @@
+---
+type: community
+cohesion: 0.02
+members: 192
+---
+
+# Coding Agent 会话工具 23
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 192 nodes
+
+## Members
+- [[dot-constructor()_150]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[dot-get()_4]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[dot-getEntry()_1]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[dot-release()]] - code - packages/coding-agent/src/experimental/durable/sessions.ts
+- [[dot-release()_2]] - code - packages/coding-agent/src/experimental/vacation/sessions.ts
+- [[dot-set()]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[dot-setMany()]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[dot-setProgressCallback()_1]] - code - packages/coding-agent/src/core/package-manager.ts
+- [[5661-uppercase-header-values.test.ts]] - code - packages/coding-agent/test/suite/regressions/5661-uppercase-header-values.test.ts
+- [[APP_TITLE]] - code - packages/coding-agent/src/config.ts
+- [[AppMode]] - code - packages/coding-agent/src/core/project-trust.ts
+- [[CONFIG_DIR_NAME]] - code - packages/coding-agent/src/config.ts
+- [[CommandSettingsResult]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[DEFAULT_CONFIG]] - code - packages/coding-agent/examples/extensions/sandbox/index.ts
+- [[ENV_AGENT_DIR]] - code - packages/coding-agent/src/config.ts
+- [[InstallMethod]] - code - packages/coding-agent/src/config.ts
+- [[PACKAGE_NAME]] - code - packages/coding-agent/src/config.ts
+- [[PackageCommand]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[PackageCommandOptions]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[PackageCommandRuntimeOptions]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[PackageJson]] - code - packages/coding-agent/src/config.ts
+- [[ProjectTrustDecision]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[ProjectTrustStore]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[ProjectTrustUpdate]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[ResolvedPaths]] - code - packages/coding-agent/src/core/package-manager.ts
+- [[SELF_UPDATE_NOTE_MARKDOWN_THEME]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[SandboxConfig]] - code - packages/coding-agent/examples/extensions/sandbox/index.ts
+- [[SelfUpdateCommand]] - code - packages/coding-agent/src/config.ts
+- [[SelfUpdateCommandStep]] - code - packages/coding-agent/src/config.ts
+- [[SelfUpdatePackageTarget]] - code - packages/coding-agent/src/config.ts
+- [[SelfUpdatePlan]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[SessionLocation]] - code - packages/coding-agent/src/experimental/durable/sessions.ts
+- [[SessionLocation_1]] - code - packages/coding-agent/src/experimental/vacation/sessions.ts
+- [[TRUST_REQUIRING_PROJECT_CONFIG_RESOURCES]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[TrustFile]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[UpdateTarget]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[VERSION_14]] - code - packages/coding-agent/src/config.ts
+- [[__dirname_7]] - code - packages/coding-agent/src/config.ts
+- [[__filename_5]] - code - packages/coding-agent/src/config.ts
+- [[acquireTrustLockSync()]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[activateManagedRelease()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[bedrockProviderModule]] - code - packages/ai/src/bedrock-provider.ts
+- [[checkDeprecatedExtensionDirs()]] - code - packages/coding-agent/src/migrations.ts
+- [[checkForNewPiVersion()]] - code - packages/coding-agent/src/utils/version-check.ts
+- [[child-process.ts]] - code - packages/coding-agent/src/utils/child-process.ts
+- [[cleanupManagedInstall()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[cleanupManagedStaging()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[cleanupWindowsSelfUpdateQuarantine()]] - code - packages/coding-agent/src/utils/windows-self-update.ts
+- [[codemode-worker-config.test.ts]] - code - packages/coding-agent/test/codemode-worker-config.test.ts
+- [[coding-agentsrcutilspi-user-agent.ts]] - code - packages/coding-agent/src/utils/pi-user-agent.ts
+- [[comparePackageVersions()]] - code - packages/coding-agent/src/utils/version-check.ts
+- [[config-value-migration.test.ts]] - code - packages/coding-agent/test/config-value-migration.test.ts
+- [[config.test.ts]] - code - packages/coding-agent/test/config.test.ts
+- [[createAgentDir()]] - code - packages/coding-agent/test/config-value-migration.test.ts
+- [[createAgentDir()_1]] - code - packages/coding-agent/test/keybindings-migration.test.ts
+- [[createBunGlobalInstall()]] - code - packages/coding-agent/test/config.test.ts
+- [[createCommandSettingsManager()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[createFakeBunScript()]] - code - packages/coding-agent/test/config.test.ts
+- [[createFakePnpmScript()]] - code - packages/coding-agent/test/config.test.ts
+- [[createFakeYarnScript()]] - code - packages/coding-agent/test/config.test.ts
+- [[createNpmPrefixInstall()]] - code - packages/coding-agent/test/config.test.ts
+- [[createPnpmGlobalInstall()]] - code - packages/coding-agent/test/config.test.ts
+- [[createSandboxedBashOps()]] - code - packages/coding-agent/examples/extensions/sandbox/index.ts
+- [[createYarnGlobalInstall()]] - code - packages/coding-agent/test/config.test.ts
+- [[custom-header.ts]] - code - packages/coding-agent/examples/extensions/custom-header.ts
+- [[deepMerge()]] - code - packages/coding-agent/examples/extensions/sandbox/index.ts
+- [[detectInstallMethod()]] - code - packages/coding-agent/src/config.ts
+- [[durablesessions.ts]] - code - packages/coding-agent/src/experimental/durable/sessions.ts
+- [[execPathDescriptor]] - code - packages/coding-agent/test/config.test.ts
+- [[execute()_5]] - code - packages/coding-agent/examples/extensions/sandbox/index.ts
+- [[expandTildePath()]] - code - packages/coding-agent/src/config.ts
+- [[extensionPaths()]] - code - packages/coding-agent/test/package-command-paths.test.ts
+- [[fetchInstallerArtifact()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[findNearestTrustEntry()]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[findNodePackageDir()]] - code - packages/coding-agent/src/config.ts
+- [[formatVersionCheckError()]] - code - packages/coding-agent/src/utils/version-check.ts
+- [[getActiveManagedInstallRoot()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[getAgentDir()]] - code - packages/coding-agent/src/config.ts
+- [[getAuthPath()]] - code - packages/coding-agent/src/config.ts
+- [[getBundledInteractiveAssetPath()]] - code - packages/coding-agent/src/config.ts
+- [[getChangelogPath()]] - code - packages/coding-agent/src/config.ts
+- [[getCodemodeWorkerSpecifier()]] - code - packages/coding-agent/src/config.ts
+- [[getCommandAppMode()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[getDebugLogPath()]] - code - packages/coding-agent/src/config.ts
+- [[getEntrypointPackageDir()]] - code - packages/coding-agent/src/config.ts
+- [[getExportTemplateDir()]] - code - packages/coding-agent/src/config.ts
+- [[getGlobalPackageRoots()]] - code - packages/coding-agent/src/config.ts
+- [[getInferredNpmInstall()]] - code - packages/coding-agent/src/config.ts
+- [[getInteractiveAssetsDir()]] - code - packages/coding-agent/src/config.ts
+- [[getLatestPiRelease()]] - code - packages/coding-agent/src/utils/version-check.ts
+- [[getLatestPiVersion()]] - code - packages/coding-agent/src/utils/version-check.ts
+- [[getLoadedSharedObjectsInPackageDir()]] - code - packages/coding-agent/src/utils/windows-self-update.ts
+- [[getModelsPath()]] - code - packages/coding-agent/src/config.ts
+- [[getNewerPatchVersion()]] - code - packages/coding-agent/test/package-command-paths.test.ts
+- [[getPackageCommandUsage()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[getPackageDir()]] - code - packages/coding-agent/src/config.ts
+- [[getPackageJsonPath()]] - code - packages/coding-agent/src/config.ts
+- [[getPathComparisonCandidates()]] - code - packages/coding-agent/src/config.ts
+- [[getPiMascot()]] - code - packages/coding-agent/examples/extensions/custom-header.ts
+- [[getPiUserAgent()_1]] - code - packages/coding-agent/src/utils/pi-user-agent.ts
+- [[getProjectTrustOptions()]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[getProjectTrustParentPath()]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[getPromptsDir()]] - code - packages/coding-agent/src/config.ts
+- [[getQuarantineRoot()]] - code - packages/coding-agent/src/utils/windows-self-update.ts
+- [[getSelfUpdateCommand()]] - code - packages/coding-agent/src/config.ts
+- [[getSelfUpdateCommandForMethod()]] - code - packages/coding-agent/src/config.ts
+- [[getSelfUpdatePlan()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[getSelfUpdateUnavailableInstruction()]] - code - packages/coding-agent/src/config.ts
+- [[getSessionsDir()]] - code - packages/coding-agent/src/config.ts
+- [[getSettingsPath()]] - code - packages/coding-agent/src/config.ts
+- [[getToolsDir()]] - code - packages/coding-agent/src/config.ts
+- [[getUpdateInstruction()]] - code - packages/coding-agent/src/config.ts
+- [[handleConfigCommand()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[handlePackageCommand()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[hasTrustRequiringProjectResources()]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[invalidate()_1]] - code - packages/coding-agent/examples/extensions/custom-header.ts
+- [[isBuiltinExtension()]] - code - packages/coding-agent/src/core/resource-loader.ts
+- [[isBunRuntime]] - code - packages/coding-agent/src/config.ts
+- [[isManagedByGlobalPackageManager()]] - code - packages/coding-agent/src/config.ts
+- [[isNewerPackageVersion()]] - code - packages/coding-agent/src/utils/version-check.ts
+- [[isSelfUpdatePathWritable()]] - code - packages/coding-agent/src/config.ts
+- [[keybindings-migration.test.ts]] - code - packages/coding-agent/test/keybindings-migration.test.ts
+- [[loadConfig()]] - code - packages/coding-agent/examples/extensions/sandbox/index.ts
+- [[makeSelfUpdateCommand()]] - code - packages/coding-agent/src/config.ts
+- [[makeSelfUpdateCommandStep()]] - code - packages/coding-agent/src/config.ts
+- [[migrateAuthToAuthJson()]] - code - packages/coding-agent/src/migrations.ts
+- [[migrateCommandsToPrompts()]] - code - packages/coding-agent/src/migrations.ts
+- [[migrateExtensionSystem()]] - code - packages/coding-agent/src/migrations.ts
+- [[migrateKeybindingsConfigFile()]] - code - packages/coding-agent/src/migrations.ts
+- [[migrateSessionsFromAgentRoot()]] - code - packages/coding-agent/src/migrations.ts
+- [[migrateToolsToBin()]] - code - packages/coding-agent/src/migrations.ts
+- [[mockManagedUpdate()]] - code - packages/coding-agent/test/package-command-paths.test.ts
+- [[normalizeCwd()]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[normalizeExistingPathForComparison()]] - code - packages/coding-agent/src/config.ts
+- [[normalizePath()_1]] - code - packages/coding-agent/src/utils/windows-self-update.ts
+- [[normalizeSelfUpdatePackageTarget()]] - code - packages/coding-agent/src/config.ts
+- [[package-command-paths.test.ts]] - code - packages/coding-agent/test/package-command-paths.test.ts
+- [[package-manager-cli.ts]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[packages_ai_src_compat_setbedrockprovidermodule]] - concept
+- [[parsePackageCommand()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[pi-user-agent.test.ts]] - code - packages/coding-agent/test/pi-user-agent.test.ts
+- [[pkg]] - code - packages/coding-agent/src/config.ts
+- [[prepareManagedInstall()]] - code - packages/coding-agent/test/package-command-paths.test.ts
+- [[prepareWindowsNpmSelfUpdate()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[printConfigCommandHelp()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[printPackageCommandHelp()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[printPnpmSelfUpdateMetadataHint()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[printSelfUpdateFallback()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[printSelfUpdateNote()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[printSelfUpdateUnavailable()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[proper-lockfile_1]] - concept - packages/coding-agent/package.json
+- [[quarantineWindowsNativeDependencies()]] - code - packages/coding-agent/src/utils/windows-self-update.ts
+- [[readCommandOutput()]] - code - packages/coding-agent/src/config.ts
+- [[readTrustFile()]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[ref_anthropic_ai_sandbox_runtime]] - concept
+- [[ref_cross_spawn]] - concept
+- [[ref_quickjs_wasi]] - concept
+- [[refreshModelCatalogs()_1]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[render()_1]] - code - packages/coding-agent/examples/extensions/custom-header.ts
+- [[reportProjectTrustWarnings()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[reportSettingsErrors()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[resolveCodemodeWorkerSpecifier()]] - code - packages/coding-agent/src/config.ts
+- [[resolvePromptInput()]] - code - packages/coding-agent/src/core/resource-loader.ts
+- [[runManagedNpmCi()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[runManagedSelfUpdate()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[runMigrations()]] - code - packages/coding-agent/src/migrations.ts
+- [[runPackageCommandDirectly()]] - code - packages/coding-agent/test/package-command-paths.test.ts
+- [[runSelfUpdate()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[runtime-setup.ts]] - code - packages/coding-agent/src/bun/runtime-setup.ts
+- [[sandboxindex.ts]] - code - packages/coding-agent/examples/extensions/sandbox/index.ts
+- [[selectSession()_2]] - code - packages/coding-agent/src/experimental/vacation/sessions.ts
+- [[semver_1]] - concept - packages/coding-agent/package.json
+- [[setBedrockProviderModule()]] - code - packages/ai/src/api/bedrock-converse-stream.lazy.ts
+- [[setEmbeddedQuickJSWasmPath()]] - code - packages/coding-agent/src/config.ts
+- [[setExecPath()]] - code - packages/coding-agent/test/config.test.ts
+- [[spawnProcess()]] - code - packages/coding-agent/src/utils/child-process.ts
+- [[spawnProcessSync()]] - code - packages/coding-agent/src/utils/child-process.ts
+- [[srcconfig.ts]] - code - packages/coding-agent/src/config.ts
+- [[srcmigrations.ts]] - code - packages/coding-agent/src/migrations.ts
+- [[stripBom()]] - code - packages/coding-agent/src/utils/text.ts
+- [[trust-manager.ts]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[updateTargetIncludesExtensions()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[updateTargetIncludesSelf()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[vacationsessions.ts]] - code - packages/coding-agent/src/experimental/vacation/sessions.ts
+- [[verifyManagedRelease()]] - code - packages/coding-agent/src/package-manager-cli.ts
+- [[version-check.test.ts]] - code - packages/coding-agent/test/version-check.test.ts
+- [[version-check.ts]] - code - packages/coding-agent/src/utils/version-check.ts
+- [[windows-self-update.ts]] - code - packages/coding-agent/src/utils/windows-self-update.ts
+- [[withAgentDir()]] - code - packages/coding-agent/test/config-value-migration.test.ts
+- [[withAgentDir()_1]] - code - packages/coding-agent/test/suite/regressions/5661-uppercase-header-values.test.ts
+- [[withTrustFileLock()]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[writeTrustFile()]] - code - packages/coding-agent/src/core/trust-manager.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Coding_Agent_会话工具_23
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 109 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 41 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 41 edges to [[_COMMUNITY_Coding Agent 会话工具 31]]
+- 36 edges to [[_COMMUNITY_Coding Agent 会话工具 41]]
+- 17 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 15 edges to [[_COMMUNITY_Coding Agent 会话工具 15]]
+- 15 edges to [[_COMMUNITY_Coding Agent 会话工具 116]]
+- 13 edges to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 70]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 111]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 57]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 122]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 9 edges to [[_COMMUNITY_Coding Agent 会话工具 56]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 66]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 78]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 171]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 65]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 28]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 101]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 24]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 135]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 42]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 77]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 83]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 220]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 190]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 79]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 76]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 182]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 273]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 19]]
+- 3 edges to [[_COMMUNITY_Evals 行为评估 114]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 154]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 239]]
+- 3 edges to [[_COMMUNITY_TUI 终端组件 6]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 75]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 55]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 90]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 16]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 117]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 13]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 103]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 99]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 35]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 43]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 8]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 46]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 50]]
+- 2 edges to [[_COMMUNITY_TUI 终端组件 80]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 110]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 313]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 22]]
+- 1 edge to [[_COMMUNITY_Codemode 沙箱执行 186]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 1]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 276]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 322]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 32]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 49]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 126]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 33]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 152]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 84]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 143]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 187]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 218]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 274]]
+- 1 edge to [[_COMMUNITY_MCP 远端工具 96]]
+
+## Top bridge nodes
+- [[package-manager-cli.ts]] - degree 94, connects to 16 communities
+- [[package-command-paths.test.ts]] - degree 35, connects to 13 communities
+- [[srcconfig.ts]] - degree 149, connects to 12 communities
+- [[srcmigrations.ts]] - degree 25, connects to 6 communities
+- [[sandboxindex.ts]] - degree 17, connects to 4 communities

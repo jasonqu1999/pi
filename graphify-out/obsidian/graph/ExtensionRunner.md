@@ -1,0 +1,105 @@
+---
+source_file: "packages/coding-agent/src/core/extensions/runner.ts"
+type: "code"
+community: "Coding Agent 会话工具 42"
+location: "L357"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Coding_Agent_会话工具_42
+---
+
+# ExtensionRunner
+
+## Connections
+- [[dot-abortFn()]] - `method` [EXTRACTED]
+- [[dot-assertActive()_4]] - `method` [EXTRACTED]
+- [[dot-bindCommandContext()]] - `method` [EXTRACTED]
+- [[dot-bindCore()]] - `method` [EXTRACTED]
+- [[dot-compactFn()]] - `method` [EXTRACTED]
+- [[dot-constructor()_131]] - `method` [EXTRACTED]
+- [[dot-createCommandContext()]] - `method` [EXTRACTED]
+- [[dot-createContext()]] - `method` [EXTRACTED]
+- [[dot-createToolContext()]] - `method` [EXTRACTED]
+- [[dot-emit()_2]] - `method` [EXTRACTED]
+- [[dot-emitBeforeAgentStart()]] - `method` [EXTRACTED]
+- [[dot-emitBeforeProviderHeaders()]] - `method` [EXTRACTED]
+- [[dot-emitBeforeProviderRequest()]] - `method` [EXTRACTED]
+- [[dot-emitBoundary()]] - `method` [EXTRACTED]
+- [[dot-emitCacheWarmingDecision()]] - `method` [EXTRACTED]
+- [[dot-emitContext()]] - `method` [EXTRACTED]
+- [[dot-emitError()]] - `method` [EXTRACTED]
+- [[dot-emitInput()]] - `method` [EXTRACTED]
+- [[dot-emitMessageEnd()]] - `method` [EXTRACTED]
+- [[dot-emitResourcesDiscover()]] - `method` [EXTRACTED]
+- [[dot-emitToolCall()]] - `method` [EXTRACTED]
+- [[dot-emitToolResult()]] - `method` [EXTRACTED]
+- [[dot-emitUIPromptEvent()]] - `method` [EXTRACTED]
+- [[dot-emitUserBash()]] - `method` [EXTRACTED]
+- [[dot-forkHandler()]] - `method` [EXTRACTED]
+- [[dot-getActiveTools()]] - `method` [EXTRACTED]
+- [[dot-getAllRegisteredTools()]] - `method` [EXTRACTED]
+- [[dot-getCallableToolsFn()]] - `method` [EXTRACTED]
+- [[dot-getCommand()]] - `method` [EXTRACTED]
+- [[dot-getCommandDiagnostics()]] - `method` [EXTRACTED]
+- [[dot-getContextUsageFn()]] - `method` [EXTRACTED]
+- [[dot-getEntryRenderer()]] - `method` [EXTRACTED]
+- [[dot-getExtensionPaths()]] - `method` [EXTRACTED]
+- [[dot-getFlagValues()]] - `method` [EXTRACTED]
+- [[dot-getFlags()]] - `method` [EXTRACTED]
+- [[dot-getMarkdownTransformers()]] - `method` [EXTRACTED]
+- [[dot-getMessageRenderer()]] - `method` [EXTRACTED]
+- [[dot-getModel()_5]] - `method` [EXTRACTED]
+- [[dot-getModelRegistry()]] - `method` [EXTRACTED]
+- [[dot-getRegisteredCommands()]] - `method` [EXTRACTED]
+- [[dot-getScopedModels()]] - `method` [EXTRACTED]
+- [[dot-getShortcutDiagnostics()]] - `method` [EXTRACTED]
+- [[dot-getShortcuts()]] - `method` [EXTRACTED]
+- [[dot-getSignalFn()]] - `method` [EXTRACTED]
+- [[dot-getSystemPromptFn()]] - `method` [EXTRACTED]
+- [[dot-getSystemPromptOptionsFn()]] - `method` [EXTRACTED]
+- [[dot-getToolDefinition()_1]] - `method` [EXTRACTED]
+- [[dot-getUIContext()]] - `method` [EXTRACTED]
+- [[dot-hasHandlers()]] - `method` [EXTRACTED]
+- [[dot-hasPendingMessagesFn()]] - `method` [EXTRACTED]
+- [[dot-hasUI()]] - `method` [EXTRACTED]
+- [[dot-invalidate()_17]] - `method` [EXTRACTED]
+- [[dot-isIdleFn()]] - `method` [EXTRACTED]
+- [[dot-isProjectTrustedFn()]] - `method` [EXTRACTED]
+- [[dot-isSessionBeforeEvent()]] - `method` [EXTRACTED]
+- [[dot-navigateTreeHandler()]] - `method` [EXTRACTED]
+- [[dot-newSessionHandler()]] - `method` [EXTRACTED]
+- [[dot-onError()_1]] - `method` [EXTRACTED]
+- [[dot-reloadHandler()]] - `method` [EXTRACTED]
+- [[dot-reportUnhandledMcpServers()]] - `method` [EXTRACTED]
+- [[dot-resolveRegisteredCommands()]] - `method` [EXTRACTED]
+- [[dot-resolveToolRenderers()]] - `method` [EXTRACTED]
+- [[dot-setFlagValue()]] - `method` [EXTRACTED]
+- [[dot-setUIContext()]] - `method` [EXTRACTED]
+- [[dot-shutdown()]] - `method` [EXTRACTED]
+- [[dot-shutdownHandler()]] - `method` [EXTRACTED]
+- [[dot-switchSessionHandler()]] - `method` [EXTRACTED]
+- [[dot-waitForIdleFn()]] - `method` [EXTRACTED]
+- [[dot-withUIPrompt()]] - `method` [EXTRACTED]
+- [[dot-wrapUIPromptContext()]] - `method` [EXTRACTED]
+- [[AgentTool]] - `references` [EXTRACTED]
+- [[BuildSystemPromptOptions]] - `references` [EXTRACTED]
+- [[CompactOptions]] - `references` [EXTRACTED]
+- [[ContextUsage]] - `references` [EXTRACTED]
+- [[Extension]] - `references` [EXTRACTED]
+- [[ExtensionContextActions]] - `references` [EXTRACTED]
+- [[ExtensionMode]] - `references` [EXTRACTED]
+- [[ExtensionRuntime]] - `references` [EXTRACTED]
+- [[ExtensionUIContext]] - `references` [EXTRACTED]
+- [[Model_2]] - `references` [EXTRACTED]
+- [[ModelRegistry]] - `references` [EXTRACTED]
+- [[ResourceDiagnostic]] - `references` [EXTRACTED]
+- [[ScopedModel]] - `references` [EXTRACTED]
+- [[SessionManager]] - `references` [EXTRACTED]
+- [[UIPromptKind]] - `references` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Coding_Agent_会话工具_42
+
+## 源码入口
+
+[packages/coding-agent/src/core/extensions/runner.ts](../../../packages/coding-agent/src/core/extensions/runner.ts)

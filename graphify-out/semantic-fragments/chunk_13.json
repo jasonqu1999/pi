@@ -1,0 +1,104 @@
+{
+  "nodes": [
+    {
+      "id": "packages_coding_agent_src_modes_interactive_assets_clankolas_image",
+      "label": "Fantasy gathering illustration",
+      "file_type": "image",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/src/modes/interactive/assets/clankolas.png",
+      "source_location": "image: Entire image",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_src_modes_interactive_assets_clankolas_three_figures",
+      "label": "Three pointed ear figures",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/src/modes/interactive/assets/clankolas.png",
+      "source_location": "image: Foreground group",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_src_modes_interactive_assets_clankolas_interior",
+      "label": "Rustic room interior",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/src/modes/interactive/assets/clankolas.png",
+      "source_location": "image: Background",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_src_modes_interactive_assets_clankolas_table_drinks",
+      "label": "Table with goblets and bottle",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/src/modes/interactive/assets/clankolas.png",
+      "source_location": "image: Lower foreground",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_src_modes_interactive_assets_clankolas_clankolas_asset",
+      "label": "Clankolas named image asset",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/src/modes/interactive/assets/clankolas.png",
+      "source_location": "image: Filename",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "packages_coding_agent_src_modes_interactive_assets_clankolas_image",
+      "target": "packages_coding_agent_src_modes_interactive_assets_clankolas_three_figures",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/src/modes/interactive/assets/clankolas.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_src_modes_interactive_assets_clankolas_image",
+      "target": "packages_coding_agent_src_modes_interactive_assets_clankolas_interior",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/src/modes/interactive/assets/clankolas.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_src_modes_interactive_assets_clankolas_image",
+      "target": "packages_coding_agent_src_modes_interactive_assets_clankolas_table_drinks",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/src/modes/interactive/assets/clankolas.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_src_modes_interactive_assets_clankolas_clankolas_asset",
+      "target": "packages_coding_agent_src_modes_interactive_assets_clankolas_three_figures",
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.2,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/src/modes/interactive/assets/clankolas.png",
+      "source_location": null,
+      "weight": 1
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

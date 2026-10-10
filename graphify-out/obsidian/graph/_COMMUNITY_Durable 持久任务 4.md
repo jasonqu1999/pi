@@ -1,0 +1,412 @@
+---
+type: community
+cohesion: 0.02
+members: 354
+---
+
+# Durable 持久任务 4
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 354 nodes
+
+## Members
+- [[dot-abortChanges()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-acquire()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-acquireForkCopy()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-assemble()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-assertOpen()_1]] - code - packages/durable/src/session/transaction.ts
+- [[dot-assertTaskDocumentsOpen()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-attachDocument()]] - code - packages/durable/src/session/session.ts
+- [[dot-committedTask()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-currentTask()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-findRetirement()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-loadDocument()]] - code - packages/durable/src/session/session.ts
+- [[dot-publish()_6]] - code - packages/durable/src/session/session.ts
+- [[dot-read()_19]] - code - packages/durable/src/session/transaction.ts
+- [[dot-rejectForkSourceWrites()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-requireConversation()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-runCommit()]] - code - packages/durable/src/session/session.ts
+- [[dot-stageConversation()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-taskEntry()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-track()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-validateOwners()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-write()_10]] - code - packages/durable/src/session/transaction.ts
+- [[dot-adopt()_2]] - code - packages/durable/src/session/transaction.ts
+- [[dot-adoptSidecarState()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-appendEntry()_1]] - code - packages/durable/src/session/transaction.ts
+- [[dot-apply()_5]] - code - packages/durable/src/storage/memory.ts
+- [[dot-applyDocumentActions()]] - code - packages/durable/src/storage/memory.ts
+- [[dot-applyPreparedCommit()]] - code - packages/durable/src/storage/memory.ts
+- [[dot-assertOpen()_2]] - code - packages/durable/src/storage/memory.ts
+- [[dot-beforeCompact()]] - code - packages/durable/src/harness/types.ts
+- [[dot-cached()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-checkDocumentActions()]] - code - packages/durable/src/storage/memory.ts
+- [[dot-checkGlobalIds()]] - code - packages/durable/src/storage/memory.ts
+- [[dot-commit()_6]] - code - packages/durable/src/storage/memory.ts
+- [[dot-commit()_16]] - code - packages/durable/test/session-support.ts
+- [[dot-constructor()_255]] - code - packages/durable/src/errors.ts
+- [[dot-constructor()_253]] - code - packages/durable/src/errors.ts
+- [[dot-constructor()_254]] - code - packages/durable/src/errors.ts
+- [[dot-constructor()_270]] - code - packages/durable/src/session/transaction.ts
+- [[dot-conversation()_3]] - code - packages/durable/src/session/transaction.ts
+- [[dot-conversation()_5]] - code - packages/durable/src/storage/memory.ts
+- [[dot-conversationCreated()]] - code - packages/durable/src/harness/harness.ts
+- [[dot-conversationCreated()_2]] - code - packages/durable/src/session/transaction.ts
+- [[dot-conversationDocumentOnLine()]] - code - packages/durable/src/session/session.ts
+- [[dot-createConversation()_2]] - code - packages/durable/src/session/transaction.ts
+- [[dot-createRootConversation()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-createSubmission()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-createTask()]] - code - packages/durable/src/harness/types.ts
+- [[dot-createTask()_1]] - code - packages/durable/src/session/transaction.ts
+- [[dot-discard()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-doc()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-document()_1]] - code - packages/durable/src/storage/memory.ts
+- [[dot-documentState()]] - code - packages/durable/src/session/session.ts
+- [[dot-each()]] - code - packages/durable/src/types.ts
+- [[dot-encodeCommit()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-entries()]] - code - packages/durable/src/harness/harness.ts
+- [[dot-entry()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-entry()_1]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-entry()_2]] - code - packages/durable/src/storage/memory.ts
+- [[dot-entry()_3]] - code - packages/durable/src/storage/sqlite/storage.ts
+- [[dot-entry()_7]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-entry()_8]] - code - packages/durable/test/sqlite-storage.test.ts
+- [[dot-evict()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-findDocument()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-findDocument()_1]] - code - packages/durable/src/storage/memory.ts
+- [[dot-findDocument()_5]] - code - packages/durable/test/session-support.ts
+- [[dot-findLatestHeadMarker()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-findLatestHeadMarker()_1]] - code - packages/durable/src/storage/memory.ts
+- [[dot-forkConversation()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-install()_5]] - code - packages/durable/src/session/transaction.ts
+- [[dot-is()]] - code - packages/durable/src/types.ts
+- [[dot-latestHeadMarker()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-load()_4]] - code - packages/durable/src/session/transaction.ts
+- [[dot-materializeDocument()]] - code - packages/durable/src/storage/memory.ts
+- [[dot-mintId()_1]] - code - packages/durable/src/storage/memory.ts
+- [[dot-placeSubmission()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-planReclamations()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-prepareCommit()]] - code - packages/durable/src/storage/memory.ts
+- [[dot-prepareDocumentActions()]] - code - packages/durable/src/storage/memory.ts
+- [[dot-readEntry()]] - code - packages/durable/src/storage/sqlite/storage.ts
+- [[dot-resolveDocumentCopies()]] - code - packages/durable/src/storage/memory.ts
+- [[dot-retireDoc()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-scanConversations()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-scanConversations()_2]] - code - packages/durable/src/storage/memory.ts
+- [[dot-scanDocuments()_1]] - code - packages/durable/src/storage/memory.ts
+- [[dot-scanEntries()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-scanEntries()_2]] - code - packages/durable/src/storage/memory.ts
+- [[dot-scanSubmissions()_1]] - code - packages/durable/src/storage/memory.ts
+- [[dot-scanTasks()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-scanTasks()_2]] - code - packages/durable/src/storage/memory.ts
+- [[dot-settleFailure()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-settleSubmission()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-settleSuccess()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-snapshot()_8]] - code - packages/durable/src/session/session.ts
+- [[dot-snapshotAsOf()]] - code - packages/durable/src/session/session.ts
+- [[dot-stagedConversations()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-stagedTasks()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-submission()_2]] - code - packages/durable/src/session/transaction.ts
+- [[dot-submission()_4]] - code - packages/durable/src/storage/memory.ts
+- [[dot-submissionByRequest()]] - code - packages/durable/src/session/transaction.ts
+- [[dot-submissionByRequest()_2]] - code - packages/durable/src/storage/memory.ts
+- [[dot-task()_2]] - code - packages/durable/src/session/transaction.ts
+- [[dot-task()_4]] - code - packages/durable/src/storage/memory.ts
+- [[dot-visibleEntries()]] - code - packages/durable/src/storage/memory.ts
+- [[dot-watchDoc()_1]] - code - packages/durable/src/session/session.ts
+- [[AnyDocDefinition]] - code - packages/durable/src/documents.ts
+- [[AnyDocToken]] - code - packages/durable/src/documents.ts
+- [[AnyTask_1]] - code - packages/durable/test/session-tables.test.ts
+- [[AnyTaskRecord_2]] - code - packages/durable/src/session/transaction.ts
+- [[AssertionResult]] - code - packages/durable/src/testing/storage-conformance.ts
+- [[Boundary]] - code - packages/durable/src/harness/inbox.ts
+- [[BoundaryResult_1]] - code - packages/durable/src/harness/inbox.ts
+- [[Checkpoint_1]] - code - packages/durable/test/session-tables.test.ts
+- [[Checkpoint_2]] - code - packages/durable/test/types.test.ts
+- [[CheckpointInfo]] - code - packages/durable/src/types.ts
+- [[CommitChange]] - code - packages/durable/src/types.ts
+- [[CommonDocDefinition]] - code - packages/durable/src/types.ts
+- [[CompactionEntry_1]] - code - packages/durable/src/entries.ts
+- [[CompactionHooks]] - code - packages/durable/src/harness/types.ts
+- [[CompactionReason]] - code - packages/durable/src/harness/types.ts
+- [[ConformanceTest]] - code - packages/durable/src/testing/storage-conformance.ts
+- [[ContextEdit]] - code - packages/durable/src/types.ts
+- [[ConversationBusy]] - code - packages/durable/src/errors.ts
+- [[ConversationDocFamilyToken]] - code - packages/durable/src/types.ts
+- [[ConversationDocToken]] - code - packages/durable/src/types.ts
+- [[ConversationFamily]] - code - packages/durable/test/session-definitions.test.ts
+- [[ConversationId]] - code - packages/durable/src/types.ts
+- [[ConversationOwnership]] - code - packages/durable/src/types.ts
+- [[ConversationQuery]] - code - packages/durable/src/types.ts
+- [[ConversationRecord]] - code - packages/durable/src/types.ts
+- [[Counter_2]] - code - packages/durable/test/session-documents.test.ts
+- [[CounterDoc]] - code - packages/durable/test/session-documents.test.ts
+- [[Current]] - code - packages/durable/test/session-checkpoints-migrations.test.ts
+- [[Cursor_1]] - code - packages/durable/src/types.ts
+- [[DocDefinition]] - code - packages/durable/src/types.ts
+- [[DocFamilyDefinition]] - code - packages/durable/src/types.ts
+- [[DocFamilyToken]] - code - packages/durable/src/types.ts
+- [[DocToken]] - code - packages/durable/src/types.ts
+- [[DocumentAction]] - code - packages/durable/src/storage/memory.ts
+- [[DocumentAction_1]] - code - packages/durable/src/storage/sqlite/storage.ts
+- [[DocumentAddress]] - code - packages/durable/src/types.ts
+- [[DocumentAddressIndex]] - code - packages/durable/src/storage/memory.ts
+- [[DocumentCommitChange]] - code - packages/durable/src/types.ts
+- [[DocumentContent]] - code - packages/durable/src/types.ts
+- [[DocumentCopySource]] - code - packages/durable/src/types.ts
+- [[DocumentCreate]] - code - packages/durable/src/types.ts
+- [[DocumentEntry]] - code - packages/durable/src/session/transaction.ts
+- [[DocumentPlan]] - code - packages/durable/src/session/transaction.ts
+- [[DocumentPoint]] - code - packages/durable/src/types.ts
+- [[DocumentQuery]] - code - packages/durable/src/types.ts
+- [[DocumentReader]] - code - packages/durable/src/types.ts
+- [[DocumentRecord]] - code - packages/durable/src/types.ts
+- [[DocumentRevision]] - code - packages/durable/src/storage/memory.ts
+- [[DocumentSemantics]] - code - packages/durable/src/types.ts
+- [[DocumentState]] - code - packages/durable/src/types.ts
+- [[DocumentTarget]] - code - packages/durable/src/session/transaction.ts
+- [[DocumentWatch_1]] - code - packages/durable/src/types.ts
+- [[Draft]] - code - packages/chord/src/delta/draft.ts
+- [[EMPTY_OPERATIONS]] - code - packages/durable/src/session/transaction.ts
+- [[EncodedCommit]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[Entry_1]] - code - packages/durable/src/types.ts
+- [[EntryDraft]] - code - packages/durable/src/types.ts
+- [[EntryId]] - code - packages/durable/src/types.ts
+- [[EntryJsonRow]] - code - packages/durable/src/storage/sqlite/storage.ts
+- [[EntryQuery]] - code - packages/durable/src/types.ts
+- [[EntryRecord]] - code - packages/durable/src/types.ts
+- [[FamilyInput]] - code - packages/durable/src/documents.ts
+- [[ForkDocumentCopy]] - code - packages/durable/src/session/forks.ts
+- [[ForkPolicy]] - code - packages/durable/src/session/forks.ts
+- [[HookApi]] - code - packages/durable/src/harness/types.ts
+- [[HookRunner]] - code - packages/durable/src/types.ts
+- [[Hooks]] - code - packages/durable/test/types.test.ts
+- [[Id]] - code - packages/durable/src/types.ts
+- [[IdRow]] - code - packages/durable/src/storage/sqlite/storage.ts
+- [[InboxItem_1]] - code - packages/durable/src/harness/inbox.ts
+- [[InboxState]] - code - packages/durable/src/harness/inbox.ts
+- [[JoinPolicy]] - code - packages/durable/src/types.ts
+- [[JsonObject_4]] - code - packages/durable/src/types.ts
+- [[JsonRow]] - code - packages/durable/src/storage/sqlite/storage.ts
+- [[LatestConversationSemantics]] - code - packages/durable/src/types.ts
+- [[LatestDoc]] - code - packages/durable/test/session-definitions.test.ts
+- [[Live_1]] - code - packages/durable/test/session-documents.test.ts
+- [[LiveDoc_2]] - code - packages/durable/test/session-documents.test.ts
+- [[LiveDocV2]] - code - packages/durable/test/session-documents.test.ts
+- [[LoadedDocument]] - code - packages/durable/src/session/transaction.ts
+- [[MainMarker]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[MainOperation]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[Member]] - code - packages/durable/test/session-documents.test.ts
+- [[MemberDoc]] - code - packages/durable/test/session-documents.test.ts
+- [[MetadataRow]] - code - packages/durable/src/storage/sqlite/storage.ts
+- [[Notes_5]] - code - packages/durable/test/session-tables.test.ts
+- [[NotesDoc]] - code - packages/durable/test/session-tables.test.ts
+- [[Op]] - code - packages/chord/src/delta/index.ts
+- [[Page]] - code - packages/durable/src/types.ts
+- [[ParsedFile]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[ParsedLine]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[PhaseHandler]] - code - packages/durable/src/types.ts
+- [[PreparedMemoryCommit]] - code - packages/durable/src/storage/memory.ts
+- [[Progress_1]] - code - packages/durable/test/session-tables.test.ts
+- [[ProgressDoc]] - code - packages/durable/test/session-tables.test.ts
+- [[QueueMode_1]] - code - packages/durable/src/harness/types.ts
+- [[ROOT_CONVERSATION_ID]] - code - packages/durable/src/types.ts
+- [[ReadAfterWrite]] - code - packages/durable/src/errors.ts
+- [[RecordIdRow]] - code - packages/durable/src/storage/sqlite/storage.ts
+- [[ResetEntry]] - code - packages/durable/src/entries.ts
+- [[ResolvedAddress]] - code - packages/durable/src/documents.ts
+- [[RevisionRow]] - code - packages/durable/src/storage/sqlite/storage.ts
+- [[RewindableConversationDocFamilyToken]] - code - packages/durable/src/types.ts
+- [[RewindableConversationDocToken]] - code - packages/durable/src/types.ts
+- [[RewindableConversationSemantics]] - code - packages/durable/src/types.ts
+- [[RewindableDoc]] - code - packages/durable/test/session-definitions.test.ts
+- [[RewindableLiveDoc]] - code - packages/durable/test/session-documents.test.ts
+- [[Rewound]] - code - packages/durable/test/session-definitions.test.ts
+- [[RunningTask]] - code - packages/durable/src/types.ts
+- [[ScopeColumns]] - code - packages/durable/src/storage/sqlite/storage.ts
+- [[Seq]] - code - packages/durable/src/types.ts
+- [[SessionDoc]] - code - packages/durable/test/session-definitions.test.ts
+- [[SessionDocFamilyToken]] - code - packages/durable/src/types.ts
+- [[SessionDocToken]] - code - packages/durable/src/types.ts
+- [[SessionFamily]] - code - packages/durable/test/session-definitions.test.ts
+- [[Settings_1]] - code - packages/durable/src/harness/types.ts
+- [[SidecarPayload]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[SidecarRecord]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[State_2]] - code - packages/durable/src/storage/memory.ts
+- [[State_3]] - code - packages/durable/test/session-definitions.test.ts
+- [[StateOf]] - code - packages/durable/test/session-definitions.test.ts
+- [[StepDoc]] - code - packages/durable/test/session-tables.test.ts
+- [[StorageRejected]] - code - packages/durable/src/errors.ts
+- [[StorageWrite]] - code - packages/durable/src/types.ts
+- [[StoredDocument]] - code - packages/durable/src/types.ts
+- [[StoredDocumentState]] - code - packages/durable/src/storage/memory.ts
+- [[StoredTask]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[StoredTask_1]] - code - packages/durable/src/storage/memory.ts
+- [[StoredTask_2]] - code - packages/durable/src/storage/sqlite/storage.ts
+- [[StoredTask_4]] - code - packages/durable/src/testing/storage-conformance.ts
+- [[SubmissionChange]] - code - packages/durable/src/session/transaction.ts
+- [[SubmissionCreate]] - code - packages/durable/src/types.ts
+- [[SubmissionQuery]] - code - packages/durable/src/types.ts
+- [[SubmissionRecordBase]] - code - packages/durable/src/types.ts
+- [[SubmissionSettlement]] - code - packages/durable/src/types.ts
+- [[SubmissionStatus]] - code - packages/durable/src/storage/memory.ts
+- [[SystemEntry]] - code - packages/durable/src/entries.ts
+- [[TABLE_JSON_COPY_OPTIONS]] - code - packages/durable/src/session/transaction.ts
+- [[TableCommitChange]] - code - packages/durable/src/types.ts
+- [[TableName]] - code - packages/durable/src/storage/memory.ts
+- [[TableName_1]] - code - packages/durable/src/storage/sqlite/storage.ts
+- [[Task]] - code - packages/durable/src/types.ts
+- [[TaskDefinition]] - code - packages/durable/src/types.ts
+- [[TaskDoc]] - code - packages/durable/test/session-definitions.test.ts
+- [[TaskDocFamilyToken]] - code - packages/durable/src/types.ts
+- [[TaskDocToken]] - code - packages/durable/src/types.ts
+- [[TaskFamily]] - code - packages/durable/test/session-definitions.test.ts
+- [[TaskOptions]] - code - packages/durable/src/types.ts
+- [[TaskOutcome]] - code - packages/durable/src/types.ts
+- [[TaskOutcomeError]] - code - packages/durable/src/types.ts
+- [[TaskOwnership]] - code - packages/durable/src/types.ts
+- [[TaskQuery]] - code - packages/durable/src/types.ts
+- [[TaskRecord]] - code - packages/durable/src/types.ts
+- [[TaskRecordBase]] - code - packages/durable/src/types.ts
+- [[TaskResult]] - code - packages/durable/test/types.test.ts
+- [[TaskState]] - code - packages/durable/src/types.ts
+- [[TaskStatus]] - code - packages/durable/src/storage/memory.ts
+- [[Transaction]] - code - packages/durable/src/session/transaction.ts
+- [[TransactionHost]] - code - packages/durable/src/session/transaction.ts
+- [[TransactionScope]] - code - packages/durable/src/session/transaction.ts
+- [[TransactionTask]] - code - packages/durable/src/session/transaction.ts
+- [[TypedEntry]] - code - packages/durable/src/types.ts
+- [[TypedEntryDraft]] - code - packages/durable/src/types.ts
+- [[UserEntry]] - code - packages/durable/src/entries.ts
+- [[V1]] - code - packages/durable/test/session-checkpoints-migrations.test.ts
+- [[V2]] - code - packages/durable/test/session-checkpoints-migrations.test.ts
+- [[WatchOf]] - code - packages/durable/test/session-definitions.test.ts
+- [[WorkTask]] - code - packages/durable/test/session-tables.test.ts
+- [[addressId()]] - code - packages/durable/src/documents.ts
+- [[addressKey()]] - code - packages/durable/src/storage/memory.ts
+- [[answerId]] - code - packages/durable/test/types.test.ts
+- [[applySubmissionChange()]] - code - packages/durable/src/session/transaction.ts
+- [[cancellationError()]] - code - packages/durable/src/session/session.ts
+- [[checkRecordScope()]] - code - packages/durable/src/documents.ts
+- [[checkRecordVersion()]] - code - packages/durable/src/documents.ts
+- [[checkpointWhen()]] - code - packages/durable/test/session-checkpoints-migrations.test.ts
+- [[clone()_3]] - code - packages/durable/src/storage/memory.ts
+- [[collectCopies()]] - code - packages/durable/src/session/forks.ts
+- [[conversationId_1]] - code - packages/durable/test/types.test.ts
+- [[createAgent()]] - code - packages/durable/src/harness/agent.ts
+- [[createConversation()]] - code - packages/durable/test/session-support.ts
+- [[createTask()]] - code - packages/durable/test/session-tables.test.ts
+- [[cursorId()]] - code - packages/durable/src/storage/memory.ts
+- [[defineDocFamily()]] - code - packages/durable/src/documents.ts
+- [[documentCopies()]] - code - packages/durable/test/session-forks.test.ts
+- [[documentCopyChanges()]] - code - packages/durable/test/session-support.ts
+- [[documentCreate()]] - code - packages/durable/src/documents.ts
+- [[documentCreates()]] - code - packages/durable/test/session-forks.test.ts
+- [[documentDeltaBatches()]] - code - packages/durable/src/storage/memory.ts
+- [[documentId_1]] - code - packages/durable/test/types.test.ts
+- [[documentWrites()]] - code - packages/durable/test/session-checkpoints-migrations.test.ts
+- [[documents.ts]] - code - packages/durable/src/documents.ts
+- [[durablesrcerrors.ts]] - code - packages/durable/src/errors.ts
+- [[durablesrcindex.ts]] - code - packages/durable/src/index.ts
+- [[durablesrctypes.ts]] - code - packages/durable/src/types.ts
+- [[entries.ts]] - code - packages/durable/src/entries.ts
+- [[entryId_1]] - code - packages/durable/test/types.test.ts
+- [[forks.ts]] - code - packages/durable/src/session/forks.ts
+- [[freeze()]] - code - packages/durable/src/storage/memory.ts
+- [[idFromNumber()]] - code - packages/durable/src/ids.ts
+- [[ids.ts]] - code - packages/durable/src/ids.ts
+- [[inbox.ts]] - code - packages/durable/src/harness/inbox.ts
+- [[insertMapId()]] - code - packages/durable/src/storage/memory.ts
+- [[insertSorted()]] - code - packages/durable/src/storage/memory.ts
+- [[isAliveAt()]] - code - packages/durable/src/storage/memory.ts
+- [[isCurrentOnly()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[isCurrentOnly()_1]] - code - packages/durable/src/storage/memory.ts
+- [[jsonLine()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[jsonlstorage.ts]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[lowerBound()_1]] - code - packages/durable/src/storage/memory.ts
+- [[materializeDocument()]] - code - packages/durable/src/documents.ts
+- [[materializeDocumentValue()]] - code - packages/durable/src/documents.ts
+- [[memory-storage.test.ts]] - code - packages/durable/test/memory-storage.test.ts
+- [[observedOperations()]] - code - packages/durable/src/session/session.ts
+- [[ownerId()]] - code - packages/durable/src/documents.ts
+- [[page()_1]] - code - packages/durable/src/storage/memory.ts
+- [[planDocument()]] - code - packages/durable/src/session/transaction.ts
+- [[prepareForkDocumentCopies()]] - code - packages/durable/src/session/forks.ts
+- [[publishes()]] - code - packages/durable/src/session/transaction.ts
+- [[recordAddressKey()]] - code - packages/durable/src/storage/memory.ts
+- [[removeSorted()]] - code - packages/durable/src/storage/memory.ts
+- [[resolveAddress()]] - code - packages/durable/src/documents.ts
+- [[scopeKey()]] - code - packages/durable/src/storage/memory.ts
+- [[seedRunningTask()]] - code - packages/durable/test/harness-lifecycle.test.ts
+- [[seeds]] - code - packages/durable/test/session-documents.test.ts
+- [[seq_1]] - code - packages/durable/test/types.test.ts
+- [[seqFromNumber()]] - code - packages/durable/src/ids.ts
+- [[session-checkpoints-migrations.test.ts]] - code - packages/durable/test/session-checkpoints-migrations.test.ts
+- [[session-definitions.test.ts]] - code - packages/durable/test/session-definitions.test.ts
+- [[session-documents.test.ts]] - code - packages/durable/test/session-documents.test.ts
+- [[session-forks.test.ts]] - code - packages/durable/test/session-forks.test.ts
+- [[session-tables.test.ts]] - code - packages/durable/test/session-tables.test.ts
+- [[sessionsession.ts]] - code - packages/durable/src/session/session.ts
+- [[setupLive()]] - code - packages/durable/test/session-documents.test.ts
+- [[sidecarFileName()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[sqlitestorage.ts]] - code - packages/durable/src/storage/sqlite/storage.ts
+- [[storage-conformance.ts]] - code - packages/durable/src/testing/storage-conformance.ts
+- [[storagememory.ts]] - code - packages/durable/src/storage/memory.ts
+- [[storageOpen()]] - code - packages/durable/test/harness-lifecycle.test.ts
+- [[submissionId_1]] - code - packages/durable/test/types.test.ts
+- [[tableContaining()]] - code - packages/durable/src/storage/memory.ts
+- [[taskId_1]] - code - packages/durable/test/types.test.ts
+- [[tasks.ts]] - code - packages/durable/src/tasks.ts
+- [[terminal()]] - code - packages/durable/test/session-tables.test.ts
+- [[textDecoder]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[transaction.ts]] - code - packages/durable/src/session/transaction.ts
+- [[types.test.ts]] - code - packages/durable/test/types.test.ts
+- [[upperBound()]] - code - packages/durable/src/storage/memory.ts
+- [[util.ts]] - code - packages/durable/src/harness/util.ts
+- [[validateDefinition()]] - code - packages/durable/src/documents.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Durable_持久任务_4
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 296 edges to [[_COMMUNITY_Durable 持久任务 5]]
+- 273 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 165 edges to [[_COMMUNITY_Durable 持久任务 21]]
+- 126 edges to [[_COMMUNITY_Durable 持久任务 38]]
+- 73 edges to [[_COMMUNITY_Durable 持久任务 45]]
+- 45 edges to [[_COMMUNITY_Chord 服务状态 30]]
+- 37 edges to [[_COMMUNITY_Durable 持久任务 58]]
+- 29 edges to [[_COMMUNITY_Durable 持久任务 119]]
+- 28 edges to [[_COMMUNITY_Coding Agent 会话工具 8]]
+- 23 edges to [[_COMMUNITY_Coding Agent 会话工具 65]]
+- 22 edges to [[_COMMUNITY_Durable 持久任务 86]]
+- 19 edges to [[_COMMUNITY_Durable 持久任务 18]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 46]]
+- 11 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 7 edges to [[_COMMUNITY_Chord 服务状态 141]]
+- 7 edges to [[_COMMUNITY_Durable 持久任务 132]]
+- 7 edges to [[_COMMUNITY_Durable 持久任务 115]]
+- 4 edges to [[_COMMUNITY_Chord 服务状态 53]]
+- 4 edges to [[_COMMUNITY_Chord 服务状态 36]]
+- 3 edges to [[_COMMUNITY_Chord 服务状态 137]]
+- 2 edges to [[_COMMUNITY_Chord 服务状态 87]]
+- 2 edges to [[_COMMUNITY_Chord 服务状态 196]]
+- 2 edges to [[_COMMUNITY_Chord 服务状态 125]]
+- 2 edges to [[_COMMUNITY_Chord 服务状态 59]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 33]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 264]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 160]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 12]]
+
+## Top bridge nodes
+- [[durablesrctypes.ts]] - degree 144, connects to 12 communities
+- [[durablesrcindex.ts]] - degree 305, connects to 9 communities
+- [[jsonlstorage.ts]] - degree 62, connects to 8 communities
+- [[transaction.ts]] - degree 85, connects to 7 communities
+- [[sessionsession.ts]] - degree 73, connects to 7 communities

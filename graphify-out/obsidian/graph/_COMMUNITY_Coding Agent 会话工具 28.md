@@ -1,0 +1,227 @@
+---
+type: community
+cohesion: 0.03
+members: 157
+---
+
+# Coding Agent 会话工具 28
+
+**Cohesion:** 0.03 - loosely connected
+**Members:** 157 nodes
+
+## Members
+- [[dot-reconcile()]] - code - packages/coding-agent/src/experimental/server.ts
+- [[dot-build()_2]] - code - packages/coding-agent/src/experimental/plugins/package.ts
+- [[dot-close()_21]] - code - packages/coding-agent/src/experimental/server.ts
+- [[dot-constructor()_164]] - code - packages/coding-agent/src/experimental/server.ts
+- [[dot-read()_4]] - code - packages/chord/test/bundle.test.ts
+- [[dot-refreshSessions()]] - code - packages/coding-agent/src/experimental/server.ts
+- [[dot-release()_1]] - code - packages/coding-agent/src/experimental/server.ts
+- [[dot-reloadPresentationFacetBundles()]] - code - packages/coding-agent/src/experimental/server.ts
+- [[dot-removeSessionPlugins()]] - code - packages/coding-agent/src/experimental/server.ts
+- [[dot-resolveSessionPlugins()]] - code - packages/coding-agent/src/experimental/server.ts
+- [[dot-setConnectionCount()]] - code - packages/coding-agent/src/experimental/server.ts
+- [[dot-setWorkerCount()]] - code - packages/coding-agent/src/experimental/server.ts
+- [[dot-start()_10]] - code - packages/coding-agent/src/experimental/server.ts
+- [[dot-stop()_3]] - code - packages/coding-agent/src/experimental/server.ts
+- [[@exampledynamic]] - code - @example/dynamic
+- [[ActivatedServer]] - code - packages/coding-agent/src/experimental/server.ts
+- [[BundleFacetPackageOptions]] - code - packages/chord/src/node/package.ts
+- [[BundleFacetPackageResult]] - code - packages/chord/src/node/package.ts
+- [[BundleFacetsOptions]] - code - packages/chord/src/node/bundle.ts
+- [[BundleFacetsResult]] - code - packages/chord/src/node/bundle.ts
+- [[CommonJsModule]] - code - packages/chord/src/node/bundle-loader.ts
+- [[ConfiguredServerPluginPackage]] - code - packages/coding-agent/src/experimental/plugins/package.ts
+- [[DEFAULT_PLUGIN_FACETS]] - code - packages/coding-agent/src/experimental/plugins/package.ts
+- [[ENV_SERVER_DIR]] - code - packages/coding-agent/src/experimental/server.ts
+- [[ENV_SERVER_ID]] - code - packages/coding-agent/src/experimental/server.ts
+- [[FACET_BUNDLE_ARTIFACT_FORMAT]] - code - packages/chord/src/node/manifest.ts
+- [[FACET_BUNDLE_ARTIFACT_FORMAT_VERSION]] - code - packages/chord/src/node/manifest.ts
+- [[FACET_BUNDLE_FORMAT]] - code - packages/chord/src/node/manifest.ts
+- [[FACET_BUNDLE_FORMAT_VERSION]] - code - packages/chord/src/node/manifest.ts
+- [[FACET_BUNDLE_MANIFEST_FILE]] - code - packages/chord/src/node/manifest.ts
+- [[FacetBundleArtifact]] - code - packages/chord/src/node/manifest.ts
+- [[FacetBundleArtifactLoaderOptions]] - code - packages/chord/src/node/bundle-loader.ts
+- [[FacetBundleEntry]] - code - packages/chord/src/node/manifest.ts
+- [[FacetBundleExternalResolver]] - code - packages/chord/src/node/bundle-loader.ts
+- [[FacetBundleLoaderOptions]] - code - packages/chord/src/node/bundle-loader.ts
+- [[FacetBundleManifest]] - code - packages/chord/src/node/manifest.ts
+- [[FacetBundlePlatform]] - code - packages/chord/src/node/bundle.ts
+- [[FacetBundlePlugin]] - code - packages/chord/src/node/manifest.ts
+- [[FacetPackageMetadata]] - code - packages/chord/src/node/package.ts
+- [[GenerationValue]] - code - packages/chord/test/bundle.test.ts
+- [[ResolvedSessionPlugins]] - code - packages/coding-agent/src/experimental/server.ts
+- [[RunningServer]] - code - packages/coding-agent/src/experimental/server.ts
+- [[RunningServerBackend]] - code - packages/coding-agent/src/experimental/server.ts
+- [[ServerLifetime]] - code - packages/coding-agent/src/experimental/server.ts
+- [[ServerProfile]] - code - packages/coding-agent/src/experimental/server.ts
+- [[StartServerBackendOptions]] - code - packages/coding-agent/src/experimental/server.ts
+- [[UnixServerRoute]] - code - packages/client/src/unix.ts
+- [[acquireServerActivation()]] - code - packages/coding-agent/src/experimental/server.ts
+- [[acquireServerProfile()]] - code - packages/coding-agent/src/experimental/server.ts
+- [[activateServer()]] - code - packages/coding-agent/src/experimental/server.ts
+- [[assert]] - code - packages/tui/test/fixtures/clipboard-reader.cjs
+- [[assertAccess()_1]] - code - packages/coding-agent/test/experimental-presentation-facets.test.ts
+- [[bundle-loader.ts]] - code - packages/chord/src/node/bundle-loader.ts
+- [[bundle.test.ts]] - code - packages/chord/test/bundle.test.ts
+- [[bundle.ts]] - code - packages/chord/src/node/bundle.ts
+- [[bundleEntry()]] - code - packages/chord/src/node/bundle.ts
+- [[bundleFacetPackage()]] - code - packages/chord/src/node/package.ts
+- [[bundleFacets()]] - code - packages/chord/src/node/bundle.ts
+- [[bundled.ts]] - code - packages/coding-agent/src/experimental/plugins/bundled.ts
+- [[bundler.ts]] - code - packages/chord/src/bundler.ts
+- [[canConnect()]] - code - packages/coding-agent/test/experimental-internal-process.test.ts
+- [[children_1]] - code - packages/coding-agent/test/experimental-internal-process.test.ts
+- [[clipboard-reader.cjs]] - code - packages/tui/test/fixtures/clipboard-reader.cjs
+- [[connect()]] - code - packages/coding-agent/src/experimental/server.ts
+- [[createExperimentalServerServices()]] - code - packages/coding-agent/src/experimental/services/server.ts
+- [[createExperimentalSessions()]] - code - packages/coding-agent/test/experimental-session-support.ts
+- [[createFacetBundleArtifactLoader()]] - code - packages/chord/src/node/bundle-loader.ts
+- [[createFacetBundleLoader()]] - code - packages/chord/src/node/bundle-loader.ts
+- [[createOptionalSessionFacetLoader()]] - code - packages/coding-agent/src/experimental/plugins/bundled.ts
+- [[createPresentationFacetData()]] - code - packages/coding-agent/src/experimental/plugins/bundled.ts
+- [[createPresentationFacetLoaders()]] - code - packages/coding-agent/src/experimental/plugins/bundled.ts
+- [[createServerPluginPackage()]] - code - packages/coding-agent/src/experimental/plugins/package.ts
+- [[createSession()]] - code - packages/coding-agent/src/experimental/session-catalog.ts
+- [[createSessionPluginFacetLoader()]] - code - packages/coding-agent/src/experimental/plugins/bundled.ts
+- [[deleteSession()]] - code - packages/coding-agent/src/experimental/session-catalog.ts
+- [[directories]] - code - packages/coding-agent/test/experimental-internal-process.test.ts
+- [[directories_1]] - code - packages/coding-agent/test/experimental-presentation-facets.test.ts
+- [[ensureCoordinator()]] - code - packages/coding-agent/src/experimental/coordinator.ts
+- [[ensurePrivateServerDirectory()]] - code - packages/coding-agent/src/experimental/server.ts
+- [[esbuildMessages()]] - code - packages/chord/src/node/bundle.ts
+- [[executeCommonJsModule()]] - code - packages/chord/src/node/bundle-loader.ts
+- [[experimental-internal-process.test.ts]] - code - packages/coding-agent/test/experimental-internal-process.test.ts
+- [[experimental-presentation-facets.test.ts]] - code - packages/coding-agent/test/experimental-presentation-facets.test.ts
+- [[experimentalserver.ts]] - code - packages/coding-agent/src/experimental/server.ts
+- [[facetsFromModule()]] - code - packages/chord/src/node/bundle-loader.ts
+- [[formatEsbuildMessage()]] - code - packages/chord/src/node/bundle.ts
+- [[getUnixSocketPath()]] - code - packages/server/src/transports/unix/address.ts
+- [[isEsbuildMessage()]] - code - packages/chord/src/node/bundle.ts
+- [[isMissingPath()]] - code - packages/chord/src/node/bundle.ts
+- [[isMissingPath()_1]] - code - packages/chord/src/node/package.ts
+- [[isNotFound()]] - code - packages/coding-agent/src/experimental/session-catalog.ts
+- [[isRecord()_5]] - code - packages/chord/src/node/bundle.ts
+- [[isRecord()_4]] - code - packages/chord/src/node/bundle-loader.ts
+- [[isRecord()_6]] - code - packages/chord/src/node/package.ts
+- [[isSessionId()]] - code - packages/coding-agent/src/experimental/session-catalog.ts
+- [[listSessions()]] - code - packages/coding-agent/src/experimental/session-catalog.ts
+- [[makeServer()]] - code - packages/coding-agent/test/experimental-remote-runtime.test.ts
+- [[manifest.ts]] - code - packages/chord/src/node/manifest.ts
+- [[materializeArtifact()]] - code - packages/chord/src/node/bundle-loader.ts
+- [[nodepackage.ts]] - code - packages/chord/src/node/package.ts
+- [[normalizePluginPackagePaths()]] - code - packages/coding-agent/src/experimental/plugins/package.ts
+- [[onError()_1]] - code - packages/coding-agent/test/experimental-presentation-facets.test.ts
+- [[packageDirectory_1]] - code - packages/chord/test/bundle.test.ts
+- [[packages_server_src_index_serverhost]] - concept
+- [[packages_server_src_index_sessionnotfounderror]] - concept
+- [[parseChordConfiguration()]] - code - packages/chord/src/node/package.ts
+- [[parseIntegrity()]] - code - packages/chord/src/node/bundle-loader.ts
+- [[parsePeerDependencies()]] - code - packages/chord/src/node/package.ts
+- [[parseServerModelOptions()]] - code - packages/coding-agent/src/experimental/server.ts
+- [[pluginBuildDirectoryName()]] - code - packages/coding-agent/src/experimental/plugins/package.ts
+- [[pluginspackage.ts]] - code - packages/coding-agent/src/experimental/plugins/package.ts
+- [[readFacetBundleArtifact()]] - code - packages/chord/src/node/bundle-loader.ts
+- [[readFacetBundleManifest()]] - code - packages/chord/src/node/bundle-loader.ts
+- [[readFacetPackageMetadata()]] - code - packages/chord/src/node/package.ts
+- [[readPluginPackageProfile()]] - code - packages/coding-agent/src/experimental/plugins/package.ts
+- [[readSession()]] - code - packages/coding-agent/src/experimental/session-catalog.ts
+- [[readSessionPluginPackageProfile()]] - code - packages/coding-agent/src/experimental/plugins/package.ts
+- [[ref_node_crypto]] - concept
+- [[removeSessionPluginPackageProfile()]] - code - packages/coding-agent/src/experimental/plugins/package.ts
+- [[replaceDirectory()]] - code - packages/chord/src/node/bundle.ts
+- [[resolveBundleFile()]] - code - packages/chord/src/node/bundle-loader.ts
+- [[resolveExternalTarget()]] - code - packages/chord/src/node/bundle-loader.ts
+- [[resolveFacetEntries()]] - code - packages/chord/src/node/package.ts
+- [[resolvePackageEntry()]] - code - packages/chord/src/node/package.ts
+- [[resolvePluginExternal()]] - code - packages/coding-agent/src/experimental/plugins/bundled.ts
+- [[resolveServerDirectory()]] - code - packages/coding-agent/src/experimental/server.ts
+- [[resolveSessionDirectory()]] - code - packages/coding-agent/src/experimental/server.ts
+- [[restoreServerPluginPackageProfile()]] - code - packages/coding-agent/src/experimental/plugins/package.ts
+- [[runServerProcess()]] - code - packages/coding-agent/src/experimental/server.ts
+- [[runningServers]] - code - packages/coding-agent/test/experimental-presentation-facets.test.ts
+- [[runtimes]] - code - packages/coding-agent/test/experimental-presentation-facets.test.ts
+- [[sameStrings()_1]] - code - packages/coding-agent/src/experimental/server.ts
+- [[session-catalog.ts]] - code - packages/coding-agent/src/experimental/session-catalog.ts
+- [[sessionPluginProfilePath()]] - code - packages/coding-agent/src/experimental/plugins/package.ts
+- [[setup()_1]] - code - packages/chord/test/bundle.test.ts
+- [[shortHash()_1]] - code - packages/chord/src/node/bundle.ts
+- [[spawnInternalProcess()]] - code - packages/coding-agent/src/experimental/process.ts
+- [[srcnode.ts]] - code - packages/chord/src/node.ts
+- [[startForegroundServer()]] - code - packages/coding-agent/src/experimental/server.ts
+- [[startServer()_2]] - code - packages/coding-agent/src/experimental/server.ts
+- [[startServerBackend()]] - code - packages/coding-agent/src/experimental/server.ts
+- [[temporaryDirectories]] - code - packages/chord/test/bundle.test.ts
+- [[terminateInternalProcess()]] - code - packages/coding-agent/src/experimental/process.ts
+- [[toFilePath()]] - code - packages/chord/src/node/bundle-loader.ts
+- [[toRequireSpecifier()]] - code - packages/chord/src/node/bundle-loader.ts
+- [[validateArtifact()]] - code - packages/chord/src/node/bundle-loader.ts
+- [[validateCanonicalPackageEntry()]] - code - packages/chord/src/node/package.ts
+- [[validateFacetMapping()]] - code - packages/chord/src/node/package.ts
+- [[validateManifest()]] - code - packages/chord/src/node/bundle-loader.ts
+- [[validateOptions()]] - code - packages/chord/src/node/bundle.ts
+- [[validatePackageSpecifier()]] - code - packages/chord/src/node/bundle-loader.ts
+- [[verifySource()]] - code - packages/chord/src/node/bundle-loader.ts
+- [[writeGeneration()]] - code - packages/chord/test/bundle.test.ts
+- [[writePluginPackageProfile()]] - code - packages/coding-agent/src/experimental/plugins/package.ts
+- [[writeSessionPluginPackageProfile()]] - code - packages/coding-agent/src/experimental/plugins/package.ts
+- [[{ createHash }]] - code - packages/tui/test/fixtures/clipboard-reader.cjs
+- [[{ readFileSync }]] - code - packages/tui/test/fixtures/clipboard-reader.cjs
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Coding_Agent_会话工具_28
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 52 edges to [[_COMMUNITY_Coding Agent 会话工具 8]]
+- 42 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 23 edges to [[_COMMUNITY_Coding Agent 会话工具 33]]
+- 16 edges to [[_COMMUNITY_Coding Agent 会话工具 72]]
+- 16 edges to [[_COMMUNITY_Server 会话路由 20]]
+- 15 edges to [[_COMMUNITY_Coding Agent 会话工具 83]]
+- 13 edges to [[_COMMUNITY_Client 远程连接 14]]
+- 11 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 8 edges to [[_COMMUNITY_Chord 服务状态 30]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 23]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 48]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 76]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 2 edges to [[_COMMUNITY_Durable 持久任务 5]]
+- 2 edges to [[_COMMUNITY_Evals 行为评估 109]]
+- 2 edges to [[_COMMUNITY_TUI 终端组件 6]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 180]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 134]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 13]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 306]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 36]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 246]]
+- 1 edge to [[_COMMUNITY_Codemode 沙箱执行 186]]
+- 1 edge to [[_COMMUNITY_跨包 类型基础 296]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 59]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 265]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 122]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 126]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 65]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 77]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 27]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 99]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 116]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 242]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 18]]
+- 1 edge to [[_COMMUNITY_Evals 行为评估 114]]
+- 1 edge to [[_COMMUNITY_Evals 行为评估 113]]
+- 1 edge to [[_COMMUNITY_MCP 远端工具 34]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 350]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 110]]
+
+## Top bridge nodes
+- [[experimentalserver.ts]] - degree 108, connects to 11 communities
+- [[bundle-loader.ts]] - degree 43, connects to 5 communities
+- [[experimental-presentation-facets.test.ts]] - degree 30, connects to 4 communities
+- [[experimental-internal-process.test.ts]] - degree 14, connects to 4 communities
+- [[startServer()_2]] - degree 37, connects to 3 communities

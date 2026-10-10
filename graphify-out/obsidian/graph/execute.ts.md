@@ -1,0 +1,107 @@
+---
+source_file: "packages/coding-agent/src/extensions/codemode/execute.ts"
+type: "code"
+community: "Coding Agent 会话工具 77"
+location: "L1"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Coding_Agent_会话工具_77
+---
+
+# execute.ts
+
+## Connections
+- [[AgentTool]] - `imports` [EXTRACTED]
+- [[AgentToolCallOutcome]] - `imports` [EXTRACTED]
+- [[AgentToolResult]] - `imports` [EXTRACTED]
+- [[AnyModel]] - `imports` [EXTRACTED]
+- [[Bm25Ranker]] - `imports` [EXTRACTED]
+- [[CODEMODE_DOCS_PATH]] - `imports` [EXTRACTED]
+- [[CODEMODE_STORE_ENTRY_TYPE]] - `imports` [EXTRACTED]
+- [[ClassifierContext]] - `imports` [EXTRACTED]
+- [[CodemodeModelRuntime]] - `imports` [EXTRACTED]
+- [[CodemodeNestedCall]] - `imports` [EXTRACTED]
+- [[CodemodeResult]] - `imports` [EXTRACTED]
+- [[CodemodeSandbox]] - `imports` [EXTRACTED]
+- [[CodemodeStoreEntryData]] - `imports` [EXTRACTED]
+- [[CodemodeTool]] - `imports` [EXTRACTED]
+- [[CodemodeToolDetails]] - `imports` [EXTRACTED]
+- [[CodemodeToolInput]] - `imports` [EXTRACTED]
+- [[CodemodeToolOptions]] - `imports` [EXTRACTED]
+- [[DEFAULT_TOOL_SEARCH_LIMIT]] - `imports` [EXTRACTED]
+- [[ExtensionToolContext]] - `imports` [EXTRACTED]
+- [[ImageContent]] - `imports` [EXTRACTED]
+- [[ImagesContext]] - `imports` [EXTRACTED]
+- [[MODEL_TYPES]] - `contains` [EXTRACTED]
+- [[ModelCallResult]] - `contains` [EXTRACTED]
+- [[ModelType]] - `imports` [EXTRACTED]
+- [[ModelTypeMap]] - `imports` [EXTRACTED]
+- [[SessionEntry_1]] - `imports` [EXTRACTED]
+- [[TextContent]] - `imports` [EXTRACTED]
+- [[ToolNamespace]] - `imports` [EXTRACTED]
+- [[Usage_1]] - `imports` [EXTRACTED]
+- [[agentsrcindex.ts]] - `imports_from` [EXTRACTED]
+- [[aisrcindex.ts]] - `imports_from` [EXTRACTED]
+- [[checkClassifierContext()]] - `contains` [EXTRACTED]
+- [[checkImagesContext()]] - `contains` [EXTRACTED]
+- [[codemodesrcindex.ts]] - `imports_from` [EXTRACTED]
+- [[codemodetool.ts]] - `imports_from` [EXTRACTED]
+- [[combineUsage()]] - `imports` [EXTRACTED]
+- [[createDiscoveryGlobals()]] - `contains` [EXTRACTED]
+- [[createLimiter()]] - `contains` [EXTRACTED]
+- [[createModelGlobals()]] - `contains` [EXTRACTED]
+- [[createToolSearchDocument()]] - `imports` [EXTRACTED]
+- [[describeValue()]] - `contains` [EXTRACTED]
+- [[executeCodemode()]] - `contains` [EXTRACTED]
+- [[extensionstypes.ts]] - `imports_from` [EXTRACTED]
+- [[formatCallSummary()]] - `contains` [EXTRACTED]
+- [[formatError()]] - `contains` [EXTRACTED]
+- [[getCodemodeCallableTools()]] - `imports` [EXTRACTED]
+- [[getCodemodeWorkerSpecifier()]] - `imports` [EXTRACTED]
+- [[getQuickJSWasmPath()]] - `imports` [EXTRACTED]
+- [[isNamespaceName()]] - `contains` [EXTRACTED]
+- [[isRecord()_8]] - `contains` [EXTRACTED]
+- [[isStoreEntryData()]] - `contains` [EXTRACTED]
+- [[loadQuickJSWasm()]] - `imports` [EXTRACTED]
+- [[packages_agent_src_index_agenttool]] - `imports` [EXTRACTED]
+- [[packages_agent_src_index_agenttoolcalloutcome]] - `imports` [EXTRACTED]
+- [[packages_agent_src_index_agenttoolresult]] - `imports` [EXTRACTED]
+- [[packages_ai_src_index_anymodel]] - `imports` [EXTRACTED]
+- [[packages_ai_src_index_classifiercontext]] - `imports` [EXTRACTED]
+- [[packages_ai_src_index_imagecontent]] - `imports` [EXTRACTED]
+- [[packages_ai_src_index_imagescontext]] - `imports` [EXTRACTED]
+- [[packages_ai_src_index_modeltype]] - `imports` [EXTRACTED]
+- [[packages_ai_src_index_modeltypemap]] - `imports` [EXTRACTED]
+- [[packages_ai_src_index_textcontent]] - `imports` [EXTRACTED]
+- [[packages_ai_src_index_usage]] - `imports` [EXTRACTED]
+- [[parseCodemodeSource()]] - `imports` [EXTRACTED]
+- [[previewArgs()]] - `contains` [EXTRACTED]
+- [[readCodemodeStore()]] - `contains` [EXTRACTED]
+- [[ref_node_crypto]] - `imports_from` [EXTRACTED]
+- [[ref_node_fs]] - `imports_from` [EXTRACTED]
+- [[ref_node_os]] - `imports_from` [EXTRACTED]
+- [[ref_node_path]] - `imports_from` [EXTRACTED]
+- [[renderToolSample()]] - `imports` [EXTRACTED]
+- [[session-manager.ts]] - `imports_from` [EXTRACTED]
+- [[spillOutput()]] - `contains` [EXTRACTED]
+- [[srcconfig.ts]] - `imports_from` [EXTRACTED]
+- [[textOf()_3]] - `contains` [EXTRACTED]
+- [[toCodemodeDeclaration()]] - `imports` [EXTRACTED]
+- [[toCodemodeIdentifier()]] - `imports` [EXTRACTED]
+- [[toModelInfo()]] - `contains` [EXTRACTED]
+- [[toModelType()]] - `contains` [EXTRACTED]
+- [[toProvider()]] - `contains` [EXTRACTED]
+- [[toScriptValue()]] - `contains` [EXTRACTED]
+- [[tool-searchtool.ts]] - `imports_from` [EXTRACTED]
+- [[truncateOutput()]] - `contains` [EXTRACTED]
+- [[truncateText()]] - `contains` [EXTRACTED]
+- [[usage-totals.ts]] - `imports_from` [EXTRACTED]
+- [[valueText()]] - `contains` [EXTRACTED]
+- [[withArticle()]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Coding_Agent_会话工具_77
+
+## 源码入口
+
+[packages/coding-agent/src/extensions/codemode/execute.ts](../../../packages/coding-agent/src/extensions/codemode/execute.ts)

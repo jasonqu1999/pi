@@ -1,0 +1,563 @@
+{
+  "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+  "questions": [
+    {
+      "id": "Q1",
+      "question_anchor": "learning-questions.md#q1",
+      "explanation": "core-flow.md",
+      "evidence_ids": [
+        "E14",
+        "E18"
+      ],
+      "sources": [
+        {
+          "source_file": "packages/coding-agent/src/core/tools/read.ts",
+          "symbols": [
+            "createReadToolDefinition",
+            "defaultReadOperations",
+            "ops.access",
+            "ops.readFile"
+          ],
+          "graph_node_ids": [
+            "packages_coding_agent_src_core_tools_read_createreadtooldefinition",
+            "packages_coding_agent_src_core_tools_read_defaultreadoperations"
+          ]
+        },
+        {
+          "source_file": "packages/agent/src/agent-loop.ts",
+          "symbols": [
+            "executePreparedToolCall",
+            "createErrorToolResult",
+            "createToolResultMessage"
+          ],
+          "graph_node_ids": [
+            "packages_agent_src_agent_loop_createerrortoolresult",
+            "packages_agent_src_agent_loop_createtoolresultmessage",
+            "packages_agent_src_agent_loop_executepreparedtoolcall"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q2",
+      "question_anchor": "learning-questions.md#q2",
+      "explanation": "core-flow.md",
+      "evidence_ids": [
+        "E08",
+        "E09",
+        "E15",
+        "E27"
+      ],
+      "sources": [
+        {
+          "source_file": "packages/coding-agent/src/core/agent-session.ts",
+          "symbols": [
+            "_installAgentRequestProjection",
+            "buildSessionProjection",
+            "canonicalContext"
+          ],
+          "graph_node_ids": [
+            "packages_coding_agent_src_core_agent_session_agentsession_installagentrequestprojection"
+          ]
+        },
+        {
+          "source_file": "packages/agent/src/agent-loop.ts",
+          "symbols": [
+            "streamAssistantResponse",
+            "transformContext",
+            "convertToLlm",
+            "normalizeContext"
+          ],
+          "graph_node_ids": [
+            "packages_agent_src_agent_loop_streamassistantresponse"
+          ]
+        },
+        {
+          "source_file": "packages/agent/src/agent-loop.ts",
+          "symbols": [
+            "runLoop",
+            "currentContext.messages.push(result)",
+            "getFollowUpMessages",
+            "shouldTerminateToolBatch"
+          ],
+          "graph_node_ids": [
+            "packages_agent_src_agent_loop_runloop",
+            "packages_agent_src_agent_loop_shouldterminatetoolbatch"
+          ]
+        },
+        {
+          "source_file": "packages/coding-agent/src/core/session-manager.ts",
+          "symbols": [
+            "buildSessionProjection",
+            "buildContextEntries",
+            "projectContextEntry"
+          ],
+          "graph_node_ids": [
+            "packages_coding_agent_src_core_session_manager_buildcontextentries",
+            "packages_coding_agent_src_core_session_manager_buildsessionprojection",
+            "packages_coding_agent_src_core_session_manager_projectcontextentry",
+            "packages_coding_agent_src_core_session_manager_sessionmanager_buildcontextentries",
+            "packages_coding_agent_src_core_session_manager_sessionmanager_buildsessionprojection"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q3",
+      "question_anchor": "learning-questions.md#q3",
+      "explanation": "core-flow.md",
+      "evidence_ids": [
+        "E03",
+        "E05",
+        "E10"
+      ],
+      "sources": [
+        {
+          "source_file": "packages/coding-agent/src/modes/interactive/interactive-mode.ts",
+          "symbols": [
+            "setupEditorSubmitHandler",
+            "getUserInput",
+            "subscribeToAgent",
+            "handleEvent"
+          ],
+          "graph_node_ids": [
+            "packages_coding_agent_src_modes_interactive_interactive_mode_interactivemode_getuserinput",
+            "packages_coding_agent_src_modes_interactive_interactive_mode_interactivemode_handleevent",
+            "packages_coding_agent_src_modes_interactive_interactive_mode_interactivemode_setupeditorsubmithandler",
+            "packages_coding_agent_src_modes_interactive_interactive_mode_interactivemode_subscribetoagent"
+          ]
+        },
+        {
+          "source_file": "packages/agent/src/agent.ts",
+          "symbols": [
+            "prompt",
+            "runPromptMessages",
+            "createContextSnapshot",
+            "createLoopConfig"
+          ],
+          "graph_node_ids": [
+            "packages_agent_src_agent_agent_createcontextsnapshot",
+            "packages_agent_src_agent_agent_createloopconfig",
+            "packages_agent_src_agent_agent_prompt",
+            "packages_agent_src_agent_agent_runpromptmessages"
+          ]
+        },
+        {
+          "source_file": "packages/coding-agent/src/core/agent-session.ts",
+          "symbols": [
+            "prompt",
+            "_runInputHandlers",
+            "_preparePromptAndToolLoadout",
+            "_runAgentPrompt"
+          ],
+          "graph_node_ids": [
+            "packages_coding_agent_src_core_agent_session_agentsession_preparepromptandtoolloadout",
+            "packages_coding_agent_src_core_agent_session_agentsession_prompt",
+            "packages_coding_agent_src_core_agent_session_agentsession_runagentprompt",
+            "packages_coding_agent_src_core_agent_session_agentsession_runinputhandlers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q4",
+      "question_anchor": "learning-questions.md#q4",
+      "explanation": "core-flow.md",
+      "evidence_ids": [
+        "E13",
+        "E16"
+      ],
+      "sources": [
+        {
+          "source_file": "packages/agent/src/agent-loop.ts",
+          "symbols": [
+            "executeToolCalls",
+            "prepareToolCall",
+            "executePreparedToolCall",
+            "finalizeExecutedToolCall"
+          ],
+          "graph_node_ids": [
+            "packages_agent_src_agent_loop_executepreparedtoolcall",
+            "packages_agent_src_agent_loop_executetoolcalls",
+            "packages_agent_src_agent_loop_finalizeexecutedtoolcall",
+            "packages_agent_src_agent_loop_preparetoolcall"
+          ]
+        },
+        {
+          "source_file": "packages/agent/src/agent-loop.ts",
+          "symbols": [
+            "failToolCallsFromTruncatedMessage",
+            "message.stopReason === \"length\"",
+            "message.stopReason === \"error\""
+          ],
+          "graph_node_ids": [
+            "packages_agent_src_agent_loop_failtoolcallsfromtruncatedmessage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q5",
+      "question_anchor": "learning-questions.md#q5",
+      "explanation": "core-flow.md",
+      "evidence_ids": [
+        "E06",
+        "E07",
+        "E17",
+        "E23"
+      ],
+      "sources": [
+        {
+          "source_file": "packages/agent/src/agent.ts",
+          "symbols": [
+            "createContextSnapshot",
+            "messages.slice"
+          ],
+          "graph_node_ids": [
+            "packages_agent_src_agent_agent_createcontextsnapshot"
+          ]
+        },
+        {
+          "source_file": "packages/agent/src/agent.ts",
+          "symbols": [
+            "processEvents",
+            "case \"message_end\"",
+            "await listener"
+          ],
+          "graph_node_ids": [
+            "packages_agent_src_agent_agent_processevents"
+          ]
+        },
+        {
+          "source_file": "packages/coding-agent/src/core/agent-session.ts",
+          "symbols": [
+            "_handleAgentEvent",
+            "appendMessage(event.message)",
+            "_emit(event"
+          ],
+          "graph_node_ids": [
+            "packages_coding_agent_src_core_agent_session_agentsession_handleagentevent"
+          ]
+        },
+        {
+          "source_file": "packages/coding-agent/src/core/session-manager.ts",
+          "symbols": [
+            "appendMessage",
+            "_appendEntry",
+            "_hasConversation",
+            "_persist"
+          ],
+          "graph_node_ids": [
+            "packages_coding_agent_src_core_session_manager_sessionmanager_appendentry",
+            "packages_coding_agent_src_core_session_manager_sessionmanager_appendmessage",
+            "packages_coding_agent_src_core_session_manager_sessionmanager_hasconversation",
+            "packages_coding_agent_src_core_session_manager_sessionmanager_persist"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q6",
+      "question_anchor": "learning-questions.md#q6",
+      "explanation": "core-flow.md",
+      "evidence_ids": [
+        "E15",
+        "E20",
+        "E21",
+        "T06"
+      ],
+      "sources": [
+        {
+          "source_file": "packages/agent/src/agent-loop.ts",
+          "symbols": [
+            "runLoop",
+            "currentContext.messages.push(result)",
+            "getFollowUpMessages",
+            "shouldTerminateToolBatch"
+          ],
+          "graph_node_ids": [
+            "packages_agent_src_agent_loop_runloop",
+            "packages_agent_src_agent_loop_shouldterminatetoolbatch"
+          ]
+        },
+        {
+          "source_file": "packages/agent/src/agent.ts",
+          "symbols": [
+            "runWithLifecycle",
+            "handleRunFailure",
+            "finishRun",
+            "waitForIdle"
+          ],
+          "graph_node_ids": [
+            "packages_agent_src_agent_agent_finishrun",
+            "packages_agent_src_agent_agent_handlerunfailure",
+            "packages_agent_src_agent_agent_runwithlifecycle",
+            "packages_agent_src_agent_agent_waitforidle"
+          ]
+        },
+        {
+          "source_file": "packages/coding-agent/src/core/agent-session.ts",
+          "symbols": [
+            "_runAgentPrompt",
+            "_handlePostAgentRun",
+            "_runBeforeSettleBoundary",
+            "_emitAgentSettled"
+          ],
+          "graph_node_ids": [
+            "packages_coding_agent_src_core_agent_session_agentsession_emitagentsettled",
+            "packages_coding_agent_src_core_agent_session_agentsession_handlepostagentrun",
+            "packages_coding_agent_src_core_agent_session_agentsession_runagentprompt",
+            "packages_coding_agent_src_core_agent_session_agentsession_runbeforesettleboundary"
+          ]
+        },
+        {
+          "source_file": "packages/coding-agent/test/suite/regressions/6363-agent-settled-event.test.ts",
+          "symbols": [
+            "emits one agent_settled event after automatic retry finishes",
+            "settles only after follow-ups queued by agent_end handlers run"
+          ],
+          "graph_node_ids": []
+        }
+      ]
+    },
+    {
+      "id": "Q7",
+      "question_anchor": "learning-questions.md#q7",
+      "explanation": "core-flow.md",
+      "evidence_ids": [
+        "E04",
+        "E11",
+        "E28"
+      ],
+      "sources": [
+        {
+          "source_file": "packages/coding-agent/src/core/sdk.ts",
+          "symbols": [
+            "createAgentSession",
+            "convertToLlmWithBlockImages",
+            "new Agent",
+            "new AgentSession"
+          ],
+          "graph_node_ids": [
+            "packages_coding_agent_src_core_sdk_createagentsession"
+          ]
+        },
+        {
+          "source_file": "packages/agent/src/agent-loop.ts",
+          "symbols": [
+            "declareToolChanges",
+            "getToolStateChanges",
+            "withToolChanges"
+          ],
+          "graph_node_ids": [
+            "packages_agent_src_agent_loop_declaretoolchanges",
+            "packages_agent_src_agent_loop_withtoolchanges"
+          ]
+        },
+        {
+          "source_file": "packages/ai/src/utils/transcript.ts",
+          "symbols": [
+            "getCurrentTools",
+            "normalizeContext",
+            "toToolDeclaration"
+          ],
+          "graph_node_ids": [
+            "packages_ai_src_utils_transcript_getcurrenttools",
+            "packages_ai_src_utils_transcript_normalizecontext",
+            "packages_ai_src_utils_transcript_totooldeclaration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q8",
+      "question_anchor": "learning-questions.md#q8",
+      "explanation": "core-flow.md",
+      "evidence_ids": [
+        "E18",
+        "E20",
+        "E22",
+        "E24"
+      ],
+      "sources": [
+        {
+          "source_file": "packages/agent/src/agent-loop.ts",
+          "symbols": [
+            "executePreparedToolCall",
+            "createErrorToolResult",
+            "createToolResultMessage"
+          ],
+          "graph_node_ids": [
+            "packages_agent_src_agent_loop_createerrortoolresult",
+            "packages_agent_src_agent_loop_createtoolresultmessage",
+            "packages_agent_src_agent_loop_executepreparedtoolcall"
+          ]
+        },
+        {
+          "source_file": "packages/agent/src/agent.ts",
+          "symbols": [
+            "runWithLifecycle",
+            "handleRunFailure",
+            "finishRun",
+            "waitForIdle"
+          ],
+          "graph_node_ids": [
+            "packages_agent_src_agent_agent_finishrun",
+            "packages_agent_src_agent_agent_handlerunfailure",
+            "packages_agent_src_agent_agent_runwithlifecycle",
+            "packages_agent_src_agent_agent_waitforidle"
+          ]
+        },
+        {
+          "source_file": "packages/coding-agent/src/core/agent-session.ts",
+          "symbols": [
+            "_prepareRetry",
+            "_isRetryableError",
+            "_omitRecoveryAttempt"
+          ],
+          "graph_node_ids": [
+            "packages_coding_agent_src_core_agent_session_agentsession_isretryableerror",
+            "packages_coding_agent_src_core_agent_session_agentsession_omitrecoveryattempt",
+            "packages_coding_agent_src_core_agent_session_agentsession_prepareretry"
+          ]
+        },
+        {
+          "source_file": "packages/coding-agent/src/core/agent-session.ts",
+          "symbols": [
+            "abort",
+            "abortRetry",
+            "abortCompaction",
+            "waitForIdle"
+          ],
+          "graph_node_ids": [
+            "packages_coding_agent_src_core_agent_session_agentsession_abort",
+            "packages_coding_agent_src_core_agent_session_agentsession_abortcompaction",
+            "packages_coding_agent_src_core_agent_session_agentsession_abortretry",
+            "packages_coding_agent_src_core_agent_session_agentsession_waitforidle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q9",
+      "question_anchor": "learning-questions.md#q9",
+      "explanation": "architecture.md",
+      "evidence_ids": [
+        "E01",
+        "E02",
+        "E04",
+        "E26",
+        "I01"
+      ],
+      "sources": [
+        {
+          "source_file": "packages/coding-agent/package.json",
+          "symbols": [
+            "name",
+            "dependencies"
+          ],
+          "graph_node_ids": [
+            "packages_coding_agent_package_dependencies",
+            "packages_coding_agent_package_name"
+          ]
+        },
+        {
+          "source_file": "packages/coding-agent/src/main.ts",
+          "symbols": [
+            "main",
+            "createAgentSessionRuntime",
+            "createAgentSessionFromServices"
+          ],
+          "graph_node_ids": [
+            "packages_coding_agent_src_main_main"
+          ]
+        },
+        {
+          "source_file": "packages/coding-agent/src/core/sdk.ts",
+          "symbols": [
+            "createAgentSession",
+            "convertToLlmWithBlockImages",
+            "new Agent",
+            "new AgentSession"
+          ],
+          "graph_node_ids": [
+            "packages_coding_agent_src_core_sdk_createagentsession"
+          ]
+        },
+        {
+          "source_file": "packages/coding-agent/src/core/model-runtime.ts",
+          "symbols": [
+            "streamSimple",
+            "prepared.provider.streamSimple",
+            "normalizeContext"
+          ],
+          "graph_node_ids": [
+            "packages_coding_agent_src_core_model_runtime_modelruntime_streamsimple"
+          ]
+        },
+        {
+          "source_file": "packages/coding-agent/src/core/sdk.ts",
+          "symbols": [
+            "createAgentSession",
+            "streamFn"
+          ],
+          "graph_node_ids": [
+            "packages_coding_agent_src_core_sdk_createagentsession"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "question_anchor": "learning-questions.md#q10",
+      "explanation": "core-flow.md",
+      "evidence_ids": [
+        "E13",
+        "E25",
+        "E29"
+      ],
+      "sources": [
+        {
+          "source_file": "packages/agent/src/agent-loop.ts",
+          "symbols": [
+            "executeToolCalls",
+            "prepareToolCall",
+            "executePreparedToolCall",
+            "finalizeExecutedToolCall"
+          ],
+          "graph_node_ids": [
+            "packages_agent_src_agent_loop_executepreparedtoolcall",
+            "packages_agent_src_agent_loop_executetoolcalls",
+            "packages_agent_src_agent_loop_finalizeexecutedtoolcall",
+            "packages_agent_src_agent_loop_preparetoolcall"
+          ]
+        },
+        {
+          "source_file": "packages/coding-agent/src/core/agent-session.ts",
+          "symbols": [
+            "_installAgentToolHooks",
+            "_beforeToolCall",
+            "_afterToolCall",
+            "_executeNestedToolCall"
+          ],
+          "graph_node_ids": [
+            "packages_coding_agent_src_core_agent_session_agentsession_aftertoolcall",
+            "packages_coding_agent_src_core_agent_session_agentsession_beforetoolcall",
+            "packages_coding_agent_src_core_agent_session_agentsession_executenestedtoolcall",
+            "packages_coding_agent_src_core_agent_session_agentsession_installagenttoolhooks"
+          ]
+        },
+        {
+          "source_file": "packages/coding-agent/src/core/tools/tool-definition-wrapper.ts",
+          "symbols": [
+            "wrapToolDefinition",
+            "definition.execute"
+          ],
+          "graph_node_ids": [
+            "packages_coding_agent_src_core_tools_tool_definition_wrapper_wraptooldefinition"
+          ]
+        }
+      ]
+    }
+  ]
+}

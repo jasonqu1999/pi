@@ -1,0 +1,532 @@
+---
+type: community
+cohesion: 0.02
+members: 405
+---
+
+# Coding Agent 会话工具 3
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 405 nodes
+
+## Members
+- [[dot-addChild()_3]] - code - packages/tui/src/tui.ts
+- [[dot-addOptionList()]] - code - packages/coding-agent/src/modes/interactive/components/first-time-setup.ts
+- [[dot-applyFilter()_1]] - code - packages/coding-agent/src/modes/interactive/components/thinking-selector.ts
+- [[dot-bg()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[dot-bold()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[dot-buildItems()]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[dot-cancel()_2]] - code - packages/coding-agent/src/modes/interactive/components/login-dialog.ts
+- [[dot-clear()_12]] - code - packages/tui/src/tui.ts
+- [[dot-close()_24]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-confirm()_2]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-connectionError()_1]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-constructor()_176]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-constructor()_177]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-constructor()_182]] - code - packages/coding-agent/src/extensions/mcp/ui.ts
+- [[dot-constructor()_186]] - code - packages/coding-agent/src/modes/interactive/components/auth-url.ts
+- [[dot-constructor()_187]] - code - packages/coding-agent/src/modes/interactive/components/bash-execution.ts
+- [[dot-constructor()_188]] - code - packages/coding-agent/src/modes/interactive/components/bordered-loader.ts
+- [[dot-constructor()_189]] - code - packages/coding-agent/src/modes/interactive/components/branch-summary-message.ts
+- [[dot-constructor()_190]] - code - packages/coding-agent/src/modes/interactive/components/compaction-summary-message.ts
+- [[dot-constructor()_195]] - code - packages/coding-agent/src/modes/interactive/components/custom-editor.ts
+- [[dot-constructor()_197]] - code - packages/coding-agent/src/modes/interactive/components/custom-message.ts
+- [[dot-constructor()_198]] - code - packages/coding-agent/src/modes/interactive/components/dynamic-border.ts
+- [[dot-constructor()_199]] - code - packages/coding-agent/src/modes/interactive/components/earendil-announcement.ts
+- [[dot-constructor()_202]] - code - packages/coding-agent/src/modes/interactive/components/extension-editor.ts
+- [[dot-constructor()_203]] - code - packages/coding-agent/src/modes/interactive/components/extension-input.ts
+- [[dot-constructor()_204]] - code - packages/coding-agent/src/modes/interactive/components/extension-selector.ts
+- [[dot-constructor()_205]] - code - packages/coding-agent/src/modes/interactive/components/first-time-setup.ts
+- [[dot-constructor()_207]] - code - packages/coding-agent/src/modes/interactive/components/login-dialog.ts
+- [[dot-constructor()_209]] - code - packages/coding-agent/src/modes/interactive/components/oauth-selector.ts
+- [[dot-constructor()_211]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[dot-constructor()_221]] - code - packages/coding-agent/src/modes/interactive/components/skill-invocation-message.ts
+- [[dot-constructor()_226]] - code - packages/coding-agent/src/modes/interactive/components/status-indicator.ts
+- [[dot-constructor()_225]] - code - packages/coding-agent/src/modes/interactive/components/status-indicator.ts
+- [[dot-constructor()_224]] - code - packages/coding-agent/src/modes/interactive/components/status-indicator.ts
+- [[dot-constructor()_229]] - code - packages/coding-agent/src/modes/interactive/components/thinking-selector.ts
+- [[dot-constructor()_234]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[dot-constructor()_235]] - code - packages/coding-agent/src/modes/interactive/components/trust-selector.ts
+- [[dot-constructor()_237]] - code - packages/coding-agent/src/modes/interactive/components/user-message-selector.ts
+- [[dot-constructor()_238]] - code - packages/coding-agent/src/modes/interactive/components/user-message.ts
+- [[dot-constructor()_336]] - code - packages/tui/src/components/spacer.ts
+- [[dot-constructor()_338]] - code - packages/tui/src/components/text.ts
+- [[dot-constructor()_339]] - code - packages/tui/src/components/truncated-text.ts
+- [[dot-copy()]] - code - packages/coding-agent/src/modes/interactive/components/auth-url.ts
+- [[dot-create()_1]] - code - packages/coding-agent/src/core/keybindings.ts
+- [[dot-dispose()_45]] - code - packages/coding-agent/src/modes/interactive/components/extension-selector.ts
+- [[dot-dispose()_50]] - code - packages/coding-agent/src/modes/interactive/components/status-indicator.ts
+- [[dot-fg()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[dot-filterProviders()]] - code - packages/coding-agent/src/modes/interactive/components/oauth-selector.ts
+- [[dot-filterResults()]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-focused()_2]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-focused()_3]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-focused()_4]] - code - packages/coding-agent/src/extensions/mcp/ui.ts
+- [[dot-focused()_7]] - code - packages/coding-agent/src/modes/interactive/components/extension-editor.ts
+- [[dot-focused()_8]] - code - packages/coding-agent/src/modes/interactive/components/extension-input.ts
+- [[dot-focused()_9]] - code - packages/coding-agent/src/modes/interactive/components/login-dialog.ts
+- [[dot-focused()_11]] - code - packages/coding-agent/src/modes/interactive/components/oauth-selector.ts
+- [[dot-focused()_12]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[dot-focused()_15]] - code - packages/coding-agent/src/modes/interactive/components/thinking-selector.ts
+- [[dot-focused()_17]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[dot-getBashModeBorderColor()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[dot-getBgAnsi()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[dot-getFgAnsi()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[dot-getFooterText()]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[dot-getMessageList()]] - code - packages/coding-agent/src/modes/interactive/components/user-message-selector.ts
+- [[dot-getSelectedItem()]] - code - packages/tui/src/components/select-list.ts
+- [[dot-getThinkingBorderColor()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[dot-getTreeList()]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[dot-handleInput()_29]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-handleInput()_30]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-handleInput()_31]] - code - packages/coding-agent/src/extensions/mcp/ui.ts
+- [[dot-handleInput()_34]] - code - packages/coding-agent/src/modes/interactive/components/custom-editor.ts
+- [[dot-handleInput()_36]] - code - packages/coding-agent/src/modes/interactive/components/extension-editor.ts
+- [[dot-handleInput()_37]] - code - packages/coding-agent/src/modes/interactive/components/extension-input.ts
+- [[dot-handleInput()_38]] - code - packages/coding-agent/src/modes/interactive/components/extension-selector.ts
+- [[dot-handleInput()_39]] - code - packages/coding-agent/src/modes/interactive/components/first-time-setup.ts
+- [[dot-handleInput()_40]] - code - packages/coding-agent/src/modes/interactive/components/login-dialog.ts
+- [[dot-handleInput()_42]] - code - packages/coding-agent/src/modes/interactive/components/oauth-selector.ts
+- [[dot-handleInput()_43]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[dot-handleInput()_50]] - code - packages/coding-agent/src/modes/interactive/components/thinking-selector.ts
+- [[dot-handleInput()_55]] - code - packages/coding-agent/src/modes/interactive/components/trust-selector.ts
+- [[dot-handleOpenExternalEditor()]] - code - packages/coding-agent/src/modes/interactive/components/extension-editor.ts
+- [[dot-hideLabelInput()]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[dot-invalidate()_19]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-invalidate()_20]] - code - packages/coding-agent/src/extensions/mcp/ui.ts
+- [[dot-invalidate()_24]] - code - packages/coding-agent/src/modes/interactive/components/branch-summary-message.ts
+- [[dot-invalidate()_25]] - code - packages/coding-agent/src/modes/interactive/components/compaction-summary-message.ts
+- [[dot-invalidate()_29]] - code - packages/coding-agent/src/modes/interactive/components/custom-message.ts
+- [[dot-invalidate()_30]] - code - packages/coding-agent/src/modes/interactive/components/dynamic-border.ts
+- [[dot-invalidate()_32]] - code - packages/coding-agent/src/modes/interactive/components/first-time-setup.ts
+- [[dot-invalidate()_37]] - code - packages/coding-agent/src/modes/interactive/components/skill-invocation-message.ts
+- [[dot-invalidate()_38]] - code - packages/coding-agent/src/modes/interactive/components/status-indicator.ts
+- [[dot-invalidate()_43]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[dot-invalidate()_60]] - code - packages/tui/src/components/spacer.ts
+- [[dot-invalidate()_61]] - code - packages/tui/src/components/text.ts
+- [[dot-invalidate()_62]] - code - packages/tui/src/components/truncated-text.ts
+- [[dot-inverse()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[dot-isSavedOption()]] - code - packages/coding-agent/src/modes/interactive/components/trust-selector.ts
+- [[dot-italic()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[dot-menu()_1]] - code - packages/coding-agent/src/extensions/mcp/ui.ts
+- [[dot-moveSelection()]] - code - packages/coding-agent/src/modes/interactive/components/first-time-setup.ts
+- [[dot-notifyAuthDialog()]] - code - packages/coding-agent/src/modes/interactive/interactive-mode.ts
+- [[dot-notifyChange()]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[dot-progress()_1]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-rebuild()_5]] - code - packages/coding-agent/src/modes/interactive/components/custom-message.ts
+- [[dot-rebuild()_6]] - code - packages/coding-agent/src/modes/interactive/components/user-message.ts
+- [[dot-redirectUrl()_1]] - code - packages/coding-agent/src/extensions/mcp/ui.ts
+- [[dot-refresh()_8]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[dot-reload()_5]] - code - packages/coding-agent/src/core/keybindings.ts
+- [[dot-removeChild()_3]] - code - packages/tui/src/tui.ts
+- [[dot-render()_34]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-render()_35]] - code - packages/coding-agent/src/extensions/mcp/ui.ts
+- [[dot-render()_38]] - code - packages/coding-agent/src/modes/interactive/components/config-selector.ts
+- [[dot-render()_40]] - code - packages/coding-agent/src/modes/interactive/components/dynamic-border.ts
+- [[dot-render()_48]] - code - packages/coding-agent/src/modes/interactive/components/status-indicator.ts
+- [[dot-render()_53]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[dot-render()_56]] - code - packages/coding-agent/src/modes/interactive/components/user-message.ts
+- [[dot-render()_72]] - code - packages/tui/src/components/spacer.ts
+- [[dot-renderTopBorder()]] - code - packages/coding-agent/src/modes/interactive/components/custom-editor.ts
+- [[dot-renderWidgetContainer()]] - code - packages/coding-agent/src/modes/interactive/interactive-mode.ts
+- [[dot-replaceInputWithSubmittedText()]] - code - packages/coding-agent/src/modes/interactive/components/login-dialog.ts
+- [[dot-runSearch()]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-scheduleSearch()]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-searchModels()_1]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-select()_7]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-setContent()]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-setContent()_1]] - code - packages/coding-agent/src/extensions/mcp/ui.ts
+- [[dot-setCustomBgFn()]] - code - packages/tui/src/components/text.ts
+- [[dot-setExpanded()_3]] - code - packages/coding-agent/src/modes/interactive/components/branch-summary-message.ts
+- [[dot-setExpanded()_4]] - code - packages/coding-agent/src/modes/interactive/components/compaction-summary-message.ts
+- [[dot-setExpanded()_6]] - code - packages/coding-agent/src/modes/interactive/components/custom-message.ts
+- [[dot-setExpanded()_7]] - code - packages/coding-agent/src/modes/interactive/components/skill-invocation-message.ts
+- [[dot-setHint()]] - code - packages/coding-agent/src/modes/interactive/components/auth-url.ts
+- [[dot-setLines()]] - code - packages/tui/src/components/spacer.ts
+- [[dot-setOutputPad()_2]] - code - packages/coding-agent/src/modes/interactive/components/custom-message.ts
+- [[dot-setOutputPad()_3]] - code - packages/coding-agent/src/modes/interactive/components/user-message.ts
+- [[dot-setRefreshStatus()]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[dot-setText()_3]] - code - packages/tui/src/components/text.ts
+- [[dot-setWorkingStatusIndicator()]] - code - packages/coding-agent/src/modes/interactive/components/custom-editor.ts
+- [[dot-showAuth()]] - code - packages/coding-agent/src/modes/interactive/components/login-dialog.ts
+- [[dot-showAuthPrompt()]] - code - packages/coding-agent/src/modes/interactive/interactive-mode.ts
+- [[dot-showAuthSelect()]] - code - packages/coding-agent/src/modes/interactive/interactive-mode.ts
+- [[dot-showDetails()]] - code - packages/coding-agent/src/modes/interactive/components/login-dialog.ts
+- [[dot-showDeviceCode()]] - code - packages/coding-agent/src/modes/interactive/components/login-dialog.ts
+- [[dot-showInfo()]] - code - packages/coding-agent/src/modes/interactive/components/login-dialog.ts
+- [[dot-showLabelInput()]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[dot-showManualInput()]] - code - packages/coding-agent/src/modes/interactive/components/login-dialog.ts
+- [[dot-showModels()_1]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-showNewVersionNotification()]] - code - packages/coding-agent/src/modes/interactive/interactive-mode.ts
+- [[dot-showProgress()]] - code - packages/coding-agent/src/modes/interactive/components/login-dialog.ts
+- [[dot-showPrompt()]] - code - packages/coding-agent/src/modes/interactive/components/login-dialog.ts
+- [[dot-showStatus()_2]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-showWaiting()]] - code - packages/coding-agent/src/modes/interactive/components/login-dialog.ts
+- [[dot-signal()_2]] - code - packages/coding-agent/src/modes/interactive/components/login-dialog.ts
+- [[dot-status()_2]] - code - packages/coding-agent/src/extensions/mcp/ui.ts
+- [[dot-strikethrough()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[dot-tokenAnsi()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[dot-underline()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[dot-update()_6]] - code - packages/coding-agent/src/modes/interactive/components/first-time-setup.ts
+- [[dot-updateDisplay()_2]] - code - packages/coding-agent/src/modes/interactive/components/branch-summary-message.ts
+- [[dot-updateDisplay()_3]] - code - packages/coding-agent/src/modes/interactive/components/compaction-summary-message.ts
+- [[dot-updateDisplay()_4]] - code - packages/coding-agent/src/modes/interactive/components/skill-invocation-message.ts
+- [[dot-updateList()]] - code - packages/coding-agent/src/modes/interactive/components/extension-selector.ts
+- [[dot-updateList()_2]] - code - packages/coding-agent/src/modes/interactive/components/oauth-selector.ts
+- [[dot-updateList()_3]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[dot-updateList()_4]] - code - packages/coding-agent/src/modes/interactive/components/trust-selector.ts
+- [[dot-updateModels()]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[dot-updateProgress()_1]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[dot-updateResults()]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[ANALYTICS_OPTIONS]] - code - packages/coding-agent/src/modes/interactive/components/first-time-setup.ts
+- [[AUTH_TYPE_ORDER]] - code - packages/coding-agent/src/modes/interactive/interactive-mode.ts
+- [[AuthInfoLink]] - code - packages/ai/src/auth/types.ts
+- [[AuthPrompt]] - code - packages/ai/src/auth/types.ts
+- [[AuthUrlComponent]] - code - packages/coding-agent/src/modes/interactive/components/auth-url.ts
+- [[BACKGROUND_TOKENS]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[BranchSummaryMessage]] - code - packages/coding-agent/src/core/messages.ts
+- [[BranchSummaryMessageComponent]] - code - packages/coding-agent/src/modes/interactive/components/branch-summary-message.ts
+- [[BranchSummaryStatusIndicator]] - code - packages/coding-agent/src/modes/interactive/components/status-indicator.ts
+- [[BugReportContext]] - code - packages/coding-agent/src/modes/interactive/bug-report.ts
+- [[CliHighlightTheme]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[Color]] - code - packages/tui/src/colors.ts
+- [[CompactionCostNotice]] - code - packages/coding-agent/src/modes/interactive/interactive-mode.ts
+- [[CompactionQueuedMessage]] - code - packages/coding-agent/src/modes/interactive/interactive-mode.ts
+- [[CompactionStatusIndicator]] - code - packages/coding-agent/src/modes/interactive/components/status-indicator.ts
+- [[CompactionStatusReason]] - code - packages/coding-agent/src/modes/interactive/components/status-indicator.ts
+- [[CompactionSummaryMessage]] - code - packages/coding-agent/src/core/messages.ts
+- [[CompactionSummaryMessageComponent]] - code - packages/coding-agent/src/modes/interactive/components/compaction-summary-message.ts
+- [[Container_1]] - code - packages/tui/src/tui.ts
+- [[CountdownTimer]] - code - packages/coding-agent/src/modes/interactive/components/countdown-timer.ts
+- [[CustomEditor]] - code - packages/coding-agent/src/modes/interactive/components/custom-editor.ts
+- [[CustomEditorOptions]] - code - packages/coding-agent/src/modes/interactive/components/custom-editor.ts
+- [[CustomMessageComponent]] - code - packages/coding-agent/src/modes/interactive/components/custom-message.ts
+- [[DEAD_TERMINAL_ERROR_CODES]] - code - packages/coding-agent/src/modes/interactive/interactive-mode.ts
+- [[DefaultModelReference]] - code - packages/coding-agent/src/modes/interactive/components/model-selector.ts
+- [[DynamicBorder]] - code - packages/coding-agent/src/modes/interactive/components/dynamic-border.ts
+- [[EarendilAnnouncementComponent]] - code - packages/coding-agent/src/modes/interactive/components/earendil-announcement.ts
+- [[EnabledIds]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[ExtensionEditorComponent]] - code - packages/coding-agent/src/modes/interactive/components/extension-editor.ts
+- [[ExtensionInputComponent]] - code - packages/coding-agent/src/modes/interactive/components/extension-input.ts
+- [[ExtensionSelectorComponent]] - code - packages/coding-agent/src/modes/interactive/components/extension-selector.ts
+- [[FilterMode]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[FirstTimeSetupComponent]] - code - packages/coding-agent/src/modes/interactive/components/first-time-setup.ts
+- [[FirstTimeSetupOptions]] - code - packages/coding-agent/src/modes/interactive/components/first-time-setup.ts
+- [[FirstTimeSetupResult]] - code - packages/coding-agent/src/modes/interactive/components/first-time-setup.ts
+- [[Focusable]] - code - packages/tui/src/tui.ts
+- [[GUESSED_DEFAULT_COLORS]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[GutterInfo]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[HorizontalViewportRow]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[HuggingFaceModel]] - code - packages/coding-agent/src/extensions/llama/huggingface.ts
+- [[HuggingFaceSearch]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[IdleStatus]] - code - packages/coding-agent/src/modes/interactive/components/status-indicator.ts
+- [[KeyTextFormatOptions]] - code - packages/coding-agent/src/modes/interactive/components/keybinding-hints.ts
+- [[Keybinding]] - code - packages/tui/src/keybindings.ts
+- [[KeybindingsManager]] - code - packages/coding-agent/src/core/keybindings.ts
+- [[LEVEL_DESCRIPTIONS]] - code - packages/coding-agent/src/modes/interactive/components/thinking-selector.ts
+- [[LatestPiRelease]] - code - packages/coding-agent/src/utils/version-check.ts
+- [[LlamaManagerAction]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[LlamaView]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[LoginDialogComponent]] - code - packages/coding-agent/src/modes/interactive/components/login-dialog.ts
+- [[LoginProviderCompletionOption]] - code - packages/coding-agent/src/modes/interactive/interactive-mode.ts
+- [[MarkdownTheme]] - code - packages/tui/src/components/markdown.ts
+- [[McpManagerView]] - code - packages/coding-agent/src/extensions/mcp/ui.ts
+- [[ModelScope]] - code - packages/coding-agent/src/modes/interactive/components/model-selector.ts
+- [[ModelSearchItem]] - code - packages/coding-agent/src/modes/interactive/model-search.ts
+- [[ModelsCallbacks]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[ModelsConfig]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[OAuthSelectorComponent]] - code - packages/coding-agent/src/modes/interactive/components/oauth-selector.ts
+- [[OptionalThemeBg]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[OptionalThemeColor]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[ParsedSkillBlock]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[ProjectTrustOption]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[ProjectTrustStoreEntry]] - code - packages/coding-agent/src/core/trust-manager.ts
+- [[ProviderDebugEntry]] - code - packages/coding-agent/examples/extensions/debug-provider.ts
+- [[RadiusOption]] - code - packages/coding-agent/src/modes/interactive/components/radius-login-selector.ts
+- [[RenderSessionItem]] - code - packages/coding-agent/src/modes/interactive/interactive-mode.ts
+- [[RetryStatusIndicator]] - code - packages/coding-agent/src/modes/interactive/components/status-indicator.ts
+- [[SELECT_THEME]] - code - packages/coding-agent/src/experimental/durable/tui.ts
+- [[SELECT_THEME_1]] - code - packages/coding-agent/src/experimental/vacation/tui.ts
+- [[SETUP_LOGO_LINES]] - code - packages/coding-agent/src/modes/interactive/components/first-time-setup.ts
+- [[ScopedModelsSelectorComponent]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[SessionScope]] - code - packages/coding-agent/src/modes/interactive/components/session-selector.ts
+- [[SessionsLoader_1]] - code - packages/coding-agent/src/modes/interactive/components/session-selector.ts
+- [[SkillInvocationMessageComponent]] - code - packages/coding-agent/src/modes/interactive/components/skill-invocation-message.ts
+- [[Spacer]] - code - packages/tui/src/components/spacer.ts
+- [[StatusIndicator]] - code - packages/coding-agent/src/modes/interactive/components/status-indicator.ts
+- [[THEME_KEY]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[THEME_KEY_OLD]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[THEME_OPTIONS]] - code - packages/coding-agent/src/modes/interactive/components/first-time-setup.ts
+- [[THINKING_SELECT_LIST_LAYOUT]] - code - packages/coding-agent/src/modes/interactive/components/thinking-selector.ts
+- [[TREE_HELP_ITEMS]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[Text_6]] - code - packages/tui/src/components/text.ts
+- [[ThemeInfo]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[ThemeJsonValidator]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[ThemeStyle]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[ThinkingSelectorComponent]] - code - packages/coding-agent/src/modes/interactive/components/thinking-selector.ts
+- [[ToolCallInfo]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[TreeHelp]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[TreeSelectorComponent]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[TruncatedText]] - code - packages/tui/src/components/truncated-text.ts
+- [[TrustSelection]] - code - packages/coding-agent/src/modes/interactive/components/trust-selector.ts
+- [[TrustSelectorComponent]] - code - packages/coding-agent/src/modes/interactive/components/trust-selector.ts
+- [[TrustSelectorOptions]] - code - packages/coding-agent/src/modes/interactive/components/trust-selector.ts
+- [[UserMessage]] - code - packages/ai/src/types.ts
+- [[UserMessageComponent]] - code - packages/coding-agent/src/modes/interactive/components/user-message.ts
+- [[UserMessageItem]] - code - packages/coding-agent/src/modes/interactive/components/user-message-selector.ts
+- [[UserMessageSelectorComponent]] - code - packages/coding-agent/src/modes/interactive/components/user-message-selector.ts
+- [[VisualLinePreviewOptions]] - code - packages/coding-agent/src/modes/interactive/components/visual-truncate.ts
+- [[VisualTruncateResult]] - code - packages/coding-agent/src/modes/interactive/components/visual-truncate.ts
+- [[WorkingStatusIndicator]] - code - packages/coding-agent/src/modes/interactive/components/status-indicator.ts
+- [[assistant-message.ts]] - code - packages/coding-agent/src/modes/interactive/components/assistant-message.ts
+- [[auth-url-copy.test.ts]] - code - packages/coding-agent/test/auth-url-copy.test.ts
+- [[auth-url.ts]] - code - packages/coding-agent/src/modes/interactive/components/auth-url.ts
+- [[bash-execution.ts]] - code - packages/coding-agent/src/modes/interactive/components/bash-execution.ts
+- [[bordered-loader.ts]] - code - packages/coding-agent/src/modes/interactive/components/bordered-loader.ts
+- [[branch-summary-message.ts]] - code - packages/coding-agent/src/modes/interactive/components/branch-summary-message.ts
+- [[bug-report.test.ts]] - code - packages/coding-agent/test/bug-report.test.ts
+- [[buildCliHighlightTheme()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[buildTranscript()]] - code - packages/tui/test/render-churn-bench.ts
+- [[clearAll()]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[client-tui-chat.ts]] - code - packages/coding-agent/src/experimental/client-tui-chat.ts
+- [[collapsible-message-components.test.ts]] - code - packages/coding-agent/test/collapsible-message-components.test.ts
+- [[compactCount()]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[compactRawKeys()]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[compaction-summary-message.ts]] - code - packages/coding-agent/src/modes/interactive/components/compaction-summary-message.ts
+- [[componentsindex.ts]] - code - packages/coding-agent/src/modes/interactive/components/index.ts
+- [[contextLabel()]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[countdown-timer.ts]] - code - packages/coding-agent/src/modes/interactive/components/countdown-timer.ts
+- [[createFuzzyAutocompleteItems()]] - code - packages/coding-agent/src/modes/interactive/interactive-mode.ts
+- [[createLoginMenuSelector()]] - code - packages/coding-agent/src/modes/interactive/components/radius-login-selector.ts
+- [[createMarkdownTransform()]] - code - packages/coding-agent/src/modes/interactive/components/markdown-transform.ts
+- [[createSystemTheme()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[createTheme()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[custom-editor.ts]] - code - packages/coding-agent/src/modes/interactive/components/custom-editor.ts
+- [[custom-entry.ts]] - code - packages/coding-agent/src/modes/interactive/components/custom-entry.ts
+- [[custom-message.ts]] - code - packages/coding-agent/src/modes/interactive/components/custom-message.ts
+- [[debug-provider.ts]] - code - packages/coding-agent/examples/extensions/debug-provider.ts
+- [[durabletui.ts]] - code - packages/coding-agent/src/experimental/durable/tui.ts
+- [[dynamic-border.ts]] - code - packages/coding-agent/src/modes/interactive/components/dynamic-border.ts
+- [[eagerLanguages_1]] - code - packages/coding-agent/test/syntax-highlight.test.ts
+- [[eagerLanguagesLoadedAtStartup]] - code - packages/coding-agent/test/syntax-highlight.test.ts
+- [[earendil-announcement.ts]] - code - packages/coding-agent/src/modes/interactive/components/earendil-announcement.ts
+- [[enableAll()]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[expandHint()]] - code - packages/coding-agent/src/extensions/codemode/renderer.ts
+- [[extension-editor.ts]] - code - packages/coding-agent/src/modes/interactive/components/extension-editor.ts
+- [[extension-input.ts]] - code - packages/coding-agent/src/modes/interactive/components/extension-input.ts
+- [[extension-selector.ts]] - code - packages/coding-agent/src/modes/interactive/components/extension-selector.ts
+- [[first-time-setup.ts]] - code - packages/coding-agent/src/modes/interactive/components/first-time-setup.ts
+- [[footer.ts]] - code - packages/coding-agent/src/modes/interactive/components/footer.ts
+- [[formatAuthSelectorProviderStatus()]] - code - packages/coding-agent/src/modes/interactive/components/oauth-selector.ts
+- [[formatAuthSelectorProviderType()]] - code - packages/coding-agent/src/modes/interactive/components/oauth-selector.ts
+- [[formatCall()]] - code - packages/coding-agent/src/extensions/codemode/renderer.ts
+- [[formatCost()]] - code - packages/coding-agent/src/extensions/codemode/renderer.ts
+- [[formatDecision()]] - code - packages/coding-agent/src/modes/interactive/components/trust-selector.ts
+- [[formatDuration()_1]] - code - packages/coding-agent/src/extensions/codemode/renderer.ts
+- [[formatHelpKeys()]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[formatKeyPart()]] - code - packages/coding-agent/src/modes/interactive/components/keybinding-hints.ts
+- [[formatKeyText()]] - code - packages/coding-agent/src/modes/interactive/components/keybinding-hints.ts
+- [[formatKeys()]] - code - packages/coding-agent/src/modes/interactive/components/keybinding-hints.ts
+- [[formatLoginProviderCompletionDescription()]] - code - packages/coding-agent/src/modes/interactive/interactive-mode.ts
+- [[formatTokens()_2]] - code - packages/coding-agent/src/modes/interactive/components/footer.ts
+- [[frame()_1]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[frame()_2]] - code - packages/coding-agent/src/extensions/mcp/ui.ts
+- [[fuzzyFilter()]] - code - packages/tui/src/fuzzy.ts
+- [[getAvailableThemesWithPaths()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[getBuiltinThemes()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[getCliHighlightTheme()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[getCustomThemeInfos()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[getCustomThemesDir()]] - code - packages/coding-agent/src/config.ts
+- [[getEditorTheme()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[getKeybindings()]] - code - packages/tui/src/keybindings.ts
+- [[getLoginProviderSearchText()]] - code - packages/coding-agent/src/modes/interactive/interactive-mode.ts
+- [[getMarkdownTheme()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[getModelSearchText()]] - code - packages/coding-agent/src/modes/interactive/model-search.ts
+- [[getModelSelectorSearchText()]] - code - packages/coding-agent/src/modes/interactive/model-search.ts
+- [[getSortedIds()]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[getTerminalColorMode()]] - code - packages/tui/src/terminal-image.ts
+- [[getThemeByName()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[getThemesDir()]] - code - packages/coding-agent/src/config.ts
+- [[handleInput()_2]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[highlight()]] - code - packages/coding-agent/src/utils/syntax-highlight.ts
+- [[highlightCode()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[interactive-mode-tree-navigation.test.ts]] - code - packages/coding-agent/test/interactive-mode-tree-navigation.test.ts
+- [[interactive-mode.ts]] - code - packages/coding-agent/src/modes/interactive/interactive-mode.ts
+- [[isEnabled()_1]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[isLightTheme()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[keyDisplayText()]] - code - packages/coding-agent/src/modes/interactive/components/keybinding-hints.ts
+- [[keyHint()]] - code - packages/coding-agent/src/modes/interactive/components/keybinding-hints.ts
+- [[keyText()]] - code - packages/coding-agent/src/modes/interactive/components/keybinding-hints.ts
+- [[keybinding-hints.ts]] - code - packages/coding-agent/src/modes/interactive/components/keybinding-hints.ts
+- [[llamaui.ts]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[loadImageBase64()]] - code - packages/coding-agent/src/modes/interactive/components/earendil-announcement.ts
+- [[loadTheme()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[loadThemeJson()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[login-dialog.ts]] - code - packages/coding-agent/src/modes/interactive/components/login-dialog.ts
+- [[mcpui.ts]] - code - packages/coding-agent/src/extensions/mcp/ui.ts
+- [[model-search.ts]] - code - packages/coding-agent/src/modes/interactive/model-search.ts
+- [[model-selector.ts]] - code - packages/coding-agent/src/modes/interactive/components/model-selector.ts
+- [[modelDescription()]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[move()]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[normalizeEnabled()]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[oauth-selector.ts]] - code - packages/coding-agent/src/modes/interactive/components/oauth-selector.ts
+- [[onThemeChange()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[packages_ai_src_index_authevent]] - concept
+- [[packages_ai_src_index_authinfolink]] - concept
+- [[packages_ai_src_index_usermessage]] - concept
+- [[packages_coding_agent_src_modes_interactive_components_tool_execution_toolrenderers]] - concept
+- [[parseThemeJson()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[parseThemeJsonContent()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[qna.ts]] - code - packages/coding-agent/examples/extensions/qna.ts
+- [[radius-login-selector.ts]] - code - packages/coding-agent/src/modes/interactive/components/radius-login-selector.ts
+- [[rawKeyHint()]] - code - packages/coding-agent/src/modes/interactive/components/keybinding-hints.ts
+- [[registeredThemes]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[renderResult()_2]] - code - packages/coding-agent/examples/extensions/subagent/index.ts
+- [[renderer.ts]] - code - packages/coding-agent/src/extensions/codemode/renderer.ts
+- [[resolveThemeColors()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[resolveVarRefs()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[runWithProgress()]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[scoped-models-selector.ts]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[selectTheme()]] - code - packages/coding-agent/src/extensions/llama/ui.ts
+- [[session-selector.ts]] - code - packages/coding-agent/src/modes/interactive/components/session-selector.ts
+- [[showMcpManager()]] - code - packages/coding-agent/src/extensions/mcp/ui.ts
+- [[showSummaryUi()]] - code - packages/coding-agent/examples/extensions/summarize.ts
+- [[skill-invocation-message.ts]] - code - packages/coding-agent/src/modes/interactive/components/skill-invocation-message.ts
+- [[splitThemeColors()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[status-indicator.test.ts]] - code - packages/coding-agent/test/status-indicator.test.ts
+- [[status-indicator.ts]] - code - packages/coding-agent/src/modes/interactive/components/status-indicator.ts
+- [[statusIcon()]] - code - packages/coding-agent/src/extensions/codemode/renderer.ts
+- [[supportsLanguage()]] - code - packages/coding-agent/src/utils/syntax-highlight.ts
+- [[syntax-highlight.test.ts]] - code - packages/coding-agent/test/syntax-highlight.test.ts
+- [[terminalColors]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[theme]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[theme.ts]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[themed-text.ts]] - code - packages/coding-agent/src/modes/interactive/components/themed-text.ts
+- [[thinking-selector.ts]] - code - packages/coding-agent/src/modes/interactive/components/thinking-selector.ts
+- [[toggle()]] - code - packages/coding-agent/src/modes/interactive/components/scoped-models-selector.ts
+- [[tree-selector.ts]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[truncateToVisualLines()]] - code - packages/coding-agent/src/modes/interactive/components/visual-truncate.ts
+- [[trust-selector.ts]] - code - packages/coding-agent/src/modes/interactive/components/trust-selector.ts
+- [[tui]] - code - packages/coding-agent/test/auth-url-copy.test.ts
+- [[uncommonLanguageLoadedAtStartup]] - code - packages/coding-agent/test/syntax-highlight.test.ts
+- [[user-message-selector.ts]] - code - packages/coding-agent/src/modes/interactive/components/user-message-selector.ts
+- [[user-message.ts]] - code - packages/coding-agent/src/modes/interactive/components/user-message.ts
+- [[vacationtui.ts]] - code - packages/coding-agent/src/experimental/vacation/tui.ts
+- [[visual-truncate.ts]] - code - packages/coding-agent/src/modes/interactive/components/visual-truncate.ts
+- [[withThemeColorFallbacks()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[{ copyToClipboard }]] - code - packages/coding-agent/test/auth-url-copy.test.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Coding_Agent_会话工具_3
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 121 edges to [[_COMMUNITY_TUI 终端组件 6]]
+- 111 edges to [[_COMMUNITY_TUI 终端组件 26]]
+- 108 edges to [[_COMMUNITY_Coding Agent 会话工具 39]]
+- 98 edges to [[_COMMUNITY_Coding Agent 会话工具 56]]
+- 96 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 91 edges to [[_COMMUNITY_Coding Agent 会话工具 16]]
+- 84 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 83 edges to [[_COMMUNITY_Coding Agent 会话工具 46]]
+- 69 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 66 edges to [[_COMMUNITY_Coding Agent 会话工具 70]]
+- 63 edges to [[_COMMUNITY_Coding Agent 会话工具 49]]
+- 62 edges to [[_COMMUNITY_Coding Agent 会话工具 32]]
+- 54 edges to [[_COMMUNITY_TUI 终端组件 9]]
+- 50 edges to [[_COMMUNITY_Coding Agent 会话工具 60]]
+- 46 edges to [[_COMMUNITY_Coding Agent 会话工具 84]]
+- 43 edges to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 41 edges to [[_COMMUNITY_Coding Agent 会话工具 23]]
+- 40 edges to [[_COMMUNITY_Coding Agent 会话工具 99]]
+- 36 edges to [[_COMMUNITY_Coding Agent 会话工具 81]]
+- 31 edges to [[_COMMUNITY_TUI 终端组件 62]]
+- 30 edges to [[_COMMUNITY_Coding Agent 会话工具 19]]
+- 29 edges to [[_COMMUNITY_TUI 终端组件 80]]
+- 27 edges to [[_COMMUNITY_Coding Agent 会话工具 101]]
+- 26 edges to [[_COMMUNITY_Coding Agent 会话工具 78]]
+- 24 edges to [[_COMMUNITY_TUI 终端组件 37]]
+- 24 edges to [[_COMMUNITY_Coding Agent 会话工具 143]]
+- 23 edges to [[_COMMUNITY_Coding Agent 会话工具 190]]
+- 21 edges to [[_COMMUNITY_Coding Agent 会话工具 31]]
+- 17 edges to [[_COMMUNITY_Coding Agent 会话工具 171]]
+- 17 edges to [[_COMMUNITY_Coding Agent 会话工具 71]]
+- 16 edges to [[_COMMUNITY_Coding Agent 会话工具 24]]
+- 16 edges to [[_COMMUNITY_Coding Agent 会话工具 29]]
+- 16 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 16 edges to [[_COMMUNITY_Coding Agent 会话工具 69]]
+- 14 edges to [[_COMMUNITY_Coding Agent 会话工具 94]]
+- 13 edges to [[_COMMUNITY_Coding Agent 会话工具 15]]
+- 13 edges to [[_COMMUNITY_Coding Agent 会话工具 116]]
+- 13 edges to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 11 edges to [[_COMMUNITY_Coding Agent 会话工具 135]]
+- 11 edges to [[_COMMUNITY_Durable 持久任务 4]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 8]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 57]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 27]]
+- 9 edges to [[_COMMUNITY_TUI 终端组件 68]]
+- 9 edges to [[_COMMUNITY_Coding Agent 会话工具 216]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 65]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 240]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 340]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 166]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 326]]
+- 7 edges to [[_COMMUNITY_AI 模型协议 1]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 242]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 163]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 41]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 66]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 126]]
+- 6 edges to [[_COMMUNITY_Durable 持久任务 5]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 220]]
+- 5 edges to [[_COMMUNITY_AI 模型协议 35]]
+- 5 edges to [[_COMMUNITY_AI 模型协议 13]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 206]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 42]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 205]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 43]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 152]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 283]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 75]]
+- 3 edges to [[_COMMUNITY_TUI 终端组件 67]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 77]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 157]]
+- 3 edges to [[_COMMUNITY_Durable 持久任务 21]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 243]]
+- 2 edges to [[_COMMUNITY_Agent 控制循环 82]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 306]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 310]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 127]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 219]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 79]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 371]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 290]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 384]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 329]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 182]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 176]]
+- 2 edges to [[_COMMUNITY_TUI 终端组件 89]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 25]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 122]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 111]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 28]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 479]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 480]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 481]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 359]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 360]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 274]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 361]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 244]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 482]]
+
+## Top bridge nodes
+- [[interactive-mode.ts]] - degree 367, connects to 68 communities
+- [[durabletui.ts]] - degree 89, connects to 21 communities
+- [[vacationtui.ts]] - degree 89, connects to 21 communities
+- [[theme.ts]] - degree 243, connects to 18 communities
+- [[client-tui-chat.ts]] - degree 38, connects to 12 communities

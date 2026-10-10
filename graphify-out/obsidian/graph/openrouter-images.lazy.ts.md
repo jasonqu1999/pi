@@ -1,0 +1,24 @@
+---
+source_file: "packages/ai/src/api/openrouter-images.lazy.ts"
+type: "code"
+community: "AI 模型协议 22"
+location: "L1"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/AI_模型协议_22
+---
+
+# openrouter-images.lazy.ts
+
+## Connections
+- [[ProviderImages]] - `imports` [EXTRACTED]
+- [[aisrctypes.ts]] - `imports_from` [EXTRACTED]
+- [[openrouter-images.ts]] - `dynamic_import` [EXTRACTED]
+- [[openrouterImagesApi()]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/AI_模型协议_22
+
+## 源码入口
+
+[packages/ai/src/api/openrouter-images.lazy.ts](../../../packages/ai/src/api/openrouter-images.lazy.ts)

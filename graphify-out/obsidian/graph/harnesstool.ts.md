@@ -1,0 +1,105 @@
+---
+source_file: "packages/durable/src/harness/tool.ts"
+type: "code"
+community: "Durable 持久任务 21"
+location: "L1"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Durable_持久任务_21
+---
+
+# harness/tool.ts
+
+## Connections
+- [[AssistantEntry]] - `imports` [EXTRACTED]
+- [[COMPLETED]] - `contains` [EXTRACTED]
+- [[Checked]] - `contains` [EXTRACTED]
+- [[Content_2]] - `contains` [EXTRACTED]
+- [[Context_37]] - `imports` [EXTRACTED]
+- [[ConversationId]] - `imports` [EXTRACTED]
+- [[DEFAULT_MAX_BYTES_1]] - `imports` [EXTRACTED]
+- [[DEFAULT_MAX_LINES_1]] - `imports` [EXTRACTED]
+- [[Ending]] - `contains` [EXTRACTED]
+- [[EntryId]] - `imports` [EXTRACTED]
+- [[ImageContent]] - `imports` [EXTRACTED]
+- [[JsonObject_4]] - `imports` [EXTRACTED]
+- [[JsonValue_1]] - `imports` [EXTRACTED]
+- [[LiveDoc_1]] - `imports` [EXTRACTED]
+- [[OutputBuffer]] - `imports` [EXTRACTED]
+- [[OutputLimits]] - `imports` [EXTRACTED]
+- [[Progress]] - `imports` [EXTRACTED]
+- [[Reported]] - `contains` [EXTRACTED]
+- [[Runtime_2]] - `contains` [EXTRACTED]
+- [[Task]] - `imports` [EXTRACTED]
+- [[TaskId]] - `imports` [EXTRACTED]
+- [[TaskOptions]] - `imports` [EXTRACTED]
+- [[TaskRuntime]] - `imports` [EXTRACTED]
+- [[TextContent]] - `imports` [EXTRACTED]
+- [[ToolCall]] - `imports` [EXTRACTED]
+- [[ToolControl]] - `imports` [EXTRACTED]
+- [[ToolDiagnostic]] - `imports` [EXTRACTED]
+- [[ToolExecutionApi]] - `imports` [EXTRACTED]
+- [[ToolExecutionResult]] - `imports` [EXTRACTED]
+- [[ToolHooks]] - `imports` [EXTRACTED]
+- [[ToolRegistration]] - `imports` [EXTRACTED]
+- [[ToolResultEntry]] - `imports` [EXTRACTED]
+- [[ToolResultMessage]] - `imports` [EXTRACTED]
+- [[ToolTask]] - `contains` [EXTRACTED]
+- [[ToolTaskCheckpoint]] - `contains` [EXTRACTED]
+- [[ToolTaskInput]] - `contains` [EXTRACTED]
+- [[ToolTaskResult]] - `contains` [EXTRACTED]
+- [[Tx]] - `imports` [EXTRACTED]
+- [[TypedEntry]] - `imports` [EXTRACTED]
+- [[aisrcindex.ts]] - `imports_from` [EXTRACTED]
+- [[appendToolResult()]] - `contains` [EXTRACTED]
+- [[assignJson()]] - `imports` [EXTRACTED]
+- [[awaitWithContext()]] - `imports` [EXTRACTED]
+- [[boundContent()]] - `contains` [EXTRACTED]
+- [[boundOutput()]] - `imports` [EXTRACTED]
+- [[chordsrcindex.ts]] - `imports_from` [EXTRACTED]
+- [[clearProgress()]] - `imports` [EXTRACTED]
+- [[contextindex.ts]] - `imports_from` [EXTRACTED]
+- [[copyJson()]] - `imports` [EXTRACTED]
+- [[defineTask()]] - `imports` [EXTRACTED]
+- [[deltaindex.ts]] - `imports_from` [EXTRACTED]
+- [[durablesrctypes.ts]] - `imports_from` [EXTRACTED]
+- [[entries.ts]] - `imports_from` [EXTRACTED]
+- [[errorText()]] - `contains` [EXTRACTED]
+- [[finalResult()]] - `contains` [EXTRACTED]
+- [[finishSlot()]] - `imports` [EXTRACTED]
+- [[fromSlot()]] - `contains` [EXTRACTED]
+- [[harnessjson.ts]] - `imports_from` [EXTRACTED]
+- [[harnesstypes.ts]] - `imports_from` [EXTRACTED]
+- [[harnessError()]] - `contains` [EXTRACTED]
+- [[invalid()]] - `contains` [EXTRACTED]
+- [[live.ts]] - `imports_from` [EXTRACTED]
+- [[output.ts]] - `imports_from` [EXTRACTED]
+- [[overlap()]] - `imports` [EXTRACTED]
+- [[packages_ai_src_index_imagecontent]] - `imports` [EXTRACTED]
+- [[packages_ai_src_index_textcontent]] - `imports` [EXTRACTED]
+- [[packages_ai_src_index_toolcall]] - `imports` [EXTRACTED]
+- [[packages_ai_src_index_toolresultmessage]] - `imports` [EXTRACTED]
+- [[prepare()_1]] - `contains` [EXTRACTED]
+- [[publishProgress()]] - `contains` [EXTRACTED]
+- [[readCall()]] - `contains` [EXTRACTED]
+- [[recordUsage()]] - `imports` [EXTRACTED]
+- [[renderDiagnostics()]] - `contains` [EXTRACTED]
+- [[run()_5]] - `contains` [EXTRACTED]
+- [[settle()_1]] - `contains` [EXTRACTED]
+- [[srctruncate.ts]] - `imports_from` [EXTRACTED]
+- [[tasks.ts]] - `imports_from` [EXTRACTED]
+- [[toolDiagnostic()]] - `contains` [EXTRACTED]
+- [[toolSlot]] - `imports` [EXTRACTED]
+- [[truncated()]] - `contains` [EXTRACTED]
+- [[usage.ts]] - `imports_from` [EXTRACTED]
+- [[utf8ByteLength()]] - `imports` [EXTRACTED]
+- [[validate()]] - `contains` [EXTRACTED]
+- [[validateToolArguments()]] - `imports` [EXTRACTED]
+- [[validation.ts]] - `imports_from` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Durable_持久任务_21
+
+## 源码入口
+
+[packages/durable/src/harness/tool.ts](../../../packages/durable/src/harness/tool.ts)

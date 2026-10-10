@@ -1,0 +1,22 @@
+---
+source_file: "packages/coding-agent/src/modes/interactive/theme/theme-schema.json"
+type: "code"
+community: "Coding Agent 会话工具 467"
+location: "L289"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Coding_Agent_会话工具_467
+---
+
+# thinkingOff
+
+## Connections
+- [[$ref_48]] - `contains` [EXTRACTED]
+- [[description_61]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Coding_Agent_会话工具_467
+
+## 源码入口
+
+[packages/coding-agent/src/modes/interactive/theme/theme-schema.json](../../../packages/coding-agent/src/modes/interactive/theme/theme-schema.json)

@@ -1,0 +1,376 @@
+---
+type: community
+cohesion: 0.02
+members: 256
+---
+
+# Coding Agent 会话工具 11
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 256 nodes
+
+## Members
+- [[dot-constructor()_131]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[dot-onAction()]] - code - packages/coding-agent/src/modes/interactive/components/custom-editor.ts
+- [[dot-route()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[01-minimal.ts]] - code - packages/coding-agent/examples/sdk/01-minimal.ts
+- [[AfterProviderResponseEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[AgentActivityOutcome]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[AgentBeforeSettleEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[AgentBeforeSettleEventResult]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[AgentEndEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[AgentSessionEventListener]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[AgentSettledEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[AgentStartEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[AgentToolUpdateCallback]] - code - packages/agent/src/types.ts
+- [[AnyToolDefinition]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[AppKeybinding]] - code - packages/coding-agent/src/core/keybindings.ts
+- [[AppendEntryHandler]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[AutocompleteProviderFactory]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[BUILTIN_SLASH_COMMANDS]] - code - packages/coding-agent/src/core/slash-commands.ts
+- [[BashToolCallEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[BashToolResultEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[BeforeAgentStartCombinedResult]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[BeforeAgentStartEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[BeforeAgentStartEventResult]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[BeforeProviderHeadersEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[BeforeProviderRequestEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[BeforeProviderRequestEventResult]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[BoundaryBaseEvent]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[BoundaryContextPreview]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[BoundaryDispatchResult]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[BoundaryResult]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[BoundaryState]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[BranchSummaryEntry]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[BranchSummaryResult]] - code - packages/coding-agent/src/core/compaction/branch-summarization.ts
+- [[BuildSystemPromptOptions]] - code - packages/coding-agent/src/core/system-prompt.ts
+- [[BuiltInKeyBindings]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[BuiltinSlashCommand]] - code - packages/coding-agent/src/core/slash-commands.ts
+- [[CacheWarmingDecision]] - code - packages/coding-agent/src/core/cache-warmer.ts
+- [[CacheWarmingDecisionEvent]] - code - packages/coding-agent/src/core/cache-warmer.ts
+- [[CacheWarmingDecisionEventResult]] - code - packages/coding-agent/src/core/cache-warmer.ts
+- [[CompactOptions]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[CompactionEntry]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[CompactionEntryDraft]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[CompactionResult]] - code - packages/coding-agent/src/core/compaction/compaction.ts
+- [[ContextEditEntry]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[ContextEditEntryDraft]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ContextEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ContextEventResult]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ContextUsage]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ContextWithSystemEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[CustomEntryDraft]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[CustomMessageEntryDraft]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[CustomToolCallEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[CustomToolResultEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[EditToolCallEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[EditToolDetails]] - code - packages/coding-agent/src/core/tools/edit.ts
+- [[EditToolInput]] - code - packages/coding-agent/src/core/tools/edit.ts
+- [[EditToolResultEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[EntryRenderOptions]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[EntryRenderer]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ExecOptions]] - code - packages/coding-agent/src/core/exec.ts
+- [[ExecResult]] - code - packages/coding-agent/src/core/exec.ts
+- [[ExecuteToolOptions]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[Extension]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ExtensionActions]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ExtensionBindings]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[ExtensionCommandContextActions]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ExtensionContextActions]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ExtensionError]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ExtensionErrorListener]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[ExtensionEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ExtensionFlag]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ExtensionHandler]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ExtensionMode]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ExtensionRuntime]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ExtensionRuntimeState]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ExtensionShortcut]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ExtensionToolContext]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ExtensionUIDialogOptions]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ExtensionVirtualModel]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ExtensionWidgetOptions]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[FindToolCallEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[FindToolInput]] - code - packages/coding-agent/src/core/tools/find.ts
+- [[FindToolResultEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ForkHandler]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[GetActiveToolsHandler]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[GetAllToolsHandler]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[GetCommandsHandler]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[GetSessionNameHandler]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[GetSettingsHandler]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[GetThinkingLevelHandler]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[GrepToolCallEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[GrepToolInput]] - code - packages/coding-agent/src/core/tools/grep.ts
+- [[GrepToolResultEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[HandlerFn_1]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[InlineExtension]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[InputEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[InputEventResult]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[KeyId]] - code - packages/tui/src/keys.ts
+- [[LsToolCallEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[LsToolInput]] - code - packages/coding-agent/src/core/tools/ls.ts
+- [[LsToolResultEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[MainOptions]] - code - packages/coding-agent/src/main.ts
+- [[MarkdownTransformContext]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[MarkdownTransformer]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[McpServerConfig]] - code - packages/coding-agent/src/core/mcp-servers.ts
+- [[McpServersChangeEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[MessageEndEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[MessageEndEventResult]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[MessageRenderOptions]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[MessageRenderer]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[MessageStartEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[MessageUpdateEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ModelChangeEntry]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[ModelCycleResult]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[ModelRoute]] - code - packages/coding-agent/src/core/virtual-models.ts
+- [[ModelRouteRequest]] - code - packages/coding-agent/src/core/virtual-models.ts
+- [[ModelSelectEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ModelSelectSource]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[NavigateTreeHandler]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[NewSessionHandler]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[NormalizedBuildSystemPromptOptions]] - code - packages/coding-agent/src/core/system-prompt.ts
+- [[PowerShellToolCallEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[PowerShellToolDetails]] - code - packages/coding-agent/src/core/tools/powershell.ts
+- [[PowerShellToolInput]] - code - packages/coding-agent/src/core/tools/powershell.ts
+- [[PowerShellToolResultEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ProjectTrustContext]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ProjectTrustEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ProjectTrustEventDecision]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ProjectTrustEventResult]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ProjectTrustHandler]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ProjectedSessionEntry]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[ProviderConfig]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ProviderId]] - code - packages/ai/src/types.ts
+- [[ProviderModelConfig]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ProviderStreamEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[RESERVED_KEYBINDINGS_FOR_EXTENSION_CONFLICTS]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[ReadToolCallEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ReadToolInput]] - code - packages/coding-agent/src/core/tools/read.ts
+- [[ReadToolResultEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[RefreshToolsHandler]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[RegisteredCommand_1]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[RegisteredMcpServer]] - code - packages/coding-agent/src/core/mcp-servers.ts
+- [[RegisteredTool]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ReloadHandler]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[ResolvedCommand]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ResourcesDiscoverEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ResourcesDiscoverResult]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[RunnerEmitEvent]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[RunnerEmitResult]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[ScopedModel]] - code - packages/coding-agent/src/core/model-resolver.ts
+- [[SendMessageHandler]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SendUserMessageHandler]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SessionBeforeCompactEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SessionBeforeCompactResult]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SessionBeforeEvent]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[SessionBeforeEventResult]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[SessionBeforeForkEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SessionBeforeForkResult]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SessionBeforeSwitchEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SessionBeforeSwitchResult]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SessionBeforeTreeEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SessionBeforeTreeResult]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SessionCompactEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SessionCompactFailedEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SessionEntryBase]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[SessionEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SessionInfoChangedEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SessionInfoEntry]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[SessionMessageEntry]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[SessionShutdownEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SessionTreeEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SetActiveToolsHandler]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SetLabelHandler]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SetModelHandler]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SetSessionNameHandler]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SetThinkingLevelHandler]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ShutdownHandler]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[SlashCommandSource]] - code - packages/coding-agent/src/core/slash-commands.ts
+- [[SwitchSessionHandler]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[TerminalInputHandler]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ThinkingLevelChangeEntry]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[ThinkingLevelSelectEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ToolAnnotations]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ToolCallEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ToolCallEventBase]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ToolCallEventResult]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ToolExecutionEndEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ToolExecutionStartEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ToolExecutionUpdateEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ToolExposure]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ToolInfo]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ToolLoadoutChanges]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ToolRenderResultOptions]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ToolRendererResolver]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ToolRenderers]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ToolResultEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ToolResultEventBase]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ToolResultEventResult]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[TreePreparation]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[TurnEndEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[TurnEndEventResult]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[TurnStartEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[UIPromptEndEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[UIPromptKind]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[UIPromptStartEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[Usage_1]] - code - packages/ai/src/types.ts
+- [[UsageEntry]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[UserBashEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[UserBashEventResult]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[VirtualModelDefinition]] - code - packages/coding-agent/src/core/virtual-models.ts
+- [[WidgetPlacement]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[WorkingIndicatorOptions]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[WriteToolCallEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[WriteToolInput]] - code - packages/coding-agent/src/core/tools/write.ts
+- [[WriteToolResultEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[applyMarkdownTransformers()]] - code - packages/coding-agent/src/modes/interactive/components/markdown-transform.ts
+- [[branchSummary()]] - code - packages/coding-agent/test/session-manager/build-context.test.ts
+- [[build-context.test.ts]] - code - packages/coding-agent/test/session-manager/build-context.test.ts
+- [[coding-agentsrcindex.ts]] - code - packages/coding-agent/src/index.ts
+- [[compaction()]] - code - packages/coding-agent/test/session-manager/build-context.test.ts
+- [[confirm-destructive.ts]] - code - packages/coding-agent/examples/extensions/confirm-destructive.ts
+- [[coreextensionsindex.ts]] - code - packages/coding-agent/src/core/extensions/index.ts
+- [[coreindex.ts]] - code - packages/coding-agent/src/core/index.ts
+- [[coreslash-commands.ts]] - code - packages/coding-agent/src/core/slash-commands.ts
+- [[custom()]] - code - packages/coding-agent/test/session-manager/build-context.test.ts
+- [[defineTool()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[extensionsproject-trust.ts]] - code - packages/coding-agent/examples/extensions/project-trust.ts
+- [[extensionsrunner.ts]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[extensionstypes.ts]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[getApiKey()_1]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[isBashToolResult()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[isEditToolResult()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[isFindToolResult()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[isGrepToolResult()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[isLsToolResult()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[isPowerShellToolResult()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[isReadToolResult()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[isToolCallEventType()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[isWriteToolResult()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[login()_1]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[markdown-transform.ts]] - code - packages/coding-agent/src/modes/interactive/components/markdown-transform.ts
+- [[modelChange()]] - code - packages/coding-agent/test/session-manager/build-context.test.ts
+- [[modifyModels()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[msg()]] - code - packages/coding-agent/test/session-manager/build-context.test.ts
+- [[noOpUIContext]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[packages_agent_src_index_toolexecutionmode]] - concept
+- [[packages_ai_src_index_constrainedsamplingconfig]] - concept
+- [[packages_ai_src_index_providerheaders]] - concept
+- [[packages_ai_src_index_providerid]] - concept
+- [[packages_coding_agent_src_core_keybindings_keybindingsconfig]] - concept
+- [[refreshToken()_1]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[srcextensionsindex.ts]] - code - packages/coding-agent/src/extensions/index.ts
+- [[thinkingLevel()]] - code - packages/coding-agent/test/session-manager/build-context.test.ts
+- [[wrapRegisteredTool()]] - code - packages/coding-agent/src/core/extensions/wrapper.ts
+- [[wrapRegisteredTools()]] - code - packages/coding-agent/src/core/extensions/wrapper.ts
+- [[wrapper.ts]] - code - packages/coding-agent/src/core/extensions/wrapper.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Coding_Agent_会话工具_11
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 131 edges to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 122 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 114 edges to [[_COMMUNITY_Coding Agent 会话工具 19]]
+- 85 edges to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 84 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 80 edges to [[_COMMUNITY_Coding Agent 会话工具 24]]
+- 74 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 69 edges to [[_COMMUNITY_Coding Agent 会话工具 42]]
+- 66 edges to [[_COMMUNITY_Coding Agent 会话工具 27]]
+- 39 edges to [[_COMMUNITY_Coding Agent 会话工具 29]]
+- 37 edges to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 37 edges to [[_COMMUNITY_Coding Agent 会话工具 116]]
+- 32 edges to [[_COMMUNITY_Coding Agent 会话工具 15]]
+- 22 edges to [[_COMMUNITY_Coding Agent 会话工具 66]]
+- 22 edges to [[_COMMUNITY_Coding Agent 会话工具 31]]
+- 19 edges to [[_COMMUNITY_TUI 终端组件 26]]
+- 19 edges to [[_COMMUNITY_Coding Agent 会话工具 41]]
+- 19 edges to [[_COMMUNITY_Coding Agent 会话工具 77]]
+- 18 edges to [[_COMMUNITY_Coding Agent 会话工具 49]]
+- 17 edges to [[_COMMUNITY_Coding Agent 会话工具 23]]
+- 16 edges to [[_COMMUNITY_Coding Agent 会话工具 57]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 16]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 84]]
+- 11 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 11 edges to [[_COMMUNITY_Coding Agent 会话工具 56]]
+- 10 edges to [[_COMMUNITY_AI 模型协议 1]]
+- 9 edges to [[_COMMUNITY_TUI 终端组件 6]]
+- 7 edges to [[_COMMUNITY_TUI 终端组件 37]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 39]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 163]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 103]]
+- 6 edges to [[_COMMUNITY_AI 模型协议 22]]
+- 6 edges to [[_COMMUNITY_AI 模型协议 25]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 70]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 46]]
+- 6 edges to [[_COMMUNITY_Evals 行为评估 114]]
+- 5 edges to [[_COMMUNITY_AI 模型协议 54]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 152]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 43]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 240]]
+- 4 edges to [[_COMMUNITY_Agent 控制循环 82]]
+- 4 edges to [[_COMMUNITY_AI 模型协议 47]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 79]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 78]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 206]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 69]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 32]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 52]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 165]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 268]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 35]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 99]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 65]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 181]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 149]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 244]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 237]]
+- 2 edges to [[_COMMUNITY_TUI 终端组件 9]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 90]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 135]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 94]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 157]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 122]]
+- 2 edges to [[_COMMUNITY_MCP 远端工具 227]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 81]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 112]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 242]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 143]]
+- 2 edges to [[_COMMUNITY_Durable 持久任务 21]]
+- 1 edge to [[_COMMUNITY_跨包 类型基础 172]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 51]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 106]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 17]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 170]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 310]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 238]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 189]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 80]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 290]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 111]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 270]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 207]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 166]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 187]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 75]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 219]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 60]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 256]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 326]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 140]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 119]]
+- 1 edge to [[_COMMUNITY_Evals 行为评估 183]]
+
+## Top bridge nodes
+- [[coding-agentsrcindex.ts]] - degree 630, connects to 49 communities
+- [[extensionstypes.ts]] - degree 404, connects to 39 communities
+- [[extensionsrunner.ts]] - degree 139, connects to 18 communities
+- [[coreextensionsindex.ts]] - degree 220, connects to 13 communities
+- [[coreindex.ts]] - degree 100, connects to 13 communities

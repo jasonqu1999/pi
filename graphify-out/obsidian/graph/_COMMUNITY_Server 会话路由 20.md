@@ -1,0 +1,254 @@
+---
+type: community
+cohesion: 0.03
+members: 206
+---
+
+# Server 会话路由 20
+
+**Cohesion:** 0.03 - loosely connected
+**Members:** 206 nodes
+
+## Members
+- [[dot-accept()_1]] - code - packages/server/src/server.ts
+- [[dot-acceptSocket()]] - code - packages/server/src/transports/unix/listener.ts
+- [[dot-attach()_6]] - code - packages/server/src/testing/client.ts
+- [[dot-attachClient()_2]] - code - packages/server/src/testing/host.ts
+- [[dot-cleanupOwnedSocket()]] - code - packages/server/src/transports/unix/listener.ts
+- [[dot-close()_50]] - code - packages/server/src/connection.ts
+- [[dot-close()_51]] - code - packages/server/src/listener.ts
+- [[dot-close()_52]] - code - packages/server/src/server.ts
+- [[dot-close()_55]] - code - packages/server/src/testing/client.ts
+- [[dot-close()_54]] - code - packages/server/src/testing/client.ts
+- [[dot-close()_56]] - code - packages/server/src/testing/host.ts
+- [[dot-close()_58]] - code - packages/server/src/transports/unix/listener.ts
+- [[dot-close()_57]] - code - packages/server/src/transports/unix/listener.ts
+- [[dot-close()_60]] - code - packages/server/test/listener.test.ts
+- [[dot-close()_61]] - code - packages/server/test/server.test.ts
+- [[dot-closeConnection()]] - code - packages/server/src/server.ts
+- [[dot-closeInternal()]] - code - packages/server/src/server.ts
+- [[dot-closeInternal()_2]] - code - packages/server/src/transports/unix/listener.ts
+- [[dot-closeServerAndCleanup()]] - code - packages/server/src/transports/unix/listener.ts
+- [[dot-closeServerState()]] - code - packages/server/src/server.ts
+- [[dot-closed()_2]] - code - packages/server/src/testing/client.ts
+- [[dot-closed()_3]] - code - packages/server/src/transports/unix/listener.ts
+- [[dot-constructor()_308]] - code - packages/server/src/errors.ts
+- [[dot-constructor()_311]] - code - packages/server/src/errors.ts
+- [[dot-constructor()_312]] - code - packages/server/src/errors.ts
+- [[dot-constructor()_310]] - code - packages/server/src/errors.ts
+- [[dot-constructor()_309]] - code - packages/server/src/errors.ts
+- [[dot-constructor()_314]] - code - packages/server/src/server.ts
+- [[dot-constructor()_316]] - code - packages/server/src/testing/client.ts
+- [[dot-constructor()_317]] - code - packages/server/src/testing/host.ts
+- [[dot-constructor()_318]] - code - packages/server/src/testing/host.ts
+- [[dot-constructor()_320]] - code - packages/server/src/transports/unix/listener.ts
+- [[dot-constructor()_319]] - code - packages/server/src/transports/unix/listener.ts
+- [[dot-constructor()_321]] - code - packages/server/test/listener.test.ts
+- [[dot-disconnect()_3]] - code - packages/server/src/server.ts
+- [[dot-dispatchMessage()]] - code - packages/server/src/server.ts
+- [[dot-dispose()_39]] - code - packages/coding-agent/src/experimental/services/server.ts
+- [[dot-fail()_7]] - code - packages/server/src/testing/client.ts
+- [[dot-failProtocol()]] - code - packages/server/src/server.ts
+- [[dot-finishHandshake()]] - code - packages/server/src/server.ts
+- [[dot-gateNextClose()]] - code - packages/server/src/testing/host.ts
+- [[dot-gateNextOpenSession()]] - code - packages/server/src/testing/host.ts
+- [[dot-gateNextServiceCall()]] - code - packages/server/src/testing/host.ts
+- [[dot-handleCancel()]] - code - packages/server/src/server.ts
+- [[dot-handleRequest()_1]] - code - packages/server/src/server.ts
+- [[dot-hello()_1]] - code - packages/server/src/testing/client.ts
+- [[dot-invokeService()_1]] - code - packages/server/src/testing/host.ts
+- [[dot-invokeService()_3]] - code - packages/server/src/types.ts
+- [[dot-invokeService()_2]] - code - packages/server/src/types.ts
+- [[dot-latestHarness()]] - code - packages/server/src/testing/host.ts
+- [[dot-markClosed()_3]] - code - packages/server/src/testing/client.ts
+- [[dot-markClosed()_4]] - code - packages/server/src/transports/unix/listener.ts
+- [[dot-next()]] - code - packages/server/src/testing/client.ts
+- [[dot-nextFrom()]] - code - packages/server/src/testing/client.ts
+- [[dot-notifyConnectionCountChanged()]] - code - packages/server/src/server.ts
+- [[dot-onClose()_6]] - code - packages/server/src/connection.ts
+- [[dot-onData()_2]] - code - packages/server/src/connection.ts
+- [[dot-onError()_7]] - code - packages/server/src/connection.ts
+- [[dot-openSession()_1]] - code - packages/server/src/testing/host.ts
+- [[dot-publishAttachment()]] - code - packages/server/src/session-router.ts
+- [[dot-receive()_1]] - code - packages/server/src/server.ts
+- [[dot-receive()_2]] - code - packages/server/src/testing/client.ts
+- [[dot-refresh()_7]] - code - packages/coding-agent/src/experimental/services/server.ts
+- [[dot-reportError()]] - code - packages/server/src/server.ts
+- [[dot-reportError()_1]] - code - packages/server/src/transports/unix/listener.ts
+- [[dot-requestService()]] - code - packages/server/src/testing/client.ts
+- [[dot-requestSessionService()]] - code - packages/server/src/testing/client.ts
+- [[dot-resolve()_15]] - code - packages/server/src/testing/host.ts
+- [[dot-resolveSession()]] - code - packages/server/src/testing/host.ts
+- [[dot-seed()]] - code - packages/server/src/testing/host.ts
+- [[dot-send()_29]] - code - packages/server/src/connection.ts
+- [[dot-send()_30]] - code - packages/server/src/testing/client.ts
+- [[dot-send()_31]] - code - packages/server/src/transports/unix/listener.ts
+- [[dot-send()_32]] - code - packages/server/test/server.test.ts
+- [[dot-sendBytes()]] - code - packages/server/src/testing/client.ts
+- [[dot-sendFragmented()]] - code - packages/server/src/testing/client.ts
+- [[dot-sendMessage()_2]] - code - packages/server/src/server.ts
+- [[dot-sendMessage()_3]] - code - packages/server/src/testing/client.ts
+- [[dot-sendServiceUpdate()]] - code - packages/server/src/server.ts
+- [[dot-settleClosed()]] - code - packages/server/src/server.ts
+- [[dot-start()_24]] - code - packages/server/src/listener.ts
+- [[dot-start()_25]] - code - packages/server/src/server.ts
+- [[dot-start()_26]] - code - packages/server/src/transports/unix/listener.ts
+- [[dot-start()_27]] - code - packages/server/test/listener.test.ts
+- [[dot-startInternal()]] - code - packages/server/src/server.ts
+- [[dot-terminate()_3]] - code - packages/server/src/testing/host.ts
+- [[dot-toProtocolError()]] - code - packages/server/src/server.ts
+- [[dot-transportClosed()]] - code - packages/server/src/server.ts
+- [[dot-waitForClose()]] - code - packages/server/src/testing/client.ts
+- [[dot-write()_12]] - code - packages/server/src/transports/unix/listener.ts
+- [[@earendil-workspi-server_3]] - concept - packages/server/package.json
+- [[Application-owned SessionMetadata]] - concept - packages/server/CHANGELOG.md
+- [[BackendMetadata]] - code - packages/server/test/conformance.test.ts
+- [[ByteConnection]] - code - packages/server/src/connection.ts
+- [[ByteConnectionAcceptor]] - code - packages/server/src/connection.ts
+- [[ByteConnectionHandler]] - code - packages/server/src/connection.ts
+- [[ClientAttachment]] - code - packages/server/src/session-router.ts
+- [[ConnectionStage]] - code - packages/server/src/connection.ts
+- [[ConnectionState_1]] - code - packages/server/src/connection.ts
+- [[Deferred_6]] - code - packages/server/src/testing/host.ts
+- [[ExperimentalServerServices]] - code - packages/coding-agent/src/experimental/services/server.ts
+- [[FileIdentity]] - code - packages/server/src/transports/unix/listener.ts
+- [[HostedSession]] - code - packages/server/src/session-router.ts
+- [[INTERNAL_SERVER_ERROR_MESSAGE]] - code - packages/server/src/errors.ts
+- [[MaybePromise]] - code - packages/server/src/types.ts
+- [[OpenGate]] - code - packages/server/src/testing/host.ts
+- [[Pi server history]] - concept - packages/server/CHANGELOG.md
+- [[ProtocolTestClient]] - code - packages/server/src/testing/client.ts
+- [[ResolvedUnixListenerOptions]] - code - packages/server/src/transports/unix/listener.ts
+- [[ResponseEnvelope]] - code - packages/protocol/src/protocol.ts
+- [[RoutedServerServiceAttachment]] - code - packages/server/src/types.ts
+- [[RoutedServerServiceHost]] - code - packages/server/src/types.ts
+- [[RoutedSessionAttachment]] - code - packages/server/src/types.ts
+- [[RoutedSessionHandle]] - code - packages/server/src/types.ts
+- [[Server_4]] - code - packages/server/src/server.ts
+- [[ServerError_1]] - code - packages/server/src/errors.ts
+- [[ServerHost]] - code - packages/server/src/types.ts
+- [[ServerListener]] - code - packages/server/src/listener.ts
+- [[ServerOperationErrorCode]] - code - packages/server/src/errors.ts
+- [[ServerOptions]] - code - packages/server/src/types.ts
+- [[ServiceCall]] - code - packages/chord/src/types.ts
+- [[SessionAmbiguousError]] - code - packages/server/src/errors.ts
+- [[SessionMetadata]] - code - packages/server/src/types.ts
+- [[SessionNotAttachedError]] - code - packages/server/src/errors.ts
+- [[SessionNotFoundError]] - code - packages/server/src/errors.ts
+- [[SessionRouterOptions]] - code - packages/server/src/session-router.ts
+- [[TestHarness]] - code - packages/server/src/testing/host.ts
+- [[TestListener]] - code - packages/server/test/listener.test.ts
+- [[TestServer_1]] - code - packages/server/src/testing/server.ts
+- [[TestServerHost]] - code - packages/server/src/testing/host.ts
+- [[TestServerOptions]] - code - packages/server/src/testing/server.ts
+- [[TimedOutConnection]] - code - packages/server/test/server.test.ts
+- [[UnixByteConnection]] - code - packages/server/src/transports/unix/listener.ts
+- [[UnixListener]] - code - packages/server/src/transports/unix/listener.ts
+- [[UnixListenerOptions]] - code - packages/server/src/transports/unix/types.ts
+- [[UnixServerOptions]] - code - packages/server/src/transports/unix/types.ts
+- [[WireChannel]] - code - packages/server/src/testing/client.ts
+- [[WrongServerError]] - code - packages/server/src/errors.ts
+- [[address.ts]] - code - packages/server/src/transports/unix/address.ts
+- [[attachClient()_2]] - code - packages/server/test/conformance.test.ts
+- [[children]] - code - packages/client/test/unix.test.ts
+- [[children_2]] - code - packages/server/test/unix.test.ts
+- [[clienttestunix.test.ts]] - code - packages/client/test/unix.test.ts
+- [[clients_1]] - code - packages/server/test/unix.test.ts
+- [[close()_3]] - code - packages/server/test/protocol.test.ts
+- [[closeNetServer()]] - code - packages/server/src/transports/unix/listener.ts
+- [[closed()]] - code - packages/server/test/protocol.test.ts
+- [[connect()_3]] - code - packages/server/test/conformance.test.ts
+- [[connect()_4]] - code - packages/server/test/protocol.test.ts
+- [[connectUnixTestClient()]] - code - packages/server/src/testing/client.ts
+- [[createServer()_1]] - code - packages/server/test/conformance.test.ts
+- [[createTestServer()]] - code - packages/server/src/testing/server.ts
+- [[createTestServerServices()]] - code - packages/server/src/testing/host.ts
+- [[createUnixListener()]] - code - packages/server/src/transports/unix/listener.ts
+- [[createUnixServer()]] - code - packages/server/src/transports/unix/preset.ts
+- [[getOwnedBindPath()]] - code - packages/server/src/transports/unix/listener.ts
+- [[host]] - code - packages/server/test/server.test.ts
+- [[isErrorCode()_1]] - code - packages/server/src/transports/unix/listener.ts
+- [[isSocketLive()]] - code - packages/server/src/transports/unix/listener.ts
+- [[isTerminalConnection()]] - code - packages/server/src/connection.ts
+- [[latestAttachmentId()]] - code - packages/server/test/conformance.test.ts
+- [[listener.test.ts]] - code - packages/server/test/listener.test.ts
+- [[makeDirectory()]] - code - packages/client/test/unix.test.ts
+- [[makeServer()_1]] - code - packages/server/test/unix.test.ts
+- [[makeSocketPath()_2]] - code - packages/server/test/unix.test.ts
+- [[packages_protocol_src_index_issupportedprotocolversion]] - concept
+- [[packages_server_src_index_server]] - concept
+- [[rawServers]] - code - packages/client/test/unix.test.ts
+- [[rawSockets]] - code - packages/client/test/unix.test.ts
+- [[release()_1]] - code - packages/server/test/conformance.test.ts
+- [[removePath()]] - code - packages/server/src/transports/unix/listener.ts
+- [[removeStaleSocket()_1]] - code - packages/server/src/transports/unix/listener.ts
+- [[resolveUnixListenerOptions()]] - code - packages/server/src/transports/unix/listener.ts
+- [[sameTarget()]] - code - packages/server/src/server.ts
+- [[send()_3]] - code - packages/server/test/protocol.test.ts
+- [[server_5]] - code - packages/server/test/fixtures/stale-socket-server.mjs
+- [[server.test.ts]] - code - packages/server/test/server.test.ts
+- [[serverCHANGELOG]] - document - packages/server/CHANGELOG.md
+- [[serversrcconnection.ts]] - code - packages/server/src/connection.ts
+- [[serversrcerrors.ts]] - code - packages/server/src/errors.ts
+- [[serversrcindex.ts]] - code - packages/server/src/index.ts
+- [[serversrctestingindex.ts]] - code - packages/server/src/testing/index.ts
+- [[serversrctypes.ts]] - code - packages/server/src/types.ts
+- [[servertestconformance.test.ts]] - code - packages/server/test/conformance.test.ts
+- [[servertestfixturesstale-socket-server.mjs]] - code - packages/server/test/fixtures/stale-socket-server.mjs
+- [[servertestprotocol.test.ts]] - code - packages/server/test/protocol.test.ts
+- [[servertestunix.test.ts]] - code - packages/server/test/unix.test.ts
+- [[servers_1]] - code - packages/client/test/unix.test.ts
+- [[servers_5]] - code - packages/server/test/conformance.test.ts
+- [[servers_6]] - code - packages/server/test/unix.test.ts
+- [[session-router.ts]] - code - packages/server/src/session-router.ts
+- [[sessionCall()]] - code - packages/server/test/conformance.test.ts
+- [[setSocketMode()]] - code - packages/server/src/transports/unix/listener.ts
+- [[srclistener.ts]] - code - packages/server/src/listener.ts
+- [[srcserver.ts]] - code - packages/server/src/server.ts
+- [[startServer()_1]] - code - packages/client/test/unix.test.ts
+- [[startSilentSocket()]] - code - packages/client/test/unix.test.ts
+- [[tempDirectories_1]] - code - packages/client/test/unix.test.ts
+- [[tempDirectories_4]] - code - packages/server/test/unix.test.ts
+- [[testinghost.ts]] - code - packages/server/src/testing/host.ts
+- [[testingserver.ts]] - code - packages/server/src/testing/server.ts
+- [[unixindex.ts]] - code - packages/server/src/transports/unix/index.ts
+- [[unixlistener.ts]] - code - packages/server/src/transports/unix/listener.ts
+- [[unixpreset.ts]] - code - packages/server/src/transports/unix/preset.ts
+- [[unixtypes.ts]] - code - packages/server/src/transports/unix/types.ts
+- [[writeSocket()]] - code - packages/server/src/testing/client.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Server_会话路由_20
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 95 edges to [[_COMMUNITY_Client 远程连接 14]]
+- 19 edges to [[_COMMUNITY_Durable 持久任务 5]]
+- 17 edges to [[_COMMUNITY_Chord 服务状态 95]]
+- 16 edges to [[_COMMUNITY_Coding Agent 会话工具 8]]
+- 16 edges to [[_COMMUNITY_Coding Agent 会话工具 28]]
+- 15 edges to [[_COMMUNITY_Coding Agent 会话工具 33]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 11 edges to [[_COMMUNITY_Server 会话路由 192]]
+- 9 edges to [[_COMMUNITY_Chord 服务状态 30]]
+- 8 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 48]]
+- 3 edges to [[_COMMUNITY_Chord 服务状态 36]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 72]]
+- 2 edges to [[_COMMUNITY_Durable 持久任务 18]]
+- 1 edge to [[_COMMUNITY_Protocol 传输协议 104]]
+- 1 edge to [[_COMMUNITY_Server 会话路由 321]]
+- 1 edge to [[_COMMUNITY_Server 会话路由 123]]
+- 1 edge to [[_COMMUNITY_Server 会话路由 347]]
+- 1 edge to [[_COMMUNITY_Server 会话路由 295]]
+
+## Top bridge nodes
+- [[srcserver.ts]] - degree 63, connects to 9 communities
+- [[session-router.ts]] - degree 26, connects to 8 communities
+- [[@earendil-workspi-server_3]] - degree 31, connects to 7 communities
+- [[servertestconformance.test.ts]] - degree 31, connects to 4 communities
+- [[serversrctypes.ts]] - degree 26, connects to 4 communities

@@ -1,0 +1,189 @@
+{
+  "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+  "kind": "source-confirmed static walkthrough",
+  "runtime_observed": false,
+  "steps": [
+    {
+      "id": "input",
+      "label": "终端输入进入会话",
+      "evidence_id": "E03",
+      "state_owner": "InteractiveMode 输入队列",
+      "graph_node_ids": [
+        "packages_coding_agent_src_modes_interactive_interactive_mode_interactivemode_getuserinput",
+        "packages_coding_agent_src_modes_interactive_interactive_mode_interactivemode_handleevent",
+        "packages_coding_agent_src_modes_interactive_interactive_mode_interactivemode_setupeditorsubmithandler",
+        "packages_coding_agent_src_modes_interactive_interactive_mode_interactivemode_subscribetoagent"
+      ]
+    },
+    {
+      "id": "prompt",
+      "label": "会话前置处理与消息构造",
+      "evidence_id": "E10",
+      "state_owner": "AgentSession",
+      "graph_node_ids": [
+        "packages_coding_agent_src_core_agent_session_agentsession_preparepromptandtoolloadout",
+        "packages_coding_agent_src_core_agent_session_agentsession_prompt",
+        "packages_coding_agent_src_core_agent_session_agentsession_runagentprompt",
+        "packages_coding_agent_src_core_agent_session_agentsession_runinputhandlers"
+      ]
+    },
+    {
+      "id": "loop",
+      "label": "运行快照与循环开始",
+      "evidence_id": "E05",
+      "state_owner": "Agent activeRun / loop currentContext",
+      "graph_node_ids": [
+        "packages_agent_src_agent_agent_createcontextsnapshot",
+        "packages_agent_src_agent_agent_createloopconfig",
+        "packages_agent_src_agent_agent_prompt",
+        "packages_agent_src_agent_agent_runpromptmessages"
+      ]
+    },
+    {
+      "id": "declarations",
+      "label": "工具声明delta",
+      "evidence_id": "E11",
+      "state_owner": "transcript / executable tools",
+      "graph_node_ids": [
+        "packages_agent_src_agent_loop_declaretoolchanges",
+        "packages_agent_src_agent_loop_withtoolchanges"
+      ]
+    },
+    {
+      "id": "projection",
+      "label": "请求前从原始记录投影",
+      "evidence_id": "E08",
+      "state_owner": "SessionManager",
+      "graph_node_ids": [
+        "packages_coding_agent_src_core_agent_session_agentsession_installagentrequestprojection"
+      ]
+    },
+    {
+      "id": "request",
+      "label": "上下文变换并交给模型",
+      "evidence_id": "E09",
+      "state_owner": "loop / ModelRuntime",
+      "graph_node_ids": [
+        "packages_agent_src_agent_loop_streamassistantresponse"
+      ]
+    },
+    {
+      "id": "response",
+      "label": "流式形成assistant调用",
+      "evidence_id": "E12",
+      "state_owner": "loop partial / Agent streamingMessage",
+      "graph_node_ids": [
+        "packages_agent_src_agent_loop_streamassistantresponse"
+      ]
+    },
+    {
+      "id": "dispatch",
+      "label": "工具准备和调度",
+      "evidence_id": "E13",
+      "state_owner": "loop prepared outcome",
+      "graph_node_ids": [
+        "packages_agent_src_agent_loop_executepreparedtoolcall",
+        "packages_agent_src_agent_loop_executetoolcalls",
+        "packages_agent_src_agent_loop_finalizeexecutedtoolcall",
+        "packages_agent_src_agent_loop_preparetoolcall"
+      ]
+    },
+    {
+      "id": "read",
+      "label": "默认本地read操作",
+      "evidence_id": "E14",
+      "state_owner": "ReadOperations",
+      "graph_node_ids": [
+        "packages_coding_agent_src_core_tools_read_createreadtooldefinition",
+        "packages_coding_agent_src_core_tools_read_defaultreadoperations"
+      ]
+    },
+    {
+      "id": "result",
+      "label": "工具消息与错误封装",
+      "evidence_id": "E18",
+      "state_owner": "loop ToolResultMessage",
+      "graph_node_ids": [
+        "packages_agent_src_agent_loop_createerrortoolresult",
+        "packages_agent_src_agent_loop_createtoolresultmessage",
+        "packages_agent_src_agent_loop_executepreparedtoolcall"
+      ]
+    },
+    {
+      "id": "continue",
+      "label": "回填与下一轮判断",
+      "evidence_id": "E15",
+      "state_owner": "loop currentContext / 队列",
+      "graph_node_ids": [
+        "packages_agent_src_agent_loop_runloop",
+        "packages_agent_src_agent_loop_shouldterminatetoolbatch"
+      ]
+    },
+    {
+      "id": "end",
+      "label": "等待订阅者并idle",
+      "evidence_id": "E20",
+      "state_owner": "Agent",
+      "graph_node_ids": [
+        "packages_agent_src_agent_agent_finishrun",
+        "packages_agent_src_agent_agent_handlerunfailure",
+        "packages_agent_src_agent_agent_runwithlifecycle",
+        "packages_agent_src_agent_agent_waitforidle"
+      ]
+    },
+    {
+      "id": "settle",
+      "label": "会话重试或收束",
+      "evidence_id": "E21",
+      "state_owner": "AgentSession",
+      "graph_node_ids": [
+        "packages_coding_agent_src_core_agent_session_agentsession_emitagentsettled",
+        "packages_coding_agent_src_core_agent_session_agentsession_handlepostagentrun",
+        "packages_coding_agent_src_core_agent_session_agentsession_runagentprompt",
+        "packages_coding_agent_src_core_agent_session_agentsession_runbeforesettleboundary"
+      ]
+    }
+  ],
+  "event_connections": [
+    {
+      "from": "Agent.processEvents",
+      "to": "AgentSession._handleAgentEvent",
+      "when": "await each Agent subscriber; append at message_end",
+      "evidence_ids": [
+        "E07",
+        "E17"
+      ]
+    },
+    {
+      "from": "AgentSession._emit",
+      "to": "InteractiveMode.handleEvent",
+      "when": "public notification; returned promise not awaited by _emit",
+      "evidence_ids": [
+        "E03",
+        "E17"
+      ]
+    }
+  ],
+  "branches": {
+    "missing_file": [
+      "E14",
+      "E18",
+      "T02"
+    ],
+    "truncated_tool_call": [
+      "E16",
+      "T07"
+    ],
+    "model_error": [
+      "E16",
+      "E20",
+      "E22"
+    ],
+    "abort": [
+      "E24"
+    ],
+    "next_turn_refresh": [
+      "E19"
+    ]
+  }
+}

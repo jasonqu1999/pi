@@ -1,0 +1,24 @@
+---
+source_file: "packages/coding-agent/test/mcp-conformance/run.ts"
+type: "code"
+community: "Coding Agent 会话工具 170"
+location: "L132"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Coding_Agent_会话工具_170
+---
+
+# runScenario()
+
+## Connections
+- [[conformanceEnv()]] - `calls` [EXTRACTED]
+- [[findFile()]] - `calls` [EXTRACTED]
+- [[record()_1]] - `calls` [EXTRACTED]
+- [[runCommand()]] - `calls` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Coding_Agent_会话工具_170
+
+## 源码入口
+
+[packages/coding-agent/test/mcp-conformance/run.ts](../../../packages/coding-agent/test/mcp-conformance/run.ts)

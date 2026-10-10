@@ -1,0 +1,248 @@
+---
+type: community
+cohesion: 0.02
+members: 179
+---
+
+# Coding Agent 会话工具 24
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 179 nodes
+
+## Members
+- [[dot-abort()_8]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-appendEntry()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-compact()_1]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-exec()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-fork()_1]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-getCommands()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-getFlag()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-getSessionName()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-getSystemPrompt()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-getSystemPromptOptions()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-hasPendingMessages()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-isIdle()_1]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-navigateTree()_1]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-newSession()_1]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-on()_1]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-registerCommand()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-registerEntryRenderer()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-registerFlag()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-registerMarkdownTransformer()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-registerMcpServer()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-registerMessageRenderer()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-registerShortcut()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-registerVirtualModel()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-reload()_4]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-setLabel()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-setModel()_1]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-setSessionName()_1]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-shutdown()_1]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-switchSession()_1]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-unregisterMcpServer()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-unregisterProvider()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-unregisterVirtualModel()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-waitForIdle()_2]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[AdvisoryRef]] - code - .pi/extensions/prompt-url-widget.ts
+- [[AgentEndHandler_1]] - code - packages/coding-agent/test/plan-mode-extension.test.ts
+- [[BRAILLE_FRAMES]] - code - packages/coding-agent/examples/extensions/titlebar-spinner.ts
+- [[CUSTOM_INDICATOR]] - code - packages/coding-agent/examples/extensions/working-message-test.ts
+- [[CommandHandler]] - code - packages/coding-agent/test/plan-mode-extension.test.ts
+- [[DEFAULT_INTERACTIVE_COMMANDS]] - code - packages/coding-agent/examples/extensions/interactive-shell.ts
+- [[DESTRUCTIVE_PATTERNS]] - code - packages/coding-agent/examples/extensions/plan-mode/utils.ts
+- [[ECHO_PARAMS]] - code - packages/coding-agent/examples/extensions/dynamic-tools.ts
+- [[EDIT_TOOLS]] - code - packages/coding-agent/examples/extensions/jev-router.ts
+- [[ExtensionAPI]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ExtensionCommandContext]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ExtensionContext]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[GhMetadata]] - code - .pi/extensions/prompt-url-widget.ts
+- [[GitHubAdvisoryMetadata]] - code - .pi/extensions/prompt-url-widget.ts
+- [[HIDDEN_INDICATOR]] - code - packages/coding-agent/examples/extensions/working-indicator.ts
+- [[InputHandler]] - code - packages/coding-agent/test/input-transform-streaming-example.test.ts
+- [[JevRequest]] - code - packages/coding-agent/examples/extensions/jev-router.ts
+- [[JevState]] - code - packages/coding-agent/examples/extensions/jev-router.ts
+- [[NORMAL_MODE_TOOLS]] - code - packages/coding-agent/examples/extensions/plan-mode/index.ts
+- [[PASTEL_RAINBOW]] - code - packages/coding-agent/examples/extensions/working-indicator.ts
+- [[PLAN_MANAGED_TOOLS]] - code - packages/coding-agent/examples/extensions/plan-mode/index.ts
+- [[PLAN_MODE_DISABLED_TOOLS]] - code - packages/coding-agent/examples/extensions/plan-mode/index.ts
+- [[PLAN_MODE_TOOLS]] - code - packages/coding-agent/examples/extensions/plan-mode/index.ts
+- [[PlanModeState]] - code - packages/coding-agent/examples/extensions/plan-mode/index.ts
+- [[PromptMatch]] - code - .pi/extensions/prompt-url-widget.ts
+- [[ReadonlySessionManager]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[SAFE_PATTERNS]] - code - packages/coding-agent/examples/extensions/plan-mode/utils.ts
+- [[SPINNER_FRAMES]] - code - packages/coding-agent/examples/extensions/working-indicator.ts
+- [[SlashCommandInfo]] - code - packages/coding-agent/src/core/slash-commands.ts
+- [[StructuredOutputDetails]] - code - packages/coding-agent/examples/extensions/structured-output.ts
+- [[TodoItem]] - code - packages/coding-agent/examples/extensions/plan-mode/utils.ts
+- [[WorkingIndicatorMode]] - code - packages/coding-agent/examples/extensions/working-indicator.ts
+- [[applyPreset()]] - code - packages/coding-agent/examples/extensions/preset.ts
+- [[auto-commit-on-exit.ts]] - code - packages/coding-agent/examples/extensions/auto-commit-on-exit.ts
+- [[bash-spawn-hook.ts]] - code - packages/coding-agent/examples/extensions/bash-spawn-hook.ts
+- [[bookmark.ts]] - code - packages/coding-agent/examples/extensions/bookmark.ts
+- [[buildPresetDescription()]] - code - packages/coding-agent/examples/extensions/preset.ts
+- [[buildToolGuidance()]] - code - packages/coding-agent/examples/extensions/prompt-customizer.ts
+- [[checkDirtyRepo()]] - code - packages/coding-agent/examples/extensions/dirty-repo-guard.ts
+- [[choosePlanningModel()]] - code - packages/coding-agent/examples/extensions/jev-router.ts
+- [[claude-rules.ts]] - code - packages/coding-agent/examples/extensions/claude-rules.ts
+- [[claudeRulesExtension()]] - code - packages/coding-agent/examples/extensions/claude-rules.ts
+- [[cleanStepText()]] - code - packages/coding-agent/examples/extensions/plan-mode/utils.ts
+- [[colorize()_1]] - code - packages/coding-agent/examples/extensions/working-indicator.ts
+- [[commandsExtension()]] - code - packages/coding-agent/examples/extensions/commands.ts
+- [[compaction-extensions-example.test.ts]] - code - packages/coding-agent/test/compaction-extensions-example.test.ts
+- [[createAssistantMessage()_7]] - code - packages/coding-agent/test/plan-mode-extension.test.ts
+- [[createContext()_4]] - code - packages/coding-agent/test/trigger-compact-extension.test.ts
+- [[cyclePreset()]] - code - packages/coding-agent/examples/extensions/preset.ts
+- [[describeMode()]] - code - packages/coding-agent/examples/extensions/working-indicator.ts
+- [[dirty-repo-guard.ts]] - code - packages/coding-agent/examples/extensions/dirty-repo-guard.ts
+- [[dynamic-tools.ts]] - code - packages/coding-agent/examples/extensions/dynamic-tools.ts
+- [[dynamicToolsExtension()]] - code - packages/coding-agent/examples/extensions/dynamic-tools.ts
+- [[editedThisTurn()]] - code - packages/coding-agent/examples/extensions/jev-router.ts
+- [[emit()]] - code - packages/coding-agent/test/input-transform-streaming-example.test.ts
+- [[enablePlanModeTools()]] - code - packages/coding-agent/examples/extensions/plan-mode/index.ts
+- [[extensionscommands.ts]] - code - packages/coding-agent/examples/extensions/commands.ts
+- [[extensionsevent-bus.ts]] - code - packages/coding-agent/examples/extensions/event-bus.ts
+- [[extractDoneSteps()]] - code - packages/coding-agent/examples/extensions/plan-mode/utils.ts
+- [[extractPromptMatch()]] - code - .pi/extensions/prompt-url-widget.ts
+- [[extractTodoItems()]] - code - packages/coding-agent/examples/extensions/plan-mode/utils.ts
+- [[fetchAdvisoryMetadata()]] - code - .pi/extensions/prompt-url-widget.ts
+- [[fetchGhMetadata()]] - code - .pi/extensions/prompt-url-widget.ts
+- [[file-trigger.ts]] - code - packages/coding-agent/examples/extensions/file-trigger.ts
+- [[findMarkdownFiles()]] - code - packages/coding-agent/examples/extensions/claude-rules.ts
+- [[formatAdvisoryDetail()]] - code - .pi/extensions/prompt-url-widget.ts
+- [[formatAuthor()]] - code - .pi/extensions/prompt-url-widget.ts
+- [[getBaseTitle()]] - code - packages/coding-agent/examples/extensions/titlebar-spinner.ts
+- [[getIndicator()]] - code - packages/coding-agent/examples/extensions/working-indicator.ts
+- [[getInteractiveCommands()]] - code - packages/coding-agent/examples/extensions/interactive-shell.ts
+- [[getNormalModeTools()]] - code - packages/coding-agent/examples/extensions/plan-mode/index.ts
+- [[getPlanModeTools()]] - code - packages/coding-agent/examples/extensions/plan-mode/index.ts
+- [[getPresetOrder()]] - code - packages/coding-agent/examples/extensions/preset.ts
+- [[getPromptLabel()]] - code - .pi/extensions/prompt-url-widget.ts
+- [[getTextContent()_1]] - code - packages/coding-agent/examples/extensions/plan-mode/index.ts
+- [[git-checkpoint.ts]] - code - packages/coding-agent/examples/extensions/git-checkpoint.ts
+- [[hidden-thinking-label.ts]] - code - packages/coding-agent/examples/extensions/hidden-thinking-label.ts
+- [[inline-bash.ts]] - code - packages/coding-agent/examples/extensions/inline-bash.ts
+- [[input-transform-streaming-example.test.ts]] - code - packages/coding-agent/test/input-transform-streaming-example.test.ts
+- [[input-transform-streaming.ts]] - code - packages/coding-agent/examples/extensions/input-transform-streaming.ts
+- [[input-transform.ts]] - code - packages/coding-agent/examples/extensions/input-transform.ts
+- [[interactive-shell.ts]] - code - packages/coding-agent/examples/extensions/interactive-shell.ts
+- [[isAssistantMessage()_1]] - code - packages/coding-agent/examples/extensions/plan-mode/index.ts
+- [[isInteractiveCommand()]] - code - packages/coding-agent/examples/extensions/interactive-shell.ts
+- [[isSafeCommand()]] - code - packages/coding-agent/examples/extensions/plan-mode/utils.ts
+- [[jev-router.ts]] - code - packages/coding-agent/examples/extensions/jev-router.ts
+- [[lastUserText()]] - code - packages/coding-agent/examples/extensions/jev-router.ts
+- [[loadPresets()]] - code - packages/coding-agent/examples/extensions/preset.ts
+- [[markCompletedSteps()]] - code - packages/coding-agent/examples/extensions/plan-mode/utils.ts
+- [[model-status.ts]] - code - packages/coding-agent/examples/extensions/model-status.ts
+- [[normalizeToolName()]] - code - packages/coding-agent/examples/extensions/dynamic-tools.ts
+- [[notify()]] - code - packages/coding-agent/examples/extensions/notify.ts
+- [[notify.ts]] - code - packages/coding-agent/examples/extensions/notify.ts
+- [[notifyOSC777()]] - code - packages/coding-agent/examples/extensions/notify.ts
+- [[notifyOSC99()]] - code - packages/coding-agent/examples/extensions/notify.ts
+- [[notifyWindows()]] - code - packages/coding-agent/examples/extensions/notify.ts
+- [[on()]] - code - packages/coding-agent/test/compaction-extensions-example.test.ts
+- [[parseAdvisoryUrl()]] - code - .pi/extensions/prompt-url-widget.ts
+- [[permission-gate.ts]] - code - packages/coding-agent/examples/extensions/permission-gate.ts
+- [[persistState()]] - code - packages/coding-agent/examples/extensions/plan-mode/index.ts
+- [[pirate.ts]] - code - packages/coding-agent/examples/extensions/pirate.ts
+- [[pirateExtension()]] - code - packages/coding-agent/examples/extensions/pirate.ts
+- [[plan-mode-extension.test.ts]] - code - packages/coding-agent/test/plan-mode-extension.test.ts
+- [[plan-mode-utils.test.ts]] - code - packages/coding-agent/test/plan-mode-utils.test.ts
+- [[plan-modeindex.ts]] - code - packages/coding-agent/examples/extensions/plan-mode/index.ts
+- [[plan-modeutils.ts]] - code - packages/coding-agent/examples/extensions/plan-mode/utils.ts
+- [[planModeExtension()]] - code - packages/coding-agent/examples/extensions/plan-mode/index.ts
+- [[presetExtension()]] - code - packages/coding-agent/examples/extensions/preset.ts
+- [[prompt-customizer.ts]] - code - packages/coding-agent/examples/extensions/prompt-customizer.ts
+- [[prompt-url-widget.ts]] - code - .pi/extensions/prompt-url-widget.ts
+- [[promptCustomizer()]] - code - packages/coding-agent/examples/extensions/prompt-customizer.ts
+- [[promptUrlWidgetExtension()]] - code - .pi/extensions/prompt-url-widget.ts
+- [[protected-paths.ts]] - code - packages/coding-agent/examples/extensions/protected-paths.ts
+- [[readAdvisoryRefFromDraft()]] - code - .pi/extensions/prompt-url-widget.ts
+- [[resolveDraftPath()]] - code - .pi/extensions/prompt-url-widget.ts
+- [[restoreNormalModeTools()]] - code - packages/coding-agent/examples/extensions/plan-mode/index.ts
+- [[route()]] - code - packages/coding-agent/examples/extensions/jev-router.ts
+- [[routeTo()]] - code - packages/coding-agent/examples/extensions/jev-router.ts
+- [[rpc-demo.ts]] - code - packages/coding-agent/examples/extensions/rpc-demo.ts
+- [[runCommand()_1]] - code - packages/coding-agent/test/plan-mode-extension.test.ts
+- [[send-user-message.ts]] - code - packages/coding-agent/examples/extensions/send-user-message.ts
+- [[session-name.ts]] - code - packages/coding-agent/examples/extensions/session-name.ts
+- [[setup()_13]] - code - packages/coding-agent/test/input-transform-streaming-example.test.ts
+- [[setup()_16]] - code - packages/coding-agent/test/plan-mode-extension.test.ts
+- [[showPresetSelector()]] - code - packages/coding-agent/examples/extensions/preset.ts
+- [[startAnimation()]] - code - packages/coding-agent/examples/extensions/titlebar-spinner.ts
+- [[status-line.ts]] - code - packages/coding-agent/examples/extensions/status-line.ts
+- [[stopAnimation()]] - code - packages/coding-agent/examples/extensions/titlebar-spinner.ts
+- [[structured-output.ts]] - code - packages/coding-agent/examples/extensions/structured-output.ts
+- [[structuredOutputTool]] - code - packages/coding-agent/examples/extensions/structured-output.ts
+- [[system-prompt-header.ts]] - code - packages/coding-agent/examples/extensions/system-prompt-header.ts
+- [[timed-confirm.ts]] - code - packages/coding-agent/examples/extensions/timed-confirm.ts
+- [[titlebar-spinner.ts]] - code - packages/coding-agent/examples/extensions/titlebar-spinner.ts
+- [[togglePlanMode()]] - code - packages/coding-agent/examples/extensions/plan-mode/index.ts
+- [[trigger-compact-extension.test.ts]] - code - packages/coding-agent/test/trigger-compact-extension.test.ts
+- [[trigger-compact.ts]] - code - packages/coding-agent/examples/extensions/trigger-compact.ts
+- [[triggerAgentEnd()]] - code - packages/coding-agent/test/plan-mode-extension.test.ts
+- [[uniqueToolNames()]] - code - packages/coding-agent/examples/extensions/plan-mode/index.ts
+- [[unquoteYamlValue()]] - code - .pi/extensions/prompt-url-widget.ts
+- [[updateStatus()]] - code - packages/coding-agent/examples/extensions/plan-mode/index.ts
+- [[updateStatus()_1]] - code - packages/coding-agent/examples/extensions/preset.ts
+- [[widget-placement.ts]] - code - packages/coding-agent/examples/extensions/widget-placement.ts
+- [[widgetPlacementExtension()]] - code - packages/coding-agent/examples/extensions/widget-placement.ts
+- [[windowsToastScript()]] - code - packages/coding-agent/examples/extensions/notify.ts
+- [[working-indicator.ts]] - code - packages/coding-agent/examples/extensions/working-indicator.ts
+- [[working-message-test.ts]] - code - packages/coding-agent/examples/extensions/working-message-test.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Coding_Agent_会话工具_24
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 80 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 64 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 33 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 16 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 15 edges to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 13 edges to [[_COMMUNITY_Coding Agent 会话工具 16]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 57]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 19]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 23]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 27]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 29]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 39]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 94]]
+- 4 edges to [[_COMMUNITY_TUI 终端组件 6]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 268]]
+- 4 edges to [[_COMMUNITY_TUI 终端组件 37]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 3 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 69]]
+- 2 edges to [[_COMMUNITY_跨包 类型基础 172]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 99]]
+- 2 edges to [[_COMMUNITY_TUI 终端组件 9]]
+- 2 edges to [[_COMMUNITY_TUI 终端组件 26]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 1]]
+- 2 edges to [[_COMMUNITY_TUI 终端组件 80]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 42]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 77]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 181]]
+- 1 edge to [[_COMMUNITY_Agent 控制循环 82]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 165]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 170]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 310]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 238]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 189]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 135]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 41]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 78]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 163]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 152]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 244]]
+
+## Top bridge nodes
+- [[ExtensionAPI]] - degree 148, connects to 8 communities
+- [[plan-modeindex.ts]] - degree 28, connects to 7 communities
+- [[ExtensionContext]] - degree 52, connects to 5 communities
+- [[prompt-url-widget.ts]] - degree 26, connects to 5 communities
+- [[plan-mode-extension.test.ts]] - degree 19, connects to 5 communities

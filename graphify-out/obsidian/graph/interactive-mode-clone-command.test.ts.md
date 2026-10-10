@@ -1,0 +1,25 @@
+---
+source_file: "packages/coding-agent/test/interactive-mode-clone-command.test.ts"
+type: "code"
+community: "Coding Agent 会话工具 481"
+location: "L1"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Coding_Agent_会话工具_481
+---
+
+# interactive-mode-clone-command.test.ts
+
+## Connections
+- [[CloneCommandContext]] - `contains` [EXTRACTED]
+- [[InteractiveMode]] - `imports` [EXTRACTED]
+- [[InteractiveModePrototype]] - `contains` [EXTRACTED]
+- [[interactive-mode.ts]] - `imports_from` [EXTRACTED]
+- [[ref_vitest]] - `imports_from` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Coding_Agent_会话工具_481
+
+## 源码入口
+
+[packages/coding-agent/test/interactive-mode-clone-command.test.ts](../../../packages/coding-agent/test/interactive-mode-clone-command.test.ts)

@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+  "runtime_observed": false,
+  "categories": {
+    "structure_extracted": "工具结构提取/manifest",
+    "source_confirmed": "实际源码局部核对",
+    "test_expected": "测试写下的预期，未运行",
+    "semantic_inference": "分析者推断"
+  },
+  "claims": [
+    {
+      "id": "E01",
+      "claim": "包职责和workspace直接运行依赖由各包manifest记录；包版本均1.0.2",
+      "category": "structure_extracted",
+      "source_file": "packages/coding-agent/package.json",
+      "symbols": [
+        "name",
+        "dependencies"
+      ],
+      "condition": "各包manifest；运行依赖不含开发依赖"
+    },
+    {
+      "id": "E02",
+      "claim": "CLI组合cwd服务、SessionManager和会话runtime，再按模式分派",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/main.ts",
+      "symbols": [
+        "main",
+        "createAgentSessionRuntime",
+        "createAgentSessionFromServices"
+      ],
+      "condition": "普通CLI interactive模式；auth/help/package命令可提前返回"
+    },
+    {
+      "id": "E03",
+      "claim": "普通编辑器输入经getUserInput进入session.prompt；UI通过会话subscribe消费事件",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/modes/interactive/interactive-mode.ts",
+      "symbols": [
+        "setupEditorSubmitHandler",
+        "getUserInput",
+        "subscribeToAgent",
+        "handleEvent"
+      ],
+      "condition": "普通文本；命令/streaming/compaction分流另有条件"
+    },
+    {
+      "id": "E04",
+      "claim": "SDK用已有投影创建Agent并注入转换/streamFn，然后创建AgentSession",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/sdk.ts",
+      "symbols": [
+        "createAgentSession",
+        "convertToLlmWithBlockImages",
+        "new Agent",
+        "new AgentSession"
+      ],
+      "condition": "SDK路径；初始tools为空，后由会话装载"
+    },
+    {
+      "id": "E05",
+      "claim": "Agent.prompt创建运行生命周期、上下文快照与loop配置并调用runAgentLoop",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent.ts",
+      "symbols": [
+        "prompt",
+        "runPromptMessages",
+        "createContextSnapshot",
+        "createLoopConfig"
+      ],
+      "condition": "非activeRun；消息规范化后执行"
+    },
+    {
+      "id": "E06",
+      "claim": "loop工作消息数组与Agent顶层数组分离，消息对象可共享",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent.ts",
+      "symbols": [
+        "createContextSnapshot",
+        "messages.slice"
+      ],
+      "condition": "浅拷贝不是深拷贝；低层loop也复制初始数组"
+    },
+    {
+      "id": "E07",
+      "claim": "Agent.processEvents先归约完成消息/partial/待执行调用状态，再顺序await订阅者",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent.ts",
+      "symbols": [
+        "processEvents",
+        "case \"message_end\"",
+        "await listener"
+      ],
+      "condition": "Agent订阅者与会话公开_emit不同"
+    },
+    {
+      "id": "E08",
+      "claim": "请求前从SessionManager投影构建canonicalContext；投影按leaf/压缩/context_edit生成",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/agent-session.ts",
+      "symbols": [
+        "_installAgentRequestProjection",
+        "buildSessionProjection",
+        "canonicalContext"
+      ],
+      "condition": "默认应用投影；previousPrepareRequest还能返回替换"
+    },
+    {
+      "id": "E09",
+      "claim": "transformContext→convertToLlm→normalizeContext→streamFunction构成模型边界",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent-loop.ts",
+      "symbols": [
+        "streamAssistantResponse",
+        "transformContext",
+        "convertToLlm",
+        "normalizeContext"
+      ],
+      "condition": "normalize只给messages时不另加leading system；协议随后仍可转换"
+    },
+    {
+      "id": "E10",
+      "claim": "会话prompt处理输入/模板/认证与消息构造，应用工具及system sections后进入_runAgentPrompt",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/agent-session.ts",
+      "symbols": [
+        "prompt",
+        "_runInputHandlers",
+        "_preparePromptAndToolLoadout",
+        "_runAgentPrompt"
+      ],
+      "condition": "非streaming普通输入；扩展可handled/transform"
+    },
+    {
+      "id": "E11",
+      "claim": "declareToolChanges比较transcript声明与可执行tools，合并pending system或插入delta",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent-loop.ts",
+      "symbols": [
+        "declareToolChanges",
+        "getToolStateChanges",
+        "withToolChanges"
+      ],
+      "condition": "变化为空不添加声明；工具定义剥离execute字段"
+    },
+    {
+      "id": "E12",
+      "claim": "stream start/delta/final在循环上下文形成partial和最终assistant，发消息事件",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent-loop.ts",
+      "symbols": [
+        "streamAssistantResponse",
+        "case \"start\"",
+        "case \"done\"",
+        "message_end"
+      ],
+      "condition": "provider stream遵循事件/result契约；结束没有start也会补message_start"
+    },
+    {
+      "id": "E13",
+      "claim": "工具执行按配置/工具executionMode选并行或顺序；查找/准备/校验/前钩子/执行/后钩子",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent-loop.ts",
+      "symbols": [
+        "executeToolCalls",
+        "prepareToolCall",
+        "executePreparedToolCall",
+        "finalizeExecutedToolCall"
+      ],
+      "condition": "unknown/invalid/block走immediate；并行结果按源调用序提交"
+    },
+    {
+      "id": "E14",
+      "claim": "read解析cwd路径、检查可读性、读Buffer转UTF8并应用offset/limit/截断；默认ops为本地fs",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/tools/read.ts",
+      "symbols": [
+        "createReadToolDefinition",
+        "defaultReadOperations",
+        "ops.access",
+        "ops.readFile"
+      ],
+      "condition": "小Markdown文本、非图片；自定义ReadOperations可替换"
+    },
+    {
+      "id": "E15",
+      "claim": "runLoop回填工具结果，finishTurn及队列决定内外循环继续或agent_end",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent-loop.ts",
+      "symbols": [
+        "runLoop",
+        "currentContext.messages.push(result)",
+        "getFollowUpMessages",
+        "shouldTerminateToolBatch"
+      ],
+      "condition": "工具批次全部terminate影响自然续轮，finishTurn:end提前退出"
+    },
+    {
+      "id": "E16",
+      "claim": "length响应的所有toolCall不执行而生成错误结果，error/aborted响应直接结束低层",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent-loop.ts",
+      "symbols": [
+        "failToolCallsFromTruncatedMessage",
+        "message.stopReason === \"length\"",
+        "message.stopReason === \"error\""
+      ],
+      "condition": "错误结果仍可引发下一轮；模型error出口不执行工具"
+    },
+    {
+      "id": "E17",
+      "claim": "会话先扩展/公开通知，再于message_end追加普通消息条目；turn_end刷新pending自定义消息",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/agent-session.ts",
+      "symbols": [
+        "_handleAgentEvent",
+        "appendMessage(event.message)",
+        "_emit(event"
+      ],
+      "condition": "普通system/user/assistant/toolResult；其他role有单独持久化路径"
+    },
+    {
+      "id": "E18",
+      "claim": "执行错误catch→错误结果；后钩子可改结果；toolResult携带调用id、content与isError",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent-loop.ts",
+      "symbols": [
+        "executePreparedToolCall",
+        "createErrorToolResult",
+        "createToolResultMessage"
+      ],
+      "condition": "after钩子未改写时保留错误；undefined content正规化为[]"
+    },
+    {
+      "id": "E19",
+      "claim": "轮间刷新先压缩/投影，再更新工具装载与system sections；请求前还可重建canonical投影",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/agent-session.ts",
+      "symbols": [
+        "_installAgentNextTurnRefresh",
+        "_compactBeforeNextAssistantResponse",
+        "_preparePromptAndToolLoadout"
+      ],
+      "condition": "主链只核对接入点；压缩算法未完整审计"
+    },
+    {
+      "id": "E20",
+      "claim": "agent_end监听者结算后finishRun才清activeRun；run异常有合成失败消息兜底",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent.ts",
+      "symbols": [
+        "runWithLifecycle",
+        "handleRunFailure",
+        "finishRun",
+        "waitForIdle"
+      ],
+      "condition": "监听者再次抛错的复杂恢复未展开"
+    },
+    {
+      "id": "E21",
+      "claim": "_runAgentPrompt可在低层结束后重试/恢复/消费新队列/收束钩子再continue，finally发agent_settled",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/agent-session.ts",
+      "symbols": [
+        "_runAgentPrompt",
+        "_handlePostAgentRun",
+        "_runBeforeSettleBoundary",
+        "_emitAgentSettled"
+      ],
+      "condition": "一次会话活动可能含多个低层run；交互进程仍可等待新输入"
+    },
+    {
+      "id": "E22",
+      "claim": "自动重试按可重试模型错误/预算决定，保留原始失败尝试但省略其模型投影",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/agent-session.ts",
+      "symbols": [
+        "_prepareRetry",
+        "_isRetryableError",
+        "_omitRecoveryAttempt"
+      ],
+      "condition": "非toolResult错误；overflow由压缩恢复处理；未运行验证"
+    },
+    {
+      "id": "E23",
+      "claim": "appendMessage推进树leaf，persist开启且有sessionFile时按会话首次user/assistant触发创建/追加",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/session-manager.ts",
+      "symbols": [
+        "appendMessage",
+        "_appendEntry",
+        "_hasConversation",
+        "_persist"
+      ],
+      "condition": "in-memory不写；setup条目不单独触发文件创建；未观测磁盘行为"
+    },
+    {
+      "id": "E24",
+      "claim": "会话abort取消重试/压缩/摘要并发Agent signal，等待会话idle",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/agent-session.ts",
+      "symbols": [
+        "abort",
+        "abortRetry",
+        "abortCompaction",
+        "waitForIdle"
+      ],
+      "condition": "协作取消；不保证撤销底层I/O副作用"
+    },
+    {
+      "id": "E25",
+      "claim": "会话把before/afterToolCall映射到扩展tool_call/tool_result；runToolCall复用嵌套调用钩子",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/agent-session.ts",
+      "symbols": [
+        "_installAgentToolHooks",
+        "_beforeToolCall",
+        "_afterToolCall",
+        "_executeNestedToolCall"
+      ],
+      "condition": "只说明候选审批接缝；没有实现审批策略"
+    },
+    {
+      "id": "E26",
+      "claim": "SDK注入ModelRuntime.streamSimple，runtime分派到provider API，transcript由协议适配继续转换",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/model-runtime.ts",
+      "symbols": [
+        "streamSimple",
+        "prepared.provider.streamSimple",
+        "normalizeContext"
+      ],
+      "condition": "具体provider协议/网络载荷未验证；认证、payload钩子可继续变换"
+    },
+    {
+      "id": "E27",
+      "claim": "SessionManager从原始树、compaction与context_edit生成保留sourceEntry的投影",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/session-manager.ts",
+      "symbols": [
+        "buildSessionProjection",
+        "buildContextEntries",
+        "projectContextEntry"
+      ],
+      "condition": "当前leaf；原始记录和模型投影不同"
+    },
+    {
+      "id": "E28",
+      "claim": "工具声明可重放增删delta，normalizeContext仅在外部systemPrompt/tools非空时添加leading message",
+      "category": "source_confirmed",
+      "source_file": "packages/ai/src/utils/transcript.ts",
+      "symbols": [
+        "getCurrentTools",
+        "normalizeContext",
+        "toToolDeclaration"
+      ],
+      "condition": "此主链transcript已带声明，传入仅messages"
+    },
+    {
+      "id": "E29",
+      "claim": "ToolDefinition包装为AgentTool保留参数/执行模式，execute转发到定义并提供工具context",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/tools/tool-definition-wrapper.ts",
+      "symbols": [
+        "wrapToolDefinition",
+        "definition.execute"
+      ],
+      "condition": "ReadOperations可注入；渲染器字段不进入模型声明"
+    },
+    {
+      "id": "T01",
+      "claim": "测试表达tool call→执行→toolResult→第二响应的预期",
+      "category": "test_expected",
+      "source_file": "packages/agent/test/agent-loop.test.ts",
+      "symbols": [
+        "should handle tool calls and results"
+      ],
+      "condition": "只读未运行；测试使用echo与mock stream"
+    },
+    {
+      "id": "T02",
+      "claim": "read单元测试表达不存在文件execute拒绝ENOENT/not found的预期",
+      "category": "test_expected",
+      "source_file": "packages/coding-agent/test/tools.test.ts",
+      "symbols": [
+        "should handle non-existent files"
+      ],
+      "condition": "只读未运行"
+    },
+    {
+      "id": "T03",
+      "claim": "测试表达并行执行结束按完成序、结果消息按源调用序的预期",
+      "category": "test_expected",
+      "source_file": "packages/agent/test/agent-loop.test.ts",
+      "symbols": [
+        "should emit tool_execution_end in completion order but persist tool results in source order"
+      ],
+      "condition": "只读未运行"
+    },
+    {
+      "id": "T04",
+      "claim": "测试表达未知工具、非法参数、block返回isError的预期",
+      "category": "test_expected",
+      "source_file": "packages/agent/test/agent-loop.test.ts",
+      "symbols": [
+        "validates, runs the hooks, and reports failures as error outcomes"
+      ],
+      "condition": "只读未运行"
+    },
+    {
+      "id": "T05",
+      "claim": "测试表达prompt/waitForIdle等待异步订阅者的预期",
+      "category": "test_expected",
+      "source_file": "packages/agent/test/agent.test.ts",
+      "symbols": [
+        "should await async subscribers before prompt resolves",
+        "waitForIdle should wait for async subscribers"
+      ],
+      "condition": "只读未运行"
+    },
+    {
+      "id": "T06",
+      "claim": "回归测试表达重试/agent_end新followUp可有多个agent_end且一个agent_settled的预期",
+      "category": "test_expected",
+      "source_file": "packages/coding-agent/test/suite/regressions/6363-agent-settled-event.test.ts",
+      "symbols": [
+        "emits one agent_settled event after automatic retry finishes",
+        "settles only after follow-ups queued by agent_end handlers run"
+      ],
+      "condition": "只读未运行"
+    },
+    {
+      "id": "T07",
+      "claim": "测试表达length截断调用不执行且产生下一请求的预期",
+      "category": "test_expected",
+      "source_file": "packages/agent/test/agent-loop.test.ts",
+      "symbols": [
+        "should not execute tool calls from a length-truncated assistant message"
+      ],
+      "condition": "只读未运行"
+    },
+    {
+      "id": "I01",
+      "claim": "streamFn注入为独立嵌入和可控测试提供接缝，代价是应用需保持上下文与生命周期契约",
+      "category": "semantic_inference",
+      "source_file": "packages/coding-agent/src/core/sdk.ts",
+      "symbols": [
+        "createAgentSession",
+        "streamFn"
+      ],
+      "condition": "根据包边界、SDK注入与测试写法分析，设计动机未获作者确认"
+    },
+    {
+      "id": "I02",
+      "claim": "原始记录和请求投影分离有利于保留审计历史，同时需要维护者识别修改层级",
+      "category": "semantic_inference",
+      "source_file": "packages/coding-agent/src/core/session-manager.ts",
+      "symbols": [
+        "buildSessionProjection",
+        "sourceEntry"
+      ],
+      "condition": "根据projection及retry省略失败记录推断，非作者动机陈述"
+    }
+  ]
+}

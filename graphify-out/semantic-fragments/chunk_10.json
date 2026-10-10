@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "id": "packages_coding_agent_docs_images_exy_image",
+      "label": "Spiny fish illustration",
+      "file_type": "image",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/exy.png",
+      "source_location": "image: Entire illustration",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_exy_spiny_fish",
+      "label": "Rounded spiny fish",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/exy.png",
+      "source_location": "image: Central subject",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_exy_engraving_style",
+      "label": "Engraving style illustration",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/exy.png",
+      "source_location": "image: Linework",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_exy_exy_asset",
+      "label": "Exy named image asset",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/exy.png",
+      "source_location": "image: Filename",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "packages_coding_agent_docs_images_exy_image",
+      "target": "packages_coding_agent_docs_images_exy_spiny_fish",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/exy.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_exy_image",
+      "target": "packages_coding_agent_docs_images_exy_engraving_style",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/exy.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_exy_exy_asset",
+      "target": "packages_coding_agent_docs_images_exy_spiny_fish",
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.3,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/exy.png",
+      "source_location": null,
+      "weight": 1
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

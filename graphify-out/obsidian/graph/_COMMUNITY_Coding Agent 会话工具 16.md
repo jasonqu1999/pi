@@ -1,0 +1,301 @@
+---
+type: community
+cohesion: 0.01
+members: 228
+---
+
+# Coding Agent 会话工具 16
+
+**Cohesion:** 0.01 - loosely connected
+**Members:** 228 nodes
+
+## Members
+- [[dot-addChild()_4]] - code - packages/tui/src/tui.ts
+- [[dot-addInputListener()]] - code - packages/tui/src/tui.ts
+- [[dot-box()]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-cleanup()_1]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-clear()_13]] - code - packages/tui/src/tui.ts
+- [[dot-close()_9]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-close()_10]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-constructor()_88]] - code - packages/coding-agent/examples/extensions/border-status-editor.ts
+- [[dot-constructor()_92]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-constructor()_100]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-constructor()_91]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-constructor()_96]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-constructor()_103]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-constructor()_104]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-constructor()_93]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-constructor()_98]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-constructor()_102]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-constructor()_97]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-constructor()_99]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-constructor()_94]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-constructor()_105]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-constructor()_106]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-constructor()_95]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-constructor()_101]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-constructor()_194]] - code - packages/coding-agent/src/modes/interactive/components/countdown-timer.ts
+- [[dot-constructor()_210]] - code - packages/coding-agent/src/modes/interactive/components/radius-login-selector.ts
+- [[dot-constructor()_222]] - code - packages/coding-agent/src/modes/interactive/components/status-indicator.ts
+- [[dot-constructor()_223]] - code - packages/coding-agent/src/modes/interactive/components/status-indicator.ts
+- [[dot-custom()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-cycleFocus()]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-dismiss()]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-dispose()_20]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-dispose()_18]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-dispose()_22]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-dispose()_21]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-dispose()_23]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-dispose()_19]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-dispose()_43]] - code - packages/coding-agent/src/modes/interactive/components/countdown-timer.ts
+- [[dot-dispose()_48]] - code - packages/coding-agent/src/modes/interactive/components/radius-login-selector.ts
+- [[dot-focus()]] - code - packages/tui/src/tui.ts
+- [[dot-focusEntryAt()]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-focusFirstOpenPanel()]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-focusNext()]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-getBounds()]] - code - packages/tui/src/tui.ts
+- [[dot-getClearOnShrink()_1]] - code - packages/tui/src/tui.ts
+- [[dot-getContextUsage()_1]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-getShowHardwareCursor()_1]] - code - packages/tui/src/tui.ts
+- [[dot-getThinkingLevel()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-handleInput()_2]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-handleInput()_10]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-handleInput()_6]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-handleInput()_13]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-handleInput()_14]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-handleInput()_3]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-handleInput()_8]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-handleInput()_12]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-handleInput()_7]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-handleInput()_9]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-handleInput()_4]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-handleInput()_15]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-handleInput()_16]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-handleInput()_5]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-handleInput()_11]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-hasOverlay()]] - code - packages/tui/src/tui.ts
+- [[dot-hide()]] - code - packages/tui/src/tui.ts
+- [[dot-hideOverlay()]] - code - packages/tui/src/tui.ts
+- [[dot-hidePanels()]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-invalidate()_1]] - code - packages/coding-agent/examples/extensions/border-status-editor.ts
+- [[dot-invalidate()_3]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-invalidate()_4]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-isFocused()]] - code - packages/tui/src/tui.ts
+- [[dot-isHidden()]] - code - packages/tui/src/tui.ts
+- [[dot-matches()]] - code - packages/tui/src/keybindings.ts
+- [[dot-openEntries()]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-removeChild()_4]] - code - packages/tui/src/tui.ts
+- [[dot-removeInputListener()]] - code - packages/tui/src/tui.ts
+- [[dot-render()_1]] - code - packages/coding-agent/examples/extensions/border-status-editor.ts
+- [[dot-render()]] - code - packages/coding-agent/examples/extensions/border-status-editor.ts
+- [[dot-render()_4]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-render()_12]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-render()_8]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-render()_16]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-render()_17]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-render()_5]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-render()_10]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-render()_14]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-render()_9]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-render()_11]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-render()_6]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-render()_18]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-render()_19]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-render()_7]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-render()_15]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-render()_13]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-renderNow()]] - code - packages/tui/src/tui.ts
+- [[dot-requestRender()]] - code - packages/tui/src/tui.ts
+- [[dot-setClearOnShrink()_1]] - code - packages/tui/src/tui.ts
+- [[dot-setFocus()]] - code - packages/tui/src/tui.ts
+- [[dot-setHeader()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-setHidden()]] - code - packages/tui/src/tui.ts
+- [[dot-setShowHardwareCursor()_1]] - code - packages/tui/src/tui.ts
+- [[dot-setTerminalColorSchemeNotifications()]] - code - packages/tui/src/tui.ts
+- [[dot-setWidget()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-showExtensionCustom()]] - code - packages/coding-agent/src/modes/interactive/interactive-mode.ts
+- [[dot-showOverlay()]] - code - packages/tui/src/tui.ts
+- [[dot-start()_31]] - code - packages/tui/src/tui.ts
+- [[dot-startAnimation()]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-startProcess()]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-stop()_17]] - code - packages/tui/src/tui.ts
+- [[dot-stopAnimation()_2]] - code - packages/coding-agent/src/modes/interactive/components/radius-login-selector.ts
+- [[dot-tick()_1]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[dot-unfocus()]] - code - packages/tui/src/tui.ts
+- [[ARROW_CODEPOINTS]] - code - packages/tui/src/keys.ts
+- [[AnchorTestComponent]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[AnimationDemoComponent]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[Answer]] - code - packages/coding-agent/examples/extensions/questionnaire.ts
+- [[BaseKey]] - code - packages/tui/src/keys.ts
+- [[BaseOverlay]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[BorderStatusEditor]] - code - packages/coding-agent/examples/extensions/border-status-editor.ts
+- [[CODEPOINTS]] - code - packages/tui/src/keys.ts
+- [[Digit]] - code - packages/tui/src/keys.ts
+- [[DisplayOption]] - code - packages/coding-agent/examples/extensions/question.ts
+- [[DoomKeys]] - code - packages/coding-agent/examples/extensions/doom-overlay/doom-keys.ts
+- [[EdgeTestComponent]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[EditorTheme]] - code - packages/tui/src/components/editor.ts
+- [[EmptyFooter]] - code - packages/coding-agent/examples/extensions/border-status-editor.ts
+- [[ExtensionInputOptions]] - code - packages/coding-agent/src/modes/interactive/components/extension-input.ts
+- [[ExtensionSelectorOptions]] - code - packages/coding-agent/src/modes/interactive/components/extension-selector.ts
+- [[FOCUS_PANEL_CONFIGS]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[FUNCTIONAL_CODEPOINTS]] - code - packages/tui/src/keys.ts
+- [[FocusDemoController]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[FocusPanel]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[FocusPanelColor]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[FocusPanelConfig]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[FocusPanelEntry]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[KITTY_FUNCTIONAL_KEY_EQUIVALENTS]] - code - packages/tui/src/keys.ts
+- [[Key]] - code - packages/tui/src/keys.ts
+- [[KeyEventType]] - code - packages/tui/src/keys.ts
+- [[LEGACY_CTRL_SEQUENCES]] - code - packages/tui/src/keys.ts
+- [[LEGACY_KEY_SEQUENCES]] - code - packages/tui/src/keys.ts
+- [[LEGACY_SEQUENCE_KEY_IDS]] - code - packages/tui/src/keys.ts
+- [[LEGACY_SHIFT_SEQUENCES]] - code - packages/tui/src/keys.ts
+- [[LegacyModifierKey]] - code - packages/tui/src/keys.ts
+- [[Letter]] - code - packages/tui/src/keys.ts
+- [[MODIFIERS]] - code - packages/tui/src/keys.ts
+- [[MarginTestComponent]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[MaxHeightTestComponent]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[ModifiedKeyId]] - code - packages/tui/src/keys.ts
+- [[ModifierName]] - code - packages/tui/src/keys.ts
+- [[OptionSchema]] - code - packages/coding-agent/examples/extensions/question.ts
+- [[OptionWithDesc]] - code - packages/coding-agent/examples/extensions/question.ts
+- [[OverlayAnchor]] - code - packages/tui/src/tui.ts
+- [[OverlayHandle]] - code - packages/tui/src/tui.ts
+- [[OverlayOptions]] - code - packages/tui/src/tui.ts
+- [[ParsedKittySequence]] - code - packages/tui/src/keys.ts
+- [[ParsedModifyOtherKeysSequence]] - code - packages/tui/src/keys.ts
+- [[PassiveDemoController]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[PercentTestComponent]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[Preset]] - code - packages/coding-agent/examples/extensions/preset.ts
+- [[PresetsConfig]] - code - packages/coding-agent/examples/extensions/preset.ts
+- [[Question_1]] - code - packages/coding-agent/examples/extensions/questionnaire.ts
+- [[QuestionDetails]] - code - packages/coding-agent/examples/extensions/question.ts
+- [[QuestionOption]] - code - packages/coding-agent/examples/extensions/questionnaire.ts
+- [[QuestionOptionSchema]] - code - packages/coding-agent/examples/extensions/questionnaire.ts
+- [[QuestionParams]] - code - packages/coding-agent/examples/extensions/question.ts
+- [[QuestionSchema]] - code - packages/coding-agent/examples/extensions/questionnaire.ts
+- [[QuestionnaireParams]] - code - packages/coding-agent/examples/extensions/questionnaire.ts
+- [[QuestionnaireResult]] - code - packages/coding-agent/examples/extensions/questionnaire.ts
+- [[RadiusLoginMenuComponent]] - code - packages/coding-agent/src/modes/interactive/components/radius-login-selector.ts
+- [[RenderOption]] - code - packages/coding-agent/examples/extensions/questionnaire.ts
+- [[SYMBOL_KEYS]] - code - packages/tui/src/keys.ts
+- [[SidepanelComponent]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[SpecialKey]] - code - packages/tui/src/keys.ts
+- [[StackOverlayComponent]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[StreamingInputController]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[StreamingInputPanel]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[StreamingOverflowComponent]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[SymbolKey]] - code - packages/tui/src/keys.ts
+- [[TUI_1]] - code - packages/tui/src/tui.ts
+- [[TimerPanel]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[ToggleDemoComponent]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[border-status-editor.ts]] - code - packages/coding-agent/examples/extensions/border-status-editor.ts
+- [[decodeKittyPrintable()]] - code - packages/tui/src/keys.ts
+- [[decodeModifyOtherKeysPrintable()]] - code - packages/tui/src/keys.ts
+- [[decodePrintableKey()]] - code - packages/tui/src/keys.ts
+- [[doom-component.ts]] - code - packages/coding-agent/examples/extensions/doom-overlay/doom-component.ts
+- [[doom-keys.ts]] - code - packages/coding-agent/examples/extensions/doom-overlay/doom-keys.ts
+- [[errorResult()]] - code - packages/coding-agent/examples/extensions/questionnaire.ts
+- [[extensionspreset.ts]] - code - packages/coding-agent/examples/extensions/preset.ts
+- [[fitBorder()]] - code - packages/coding-agent/examples/extensions/border-status-editor.ts
+- [[formatContext()]] - code - packages/coding-agent/examples/extensions/border-status-editor.ts
+- [[formatCwd()]] - code - packages/coding-agent/examples/extensions/border-status-editor.ts
+- [[formatKeyNameWithModifiers()]] - code - packages/tui/src/keys.ts
+- [[formatParsedKey()]] - code - packages/tui/src/keys.ts
+- [[formatThinking()]] - code - packages/coding-agent/examples/extensions/border-status-editor.ts
+- [[handleInput()]] - code - packages/coding-agent/examples/extensions/question.ts
+- [[hslToRgb()]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[isDigitKey()]] - code - packages/tui/src/keys.ts
+- [[isKeyRelease()]] - code - packages/tui/src/keys.ts
+- [[isKeyRepeat()]] - code - packages/tui/src/keys.ts
+- [[isKittyProtocolActive()]] - code - packages/tui/src/keys.ts
+- [[isWindowsTerminalSession()]] - code - packages/tui/src/keys.ts
+- [[keys.test.ts]] - code - packages/tui/test/keys.test.ts
+- [[keys.ts]] - code - packages/tui/src/keys.ts
+- [[mapKeyToDoom()]] - code - packages/coding-agent/examples/extensions/doom-overlay/doom-keys.ts
+- [[matchesKey()]] - code - packages/tui/src/keys.ts
+- [[matchesKittySequence()]] - code - packages/tui/src/keys.ts
+- [[matchesLegacyModifierSequence()]] - code - packages/tui/src/keys.ts
+- [[matchesLegacySequence()]] - code - packages/tui/src/keys.ts
+- [[matchesModifyOtherKeys()]] - code - packages/tui/src/keys.ts
+- [[matchesPrintableModifyOtherKeys()]] - code - packages/tui/src/keys.ts
+- [[matchesRawBackspace()]] - code - packages/tui/src/keys.ts
+- [[normalizeKittyFunctionalCodepoint()]] - code - packages/tui/src/keys.ts
+- [[normalizeShiftedLetterIdentityCodepoint()]] - code - packages/tui/src/keys.ts
+- [[overlay-qa-tests.ts]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[parseEventType()]] - code - packages/tui/src/keys.ts
+- [[parseKey()]] - code - packages/tui/src/keys.ts
+- [[parseKeyId()]] - code - packages/tui/src/keys.ts
+- [[parseKittySequence()]] - code - packages/tui/src/keys.ts
+- [[parseModifyOtherKeysSequence()]] - code - packages/tui/src/keys.ts
+- [[question()]] - code - packages/coding-agent/examples/extensions/question.ts
+- [[question.ts]] - code - packages/coding-agent/examples/extensions/question.ts
+- [[questionnaire.ts]] - code - packages/coding-agent/examples/extensions/questionnaire.ts
+- [[rawCtrlChar()]] - code - packages/tui/src/keys.ts
+- [[refresh()]] - code - packages/coding-agent/examples/extensions/question.ts
+- [[sleep()_3]] - code - packages/coding-agent/examples/extensions/overlay-qa-tests.ts
+- [[withEnv()]] - code - packages/tui/test/keys.test.ts
+- [[withEnvVars()]] - code - packages/tui/test/keys.test.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Coding_Agent_会话工具_16
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 91 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 56 edges to [[_COMMUNITY_TUI 终端组件 6]]
+- 27 edges to [[_COMMUNITY_TUI 终端组件 9]]
+- 16 edges to [[_COMMUNITY_TUI 终端组件 26]]
+- 13 edges to [[_COMMUNITY_Coding Agent 会话工具 24]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 11 edges to [[_COMMUNITY_TUI 终端组件 37]]
+- 11 edges to [[_COMMUNITY_TUI 终端组件 67]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 60]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 217]]
+- 7 edges to [[_COMMUNITY_TUI 终端组件 68]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 70]]
+- 5 edges to [[_COMMUNITY_TUI 终端组件 80]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 189]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 71]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 84]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 94]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 42]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 99]]
+- 4 edges to [[_COMMUNITY_TUI 终端组件 62]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 269]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 46]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 126]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 56]]
+- 3 edges to [[_COMMUNITY_TUI 终端组件 89]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 15]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 23]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 39]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 238]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 171]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 219]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 101]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 29]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 8]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 78]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 127]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 32]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 190]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 0]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 136]]
+
+## Top bridge nodes
+- [[extensionspreset.ts]] - degree 25, connects to 11 communities
+- [[questionnaire.ts]] - degree 22, connects to 9 communities
+- [[overlay-qa-tests.ts]] - degree 39, connects to 8 communities
+- [[question.ts]] - degree 18, connects to 8 communities
+- [[border-status-editor.ts]] - degree 18, connects to 6 communities

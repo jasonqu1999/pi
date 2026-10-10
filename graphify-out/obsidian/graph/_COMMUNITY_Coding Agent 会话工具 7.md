@@ -1,0 +1,475 @@
+---
+type: community
+cohesion: 0.02
+members: 288
+---
+
+# Coding Agent 会话工具 7
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 288 nodes
+
+## Members
+- [[dot-dispose()_49]] - code - packages/coding-agent/src/modes/interactive/components/status-indicator.ts
+- [[dot-eventsOfType()]] - code - packages/coding-agent/test/suite/harness.ts
+- [[dot-eventsOfType()_1]] - code - packages/coding-agent/test/test-harness.ts
+- [[dot-getModel()_7]] - code - packages/coding-agent/test/suite/harness.ts
+- [[dot-registerTool()_1]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[1717-2113-agent-session-event-settlement.test.ts]] - code - packages/coding-agent/test/suite/regressions/1717-2113-agent-session-event-settlement.test.ts
+- [[2023-queued-slash-command-followup.test.ts]] - code - packages/coding-agent/test/suite/regressions/2023-queued-slash-command-followup.test.ts
+- [[3217-scoped-model-order.test.ts]] - code - packages/coding-agent/test/suite/regressions/3217-scoped-model-order.test.ts
+- [[3317-network-connection-lost-retry.test.ts]] - code - packages/coding-agent/test/suite/regressions/3317-network-connection-lost-retry.test.ts
+- [[3686-session-name-event.test.ts]] - code - packages/coding-agent/test/suite/regressions/3686-session-name-event.test.ts
+- [[3688-tree-cancel-compacting.test.ts]] - code - packages/coding-agent/test/suite/regressions/3688-tree-cancel-compacting.test.ts
+- [[3982-message-end-cost-override.test.ts]] - code - packages/coding-agent/test/suite/regressions/3982-message-end-cost-override.test.ts
+- [[5109-exclude-tools.test.ts]] - code - packages/coding-agent/test/suite/regressions/5109-exclude-tools.test.ts
+- [[5217-compaction-reason.test.ts]] - code - packages/coding-agent/test/suite/regressions/5217-compaction-reason.test.ts
+- [[5943-session-start-notify.test.ts]] - code - packages/coding-agent/test/suite/regressions/5943-session-start-notify.test.ts
+- [[5996-session-name-newlines.test.ts]] - code - packages/coding-agent/test/suite/regressions/5996-session-name-newlines.test.ts
+- [[5998-blocked-tool-terminate.test.ts]] - code - packages/coding-agent/test/suite/regressions/5998-blocked-tool-terminate.test.ts
+- [[6019-explicit-provider-retry-message.test.ts]] - code - packages/coding-agent/test/suite/regressions/6019-explicit-provider-retry-message.test.ts
+- [[6162-extension-active-tools-next-turn.test.ts]] - code - packages/coding-agent/test/suite/regressions/6162-extension-active-tools-next-turn.test.ts
+- [[6324-branch-summary-ambient-auth.test.ts]] - code - packages/coding-agent/test/suite/regressions/6324-branch-summary-ambient-auth.test.ts
+- [[6363-agent-settled-event.test.ts]] - code - packages/coding-agent/test/suite/regressions/6363-agent-settled-event.test.ts
+- [[6647-compaction-retries-transient-stream-drop.test.ts]] - code - packages/coding-agent/test/suite/regressions/6647-compaction-retries-transient-stream-drop.test.ts
+- [[6768-copilot-compaction-base-url.test.ts]] - code - packages/coding-agent/test/suite/regressions/6768-copilot-compaction-base-url.test.ts
+- [[6904-dns-transport-retry.test.ts]] - code - packages/coding-agent/test/suite/regressions/6904-dns-transport-retry.test.ts
+- [[6949-unavailable-scoped-model.test.ts]] - code - packages/coding-agent/test/suite/regressions/6949-unavailable-scoped-model.test.ts
+- [[7048-compaction-truncated-summary.test.ts]] - code - packages/coding-agent/test/suite/regressions/7048-compaction-truncated-summary.test.ts
+- [[7150-rpc-prompt-during-compaction.test.ts]] - code - packages/coding-agent/test/suite/regressions/7150-rpc-prompt-during-compaction.test.ts
+- [[7153-scoped-models-refresh.test.ts]] - code - packages/coding-agent/test/suite/regressions/7153-scoped-models-refresh.test.ts
+- [[7209-model-selector-filter-resets-selection.test.ts]] - code - packages/coding-agent/test/suite/regressions/7209-model-selector-filter-resets-selection.test.ts
+- [[7253-manual-compact-during-response.test.ts]] - code - packages/coding-agent/test/suite/regressions/7253-manual-compact-during-response.test.ts
+- [[7269-cli-end-of-options.test.ts]] - code - packages/coding-agent/test/suite/regressions/7269-cli-end-of-options.test.ts
+- [[7290-json-stream-linear.test.ts]] - code - packages/coding-agent/test/suite/regressions/7290-json-stream-linear.test.ts
+- [[7443-model-command-cached-match.test.ts]] - code - packages/coding-agent/test/suite/regressions/7443-model-command-cached-match.test.ts
+- [[7911-json-stream-usage.test.ts]] - code - packages/coding-agent/test/suite/regressions/7911-json-stream-usage.test.ts
+- [[7925-toolcall-start-metadata.test.ts]] - code - packages/coding-agent/test/suite/regressions/7925-toolcall-start-metadata.test.ts
+- [[8261-subagent-project-trust.test.ts]] - code - packages/coding-agent/test/suite/regressions/8261-subagent-project-trust.test.ts
+- [[8328-zero-usage-auto-compaction.test.ts]] - code - packages/coding-agent/test/suite/regressions/8328-zero-usage-auto-compaction.test.ts
+- [[8537-custom-message-tool-result-ordering.test.ts]] - code - packages/coding-agent/test/suite/regressions/8537-custom-message-tool-result-ordering.test.ts
+- [[8724-in-memory-fork-active-tool.test.ts]] - code - packages/coding-agent/test/suite/regressions/8724-in-memory-fork-active-tool.test.ts
+- [[8935-parallel-preflight-abort.test.ts]] - code - packages/coding-agent/test/suite/regressions/8935-parallel-preflight-abort.test.ts
+- [[8964-extension-provider-streaming.test.ts]] - code - packages/coding-agent/test/suite/regressions/8964-extension-provider-streaming.test.ts
+- [[8989-fork-compaction-label-boundary.test.ts]] - code - packages/coding-agent/test/suite/regressions/8989-fork-compaction-label-boundary.test.ts
+- [[9178-tree-during-compaction.test.ts]] - code - packages/coding-agent/test/suite/regressions/9178-tree-during-compaction.test.ts
+- [[9340-9777-auto-compaction-cancellation.test.ts]] - code - packages/coding-agent/test/suite/regressions/9340-9777-auto-compaction-cancellation.test.ts
+- [[9789-context-handler-system-messages.test.ts]] - code - packages/coding-agent/test/suite/regressions/9789-context-handler-system-messages.test.ts
+- [[AgentSessionEvent]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[AgentTool]] - code - packages/agent/src/types.ts
+- [[BugReportHintContext]] - code - packages/coding-agent/test/interactive-mode-bug-report-hint.test.ts
+- [[ClassifyObservation]] - code - packages/coding-agent/test/suite/agent-session-codemode.test.ts
+- [[ControlledBashInvocation]] - code - packages/coding-agent/test/suite/agent-session-bash-persistence.test.ts
+- [[CreateTestExtensionsResultInput]] - code - packages/coding-agent/test/utilities.ts
+- [[CustomEntry]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[ExtensionFactory]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[FauxModelDefinition]] - code - packages/ai/src/providers/faux.ts
+- [[FauxProviderRegistration]] - code - packages/ai/src/providers/faux.ts
+- [[Harness]] - code - packages/coding-agent/test/suite/harness.ts
+- [[Harness_1]] - code - packages/coding-agent/test/test-harness.ts
+- [[HarnessOptions]] - code - packages/coding-agent/test/suite/harness.ts
+- [[HarnessOptions_1]] - code - packages/coding-agent/test/test-harness.ts
+- [[InteractiveModePrototype_7]] - code - packages/coding-agent/test/suite/regressions/5943-session-start-notify.test.ts
+- [[JsonMessageUpdateEvent]] - code - packages/coding-agent/src/modes/json-event.ts
+- [[LoadedResourcesContext]] - code - packages/coding-agent/test/suite/regressions/5943-session-start-notify.test.ts
+- [[LoadedResourcesResult]] - code - packages/coding-agent/test/suite/regressions/5943-session-start-notify.test.ts
+- [[MessageEvent]] - code - packages/coding-agent/test/suite/regressions/5943-session-start-notify.test.ts
+- [[MessageTextPart]] - code - packages/coding-agent/test/suite/harness.ts
+- [[MessageUpdateEvent_1]] - code - packages/coding-agent/src/modes/json-event.ts
+- [[NESTED_CALL_LIMITS]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[NestedToolExecutionEvent]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[RebindContext]] - code - packages/coding-agent/test/suite/regressions/5943-session-start-notify.test.ts
+- [[RecordedCompactionEvent]] - code - packages/coding-agent/test/suite/regressions/5217-compaction-reason.test.ts
+- [[ReloadCommandContext]] - code - packages/coding-agent/test/suite/regressions/5943-session-start-notify.test.ts
+- [[ReloadCommandContextOverrides]] - code - packages/coding-agent/test/suite/regressions/5943-session-start-notify.test.ts
+- [[Route]] - code - packages/coding-agent/test/suite/virtual-models.test.ts
+- [[RpcClientPrivate]] - code - packages/coding-agent/test/rpc-client-clear-queue.test.ts
+- [[RpcClientPrivate_1]] - code - packages/coding-agent/test/rpc-client-clone.test.ts
+- [[RunOptions]] - code - packages/coding-agent/test/suite/regressions/8261-subagent-project-trust.test.ts
+- [[SERVER_TOOLS]] - code - packages/coding-agent/test/suite/agent-session-mcp.test.ts
+- [[SessionWithCompactionInternals]] - code - packages/coding-agent/test/suite/agent-session-compaction.test.ts
+- [[SessionWithCompactionInternals_1]] - code - packages/coding-agent/test/suite/regressions/5217-compaction-reason.test.ts
+- [[SessionWithCompactionInternals_2]] - code - packages/coding-agent/test/suite/regressions/8328-zero-usage-auto-compaction.test.ts
+- [[SessionWithCompactionInternals_3]] - code - packages/coding-agent/test/suite/regressions/9340-9777-auto-compaction-cancellation.test.ts
+- [[Settings]] - code - packages/coding-agent/src/core/settings-manager.ts
+- [[T06 回归测试表达重试agent_end新followUp可有多个agent_end且一个agent_settled的预期]] - rationale - packages/coding-agent/test/suite/regressions/6363-agent-settled-event.test.ts
+- [[ToJsonAssistantMessageEvent]] - code - packages/coding-agent/src/modes/json-event.ts
+- [[VIRTUAL_MODULES]] - code - packages/coding-agent/src/core/extensions/virtual-modules.ts
+- [[WithoutPartial]] - code - packages/coding-agent/src/modes/json-event.ts
+- [[agent-session-bash-persistence.test.ts]] - code - packages/coding-agent/test/suite/agent-session-bash-persistence.test.ts
+- [[agent-session-boundaries.test.ts]] - code - packages/coding-agent/test/suite/agent-session-boundaries.test.ts
+- [[agent-session-codemode.test.ts]] - code - packages/coding-agent/test/suite/agent-session-codemode.test.ts
+- [[agent-session-compaction-model-overrides.test.ts]] - code - packages/coding-agent/test/suite/agent-session-compaction-model-overrides.test.ts
+- [[agent-session-mcp-oauth.test.ts]] - code - packages/coding-agent/test/suite/agent-session-mcp-oauth.test.ts
+- [[agent-session-mcp.test.ts]] - code - packages/coding-agent/test/suite/agent-session-mcp.test.ts
+- [[agent-session-model-extension.test.ts]] - code - packages/coding-agent/test/suite/agent-session-model-extension.test.ts
+- [[agent-session-prompt.test.ts]] - code - packages/coding-agent/test/suite/agent-session-prompt.test.ts
+- [[agent-session-queue.test.ts]] - code - packages/coding-agent/test/suite/agent-session-queue.test.ts
+- [[agent-session-retry-events.test.ts]] - code - packages/coding-agent/test/suite/agent-session-retry-events.test.ts
+- [[agent-session-tool-orchestration.test.ts]] - code - packages/coding-agent/test/suite/agent-session-tool-orchestration.test.ts
+- [[agent-session-tool-result-images.test.ts]] - code - packages/coding-agent/test/suite/agent-session-tool-result-images.test.ts
+- [[agentsrcindex.ts]] - code - packages/agent/src/index.ts
+- [[aisrcindex.ts]] - code - packages/ai/src/index.ts
+- [[aivitest.config.ts]] - code - packages/ai/vitest.config.ts
+- [[args()]] - code - packages/coding-agent/test/session-id-readonly.test.ts
+- [[assistant()_2]] - code - packages/coding-agent/test/session-context-edit.test.ts
+- [[assistant()_3]] - code - packages/durable/test/harness-compaction.test.ts
+- [[assistant-message.test.ts]] - code - packages/coding-agent/test/assistant-message.test.ts
+- [[assistantMsg()]] - code - packages/coding-agent/test/utilities.ts
+- [[branch-summarization.test.ts]] - code - packages/coding-agent/test/branch-summarization.test.ts
+- [[branch-summary-extensions.test.ts]] - code - packages/coding-agent/test/branch-summary-extensions.test.ts
+- [[call()]] - code - packages/durable/test/harness-tools-recovery.test.ts
+- [[callVersion()]] - code - packages/durable/test/examples/31-reload-and-restart.ts
+- [[callWhoami()]] - code - packages/coding-agent/test/suite/agent-session-mcp-oauth.test.ts
+- [[calls()]] - code - packages/durable/test/harness-tools.test.ts
+- [[captureRequest()_3]] - code - packages/coding-agent/test/suite/regressions/9789-context-handler-system-messages.test.ts
+- [[clipboard-image-bmp-conversion.test.ts]] - code - packages/coding-agent/test/clipboard-image-bmp-conversion.test.ts
+- [[clipboard.test.ts]] - code - packages/coding-agent/test/clipboard.test.ts
+- [[codemodeResult()]] - code - packages/coding-agent/test/suite/agent-session-codemode.test.ts
+- [[compactSession()]] - code - packages/coding-agent/test/suite/regressions/9789-context-handler-system-messages.test.ts
+- [[compactViaHook()]] - code - packages/coding-agent/test/suite/regressions/9789-context-handler-system-messages.test.ts
+- [[compaction-serialization.test.ts]] - code - packages/coding-agent/test/compaction-serialization.test.ts
+- [[content_1]] - code - packages/ai/test/text.test.ts
+- [[createAbortableCompactionHarness()]] - code - packages/coding-agent/test/suite/agent-session-compaction.test.ts
+- [[createAssistant()_1]] - code - packages/coding-agent/test/suite/agent-session-compaction.test.ts
+- [[createAssistantMessage()_5]] - code - packages/coding-agent/test/assistant-message.test.ts
+- [[createCodemodeExtension()]] - code - packages/coding-agent/src/extensions/codemode/index.ts
+- [[createCompactionHarness()]] - code - packages/coding-agent/test/suite/regressions/5217-compaction-reason.test.ts
+- [[createCompactionHarness()_1]] - code - packages/coding-agent/test/suite/regressions/8328-zero-usage-auto-compaction.test.ts
+- [[createControlledBashOperations()]] - code - packages/coding-agent/test/suite/agent-session-bash-persistence.test.ts
+- [[createDeferred()_5]] - code - packages/coding-agent/test/suite/regressions/9178-tree-during-compaction.test.ts
+- [[createEchoTool()]] - code - packages/coding-agent/test/suite/regressions/1717-2113-agent-session-event-settlement.test.ts
+- [[createFakeServer()]] - code - packages/coding-agent/test/suite/agent-session-mcp.test.ts
+- [[createFakeTui()]] - code - packages/coding-agent/test/model-selector.test.ts
+- [[createFakeTui()_1]] - code - packages/coding-agent/test/suite/regressions/3217-scoped-model-order.test.ts
+- [[createFakeTui()_2]] - code - packages/coding-agent/test/suite/regressions/7209-model-selector-filter-resets-selection.test.ts
+- [[createHarness()]] - code - packages/coding-agent/test/suite/harness.ts
+- [[createInteractiveContext()]] - code - packages/coding-agent/test/suite/regressions/6949-unavailable-scoped-model.test.ts
+- [[createLoadedResourcesContext()]] - code - packages/coding-agent/test/suite/regressions/5943-session-start-notify.test.ts
+- [[createNoopTool()]] - code - packages/coding-agent/test/suite/regressions/7253-manual-compact-during-response.test.ts
+- [[createReloadCommandContext()]] - code - packages/coding-agent/test/suite/regressions/5943-session-start-notify.test.ts
+- [[createRoutedHarness()]] - code - packages/coding-agent/test/suite/virtual-models.test.ts
+- [[createRunner()_1]] - code - packages/coding-agent/test/nested-tool-calls.test.ts
+- [[createTempDir()_9]] - code - packages/coding-agent/test/suite/harness.ts
+- [[createTestUiContext()]] - code - packages/coding-agent/test/suite/harness.ts
+- [[createTinyBmp1x1Red24bpp()_1]] - code - packages/coding-agent/test/clipboard-image-bmp-conversion.test.ts
+- [[createTool()_3]] - code - packages/coding-agent/test/jev-router-example.test.ts
+- [[createToolCallWithPlainSchema()]] - code - packages/ai/test/validation.test.ts
+- [[createToolSearchExtension()]] - code - packages/coding-agent/src/extensions/tool-search/index.ts
+- [[createToolSearchToolDefinition()]] - code - packages/coding-agent/src/extensions/tool-search/tool.ts
+- [[createTreeUI()]] - code - packages/coding-agent/test/interactive-mode-tree-navigation.test.ts
+- [[createUsage()_3]] - code - packages/coding-agent/test/suite/agent-session-compaction.test.ts
+- [[createUsage()_4]] - code - packages/coding-agent/test/suite/regressions/6647-compaction-retries-transient-stream-drop.test.ts
+- [[createUsage()_5]] - code - packages/coding-agent/test/suite/regressions/pre-prompt-compaction-no-continue.test.ts
+- [[createWaitTool()]] - code - packages/coding-agent/test/suite/regressions/6363-agent-settled-event.test.ts
+- [[createWaitingHarness()]] - code - packages/coding-agent/test/suite/agent-session-queue.test.ts
+- [[createZeroUsageAssistant()]] - code - packages/coding-agent/test/suite/regressions/8328-zero-usage-auto-compaction.test.ts
+- [[current()]] - code - packages/coding-agent/test/cache-warmer.test.ts
+- [[declaredToolNames()]] - code - packages/coding-agent/test/suite/agent-session-mcp.test.ts
+- [[defaultRoute()]] - code - packages/coding-agent/test/suite/virtual-models.test.ts
+- [[deferred()_2]] - code - packages/coding-agent/test/suite/agent-session-boundaries.test.ts
+- [[echoSchema]] - code - packages/coding-agent/test/suite/agent-session-codemode.test.ts
+- [[echoTool_2]] - code - packages/coding-agent/test/suite/agent-session-codemode.test.ts
+- [[echoTool_3]] - code - packages/coding-agent/test/suite/virtual-models.test.ts
+- [[entries]] - code - packages/coding-agent/test/branch-summarization.test.ts
+- [[errorMessage()_8]] - code - packages/coding-agent/test/interactive-mode-bug-report-hint.test.ts
+- [[execute()_4]] - code - packages/coding-agent/examples/extensions/reload-runtime.ts
+- [[execute()_6]] - code - packages/coding-agent/examples/extensions/shutdown-command.ts
+- [[execute()_13]] - code - packages/coding-agent/test/nested-tool-calls.test.ts
+- [[fauxAssistantMessage()]] - code - packages/ai/src/providers/faux.ts
+- [[fauxToolCall()]] - code - packages/ai/src/providers/faux.ts
+- [[findExactModelMatch]] - code - packages/coding-agent/test/suite/regressions/7443-model-command-cached-match.test.ts
+- [[freePort()]] - code - packages/coding-agent/test/suite/agent-session-mcp-oauth.test.ts
+- [[getAssistantTexts()]] - code - packages/coding-agent/test/suite/harness.ts
+- [[getCurrentSystemPrompt()]] - code - packages/ai/src/utils/transcript.ts
+- [[getEntryTypes()]] - code - packages/coding-agent/test/suite/agent-session-bash-persistence.test.ts
+- [[getMessageText()]] - code - packages/coding-agent/test/suite/harness.ts
+- [[getMessageText()_1]] - code - packages/coding-agent/test/suite/regressions/5943-session-start-notify.test.ts
+- [[getToolResult()]] - code - packages/coding-agent/test/suite/harness.ts
+- [[getUserTexts()]] - code - packages/coding-agent/test/suite/harness.ts
+- [[hello.ts]] - code - packages/coding-agent/examples/extensions/hello.ts
+- [[helloTool]] - code - packages/coding-agent/examples/extensions/hello.ts
+- [[interactive-mode-bug-report-hint.test.ts]] - code - packages/coding-agent/test/interactive-mode-bug-report-hint.test.ts
+- [[invalidFinalStream()]] - code - packages/durable/test/harness-generation.test.ts
+- [[invalidFinalStream()_1]] - code - packages/durable/test/harness-structured.test.ts
+- [[isAssistantMessage()]] - code - .pi/extensions/tps.ts
+- [[jev-router-example.test.ts]] - code - packages/coding-agent/test/jev-router-example.test.ts
+- [[jevModel]] - code - packages/coding-agent/test/jev-router-example.test.ts
+- [[json-event.ts]] - code - packages/coding-agent/src/modes/json-event.ts
+- [[loadDocsSearch()]] - code - packages/coding-agent/test/suite/agent-session-mcp.test.ts
+- [[maybeSuggestBugReport]] - code - packages/coding-agent/test/interactive-mode-bug-report-hint.test.ts
+- [[measureUpdateBytes()]] - code - packages/coding-agent/test/suite/regressions/7290-json-stream-linear.test.ts
+- [[messageEntry()]] - code - packages/coding-agent/test/suite/lax-message-content.test.ts
+- [[mocks_2]] - code - packages/coding-agent/test/clipboard.test.ts
+- [[model_24]] - code - packages/coding-agent/test/branch-summarization.test.ts
+- [[model-selector.test.ts]] - code - packages/coding-agent/test/model-selector.test.ts
+- [[nested-tool-calls.test.ts]] - code - packages/coding-agent/test/nested-tool-calls.test.ts
+- [[nestedToolNames()]] - code - packages/coding-agent/test/suite/agent-session-mcp.test.ts
+- [[normalizeEventOrder()]] - code - packages/coding-agent/test/suite/agent-session-retry-events.test.ts
+- [[normalizeToolResultImages]] - code - packages/coding-agent/test/suite/agent-session-tool-result-images.test.ts
+- [[note()]] - code - packages/durable/test/examples/29-sandbox-per-conversation.ts
+- [[orchestratorExtension()]] - code - packages/coding-agent/test/suite/agent-session-tool-orchestration.test.ts
+- [[packages_agent_src_index_agenttool]] - concept
+- [[packages_agent_src_index_agenttoolcall]] - concept
+- [[packages_agent_src_index_streamfn]] - concept
+- [[packages_ai_src_compat_fauxmodeldefinition]] - concept
+- [[packages_ai_src_compat_fauxresponsestep]] - concept
+- [[packages_ai_src_compat_toolresultmessage]] - concept
+- [[packages_ai_src_compat_usage]] - concept
+- [[packages_ai_src_index_assistantmessage]] - concept
+- [[packages_ai_src_index_classifiermodel]] - concept
+- [[packages_ai_src_index_fauxassistantmessage]] - concept
+- [[packages_ai_src_index_fauxprovider]] - concept
+- [[packages_ai_src_index_fauxthinking]] - concept
+- [[packages_ai_src_index_fauxtoolcall]] - concept
+- [[packages_ai_src_index_getcurrentsystemprompt]] - concept
+- [[packages_ai_src_index_getcurrenttools]] - concept
+- [[packages_ai_src_index_transcriptcontext]] - concept
+- [[packages_coding_agent_src_core_compaction_index_estimateprojectedcontexttokens]] - concept
+- [[packages_coding_agent_src_core_compaction_index_estimatetokens]] - concept
+- [[packages_coding_agent_src_core_compaction_index_generatebranchsummary]] - concept
+- [[pre-prompt-compaction-no-continue.test.ts]] - code - packages/coding-agent/test/suite/regressions/pre-prompt-compaction-no-continue.test.ts
+- [[probe()]] - code - packages/durable/test/examples/30-tool-override.ts
+- [[processImage]] - code - packages/coding-agent/test/suite/agent-session-prompt.test.ts
+- [[pwd()]] - code - packages/durable/test/examples/26-coding-agent.ts
+- [[recordingExtension()]] - code - packages/coding-agent/test/suite/regressions/5217-compaction-reason.test.ts
+- [[ref_typebox]] - concept
+- [[ref_typebox_compile]] - concept
+- [[ref_vitest]] - concept
+- [[registerSwitchTools()]] - code - packages/coding-agent/test/suite/regressions/6162-extension-active-tools-next-turn.test.ts
+- [[reload-runtime.ts]] - code - packages/coding-agent/examples/extensions/reload-runtime.ts
+- [[response()]] - code - packages/coding-agent/test/branch-summarization.test.ts
+- [[resultText()]] - code - packages/coding-agent/test/suite/agent-session-codemode.test.ts
+- [[roles()]] - code - packages/coding-agent/test/suite/regressions/8537-custom-message-tool-result-ordering.test.ts
+- [[rpc-client-clear-queue.test.ts]] - code - packages/coding-agent/test/rpc-client-clear-queue.test.ts
+- [[rpc-client-clone.test.ts]] - code - packages/coding-agent/test/rpc-client-clone.test.ts
+- [[run()_3]] - code - packages/coding-agent/test/suite/agent-session-codemode.test.ts
+- [[runAutoCompaction()]] - code - packages/coding-agent/test/suite/regressions/9340-9777-auto-compaction-cancellation.test.ts
+- [[runProjectAgent()]] - code - packages/coding-agent/test/suite/regressions/8261-subagent-project-trust.test.ts
+- [[save-entry.test.ts]] - code - packages/coding-agent/test/session-manager/save-entry.test.ts
+- [[screenshotTool]] - code - packages/coding-agent/test/suite/agent-session-codemode.test.ts
+- [[screenshotTool_1]] - code - packages/coding-agent/test/suite/agent-session-tool-result-images.test.ts
+- [[seedCompactableSession()]] - code - packages/coding-agent/test/suite/agent-session-compaction.test.ts
+- [[seedCompactableSession()_1]] - code - packages/coding-agent/test/suite/regressions/6647-compaction-retries-transient-stream-drop.test.ts
+- [[seedCompactableSession()_2]] - code - packages/coding-agent/test/suite/regressions/6768-copilot-compaction-base-url.test.ts
+- [[seedCompactableSession()_3]] - code - packages/coding-agent/test/suite/regressions/7048-compaction-truncated-summary.test.ts
+- [[seedCompactableSession()_4]] - code - packages/coding-agent/test/suite/regressions/9340-9777-auto-compaction-cancellation.test.ts
+- [[seedHistory()]] - code - packages/coding-agent/test/suite/agent-session-compaction-model-overrides.test.ts
+- [[selectedModelId()]] - code - packages/coding-agent/test/suite/regressions/7209-model-selector-filter-resets-selection.test.ts
+- [[servervitest.config.ts]] - code - packages/server/vitest.config.ts
+- [[serversSection()]] - code - packages/coding-agent/test/suite/agent-session-mcp.test.ts
+- [[session-context-edit.test.ts]] - code - packages/coding-agent/test/session-context-edit.test.ts
+- [[settings-selector.test.ts]] - code - packages/coding-agent/test/settings-selector.test.ts
+- [[setup()_14]] - code - packages/coding-agent/test/jev-router-example.test.ts
+- [[setup()_18]] - code - packages/coding-agent/test/suite/agent-session-codemode.test.ts
+- [[setup()_19]] - code - packages/coding-agent/test/suite/agent-session-mcp-oauth.test.ts
+- [[setup()_20]] - code - packages/coding-agent/test/suite/agent-session-mcp.test.ts
+- [[setupSlow()]] - code - packages/coding-agent/test/suite/agent-session-mcp.test.ts
+- [[showModelsSelector]] - code - packages/coding-agent/test/suite/regressions/7153-scoped-models-refresh.test.ts
+- [[showModelsSelector()]] - code - packages/coding-agent/test/suite/regressions/6949-unavailable-scoped-model.test.ts
+- [[shutdown-command.ts]] - code - packages/coding-agent/examples/extensions/shutdown-command.ts
+- [[slow()]] - code - packages/durable/test/examples/20-inbox.ts
+- [[src()]] - code - packages/server/vitest.config.ts
+- [[statsTool]] - code - packages/coding-agent/test/suite/agent-session-codemode.test.ts
+- [[storeEntries()]] - code - packages/coding-agent/test/suite/agent-session-codemode.test.ts
+- [[suiteagent-session-compaction.test.ts]] - code - packages/coding-agent/test/suite/agent-session-compaction.test.ts
+- [[suiteharness.ts]] - code - packages/coding-agent/test/suite/harness.ts
+- [[suitelax-message-content.test.ts]] - code - packages/coding-agent/test/suite/lax-message-content.test.ts
+- [[suitevirtual-models.test.ts]] - code - packages/coding-agent/test/suite/virtual-models.test.ts
+- [[system-prompt-updates.test.ts]] - code - packages/coding-agent/test/system-prompt-updates.test.ts
+- [[telemetrySrcIndex_1]] - code - packages/ai/vitest.config.ts
+- [[test-harness.test.ts]] - code - packages/coding-agent/test/test-harness.test.ts
+- [[text()_1]] - code - packages/coding-agent/test/session-context-edit.test.ts
+- [[text.test.ts]] - code - packages/ai/test/text.test.ts
+- [[toJsonEvent()]] - code - packages/coding-agent/src/modes/json-event.ts
+- [[tool()_2]] - code - packages/coding-agent/test/tool-search.test.ts
+- [[tool-search.test.ts]] - code - packages/coding-agent/test/tool-search.test.ts
+- [[tool-searchindex.ts]] - code - packages/coding-agent/src/extensions/tool-search/index.ts
+- [[toolCall()]] - code - packages/durable/test/examples/17-coding-tools.ts
+- [[toolCalls()_1]] - code - packages/durable/test/harness-structured.test.ts
+- [[toolNames()]] - code - packages/coding-agent/test/suite/regressions/5109-exclude-tools.test.ts
+- [[tps.ts]] - code - .pi/extensions/tps.ts
+- [[tree-during-streaming.test.ts]] - code - packages/coding-agent/test/suite/regressions/tree-during-streaming.test.ts
+- [[usage()]] - code - packages/coding-agent/test/nested-tool-calls.test.ts
+- [[usage()_1]] - code - packages/coding-agent/test/suite/agent-session-codemode.test.ts
+- [[useSummaryStreamFn()]] - code - packages/coding-agent/test/suite/agent-session-compaction.test.ts
+- [[userMsg()]] - code - packages/coding-agent/test/utilities.ts
+- [[users_jason_workspace_learning_programming_languages_typescript_language_pi_agent_harness_pi_node_modules_typebox]] - concept
+- [[validation.test.ts]] - code - packages/ai/test/validation.test.ts
+- [[virtual-modules.ts]] - code - packages/coding-agent/src/core/extensions/virtual-modules.ts
+- [[vitest.benchmark.config.ts]] - code - packages/durable/vitest.benchmark.config.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Coding_Agent_会话工具_7
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 241 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 211 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 178 edges to [[_COMMUNITY_Coding Agent 会话工具 15]]
+- 117 edges to [[_COMMUNITY_AI 模型协议 1]]
+- 81 edges to [[_COMMUNITY_Coding Agent 会话工具 19]]
+- 74 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 69 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 64 edges to [[_COMMUNITY_Coding Agent 会话工具 56]]
+- 54 edges to [[_COMMUNITY_Coding Agent 会话工具 27]]
+- 47 edges to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 37 edges to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 33 edges to [[_COMMUNITY_Coding Agent 会话工具 24]]
+- 31 edges to [[_COMMUNITY_AI 模型协议 44]]
+- 30 edges to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 29 edges to [[_COMMUNITY_Coding Agent 会话工具 41]]
+- 27 edges to [[_COMMUNITY_Coding Agent 会话工具 77]]
+- 26 edges to [[_COMMUNITY_Agent 控制循环 82]]
+- 25 edges to [[_COMMUNITY_Coding Agent 会话工具 31]]
+- 21 edges to [[_COMMUNITY_AI 模型协议 25]]
+- 21 edges to [[_COMMUNITY_Coding Agent 会话工具 57]]
+- 18 edges to [[_COMMUNITY_AI 模型协议 54]]
+- 18 edges to [[_COMMUNITY_AI 模型协议 22]]
+- 17 edges to [[_COMMUNITY_Durable 持久任务 21]]
+- 16 edges to [[_COMMUNITY_Coding Agent 会话工具 116]]
+- 13 edges to [[_COMMUNITY_Coding Agent 会话工具 29]]
+- 13 edges to [[_COMMUNITY_TUI 终端组件 6]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 43]]
+- 12 edges to [[_COMMUNITY_AI 模型协议 52]]
+- 12 edges to [[_COMMUNITY_AI 模型协议 13]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 8]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 149]]
+- 11 edges to [[_COMMUNITY_AI 模型协议 106]]
+- 10 edges to [[_COMMUNITY_Agent 控制循环 85]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 79]]
+- 10 edges to [[_COMMUNITY_Chord 服务状态 30]]
+- 10 edges to [[_COMMUNITY_Client 远程连接 14]]
+- 10 edges to [[_COMMUNITY_Durable 持久任务 86]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 23]]
+- 9 edges to [[_COMMUNITY_Coding Agent 会话工具 42]]
+- 9 edges to [[_COMMUNITY_Coding Agent 会话工具 181]]
+- 9 edges to [[_COMMUNITY_Durable 持久任务 18]]
+- 8 edges to [[_COMMUNITY_MCP 远端工具 96]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 16]]
+- 8 edges to [[_COMMUNITY_TUI 终端组件 26]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 70]]
+- 8 edges to [[_COMMUNITY_Durable 持久任务 4]]
+- 8 edges to [[_COMMUNITY_Durable 持久任务 115]]
+- 8 edges to [[_COMMUNITY_Evals 行为评估 114]]
+- 7 edges to [[_COMMUNITY_AI 模型协议 74]]
+- 7 edges to [[_COMMUNITY_Server 会话路由 20]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 76]]
+- 6 edges to [[_COMMUNITY_AI 模型协议 55]]
+- 6 edges to [[_COMMUNITY_AI 模型协议 63]]
+- 6 edges to [[_COMMUNITY_AI 模型协议 130]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 66]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 103]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 65]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 84]]
+- 5 edges to [[_COMMUNITY_AI 模型协议 140]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 33]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 78]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 205]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 292]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 244]]
+- 4 edges to [[_COMMUNITY_AI 模型协议 51]]
+- 4 edges to [[_COMMUNITY_AI 模型协议 90]]
+- 4 edges to [[_COMMUNITY_TUI 终端组件 9]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 135]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 94]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 69]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 39]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 242]]
+- 4 edges to [[_COMMUNITY_MCP 远端工具 61]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 75]]
+- 4 edges to [[_COMMUNITY_Evals 行为评估 362]]
+- 4 edges to [[_COMMUNITY_Evals 行为评估 120]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 102]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 35]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 47]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 28]]
+- 3 edges to [[_COMMUNITY_TUI 终端组件 62]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 46]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 72]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 60]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 32]]
+- 3 edges to [[_COMMUNITY_Durable 持久任务 38]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 156]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 148]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 17]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 278]]
+- 2 edges to [[_COMMUNITY_Chord 服务状态 95]]
+- 2 edges to [[_COMMUNITY_Codemode 沙箱执行 186]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 206]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 49]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 152]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 243]]
+- 2 edges to [[_COMMUNITY_TUI 终端组件 330]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 273]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 110]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 112]]
+- 2 edges to [[_COMMUNITY_Durable 持久任务 5]]
+- 2 edges to [[_COMMUNITY_Durable 持久任务 119]]
+- 2 edges to [[_COMMUNITY_Evals 行为评估 183]]
+- 2 edges to [[_COMMUNITY_Evals 行为评估 113]]
+- 2 edges to [[_COMMUNITY_MCP 远端工具 34]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 306]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 165]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 370]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 307]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 237]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 134]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 232]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 249]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 203]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 194]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 36]]
+- 1 edge to [[_COMMUNITY_Codemode 沙箱执行 204]]
+- 1 edge to [[_COMMUNITY_Codemode 沙箱执行 279]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 269]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 80]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 290]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 83]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 143]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 220]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 479]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 257]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 48]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 268]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 329]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 256]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 480]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 283]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 481]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 371]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 359]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 37]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 360]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 240]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 207]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 81]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 239]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 313]]
+- 1 edge to [[_COMMUNITY_跨包 类型基础 172]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 50]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 274]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 361]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 101]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 482]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 45]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 132]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 180]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 164]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 58]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 484]]
+- 1 edge to [[_COMMUNITY_Evals 行为评估 109]]
+- 1 edge to [[_COMMUNITY_MCP 远端工具 93]]
+- 1 edge to [[_COMMUNITY_Protocol 传输协议 104]]
+- 1 edge to [[_COMMUNITY_Telemetry 遥测契约 228]]
+- 1 edge to [[_COMMUNITY_Telemetry 遥测契约 223]]
+
+## Top bridge nodes
+- [[aisrcindex.ts]] - degree 322, connects to 22 communities
+- [[suiteharness.ts]] - degree 133, connects to 14 communities
+- [[agent-session-codemode.test.ts]] - degree 65, connects to 14 communities
+- [[agent-session-mcp.test.ts]] - degree 55, connects to 13 communities
+- [[7153-scoped-models-refresh.test.ts]] - degree 27, connects to 11 communities

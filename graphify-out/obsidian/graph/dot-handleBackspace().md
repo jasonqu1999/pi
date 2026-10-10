@@ -1,0 +1,28 @@
+---
+source_file: "packages/tui/src/components/editor.ts"
+type: "code"
+community: "TUI 终端组件 68"
+location: "L1379"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/TUI_终端组件_68
+---
+
+# .handleBackspace()
+
+## Connections
+- [[dot-exitHistoryBrowsing()]] - `calls` [EXTRACTED]
+- [[dot-getText()_1]] - `calls` [EXTRACTED]
+- [[dot-isInSlashCommandContext()]] - `calls` [EXTRACTED]
+- [[dot-pushUndoSnapshot()]] - `calls` [EXTRACTED]
+- [[dot-segment()]] - `calls` [EXTRACTED]
+- [[dot-setCursorCol()]] - `calls` [EXTRACTED]
+- [[dot-tryTriggerAutocomplete()]] - `calls` [EXTRACTED]
+- [[dot-updateAutocomplete()_1]] - `calls` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/TUI_终端组件_68
+
+## 源码入口
+
+[packages/tui/src/components/editor.ts](../../../packages/tui/src/components/editor.ts)

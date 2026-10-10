@@ -1,0 +1,241 @@
+---
+type: community
+cohesion: 0.02
+members: 158
+---
+
+# Coding Agent 会话工具 27
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 158 nodes
+
+## Members
+- [[dot-addUsage()]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[dot-appendCustomMessageEntry()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-clear()]] - code - packages/agent/src/agent.ts
+- [[dot-clear()_6]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[dot-constructor()_1]] - code - packages/agent/src/agent.ts
+- [[dot-constructor()]] - code - packages/agent/src/agent.ts
+- [[dot-constructor()_139]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[dot-continue()]] - code - packages/agent/src/agent.ts
+- [[dot-createContextSnapshot()]] - code - packages/agent/src/agent.ts
+- [[dot-createLoopConfig()]] - code - packages/agent/src/agent.ts
+- [[dot-drain()]] - code - packages/agent/src/agent.ts
+- [[dot-emit()_3]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[dot-enqueue()]] - code - packages/agent/src/agent.ts
+- [[dot-execute()_4]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-execute()_5]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[dot-executeTool()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-finish()_1]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[dot-followUpMode()]] - code - packages/agent/src/agent.ts
+- [[dot-getTools()]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[dot-hasItems()]] - code - packages/agent/src/agent.ts
+- [[dot-isSequential()]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[dot-messages()]] - code - packages/agent/src/types.ts
+- [[dot-messages()_1]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-normalizePromptInput()]] - code - packages/agent/src/agent.ts
+- [[dot-peek()]] - code - packages/agent/src/agent.ts
+- [[dot-processEvents()]] - code - packages/agent/src/agent.ts
+- [[dot-prompt()]] - code - packages/agent/src/agent.ts
+- [[dot-runContinuation()]] - code - packages/agent/src/agent.ts
+- [[dot-runPromptMessages()]] - code - packages/agent/src/agent.ts
+- [[dot-runToolCall()]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[dot-sendUserMessage()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-sendUserMessage()_2]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-sendUserMessage()_1]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-snapshot()_3]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[dot-start()_6]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[dot-state()]] - code - packages/agent/src/agent.ts
+- [[dot-state()_3]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-steeringMode()]] - code - packages/agent/src/agent.ts
+- [[dot-takeRecord()]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[dot-tools()]] - code - packages/agent/src/types.ts
+- [[dot-totalUsage()]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[ANNOTATION_HINTS]] - code - packages/coding-agent/src/extensions/mcp/tools.ts
+- [[ActiveRun]] - code - packages/agent/src/agent.ts
+- [[AfterToolCallContext]] - code - packages/agent/src/types.ts
+- [[AfterToolCallResult]] - code - packages/agent/src/types.ts
+- [[AgentContext]] - code - packages/agent/src/types.ts
+- [[AgentEvent]] - code - packages/agent/src/types.ts
+- [[AgentInitialState]] - code - packages/agent/src/agent.ts
+- [[AgentLoopConfig]] - code - packages/agent/src/types.ts
+- [[AgentLoopTurnUpdate]] - code - packages/agent/src/types.ts
+- [[AgentMessage]] - code - packages/agent/src/types.ts
+- [[AgentOptions]] - code - packages/agent/src/agent.ts
+- [[AgentRequestUpdate]] - code - packages/agent/src/types.ts
+- [[AgentState]] - code - packages/agent/src/types.ts
+- [[AgentToolCall]] - code - packages/agent/src/types.ts
+- [[AgentToolCallOutcome]] - code - packages/agent/src/types.ts
+- [[AgentToolResult]] - code - packages/agent/src/types.ts
+- [[AgentTurnContext]] - code - packages/agent/src/types.ts
+- [[AgentTurnDecision]] - code - packages/agent/src/types.ts
+- [[BeforeToolCallContext]] - code - packages/agent/src/types.ts
+- [[BeforeToolCallResult]] - code - packages/agent/src/types.ts
+- [[CODEMODE_TOOL_NAME]] - code - packages/agent/examples/mcp-codemode/tools.ts
+- [[CURSOR]] - code - packages/coding-agent/src/extensions/mcp/resources.ts
+- [[CallScope]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[ConvertMcpResultOptions]] - code - packages/coding-agent/src/extensions/mcp/tools.ts
+- [[CustomAgentMessages]] - code - packages/agent/src/types.ts
+- [[CustomMessageEntry]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[DEFAULT_MODEL]] - code - packages/agent/src/agent.ts
+- [[E05 Agent.prompt创建运行生命周期、上下文快照与loop配置并调用runAgentLoop]] - rationale - packages/agent/src/agent.ts
+- [[E06 loop工作消息数组与Agent顶层数组分离，消息对象可共享]] - rationale - packages/agent/src/agent.ts
+- [[E07 Agent.processEvents先归约完成消息partial待执行调用状态，再顺序await订阅者]] - rationale - packages/agent/src/agent.ts
+- [[EMPTY_USAGE]] - code - packages/agent/src/agent.ts
+- [[FinishTurn]] - code - packages/agent/src/types.ts
+- [[GetCurrentTimeParams]] - code - packages/agent/test/utils/get-current-time.ts
+- [[GetCurrentTimeResult]] - code - packages/agent/test/utils/get-current-time.ts
+- [[ImageContent]] - code - packages/ai/src/types.ts
+- [[JsonValue]] - code - packages/ai/src/types.ts
+- [[LISTING_ERRORS]] - code - packages/coding-agent/src/extensions/mcp/resources.ts
+- [[LIST_MCP_RESOURCES_TOOL]] - code - packages/coding-agent/src/extensions/mcp/resources.ts
+- [[LIST_MCP_RESOURCE_TEMPLATES_TOOL]] - code - packages/coding-agent/src/extensions/mcp/resources.ts
+- [[LIST_OUTPUT_SCHEMA]] - code - packages/coding-agent/src/extensions/mcp/resources.ts
+- [[LIST_PARAMETERS]] - code - packages/coding-agent/src/extensions/mcp/resources.ts
+- [[LIST_TEMPLATES_OUTPUT_SCHEMA]] - code - packages/coding-agent/src/extensions/mcp/resources.ts
+- [[MCP_OUTPUT_MAX_BYTES]] - code - packages/coding-agent/src/extensions/mcp/tools.ts
+- [[McpExposure]] - code - packages/coding-agent/src/core/mcp-servers.ts
+- [[McpOutputSaver]] - code - packages/coding-agent/src/extensions/mcp/tools.ts
+- [[McpToolDetails]] - code - packages/coding-agent/src/extensions/mcp/tools.ts
+- [[MutableAgentState]] - code - packages/agent/src/agent.ts
+- [[NestedCallRecorder]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[NestedCallSummary]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[NestedToolCallHost]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[NestedToolCallOptions]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[NestedToolCallRecord]] - code - packages/ai/src/types.ts
+- [[NestedToolCallRunner]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[NestedToolCalls]] - code - packages/ai/src/types.ts
+- [[PendingMessageQueue]] - code - packages/agent/src/agent.ts
+- [[PrepareNextTurnContext]] - code - packages/agent/src/types.ts
+- [[PrepareRequest]] - code - packages/agent/src/types.ts
+- [[PrintModeOptions]] - code - packages/coding-agent/src/modes/print-mode.ts
+- [[QueueMode]] - code - packages/agent/src/types.ts
+- [[READ_MCP_RESOURCE_TOOL]] - code - packages/coding-agent/src/extensions/mcp/tools.ts
+- [[READ_OUTPUT_SCHEMA]] - code - packages/coding-agent/src/extensions/mcp/resources.ts
+- [[READ_PARAMETERS]] - code - packages/coding-agent/src/extensions/mcp/resources.ts
+- [[SERVER_FILTER]] - code - packages/coding-agent/src/extensions/mcp/resources.ts
+- [[SessionContext]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[StreamFn]] - code - packages/agent/src/types.ts
+- [[TextContent]] - code - packages/ai/src/types.ts
+- [[ToolExecutionMode]] - code - packages/agent/src/types.ts
+- [[agentsrctypes.ts]] - code - packages/agent/src/types.ts
+- [[blockToContent()]] - code - packages/coding-agent/src/extensions/mcp/tools.ts
+- [[codemodeParameters]] - code - packages/agent/examples/mcp-codemode/tools.ts
+- [[convertMcpResult()]] - code - packages/coding-agent/src/extensions/mcp/tools.ts
+- [[createInitialSystemMessage()]] - code - packages/ai/src/utils/transcript.ts
+- [[createMcpResourceToolDefinitions()]] - code - packages/coding-agent/src/extensions/mcp/resources.ts
+- [[createMcpResultSchema()]] - code - packages/coding-agent/src/extensions/mcp/tools.ts
+- [[createMcpToolDefinition()]] - code - packages/coding-agent/src/extensions/mcp/tools.ts
+- [[createMutableAgentState()]] - code - packages/agent/src/agent.ts
+- [[defaultConvertToLlm()]] - code - packages/agent/src/agent.ts
+- [[encoder_1]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[errorMessage()_5]] - code - packages/coding-agent/src/extensions/mcp/resources.ts
+- [[extensionOf()]] - code - packages/coding-agent/src/extensions/mcp/tools.ts
+- [[get-current-time.ts]] - code - packages/agent/test/utils/get-current-time.ts
+- [[getCurrentTime()]] - code - packages/agent/test/utils/get-current-time.ts
+- [[getCurrentTimeSchema]] - code - packages/agent/test/utils/get-current-time.ts
+- [[getCurrentTimeTool]] - code - packages/agent/test/utils/get-current-time.ts
+- [[getDefaultStreamFn()]] - code - packages/agent/src/stream-fn.ts
+- [[isTextMimeType()]] - code - packages/coding-agent/src/extensions/mcp/tools.ts
+- [[jsonResult()]] - code - packages/coding-agent/src/extensions/mcp/resources.ts
+- [[limitMcpContent()]] - code - packages/coding-agent/src/extensions/mcp/tools.ts
+- [[listed()]] - code - packages/coding-agent/src/extensions/mcp/resources.ts
+- [[mcp-codemodetools.ts]] - code - packages/agent/examples/mcp-codemode/tools.ts
+- [[mcptools.ts]] - code - packages/coding-agent/src/extensions/mcp/tools.ts
+- [[nested-tool-calls.ts]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[optionalString]] - code - packages/coding-agent/src/extensions/mcp/resources.ts
+- [[packages_agent_src_index_agenttoolcalloutcome]] - concept
+- [[packages_agent_src_index_agenttoolresult]] - concept
+- [[packages_agent_src_index_agenttoolupdatecallback]] - concept
+- [[packages_agent_src_index_runtoolcall]] - concept
+- [[packages_ai_src_index_createinitialsystemmessage]] - concept
+- [[packages_ai_src_index_jsonvalue]] - concept
+- [[packages_ai_src_index_nestedtoolcallrecord]] - concept
+- [[packages_ai_src_index_nestedtoolcalls]] - concept
+- [[packages_ai_src_index_textcontent]] - concept
+- [[packages_ai_src_index_thinkingbudgets]] - concept
+- [[resources.ts]] - code - packages/coding-agent/src/extensions/mcp/resources.ts
+- [[runAgentLoop()]] - code - packages/agent/src/agent-loop.ts
+- [[runAgentLoopContinue()]] - code - packages/agent/src/agent-loop.ts
+- [[saveToTempFile()]] - code - packages/coding-agent/src/extensions/mcp/tools.ts
+- [[srcagent.ts]] - code - packages/agent/src/agent.ts
+- [[stream-fn.ts]] - code - packages/agent/src/stream-fn.ts
+- [[stringArgument()]] - code - packages/coding-agent/src/extensions/mcp/resources.ts
+- [[stringProperty()]] - code - packages/coding-agent/src/extensions/mcp/resources.ts
+- [[textOf()_2]] - code - packages/coding-agent/src/core/nested-tool-calls.ts
+- [[textOf()_4]] - code - packages/coding-agent/src/extensions/mcp/tools.ts
+- [[toModelContent()]] - code - packages/coding-agent/src/extensions/mcp/tools.ts
+- [[toParameters()]] - code - packages/coding-agent/src/extensions/mcp/tools.ts
+- [[toToolAnnotations()]] - code - packages/coding-agent/src/extensions/mcp/tools.ts
+- [[toToolExposure()]] - code - packages/coding-agent/src/extensions/mcp/tools.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Coding_Agent_会话工具_27
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 66 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 54 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 49 edges to [[_COMMUNITY_Coding Agent 会话工具 15]]
+- 40 edges to [[_COMMUNITY_Coding Agent 会话工具 19]]
+- 36 edges to [[_COMMUNITY_Coding Agent 会话工具 29]]
+- 23 edges to [[_COMMUNITY_Agent 控制循环 85]]
+- 20 edges to [[_COMMUNITY_Agent 控制循环 82]]
+- 18 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 17 edges to [[_COMMUNITY_Coding Agent 会话工具 57]]
+- 15 edges to [[_COMMUNITY_MCP 远端工具 61]]
+- 14 edges to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 13 edges to [[_COMMUNITY_Coding Agent 会话工具 116]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 50]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 49]]
+- 11 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 10 edges to [[_COMMUNITY_AI 模型协议 44]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 77]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 7 edges to [[_COMMUNITY_AI 模型协议 25]]
+- 6 edges to [[_COMMUNITY_AI 模型协议 1]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 24]]
+- 5 edges to [[_COMMUNITY_AI 模型协议 54]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 103]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 112]]
+- 4 edges to [[_COMMUNITY_MCP 远端工具 96]]
+- 4 edges to [[_COMMUNITY_Codemode 沙箱执行 236]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 41]]
+- 4 edges to [[_COMMUNITY_Durable 持久任务 21]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 31]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 78]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 42]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 140]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 56]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 52]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 55]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 102]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 63]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 206]]
+- 3 edges to [[_COMMUNITY_Durable 持久任务 86]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 149]]
+- 2 edges to [[_COMMUNITY_Codemode 沙箱执行 147]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 106]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 74]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 47]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 237]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 135]]
+- 2 edges to [[_COMMUNITY_TUI 终端组件 26]]
+- 1 edge to [[_COMMUNITY_Codemode 沙箱执行 204]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 156]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 94]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 6]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 28]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 143]]
+
+## Top bridge nodes
+- [[agentsrctypes.ts]] - degree 65, connects to 15 communities
+- [[mcptools.ts]] - degree 72, connects to 13 communities
+- [[srcagent.ts]] - degree 58, connects to 11 communities
+- [[mcp-codemodetools.ts]] - degree 38, connects to 11 communities
+- [[resources.ts]] - degree 49, connects to 7 communities

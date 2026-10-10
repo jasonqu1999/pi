@@ -1,0 +1,181 @@
+{
+  "nodes": [
+    {
+      "id": "packages_coding_agent_docs_images_tree_view_image",
+      "label": "Conversation tree view screenshot",
+      "file_type": "image",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/tree-view.png",
+      "source_location": "image: Entire screenshot",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_tree_view_conversation_tree",
+      "label": "Branching conversation tree",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/tree-view.png",
+      "source_location": "image: Left tree connectors and transcript",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_tree_view_user_messages",
+      "label": "User message entries",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/tree-view.png",
+      "source_location": "image: Transcript user rows",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_tree_view_assistant_messages",
+      "label": "Assistant message entries",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/tree-view.png",
+      "source_location": "image: Transcript assistant rows",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_tree_view_tool_entries",
+      "label": "Read bash and edit tool entries",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/tree-view.png",
+      "source_location": "image: Transcript bracketed tool rows",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_tree_view_selection",
+      "label": "Selected assistant entry",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/tree-view.png",
+      "source_location": "image: Highlighted bottom row",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_tree_view_rebase_transcript",
+      "label": "Git rebase discussion transcript",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/tree-view.png",
+      "source_location": "image: Middle transcript",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_tree_view_entry_count",
+      "label": "Conversation entry counter",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/tree-view.png",
+      "source_location": "image: Bottom left counter",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "packages_coding_agent_docs_images_tree_view_image",
+      "target": "packages_coding_agent_docs_images_tree_view_conversation_tree",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/tree-view.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_tree_view_conversation_tree",
+      "target": "packages_coding_agent_docs_images_tree_view_user_messages",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/tree-view.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_tree_view_conversation_tree",
+      "target": "packages_coding_agent_docs_images_tree_view_assistant_messages",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/tree-view.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_tree_view_conversation_tree",
+      "target": "packages_coding_agent_docs_images_tree_view_tool_entries",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/tree-view.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_tree_view_conversation_tree",
+      "target": "packages_coding_agent_docs_images_tree_view_selection",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/tree-view.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_tree_view_conversation_tree",
+      "target": "packages_coding_agent_docs_images_tree_view_rebase_transcript",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/tree-view.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_tree_view_conversation_tree",
+      "target": "packages_coding_agent_docs_images_tree_view_entry_count",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/tree-view.png",
+      "source_location": null,
+      "weight": 1
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "packages_coding_agent_docs_images_tree_view_conversation_tree_entry_types",
+      "label": "Conversation tree entry types",
+      "nodes": [
+        "packages_coding_agent_docs_images_tree_view_user_messages",
+        "packages_coding_agent_docs_images_tree_view_assistant_messages",
+        "packages_coding_agent_docs_images_tree_view_tool_entries"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/tree-view.png"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,281 @@
+---
+type: community
+cohesion: 0.05
+members: 193
+---
+
+# AI 模型协议 22
+
+**Cohesion:** 0.05 - loosely connected
+**Members:** 193 nodes
+
+## Members
+- [[dot-json]] - code - packages/ai/src/providers/data-json.d.ts
+- [[dot-cancelDeferred()_3]] - code - packages/ai/src/types.ts
+- [[dot-classify()_3]] - code - packages/ai/src/types.ts
+- [[dot-stream()_3]] - code - packages/ai/src/types.ts
+- [[dot-streamSimple()_3]] - code - packages/ai/src/types.ts
+- [[@earendil-workspi-ai_14]] - concept - packages/ai/package.json
+- [[AMAZON_BEDROCK_MODELS]] - code - packages/ai/src/providers/amazon-bedrock.models.ts
+- [[BuiltinChatModelId]] - code - packages/ai/src/providers/all.ts
+- [[BuiltinClassifierModelId]] - code - packages/ai/src/providers/all.ts
+- [[BuiltinImageModelId]] - code - packages/ai/src/providers/all.ts
+- [[CapturedRequest_2]] - code - packages/ai/test/xai-responses.test.ts
+- [[CatalogApi]] - code - packages/ai/src/providers/all.ts
+- [[CloudflareAIGatewayApi]] - code - packages/ai/src/providers/cloudflare-ai-gateway.ts
+- [[CreateModelsOptions]] - code - packages/ai/src/models.ts
+- [[DEFAULT_IMAGE_RESIZE_1]] - code - packages/ai/test/providers.test.ts
+- [[EXTENDED_THINKING_LEVELS]] - code - packages/ai/src/models.ts
+- [[KNOWN_MODEL_TYPES]] - code - packages/ai/src/models.ts
+- [[LazyApiCapabilities]] - code - packages/ai/src/api/lazy.ts
+- [[OAuthFlowLoaders]] - code - packages/ai/src/auth/oauth/load.ts
+- [[OpenCodeApi]] - code - packages/ai/src/providers/opencode.ts
+- [[Provider]] - code - packages/ai/src/models.ts
+- [[ProviderClassifier]] - code - packages/ai/src/types.ts
+- [[ProviderModel]] - code - packages/ai/src/models.ts
+- [[ProviderStreams]] - code - packages/ai/src/types.ts
+- [[all.ts]] - code - packages/ai/src/providers/all.ts
+- [[amazon-bedrock.ts]] - code - packages/ai/src/providers/amazon-bedrock.ts
+- [[amazonBedrockProvider()]] - code - packages/ai/src/providers/amazon-bedrock.ts
+- [[ant-ling.ts]] - code - packages/ai/src/providers/ant-ling.ts
+- [[antLingProvider()]] - code - packages/ai/src/providers/ant-ling.ts
+- [[anthropic-messages.lazy.ts]] - code - packages/ai/src/api/anthropic-messages.lazy.ts
+- [[anthropicMessagesApi()]] - code - packages/ai/src/api/anthropic-messages.lazy.ts
+- [[auth]] - code - packages/ai/test/cloudflare-workers-ai-system-one.test.ts
+- [[authhelpers.ts]] - code - packages/ai/src/auth/helpers.ts
+- [[azure-openai-responses.lazy.ts]] - code - packages/ai/src/api/azure-openai-responses.lazy.ts
+- [[azureOpenAIResponsesApi()]] - code - packages/ai/src/api/azure-openai-responses.lazy.ts
+- [[azureOpenAIResponsesProvider()]] - code - packages/ai/src/providers/azure-openai-responses.ts
+- [[baseten.ts]] - code - packages/ai/src/providers/baseten.ts
+- [[basetenProvider()]] - code - packages/ai/src/providers/baseten.ts
+- [[bedrock-converse-stream.lazy.ts]] - code - packages/ai/src/api/bedrock-converse-stream.lazy.ts
+- [[bedrockAuth]] - code - packages/ai/src/providers/amazon-bedrock.ts
+- [[bedrockConverseStreamApi()]] - code - packages/ai/src/api/bedrock-converse-stream.lazy.ts
+- [[builtinProviders()]] - code - packages/ai/src/providers/all.ts
+- [[captureRequest()_2]] - code - packages/ai/test/xai-responses.test.ts
+- [[cerebras.ts]] - code - packages/ai/src/providers/cerebras.ts
+- [[cerebrasProvider()]] - code - packages/ai/src/providers/cerebras.ts
+- [[clefOutput]] - code - packages/ai/test/cloudflare-workers-ai-system-one.test.ts
+- [[cloudflare-ai-gateway.ts]] - code - packages/ai/src/providers/cloudflare-ai-gateway.ts
+- [[cloudflare-stream.ts]] - code - packages/ai/src/providers/cloudflare-stream.ts
+- [[cloudflare-workers-ai-system-one.lazy.ts]] - code - packages/ai/src/api/cloudflare-workers-ai-system-one.lazy.ts
+- [[cloudflare-workers-ai-system-one.test.ts]] - code - packages/ai/test/cloudflare-workers-ai-system-one.test.ts
+- [[cloudflare-workers-ai-system-one.ts]] - code - packages/ai/src/api/cloudflare-workers-ai-system-one.ts
+- [[cloudflare-workers-ai.ts]] - code - packages/ai/src/providers/cloudflare-workers-ai.ts
+- [[cloudflareAIGatewayProvider()]] - code - packages/ai/src/providers/cloudflare-ai-gateway.ts
+- [[cloudflareClassifier()]] - code - packages/ai/src/providers/cloudflare-stream.ts
+- [[cloudflareStreams()]] - code - packages/ai/src/providers/cloudflare-stream.ts
+- [[cloudflareWorkersAIProvider()]] - code - packages/ai/src/providers/cloudflare-workers-ai.ts
+- [[cloudflareWorkersAISystemOneApi()]] - code - packages/ai/src/api/cloudflare-workers-ai-system-one.lazy.ts
+- [[completedResponse()]] - code - packages/ai/test/xai-responses.test.ts
+- [[context_14]] - code - packages/ai/test/cloudflare-workers-ai-system-one.test.ts
+- [[context_32]] - code - packages/ai/test/providers.test.ts
+- [[createProvider()]] - code - packages/ai/src/models.ts
+- [[customCompletionsModel]] - code - packages/ai/test/xai-responses.test.ts
+- [[data-json.d.ts]] - code - packages/ai/src/providers/data-json.d.ts
+- [[deepseek.ts]] - code - packages/ai/src/providers/deepseek.ts
+- [[deepseekProvider()]] - code - packages/ai/src/providers/deepseek.ts
+- [[envApiKeyAuth()]] - code - packages/ai/src/auth/helpers.ts
+- [[fakeAuthContext()_1]] - code - packages/ai/test/providers.test.ts
+- [[fireworks.ts]] - code - packages/ai/src/providers/fireworks.ts
+- [[fireworksProvider()]] - code - packages/ai/src/providers/fireworks.ts
+- [[forwardStream()]] - code - packages/ai/src/api/lazy.ts
+- [[getAllBuiltinModels()]] - code - packages/ai/src/providers/all.ts
+- [[getBuiltinClassifierModel()]] - code - packages/ai/src/providers/all.ts
+- [[getBuiltinClassifierModels()]] - code - packages/ai/src/providers/all.ts
+- [[getBuiltinImageModels()]] - code - packages/ai/src/providers/all.ts
+- [[getBuiltinModelDataGeneratedAt()]] - code - packages/ai/src/providers/all.ts
+- [[getRandomValues()]] - code - packages/ai/test/uuid.test.ts
+- [[githubCopilotProvider()]] - code - packages/ai/src/providers/github-copilot.ts
+- [[google-generative-ai.lazy.ts]] - code - packages/ai/src/api/google-generative-ai.lazy.ts
+- [[google-vertex.lazy.ts]] - code - packages/ai/src/api/google-vertex.lazy.ts
+- [[google.ts]] - code - packages/ai/src/providers/google.ts
+- [[googleGenerativeAIApi()]] - code - packages/ai/src/api/google-generative-ai.lazy.ts
+- [[googleProvider()]] - code - packages/ai/src/providers/google.ts
+- [[googleVertexApi()]] - code - packages/ai/src/api/google-vertex.lazy.ts
+- [[googleVertexProvider()]] - code - packages/ai/src/providers/google-vertex.ts
+- [[groq.ts]] - code - packages/ai/src/providers/groq.ts
+- [[groqProvider()]] - code - packages/ai/src/providers/groq.ts
+- [[hasHeader()_3]] - code - packages/ai/src/providers/opencode-headers.ts
+- [[hasKnownModelType()]] - code - packages/ai/src/models.ts
+- [[hasResult()]] - code - packages/ai/src/api/lazy.ts
+- [[huggingfaceProvider()]] - code - packages/ai/src/providers/huggingface.ts
+- [[importNodeOnlyApi()]] - code - packages/ai/src/api/bedrock-converse-stream.lazy.ts
+- [[importOAuthModule()]] - code - packages/ai/src/auth/oauth/load.ts
+- [[jevOutput]] - code - packages/ai/test/cloudflare-workers-ai-system-one.test.ts
+- [[kimiCodingProvider()]] - code - packages/ai/src/providers/kimi-coding.ts
+- [[lazy.ts]] - code - packages/ai/src/api/lazy.ts
+- [[lazyApi()]] - code - packages/ai/src/api/lazy.ts
+- [[lazyOAuth()]] - code - packages/ai/src/auth/helpers.ts
+- [[llama-cpp-classify.lazy.ts]] - code - packages/ai/src/api/llama-cpp-classify.lazy.ts
+- [[load.ts]] - code - packages/ai/src/auth/oauth/load.ts
+- [[loadGitHubCopilotOAuth()]] - code - packages/ai/src/auth/oauth/load.ts
+- [[loadKimiCodingOAuth()]] - code - packages/ai/src/auth/oauth/load.ts
+- [[loadMetaOAuth()]] - code - packages/ai/src/auth/oauth/load.ts
+- [[loadOpenAIChatGPTOAuth()]] - code - packages/ai/src/auth/oauth/load.ts
+- [[loadOpenAICodexOAuth()]] - code - packages/ai/src/auth/oauth/load.ts
+- [[loadOpenRouterOAuth()]] - code - packages/ai/src/auth/oauth/load.ts
+- [[loadRadiusOAuth()]] - code - packages/ai/src/auth/oauth/load.ts
+- [[loadXaiOAuth()]] - code - packages/ai/src/auth/oauth/load.ts
+- [[metaProvider()]] - code - packages/ai/src/providers/meta.ts
+- [[minimax-cn.ts]] - code - packages/ai/src/providers/minimax-cn.ts
+- [[minimax.ts]] - code - packages/ai/src/providers/minimax.ts
+- [[minimaxCnProvider()]] - code - packages/ai/src/providers/minimax-cn.ts
+- [[minimaxProvider()]] - code - packages/ai/src/providers/minimax.ts
+- [[mistral-conversations.lazy.ts]] - code - packages/ai/src/api/mistral-conversations.lazy.ts
+- [[mistral.ts]] - code - packages/ai/src/providers/mistral.ts
+- [[mistralConversationsApi()]] - code - packages/ai/src/api/mistral-conversations.lazy.ts
+- [[mistralProvider()]] - code - packages/ai/src/providers/mistral.ts
+- [[moonshotai-cn.ts]] - code - packages/ai/src/providers/moonshotai-cn.ts
+- [[moonshotai.ts]] - code - packages/ai/src/providers/moonshotai.ts
+- [[moonshotaiCnProvider()]] - code - packages/ai/src/providers/moonshotai-cn.ts
+- [[moonshotaiProvider()]] - code - packages/ai/src/providers/moonshotai.ts
+- [[nvidia.ts]] - code - packages/ai/src/providers/nvidia.ts
+- [[nvidiaProvider()]] - code - packages/ai/src/providers/nvidia.ts
+- [[openAICodexResponsesApi()]] - code - packages/ai/src/api/openai-codex-responses.lazy.ts
+- [[openAICompletionsApi()]] - code - packages/ai/src/api/openai-completions.lazy.ts
+- [[openAIResponsesApi()]] - code - packages/ai/src/api/openai-responses.lazy.ts
+- [[openai-codex-responses.lazy.ts]] - code - packages/ai/src/api/openai-codex-responses.lazy.ts
+- [[openai-completions.lazy.ts]] - code - packages/ai/src/api/openai-completions.lazy.ts
+- [[openai-responses.lazy.ts]] - code - packages/ai/src/api/openai-responses.lazy.ts
+- [[openai.ts]] - code - packages/ai/src/providers/openai.ts
+- [[openaiCodexProvider()]] - code - packages/ai/src/providers/openai-codex.ts
+- [[openaiProvider()]] - code - packages/ai/src/providers/openai.ts
+- [[opencode-go.ts]] - code - packages/ai/src/providers/opencode-go.ts
+- [[opencode-headers.ts]] - code - packages/ai/src/providers/opencode-headers.ts
+- [[opencode.ts]] - code - packages/ai/src/providers/opencode.ts
+- [[opencodeGoProvider()]] - code - packages/ai/src/providers/opencode-go.ts
+- [[opencodeProvider()]] - code - packages/ai/src/providers/opencode.ts
+- [[openrouter-images.lazy.ts]] - code - packages/ai/src/api/openrouter-images.lazy.ts
+- [[openrouterImagesApi()]] - code - packages/ai/src/api/openrouter-images.lazy.ts
+- [[openrouterProvider()]] - code - packages/ai/src/providers/openrouter.ts
+- [[packages_ai_src_providers_data_manifest]] - concept
+- [[parseTimestamp()]] - code - packages/ai/test/uuid.test.ts
+- [[pi-messages.lazy.ts]] - code - packages/ai/src/api/pi-messages.lazy.ts
+- [[providers.test.ts]] - code - packages/ai/test/providers.test.ts
+- [[providersazure-openai-responses.ts]] - code - packages/ai/src/providers/azure-openai-responses.ts
+- [[providersgithub-copilot.ts]] - code - packages/ai/src/providers/github-copilot.ts
+- [[providersgoogle-vertex.ts]] - code - packages/ai/src/providers/google-vertex.ts
+- [[providershuggingface.ts]] - code - packages/ai/src/providers/huggingface.ts
+- [[providerskimi-coding.ts]] - code - packages/ai/src/providers/kimi-coding.ts
+- [[providersmeta.ts]] - code - packages/ai/src/providers/meta.ts
+- [[providersopenai-codex.ts]] - code - packages/ai/src/providers/openai-codex.ts
+- [[providersopenrouter.ts]] - code - packages/ai/src/providers/openrouter.ts
+- [[providersxai.ts]] - code - packages/ai/src/providers/xai.ts
+- [[qwen-token-plan-cn.ts]] - code - packages/ai/src/providers/qwen-token-plan-cn.ts
+- [[qwen-token-plan-individual.ts]] - code - packages/ai/src/providers/qwen-token-plan-individual.ts
+- [[qwen-token-plan.ts]] - code - packages/ai/src/providers/qwen-token-plan.ts
+- [[qwenTokenPlanCnProvider()]] - code - packages/ai/src/providers/qwen-token-plan-cn.ts
+- [[qwenTokenPlanIndividualProvider()]] - code - packages/ai/src/providers/qwen-token-plan-individual.ts
+- [[qwenTokenPlanProvider()]] - code - packages/ai/src/providers/qwen-token-plan.ts
+- [[resolveCloudflareModel()]] - code - packages/ai/src/providers/cloudflare-stream.ts
+- [[restResponse()]] - code - packages/ai/test/cloudflare-workers-ai-system-one.test.ts
+- [[setup()]] - code - packages/ai/test/cloudflare-workers-ai-system-one.test.ts
+- [[srcmodels.ts]] - code - packages/ai/src/models.ts
+- [[testModel()_1]] - code - packages/ai/test/providers.test.ts
+- [[together.ts]] - code - packages/ai/src/providers/together.ts
+- [[togetherProvider()]] - code - packages/ai/src/providers/together.ts
+- [[transport]] - code - packages/ai/src/api/cloudflare-workers-ai-system-one.ts
+- [[typesafe-system-one.lazy.ts]] - code - packages/ai/src/api/typesafe-system-one.lazy.ts
+- [[typesafe.ts]] - code - packages/ai/src/providers/typesafe.ts
+- [[typesafeProvider()]] - code - packages/ai/src/providers/typesafe.ts
+- [[typesafeSystemOneApi()]] - code - packages/ai/src/api/typesafe-system-one.lazy.ts
+- [[uuid.test.ts]] - code - packages/ai/test/uuid.test.ts
+- [[uuid.ts]] - code - packages/ai/src/utils/uuid.ts
+- [[vercel-ai-gateway.ts]] - code - packages/ai/src/providers/vercel-ai-gateway.ts
+- [[vercelAIGatewayProvider()]] - code - packages/ai/src/providers/vercel-ai-gateway.ts
+- [[vertexAuth]] - code - packages/ai/src/providers/google-vertex.ts
+- [[withKnownModelTypes()]] - code - packages/ai/src/models.ts
+- [[withOpenCodeSessionHeader()]] - code - packages/ai/src/providers/opencode-headers.ts
+- [[withSessionHeader()]] - code - packages/ai/src/providers/opencode-headers.ts
+- [[xai-responses.test.ts]] - code - packages/ai/test/xai-responses.test.ts
+- [[xaiProvider()]] - code - packages/ai/src/providers/xai.ts
+- [[xiaomi-token-plan-ams.ts]] - code - packages/ai/src/providers/xiaomi-token-plan-ams.ts
+- [[xiaomi-token-plan-cn.ts]] - code - packages/ai/src/providers/xiaomi-token-plan-cn.ts
+- [[xiaomi-token-plan-sgp.ts]] - code - packages/ai/src/providers/xiaomi-token-plan-sgp.ts
+- [[xiaomi.ts]] - code - packages/ai/src/providers/xiaomi.ts
+- [[xiaomiProvider()]] - code - packages/ai/src/providers/xiaomi.ts
+- [[xiaomiTokenPlanAmsProvider()]] - code - packages/ai/src/providers/xiaomi-token-plan-ams.ts
+- [[xiaomiTokenPlanCnProvider()]] - code - packages/ai/src/providers/xiaomi-token-plan-cn.ts
+- [[xiaomiTokenPlanSgpProvider()]] - code - packages/ai/src/providers/xiaomi-token-plan-sgp.ts
+- [[zai-coding-cn.ts]] - code - packages/ai/src/providers/zai-coding-cn.ts
+- [[zai-coding-plan-models.test.ts]] - code - packages/ai/test/zai-coding-plan-models.test.ts
+- [[zai.ts]] - code - packages/ai/src/providers/zai.ts
+- [[zaiCodingCnProvider()]] - code - packages/ai/src/providers/zai-coding-cn.ts
+- [[zaiProvider()]] - code - packages/ai/src/providers/zai.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/AI_模型协议_22
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 137 edges to [[_COMMUNITY_AI 模型协议 17]]
+- 115 edges to [[_COMMUNITY_AI 模型协议 1]]
+- 104 edges to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 83 edges to [[_COMMUNITY_AI 模型协议 25]]
+- 50 edges to [[_COMMUNITY_AI 模型协议 35]]
+- 49 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 43 edges to [[_COMMUNITY_AI 模型协议 13]]
+- 27 edges to [[_COMMUNITY_AI 模型协议 54]]
+- 25 edges to [[_COMMUNITY_AI 模型协议 44]]
+- 25 edges to [[_COMMUNITY_AI 模型协议 148]]
+- 22 edges to [[_COMMUNITY_Coding Agent 会话工具 79]]
+- 21 edges to [[_COMMUNITY_AI 模型协议 47]]
+- 20 edges to [[_COMMUNITY_AI 模型协议 52]]
+- 20 edges to [[_COMMUNITY_AI 模型协议 203]]
+- 20 edges to [[_COMMUNITY_AI 模型协议 106]]
+- 18 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 14 edges to [[_COMMUNITY_Coding Agent 会话工具 15]]
+- 12 edges to [[_COMMUNITY_AI 模型协议 130]]
+- 11 edges to [[_COMMUNITY_AI 模型协议 63]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 8 edges to [[_COMMUNITY_AI 模型协议 55]]
+- 8 edges to [[_COMMUNITY_AI 模型协议 51]]
+- 7 edges to [[_COMMUNITY_AI 模型协议 74]]
+- 7 edges to [[_COMMUNITY_AI 模型协议 102]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 69]]
+- 4 edges to [[_COMMUNITY_AI 模型协议 306]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 4 edges to [[_COMMUNITY_AI 模型协议 90]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 43]]
+- 4 edges to [[_COMMUNITY_AI 模型协议 134]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 140]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 19]]
+- 3 edges to [[_COMMUNITY_Durable 持久任务 21]]
+- 3 edges to [[_COMMUNITY_Durable 持久任务 86]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 194]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 31]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 307]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 165]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 413]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 64]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 156]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 237]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 23]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 65]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 78]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 42]]
+- 1 edge to [[_COMMUNITY_Agent 控制循环 82]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 402]]
+- 1 edge to [[_COMMUNITY_Agent 控制循环 277]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 403]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 97]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 322]]
+- 1 edge to [[_COMMUNITY_Agent 控制循环 85]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 370]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 232]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 249]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 278]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 308]]
+- 1 edge to [[_COMMUNITY_Telemetry 遥测契约 228]]
+
+## Top bridge nodes
+- [[@earendil-workspi-ai_14]] - degree 383, connects to 48 communities
+- [[srcmodels.ts]] - degree 209, connects to 15 communities
+- [[providers.test.ts]] - degree 58, connects to 12 communities
+- [[xai-responses.test.ts]] - degree 24, connects to 10 communities
+- [[all.ts]] - degree 135, connects to 9 communities

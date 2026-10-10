@@ -1,0 +1,18 @@
+---
+source_file: "packages/durable/package.json"
+type: "code"
+community: "Durable 持久任务 392"
+location: "L58"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Durable_持久任务_392
+---
+
+# source
+
+#graphify/code #graphify/EXTRACTED #community/Durable_持久任务_392
+
+## 源码入口
+
+[packages/durable/package.json](../../../packages/durable/package.json)

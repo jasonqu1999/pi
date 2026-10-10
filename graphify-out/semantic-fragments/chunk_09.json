@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "id": "packages_coding_agent_docs_images_doom_extension_image",
+      "label": "DOOM in Pi terminal",
+      "file_type": "image",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/doom-extension.png",
+      "source_location": "image: Entire screenshot",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_doom_extension_doom",
+      "label": "DOOM game viewport",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/doom-extension.png",
+      "source_location": "image: Lower viewport",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_doom_extension_terminal_conversation",
+      "label": "Terminal conversation",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/doom-extension.png",
+      "source_location": "image: Upper transcript",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_doom_extension_working_status",
+      "label": "Working status",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/doom-extension.png",
+      "source_location": "image: Above game viewport",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_doom_extension_keyboard_controls",
+      "label": "DOOM keyboard controls",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/doom-extension.png",
+      "source_location": "image: Below game viewport",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_doom_extension_model_status",
+      "label": "Model and token status footer",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/doom-extension.png",
+      "source_location": "image: Bottom footer",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "packages_coding_agent_docs_images_doom_extension_image",
+      "target": "packages_coding_agent_docs_images_doom_extension_doom",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/doom-extension.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_doom_extension_image",
+      "target": "packages_coding_agent_docs_images_doom_extension_terminal_conversation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/doom-extension.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_doom_extension_image",
+      "target": "packages_coding_agent_docs_images_doom_extension_working_status",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/doom-extension.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_doom_extension_doom",
+      "target": "packages_coding_agent_docs_images_doom_extension_keyboard_controls",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/doom-extension.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_doom_extension_image",
+      "target": "packages_coding_agent_docs_images_doom_extension_model_status",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/doom-extension.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_doom_extension_doom",
+      "target": "packages_coding_agent_docs_images_doom_extension_working_status",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/doom-extension.png",
+      "source_location": null,
+      "weight": 1
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,334 @@
+---
+type: community
+cohesion: 0.02
+members: 257
+---
+
+# Coding Agent 会话工具 10
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 257 nodes
+
+## Members
+- [[dot-constructor()_239]] - code - packages/coding-agent/src/modes/interactive/components/visual-truncate.ts
+- [[dot-executeBash()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-invalidate()_46]] - code - packages/coding-agent/src/modes/interactive/components/visual-truncate.ts
+- [[5208-late-bash-output.test.ts]] - code - packages/coding-agent/test/suite/regressions/5208-late-bash-output.test.ts
+- [[6104-find-root-relativization.test.ts]] - code - packages/coding-agent/test/suite/regressions/6104-find-root-relativization.test.ts
+- [[BASH_UPDATE_THROTTLE_MS]] - code - packages/coding-agent/src/core/tools/renderers/bash.ts
+- [[BashExecutorOptions]] - code - packages/coding-agent/src/core/bash-executor.ts
+- [[BashOperations]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[BashRenderState]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[BashSpawnContext]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[BashSpawnHook]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[BashToolDetails]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[BashToolInput]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[BashToolOptions]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[BashToolOutput]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[CONTRIBUTIONS]] - code - packages/coding-agent/src/experimental/durable/prompt.ts
+- [[ConstrainedSamplingConfig]] - code - packages/ai/src/types.ts
+- [[DEFAULT_MAX_BYTES]] - code - packages/coding-agent/src/core/tools/truncate.ts
+- [[DEFAULT_MAX_LINES]] - code - packages/coding-agent/src/core/tools/truncate.ts
+- [[E14 read解析cwd路径、检查可读性、读Buffer转UTF8并应用offsetlimit截断；默认ops为本地fs]] - rationale - packages/coding-agent/src/core/tools/read.ts
+- [[E29 ToolDefinition包装为AgentTool保留参数执行模式，execute转发到定义并提供工具context]] - rationale - packages/coding-agent/src/core/tools/tool-definition-wrapper.ts
+- [[Edit]] - code - packages/coding-agent/src/core/tools/edit-diff.ts
+- [[EditOperations]] - code - packages/coding-agent/src/core/tools/edit.ts
+- [[EditRenderState]] - code - packages/coding-agent/src/core/tools/renderers/edit.ts
+- [[EditToolOptions]] - code - packages/coding-agent/src/core/tools/edit.ts
+- [[FindOperations]] - code - packages/coding-agent/src/core/tools/find.ts
+- [[FindToolDetails]] - code - packages/coding-agent/src/core/tools/find.ts
+- [[FindToolOptions]] - code - packages/coding-agent/src/core/tools/find.ts
+- [[FullOutput]] - code - packages/coding-agent/src/core/tools/output-accumulator.ts
+- [[GREP_MAX_LINE_LENGTH]] - code - packages/coding-agent/src/core/tools/truncate.ts
+- [[GrepOperations]] - code - packages/coding-agent/src/core/tools/grep.ts
+- [[GrepToolDetails]] - code - packages/coding-agent/src/core/tools/grep.ts
+- [[GrepToolOptions]] - code - packages/coding-agent/src/core/tools/grep.ts
+- [[KEYS]] - code - packages/coding-agent/src/experimental/durable/prompt.ts
+- [[LegacyEditToolInput]] - code - packages/coding-agent/src/core/tools/edit.ts
+- [[LsOperations]] - code - packages/coding-agent/src/core/tools/ls.ts
+- [[LsToolDetails]] - code - packages/coding-agent/src/core/tools/ls.ts
+- [[LsToolOptions]] - code - packages/coding-agent/src/core/tools/ls.ts
+- [[MiddleTruncationResult]] - code - packages/coding-agent/src/core/tools/truncate.ts
+- [[OutputAccumulatorOptions]] - code - packages/coding-agent/src/core/tools/output-accumulator.ts
+- [[OutputSnapshot]] - code - packages/coding-agent/src/core/tools/output-accumulator.ts
+- [[POWERSHELL_ARGS]] - code - packages/coding-agent/src/utils/shell.ts
+- [[PowerShellOperations]] - code - packages/coding-agent/src/core/tools/powershell.ts
+- [[PowerShellSpawnContext]] - code - packages/coding-agent/src/core/tools/powershell.ts
+- [[PowerShellSpawnHook]] - code - packages/coding-agent/src/core/tools/powershell.ts
+- [[PowerShellToolOptions]] - code - packages/coding-agent/src/core/tools/powershell.ts
+- [[ReadOperations]] - code - packages/coding-agent/src/core/tools/read.ts
+- [[ReadToolDetails]] - code - packages/coding-agent/src/core/tools/read.ts
+- [[ReadToolOptions]] - code - packages/coding-agent/src/core/tools/read.ts
+- [[RenderState]] - code - packages/coding-agent/test/tool-execution-component.test.ts
+- [[RgDetails]] - code - packages/coding-agent/examples/extensions/truncated-tool.ts
+- [[RgParams]] - code - packages/coding-agent/examples/extensions/truncated-tool.ts
+- [[ShellConfig]] - code - packages/coding-agent/src/utils/shell.ts
+- [[ShellToolConfig]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[SingleEditInput]] - code - packages/coding-agent/src/core/tools/edit.ts
+- [[T02 read单元测试表达不存在文件execute拒绝ENOENTnot found的预期]] - rationale - packages/coding-agent/test/tools.test.ts
+- [[TextToolResult]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[ToolContextFactory]] - code - packages/coding-agent/src/core/tools/tool-definition-wrapper.ts
+- [[ToolDef]] - code - packages/coding-agent/src/core/tools/index.ts
+- [[ToolDefinition]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[ToolsOptions]] - code - packages/coding-agent/src/core/tools/index.ts
+- [[TruncationOptions]] - code - packages/coding-agent/src/core/tools/truncate.ts
+- [[TruncationResult]] - code - packages/coding-agent/src/core/tools/truncate.ts
+- [[VisualLinePreview]] - code - packages/coding-agent/src/modes/interactive/components/visual-truncate.ts
+- [[WriteOperations]] - code - packages/coding-agent/src/core/tools/write.ts
+- [[WriteToolOptions]] - code - packages/coding-agent/src/core/tools/write.ts
+- [[allToolNames]] - code - packages/coding-agent/src/core/tools/index.ts
+- [[appendGrepBlock()]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[bash-executor.ts]] - code - packages/coding-agent/src/core/bash-executor.ts
+- [[bashOutputSchema]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[bashSchema]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[bashTool]] - code - packages/coding-agent/test/tools.test.ts
+- [[bashToolConfig]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[bashToolSystemPromptContribution]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[built-in-tool-renderer.ts]] - code - packages/coding-agent/examples/extensions/built-in-tool-renderer.ts
+- [[cases]] - code - packages/coding-agent/test/tool-system-prompt-contributions.test.ts
+- [[coding-agenttesttools.test.ts]] - code - packages/coding-agent/test/tools.test.ts
+- [[coretoolsbash.ts]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[coretoolsedit.ts]] - code - packages/coding-agent/src/core/tools/edit.ts
+- [[coretoolsfile-mutation-queue.ts]] - code - packages/coding-agent/src/core/tools/file-mutation-queue.ts
+- [[coretoolsindex.ts]] - code - packages/coding-agent/src/core/tools/index.ts
+- [[coretoolspath-utils.ts]] - code - packages/coding-agent/src/core/tools/path-utils.ts
+- [[coretoolsread.ts]] - code - packages/coding-agent/src/core/tools/read.ts
+- [[coretoolswrite.ts]] - code - packages/coding-agent/src/core/tools/write.ts
+- [[createAllToolDefinitions()]] - code - packages/coding-agent/src/core/tools/index.ts
+- [[createAllTools()]] - code - packages/coding-agent/src/core/tools/index.ts
+- [[createBaseToolDefinition()]] - code - packages/coding-agent/test/tool-execution-component.test.ts
+- [[createBashTool()]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[createBashToolDefinition()]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[createBuiltInTools()]] - code - packages/coding-agent/examples/extensions/minimal-mode.ts
+- [[createCodingToolDefinitions()]] - code - packages/coding-agent/src/core/tools/index.ts
+- [[createDeferred()_1]] - code - packages/coding-agent/test/file-mutation-queue.test.ts
+- [[createEditTool()]] - code - packages/coding-agent/src/core/tools/edit.ts
+- [[createEditToolDefinition()]] - code - packages/coding-agent/src/core/tools/edit.ts
+- [[createFakeTui()_3]] - code - packages/coding-agent/test/tool-execution-component.test.ts
+- [[createFindTool()]] - code - packages/coding-agent/src/core/tools/find.ts
+- [[createFindToolDefinition()]] - code - packages/coding-agent/src/core/tools/find.ts
+- [[createGondolinBashOps()]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[createGondolinEditOps()]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[createGondolinFindOps()]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[createGondolinLsOps()]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[createGondolinReadOps()]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[createGondolinWriteOps()]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[createGrepTool()]] - code - packages/coding-agent/src/core/tools/grep.ts
+- [[createGrepToolDefinition()]] - code - packages/coding-agent/src/core/tools/grep.ts
+- [[createLineMatcher()]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[createLocalBashOperations()]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[createLocalPowerShellOperations()]] - code - packages/coding-agent/src/core/tools/powershell.ts
+- [[createLocalShellOperations()]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[createLsTool()]] - code - packages/coding-agent/src/core/tools/ls.ts
+- [[createLsToolDefinition()]] - code - packages/coding-agent/src/core/tools/ls.ts
+- [[createPowerShellTool()]] - code - packages/coding-agent/src/core/tools/powershell.ts
+- [[createPowerShellToolDefinition()]] - code - packages/coding-agent/src/core/tools/powershell.ts
+- [[createReadOnlyToolDefinitions()]] - code - packages/coding-agent/src/core/tools/index.ts
+- [[createReadOnlyTools()]] - code - packages/coding-agent/src/core/tools/index.ts
+- [[createReadTool()]] - code - packages/coding-agent/src/core/tools/read.ts
+- [[createReadToolDefinition()]] - code - packages/coding-agent/src/core/tools/read.ts
+- [[createRemoteBashOps()]] - code - packages/coding-agent/examples/extensions/ssh.ts
+- [[createRemoteEditOps()]] - code - packages/coding-agent/examples/extensions/ssh.ts
+- [[createRemoteReadOps()]] - code - packages/coding-agent/examples/extensions/ssh.ts
+- [[createRemoteWriteOps()]] - code - packages/coding-agent/examples/extensions/ssh.ts
+- [[createShellRenderers()]] - code - packages/coding-agent/src/core/tools/renderers/bash.ts
+- [[createShellToolDefinition()]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[createTempDir()_1]] - code - packages/coding-agent/test/file-mutation-queue.test.ts
+- [[createTinyBmp1x1Red24bpp()_4]] - code - packages/coding-agent/test/tools.test.ts
+- [[createTool()_2]] - code - packages/coding-agent/src/core/tools/index.ts
+- [[createToolDefinition()]] - code - packages/coding-agent/src/core/tools/index.ts
+- [[createWriteTool()]] - code - packages/coding-agent/src/core/tools/write.ts
+- [[createWriteToolDefinition()]] - code - packages/coding-agent/src/core/tools/write.ts
+- [[defaultEditOperations]] - code - packages/coding-agent/src/core/tools/edit.ts
+- [[defaultFindOperations]] - code - packages/coding-agent/src/core/tools/find.ts
+- [[defaultGrepOperations]] - code - packages/coding-agent/src/core/tools/grep.ts
+- [[defaultLsOperations]] - code - packages/coding-agent/src/core/tools/ls.ts
+- [[defaultReadOperations]] - code - packages/coding-agent/src/core/tools/read.ts
+- [[defaultWriteOperations]] - code - packages/coding-agent/src/core/tools/write.ts
+- [[delay()_2]] - code - packages/coding-agent/test/file-mutation-queue.test.ts
+- [[detectLineEnding()]] - code - packages/coding-agent/src/core/tools/edit-diff.ts
+- [[durableprompt.ts]] - code - packages/coding-agent/src/experimental/durable/prompt.ts
+- [[editSchema]] - code - packages/coding-agent/src/core/tools/edit.ts
+- [[editTool]] - code - packages/coding-agent/test/tools.test.ts
+- [[editToolSystemPromptContribution]] - code - packages/coding-agent/src/core/tools/edit.ts
+- [[ensureTool()]] - code - packages/coding-agent/src/utils/tools-manager.ts
+- [[ensureVm()]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[execute()_3]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[execute()_7]] - code - packages/coding-agent/examples/extensions/ssh.ts
+- [[execute()_12]] - code - packages/coding-agent/examples/extensions/truncated-tool.ts
+- [[executeBashWithOperations()]] - code - packages/coding-agent/src/core/bash-executor.ts
+- [[executeGondolinGrep()]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[fakeCtx()]] - code - packages/coding-agent/test/tools.test.ts
+- [[file-mutation-queue.test.ts]] - code - packages/coding-agent/test/file-mutation-queue.test.ts
+- [[fileExists()]] - code - packages/coding-agent/src/core/tools/path-utils.ts
+- [[fileMutationQueues]] - code - packages/coding-agent/src/core/tools/file-mutation-queue.ts
+- [[findExecutableOnPath()]] - code - packages/coding-agent/src/utils/shell.ts
+- [[findSchema]] - code - packages/coding-agent/src/core/tools/find.ts
+- [[findTool]] - code - packages/coding-agent/test/tools.test.ts
+- [[findToolSystemPromptContribution]] - code - packages/coding-agent/src/core/tools/find.ts
+- [[formatDuration()]] - code - packages/coding-agent/src/core/tools/renderers/bash.ts
+- [[formatGrepResult()]] - code - packages/coding-agent/src/core/tools/renderers/grep.ts
+- [[formatSize()]] - code - packages/coding-agent/src/core/tools/truncate.ts
+- [[generateUnifiedPatch()]] - code - packages/coding-agent/src/core/tools/edit-diff.ts
+- [[getBashShellConfig()]] - code - packages/coding-agent/src/utils/shell.ts
+- [[getBinDir()]] - code - packages/coding-agent/src/config.ts
+- [[getMutationQueueKey()]] - code - packages/coding-agent/src/core/tools/file-mutation-queue.ts
+- [[getNonVisionImageNote()]] - code - packages/coding-agent/src/core/tools/read.ts
+- [[getPowerShellConfig()]] - code - packages/coding-agent/src/utils/shell.ts
+- [[getShellConfig()]] - code - packages/coding-agent/src/utils/shell.ts
+- [[getShellEnv()]] - code - packages/coding-agent/src/utils/shell.ts
+- [[getTextOutput()_2]] - code - packages/coding-agent/test/powershell-tool.test.ts
+- [[getTextOutput()_3]] - code - packages/coding-agent/test/suite/regressions/5208-late-bash-output.test.ts
+- [[getTextOutput()_4]] - code - packages/coding-agent/test/tools.test.ts
+- [[getTextOutput()_5]] - code - scripts/repro-5893-wsl-bash.mjs
+- [[gondolinindex.ts]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[grepRenderers]] - code - packages/coding-agent/src/core/tools/renderers/grep.ts
+- [[grepSchema]] - code - packages/coding-agent/src/core/tools/grep.ts
+- [[grepTool]] - code - packages/coding-agent/test/tools.test.ts
+- [[grepToolSystemPromptContribution]] - code - packages/coding-agent/src/core/tools/grep.ts
+- [[hostPathToGuest()]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[isInsideHostPath()]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[isLegacyWslBashPath()]] - code - packages/coding-agent/src/utils/shell.ts
+- [[isMissingPathError()]] - code - packages/coding-agent/src/core/tools/file-mutation-queue.ts
+- [[isSingleEditInput()]] - code - packages/coding-agent/src/core/tools/edit.ts
+- [[killProcessTree()]] - code - packages/coding-agent/src/utils/shell.ts
+- [[lsSchema]] - code - packages/coding-agent/src/core/tools/ls.ts
+- [[lsTool]] - code - packages/coding-agent/test/tools.test.ts
+- [[lsToolSystemPromptContribution]] - code - packages/coding-agent/src/core/tools/ls.ts
+- [[matchesToolGlob()]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[minimal-mode.ts]] - code - packages/coding-agent/examples/extensions/minimal-mode.ts
+- [[output-accumulator.ts]] - code - packages/coding-agent/src/core/tools/output-accumulator.ts
+- [[pathExists()]] - code - packages/coding-agent/src/core/tools/path-utils.ts
+- [[powershell-tool.test.ts]] - code - packages/coding-agent/test/powershell-tool.test.ts
+- [[powershell.ts]] - code - packages/coding-agent/src/core/tools/powershell.ts
+- [[powershellToolConfig]] - code - packages/coding-agent/src/core/tools/powershell.ts
+- [[powershellToolSystemPromptContribution]] - code - packages/coding-agent/src/core/tools/powershell.ts
+- [[prepareEditArguments()]] - code - packages/coding-agent/src/core/tools/edit.ts
+- [[readSchema_1]] - code - packages/coding-agent/src/core/tools/read.ts
+- [[readTool_1]] - code - packages/coding-agent/test/tools.test.ts
+- [[readToolSystemPromptContribution]] - code - packages/coding-agent/src/core/tools/read.ts
+- [[rebuildBashResultRenderComponent()]] - code - packages/coding-agent/src/core/tools/renderers/bash.ts
+- [[ref_child_process]] - concept
+- [[registrationQueue]] - code - packages/coding-agent/src/core/tools/file-mutation-queue.ts
+- [[relativizeFindResultPath()]] - code - packages/coding-agent/src/core/tools/find.ts
+- [[renderCall()]] - code - packages/coding-agent/examples/extensions/built-in-tool-renderer.ts
+- [[renderCall()_1]] - code - packages/coding-agent/examples/extensions/minimal-mode.ts
+- [[renderCall()_5]] - code - packages/coding-agent/examples/extensions/truncated-tool.ts
+- [[renderResult()]] - code - packages/coding-agent/examples/extensions/built-in-tool-renderer.ts
+- [[renderResult()_1]] - code - packages/coding-agent/examples/extensions/minimal-mode.ts
+- [[renderResult()_5]] - code - packages/coding-agent/examples/extensions/truncated-tool.ts
+- [[renderersbash.ts]] - code - packages/coding-agent/src/core/tools/renderers/bash.ts
+- [[renderersgrep.ts]] - code - packages/coding-agent/src/core/tools/renderers/grep.ts
+- [[replaceEditSchema]] - code - packages/coding-agent/src/core/tools/edit.ts
+- [[repro-5893-wsl-bash.mjs]] - code - scripts/repro-5893-wsl-bash.mjs
+- [[resolveReadPath()]] - code - packages/coding-agent/src/core/tools/path-utils.ts
+- [[resolveReadPathAsync()]] - code - packages/coding-agent/src/core/tools/path-utils.ts
+- [[resolveSpawnContext()]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[resolveTimeoutMs()]] - code - packages/coding-agent/src/core/tools/bash.ts
+- [[resolveToCwd()]] - code - packages/coding-agent/src/core/tools/path-utils.ts
+- [[resolvesWithin()]] - code - packages/coding-agent/test/file-mutation-queue.test.ts
+- [[restoreLineEndings()]] - code - packages/coding-agent/src/core/tools/edit-diff.ts
+- [[runCase()]] - code - scripts/repro-5893-wsl-bash.mjs
+- [[sanitizeEnv()]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[shell.ts]] - code - packages/coding-agent/src/utils/shell.ts
+- [[shortenPath()]] - code - packages/coding-agent/examples/extensions/minimal-mode.ts
+- [[splitLinesForCounting()]] - code - packages/coding-agent/src/core/tools/truncate.ts
+- [[ssh.ts]] - code - packages/coding-agent/examples/extensions/ssh.ts
+- [[sshExec()]] - code - packages/coding-agent/examples/extensions/ssh.ts
+- [[startVm()]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[stripAtPrefix()]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[tempDirs_2]] - code - packages/coding-agent/test/file-mutation-queue.test.ts
+- [[toGuestPath()]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[toPosix()]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[tool-definition-wrapper.ts]] - code - packages/coding-agent/src/core/tools/tool-definition-wrapper.ts
+- [[tool-execution-component.test.ts]] - code - packages/coding-agent/test/tool-execution-component.test.ts
+- [[tool-system-prompt-contributions.test.ts]] - code - packages/coding-agent/test/tool-system-prompt-contributions.test.ts
+- [[toolsfind.ts]] - code - packages/coding-agent/src/core/tools/find.ts
+- [[toolsgrep.ts]] - code - packages/coding-agent/src/core/tools/grep.ts
+- [[toolsls.ts]] - code - packages/coding-agent/src/core/tools/ls.ts
+- [[toolstruncate.ts]] - code - packages/coding-agent/src/core/tools/truncate.ts
+- [[trackDetachedChildPid()]] - code - packages/coding-agent/src/utils/shell.ts
+- [[trackedDetachedChildPids]] - code - packages/coding-agent/src/utils/shell.ts
+- [[truncateHead()]] - code - packages/coding-agent/src/core/tools/truncate.ts
+- [[truncateLine()]] - code - packages/coding-agent/src/core/tools/truncate.ts
+- [[truncateMiddle()]] - code - packages/coding-agent/src/core/tools/truncate.ts
+- [[truncateStringToBytesFromEnd()]] - code - packages/coding-agent/src/core/tools/truncate.ts
+- [[truncateTail()]] - code - packages/coding-agent/src/core/tools/truncate.ts
+- [[truncated-tool.ts]] - code - packages/coding-agent/examples/extensions/truncated-tool.ts
+- [[tryCurlyQuoteVariant()]] - code - packages/coding-agent/src/core/tools/path-utils.ts
+- [[tryMacOSScreenshotPath()]] - code - packages/coding-agent/src/core/tools/path-utils.ts
+- [[tryNFDVariant()]] - code - packages/coding-agent/src/core/tools/path-utils.ts
+- [[untrackDetachedChildPid()]] - code - packages/coding-agent/src/utils/shell.ts
+- [[validateEditInput()]] - code - packages/coding-agent/src/core/tools/edit.ts
+- [[walkGuestFiles()]] - code - packages/coding-agent/examples/extensions/gondolin/index.ts
+- [[withFileMutationQueue()]] - code - packages/coding-agent/src/core/tools/file-mutation-queue.ts
+- [[wrapToolDefinition()]] - code - packages/coding-agent/src/core/tools/tool-definition-wrapper.ts
+- [[wrapToolDefinitions()]] - code - packages/coding-agent/src/core/tools/tool-definition-wrapper.ts
+- [[writeSchema]] - code - packages/coding-agent/src/core/tools/write.ts
+- [[writeTool]] - code - packages/coding-agent/test/tools.test.ts
+- [[writeToolSystemPromptContribution]] - code - packages/coding-agent/src/core/tools/write.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Coding_Agent_会话工具_10
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 131 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 108 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 83 edges to [[_COMMUNITY_Coding Agent 会话工具 49]]
+- 47 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 43 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 24 edges to [[_COMMUNITY_Coding Agent 会话工具 41]]
+- 15 edges to [[_COMMUNITY_Coding Agent 会话工具 24]]
+- 14 edges to [[_COMMUNITY_Coding Agent 会话工具 27]]
+- 13 edges to [[_COMMUNITY_Coding Agent 会话工具 103]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 23]]
+- 11 edges to [[_COMMUNITY_TUI 终端组件 26]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 19]]
+- 8 edges to [[_COMMUNITY_TUI 终端组件 6]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 29]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 182]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 116]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 56]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 15]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 43]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 241]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 77]]
+- 3 edges to [[_COMMUNITY_MCP 远端工具 227]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 42]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 99]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 1]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 16]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 135]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 28]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 65]]
+- 2 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 2 edges to [[_COMMUNITY_TUI 终端组件 9]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 283]]
+- 2 edges to [[_COMMUNITY_MCP 远端工具 96]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 25]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 253]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 157]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 256]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 75]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 21]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 4]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 57]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 181]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 84]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 149]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 206]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 90]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 37]]
+
+## Top bridge nodes
+- [[coretoolsread.ts]] - degree 54, connects to 12 communities
+- [[tool-execution-component.test.ts]] - degree 34, connects to 12 communities
+- [[durableprompt.ts]] - degree 28, connects to 9 communities
+- [[coretoolsbash.ts]] - degree 67, connects to 7 communities
+- [[toolsfind.ts]] - degree 42, connects to 7 communities

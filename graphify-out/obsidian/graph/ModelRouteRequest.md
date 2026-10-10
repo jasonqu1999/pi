@@ -1,0 +1,25 @@
+---
+source_file: "packages/coding-agent/src/core/virtual-models.ts"
+type: "code"
+community: "Coding Agent 会话工具 11"
+location: "L52"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Coding_Agent_会话工具_11
+---
+
+# ModelRouteRequest
+
+## Connections
+- [[Api]] - `references` [EXTRACTED]
+- [[AssistantMessage]] - `references` [EXTRACTED]
+- [[Message]] - `references` [EXTRACTED]
+- [[Model_2]] - `references` [EXTRACTED]
+- [[ModelThinkingLevel]] - `references` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Coding_Agent_会话工具_11
+
+## 源码入口
+
+[packages/coding-agent/src/core/virtual-models.ts](../../../packages/coding-agent/src/core/virtual-models.ts)

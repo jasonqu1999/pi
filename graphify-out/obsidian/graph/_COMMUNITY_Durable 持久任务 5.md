@@ -1,0 +1,405 @@
+---
+type: community
+cohesion: 0.01
+members: 340
+---
+
+# Durable 持久任务 5
+
+**Cohesion:** 0.01 - loosely connected
+**Members:** 340 nodes
+
+## Members
+- [[dot-assertHealthy()]] - code - packages/durable/src/session/session.ts
+- [[dot-assertOpen()]] - code - packages/durable/src/harness/harness.ts
+- [[dot-assertUsable()]] - code - packages/durable/src/session/session.ts
+- [[dot-attach()_3]] - code - packages/durable/src/harness/task-graph.ts
+- [[dot-build()_4]] - code - packages/durable/src/harness/task-graph.ts
+- [[dot-build()_5]] - code - packages/durable/src/harness/view.ts
+- [[dot-create()_7]] - code - packages/durable/src/harness/harness.ts
+- [[dot-enqueue()_3]] - code - packages/durable/src/session/session.ts
+- [[dot-observe()_11]] - code - packages/durable/src/harness/submissions.ts
+- [[dot-abort()_11]] - code - packages/coding-agent/src/experimental/services/agent-controller.ts
+- [[dot-abort()_15]] - code - packages/durable/src/harness/harness.ts
+- [[dot-abort()_18]] - code - packages/durable/src/harness/submissions.ts
+- [[dot-abort()_17]] - code - packages/durable/src/harness/submissions.ts
+- [[dot-abort()_20]] - code - packages/durable/src/harness/types.ts
+- [[dot-abort()_19]] - code - packages/durable/src/harness/types.ts
+- [[dot-abortSubmission()]] - code - packages/durable/src/harness/harness.ts
+- [[dot-abortSubmission()_1]] - code - packages/durable/src/harness/types.ts
+- [[dot-abortTask()]] - code - packages/durable/src/harness/harness.ts
+- [[dot-abortTask()_1]] - code - packages/durable/src/harness/types.ts
+- [[dot-absolutePath()]] - code - packages/durable/src/env/index.ts
+- [[dot-activate()_6]] - code - packages/coding-agent/src/experimental/services/models-provider.ts
+- [[dot-advance()]] - code - packages/durable/src/session/observation.ts
+- [[dot-afterResponse()]] - code - packages/durable/src/harness/types.ts
+- [[dot-afterTools()]] - code - packages/durable/src/harness/types.ts
+- [[dot-agent()_1]] - code - packages/durable/src/harness/harness.ts
+- [[dot-agent()_3]] - code - packages/durable/src/harness/types.ts
+- [[dot-agent()_4]] - code - packages/durable/src/types.ts
+- [[dot-appendFile()]] - code - packages/durable/src/env/index.ts
+- [[dot-assertUsable()_1]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-attach()_2]] - code - packages/coding-agent/src/experimental/services/sessions.ts
+- [[dot-attach()_4]] - code - packages/durable/src/harness/view.ts
+- [[dot-attachClient()_3]] - code - packages/server/src/types.ts
+- [[dot-attachClient()_4]] - code - packages/server/src/types.ts
+- [[dot-attachSession()]] - code - packages/server/src/types.ts
+- [[dot-beforeClose()]] - code - packages/durable/src/harness/harness.ts
+- [[dot-beforeClose()_1]] - code - packages/durable/src/session/session.ts
+- [[dot-beforeRequest()]] - code - packages/durable/src/harness/types.ts
+- [[dot-buildEnv()]] - code - packages/durable/src/harness/harness.ts
+- [[dot-cancelQueued()]] - code - packages/coding-agent/src/experimental/services/agent-controller.ts
+- [[dot-canonicalPath()]] - code - packages/durable/src/env/index.ts
+- [[dot-catalogue()_2]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-cleanup()_3]] - code - packages/coding-agent/src/experimental/services/worker.ts
+- [[dot-cleanup()_5]] - code - packages/durable/src/env/index.ts
+- [[dot-close()_29]] - code - packages/durable/src/env/index.ts
+- [[dot-close()_31]] - code - packages/durable/src/harness/harness.ts
+- [[dot-close()_32]] - code - packages/durable/src/session/session.ts
+- [[dot-close()_33]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-close()_34]] - code - packages/durable/src/storage/memory.ts
+- [[dot-close()_38]] - code - packages/durable/src/types.ts
+- [[dot-close()_39]] - code - packages/durable/src/types.ts
+- [[dot-close()_41]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-close()_59]] - code - packages/server/src/types.ts
+- [[dot-commit()_1]] - code - packages/durable/src/harness/harness.ts
+- [[dot-commit()_4]] - code - packages/durable/src/session/session.ts
+- [[dot-commit()_5]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-commit()_9]] - code - packages/durable/src/types.ts
+- [[dot-commit()_10]] - code - packages/durable/src/types.ts
+- [[dot-commit()_8]] - code - packages/durable/src/types.ts
+- [[dot-commitWith()]] - code - packages/durable/src/session/session.ts
+- [[dot-compact()_3]] - code - packages/coding-agent/src/experimental/services/agent-controller.ts
+- [[dot-compact()_7]] - code - packages/durable/src/harness/types.ts
+- [[dot-configure()]] - code - packages/durable/src/harness/harness.ts
+- [[dot-configure()_1]] - code - packages/durable/src/harness/types.ts
+- [[dot-confirmRecord()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-constructor()_256]] - code - packages/durable/src/harness/harness.ts
+- [[dot-constructor()_257]] - code - packages/durable/src/harness/harness.ts
+- [[dot-constructor()_263]] - code - packages/durable/src/harness/submissions.ts
+- [[dot-constructor()_262]] - code - packages/durable/src/harness/submissions.ts
+- [[dot-constructor()_264]] - code - packages/durable/src/harness/task-graph.ts
+- [[dot-constructor()_265]] - code - packages/durable/src/harness/view.ts
+- [[dot-constructor()_266]] - code - packages/durable/src/session/observation.ts
+- [[dot-constructor()_269]] - code - packages/durable/src/session/session.ts
+- [[dot-constructor()_273]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-constructor()_278]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-context()]] - code - packages/durable/src/harness/harness.ts
+- [[dot-conversation()]] - code - packages/durable/src/harness/harness.ts
+- [[dot-conversation()_2]] - code - packages/durable/src/harness/types.ts
+- [[dot-conversation()_4]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-conversation()_9]] - code - packages/durable/src/types.ts
+- [[dot-conversation()_7]] - code - packages/durable/src/types.ts
+- [[dot-conversation()_10]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-conversationCreated()_1]] - code - packages/durable/src/session/session.ts
+- [[dot-create()_6]] - code - packages/coding-agent/src/experimental/services/sessions.ts
+- [[dot-createConversation()]] - code - packages/durable/src/harness/harness.ts
+- [[dot-createConversation()_1]] - code - packages/durable/src/harness/types.ts
+- [[dot-createDir()]] - code - packages/durable/src/env/index.ts
+- [[dot-createTempDir()]] - code - packages/durable/src/env/index.ts
+- [[dot-createTempFile()]] - code - packages/durable/src/env/index.ts
+- [[dot-cycleThinking()_2]] - code - packages/coding-agent/src/experimental/services/models.ts
+- [[dot-detach()]] - code - packages/coding-agent/src/experimental/services/sessions.ts
+- [[dot-detachSession()]] - code - packages/server/src/types.ts
+- [[dot-dispose()_10]] - code - packages/chord/src/types.ts
+- [[dot-dispose()_34]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-dispose()_35]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-document()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-document()_3]] - code - packages/durable/src/types.ts
+- [[dot-document()_4]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-documentState()_1]] - code - packages/durable/src/types.ts
+- [[dot-entry()_6]] - code - packages/durable/src/types.ts
+- [[dot-entry()_4]] - code - packages/durable/src/types.ts
+- [[dot-env()_2]] - code - packages/durable/src/types.ts
+- [[dot-exists()]] - code - packages/durable/src/env/index.ts
+- [[dot-fileInfo()]] - code - packages/durable/src/env/index.ts
+- [[dot-findDocument()_3]] - code - packages/durable/src/types.ts
+- [[dot-findDocument()_4]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-findLatestHeadMarker()_3]] - code - packages/durable/src/types.ts
+- [[dot-findLatestHeadMarker()_4]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-flushFile()]] - code - packages/durable/src/env/index.ts
+- [[dot-followUp()_3]] - code - packages/coding-agent/src/experimental/services/agent-controller.ts
+- [[dot-fork()_3]] - code - packages/durable/src/harness/harness.ts
+- [[dot-fork()_4]] - code - packages/durable/src/harness/types.ts
+- [[dot-get()_5]] - code - packages/durable/src/harness/submissions.ts
+- [[dot-getTask()]] - code - packages/durable/src/harness/harness.ts
+- [[dot-getTask()_2]] - code - packages/durable/src/harness/types.ts
+- [[dot-getTask()_3]] - code - packages/durable/src/types.ts
+- [[dot-greet()]] - code - packages/coding-agent/examples/plugins/pi-example-plugin/src/contract.ts
+- [[dot-inspect()_2]] - code - packages/durable/src/harness/types.ts
+- [[dot-joinPath()]] - code - packages/durable/src/env/index.ts
+- [[dot-listDir()]] - code - packages/durable/src/env/index.ts
+- [[dot-memo()_1]] - code - packages/durable/src/harness/types.ts
+- [[dot-memo()_2]] - code - packages/durable/src/types.ts
+- [[dot-mintId()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-mintId()_3]] - code - packages/durable/src/types.ts
+- [[dot-mintId()_4]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-now()]] - code - packages/durable/src/types.ts
+- [[dot-onYield()]] - code - packages/durable/src/harness/types.ts
+- [[dot-open()_7]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-openSession()_2]] - code - packages/server/src/types.ts
+- [[dot-openTasks()]] - code - packages/durable/src/harness/harness.ts
+- [[dot-openTextLineReader()]] - code - packages/durable/src/env/index.ts
+- [[dot-outcomes()]] - code - packages/durable/src/types.ts
+- [[dot-prepareSessionRemoval()]] - code - packages/server/src/types.ts
+- [[dot-prompt()_3]] - code - packages/coding-agent/src/experimental/services/agent-controller.ts
+- [[dot-readBinaryFile()]] - code - packages/durable/src/env/index.ts
+- [[dot-readLine()]] - code - packages/durable/src/env/index.ts
+- [[dot-readLines()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-readOnLine()]] - code - packages/durable/src/session/session.ts
+- [[dot-readTextFile()]] - code - packages/durable/src/env/index.ts
+- [[dot-readTextLines()]] - code - packages/durable/src/env/index.ts
+- [[dot-reclaimSidecars()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-recover()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-refresh()_6]] - code - packages/coding-agent/src/experimental/services/models.ts
+- [[dot-release()_7]] - code - packages/server/src/types.ts
+- [[dot-release()_6]] - code - packages/server/src/types.ts
+- [[dot-reload()_10]] - code - packages/coding-agent/src/experimental/services/plugins.ts
+- [[dot-remove()_3]] - code - packages/coding-agent/src/experimental/services/sessions.ts
+- [[dot-remove()_5]] - code - packages/durable/src/env/index.ts
+- [[dot-renameFile()]] - code - packages/durable/src/env/index.ts
+- [[dot-replace()_6]] - code - packages/coding-agent/test/fixtures/keyed-service.ts
+- [[dot-replaceSidecar()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-reset()_4]] - code - packages/durable/src/harness/harness.ts
+- [[dot-reset()_5]] - code - packages/durable/src/harness/types.ts
+- [[dot-resolveAgent()]] - code - packages/durable/src/harness/harness.ts
+- [[dot-resolveFile()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-resolveSession()_1]] - code - packages/server/src/types.ts
+- [[dot-resume()_1]] - code - packages/durable/src/harness/harness.ts
+- [[dot-resume()_3]] - code - packages/durable/src/harness/types.ts
+- [[dot-root()_1]] - code - packages/durable/src/harness/harness.ts
+- [[dot-root()_2]] - code - packages/durable/src/harness/types.ts
+- [[dot-scanConversations()_1]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-scanConversations()_5]] - code - packages/durable/src/types.ts
+- [[dot-scanConversations()_6]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-scanDocuments()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-scanDocuments()_3]] - code - packages/durable/src/types.ts
+- [[dot-scanDocuments()_4]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-scanEntries()_1]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-scanEntries()_5]] - code - packages/durable/src/types.ts
+- [[dot-scanEntries()_6]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-scanSubmissions()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-scanSubmissions()_3]] - code - packages/durable/src/types.ts
+- [[dot-scanSubmissions()_4]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-scanTasks()_1]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-scanTasks()_5]] - code - packages/durable/src/types.ts
+- [[dot-scanTasks()_6]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-select()]] - code - packages/chord/test/services.test.ts
+- [[dot-select()_4]] - code - packages/coding-agent/src/experimental/services/models.ts
+- [[dot-select()_5]] - code - packages/coding-agent/src/experimental/services/presentation-ui.ts
+- [[dot-showStatus()]] - code - packages/coding-agent/src/experimental/services/presentation-ui.ts
+- [[dot-sleep()_1]] - code - packages/durable/src/types.ts
+- [[dot-snapshot()_9]] - code - packages/durable/src/types.ts
+- [[dot-snapshotAsOf()_1]] - code - packages/durable/src/types.ts
+- [[dot-start()_18]] - code - packages/durable/src/types.ts
+- [[dot-state()_4]] - code - packages/durable/src/harness/task-graph.ts
+- [[dot-state()_5]] - code - packages/durable/src/harness/view.ts
+- [[dot-status()_4]] - code - packages/durable/src/harness/submissions.ts
+- [[dot-status()_3]] - code - packages/durable/src/harness/submissions.ts
+- [[dot-status()_5]] - code - packages/durable/src/harness/types.ts
+- [[dot-steer()_2]] - code - packages/coding-agent/src/experimental/services/agent-controller.ts
+- [[dot-stop()_12]] - code - packages/durable/src/types.ts
+- [[dot-store()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-submission()]] - code - packages/durable/src/harness/harness.ts
+- [[dot-submission()_1]] - code - packages/durable/src/harness/types.ts
+- [[dot-submission()_3]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-submission()_6]] - code - packages/durable/src/types.ts
+- [[dot-submission()_8]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-submissionByRequest()_1]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-submissionByRequest()_5]] - code - packages/durable/src/types.ts
+- [[dot-submissionByRequest()_6]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-submit()]] - code - packages/chord/test/services.test.ts
+- [[dot-submit()_5]] - code - packages/durable/src/harness/harness.ts
+- [[dot-submit()_6]] - code - packages/durable/src/harness/submissions.ts
+- [[dot-submit()_7]] - code - packages/durable/src/harness/types.ts
+- [[dot-subscribeClose()]] - code - packages/durable/src/session/session.ts
+- [[dot-subscribeClose()_1]] - code - packages/durable/src/types.ts
+- [[dot-subscribeCommits()]] - code - packages/durable/src/session/session.ts
+- [[dot-subscribeCommits()_1]] - code - packages/durable/src/types.ts
+- [[dot-syncConfiguration()]] - code - packages/coding-agent/src/experimental/services/models-provider.ts
+- [[dot-task()_3]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[dot-task()_7]] - code - packages/durable/src/types.ts
+- [[dot-task()_8]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[dot-taskGraph()]] - code - packages/durable/src/harness/harness.ts
+- [[dot-taskGraph()_1]] - code - packages/durable/src/harness/types.ts
+- [[dot-toString()_3]] - code - packages/chord/src/types.ts
+- [[dot-truncateFile()]] - code - packages/durable/src/env/index.ts
+- [[dot-unloadDocuments()]] - code - packages/durable/src/session/session.ts
+- [[dot-usage()]] - code - packages/durable/src/harness/harness.ts
+- [[dot-usage()_1]] - code - packages/durable/src/harness/types.ts
+- [[dot-value()_8]] - code - packages/chord/src/types.ts
+- [[dot-viewState()]] - code - packages/durable/src/harness/harness.ts
+- [[dot-viewState()_1]] - code - packages/durable/src/harness/types.ts
+- [[dot-wait()_1]] - code - packages/coding-agent/test/fixtures/keyed-service.ts
+- [[dot-wait()_3]] - code - packages/durable/src/harness/submissions.ts
+- [[dot-wait()_2]] - code - packages/durable/src/harness/submissions.ts
+- [[dot-wait()_4]] - code - packages/durable/src/harness/types.ts
+- [[dot-waitForIdle()_4]] - code - packages/durable/src/harness/harness.ts
+- [[dot-waitForIdle()_5]] - code - packages/durable/src/harness/harness.ts
+- [[dot-waitForIdle()_8]] - code - packages/durable/src/harness/types.ts
+- [[dot-waitForIdle()_7]] - code - packages/durable/src/harness/types.ts
+- [[dot-waitForIdle()_9]] - code - packages/durable/src/harness/types.ts
+- [[dot-waitForPrompt()]] - code - packages/coding-agent/src/experimental/services/agent-controller.ts
+- [[dot-waitForTask()]] - code - packages/durable/src/harness/harness.ts
+- [[dot-waitForTask()_3]] - code - packages/durable/src/harness/types.ts
+- [[dot-waitForTask()_4]] - code - packages/durable/src/types.ts
+- [[dot-watch()_1]] - code - packages/durable/src/harness/harness.ts
+- [[dot-watch()_2]] - code - packages/durable/src/harness/task-graph.ts
+- [[dot-watch()_4]] - code - packages/durable/src/harness/view.ts
+- [[dot-watchTaskGraph()]] - code - packages/durable/src/harness/harness.ts
+- [[dot-watchTaskGraph()_1]] - code - packages/durable/src/harness/types.ts
+- [[dot-whenAttached()]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-whenDetached()]] - code - packages/coding-agent/src/experimental/services/connection.ts
+- [[dot-writeFile()]] - code - packages/durable/src/env/index.ts
+- [[AbortResult]] - code - packages/durable/src/harness/submissions.ts
+- [[Agent_1]] - code - packages/durable/src/harness/types.ts
+- [[AgentChange]] - code - packages/durable/src/harness/types.ts
+- [[AnyTaskRecord_1]] - code - packages/durable/src/harness/task-graph.ts
+- [[AttachedReplicatedState]] - code - packages/chord/src/types.ts
+- [[BUILTIN_TASKS]] - code - packages/durable/src/harness/registry.ts
+- [[CommitPublication]] - code - packages/durable/src/types.ts
+- [[CommittedStateSource]] - code - packages/durable/src/session/observation.ts
+- [[Context_37]] - code - packages/chord/src/types.ts
+- [[ContextBounds]] - code - packages/durable/src/harness/context.ts
+- [[ConversationAbortOptions]] - code - packages/durable/src/harness/types.ts
+- [[ConversationCreateOptions]] - code - packages/durable/src/harness/types.ts
+- [[ConversationHandle]] - code - packages/durable/src/harness/types.ts
+- [[ConversationHost]] - code - packages/durable/src/harness/harness.ts
+- [[ConversationImpl]] - code - packages/durable/src/harness/harness.ts
+- [[ConversationInit]] - code - packages/durable/src/harness/types.ts
+- [[ConversationView_1]] - code - packages/durable/src/harness/view.ts
+- [[ConversationViews]] - code - packages/durable/src/harness/view.ts
+- [[ConversationWatch]] - code - packages/durable/src/harness/types.ts
+- [[CreateOptions]] - code - packages/durable/src/harness/harness.ts
+- [[CreateTarget]] - code - packages/durable/src/harness/harness.ts
+- [[DurableView]] - code - packages/coding-agent/src/experimental/durable/runtime.ts
+- [[EXCLUDED_STOP_REASONS]] - code - packages/durable/src/harness/context.ts
+- [[FileSystem]] - code - packages/durable/src/env/index.ts
+- [[GenerationHooks]] - code - packages/durable/src/harness/types.ts
+- [[Harness_3]] - code - packages/durable/src/harness/types.ts
+- [[HarnessImpl]] - code - packages/durable/src/harness/harness.ts
+- [[HarnessOptions_2]] - code - packages/durable/src/harness/types.ts
+- [[InboxDoc_1]] - code - packages/durable/src/harness/inbox.ts
+- [[JsonlStorage]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[LIVE_STATUSES_1]] - code - packages/durable/src/harness/task-graph.ts
+- [[MOUNTED]] - code - packages/durable/src/harness/view.ts
+- [[MOUNTED_KINDS]] - code - packages/durable/src/harness/view.ts
+- [[ModelsServiceRuntime]] - code - packages/coding-agent/src/experimental/services/models-provider.ts
+- [[Mount]] - code - packages/durable/src/harness/task-graph.ts
+- [[Mount_1]] - code - packages/durable/src/harness/view.ts
+- [[Observer]] - code - packages/chord/src/services/instances.ts
+- [[Observer_2]] - code - packages/durable/src/harness/task-graph.ts
+- [[Path]] - code - packages/chord/src/delta/index.ts
+- [[QueueModes]] - code - packages/durable/src/harness/inbox.ts
+- [[ReopeningStorage]] - code - packages/durable/test/jsonl-storage.test.ts
+- [[RoutedServerPresentation]] - code - packages/server/src/types.ts
+- [[Session]] - code - packages/durable/src/types.ts
+- [[SessionImpl]] - code - packages/durable/src/session/session.ts
+- [[SettledSubmissionRecord]] - code - packages/durable/src/harness/types.ts
+- [[SettledTask]] - code - packages/durable/src/harness/types.ts
+- [[Storage]] - code - packages/durable/src/types.ts
+- [[Submission]] - code - packages/durable/src/harness/types.ts
+- [[SubmissionDraft]] - code - packages/durable/src/harness/types.ts
+- [[SubmissionHandle]] - code - packages/durable/src/harness/submissions.ts
+- [[SubmissionId]] - code - packages/durable/src/types.ts
+- [[SubmissionRecord]] - code - packages/durable/src/types.ts
+- [[Submissions]] - code - packages/durable/src/harness/submissions.ts
+- [[TaskGraph]] - code - packages/durable/src/harness/task-graph.ts
+- [[TaskGraphState]] - code - packages/durable/src/harness/task-graph.ts
+- [[TaskGraphView]] - code - packages/durable/src/harness/task-graph.ts
+- [[TaskGraphWatch]] - code - packages/durable/src/harness/task-graph.ts
+- [[TaskRuntime]] - code - packages/durable/src/types.ts
+- [[UsageState]] - code - packages/durable/src/harness/usage.ts
+- [[VIEWS]] - code - packages/durable/src/harness/view.ts
+- [[ViewObserver]] - code - packages/durable/src/harness/view.ts
+- [[WatchHandle]] - code - packages/durable/src/types.ts
+- [[activeEntries()]] - code - packages/durable/src/harness/context.ts
+- [[advance()]] - code - packages/durable/src/harness/task-graph.ts
+- [[advance()_1]] - code - packages/durable/src/harness/view.ts
+- [[boundConversation()]] - code - packages/durable/src/harness/harness.ts
+- [[captureContextBounds()]] - code - packages/durable/src/harness/context.ts
+- [[createCase()]] - code - packages/durable/src/testing/storage-conformance.ts
+- [[createRoot()]] - code - packages/durable/src/testing/storage-conformance.ts
+- [[createState()_2]] - code - packages/durable/test/session-watches.test.ts
+- [[createStorageConformance()]] - code - packages/durable/src/testing/storage-conformance.ts
+- [[deriveContext()]] - code - packages/durable/src/harness/context.ts
+- [[entry()_1]] - code - packages/durable/src/testing/storage-conformance.ts
+- [[errorFromFile()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[fresh()]] - code - packages/durable/test/harness-view.test.ts
+- [[harnesscontext.ts]] - code - packages/durable/src/harness/context.ts
+- [[harnessharness.ts]] - code - packages/durable/src/harness/harness.ts
+- [[isReclaimFileName()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[isSettled()]] - code - packages/durable/src/harness/submissions.ts
+- [[isSidecarFileName()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[missingResult()]] - code - packages/durable/src/harness/context.ts
+- [[nodeOf()_1]] - code - packages/durable/src/harness/task-graph.ts
+- [[openTestSession()]] - code - packages/durable/test/session-support.ts
+- [[orderToolResults()]] - code - packages/durable/src/harness/context.ts
+- [[packages_ai_src_index_toolcall]] - concept
+- [[pendingTask()]] - code - packages/durable/src/testing/storage-conformance.ts
+- [[phaseOf()]] - code - packages/durable/src/harness/task-graph.ts
+- [[prefixed()]] - code - packages/durable/src/harness/view.ts
+- [[readContext()_1]] - code - packages/durable/src/harness/context.ts
+- [[removeInboxItem()]] - code - packages/durable/src/harness/inbox.ts
+- [[scanRange()]] - code - packages/durable/src/harness/context.ts
+- [[selectActive()]] - code - packages/durable/src/harness/context.ts
+- [[sidecarKey()]] - code - packages/durable/src/storage/jsonl/storage.ts
+- [[stateOf()]] - code - packages/durable/src/harness/task-graph.ts
+- [[status()]] - code - packages/durable/test/examples/20-inbox.ts
+- [[submissions.ts]] - code - packages/durable/src/harness/submissions.ts
+- [[task-graph.ts]] - code - packages/durable/src/harness/task-graph.ts
+- [[view()]] - code - packages/durable/test/harness-compaction.test.ts
+- [[view.ts]] - code - packages/durable/src/harness/view.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Durable_持久任务_5
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 296 edges to [[_COMMUNITY_Durable 持久任务 4]]
+- 113 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 99 edges to [[_COMMUNITY_Durable 持久任务 21]]
+- 92 edges to [[_COMMUNITY_Coding Agent 会话工具 8]]
+- 65 edges to [[_COMMUNITY_Durable 持久任务 18]]
+- 58 edges to [[_COMMUNITY_Durable 持久任务 45]]
+- 31 edges to [[_COMMUNITY_Durable 持久任务 38]]
+- 28 edges to [[_COMMUNITY_Chord 服务状态 30]]
+- 25 edges to [[_COMMUNITY_Durable 持久任务 119]]
+- 23 edges to [[_COMMUNITY_Durable 持久任务 58]]
+- 21 edges to [[_COMMUNITY_Chord 服务状态 53]]
+- 19 edges to [[_COMMUNITY_Server 会话路由 20]]
+- 17 edges to [[_COMMUNITY_Coding Agent 会话工具 65]]
+- 17 edges to [[_COMMUNITY_Durable 持久任务 86]]
+- 13 edges to [[_COMMUNITY_Coding Agent 会话工具 33]]
+- 13 edges to [[_COMMUNITY_Server 会话路由 192]]
+- 11 edges to [[_COMMUNITY_Chord 服务状态 36]]
+- 9 edges to [[_COMMUNITY_Coding Agent 会话工具 46]]
+- 9 edges to [[_COMMUNITY_Durable 持久任务 132]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 5 edges to [[_COMMUNITY_Chord 服务状态 196]]
+- 3 edges to [[_COMMUNITY_Chord 服务状态 263]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 1]]
+- 3 edges to [[_COMMUNITY_Durable 持久任务 115]]
+- 2 edges to [[_COMMUNITY_Agent 控制循环 82]]
+- 2 edges to [[_COMMUNITY_Chord 服务状态 160]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 28]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 264]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 87]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 59]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 95]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 126]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 282]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 15]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 44]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 12]]
+
+## Top bridge nodes
+- [[view.ts]] - degree 57, connects to 9 communities
+- [[harnessharness.ts]] - degree 96, connects to 8 communities
+- [[harnesscontext.ts]] - degree 38, connects to 7 communities
+- [[submissions.ts]] - degree 45, connects to 6 communities
+- [[task-graph.ts]] - degree 45, connects to 6 communities

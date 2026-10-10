@@ -1,0 +1,23 @@
+---
+source_file: "packages/coding-agent/src/cli/experimental/command.ts"
+type: "code"
+community: "Coding Agent 会话工具 72"
+location: "L131"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Coding_Agent_会话工具_72
+---
+
+# .execute()
+
+## Connections
+- [[dot-execute()_3]] - `calls` [EXTRACTED]
+- [[dot-parseOwn()]] - `calls` [EXTRACTED]
+- [[dot-select()_1]] - `calls` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Coding_Agent_会话工具_72
+
+## 源码入口
+
+[packages/coding-agent/src/cli/experimental/command.ts](../../../packages/coding-agent/src/cli/experimental/command.ts)

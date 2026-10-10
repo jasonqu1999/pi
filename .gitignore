@@ -16,10 +16,6 @@ packages/ai/src/providers/.model-generation-*/
 .env
 
 # Editor files
-.vscode/
-.zed/
-.idea/
-.claude/
 *.swp
 *.swo
 *~
@@ -43,3 +39,13 @@ plans/
 .pi/hf-sessions-backup/
 collect.sh
 packages/agent/docs/extensions/pi-server-artifact/index.md
+
+# Local study config
+/.vscode/
+/.zed/
+/.claude/
+/.codex/
+/.idea/
+/graphify-out/cache/
+/graphify-out/.graphify_python
+/graphify-out/.graphify_root

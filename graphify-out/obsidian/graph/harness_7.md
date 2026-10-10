@@ -1,0 +1,21 @@
+---
+source_file: "packages/evals/evals/models.docs.eval.ts"
+type: "code"
+community: "Evals 行为评估 114"
+location: "L25"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Evals_行为评估_114
+---
+
+# harness
+
+## Connections
+- [[inspectAddedModel()]] - `calls` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Evals_行为评估_114
+
+## 源码入口
+
+[packages/evals/evals/models.docs.eval.ts](../../../packages/evals/evals/models.docs.eval.ts)

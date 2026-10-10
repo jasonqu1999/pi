@@ -1,0 +1,616 @@
+{
+  "agent": "semantic_b",
+  "batch_indexes": [
+    4,
+    5,
+    6
+  ],
+  "files": [
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/examples/extensions/subagent/agents/planner.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 3,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/examples/extensions/subagent/agents/reviewer.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 3,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/examples/extensions/subagent/agents/scout.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 3,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/examples/extensions/subagent/agents/worker.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 3,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/examples/extensions/subagent/prompts/implement-and-review.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 2,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/examples/extensions/subagent/prompts/implement.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 2,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/examples/extensions/subagent/prompts/scout-and-plan.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 2,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/examples/plugins/pi-example-plugin/README.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 6,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/examples/sdk/README.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 7,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/src/core/export-html/template.html",
+      "batch": 5,
+      "read": true,
+      "node_count": 4,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/src/experimental/durable/README.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 7,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/src/experimental/services/README.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 13,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/src/experimental/vacation/README.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 4,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/test/fixtures/skills-collision/first/calendar/SKILL.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 1,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/test/fixtures/skills-collision/second/calendar/SKILL.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 1,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/test/fixtures/skills/consecutive-hyphens/SKILL.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 1,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/test/fixtures/skills/disable-model-invocation/SKILL.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 1,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/test/fixtures/skills/invalid-name-chars/SKILL.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 1,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/test/fixtures/skills/invalid-yaml/SKILL.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 1,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/test/fixtures/skills/long-name/SKILL.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 1,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/test/fixtures/skills/missing-description/SKILL.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 1,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/test/fixtures/skills/multiline-description/SKILL.md",
+      "batch": 5,
+      "read": true,
+      "node_count": 1,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/test/fixtures/skills/name-mismatch/SKILL.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 1,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/test/fixtures/skills/nested/child-skill/SKILL.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 1,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/test/fixtures/skills/no-frontmatter/SKILL.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 1,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/test/fixtures/skills/root-skill-preferred/SKILL.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 1,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/test/fixtures/skills/root-skill-preferred/nested-child/SKILL.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 1,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/test/fixtures/skills/unknown-field/SKILL.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 1,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/test/fixtures/skills/valid-skill/SKILL.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 1,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/test/mcp-conformance/README.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 6,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/test/suite/README.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 2,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/durable/CHANGELOG.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 2,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/durable/README.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 25,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/durable/docs/chord-delta-findings.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 7,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/durable/docs/pico-v5-chord-usage.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 10,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/durable/docs/pico-v5-handoff.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 9,
+      "depth": "prose_milestones_and_status",
+      "limitations": [
+        "Read prose milestones and status with a targeted second pass over truncated middle sections; code blocks omitted.",
+        "Historical superseded milestones remain documented; selected final status is not runtime verification."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/durable/docs/spec.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 27,
+      "depth": "all_section_headings_and_selected_contract_prose",
+      "limitations": [
+        "Normative document is 238296 bytes; all section headings inspected and selected paragraph prefixes/contracts read. TypeScript code blocks and unselected detailed clauses are not exhaustively audited.",
+        "Extraction is a navigational summary of contracts, not proof of implementation compliance."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/evals/README.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 6,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/mcp/CHANGELOG.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 4,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/mcp/LICENSES/modelcontextprotocol-typescript-sdk.txt",
+      "batch": 6,
+      "read": true,
+      "node_count": 2,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/mcp/README.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 9,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/protocol/CHANGELOG.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 2,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/protocol/README.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 6,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/server/CHANGELOG.md",
+      "batch": 6,
+      "read": true,
+      "node_count": 2,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/server/README.md",
+      "batch": 7,
+      "read": true,
+      "node_count": 8,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/telemetry/CHANGELOG.md",
+      "batch": 7,
+      "read": true,
+      "node_count": 2,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/telemetry/README.md",
+      "batch": 7,
+      "read": true,
+      "node_count": 13,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/tui/CHANGELOG.md",
+      "batch": 7,
+      "read": true,
+      "node_count": 5,
+      "depth": "recent_release_overview_and_older_heading_scan",
+      "limitations": [
+        "73 KB changelog: recent substantive entries through 0.84.0 read; older release headings scanned only. No exhaustive per-version audit."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/tui/README.md",
+      "batch": 7,
+      "read": true,
+      "node_count": 18,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/tui/native/darwin/README.md",
+      "batch": 7,
+      "read": true,
+      "node_count": 2,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/tui/native/linux/README.md",
+      "batch": 7,
+      "read": true,
+      "node_count": 3,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/tui/native/win32/README.md",
+      "batch": 7,
+      "read": true,
+      "node_count": 3,
+      "depth": "full_document_concept_extraction",
+      "limitations": [
+        "Static document evidence; source implementation and runtime behavior not verified."
+      ],
+      "errors": []
+    },
+    {
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/tui-plan.md",
+      "batch": 7,
+      "read": true,
+      "node_count": 13,
+      "depth": "full_prose_design_with_code_blocks_omitted",
+      "limitations": [
+        "Design prose, scope, algorithms and acceptance criteria read; code blocks omitted from semantic extraction.",
+        "Plan is historical intended design evidence, not confirmation every item is implemented."
+      ],
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "token_usage": "unknown",
+  "token_usage_note": "Agent tools do not expose actual input/output usage. Chunk zeros are schema placeholders, not measured zero cost.",
+  "outputs": [
+    {
+      "path": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/graphify-out/.graphify_chunk_05.json",
+      "nodes": 68,
+      "edges": 65
+    },
+    {
+      "path": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/graphify-out/.graphify_chunk_06.json",
+      "nodes": 126,
+      "edges": 130
+    },
+    {
+      "path": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/graphify-out/.graphify_chunk_07.json",
+      "nodes": 67,
+      "edges": 82
+    }
+  ]
+}

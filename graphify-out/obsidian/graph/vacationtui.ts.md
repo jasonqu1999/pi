@@ -1,0 +1,107 @@
+---
+source_file: "packages/coding-agent/src/experimental/vacation/tui.ts"
+type: "code"
+community: "Coding Agent 会话工具 3"
+location: "L1"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Coding_Agent_会话工具_3
+---
+
+# vacation/tui.ts
+
+## Connections
+- [[AssistantMessage]] - `imports` [EXTRACTED]
+- [[AssistantMessageComponent]] - `imports` [EXTRACTED]
+- [[Box_1]] - `imports` [EXTRACTED]
+- [[CompactionComponent_1]] - `contains` [EXTRACTED]
+- [[Component]] - `imports` [EXTRACTED]
+- [[Container_1]] - `imports` [EXTRACTED]
+- [[ConversationId]] - `imports` [EXTRACTED]
+- [[CustomEditor]] - `imports` [EXTRACTED]
+- [[DurableController_1]] - `imports` [EXTRACTED]
+- [[DurableTui_1]] - `contains` [EXTRACTED]
+- [[DurableView_1]] - `imports` [EXTRACTED]
+- [[DurableViewSource_1]] - `imports` [EXTRACTED]
+- [[DynamicBorder]] - `imports` [EXTRACTED]
+- [[EntryRecord]] - `imports` [EXTRACTED]
+- [[Focusable]] - `imports` [EXTRACTED]
+- [[Handlers_1]] - `contains` [EXTRACTED]
+- [[InboxState]] - `imports` [EXTRACTED]
+- [[Input_3]] - `imports` [EXTRACTED]
+- [[InteractiveThemeController]] - `imports` [EXTRACTED]
+- [[KeybindingsManager]] - `imports` [EXTRACTED]
+- [[ListSelector_1]] - `contains` [EXTRACTED]
+- [[LiveState]] - `imports` [EXTRACTED]
+- [[Markdown]] - `imports` [EXTRACTED]
+- [[ProcessTerminal]] - `imports` [EXTRACTED]
+- [[SELECT_THEME_1]] - `contains` [EXTRACTED]
+- [[ScrollView]] - `imports` [EXTRACTED]
+- [[SelectItem]] - `imports` [EXTRACTED]
+- [[SelectList]] - `imports` [EXTRACTED]
+- [[SelectListTheme]] - `imports` [EXTRACTED]
+- [[SettingsManager_3]] - `imports` [EXTRACTED]
+- [[Spacer]] - `imports` [EXTRACTED]
+- [[StatusIndicator]] - `imports` [EXTRACTED]
+- [[TaskGraph]] - `imports` [EXTRACTED]
+- [[TaskGraphNode]] - `imports` [EXTRACTED]
+- [[Text_6]] - `imports` [EXTRACTED]
+- [[ToolExecutionComponent]] - `imports` [EXTRACTED]
+- [[ToolRenderers]] - `imports` [EXTRACTED]
+- [[ToolResultMessage]] - `imports` [EXTRACTED]
+- [[TruncatedText]] - `imports` [EXTRACTED]
+- [[TuiAltScreen]] - `imports` [EXTRACTED]
+- [[Usage_1]] - `imports` [EXTRACTED]
+- [[UsageState]] - `imports` [EXTRACTED]
+- [[UserMessage]] - `imports` [EXTRACTED]
+- [[UserMessageComponent]] - `imports` [EXTRACTED]
+- [[VStack]] - `imports` [EXTRACTED]
+- [[WorkingStatusIndicator]] - `imports` [EXTRACTED]
+- [[agentOf()_1]] - `imports` [EXTRACTED]
+- [[aisrcindex.ts]] - `imports_from` [EXTRACTED]
+- [[assistant-message.ts]] - `imports_from` [EXTRACTED]
+- [[contextTokens()_1]] - `contains` [EXTRACTED]
+- [[corekeybindings.ts]] - `imports_from` [EXTRACTED]
+- [[createAllToolRenderers()]] - `imports` [EXTRACTED]
+- [[custom-editor.ts]] - `imports_from` [EXTRACTED]
+- [[describeTask()_1]] - `contains` [EXTRACTED]
+- [[durablesrcindex.ts]] - `imports_from` [EXTRACTED]
+- [[dynamic-border.ts]] - `imports_from` [EXTRACTED]
+- [[footer.ts]] - `imports_from` [EXTRACTED]
+- [[formatTokens()_2]] - `imports` [EXTRACTED]
+- [[fuzzyFilter()]] - `imports` [EXTRACTED]
+- [[getAgentDir()]] - `imports` [EXTRACTED]
+- [[getEditorTheme()]] - `imports` [EXTRACTED]
+- [[getKeybindings()]] - `imports` [EXTRACTED]
+- [[getMarkdownTheme()]] - `imports` [EXTRACTED]
+- [[initTheme()]] - `imports` [EXTRACTED]
+- [[keyText()]] - `imports` [EXTRACTED]
+- [[keybinding-hints.ts]] - `imports_from` [EXTRACTED]
+- [[packages_ai_src_index_assistantmessage]] - `imports` [EXTRACTED]
+- [[packages_ai_src_index_toolresultmessage]] - `imports` [EXTRACTED]
+- [[packages_ai_src_index_usage]] - `imports` [EXTRACTED]
+- [[packages_ai_src_index_usermessage]] - `imports` [EXTRACTED]
+- [[packages_coding_agent_src_modes_interactive_components_tool_execution_toolrenderers]] - `imports` [EXTRACTED]
+- [[renderersindex.ts]] - `imports_from` [EXTRACTED]
+- [[runDurableTui()_1]] - `contains` [EXTRACTED]
+- [[setCapabilityOverrides()]] - `imports` [EXTRACTED]
+- [[setKeybindings()]] - `imports` [EXTRACTED]
+- [[settings-manager.ts]] - `imports_from` [EXTRACTED]
+- [[srcconfig.ts]] - `imports_from` [EXTRACTED]
+- [[status-indicator.ts]] - `imports_from` [EXTRACTED]
+- [[theme]] - `imports` [EXTRACTED]
+- [[theme-controller.ts]] - `imports_from` [EXTRACTED]
+- [[theme.ts]] - `imports_from` [EXTRACTED]
+- [[tool-execution.ts]] - `imports_from` [EXTRACTED]
+- [[totalUsage()_1]] - `contains` [EXTRACTED]
+- [[tuisrcindex.ts]] - `imports_from` [EXTRACTED]
+- [[user-message.ts]] - `imports_from` [EXTRACTED]
+- [[userText()_2]] - `contains` [EXTRACTED]
+- [[vacationruntime.ts]] - `imports_from` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Coding_Agent_会话工具_3
+
+## 源码入口
+
+[packages/coding-agent/src/experimental/vacation/tui.ts](../../../packages/coding-agent/src/experimental/vacation/tui.ts)

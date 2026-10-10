@@ -1,0 +1,28 @@
+---
+source_file: "packages/durable/src/harness/scheduler.ts"
+type: "code"
+community: "Durable 持久任务 45"
+location: "L326"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Durable_持久任务_45
+---
+
+# .abortConversation()
+
+## Connections
+- [[dot-inScope()]] - `calls` [EXTRACTED]
+- [[dot-loadScopes()]] - `calls` [EXTRACTED]
+- [[dot-setTask()]] - `calls` [INFERRED]
+- [[dot-waitForIdle()_6]] - `calls` [EXTRACTED]
+- [[dot-waitForTask()_1]] - `calls` [EXTRACTED]
+- [[Context_37]] - `references` [EXTRACTED]
+- [[ConversationId]] - `references` [EXTRACTED]
+- [[parentOf()]] - `calls` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Durable_持久任务_45
+
+## 源码入口
+
+[packages/durable/src/harness/scheduler.ts](../../../packages/durable/src/harness/scheduler.ts)

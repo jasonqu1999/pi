@@ -1,0 +1,670 @@
+---
+type: community
+cohesion: 0.01
+members: 566
+---
+
+# Durable 持久任务 0
+
+**Cohesion:** 0.01 - loosely connected
+**Members:** 566 nodes
+
+## Members
+- [[dot-release()_5]] - code - packages/durable/test/session-support.ts
+- [[dot-apply()_6]] - code - packages/durable/test/harness-tasks-recovery.test.ts
+- [[dot-close()_27]] - code - packages/coding-agent/test/experimental-durable-support.ts
+- [[dot-close()_40]] - code - packages/durable/test/harness-lifecycle.test.ts
+- [[dot-commit()_3]] - code - packages/durable/src/harness/types.ts
+- [[dot-commit()_11]] - code - packages/durable/test/harness-inbox.test.ts
+- [[dot-commit()_12]] - code - packages/durable/test/harness-live-deltas.test.ts
+- [[dot-commit()_13]] - code - packages/durable/test/harness-ownership.test.ts
+- [[dot-context()_1]] - code - packages/durable/src/harness/types.ts
+- [[dot-crash()]] - code - packages/durable/test/session-support.ts
+- [[dot-entries()_1]] - code - packages/durable/src/harness/types.ts
+- [[dot-failNextCommit()]] - code - packages/durable/test/session-support.ts
+- [[dot-holdCommits()]] - code - packages/durable/test/session-support.ts
+- [[dot-holdFindDocument()]] - code - packages/durable/test/session-support.ts
+- [[dot-mintId()_5]] - code - packages/durable/test/session-support.ts
+- [[dot-submission()_7]] - code - packages/durable/test/harness-submissions.test.ts
+- [[dot-submit()_8]] - code - packages/durable/src/harness/types.ts
+- [[dot-subscribe()_16]] - code - packages/durable/src/harness/types.ts
+- [[dot-uninstall()_1]] - code - packages/durable/src/harness/types.ts
+- [[dot-value()_11]] - code - packages/durable/src/session/observation.ts
+- [[dot-watch()_3]] - code - packages/durable/src/harness/types.ts
+- [[00-conversation.ts]] - code - packages/durable/test/examples/00-conversation.ts
+- [[01-documents.ts]] - code - packages/durable/test/examples/01-documents.ts
+- [[02-forks.ts]] - code - packages/durable/test/examples/02-forks.ts
+- [[03-owned-conversations.ts]] - code - packages/durable/test/examples/03-owned-conversations.ts
+- [[04-chord-state.ts]] - code - packages/durable/test/examples/04-chord-state.ts
+- [[05-watches.ts]] - code - packages/durable/test/examples/05-watches.ts
+- [[06-harness.ts]] - code - packages/durable/test/examples/06-harness.ts
+- [[07-configuration.ts]] - code - packages/durable/test/examples/07-configuration.ts
+- [[08-harness-conversations.ts]] - code - packages/durable/test/examples/08-harness-conversations.ts
+- [[09-context.ts]] - code - packages/durable/test/examples/09-context.ts
+- [[10-registry-reload.ts]] - code - packages/durable/test/examples/10-registry-reload.ts
+- [[11-extension-state.ts]] - code - packages/durable/test/examples/11-extension-state.ts
+- [[12-tasks.ts]] - code - packages/durable/test/examples/12-tasks.ts
+- [[13-recovery.ts]] - code - packages/durable/test/examples/13-recovery.ts
+- [[14-chat.ts]] - code - packages/durable/test/examples/14-chat.ts
+- [[15-system-prompt.ts]] - code - packages/durable/test/examples/15-system-prompt.ts
+- [[16-real-model.ts]] - code - packages/durable/test/examples/16-real-model.ts
+- [[17-coding-tools.ts]] - code - packages/durable/test/examples/17-coding-tools.ts
+- [[18-print.ts]] - code - packages/durable/test/examples/18-print.ts
+- [[19-json.ts]] - code - packages/durable/test/examples/19-json.ts
+- [[20-inbox.ts]] - code - packages/durable/test/examples/20-inbox.ts
+- [[21-late-join.ts]] - code - packages/durable/test/examples/21-late-join.ts
+- [[22-subagent-foreground.ts]] - code - packages/durable/test/examples/22-subagent-foreground.ts
+- [[24-child-tasks.ts]] - code - packages/durable/test/examples/24-child-tasks.ts
+- [[25-compaction.ts]] - code - packages/durable/test/examples/25-compaction.ts
+- [[26-coding-agent.ts]] - code - packages/durable/test/examples/26-coding-agent.ts
+- [[27-plan-mode.ts]] - code - packages/durable/test/examples/27-plan-mode.ts
+- [[28-reviewer.ts]] - code - packages/durable/test/examples/28-reviewer.ts
+- [[29-sandbox-per-conversation.ts]] - code - packages/durable/test/examples/29-sandbox-per-conversation.ts
+- [[30-tool-override.ts]] - code - packages/durable/test/examples/30-tool-override.ts
+- [[31-reload-and-restart.ts]] - code - packages/durable/test/examples/31-reload-and-restart.ts
+- [[@earendil-workspi-durable_1]] - concept - packages/durable/package.json
+- [[ABORT_SIGNAL_CONTEXT_KEY]] - code - packages/chord/src/context/index.ts
+- [[Action_1]] - code - packages/durable/test/harness-live-deltas.test.ts
+- [[AgentDoc]] - code - packages/durable/src/harness/agent.ts
+- [[AgentEvent_1]] - code - packages/durable/src/harness/events.ts
+- [[AgentRegistry]] - code - packages/durable/test/examples/03-owned-conversations.ts
+- [[AgentsMd]] - code - packages/durable/test/examples/15-system-prompt.ts
+- [[AppTool]] - code - packages/durable/test/examples/07-configuration.ts
+- [[AssistantEntry]] - code - packages/durable/src/entries.ts
+- [[Audit]] - code - packages/durable/test/examples/10-registry-reload.ts
+- [[BACKGROUND]] - code - packages/durable/test/harness-compaction.test.ts
+- [[BACKGROUND_CONTEXT]] - code - packages/chord/src/context/index.ts
+- [[BIG_FILE]] - code - packages/durable/test/tool-output-bench.ts
+- [[BLOCKING]] - code - packages/durable/test/harness-compaction.test.ts
+- [[Backend_1]] - code - packages/durable/test/tool-output-bench.ts
+- [[Chat]] - code - packages/durable/test/harness-compaction.test.ts
+- [[Checkout]] - code - packages/durable/test/examples/24-child-tasks.ts
+- [[CheckoutState]] - code - packages/durable/test/examples/24-child-tasks.ts
+- [[Coding]] - code - packages/durable/test/examples/15-system-prompt.ts
+- [[Coding_1]] - code - packages/durable/test/examples/26-coding-agent.ts
+- [[CodingTools]] - code - packages/durable/src/tools/index.ts
+- [[ControlledStorage]] - code - packages/durable/test/session-support.ts
+- [[Conversation]] - code - packages/durable/src/harness/types.ts
+- [[DEFAULT_USAGE]] - code - packages/ai/src/providers/faux.ts
+- [[DONE]] - code - packages/durable/test/harness-tools-recovery.test.ts
+- [[DONE_1]] - code - packages/durable/test/harness-tools.test.ts
+- [[Deferred_3]] - code - packages/durable/test/session-support.ts
+- [[Deferred_4]] - code - packages/durable/test/session-watches.test.ts
+- [[ERROR_503]] - code - packages/durable/test/harness-generation.test.ts
+- [[Echo_2]] - code - packages/durable/test/harness-tools.test.ts
+- [[EchoParameters]] - code - packages/durable/test/harness-tools.test.ts
+- [[Ending_1]] - code - packages/durable/test/harness-ownership.test.ts
+- [[Execute]] - code - packages/durable/test/harness-tools.test.ts
+- [[FailingClose]] - code - packages/durable/test/harness-lifecycle.test.ts
+- [[FamilyDoc]] - code - packages/durable/test/session-states.test.ts
+- [[FauxContentBlock]] - code - packages/ai/src/providers/faux.ts
+- [[FauxConversation]] - code - packages/coding-agent/test/experimental-durable-support.ts
+- [[FauxProviderHandle]] - code - packages/ai/src/providers/faux.ts
+- [[FauxProviderState]] - code - packages/ai/src/providers/faux.ts
+- [[FauxResponseFactory]] - code - packages/ai/src/providers/faux.ts
+- [[FauxResponseStep]] - code - packages/ai/src/providers/faux.ts
+- [[Files_8]] - code - packages/durable/test/examples/06-harness.ts
+- [[Files_9]] - code - packages/durable/test/examples/07-configuration.ts
+- [[Frame_1]] - code - packages/durable/test/harness-view.test.ts
+- [[Gate_1]] - code - packages/durable/test/session-support.ts
+- [[Gates_2]] - code - packages/durable/test/harness-tasks-recovery.test.ts
+- [[HOLD]] - code - packages/durable/test/harness-inbox.test.ts
+- [[Handover]] - code - packages/durable/test/harness-tasks-recovery.test.ts
+- [[Harness_2]] - code - packages/durable/src/harness/harness.ts
+- [[HarnessSettings]] - code - packages/durable/src/harness/types.ts
+- [[HeldReads]] - code - packages/durable/test/harness-submissions.test.ts
+- [[Hold_1]] - code - packages/durable/test/harness-ownership.test.ts
+- [[Installed]] - code - packages/durable/test/harness-support.ts
+- [[LiveDoc_1]] - code - packages/durable/src/harness/live.ts
+- [[LiveState]] - code - packages/durable/src/harness/live.ts
+- [[Log_1]] - code - packages/durable/test/harness-tasks-recovery.test.ts
+- [[MANUAL]] - code - packages/durable/test/harness-compaction.test.ts
+- [[MOUNTED_1]] - code - packages/durable/test/harness-view.test.ts
+- [[Memoed]] - code - packages/durable/test/harness-tasks-recovery.test.ts
+- [[MemoryStorage]] - code - packages/durable/src/storage/memory.ts
+- [[Message]] - code - packages/ai/src/types.ts
+- [[Message_2]] - code - packages/durable/test/examples/08-harness-conversations.ts
+- [[Message_3]] - code - packages/durable/test/harness-conversations.test.ts
+- [[Metrics_1]] - code - packages/durable/test/tool-output-bench.ts
+- [[Mutable]] - code - packages/durable/test/harness-events.test.ts
+- [[NoteDoc]] - code - packages/durable/test/harness-conversations.test.ts
+- [[Notes]] - code - packages/durable/test/examples/01-documents.ts
+- [[Notes_1]] - code - packages/durable/test/examples/02-forks.ts
+- [[Notes_2]] - code - packages/durable/test/examples/04-chord-state.ts
+- [[Notes_3]] - code - packages/durable/test/examples/05-watches.ts
+- [[Notes_4]] - code - packages/durable/test/examples/06-harness.ts
+- [[OUTPUT_3]] - code - packages/durable/test/harness-live-deltas.test.ts
+- [[OpenHarness]] - code - packages/durable/test/harness-tasks-recovery.test.ts
+- [[ParentState]] - code - packages/durable/test/harness-task-graph.test.ts
+- [[Payment]] - code - packages/durable/test/examples/12-tasks.ts
+- [[Payment_1]] - code - packages/durable/test/examples/24-child-tasks.ts
+- [[PaymentInput]] - code - packages/durable/test/examples/24-child-tasks.ts
+- [[PaymentResult]] - code - packages/durable/test/examples/24-child-tasks.ts
+- [[PaymentState]] - code - packages/durable/test/examples/12-tasks.ts
+- [[PingHooks]] - code - packages/durable/test/harness-tasks.test.ts
+- [[Plan]] - code - packages/durable/test/examples/27-plan-mode.ts
+- [[PlanDoc]] - code - packages/durable/test/examples/27-plan-mode.ts
+- [[Planned]] - code - packages/durable/test/harness-prompt.test.ts
+- [[ProviderDoc]] - code - packages/durable/src/harness/provider.ts
+- [[RATES]] - code - packages/durable/test/tool-output-bench.ts
+- [[Rate]] - code - packages/durable/test/tool-output-bench.ts
+- [[RecordingStorage]] - code - packages/durable/test/harness-inbox.test.ts
+- [[RecordingStorage_1]] - code - packages/durable/test/harness-live-deltas.test.ts
+- [[RegisterFauxProviderOptions]] - code - packages/ai/src/providers/faux.ts
+- [[Registry]] - code - packages/durable/src/harness/types.ts
+- [[RegistryReader]] - code - packages/durable/src/harness/types.ts
+- [[Rejecting]] - code - packages/durable/test/harness-ownership.test.ts
+- [[Request_1]] - code - packages/durable/test/harness-compaction.test.ts
+- [[Reviewer]] - code - packages/durable/test/examples/28-reviewer.ts
+- [[Sandbox]] - code - packages/durable/test/examples/29-sandbox-per-conversation.ts
+- [[Scenario_6]] - code - packages/durable/test/tool-output-bench.ts
+- [[Script]] - code - packages/durable/test/harness-compaction.test.ts
+- [[Search_1]] - code - packages/durable/test/examples/07-configuration.ts
+- [[Snippets]] - code - packages/durable/test/examples/07-configuration.ts
+- [[State_4]] - code - packages/durable/test/session-states.test.ts
+- [[State_5]] - code - packages/durable/test/session-watches.test.ts
+- [[StateDoc]] - code - packages/durable/test/session-states.test.ts
+- [[StateDoc_1]] - code - packages/durable/test/session-watches.test.ts
+- [[Step_1]] - code - packages/durable/test/harness-compaction.test.ts
+- [[Step_2]] - code - packages/durable/test/harness-inspect.test.ts
+- [[Step_3]] - code - packages/durable/test/harness-lifecycle.test.ts
+- [[Step_4]] - code - packages/durable/test/harness-tasks-recovery.test.ts
+- [[Step_5]] - code - packages/durable/test/harness-tasks.test.ts
+- [[StepRuntime]] - code - packages/durable/test/harness-tasks.test.ts
+- [[Supervisor]] - code - packages/durable/test/examples/03-owned-conversations.ts
+- [[SystemMessage]] - code - packages/ai/src/types.ts
+- [[TaskGraphNode]] - code - packages/durable/src/harness/task-graph.ts
+- [[Terse]] - code - packages/durable/test/examples/15-system-prompt.ts
+- [[Ticker]] - code - packages/durable/test/examples/13-recovery.ts
+- [[Timing]] - code - packages/durable/test/examples/17-coding-tools.ts
+- [[Timing_1]] - code - packages/durable/test/examples/30-tool-override.ts
+- [[Todo_1]] - code - packages/durable/test/examples/11-extension-state.ts
+- [[Todos]] - code - packages/durable/test/examples/11-extension-state.ts
+- [[ToolRegistration]] - code - packages/durable/src/harness/types.ts
+- [[ToolResultEntry]] - code - packages/durable/src/entries.ts
+- [[ToolResultMessage]] - code - packages/ai/src/types.ts
+- [[TransactionScope_1]] - code - packages/durable/src/storage/sqlite/node.ts
+- [[TransferService]] - code - packages/durable/test/harness-tasks-recovery.test.ts
+- [[TransferState]] - code - packages/durable/test/harness-tasks-recovery.test.ts
+- [[Tree]] - code - packages/durable/test/harness-ownership.test.ts
+- [[Unregistered]] - code - packages/durable/test/harness-ownership.test.ts
+- [[UsageDoc]] - code - packages/durable/src/harness/usage.ts
+- [[Venv]] - code - packages/durable/test/examples/30-tool-override.ts
+- [[Waiter]] - code - packages/durable/test/harness-ownership.test.ts
+- [[abortError()]] - code - packages/chord/src/context/index.ts
+- [[abortError()_3]] - code - packages/coding-agent/test/fixtures/faux-session-worker.ts
+- [[aborted()]] - code - packages/durable/test/task-support.ts
+- [[abortedWith()]] - code - packages/durable/test/task-support.ts
+- [[addHooks()]] - code - packages/durable/test/harness-support.ts
+- [[addSection()]] - code - packages/durable/test/harness-support.ts
+- [[addTask()]] - code - packages/durable/test/harness-support.ts
+- [[addTool()]] - code - packages/durable/test/harness-support.ts
+- [[allEntries()]] - code - packages/durable/test/chat-support.ts
+- [[allEntries()_1]] - code - packages/durable/test/harness-conversations.test.ts
+- [[answer()_1]] - code - packages/durable/test/harness-compaction.test.ts
+- [[answer()_2]] - code - packages/durable/test/harness-inbox.test.ts
+- [[answer()_3]] - code - packages/durable/test/harness-view.test.ts
+- [[append()]] - code - packages/durable/test/harness-conversations.test.ts
+- [[applyChanges()]] - code - packages/durable/test/harness-events.test.ts
+- [[applyTools()_1]] - code - packages/durable/test/harness-prompt.test.ts
+- [[args_4]] - code - packages/durable/test/examples/19-json.ts
+- [[ask()]] - code - packages/durable/test/examples/25-compaction.ts
+- [[assistant()_4]] - code - packages/durable/test/harness-support.ts
+- [[assistant()_5]] - code - packages/durable/test/provider-session-cache-e2e.test.ts
+- [[assistantContentToText()]] - code - packages/ai/src/providers/faux.ts
+- [[assistantMessage()_1]] - code - packages/durable/test/examples/09-context.ts
+- [[attached]] - code - packages/durable/test/examples/22-subagent-foreground.ts
+- [[awaitWithContext()]] - code - packages/chord/src/context/index.ts
+- [[blockingRun()]] - code - packages/durable/test/harness-compaction.test.ts
+- [[blockingTool()]] - code - packages/durable/test/harness-structured.test.ts
+- [[blockingTool()_1]] - code - packages/durable/test/harness-tools-recovery.test.ts
+- [[busy()]] - code - packages/durable/test/harness-compaction.test.ts
+- [[busy()_1]] - code - packages/durable/test/harness-ownership.test.ts
+- [[cacheHitRate()]] - code - packages/durable/test/provider-session-cache-e2e.test.ts
+- [[cacheProbe()]] - code - packages/durable/test/provider-session-cache-e2e.test.ts
+- [[charged]] - code - packages/durable/test/examples/24-child-tasks.ts
+- [[chat-support.ts]] - code - packages/durable/test/chat-support.ts
+- [[chatSetup]] - code - packages/durable/test/chat-support.ts
+- [[checkpoint()]] - code - packages/durable/test/harness-generation-recovery.test.ts
+- [[childId()]] - code - packages/durable/test/harness-task-graph.test.ts
+- [[cloneMessage()]] - code - packages/ai/src/providers/faux.ts
+- [[committed()]] - code - packages/durable/test/harness-view.test.ts
+- [[commonPrefixLength()]] - code - packages/ai/src/providers/faux.ts
+- [[compactionInput()]] - code - packages/durable/test/harness-compaction.test.ts
+- [[compactionTasks()]] - code - packages/durable/test/harness-compaction.test.ts
+- [[completed()]] - code - packages/durable/test/task-support.ts
+- [[contentToText()]] - code - packages/ai/src/providers/faux.ts
+- [[context_40]] - code - packages/durable/test/session-support.ts
+- [[context.test.ts]] - code - packages/chord/test/context.test.ts
+- [[contextindex.ts]] - code - packages/chord/src/context/index.ts
+- [[conversationFor()]] - code - packages/durable/test/examples/29-sandbox-per-conversation.ts
+- [[countingReader()]] - code - packages/durable/test/task-support.ts
+- [[crashTask()]] - code - packages/durable/test/harness-tasks-recovery.test.ts
+- [[crashedRun()]] - code - packages/durable/test/harness-tasks-recovery.test.ts
+- [[createAbortedMessage()]] - code - packages/ai/src/providers/faux.ts
+- [[createContextKey()]] - code - packages/chord/src/context/index.ts
+- [[createDeferredMessage()]] - code - packages/ai/src/providers/faux.ts
+- [[createErrorMessage()]] - code - packages/ai/src/providers/faux.ts
+- [[createFauxCore()]] - code - packages/ai/src/providers/faux.ts
+- [[createIn()]] - code - packages/durable/test/harness-tasks-recovery.test.ts
+- [[createModels()]] - code - packages/ai/src/models.ts
+- [[createRegistry()]] - code - packages/durable/src/harness/registry.ts
+- [[createSession()_13]] - code - packages/durable/src/session/session.ts
+- [[createState()_1]] - code - packages/durable/test/session-states.test.ts
+- [[databasePath]] - code - packages/durable/test/examples/13-recovery.ts
+- [[databasePath_1]] - code - packages/durable/test/examples/24-child-tasks.ts
+- [[deferred_5]] - code - packages/durable/test/task-support.ts
+- [[defineChildTask()]] - code - packages/durable/test/harness-compaction.test.ts
+- [[defineDoc()]] - code - packages/durable/src/documents.ts
+- [[defineEntry()]] - code - packages/durable/src/entries.ts
+- [[defineExtension()]] - code - packages/durable/src/harness/define.ts
+- [[defineTask()]] - code - packages/durable/src/tasks.ts
+- [[defineTool()_1]] - code - packages/durable/src/harness/define.ts
+- [[delete-buffer.ts]] - code - packages/durable/test/fixtures/delete-buffer.ts
+- [[delivered]] - code - packages/durable/test/examples/05-watches.ts
+- [[describeMessage()]] - code - packages/durable/test/harness-support.ts
+- [[directories_4]] - code - packages/durable/test/harness-compaction.test.ts
+- [[directories_5]] - code - packages/durable/test/harness-conversations.test.ts
+- [[directories_6]] - code - packages/durable/test/harness-generation-recovery.test.ts
+- [[directories_7]] - code - packages/durable/test/harness-inbox.test.ts
+- [[directories_8]] - code - packages/durable/test/harness-ownership.test.ts
+- [[directories_10]] - code - packages/durable/test/harness-submissions.test.ts
+- [[directories_11]] - code - packages/durable/test/harness-tasks-recovery.test.ts
+- [[directories_12]] - code - packages/durable/test/harness-tools-recovery.test.ts
+- [[documentChanges()]] - code - packages/durable/test/session-support.ts
+- [[drained()]] - code - packages/durable/test/harness-events.test.ts
+- [[drained()_1]] - code - packages/durable/test/harness-view.test.ts
+- [[drive()]] - code - packages/durable/test/harness-live-deltas.test.ts
+- [[ensureBigFile()]] - code - packages/durable/test/tool-output-bench.ts
+- [[enterPlanMode]] - code - packages/durable/test/examples/27-plan-mode.ts
+- [[entry()_2]] - code - packages/durable/test/harness-compaction.test.ts
+- [[env]] - code - packages/durable/test/examples/18-print.ts
+- [[env_1]] - code - packages/durable/test/examples/19-json.ts
+- [[env()]] - code - packages/durable/test/examples/15-system-prompt.ts
+- [[env()_1]] - code - packages/durable/test/examples/26-coding-agent.ts
+- [[estimateTokens()]] - code - packages/ai/src/providers/faux.ts
+- [[eventually()]] - code - packages/durable/test/task-support.ts
+- [[exampleTool()]] - code - packages/durable/test/examples/07-configuration.ts
+- [[exampleTool()_1]] - code - packages/durable/test/examples/10-registry-reload.ts
+- [[experimental-agent-controller.test.ts]] - code - packages/coding-agent/test/experimental-agent-controller.test.ts
+- [[experimental-durable-support.ts]] - code - packages/coding-agent/test/experimental-durable-support.ts
+- [[experimental-session-support.ts]] - code - packages/coding-agent/test/experimental-session-support.ts
+- [[experimental-transcript-provider.test.ts]] - code - packages/coding-agent/test/experimental-transcript-provider.test.ts
+- [[extensions()]] - code - packages/durable/test/harness-tasks.test.ts
+- [[family()]] - code - packages/durable/test/harness-task-graph.test.ts
+- [[faux]] - code - packages/durable/test/examples/11-extension-state.ts
+- [[faux_1]] - code - packages/durable/test/examples/14-chat.ts
+- [[faux_2]] - code - packages/durable/test/examples/15-system-prompt.ts
+- [[faux_3]] - code - packages/durable/test/examples/17-coding-tools.ts
+- [[faux_4]] - code - packages/durable/test/examples/20-inbox.ts
+- [[faux_5]] - code - packages/durable/test/examples/21-late-join.ts
+- [[faux_6]] - code - packages/durable/test/examples/25-compaction.ts
+- [[faux_7]] - code - packages/durable/test/examples/26-coding-agent.ts
+- [[faux_8]] - code - packages/durable/test/examples/27-plan-mode.ts
+- [[faux_9]] - code - packages/durable/test/examples/28-reviewer.ts
+- [[faux_10]] - code - packages/durable/test/examples/29-sandbox-per-conversation.ts
+- [[faux_11]] - code - packages/durable/test/examples/30-tool-override.ts
+- [[faux_12]] - code - packages/durable/test/examples/31-reload-and-restart.ts
+- [[faux-session-worker.ts]] - code - packages/coding-agent/test/fixtures/faux-session-worker.ts
+- [[faux.ts]] - code - packages/ai/src/providers/faux.ts
+- [[fauxProvider()]] - code - packages/ai/src/providers/faux.ts
+- [[fauxText()]] - code - packages/ai/src/providers/faux.ts
+- [[first()]] - code - packages/durable/test/harness-compaction.test.ts
+- [[flush()_1]] - code - packages/durable/test/session-support.ts
+- [[footprint()]] - code - packages/durable/test/tool-output-bench.ts
+- [[gate]] - code - packages/durable/test/examples/31-reload-and-restart.ts
+- [[gate()]] - code - packages/durable/test/harness-ownership.test.ts
+- [[gated()]] - code - packages/durable/test/harness-compaction.test.ts
+- [[gated()_1]] - code - packages/durable/test/harness-inbox.test.ts
+- [[gated()_2]] - code - packages/durable/test/harness-ownership.test.ts
+- [[gated()_3]] - code - packages/durable/test/harness-tasks.test.ts
+- [[gates]] - code - packages/durable/test/harness-ownership.test.ts
+- [[gatesNever()]] - code - packages/durable/test/harness-task-graph.test.ts
+- [[get()_4]] - code - packages/durable/test/harness-generation.test.ts
+- [[getModel()]] - code - packages/ai/src/providers/faux.ts
+- [[grep]] - code - packages/durable/test/examples/07-configuration.ts
+- [[handoverTask()]] - code - packages/durable/test/harness-tasks-recovery.test.ts
+- [[harness-compaction.test.ts]] - code - packages/durable/test/harness-compaction.test.ts
+- [[harness-context.test.ts]] - code - packages/durable/test/harness-context.test.ts
+- [[harness-conversations.test.ts]] - code - packages/durable/test/harness-conversations.test.ts
+- [[harness-events.test.ts]] - code - packages/durable/test/harness-events.test.ts
+- [[harness-generation-recovery.test.ts]] - code - packages/durable/test/harness-generation-recovery.test.ts
+- [[harness-generation.test.ts]] - code - packages/durable/test/harness-generation.test.ts
+- [[harness-inbox.test.ts]] - code - packages/durable/test/harness-inbox.test.ts
+- [[harness-inspect.test.ts]] - code - packages/durable/test/harness-inspect.test.ts
+- [[harness-lifecycle.test.ts]] - code - packages/durable/test/harness-lifecycle.test.ts
+- [[harness-live-deltas.test.ts]] - code - packages/durable/test/harness-live-deltas.test.ts
+- [[harness-ownership.test.ts]] - code - packages/durable/test/harness-ownership.test.ts
+- [[harness-prompt.test.ts]] - code - packages/durable/test/harness-prompt.test.ts
+- [[harness-submissions.test.ts]] - code - packages/durable/test/harness-submissions.test.ts
+- [[harness-support.ts]] - code - packages/durable/test/harness-support.ts
+- [[harness-task-graph.test.ts]] - code - packages/durable/test/harness-task-graph.test.ts
+- [[harness-tasks-recovery.test.ts]] - code - packages/durable/test/harness-tasks-recovery.test.ts
+- [[harness-tasks.test.ts]] - code - packages/durable/test/harness-tasks.test.ts
+- [[harness-tools-recovery.test.ts]] - code - packages/durable/test/harness-tools-recovery.test.ts
+- [[harness-tools.test.ts]] - code - packages/durable/test/harness-tools.test.ts
+- [[harness-view.test.ts]] - code - packages/durable/test/harness-view.test.ts
+- [[held]] - code - packages/durable/test/examples/20-inbox.ts
+- [[history()]] - code - packages/durable/test/harness-compaction.test.ts
+- [[holdTool()]] - code - packages/durable/test/harness-inbox.test.ts
+- [[hook()]] - code - packages/durable/src/harness/define.ts
+- [[ids()]] - code - packages/durable/test/harness-context.test.ts
+- [[inbox()]] - code - packages/durable/test/harness-inbox.test.ts
+- [[input_2]] - code - packages/durable/test/harness-prompt.test.ts
+- [[installOne()]] - code - packages/durable/test/harness-support.ts
+- [[isBigCat()]] - code - packages/durable/test/examples/17-coding-tools.ts
+- [[isOutput()]] - code - packages/durable/test/harness-live-deltas.test.ts
+- [[isSummaryRequest()]] - code - packages/durable/test/harness-compaction.test.ts
+- [[kinds()]] - code - packages/durable/test/harness-compaction.test.ts
+- [[label()]] - code - packages/durable/test/tool-output-bench.ts
+- [[lastBashOutput()]] - code - packages/durable/test/examples/26-coding-agent.ts
+- [[lastResult()]] - code - packages/durable/test/examples/31-reload-and-restart.ts
+- [[lastSystemId()]] - code - packages/durable/test/harness-prompt.test.ts
+- [[leavePlanMode]] - code - packages/durable/test/examples/27-plan-mode.ts
+- [[lines()_1]] - code - packages/durable/test/tool-output-bench.ts
+- [[live]] - code - packages/durable/test/examples/21-late-join.ts
+- [[live()]] - code - packages/durable/test/harness-compaction.test.ts
+- [[live()_1]] - code - packages/durable/test/harness-generation.test.ts
+- [[live()_2]] - code - packages/durable/test/harness-live-deltas.test.ts
+- [[livePublications()]] - code - packages/durable/test/harness-generation.test.ts
+- [[loadVersioned()]] - code - packages/durable/test/examples/31-reload-and-restart.ts
+- [[main()_12]] - code - packages/durable/test/tool-output-bench.ts
+- [[markDurably()]] - code - packages/durable/test/harness-tasks.test.ts
+- [[marker()]] - code - packages/durable/test/harness-prompt.test.ts
+- [[messageToText()]] - code - packages/ai/src/providers/faux.ts
+- [[model_26]] - code - packages/durable/test/examples/15-system-prompt.ts
+- [[model_27]] - code - packages/durable/test/examples/18-print.ts
+- [[model_28]] - code - packages/durable/test/examples/19-json.ts
+- [[model_29]] - code - packages/durable/test/examples/22-subagent-foreground.ts
+- [[model_31]] - code - packages/durable/test/examples/29-sandbox-per-conversation.ts
+- [[model_32]] - code - packages/durable/test/examples/30-tool-override.ts
+- [[models_8]] - code - packages/durable/test/examples/11-extension-state.ts
+- [[models_9]] - code - packages/durable/test/examples/14-chat.ts
+- [[models_10]] - code - packages/durable/test/examples/15-system-prompt.ts
+- [[models_11]] - code - packages/durable/test/examples/17-coding-tools.ts
+- [[models_12]] - code - packages/durable/test/examples/18-print.ts
+- [[models_13]] - code - packages/durable/test/examples/19-json.ts
+- [[models_14]] - code - packages/durable/test/examples/20-inbox.ts
+- [[models_15]] - code - packages/durable/test/examples/21-late-join.ts
+- [[models_16]] - code - packages/durable/test/examples/22-subagent-foreground.ts
+- [[models_18]] - code - packages/durable/test/examples/25-compaction.ts
+- [[models_19]] - code - packages/durable/test/examples/26-coding-agent.ts
+- [[models_20]] - code - packages/durable/test/examples/27-plan-mode.ts
+- [[models_21]] - code - packages/durable/test/examples/28-reviewer.ts
+- [[models_22]] - code - packages/durable/test/examples/29-sandbox-per-conversation.ts
+- [[models_23]] - code - packages/durable/test/examples/30-tool-override.ts
+- [[models_24]] - code - packages/durable/test/examples/31-reload-and-restart.ts
+- [[normalizeFauxAssistantContent()]] - code - packages/ai/src/providers/faux.ts
+- [[oneStep()]] - code - packages/durable/test/harness-lifecycle.test.ts
+- [[oneStep()_1]] - code - packages/durable/test/harness-tasks.test.ts
+- [[open()_2]] - code - packages/durable/test/examples/13-recovery.ts
+- [[open()_4]] - code - packages/durable/test/examples/24-child-tasks.ts
+- [[open()_5]] - code - packages/durable/test/examples/31-reload-and-restart.ts
+- [[open()_6]] - code - packages/durable/test/harness-compaction.test.ts
+- [[open()_7]] - code - packages/durable/test/harness-generation-recovery.test.ts
+- [[open()_8]] - code - packages/durable/test/harness-ownership.test.ts
+- [[open()_10]] - code - packages/durable/test/harness-tools-recovery.test.ts
+- [[openChat()]] - code - packages/durable/test/chat-support.ts
+- [[openFauxConversation()]] - code - packages/coding-agent/test/experimental-durable-support.ts
+- [[openHarness()]] - code - packages/durable/test/harness-ownership.test.ts
+- [[openHarness()_1]] - code - packages/durable/test/harness-support.ts
+- [[openNodeSqliteStorage()]] - code - packages/durable/src/storage/sqlite/node.ts
+- [[openRoot()]] - code - packages/durable/test/harness-tasks.test.ts
+- [[openStorage()_1]] - code - packages/durable/test/tool-output-bench.ts
+- [[openTasks()]] - code - packages/durable/test/task-support.ts
+- [[ownedChild()]] - code - packages/durable/test/harness-ownership.test.ts
+- [[packages_ai_src_index_createmodels]] - concept
+- [[packages_ai_src_index_fauxproviderhandle]] - concept
+- [[packages_ai_src_index_fauxresponsestep]] - concept
+- [[packages_ai_src_index_fauxtext]] - concept
+- [[packages_ai_src_index_message]] - concept
+- [[packages_ai_src_index_models]] - concept
+- [[packages_ai_src_index_registerfauxprovideroptions]] - concept
+- [[packages_ai_src_index_systemmessage]] - concept
+- [[packages_ai_src_index_toolresultmessage]] - concept
+- [[packages_ai_src_index_type]] - concept
+- [[partialsOf()]] - code - packages/durable/test/harness-events.test.ts
+- [[pause()]] - code - packages/durable/test/examples/21-late-join.ts
+- [[paused()]] - code - packages/durable/test/harness-lifecycle.test.ts
+- [[payments]] - code - packages/durable/test/examples/12-tasks.ts
+- [[pendingResponse()]] - code - packages/coding-agent/test/experimental-durable-support.ts
+- [[print()]] - code - packages/durable/test/examples/19-json.ts
+- [[print()_1]] - code - packages/durable/test/examples/22-subagent-foreground.ts
+- [[printGraph()]] - code - packages/durable/test/examples/24-child-tasks.ts
+- [[probeBash()]] - code - packages/durable/test/examples/30-tool-override.ts
+- [[provider-session-cache-e2e.test.ts]] - code - packages/durable/test/provider-session-cache-e2e.test.ts
+- [[queuedSummary()]] - code - packages/durable/test/harness-compaction.test.ts
+- [[randomId()]] - code - packages/ai/src/providers/faux.ts
+- [[reachedTick()]] - code - packages/durable/test/examples/13-recovery.ts
+- [[read]] - code - packages/durable/test/examples/06-harness.ts
+- [[read_1]] - code - packages/durable/test/examples/07-configuration.ts
+- [[read_2]] - code - packages/durable/test/examples/10-registry-reload.ts
+- [[read_3]] - code - packages/durable/test/examples/27-plan-mode.ts
+- [[readExperimentalSessionState()]] - code - packages/coding-agent/test/experimental-session-support.ts
+- [[record()_2]] - code - packages/durable/test/harness-view.test.ts
+- [[recover()]] - code - packages/durable/test/harness-tasks-recovery.test.ts
+- [[registry_1]] - code - packages/durable/test/examples/06-harness.ts
+- [[registry_2]] - code - packages/durable/test/examples/07-configuration.ts
+- [[registry_3]] - code - packages/durable/test/examples/10-registry-reload.ts
+- [[registry_4]] - code - packages/durable/test/examples/11-extension-state.ts
+- [[registry_5]] - code - packages/durable/test/examples/12-tasks.ts
+- [[registry_6]] - code - packages/durable/test/examples/13-recovery.ts
+- [[registry_7]] - code - packages/durable/test/examples/14-chat.ts
+- [[registry_8]] - code - packages/durable/test/examples/15-system-prompt.ts
+- [[registry_9]] - code - packages/durable/test/examples/17-coding-tools.ts
+- [[registry_10]] - code - packages/durable/test/examples/18-print.ts
+- [[registry_11]] - code - packages/durable/test/examples/19-json.ts
+- [[registry_12]] - code - packages/durable/test/examples/21-late-join.ts
+- [[registry_13]] - code - packages/durable/test/examples/22-subagent-foreground.ts
+- [[registry_15]] - code - packages/durable/test/examples/24-child-tasks.ts
+- [[registry_16]] - code - packages/durable/test/examples/26-coding-agent.ts
+- [[registry_17]] - code - packages/durable/test/examples/27-plan-mode.ts
+- [[registry_18]] - code - packages/durable/test/examples/28-reviewer.ts
+- [[registry_19]] - code - packages/durable/test/examples/29-sandbox-per-conversation.ts
+- [[registry_20]] - code - packages/durable/test/examples/30-tool-override.ts
+- [[registry_21]] - code - packages/durable/test/examples/31-reload-and-restart.ts
+- [[release()]] - code - packages/durable/test/examples/31-reload-and-restart.ts
+- [[reopen()]] - code - packages/durable/test/harness-compaction.test.ts
+- [[respond()]] - code - packages/durable/test/examples/25-compaction.ts
+- [[result()]] - code - packages/durable/test/harness-compaction.test.ts
+- [[resultText()_1]] - code - packages/durable/test/harness-tools.test.ts
+- [[results()]] - code - packages/durable/test/harness-tools-recovery.test.ts
+- [[results()_1]] - code - packages/durable/test/harness-tools.test.ts
+- [[root()]] - code - packages/durable/test/harness-prompt.test.ts
+- [[round()]] - code - packages/durable/test/tool-output-bench.ts
+- [[run()_6]] - code - packages/durable/test/harness-tools.test.ts
+- [[runScenario()_1]] - code - packages/durable/test/tool-output-bench.ts
+- [[runTask()]] - code - packages/durable/test/harness-generation.test.ts
+- [[runTaskId()]] - code - packages/durable/test/harness-generation-recovery.test.ts
+- [[running]] - code - packages/durable/test/examples/31-reload-and-restart.ts
+- [[runs]] - code - packages/durable/test/harness-ownership.test.ts
+- [[say()]] - code - packages/durable/test/examples/09-context.ts
+- [[scheduleChunk()]] - code - packages/ai/src/providers/faux.ts
+- [[section()]] - code - packages/durable/src/harness/define.ts
+- [[section()_1]] - code - packages/durable/test/harness-prompt.test.ts
+- [[serializeContext()]] - code - packages/ai/src/providers/faux.ts
+- [[session_1]] - code - packages/durable/test/examples/00-conversation.ts
+- [[session_2]] - code - packages/durable/test/examples/01-documents.ts
+- [[session_3]] - code - packages/durable/test/examples/02-forks.ts
+- [[session_4]] - code - packages/durable/test/examples/03-owned-conversations.ts
+- [[session_5]] - code - packages/durable/test/examples/04-chord-state.ts
+- [[session_6]] - code - packages/durable/test/examples/05-watches.ts
+- [[session-states.test.ts]] - code - packages/durable/test/session-states.test.ts
+- [[session-support.ts]] - code - packages/durable/test/session-support.ts
+- [[session-watches.test.ts]] - code - packages/durable/test/session-watches.test.ts
+- [[sessionStoragePath()]] - code - packages/coding-agent/src/experimental/session-catalog.ts
+- [[setTask()]] - code - packages/durable/test/harness-ownership.test.ts
+- [[settings_2]] - code - packages/durable/test/examples/07-configuration.ts
+- [[settings_3]] - code - packages/durable/test/examples/25-compaction.ts
+- [[settings_4]] - code - packages/durable/test/examples/26-coding-agent.ts
+- [[settled()]] - code - packages/durable/test/task-support.ts
+- [[setup()_10]] - code - packages/coding-agent/test/experimental-transcript-provider.test.ts
+- [[setup()_11]] - code - packages/coding-agent/test/fixtures/faux-session-worker.ts
+- [[setup()_22]] - code - packages/durable/test/harness-context.test.ts
+- [[show()]] - code - packages/durable/test/examples/09-context.ts
+- [[show()_1]] - code - packages/durable/test/examples/25-compaction.ts
+- [[slow()_1]] - code - packages/durable/test/harness-events.test.ts
+- [[splitStringByTokenSize()]] - code - packages/ai/src/providers/faux.ts
+- [[sqlitenode.ts]] - code - packages/durable/src/storage/sqlite/node.ts
+- [[sqlitePath()]] - code - packages/durable/test/harness-compaction.test.ts
+- [[sqlitePath()_1]] - code - packages/durable/test/harness-conversations.test.ts
+- [[sqlitePath()_2]] - code - packages/durable/test/harness-generation-recovery.test.ts
+- [[sqlitePath()_4]] - code - packages/durable/test/harness-submissions.test.ts
+- [[sqlitePath()_5]] - code - packages/durable/test/harness-tasks-recovery.test.ts
+- [[sqlitePath()_6]] - code - packages/durable/test/harness-tools-recovery.test.ts
+- [[start()_3]] - code - packages/durable/test/harness-lifecycle.test.ts
+- [[start()_5]] - code - packages/durable/test/harness-tasks.test.ts
+- [[startHandover()]] - code - packages/durable/test/harness-tasks-recovery.test.ts
+- [[started()]] - code - packages/durable/test/examples/31-reload-and-restart.ts
+- [[stateOf()_1]] - code - packages/durable/test/harness-inspect.test.ts
+- [[status()_1]] - code - packages/durable/test/harness-inbox.test.ts
+- [[status()_2]] - code - packages/durable/test/harness-ownership.test.ts
+- [[statuses()]] - code - packages/durable/test/harness-task-graph.test.ts
+- [[stopNotes]] - code - packages/durable/test/examples/04-chord-state.ts
+- [[storageIndex]] - code - packages/durable/test/examples/19-json.ts
+- [[streamWithDeltas()]] - code - packages/ai/src/providers/faux.ts
+- [[streamedText()]] - code - packages/durable/test/harness-events.test.ts
+- [[submitPlan]] - code - packages/durable/test/examples/27-plan-mode.ts
+- [[summary()]] - code - packages/durable/test/harness-compaction.test.ts
+- [[system()]] - code - packages/durable/test/harness-support.ts
+- [[systemEntries()]] - code - packages/durable/test/examples/15-system-prompt.ts
+- [[task()_1]] - code - packages/durable/test/harness-inspect.test.ts
+- [[task-support.ts]] - code - packages/durable/test/task-support.ts
+- [[text()_2]] - code - packages/durable/test/examples/25-compaction.ts
+- [[text()_3]] - code - packages/durable/test/harness-compaction.test.ts
+- [[text()_4]] - code - packages/durable/test/harness-tools-recovery.test.ts
+- [[textOf()_5]] - code - packages/durable/test/chat-support.ts
+- [[textOf()_7]] - code - packages/durable/test/examples/28-reviewer.ts
+- [[tickTwo]] - code - packages/durable/test/examples/13-recovery.ts
+- [[timed()]] - code - packages/durable/test/tool-output-bench.ts
+- [[timings]] - code - packages/durable/test/examples/30-tool-override.ts
+- [[tool()_4]] - code - packages/durable/test/harness-support.ts
+- [[tool()_5]] - code - packages/durable/test/harness-tools-recovery.test.ts
+- [[tool()_6]] - code - packages/durable/test/harness-tools.test.ts
+- [[tool-output-bench.ts]] - code - packages/durable/test/tool-output-bench.ts
+- [[toolResult()]] - code - packages/durable/test/harness-compaction.test.ts
+- [[toolResult()_1]] - code - packages/durable/test/harness-support.ts
+- [[toolResultMessage()]] - code - packages/durable/test/examples/09-context.ts
+- [[toolResultToText()]] - code - packages/ai/src/providers/faux.ts
+- [[toolRunning()]] - code - packages/durable/test/harness-inbox.test.ts
+- [[toolTaskId()]] - code - packages/durable/test/harness-tools-recovery.test.ts
+- [[tools()]] - code - packages/durable/test/examples/07-configuration.ts
+- [[tools()_1]] - code - packages/durable/test/examples/10-registry-reload.ts
+- [[tools()_2]] - code - packages/durable/test/examples/27-plan-mode.ts
+- [[tools()_3]] - code - packages/durable/test/examples/31-reload-and-restart.ts
+- [[toolsNamed()]] - code - packages/durable/test/chat-support.ts
+- [[touches()]] - code - packages/durable/test/harness-view.test.ts
+- [[transcript()]] - code - packages/durable/test/harness-inbox.test.ts
+- [[transferTask()]] - code - packages/durable/test/harness-tasks-recovery.test.ts
+- [[turn()]] - code - packages/durable/test/harness-compaction.test.ts
+- [[unanswered()]] - code - packages/durable/test/chat-support.ts
+- [[unloadDocuments()]] - code - packages/durable/test/harness-lifecycle.test.ts
+- [[user()_2]] - code - packages/durable/test/harness-compaction.test.ts
+- [[user()_3]] - code - packages/durable/test/harness-support.ts
+- [[userSettings]] - code - packages/durable/test/examples/26-coding-agent.ts
+- [[userText()_3]] - code - packages/durable/test/harness-compaction.test.ts
+- [[versioned()_1]] - code - packages/durable/test/harness-tasks-recovery.test.ts
+- [[waitFor()_1]] - code - packages/durable/test/chat-support.ts
+- [[waitUntil()]] - code - packages/durable/test/harness-ownership.test.ts
+- [[withAbortSignal()]] - code - packages/chord/src/context/index.ts
+- [[withCancel()]] - code - packages/chord/src/context/index.ts
+- [[withContextValue()]] - code - packages/chord/src/context/index.ts
+- [[withSignal()]] - code - packages/durable/test/harness-lifecycle.test.ts
+- [[withSignal()_1]] - code - packages/durable/test/harness-tasks.test.ts
+- [[withStream()]] - code - packages/durable/test/harness-generation.test.ts
+- [[withUsageEstimate()]] - code - packages/ai/src/providers/faux.ts
+- [[withoutAbortSignal()]] - code - packages/chord/src/context/index.ts
+- [[wrapSection()]] - code - packages/durable/src/harness/define.ts
+- [[write]] - code - packages/durable/test/examples/07-configuration.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Durable_持久任务_0
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 273 edges to [[_COMMUNITY_Durable 持久任务 4]]
+- 211 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 129 edges to [[_COMMUNITY_Durable 持久任务 21]]
+- 113 edges to [[_COMMUNITY_Durable 持久任务 5]]
+- 100 edges to [[_COMMUNITY_Durable 持久任务 18]]
+- 90 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 70 edges to [[_COMMUNITY_Coding Agent 会话工具 8]]
+- 65 edges to [[_COMMUNITY_Durable 持久任务 86]]
+- 49 edges to [[_COMMUNITY_AI 模型协议 22]]
+- 49 edges to [[_COMMUNITY_Durable 持久任务 115]]
+- 40 edges to [[_COMMUNITY_AI 模型协议 1]]
+- 38 edges to [[_COMMUNITY_Coding Agent 会话工具 65]]
+- 34 edges to [[_COMMUNITY_Durable 持久任务 58]]
+- 33 edges to [[_COMMUNITY_Durable 持久任务 38]]
+- 25 edges to [[_COMMUNITY_Durable 持久任务 45]]
+- 23 edges to [[_COMMUNITY_Chord 服务状态 30]]
+- 22 edges to [[_COMMUNITY_Durable 持久任务 119]]
+- 21 edges to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 20 edges to [[_COMMUNITY_Coding Agent 会话工具 15]]
+- 18 edges to [[_COMMUNITY_AI 模型协议 44]]
+- 18 edges to [[_COMMUNITY_Coding Agent 会话工具 33]]
+- 16 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 14 edges to [[_COMMUNITY_Coding Agent 会话工具 19]]
+- 14 edges to [[_COMMUNITY_Durable 持久任务 132]]
+- 11 edges to [[_COMMUNITY_Coding Agent 会话工具 27]]
+- 11 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 11 edges to [[_COMMUNITY_Coding Agent 会话工具 28]]
+- 10 edges to [[_COMMUNITY_AI 模型协议 25]]
+- 8 edges to [[_COMMUNITY_Agent 控制循环 82]]
+- 8 edges to [[_COMMUNITY_AI 模型协议 54]]
+- 8 edges to [[_COMMUNITY_Chord 服务状态 53]]
+- 8 edges to [[_COMMUNITY_Server 会话路由 20]]
+- 6 edges to [[_COMMUNITY_Chord 服务状态 36]]
+- 5 edges to [[_COMMUNITY_AI 模型协议 102]]
+- 5 edges to [[_COMMUNITY_Chord 服务状态 263]]
+- 5 edges to [[_COMMUNITY_Chord 服务状态 95]]
+- 5 edges to [[_COMMUNITY_Client 远程连接 14]]
+- 5 edges to [[_COMMUNITY_Durable 持久任务 73]]
+- 4 edges to [[_COMMUNITY_Agent 控制循环 85]]
+- 4 edges to [[_COMMUNITY_AI 模型协议 52]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 79]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 74]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 55]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 148]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 13]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 24]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 135]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 46]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 56]]
+- 2 edges to [[_COMMUNITY_MCP 远端工具 96]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 63]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 90]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 29]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 83]]
+- 2 edges to [[_COMMUNITY_Durable 持久任务 372]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 140]]
+- 2 edges to [[_COMMUNITY_Durable 持久任务 164]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 35]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 106]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 237]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 203]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 143]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 292]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 16]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 180]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 50]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 51]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 108]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 170]]
+- 1 edge to [[_COMMUNITY_Evals 行为评估 114]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 336]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 208]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 293]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 294]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 484]]
+
+## Top bridge nodes
+- [[@earendil-workspi-durable_1]] - degree 157, connects to 22 communities
+- [[harness-compaction.test.ts]] - degree 101, connects to 13 communities
+- [[faux.ts]] - degree 82, connects to 12 communities
+- [[harness-tools.test.ts]] - degree 74, connects to 10 communities
+- [[harness-generation.test.ts]] - degree 58, connects to 10 communities

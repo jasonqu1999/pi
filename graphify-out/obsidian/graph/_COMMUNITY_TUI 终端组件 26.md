@@ -1,0 +1,239 @@
+---
+type: community
+cohesion: 0.02
+members: 159
+---
+
+# TUI 终端组件 26
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 159 nodes
+
+## Members
+- [[dot-LAYOUT_NODE()_2]] - code - packages/tui/src/layout-node.ts
+- [[dot-addChild()]] - code - packages/tui/src/components/box.ts
+- [[dot-applyBg()]] - code - packages/tui/src/components/box.ts
+- [[dot-clear()_8]] - code - packages/tui/src/components/box.ts
+- [[dot-constructor()_196]] - code - packages/coding-agent/src/modes/interactive/components/custom-entry.ts
+- [[dot-constructor()_206]] - code - packages/coding-agent/src/modes/interactive/components/footer.ts
+- [[dot-constructor()_230]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[dot-constructor()_232]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[dot-constructor()_236]] - code - packages/coding-agent/src/modes/interactive/components/user-message-selector.ts
+- [[dot-constructor()_325]] - code - packages/tui/src/components/box.ts
+- [[dot-constructor()_332]] - code - packages/tui/src/components/mouse-region.ts
+- [[dot-constructor()_353]] - code - packages/tui/test/overlay-non-capturing.test.ts
+- [[dot-constructor()_352]] - code - packages/tui/test/overlay-non-capturing.test.ts
+- [[dot-constructor()_354]] - code - packages/tui/test/overlay-options.test.ts
+- [[dot-constructor()_355]] - code - packages/tui/test/overlay-short-content.test.ts
+- [[dot-constructor()_357]] - code - packages/tui/test/tui-overlay-style-leak.test.ts
+- [[dot-constructor()_358]] - code - packages/tui/test/tui-overlay-style-leak.test.ts
+- [[dot-constructor()_359]] - code - packages/tui/test/tui-shrink.test.ts
+- [[dot-createCallFallback()]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[dot-createResultFallback()]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[dot-createResultRegion()]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[dot-dispose()_46]] - code - packages/coding-agent/src/modes/interactive/components/footer.ts
+- [[dot-formatToolExecution()]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[dot-getCallRenderer()]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[dot-getImageId()]] - code - packages/tui/src/components/image.ts
+- [[dot-getMountedRoots()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-getRenderContext()]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[dot-getRenderShell()]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[dot-getResultRenderer()]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[dot-getSearchQuery()]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[dot-getTextOutput()]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[dot-handleInput()_52]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[dot-handleInput()_56]] - code - packages/coding-agent/src/modes/interactive/components/user-message-selector.ts
+- [[dot-handleInput()_69]] - code - packages/tui/test/overlay-non-capturing.test.ts
+- [[dot-handleInput()_72]] - code - packages/tui/test/tui-cell-size-input.test.ts
+- [[dot-handleMouse()_1]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[dot-handleMouse()_9]] - code - packages/tui/src/tui.ts
+- [[dot-hasContent()]] - code - packages/coding-agent/src/modes/interactive/components/custom-entry.ts
+- [[dot-hasRendererDefinition()]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[dot-invalidate()_28]] - code - packages/coding-agent/src/modes/interactive/components/custom-entry.ts
+- [[dot-invalidate()_33]] - code - packages/coding-agent/src/modes/interactive/components/footer.ts
+- [[dot-invalidate()_40]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[dot-invalidate()_42]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[dot-invalidate()_45]] - code - packages/coding-agent/src/modes/interactive/components/user-message-selector.ts
+- [[dot-invalidate()_51]] - code - packages/tui/src/components/box.ts
+- [[dot-invalidate()_53]] - code - packages/tui/src/components/image.ts
+- [[dot-invalidate()_57]] - code - packages/tui/src/components/mouse-region.ts
+- [[dot-invalidate()_63]] - code - packages/tui/src/tui.ts
+- [[dot-invalidate()_69]] - code - packages/tui/test/overlay-non-capturing.test.ts
+- [[dot-invalidate()_70]] - code - packages/tui/test/overlay-non-capturing.test.ts
+- [[dot-invalidate()_68]] - code - packages/tui/test/overlay-non-capturing.test.ts
+- [[dot-invalidate()_72]] - code - packages/tui/test/overlay-options.test.ts
+- [[dot-invalidate()_74]] - code - packages/tui/test/overlay-options.test.ts
+- [[dot-invalidate()_71]] - code - packages/tui/test/overlay-options.test.ts
+- [[dot-invalidate()_73]] - code - packages/tui/test/overlay-options.test.ts
+- [[dot-invalidate()_75]] - code - packages/tui/test/overlay-short-content.test.ts
+- [[dot-invalidate()_76]] - code - packages/tui/test/overlay-short-content.test.ts
+- [[dot-invalidate()_78]] - code - packages/tui/test/tab-width.test.ts
+- [[dot-invalidate()_79]] - code - packages/tui/test/tab-width.test.ts
+- [[dot-invalidate()_82]] - code - packages/tui/test/tui-cell-size-input.test.ts
+- [[dot-invalidate()_83]] - code - packages/tui/test/tui-overlay-style-leak.test.ts
+- [[dot-invalidate()_84]] - code - packages/tui/test/tui-overlay-style-leak.test.ts
+- [[dot-invalidate()_86]] - code - packages/tui/test/tui-shrink.test.ts
+- [[dot-invalidateCache()]] - code - packages/tui/src/components/box.ts
+- [[dot-markExecutionStarted()]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[dot-matchCache()]] - code - packages/tui/src/components/box.ts
+- [[dot-rebuild()_4]] - code - packages/coding-agent/src/modes/interactive/components/custom-entry.ts
+- [[dot-removeChild()]] - code - packages/tui/src/components/box.ts
+- [[dot-removeChild()_2]] - code - packages/tui/src/components/stack.ts
+- [[dot-render()_50]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[dot-render()_52]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[dot-render()_55]] - code - packages/coding-agent/src/modes/interactive/components/user-message-selector.ts
+- [[dot-render()_61]] - code - packages/tui/src/components/box.ts
+- [[dot-render()_68]] - code - packages/tui/src/components/mouse-region.ts
+- [[dot-render()_78]] - code - packages/tui/src/tui.ts
+- [[dot-render()_83]] - code - packages/tui/test/overlay-non-capturing.test.ts
+- [[dot-render()_84]] - code - packages/tui/test/overlay-non-capturing.test.ts
+- [[dot-render()_82]] - code - packages/tui/test/overlay-non-capturing.test.ts
+- [[dot-render()_86]] - code - packages/tui/test/overlay-options.test.ts
+- [[dot-render()_88]] - code - packages/tui/test/overlay-options.test.ts
+- [[dot-render()_85]] - code - packages/tui/test/overlay-options.test.ts
+- [[dot-render()_87]] - code - packages/tui/test/overlay-options.test.ts
+- [[dot-render()_89]] - code - packages/tui/test/overlay-short-content.test.ts
+- [[dot-render()_90]] - code - packages/tui/test/overlay-short-content.test.ts
+- [[dot-render()_92]] - code - packages/tui/test/tab-width.test.ts
+- [[dot-render()_93]] - code - packages/tui/test/tab-width.test.ts
+- [[dot-render()_96]] - code - packages/tui/test/tui-cell-size-input.test.ts
+- [[dot-render()_97]] - code - packages/tui/test/tui-overlay-style-leak.test.ts
+- [[dot-render()_98]] - code - packages/tui/test/tui-overlay-style-leak.test.ts
+- [[dot-render()_101]] - code - packages/tui/test/tui-shrink.test.ts
+- [[dot-setArgsComplete()]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[dot-setAutoCompactEnabled()]] - code - packages/coding-agent/src/modes/interactive/components/footer.ts
+- [[dot-setBgFn()]] - code - packages/tui/src/components/box.ts
+- [[dot-setExpanded()_5]] - code - packages/coding-agent/src/modes/interactive/components/custom-entry.ts
+- [[dot-setExpanded()_8]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[dot-setExtensionFooter()]] - code - packages/coding-agent/src/modes/interactive/interactive-mode.ts
+- [[dot-setFooter()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-setImageWidthCells()_1]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[dot-setShowImages()_1]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[dot-updateArgs()]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[dot-updateDisplay()_5]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[Box_1]] - code - packages/tui/src/components/box.ts
+- [[ChatViewport]] - code - packages/coding-agent/src/modes/interactive/chat-viewport.ts
+- [[ChatViewportOptions]] - code - packages/coding-agent/src/modes/interactive/chat-viewport.ts
+- [[CodemodeToolDetails]] - code - packages/coding-agent/src/extensions/codemode/tool.ts
+- [[Component]] - code - packages/tui/src/tui.ts
+- [[CustomEntryComponent]] - code - packages/coding-agent/src/modes/interactive/components/custom-entry.ts
+- [[EmptyContent]] - code - packages/tui/test/overlay-non-capturing.test.ts
+- [[EmptyContent_1]] - code - packages/tui/test/overlay-options.test.ts
+- [[FocusableOverlay]] - code - packages/tui/test/overlay-non-capturing.test.ts
+- [[FooterComponent]] - code - packages/coding-agent/src/modes/interactive/components/footer.ts
+- [[FullViewportContent]] - code - packages/tui/test/tab-width.test.ts
+- [[HyperlinkContent]] - code - packages/tui/test/overlay-options.test.ts
+- [[Image]] - code - packages/tui/src/components/image.ts
+- [[InputRecorder_1]] - code - packages/tui/test/tui-cell-size-input.test.ts
+- [[LayoutComponent]] - code - packages/tui/src/layout-node.ts
+- [[Lines_2]] - code - packages/tui/test/tui-shrink.test.ts
+- [[MouseRegion]] - code - packages/tui/src/components/mouse-region.ts
+- [[MouseRegionHandler]] - code - packages/tui/src/components/mouse-region.ts
+- [[Photon_1]] - code - packages/coding-agent/src/utils/image-convert.ts
+- [[ReadonlyFooterDataProvider]] - code - packages/coding-agent/src/core/footer-data-provider.ts
+- [[ScrollViewScrollbar]] - code - packages/tui/src/components/scroll-view.ts
+- [[SearchLine]] - code - packages/coding-agent/src/modes/interactive/components/tree-selector.ts
+- [[SimpleContent]] - code - packages/tui/test/overlay-short-content.test.ts
+- [[SimpleOverlay]] - code - packages/tui/test/overlay-short-content.test.ts
+- [[StaticLines]] - code - packages/tui/test/tui-overlay-style-leak.test.ts
+- [[StaticOverlay]] - code - packages/tui/test/overlay-non-capturing.test.ts
+- [[StaticOverlay_1]] - code - packages/tui/test/overlay-options.test.ts
+- [[StaticOverlay_2]] - code - packages/tui/test/tui-overlay-style-leak.test.ts
+- [[StatusCardData]] - code - packages/coding-agent/examples/extensions/entry-renderer.ts
+- [[StyledContent]] - code - packages/tui/test/overlay-options.test.ts
+- [[TabStatusOverlay]] - code - packages/tui/test/tab-width.test.ts
+- [[ToolExecutionComponent]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[ToolExecutionOptions]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[ToolRenderContext]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[UserMessageList]] - code - packages/coding-agent/src/modes/interactive/components/user-message-selector.ts
+- [[chat-viewport.test.ts]] - code - packages/coding-agent/test/chat-viewport.test.ts
+- [[chat-viewport.ts]] - code - packages/coding-agent/src/modes/interactive/chat-viewport.ts
+- [[codemode-renderer.test.ts]] - code - packages/coding-agent/test/codemode-renderer.test.ts
+- [[codemodeRenderers]] - code - packages/coding-agent/src/extensions/codemode/renderer.ts
+- [[convertImageBytesToPng()]] - code - packages/coding-agent/src/utils/image-convert.ts
+- [[convertToPng()_1]] - code - packages/coding-agent/src/utils/image-convert.ts
+- [[createChatViewport()]] - code - packages/coding-agent/src/modes/interactive/chat-viewport.ts
+- [[createLargeEdits()]] - code - packages/coding-agent/test/edit-tool-no-full-redraw.test.ts
+- [[edit-tool-no-full-redraw.test.ts]] - code - packages/coding-agent/test/edit-tool-no-full-redraw.test.ts
+- [[encodePng()]] - code - packages/coding-agent/src/utils/image-convert.ts
+- [[ensurePngTranscoder()]] - code - packages/coding-agent/src/utils/image-convert.ts
+- [[entry-renderer.ts]] - code - packages/coding-agent/examples/extensions/entry-renderer.ts
+- [[getCapabilities()]] - code - packages/tui/src/terminal-image.ts
+- [[image-convert.ts]] - code - packages/coding-agent/src/utils/image-convert.ts
+- [[loadPngTranscoder()]] - code - packages/coding-agent/src/utils/image-convert.ts
+- [[message-renderer.ts]] - code - packages/coding-agent/examples/extensions/message-renderer.ts
+- [[mouse-region.ts]] - code - packages/tui/src/components/mouse-region.ts
+- [[render()_4]] - code - packages/coding-agent/test/codemode-renderer.test.ts
+- [[renderEditTool()]] - code - packages/coding-agent/test/tool-renderer-examples.test.ts
+- [[setImageTranscoder()]] - code - packages/tui/src/components/image.ts
+- [[tool-execution.ts]] - code - packages/coding-agent/src/modes/interactive/components/tool-execution.ts
+- [[waitForRender()]] - code - packages/coding-agent/test/edit-tool-no-full-redraw.test.ts
+- [[waitForRenderedText()]] - code - packages/coding-agent/test/edit-tool-no-full-redraw.test.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/TUI_终端组件_26
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 111 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 87 edges to [[_COMMUNITY_TUI 终端组件 6]]
+- 35 edges to [[_COMMUNITY_TUI 终端组件 9]]
+- 19 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 19 edges to [[_COMMUNITY_Coding Agent 会话工具 46]]
+- 16 edges to [[_COMMUNITY_Coding Agent 会话工具 16]]
+- 15 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 13 edges to [[_COMMUNITY_Coding Agent 会话工具 39]]
+- 11 edges to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 11 edges to [[_COMMUNITY_Coding Agent 会话工具 49]]
+- 9 edges to [[_COMMUNITY_Coding Agent 会话工具 84]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 60]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 56]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 143]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 103]]
+- 6 edges to [[_COMMUNITY_TUI 终端组件 80]]
+- 5 edges to [[_COMMUNITY_TUI 终端组件 62]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 94]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 77]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 276]]
+- 4 edges to [[_COMMUNITY_TUI 终端组件 37]]
+- 4 edges to [[_COMMUNITY_TUI 终端组件 67]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 206]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 8]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 126]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 71]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 29]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 81]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 291]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 24]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 171]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 116]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 166]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 27]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 258]]
+- 2 edges to [[_COMMUNITY_TUI 终端组件 136]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 217]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 42]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 157]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 41]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 75]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 100]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 219]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 127]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 19]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 152]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 101]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 170]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 68]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 99]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 89]]
+
+## Top bridge nodes
+- [[edit-tool-no-full-redraw.test.ts]] - degree 25, connects to 10 communities
+- [[codemode-renderer.test.ts]] - degree 18, connects to 8 communities
+- [[tool-execution.ts]] - degree 37, connects to 7 communities
+- [[ToolExecutionComponent]] - degree 52, connects to 4 communities
+- [[dot-constructor()_230]] - degree 12, connects to 4 communities

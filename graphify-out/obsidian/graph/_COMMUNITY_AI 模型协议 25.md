@@ -1,0 +1,250 @@
+---
+type: community
+cohesion: 0.02
+members: 167
+---
+
+# AI 模型协议 25
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 167 nodes
+
+## Members
+- [[dot-constructor()_44]] - code - packages/ai/test/provider-error-body-passthrough.test.ts
+- [[dot-fetch()]] - code - packages/ai/src/api/cloudflare-ai-binding.ts
+- [[dot-generateImages()_1]] - code - packages/ai/src/models.ts
+- [[dot-generateImages()]] - code - packages/ai/src/models.ts
+- [[dot-generateImages()_3]] - code - packages/ai/src/types.ts
+- [[dot-generateImages()_4]] - code - packages/coding-agent/src/core/model-registry.ts
+- [[dot-generateImages()_5]] - code - packages/coding-agent/src/core/model-runtime.ts
+- [[dot-provider()]] - code - packages/chord/src/facets/host.ts
+- [[AiBinding]] - code - packages/ai/src/api/cloudflare-ai-binding.ts
+- [[AnthropicAllowedFallbackModel]] - code - packages/ai/src/types.ts
+- [[AssistantImages]] - code - packages/ai/src/types.ts
+- [[BedrockCompat]] - code - packages/ai/src/types.ts
+- [[BuiltinImageModel]] - code - packages/ai/src/image-models.ts
+- [[BuiltinImageProvider]] - code - packages/ai/src/image-models.ts
+- [[CLOUDFLARE_GATEWAY_BINDING_AUTH_SENTINEL]] - code - packages/ai/src/api/cloudflare-ai-binding.ts
+- [[CapturedParams_1]] - code - packages/ai/test/openai-completions-thinking-token-budget.test.ts
+- [[Catalog]] - code - packages/ai/src/image-models.ts
+- [[ClassifierBoolAnswer]] - code - packages/ai/src/types.ts
+- [[ClassifierBoolQuestion]] - code - packages/ai/src/types.ts
+- [[ClassifierChoiceAnswer]] - code - packages/ai/src/types.ts
+- [[ClassifierChoiceQuestion]] - code - packages/ai/src/types.ts
+- [[ClassifierFunction]] - code - packages/ai/src/types.ts
+- [[ClassifierScoreAnswer]] - code - packages/ai/src/types.ts
+- [[ClassifierScoreQuestion]] - code - packages/ai/src/types.ts
+- [[ClassifierStopReason]] - code - packages/ai/src/types.ts
+- [[CreateProviderOptions]] - code - packages/ai/src/models.ts
+- [[Details]] - code - packages/ai/test/message-types.test.ts
+- [[FakeAPIError]] - code - packages/ai/test/provider-error-body-passthrough.test.ts
+- [[FakeOpenAI_3]] - code - packages/ai/test/openai-completions-provider-stream-event.test.ts
+- [[FakeOpenAI_6]] - code - packages/ai/test/openai-completions-response-model.test.ts
+- [[FakeOpenAI_8]] - code - packages/ai/test/openai-completions-thinking-token-budget.test.ts
+- [[FakeOpenAI_12]] - code - packages/ai/test/openrouter-images.test.ts
+- [[FakeOpenAI_13]] - code - packages/ai/test/provider-error-body-passthrough.test.ts
+- [[GenerateCall]] - code - packages/ai/test/images-models.test.ts
+- [[GrammarFormat]] - code - packages/ai/src/types.ts
+- [[GrammarVariants]] - code - packages/ai/src/types.ts
+- [[IMAGE_MODELS]] - code - packages/ai/src/models.generated.ts
+- [[ImageApi]] - code - packages/ai/src/types.ts
+- [[ImageModel]] - code - packages/ai/src/types.ts
+- [[ImageModelIds]] - code - packages/ai/src/image-models.ts
+- [[ImagesApiFunction]] - code - packages/ai/src/images-api-registry.ts
+- [[ImagesApiProvider]] - code - packages/ai/src/images-api-registry.ts
+- [[ImagesApiProviderInternal]] - code - packages/ai/src/images-api-registry.ts
+- [[ImagesContext]] - code - packages/ai/src/types.ts
+- [[ImagesFunction]] - code - packages/ai/src/types.ts
+- [[ImagesInputContent]] - code - packages/ai/src/types.ts
+- [[ImagesObservation]] - code - packages/coding-agent/test/suite/agent-session-codemode.test.ts
+- [[ImagesOptions]] - code - packages/ai/src/types.ts
+- [[ImagesOptionsWithExtras]] - code - packages/ai/test/images.test.ts
+- [[ImagesOutputContent]] - code - packages/ai/src/types.ts
+- [[ImagesStopReason]] - code - packages/ai/src/types.ts
+- [[InvalidJsonKeys]] - code - packages/ai/src/types.ts
+- [[IsAny]] - code - packages/ai/src/types.ts
+- [[IsExactlyJsonValue]] - code - packages/ai/src/types.ts
+- [[IsJsonCompatible]] - code - packages/ai/src/types.ts
+- [[IsJsonProperty]] - code - packages/ai/src/types.ts
+- [[JsonRepresentation]] - code - packages/ai/src/types.ts
+- [[KnownApi]] - code - packages/ai/src/types.ts
+- [[KnownClassifierApi]] - code - packages/ai/src/types.ts
+- [[KnownImageApi]] - code - packages/ai/src/types.ts
+- [[MistralConversationsCompat]] - code - packages/ai/src/types.ts
+- [[ModelCost]] - code - packages/ai/src/types.ts
+- [[ModelCostRates]] - code - packages/ai/src/types.ts
+- [[ModelCostTier]] - code - packages/ai/src/types.ts
+- [[ModelImageInputLimits]] - code - packages/ai/src/types.ts
+- [[ModelInputLimits]] - code - packages/ai/src/types.ts
+- [[ModelsImagesOptions]] - code - packages/ai/src/models.ts
+- [[NON_OVERFLOW_PATTERNS]] - code - packages/ai/src/utils/overflow.ts
+- [[OVERFLOW_PATTERNS]] - code - packages/ai/src/utils/overflow.ts
+- [[OpenRouterCatalog]] - code - packages/ai/scripts/openrouter-catalog.ts
+- [[OpenRouterModelListItem]] - code - packages/ai/scripts/openrouter-catalog.ts
+- [[OpenRouterReasoningMetadata]] - code - packages/ai/scripts/openrouter-reasoning-options.ts
+- [[OpenRouterRouting]] - code - packages/ai/src/types.ts
+- [[OptionalAny]] - code - packages/ai/test/message-types.test.ts
+- [[ProviderAuth]] - code - packages/ai/src/auth/types.ts
+- [[ProviderImages]] - code - packages/ai/src/types.ts
+- [[ProviderImagesOptions]] - code - packages/ai/src/types.ts
+- [[RegisteredImagesApiProvider]] - code - packages/ai/src/images-api-registry.ts
+- [[SamplingParamsByThinkingLevel]] - code - packages/ai/src/types.ts
+- [[SessionAffinityFormat]] - code - packages/ai/src/types.ts
+- [[TelemetryContext]] - code - packages/telemetry/src/index.ts
+- [[ToolChoice]] - code - packages/ai/src/types.ts
+- [[VercelGatewayRouting]] - code - packages/ai/src/types.ts
+- [[Symbol.asyncIterator()_3]] - code - packages/ai/test/openai-completions-provider-stream-event.test.ts
+- [[Symbol.asyncIterator()_6]] - code - packages/ai/test/openai-completions-response-model.test.ts
+- [[Symbol.asyncIterator()_8]] - code - packages/ai/test/openai-completions-thinking-token-budget.test.ts
+- [[__dirname_2]] - code - packages/ai/test/images.test.ts
+- [[__filename_2]] - code - packages/ai/test/images.test.ts
+- [[aisrctypes.ts]] - code - packages/ai/src/types.ts
+- [[base]] - code - packages/ai/test/message-types.test.ts
+- [[basicImageGeneration()]] - code - packages/ai/test/images.test.ts
+- [[buildOpenRouterCatalog()]] - code - packages/ai/scripts/openrouter-catalog.ts
+- [[builtinModels()]] - code - packages/ai/src/providers/all.ts
+- [[capture()_1]] - code - packages/ai/test/openai-completions-thinking-token-budget.test.ts
+- [[chatModel()_1]] - code - packages/ai/test/images-models.test.ts
+- [[chatOnly]] - code - packages/ai/test/image-model-data.test.ts
+- [[chatWithImages]] - code - packages/ai/test/image-model-data.test.ts
+- [[classify()_2]] - code - packages/ai/src/api/typesafe-system-one.ts
+- [[cloudflare-ai-binding.test.ts]] - code - packages/ai/test/cloudflare-ai-binding.test.ts
+- [[cloudflare-ai-binding.ts]] - code - packages/ai/src/api/cloudflare-ai-binding.ts
+- [[context_20]] - code - packages/ai/test/images-models.test.ts
+- [[context_34]] - code - packages/ai/test/telemetry-options.test.ts
+- [[context_36]] - code - packages/ai/test/typesafe-system-one.test.ts
+- [[cost()]] - code - packages/ai/scripts/openrouter-catalog.ts
+- [[createAiBindingFetch()]] - code - packages/ai/src/api/cloudflare-ai-binding.ts
+- [[createErrorMessage()_1]] - code - packages/ai/test/overflow.test.ts
+- [[createLazyLoadErrorImages()]] - code - packages/ai/src/providers/images/register-builtins.ts
+- [[createLengthStopMessage()]] - code - packages/ai/test/overflow.test.ts
+- [[decisionModel]] - code - packages/ai/test/image-model-data.test.ts
+- [[fakeAuthContext()]] - code - packages/ai/test/images-models.test.ts
+- [[fakeBinding()]] - code - packages/ai/test/cloudflare-ai-binding.test.ts
+- [[generateImages()_1]] - code - packages/ai/src/images.ts
+- [[generateImagesOpenRouter()]] - code - packages/ai/src/providers/images/register-builtins.ts
+- [[getBuiltinImageModel()]] - code - packages/ai/src/providers/all.ts
+- [[getImageModel()]] - code - packages/ai/src/image-models.ts
+- [[getImageModels()]] - code - packages/ai/src/image-models.ts
+- [[getImageProviders()]] - code - packages/ai/src/image-models.ts
+- [[getImagesApiProvider()]] - code - packages/ai/src/images-api-registry.ts
+- [[getOpenRouterThinkingLevelMap()]] - code - packages/ai/scripts/openrouter-reasoning-options.ts
+- [[getOverflowPatterns()]] - code - packages/ai/src/utils/overflow.ts
+- [[handleImageInput()]] - code - packages/ai/test/images.test.ts
+- [[image-model-data.test.ts]] - code - packages/ai/test/image-model-data.test.ts
+- [[image-models.ts]] - code - packages/ai/src/image-models.ts
+- [[imageModel_1]] - code - packages/ai/test/telemetry-options.test.ts
+- [[imageModel()]] - code - packages/ai/test/images-models.test.ts
+- [[imageModelsByProvider]] - code - packages/ai/src/image-models.ts
+- [[imageOnly]] - code - packages/ai/test/image-model-data.test.ts
+- [[images-api-registry.ts]] - code - packages/ai/src/images-api-registry.ts
+- [[images-models.test.ts]] - code - packages/ai/test/images-models.test.ts
+- [[images.test.ts]] - code - packages/ai/test/images.test.ts
+- [[images.ts]] - code - packages/ai/src/images.ts
+- [[imagesApiProviderRegistry]] - code - packages/ai/src/images-api-registry.ts
+- [[imagesContext_1]] - code - packages/ai/test/telemetry-options.test.ts
+- [[loadOpenRouterImagesProviderModule()]] - code - packages/ai/src/providers/images/register-builtins.ts
+- [[message-types.test.ts]] - code - packages/ai/test/message-types.test.ts
+- [[mockState_6]] - code - packages/ai/test/openai-completions-provider-stream-event.test.ts
+- [[mockState_9]] - code - packages/ai/test/openai-completions-response-model.test.ts
+- [[mockState_11]] - code - packages/ai/test/openai-completions-thinking-token-budget.test.ts
+- [[mockState_14]] - code - packages/ai/test/openrouter-images.test.ts
+- [[modalities()]] - code - packages/ai/scripts/openrouter-catalog.ts
+- [[model_19]] - code - packages/ai/test/telemetry-options.test.ts
+- [[model_20]] - code - packages/ai/test/typesafe-system-one.test.ts
+- [[okResult()]] - code - packages/ai/test/images-models.test.ts
+- [[openRouterAuto()]] - code - packages/ai/test/openai-completions-response-model.test.ts
+- [[openRouterModel()]] - code - packages/ai/test/openai-completions-provider-stream-event.test.ts
+- [[openai-completions-provider-stream-event.test.ts]] - code - packages/ai/test/openai-completions-provider-stream-event.test.ts
+- [[openai-completions-response-model.test.ts]] - code - packages/ai/test/openai-completions-response-model.test.ts
+- [[openai-completions-thinking-token-budget.test.ts]] - code - packages/ai/test/openai-completions-thinking-token-budget.test.ts
+- [[openrouter-catalog.ts]] - code - packages/ai/scripts/openrouter-catalog.ts
+- [[openrouter-images.test.ts]] - code - packages/ai/test/openrouter-images.test.ts
+- [[overflow.test.ts]] - code - packages/ai/test/overflow.test.ts
+- [[overflow.ts]] - code - packages/ai/src/utils/overflow.ts
+- [[provider-error-body-passthrough.test.ts]] - code - packages/ai/test/provider-error-body-passthrough.test.ts
+- [[register-builtins.ts]] - code - packages/ai/src/providers/images/register-builtins.ts
+- [[registerBuiltInImagesApiProviders()]] - code - packages/ai/src/providers/images/register-builtins.ts
+- [[registerImagesApiProvider()]] - code - packages/ai/src/images-api-registry.ts
+- [[resolveImagesApiProvider()]] - code - packages/ai/src/images.ts
+- [[roundCost()_1]] - code - packages/ai/scripts/openrouter-catalog.ts
+- [[start()]] - code - packages/ai/test/cloudflare-ai-binding.test.ts
+- [[telemetry-options.test.ts]] - code - packages/ai/test/telemetry-options.test.ts
+- [[testProvider()]] - code - packages/ai/test/images-models.test.ts
+- [[transport_1]] - code - packages/ai/src/api/typesafe-system-one.ts
+- [[typesafe-system-one.test.ts]] - code - packages/ai/test/typesafe-system-one.test.ts
+- [[typesafe-system-one.ts]] - code - packages/ai/src/api/typesafe-system-one.ts
+- [[vllmModel()]] - code - packages/ai/test/openai-completions-thinking-token-budget.test.ts
+- [[wireAnswers]] - code - packages/ai/test/typesafe-system-one.test.ts
+- [[wrapGenerateImages()]] - code - packages/ai/src/images-api-registry.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/AI_模型协议_25
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 83 edges to [[_COMMUNITY_AI 模型协议 22]]
+- 78 edges to [[_COMMUNITY_AI 模型协议 1]]
+- 68 edges to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 24 edges to [[_COMMUNITY_AI 模型协议 54]]
+- 24 edges to [[_COMMUNITY_AI 模型协议 47]]
+- 21 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 19 edges to [[_COMMUNITY_AI 模型协议 44]]
+- 18 edges to [[_COMMUNITY_AI 模型协议 106]]
+- 17 edges to [[_COMMUNITY_AI 模型协议 52]]
+- 11 edges to [[_COMMUNITY_AI 模型协议 64]]
+- 11 edges to [[_COMMUNITY_AI 模型协议 35]]
+- 10 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 9 edges to [[_COMMUNITY_AI 模型协议 63]]
+- 9 edges to [[_COMMUNITY_Coding Agent 会话工具 79]]
+- 8 edges to [[_COMMUNITY_AI 模型协议 130]]
+- 7 edges to [[_COMMUNITY_AI 模型协议 194]]
+- 7 edges to [[_COMMUNITY_AI 模型协议 140]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 27]]
+- 6 edges to [[_COMMUNITY_AI 模型协议 55]]
+- 6 edges to [[_COMMUNITY_AI 模型协议 17]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 5 edges to [[_COMMUNITY_AI 模型协议 74]]
+- 5 edges to [[_COMMUNITY_AI 模型协议 102]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 15]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 4 edges to [[_COMMUNITY_AI 模型协议 51]]
+- 4 edges to [[_COMMUNITY_AI 模型协议 148]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 4 edges to [[_COMMUNITY_Telemetry 遥测契约 223]]
+- 3 edges to [[_COMMUNITY_Telemetry 遥测契约 131]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 43]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 203]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 237]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 29]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 19]]
+- 2 edges to [[_COMMUNITY_Durable 持久任务 21]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 90]]
+- 2 edges to [[_COMMUNITY_Chord 服务状态 36]]
+- 2 edges to [[_COMMUNITY_Telemetry 遥测契约 213]]
+- 2 edges to [[_COMMUNITY_Telemetry 遥测契约 228]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 103]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 65]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 116]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 156]]
+- 1 edge to [[_COMMUNITY_Agent 控制循环 85]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 370]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 307]]
+- 1 edge to [[_COMMUNITY_MCP 远端工具 34]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 232]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 278]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 165]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 77]]
+- 1 edge to [[_COMMUNITY_跨包 类型基础 177]]
+
+## Top bridge nodes
+- [[aisrctypes.ts]] - degree 335, connects to 29 communities
+- [[telemetry-options.test.ts]] - degree 29, connects to 10 communities
+- [[images-models.test.ts]] - degree 41, connects to 9 communities
+- [[openai-completions-thinking-token-budget.test.ts]] - degree 15, connects to 7 communities
+- [[cloudflare-ai-binding.test.ts]] - degree 14, connects to 6 communities

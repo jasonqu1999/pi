@@ -1,0 +1,267 @@
+{
+  "nodes": [
+    {
+      "id": "packages_coding_agent_docs_images_interactive_mode_image",
+      "label": "Pi interactive mode screenshot",
+      "file_type": "image",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": "image: Entire screenshot",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_interactive_mode_pi_interactive_mode",
+      "label": "Pi interactive terminal",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": "image: Startup header",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_interactive_mode_context",
+      "label": "Loaded AGENTS context",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": "image: Context section",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_interactive_mode_skills",
+      "label": "Loaded skills",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": "image: Skills section",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_interactive_mode_prompts",
+      "label": "Prompt templates",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": "image: Prompts section",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_interactive_mode_extensions",
+      "label": "Loaded extensions",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": "image: Extensions section",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_interactive_mode_themes",
+      "label": "Loaded themes",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": "image: Themes section",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_interactive_mode_greeting_request",
+      "label": "Greeting extension request",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": "image: User message",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_interactive_mode_read_tool",
+      "label": "Read documentation tool display",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": "image: Tool blocks",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_interactive_mode_bash_tool",
+      "label": "Bash command and result display",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": "image: Middle command block",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_interactive_mode_activity_status",
+      "label": "Agent activity status",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": "image: Editor status line",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "packages_coding_agent_docs_images_interactive_mode_usage_footer",
+      "label": "Model and usage footer",
+      "file_type": "concept",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": "image: Bottom footer",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "packages_coding_agent_docs_images_interactive_mode_image",
+      "target": "packages_coding_agent_docs_images_interactive_mode_pi_interactive_mode",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_interactive_mode_pi_interactive_mode",
+      "target": "packages_coding_agent_docs_images_interactive_mode_context",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_interactive_mode_pi_interactive_mode",
+      "target": "packages_coding_agent_docs_images_interactive_mode_skills",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_interactive_mode_pi_interactive_mode",
+      "target": "packages_coding_agent_docs_images_interactive_mode_prompts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_interactive_mode_pi_interactive_mode",
+      "target": "packages_coding_agent_docs_images_interactive_mode_extensions",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_interactive_mode_pi_interactive_mode",
+      "target": "packages_coding_agent_docs_images_interactive_mode_themes",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_interactive_mode_image",
+      "target": "packages_coding_agent_docs_images_interactive_mode_greeting_request",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_interactive_mode_greeting_request",
+      "target": "packages_coding_agent_docs_images_interactive_mode_read_tool",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_interactive_mode_greeting_request",
+      "target": "packages_coding_agent_docs_images_interactive_mode_bash_tool",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_interactive_mode_pi_interactive_mode",
+      "target": "packages_coding_agent_docs_images_interactive_mode_activity_status",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "packages_coding_agent_docs_images_interactive_mode_pi_interactive_mode",
+      "target": "packages_coding_agent_docs_images_interactive_mode_usage_footer",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "source_location": null,
+      "weight": 1
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "packages_coding_agent_docs_images_interactive_mode_loaded_interactive_resources",
+      "label": "Loaded interactive resources",
+      "nodes": [
+        "packages_coding_agent_docs_images_interactive_mode_context",
+        "packages_coding_agent_docs_images_interactive_mode_skills",
+        "packages_coding_agent_docs_images_interactive_mode_prompts",
+        "packages_coding_agent_docs_images_interactive_mode_extensions",
+        "packages_coding_agent_docs_images_interactive_mode_themes"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

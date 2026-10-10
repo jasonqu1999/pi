@@ -1,0 +1,107 @@
+---
+source_file: "packages/tui/src/components/editor.ts"
+type: "code"
+community: "TUI 终端组件 68"
+location: "L296"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/TUI_终端组件_68
+---
+
+# Editor
+
+## Connections
+- [[dot-addNewLine()]] - `method` [EXTRACTED]
+- [[dot-addToHistory()]] - `method` [EXTRACTED]
+- [[dot-applyAutocompleteSuggestions()]] - `method` [EXTRACTED]
+- [[dot-buildVisualLineMap()]] - `method` [EXTRACTED]
+- [[dot-cancelAutocomplete()]] - `method` [EXTRACTED]
+- [[dot-cancelAutocompleteRequest()]] - `method` [EXTRACTED]
+- [[dot-clearAutocompleteUi()]] - `method` [EXTRACTED]
+- [[dot-computeVerticalMoveColumn()]] - `method` [EXTRACTED]
+- [[dot-constructor()_326]] - `method` [EXTRACTED]
+- [[dot-createAutocompleteList()]] - `method` [EXTRACTED]
+- [[dot-deleteToEndOfLine()]] - `method` [EXTRACTED]
+- [[dot-deleteToStartOfLine()]] - `method` [EXTRACTED]
+- [[dot-deleteWordBackwards()]] - `method` [EXTRACTED]
+- [[dot-deleteWordForward()]] - `method` [EXTRACTED]
+- [[dot-deleteYankedText()]] - `method` [EXTRACTED]
+- [[dot-exitHistoryBrowsing()]] - `method` [EXTRACTED]
+- [[dot-expandPasteMarkers()]] - `method` [EXTRACTED]
+- [[dot-findCurrentVisualLine()]] - `method` [EXTRACTED]
+- [[dot-findVisualLineAt()]] - `method` [EXTRACTED]
+- [[dot-forceFileAutocomplete()]] - `method` [EXTRACTED]
+- [[dot-getAutocompleteDebounceMs()]] - `method` [EXTRACTED]
+- [[dot-getAutocompleteMaxVisible()_1]] - `method` [EXTRACTED]
+- [[dot-getBestAutocompleteMatchIndex()]] - `method` [EXTRACTED]
+- [[dot-getCursor()_1]] - `method` [EXTRACTED]
+- [[dot-getExpandedText()]] - `method` [EXTRACTED]
+- [[dot-getLines()]] - `method` [EXTRACTED]
+- [[dot-getPaddingX()]] - `method` [EXTRACTED]
+- [[dot-getText()_1]] - `method` [EXTRACTED]
+- [[dot-handleBackspace()]] - `method` [EXTRACTED]
+- [[dot-handleForwardDelete()]] - `method` [EXTRACTED]
+- [[dot-handleInput()_60]] - `method` [EXTRACTED]
+- [[dot-handleMouse()_4]] - `method` [EXTRACTED]
+- [[dot-handlePaste()]] - `method` [EXTRACTED]
+- [[dot-handleSlashCommandCompletion()]] - `method` [EXTRACTED]
+- [[dot-handleTabCompletion()]] - `method` [EXTRACTED]
+- [[dot-insertCharacter()]] - `method` [EXTRACTED]
+- [[dot-insertTextAtCursor()]] - `method` [EXTRACTED]
+- [[dot-insertTextAtCursorInternal()]] - `method` [EXTRACTED]
+- [[dot-insertYankedText()]] - `method` [EXTRACTED]
+- [[dot-invalidate()_52]] - `method` [EXTRACTED]
+- [[dot-isAtStartOfMessage()]] - `method` [EXTRACTED]
+- [[dot-isAutocompleteRequestCurrent()]] - `method` [EXTRACTED]
+- [[dot-isEditorEmpty()]] - `method` [EXTRACTED]
+- [[dot-isInSlashCommandContext()]] - `method` [EXTRACTED]
+- [[dot-isOnFirstVisualLine()]] - `method` [EXTRACTED]
+- [[dot-isOnLastVisualLine()]] - `method` [EXTRACTED]
+- [[dot-isShowingAutocomplete()]] - `method` [EXTRACTED]
+- [[dot-isSlashMenuAllowed()]] - `method` [EXTRACTED]
+- [[dot-jumpToChar()]] - `method` [EXTRACTED]
+- [[dot-layoutText()]] - `method` [EXTRACTED]
+- [[dot-moveCursor()]] - `method` [EXTRACTED]
+- [[dot-moveToLineEnd()]] - `method` [EXTRACTED]
+- [[dot-moveToLineStart()]] - `method` [EXTRACTED]
+- [[dot-moveToVisualLine()]] - `method` [EXTRACTED]
+- [[dot-moveWordBackwards()]] - `method` [EXTRACTED]
+- [[dot-moveWordForwards()]] - `method` [EXTRACTED]
+- [[dot-navigateHistory()]] - `method` [EXTRACTED]
+- [[dot-normalizeText()]] - `method` [EXTRACTED]
+- [[dot-pageScroll()]] - `method` [EXTRACTED]
+- [[dot-pushUndoSnapshot()]] - `method` [EXTRACTED]
+- [[dot-render()_62]] - `method` [EXTRACTED]
+- [[dot-renderBottomBorder()]] - `method` [EXTRACTED]
+- [[dot-renderTopBorder()_1]] - `method` [EXTRACTED]
+- [[dot-requestAutocomplete()]] - `method` [EXTRACTED]
+- [[dot-runAutocompleteRequest()]] - `method` [EXTRACTED]
+- [[dot-segment()]] - `method` [EXTRACTED]
+- [[dot-setAutocompleteMaxVisible()_1]] - `method` [EXTRACTED]
+- [[dot-setAutocompleteProvider()]] - `method` [EXTRACTED]
+- [[dot-setAutocompleteTriggerCharacters()]] - `method` [EXTRACTED]
+- [[dot-setCursorCol()]] - `method` [EXTRACTED]
+- [[dot-setPaddingX()]] - `method` [EXTRACTED]
+- [[dot-setText()_1]] - `method` [EXTRACTED]
+- [[dot-setTextInternal()]] - `method` [EXTRACTED]
+- [[dot-shouldSubmitOnBackslashEnter()]] - `method` [EXTRACTED]
+- [[dot-startAutocompleteRequest()]] - `method` [EXTRACTED]
+- [[dot-submitValue()]] - `method` [EXTRACTED]
+- [[dot-tryTriggerAutocomplete()]] - `method` [EXTRACTED]
+- [[dot-undo()]] - `method` [EXTRACTED]
+- [[dot-updateAutocomplete()_1]] - `method` [EXTRACTED]
+- [[dot-validPasteIds()]] - `method` [EXTRACTED]
+- [[dot-yank()]] - `method` [EXTRACTED]
+- [[dot-yankPop()]] - `method` [EXTRACTED]
+- [[AutocompleteProvider]] - `references` [EXTRACTED]
+- [[Component]] - `implements` [EXTRACTED]
+- [[Focusable]] - `implements` [EXTRACTED]
+- [[SelectList]] - `references` [EXTRACTED]
+- [[TUI_1]] - `references` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/TUI_终端组件_68
+
+## 源码入口
+
+[packages/tui/src/components/editor.ts](../../../packages/tui/src/components/editor.ts)

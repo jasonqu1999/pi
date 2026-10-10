@@ -1,0 +1,448 @@
+---
+type: community
+cohesion: 0.01
+members: 338
+---
+
+# TUI 终端组件 6
+
+**Cohesion:** 0.01 - loosely connected
+**Members:** 338 nodes
+
+## Members
+- [[dot-LAYOUT_NODE()]] - code - packages/tui/src/components/scroll-view.ts
+- [[dot-LAYOUT_NODE()_1]] - code - packages/tui/src/components/stack.ts
+- [[dot-addChild()_2]] - code - packages/tui/src/components/stack.ts
+- [[dot-append()_2]] - code - packages/tui/src/tui-main-screen.ts
+- [[dot-beforeTerminalStop()_1]] - code - packages/tui/src/tui-main-screen.ts
+- [[dot-captureRenderState()]] - code - packages/tui/src/tui-main-screen.ts
+- [[dot-clear()_10]] - code - packages/tui/src/components/stack.ts
+- [[dot-clear()_16]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-clearFromCursor()_8]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-clearLine()_8]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-clearScreen()_8]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-clearWrites()]] - code - packages/tui/test/tui-render.test.ts
+- [[dot-collectKittyImageIds()]] - code - packages/tui/src/tui-main-screen.ts
+- [[dot-columns()_4]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-constructor()_133]] - code - packages/coding-agent/src/core/keybindings.ts
+- [[dot-constructor()_327]] - code - packages/tui/src/components/h-stack.ts
+- [[dot-constructor()_328]] - code - packages/tui/src/components/image.ts
+- [[dot-constructor()_337]] - code - packages/tui/src/components/stack.ts
+- [[dot-constructor()_340]] - code - packages/tui/src/components/v-stack.ts
+- [[dot-constructor()_341]] - code - packages/tui/src/keybindings.ts
+- [[dot-constructor()_345]] - code - packages/tui/src/tui-main-screen.ts
+- [[dot-constructor()_350]] - code - packages/tui/test/mouse-components.test.ts
+- [[dot-constructor()_360]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-deleteChangedKittyImages()]] - code - packages/tui/src/tui-main-screen.ts
+- [[dot-deleteKittyImages()_1]] - code - packages/tui/src/tui-main-screen.ts
+- [[dot-doRender()_1]] - code - packages/tui/src/tui-main-screen.ts
+- [[dot-drainInput()_8]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-expandChangedRangeForKittyImages()]] - code - packages/tui/src/tui-main-screen.ts
+- [[dot-flush()_3]] - code - packages/tui/src/tui-main-screen.ts
+- [[dot-flush()_4]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-flushAndGetViewport()]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-getConflicts()]] - code - packages/tui/src/keybindings.ts
+- [[dot-getContentWidth()_1]] - code - packages/tui/src/layout-node.ts
+- [[dot-getCursorPosition()]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-getDefinition()]] - code - packages/tui/src/keybindings.ts
+- [[dot-getEffectiveConfig()]] - code - packages/coding-agent/src/core/keybindings.ts
+- [[dot-getKeys()]] - code - packages/tui/src/keybindings.ts
+- [[dot-getOutput()_1]] - code - packages/tui/test/tab-width.test.ts
+- [[dot-getResolvedBindings()]] - code - packages/tui/src/keybindings.ts
+- [[dot-getScrollBuffer()]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-getUserBindings()]] - code - packages/tui/src/keybindings.ts
+- [[dot-getViewport()]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-getWrites()]] - code - packages/tui/test/tui-render.test.ts
+- [[dot-handleInput()_67]] - code - packages/tui/test/mouse-components.test.ts
+- [[dot-handleInput()_71]] - code - packages/tui/test/tui-alt-screen.test.ts
+- [[dot-handleInput()_73]] - code - packages/tui/test/tui-render.test.ts
+- [[dot-hideCursor()_5]] - code - packages/tui/test/overlay-options.test.ts
+- [[dot-hideCursor()_9]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-invalidate()_81]] - code - packages/tui/test/tui-alt-screen.test.ts
+- [[dot-invalidate()_85]] - code - packages/tui/test/tui-render.test.ts
+- [[dot-kittyProtocolActive()_5]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-length()_2]] - code - packages/tui/src/tui-main-screen.ts
+- [[dot-moveBy()_8]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-onTerminalColorSchemeChange()]] - code - packages/tui/src/tui.ts
+- [[dot-positionHardwareCursor()]] - code - packages/tui/src/tui-main-screen.ts
+- [[dot-prepareKittyScreen()]] - code - packages/tui/src/tui-alt-screen.ts
+- [[dot-rebuild()_7]] - code - packages/tui/src/keybindings.ts
+- [[dot-render()_63]] - code - packages/tui/src/components/h-stack.ts
+- [[dot-render()_64]] - code - packages/tui/src/components/image.ts
+- [[dot-render()_75]] - code - packages/tui/src/components/v-stack.ts
+- [[dot-render()_95]] - code - packages/tui/test/tui-alt-screen.test.ts
+- [[dot-render()_100]] - code - packages/tui/test/tui-render.test.ts
+- [[dot-render()_99]] - code - packages/tui/test/tui-render.test.ts
+- [[dot-reset()_8]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-resetRenderState()_1]] - code - packages/tui/src/tui-main-screen.ts
+- [[dot-resize()]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-rows()_4]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-sendInput()_1]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-setProgress()_9]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-setTitle()_9]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-setUserBindings()]] - code - packages/tui/src/keybindings.ts
+- [[dot-showCursor()_5]] - code - packages/tui/test/overlay-options.test.ts
+- [[dot-showCursor()_9]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-start()_36]] - code - packages/tui/test/tui-alt-screen.test.ts
+- [[dot-start()_38]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-stop()_22]] - code - packages/tui/test/tui-alt-screen.test.ts
+- [[dot-stop()_24]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-updateLayout()_1]] - code - packages/tui/src/layout-node.ts
+- [[dot-waitForRender()]] - code - packages/tui/test/virtual-terminal.ts
+- [[dot-write()_18]] - code - packages/tui/test/tab-width.test.ts
+- [[dot-write()_20]] - code - packages/tui/test/tui-alt-screen.test.ts
+- [[dot-write()_22]] - code - packages/tui/test/tui-render.test.ts
+- [[dot-write()_23]] - code - packages/tui/test/virtual-terminal.ts
+- [[@earendil-workspi-tui_6]] - concept - packages/tui/package.json
+- [[@xtermheadless_1]] - concept - packages/tui/package.json
+- [[ActiveOverlayFocusRestoreState]] - code - packages/tui/src/tui.ts
+- [[BlockedOverlayFocusRestoreState]] - code - packages/tui/src/tui.ts
+- [[BoundedTerminalWriter]] - code - packages/tui/src/tui-main-screen.ts
+- [[CapturingVirtualTerminal]] - code - packages/tui/test/tab-width.test.ts
+- [[CellDimensions]] - code - packages/tui/src/terminal-image.ts
+- [[CursorTrackingTerminal]] - code - packages/tui/test/overlay-options.test.ts
+- [[DEFAULT_FRAMES]] - code - packages/tui/src/components/loader.ts
+- [[Darwin native clipboard]] - concept - packages/tui/native/darwin/README.md
+- [[Darwin toolchain]] - concept - packages/tui/native/darwin/README.md
+- [[ENV_KEYS]] - code - packages/tui/test/terminal-image.test.ts
+- [[EditorOptions]] - code - packages/tui/src/components/editor.ts
+- [[EligibleOverlayFocusRestoreState]] - code - packages/tui/src/tui.ts
+- [[ExtensionEditorOptions]] - code - packages/coding-agent/src/modes/interactive/components/extension-editor.ts
+- [[HStack]] - code - packages/tui/src/components/h-stack.ts
+- [[ImageCellSize]] - code - packages/tui/src/terminal-image.ts
+- [[ImageDimensions]] - code - packages/tui/src/terminal-image.ts
+- [[ImageOptions]] - code - packages/tui/src/components/image.ts
+- [[ImageProtocol]] - code - packages/tui/src/terminal-image.ts
+- [[ImageRenderOptions]] - code - packages/tui/src/terminal-image.ts
+- [[ImageTheme]] - code - packages/tui/src/components/image.ts
+- [[ImageTranscoder]] - code - packages/tui/src/components/image.ts
+- [[InputComponent]] - code - packages/tui/test/tui-render.test.ts
+- [[InputOverlay]] - code - packages/tui/test/mouse-components.test.ts
+- [[InputOverlay_1]] - code - packages/tui/test/tui-alt-screen.test.ts
+- [[KITTY_PLACEMENT_CONTROL_KEYS]] - code - packages/tui/src/terminal-image.ts
+- [[KeybindingConflict]] - code - packages/tui/src/keybindings.ts
+- [[KeybindingDefinition]] - code - packages/tui/src/keybindings.ts
+- [[KeybindingDefinitions]] - code - packages/tui/src/keybindings.ts
+- [[Keybindings_1]] - code - packages/tui/src/keybindings.ts
+- [[KeybindingsConfig]] - code - packages/tui/src/keybindings.ts
+- [[KeybindingsManager_1]] - code - packages/tui/src/keybindings.ts
+- [[KittyImageHeader]] - code - packages/tui/src/tui-main-screen.ts
+- [[KittyImageMetadata]] - code - packages/tui/src/terminal-image.ts
+- [[KittyImagePlacement]] - code - packages/tui/src/terminal-image.ts
+- [[LAYOUT_NODE]] - code - packages/tui/src/layout-node.ts
+- [[LatexCase]] - code - packages/tui/test/latex.test.ts
+- [[LayoutNode_1]] - code - packages/tui/src/layout-node.ts
+- [[LayoutViewport]] - code - packages/tui/src/layout-node.ts
+- [[LoaderIndicatorOptions]] - code - packages/tui/src/components/loader.ts
+- [[LoggingVirtualTerminal]] - code - packages/tui/test/tui-render.test.ts
+- [[OverlayBlockedFocusResume]] - code - packages/tui/src/tui.ts
+- [[OverlayBounds]] - code - packages/tui/src/tui.ts
+- [[OverlayFocusRestorePolicy]] - code - packages/tui/src/tui.ts
+- [[OverlayFocusRestoreState]] - code - packages/tui/src/tui.ts
+- [[OverlayMargin]] - code - packages/tui/src/tui.ts
+- [[OverlayStackEntry]] - code - packages/tui/src/tui.ts
+- [[OverlayUnfocusOptions]] - code - packages/tui/src/tui.ts
+- [[PendingTerminalColorQuery]] - code - packages/tui/src/tui.ts
+- [[RecordingTerminal_2]] - code - packages/tui/test/tui-alt-screen.test.ts
+- [[RegisteredKittyImageMetadata]] - code - packages/tui/src/terminal-image.ts
+- [[RenderedOverlayLayout]] - code - packages/tui/src/tui.ts
+- [[ScrollLayoutNode]] - code - packages/tui/src/layout-node.ts
+- [[ScrollLayoutState]] - code - packages/tui/src/layout-node.ts
+- [[ScrollViewOptions]] - code - packages/tui/src/components/scroll-view.ts
+- [[ScrollViewScrollToOptions]] - code - packages/tui/src/components/scroll-view.ts
+- [[SelectListTheme]] - code - packages/tui/src/components/select-list.ts
+- [[SelectListTruncatePrimaryContext]] - code - packages/tui/src/components/select-list.ts
+- [[SettingsListOptions]] - code - packages/tui/src/components/settings-list.ts
+- [[SettingsListTheme]] - code - packages/tui/src/components/settings-list.ts
+- [[SizeValue]] - code - packages/tui/src/tui.ts
+- [[Stack]] - code - packages/tui/src/components/stack.ts
+- [[StackChild]] - code - packages/tui/src/components/stack.ts
+- [[StackEntry]] - code - packages/tui/src/components/stack.ts
+- [[StackEntryOptions]] - code - packages/tui/src/components/stack.ts
+- [[StackLayoutEntry]] - code - packages/tui/src/layout-node.ts
+- [[StackLayoutNode]] - code - packages/tui/src/layout-node.ts
+- [[StackOptions]] - code - packages/tui/src/components/stack.ts
+- [[TUI_KEYBINDINGS]] - code - packages/tui/src/keybindings.ts
+- [[TerminalCapabilities]] - code - packages/tui/src/terminal-image.ts
+- [[TerminalColorScheme]] - code - packages/tui/src/terminal-colors.ts
+- [[TestComponent]] - code - packages/tui/test/tui-render.test.ts
+- [[TuiInputListener]] - code - packages/tui/src/tui.ts
+- [[TuiInputListenerResult]] - code - packages/tui/src/tui.ts
+- [[TuiMainScreen]] - code - packages/tui/src/tui-main-screen.ts
+- [[TuiMainScreenRenderState]] - code - packages/tui/src/tui-main-screen.ts
+- [[TuiMode_1]] - code - packages/tui/src/tui.ts
+- [[TuiMouseEventType]] - code - packages/tui/src/tui.ts
+- [[TuiStopOptions]] - code - packages/tui/src/tui.ts
+- [[VStack]] - code - packages/tui/src/components/v-stack.ts
+- [[VirtualTerminal]] - code - packages/tui/test/virtual-terminal.ts
+- [[allocateImageId()]] - code - packages/tui/src/terminal-image.ts
+- [[allocateStackSizes()]] - code - packages/tui/src/components/stack.ts
+- [[applyCompletion()_1]] - code - packages/tui/test/editor.test.ts
+- [[autocomplete-skill-slash.test.ts]] - code - packages/tui/test/autocomplete-skill-slash.test.ts
+- [[autocompleteProvider_1]] - code - packages/tui/test/chat-simple.ts
+- [[base64Data]] - code - packages/tui/test/image-test.ts
+- [[bigPaste()]] - code - packages/tui/test/editor.test.ts
+- [[bug-regression-isimageline-startswith-bug.test.ts]] - code - packages/tui/test/bug-regression-isimageline-startswith-bug.test.ts
+- [[build()]] - code - packages/tui/native/darwin/build.sh
+- [[build.sh script_1]] - code - packages/tui/native/darwin/build.sh
+- [[build.sh script_2]] - code - packages/tui/native/linux/build.sh
+- [[calculateImageCellSize()]] - code - packages/tui/src/terminal-image.ts
+- [[calculateImageRows()]] - code - packages/tui/src/terminal-image.ts
+- [[cancellable-loader.ts]] - code - packages/tui/src/components/cancellable-loader.ts
+- [[capabilityOverrides]] - code - packages/tui/src/terminal-image.ts
+- [[chalk_4]] - code - packages/tui/test/markdown.test.ts
+- [[chalk_5]] - code - packages/tui/test/test-themes.ts
+- [[chalk_6]] - code - packages/tui/test/truncated-text.test.ts
+- [[chat-simple.ts]] - code - packages/tui/test/chat-simple.ts
+- [[chooseLessDistortedCellCount()]] - code - packages/tui/src/terminal-image.ts
+- [[clampSize()]] - code - packages/tui/src/components/stack.ts
+- [[clearDeprecationWarningsForTests()]] - code - packages/coding-agent/src/utils/deprecation.ts
+- [[componentsimage.ts]] - code - packages/tui/src/components/image.ts
+- [[componentsloader.ts]] - code - packages/tui/src/components/loader.ts
+- [[componentstext.ts]] - code - packages/tui/src/components/text.ts
+- [[createTestTUI()]] - code - packages/tui/test/editor.test.ts
+- [[cropKittyImageLine()]] - code - packages/tui/src/terminal-image.ts
+- [[custom-editor-history-keybindings.test.ts]] - code - packages/coding-agent/test/custom-editor-history-keybindings.test.ts
+- [[darwinREADME]] - document - packages/tui/native/darwin/README.md
+- [[darwinbuild.sh]] - code - packages/tui/native/darwin/build.sh
+- [[defaultEditorTheme]] - code - packages/tui/test/test-themes.ts
+- [[defaultMarkdownTheme]] - code - packages/tui/test/test-themes.ts
+- [[defaultSelectListTheme]] - code - packages/tui/test/test-themes.ts
+- [[deleteAllKittyImages()]] - code - packages/tui/src/terminal-image.ts
+- [[deleteAllKittyPlacements()]] - code - packages/tui/src/terminal-image.ts
+- [[deleteKittyImage()]] - code - packages/tui/src/terminal-image.ts
+- [[deprecation.ts]] - code - packages/coding-agent/src/utils/deprecation.ts
+- [[detectCapabilities()]] - code - packages/tui/src/terminal-image.ts
+- [[detectCapabilitiesFromEnvironment()]] - code - packages/tui/src/terminal-image.ts
+- [[detectColorFgBgTheme()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[detectTerminalTheme()]] - code - packages/coding-agent/src/modes/interactive/theme/theme.ts
+- [[dims]] - code - packages/tui/test/image-test.ts
+- [[distribute()]] - code - packages/tui/src/components/stack.ts
+- [[editor_1]] - code - packages/tui/test/chat-simple.ts
+- [[editor_2]] - code - packages/tui/test/image-test.ts
+- [[editor-component.ts]] - code - packages/tui/src/editor-component.ts
+- [[editor-history-keybindings.test.ts]] - code - packages/tui/test/editor-history-keybindings.test.ts
+- [[editor.test.ts]] - code - packages/tui/test/editor.test.ts
+- [[editorTheme_1]] - code - packages/tui/test/mouse-components.test.ts
+- [[emittedDeprecationWarnings]] - code - packages/coding-agent/src/utils/deprecation.ts
+- [[encodeITerm2()]] - code - packages/tui/src/terminal-image.ts
+- [[encodeKitty()]] - code - packages/tui/src/terminal-image.ts
+- [[extractKittyImageIds()]] - code - packages/tui/src/tui-main-screen.ts
+- [[extractKittyImageRows()]] - code - packages/tui/src/tui-main-screen.ts
+- [[flushAutocomplete()]] - code - packages/tui/test/editor.test.ts
+- [[flushTui()]] - code - packages/coding-agent/test/interactive-mode-status.test.ts
+- [[fuzzy.test.ts]] - code - packages/tui/test/fuzzy.test.ts
+- [[fuzzy.ts]] - code - packages/tui/src/fuzzy.ts
+- [[fuzzyMatch]] - code - packages/tui/src/fuzzy.ts
+- [[getCell()]] - code - packages/tui/test/markdown.test.ts
+- [[getCellDimensions()]] - code - packages/tui/src/terminal-image.ts
+- [[getCellItalic()]] - code - packages/tui/test/tui-overlay-style-leak.test.ts
+- [[getCellItalic()_1]] - code - packages/tui/test/tui-render.test.ts
+- [[getExplicitKittyImageRows()]] - code - packages/tui/src/terminal-image.ts
+- [[getGifDimensions()]] - code - packages/tui/src/terminal-image.ts
+- [[getImageDimensions()]] - code - packages/tui/src/terminal-image.ts
+- [[getJpegDimensions()]] - code - packages/tui/src/terminal-image.ts
+- [[getKittyImageMetadata()]] - code - packages/tui/src/terminal-image.ts
+- [[getKittyImagePlacement()]] - code - packages/tui/src/terminal-image.ts
+- [[getKittyImagePlacementRows()]] - code - packages/tui/src/terminal-image.ts
+- [[getKittyImageRowsFromControls()]] - code - packages/tui/src/terminal-image.ts
+- [[getPngDimensions()]] - code - packages/tui/src/terminal-image.ts
+- [[getRegisteredKittyImageMetadata()]] - code - packages/tui/src/terminal-image.ts
+- [[getRegisteredKittyImageMetadataFromControls()]] - code - packages/tui/src/terminal-image.ts
+- [[getWebpDimensions()]] - code - packages/tui/src/terminal-image.ts
+- [[h-stack.ts]] - code - packages/tui/src/components/h-stack.ts
+- [[image-test.ts]] - code - packages/tui/test/image-test.ts
+- [[imageFallback()]] - code - packages/tui/src/terminal-image.ts
+- [[input.test.ts]] - code - packages/tui/test/input.test.ts
+- [[isFocusable()]] - code - packages/tui/src/tui.ts
+- [[isStackEntry()]] - code - packages/tui/src/components/stack.ts
+- [[isTermuxSession()]] - code - packages/tui/src/tui-main-screen.ts
+- [[items]] - code - packages/tui/test/settings-list.test.ts
+- [[latex.test.ts]] - code - packages/tui/test/latex.test.ts
+- [[layout-node.ts]] - code - packages/tui/src/layout-node.ts
+- [[layout.test.ts]] - code - packages/tui/test/layout.test.ts
+- [[linuxbuild.sh]] - code - packages/tui/native/linux/build.sh
+- [[markdown.test.ts]] - code - packages/tui/test/markdown.test.ts
+- [[mouse()]] - code - packages/tui/test/mouse-components.test.ts
+- [[mouse-components.test.ts]] - code - packages/tui/test/mouse-components.test.ts
+- [[native-module-path.test.ts]] - code - packages/tui/test/native-module-path.test.ts
+- [[normalizeKeys()]] - code - packages/tui/src/keybindings.ts
+- [[normalizeSize()]] - code - packages/tui/src/components/stack.ts
+- [[normalizeTerminalOutput()]] - code - packages/tui/src/utils.ts
+- [[overlay-non-capturing.test.ts]] - code - packages/tui/test/overlay-non-capturing.test.ts
+- [[overlay-options.test.ts]] - code - packages/tui/test/overlay-options.test.ts
+- [[overlay-short-content.test.ts]] - code - packages/tui/test/overlay-short-content.test.ts
+- [[overrideEnv()]] - code - packages/tui/test/tui-render.test.ts
+- [[parseBooleanCapabilityOverride()]] - code - packages/tui/src/terminal-image.ts
+- [[parseKittyImageHeader()]] - code - packages/tui/src/tui-main-screen.ts
+- [[pasteWithMarker()]] - code - packages/tui/test/editor.test.ts
+- [[pngCache]] - code - packages/tui/src/components/image.ts
+- [[positionCursor()]] - code - packages/tui/test/editor.test.ts
+- [[probeTmuxHyperlinks()]] - code - packages/tui/src/terminal-image.ts
+- [[processInput()]] - code - packages/tui/test/stdin-buffer.test.ts
+- [[redraws.ts]] - code - .pi/extensions/redraws.ts
+- [[ref_chalk]] - concept
+- [[ref_node_assert]] - concept
+- [[ref_node_test]] - concept
+- [[registerKittyImageMetadata()]] - code - packages/tui/src/terminal-image.ts
+- [[regression-regional-indicator-width.test.ts]] - code - packages/tui/test/regression-regional-indicator-width.test.ts
+- [[regression-sigwinch-kill-eacces.test.ts]] - code - packages/tui/test/regression-sigwinch-kill-eacces.test.ts
+- [[regression-slice-by-column-ansi-order.test.ts]] - code - packages/tui/test/regression-slice-by-column-ansi-order.test.ts
+- [[renderAndFlush()]] - code - packages/tui/test/overlay-non-capturing.test.ts
+- [[renderAndFlush()_1]] - code - packages/tui/test/overlay-options.test.ts
+- [[renderAndFlush()_2]] - code - packages/tui/test/tui-overlay-style-leak.test.ts
+- [[renderImage()]] - code - packages/tui/src/terminal-image.ts
+- [[resetCapabilitiesCache()]] - code - packages/tui/src/terminal-image.ts
+- [[scroll-view.ts]] - code - packages/tui/src/components/scroll-view.ts
+- [[select-list.test.ts]] - code - packages/tui/test/select-list.test.ts
+- [[select-list.ts]] - code - packages/tui/src/components/select-list.ts
+- [[selectTheme_1]] - code - packages/tui/test/mouse-components.test.ts
+- [[setCapabilities()]] - code - packages/tui/src/terminal-image.ts
+- [[setCellDimensions()]] - code - packages/tui/src/terminal-image.ts
+- [[settings-list.test.ts]] - code - packages/tui/test/settings-list.test.ts
+- [[settings-list.ts]] - code - packages/tui/src/components/settings-list.ts
+- [[settingsTheme]] - code - packages/tui/test/mouse-components.test.ts
+- [[shortenImagePath()]] - code - packages/tui/src/terminal-image.ts
+- [[spacer.ts]] - code - packages/tui/src/components/spacer.ts
+- [[srckeybindings.ts]] - code - packages/tui/src/keybindings.ts
+- [[stack.ts]] - code - packages/tui/src/components/stack.ts
+- [[stdin-buffer.test.ts]] - code - packages/tui/test/stdin-buffer.test.ts
+- [[stripAnsi()_2]] - code - packages/tui/test/markdown.test.ts
+- [[stripTerminalSequences()]] - code - packages/tui/src/utils.ts
+- [[tab-width.test.ts]] - code - packages/tui/test/tab-width.test.ts
+- [[terminal_2]] - code - packages/tui/test/chat-simple.ts
+- [[terminal_3]] - code - packages/tui/test/image-test.ts
+- [[terminal-image.test.ts]] - code - packages/tui/test/terminal-image.test.ts
+- [[terminal-image.ts]] - code - packages/tui/src/terminal-image.ts
+- [[terminalAcceleratesWheel()]] - code - packages/tui/src/wheel-scroll.ts
+- [[test-themes.ts]] - code - packages/tui/test/test-themes.ts
+- [[testTheme]] - code - packages/tui/test/select-list.test.ts
+- [[testTheme_1]] - code - packages/tui/test/settings-list.test.ts
+- [[theme-detection.test.ts]] - code - packages/coding-agent/test/theme-detection.test.ts
+- [[toPng()]] - code - packages/tui/src/components/image.ts
+- [[truncated-text.test.ts]] - code - packages/tui/test/truncated-text.test.ts
+- [[truncated-text.ts]] - code - packages/tui/src/components/truncated-text.ts
+- [[tui_3]] - code - packages/tui/test/chat-simple.ts
+- [[tui_4]] - code - packages/tui/test/image-test.ts
+- [[tui-alt-screen.test.ts]] - code - packages/tui/test/tui-alt-screen.test.ts
+- [[tui-cell-size-input.test.ts]] - code - packages/tui/test/tui-cell-size-input.test.ts
+- [[tui-main-screen.ts]] - code - packages/tui/src/tui-main-screen.ts
+- [[tui-overlay-style-leak.test.ts]] - code - packages/tui/test/tui-overlay-style-leak.test.ts
+- [[tui-render.test.ts]] - code - packages/tui/test/tui-render.test.ts
+- [[tui-shrink.test.ts]] - code - packages/tui/test/tui-shrink.test.ts
+- [[tuisrcindex.ts]] - code - packages/tui/src/index.ts
+- [[tuisrctui.ts]] - code - packages/tui/src/tui.ts
+- [[tuitestkeybindings.test.ts]] - code - packages/tui/test/keybindings.test.ts
+- [[tuitesttruncate-to-width.test.ts]] - code - packages/tui/test/truncate-to-width.test.ts
+- [[v-stack.ts]] - code - packages/tui/src/components/v-stack.ts
+- [[virtual-terminal.ts]] - code - packages/tui/test/virtual-terminal.ts
+- [[visible-width.test.ts]] - code - packages/tui/test/visible-width.test.ts
+- [[visibleLines()]] - code - packages/tui/test/layout.test.ts
+- [[visibleStackEntries()]] - code - packages/tui/src/components/stack.ts
+- [[wait()]] - code - packages/tui/test/stdin-buffer.test.ts
+- [[warnDeprecation()]] - code - packages/coding-agent/src/utils/deprecation.ts
+- [[wheel-scroll.test.ts]] - code - packages/tui/test/wheel-scroll.test.ts
+- [[wheel-scroll.ts]] - code - packages/tui/src/wheel-scroll.ts
+- [[withEnv()_1]] - code - packages/tui/test/terminal-image.test.ts
+- [[withEnv()_2]] - code - packages/tui/test/tui-render.test.ts
+- [[withImageTerminal()]] - code - packages/tui/test/tui-cell-size-input.test.ts
+- [[word-navigation.test.ts]] - code - packages/tui/test/word-navigation.test.ts
+- [[wrap-ansi.test.ts]] - code - packages/tui/test/wrap-ansi.test.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/TUI_终端组件_6
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 183 edges to [[_COMMUNITY_TUI 终端组件 9]]
+- 121 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 87 edges to [[_COMMUNITY_TUI 终端组件 26]]
+- 56 edges to [[_COMMUNITY_Coding Agent 会话工具 16]]
+- 56 edges to [[_COMMUNITY_TUI 终端组件 37]]
+- 40 edges to [[_COMMUNITY_Coding Agent 会话工具 32]]
+- 33 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 33 edges to [[_COMMUNITY_TUI 终端组件 67]]
+- 32 edges to [[_COMMUNITY_TUI 终端组件 80]]
+- 29 edges to [[_COMMUNITY_TUI 终端组件 62]]
+- 24 edges to [[_COMMUNITY_Coding Agent 会话工具 39]]
+- 22 edges to [[_COMMUNITY_Coding Agent 会话工具 56]]
+- 21 edges to [[_COMMUNITY_Coding Agent 会话工具 70]]
+- 14 edges to [[_COMMUNITY_Coding Agent 会话工具 99]]
+- 13 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 13 edges to [[_COMMUNITY_TUI 终端组件 136]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 49]]
+- 9 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 9 edges to [[_COMMUNITY_TUI 终端组件 246]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 60]]
+- 7 edges to [[_COMMUNITY_TUI 终端组件 89]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 31]]
+- 6 edges to [[_COMMUNITY_TUI 终端组件 68]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 46]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 24]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 171]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 41]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 71]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 84]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 8]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 23]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 81]]
+- 3 edges to [[_COMMUNITY_TUI 终端组件 105]]
+- 3 edges to [[_COMMUNITY_TUI 终端组件 350]]
+- 3 edges to [[_COMMUNITY_TUI 终端组件 178]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 94]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 206]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 57]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 78]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 242]]
+- 2 edges to [[_COMMUNITY_TUI 终端组件 330]]
+- 2 edges to [[_COMMUNITY_TUI 终端组件 142]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 28]]
+- 2 edges to [[_COMMUNITY_TUI 终端组件 349]]
+- 2 edges to [[_COMMUNITY_Evals 行为评估 222]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 110]]
+- 2 edges to [[_COMMUNITY_跨包 类型基础 247]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 180]]
+- 2 edges to [[_COMMUNITY_TUI 终端组件 128]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 125]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 59]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 137]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 30]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 265]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 238]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 189]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 135]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 103]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 42]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 66]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 75]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 72]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 27]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 240]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 243]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 274]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 15]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 58]]
+- 1 edge to [[_COMMUNITY_Telemetry 遥测契约 228]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 170]]
+- 1 edge to [[_COMMUNITY_MCP 远端工具 227]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 411]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 412]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 214]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 373]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 168]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 215]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 229]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 209]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 351]]
+
+## Top bridge nodes
+- [[@earendil-workspi-tui_6]] - degree 116, connects to 26 communities
+- [[tuisrcindex.ts]] - degree 377, connects to 21 communities
+- [[tuisrctui.ts]] - degree 106, connects to 11 communities
+- [[terminal-image.ts]] - degree 72, connects to 7 communities
+- [[mouse-components.test.ts]] - degree 29, connects to 7 communities

@@ -1,0 +1,70 @@
+{
+  "agent": "semantic_images",
+  "deep_mode": false,
+  "chunk_indices": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "token_usage": "unknown; tool does not expose real subagent usage; chunk counters are placeholders 0, not measured zero cost",
+  "images": [
+    {
+      "output": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/graphify-out/.graphify_chunk_08.json",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/ai/test/data/red-circle.png",
+      "nodes": 3,
+      "edges": 2,
+      "hyperedges": 0,
+      "reading_depth": "full image viewed with vision",
+      "limitations": "Viewed full 200x200 raster: a centered solid red circle against white. No text or implementation behavior; fixture purpose inferred only from path and not asserted."
+    },
+    {
+      "output": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/graphify-out/.graphify_chunk_09.json",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/doom-extension.png",
+      "nodes": 6,
+      "edges": 6,
+      "hyperedges": 0,
+      "reading_depth": "full image viewed with vision",
+      "limitations": "Viewed full terminal screenshot and embedded pixelated game viewport. Read visible DOOM controls, Resuming DOOM, Working status and model footer. Image shows coexisting UI; no proof of concurrency mechanism, playable runtime, or extension implementation."
+    },
+    {
+      "output": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/graphify-out/.graphify_chunk_10.json",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/exy.png",
+      "nodes": 4,
+      "edges": 3,
+      "hyperedges": 0,
+      "reading_depth": "full image viewed with vision",
+      "limitations": "Viewed full fish illustration: rounded body, spines, fins and detailed linework. Exact species and mascot identity are not visually established; Exy association is filename-only and marked ambiguous. Viewer background does not establish transparency."
+    },
+    {
+      "output": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/graphify-out/.graphify_chunk_11.json",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/interactive-mode.png",
+      "nodes": 12,
+      "edges": 11,
+      "hyperedges": 1,
+      "reading_depth": "full image viewed with vision",
+      "limitations": "Viewed screenshot with slight automatic resizing; readable startup header, five resource sections, greeting request, read and bash tool blocks, activity status and usage footer. Small footer numbers are not extracted as stable facts; screenshot is historic UI evidence, not current runtime verification."
+    },
+    {
+      "output": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/graphify-out/.graphify_chunk_12.json",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/docs/images/tree-view.png",
+      "nodes": 8,
+      "edges": 7,
+      "hyperedges": 1,
+      "reading_depth": "full image viewed with vision",
+      "limitations": "Viewed full tree screenshot with visible branch connectors, message roles, bracketed tool entries, selected row and counter. Long transcript lines are clipped, so no hidden content asserted. Commands inside screenshot treated as text evidence, never executed. Transcript completion claims do not verify repository state."
+    },
+    {
+      "output": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/graphify-out/.graphify_chunk_13.json",
+      "source_file": "/Users/jason/Workspace/Learning/Programming Languages/TypeScript Language/Pi Agent Harness/pi/packages/coding-agent/src/modes/interactive/assets/clankolas.png",
+      "nodes": 5,
+      "edges": 4,
+      "hyperedges": 0,
+      "reading_depth": "full image viewed with vision",
+      "limitations": "Viewed full illustration showing three pointed ear figures at a table with drinks in a rustic interior. Character identities, provenance, narrative and role in interactive mode cannot be established visually; filename association marked ambiguous."
+    }
+  ],
+  "failures": []
+}

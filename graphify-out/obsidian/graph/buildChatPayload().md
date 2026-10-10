@@ -1,0 +1,25 @@
+---
+source_file: "packages/ai/src/api/mistral-conversations.ts"
+type: "code"
+community: "AI 模型协议 102"
+location: "L513"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/AI_模型协议_102
+---
+
+# buildChatPayload()
+
+## Connections
+- [[getCurrentTools()]] - `calls` [EXTRACTED]
+- [[mapToolChoice()_1]] - `calls` [EXTRACTED]
+- [[shouldUsePromptCaching()]] - `calls` [EXTRACTED]
+- [[toChatMessages()]] - `calls` [EXTRACTED]
+- [[toFunctionTools()]] - `calls` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/AI_模型协议_102
+
+## 源码入口
+
+[packages/ai/src/api/mistral-conversations.ts](../../../packages/ai/src/api/mistral-conversations.ts)

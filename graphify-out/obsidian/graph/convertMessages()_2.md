@@ -1,0 +1,27 @@
+---
+source_file: "packages/ai/src/api/google-shared.ts"
+type: "code"
+community: "AI 模型协议 44"
+location: "L191"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/AI_模型协议_44
+---
+
+# convertMessages()
+
+## Connections
+- [[collapseSystemMessages()]] - `calls` [EXTRACTED]
+- [[requiresToolCallId()]] - `calls` [EXTRACTED]
+- [[resolveThoughtSignature()]] - `calls` [EXTRACTED]
+- [[sanitizeSurrogates()]] - `calls` [EXTRACTED]
+- [[supportsMultimodalFunctionResponse()]] - `calls` [EXTRACTED]
+- [[transformMessages()]] - `calls` [EXTRACTED]
+- [[withoutInitialSystemMessage()]] - `calls` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/AI_模型协议_44
+
+## 源码入口
+
+[packages/ai/src/api/google-shared.ts](../../../packages/ai/src/api/google-shared.ts)

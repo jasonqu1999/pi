@@ -1,0 +1,536 @@
+---
+type: community
+cohesion: 0.01
+members: 440
+---
+
+# AI 模型协议 1
+
+**Cohesion:** 0.01 - loosely connected
+**Members:** 440 nodes
+
+## Members
+- [[dot-constructor()_18]] - code - packages/ai/test/anthropic-empty-thinking-signature-compat.test.ts
+- [[dot-constructor()_20]] - code - packages/ai/test/anthropic-force-adaptive-thinking.test.ts
+- [[dot-constructor()_22]] - code - packages/ai/test/anthropic-temperature-compat.test.ts
+- [[dot-constructor()_23]] - code - packages/ai/test/anthropic-thinking-disable.test.ts
+- [[dot-constructor()_24]] - code - packages/ai/test/azure-openai-base-url.test.ts
+- [[dot-constructor()_25]] - code - packages/ai/test/bedrock-cache-write-1h-cost.test.ts
+- [[dot-constructor()_30]] - code - packages/ai/test/bedrock-custom-headers.test.ts
+- [[dot-constructor()_31]] - code - packages/ai/test/bedrock-endpoint-resolution.test.ts
+- [[dot-constructor()_32]] - code - packages/ai/test/bedrock-endpoint-resolution.test.ts
+- [[dot-constructor()_33]] - code - packages/ai/test/bedrock-error-metadata.test.ts
+- [[dot-constructor()_34]] - code - packages/ai/test/bedrock-raw-stop-reason.test.ts
+- [[dot-constructor()_36]] - code - packages/ai/test/bedrock-thinking-payload.test.ts
+- [[dot-constructor()_38]] - code - packages/ai/test/github-copilot-anthropic.test.ts
+- [[dot-constructor()_39]] - code - packages/ai/test/google-raw-stop-reason.test.ts
+- [[dot-constructor()_40]] - code - packages/ai/test/google-vertex-api-key-resolution.test.ts
+- [[dot-constructor()_42]] - code - packages/ai/test/openai-completions-empty-tools.test.ts
+- [[dot-constructor()_43]] - code - packages/ai/test/openai-completions-prompt-cache.test.ts
+- [[dot-constructor()_48]] - code - packages/ai/test/xiaomi-token-plan-ams-anthropic-empty-signature-smoke.test.ts
+- [[dot-send()_1]] - code - packages/ai/test/bedrock-cache-write-1h-cost.test.ts
+- [[dot-send()_4]] - code - packages/ai/test/bedrock-custom-headers.test.ts
+- [[dot-send()_5]] - code - packages/ai/test/bedrock-endpoint-resolution.test.ts
+- [[dot-send()_6]] - code - packages/ai/test/bedrock-error-metadata.test.ts
+- [[dot-send()_7]] - code - packages/ai/test/bedrock-raw-stop-reason.test.ts
+- [[12-full-control.ts]] - code - packages/coding-agent/examples/sdk/12-full-control.ts
+- [[ADAPTIVE_WITH_BINDING]] - code - packages/ai/test/bedrock-thinking-payload.test.ts
+- [[AUTH_PATH]] - code - packages/ai/test/oauth.ts
+- [[AnthropicPayload]] - code - packages/ai/test/anthropic-empty-thinking-signature-compat.test.ts
+- [[AnthropicPayload_2]] - code - packages/ai/test/xiaomi-token-plan-ams-anthropic-empty-signature-smoke.test.ts
+- [[AnthropicTemperaturePayload]] - code - packages/ai/test/anthropic-temperature-compat.test.ts
+- [[AnthropicThinkingPayload]] - code - packages/ai/test/anthropic-force-adaptive-thinking.test.ts
+- [[AnthropicThinkingPayload_1]] - code - packages/ai/test/anthropic-opus-4-8-smoke.test.ts
+- [[AnthropicThinkingPayload_2]] - code - packages/ai/test/anthropic-thinking-disable.test.ts
+- [[ApiKeyCredential_1]] - code - packages/ai/test/oauth.ts
+- [[ApiStreamFunction]] - code - packages/ai/src/compat.ts
+- [[ApiStreamSimpleFunction]] - code - packages/ai/src/compat.ts
+- [[AssistantMessage]] - code - packages/ai/src/types.ts
+- [[AuthCredential]] - code - packages/ai/test/oauth.ts
+- [[AuthStorage]] - code - packages/ai/test/oauth.ts
+- [[AzureOpenAI]] - code - packages/ai/test/azure-openai-base-url.test.ts
+- [[BUILTIN_APIS]] - code - packages/ai/src/compat.ts
+- [[BedrockRuntimeClient]] - code - packages/ai/test/bedrock-cache-write-1h-cost.test.ts
+- [[BedrockRuntimeClient_3]] - code - packages/ai/test/bedrock-custom-headers.test.ts
+- [[BedrockRuntimeClient_4]] - code - packages/ai/test/bedrock-endpoint-resolution.test.ts
+- [[BedrockRuntimeClient_5]] - code - packages/ai/test/bedrock-error-metadata.test.ts
+- [[BedrockRuntimeClient_6]] - code - packages/ai/test/bedrock-raw-stop-reason.test.ts
+- [[BedrockRuntimeServiceException]] - code - packages/ai/test/bedrock-cache-write-1h-cost.test.ts
+- [[BedrockRuntimeServiceException_3]] - code - packages/ai/test/bedrock-custom-headers.test.ts
+- [[BedrockRuntimeServiceException_4]] - code - packages/ai/test/bedrock-endpoint-resolution.test.ts
+- [[BedrockRuntimeServiceException_5]] - code - packages/ai/test/bedrock-error-metadata.test.ts
+- [[BedrockRuntimeServiceException_6]] - code - packages/ai/test/bedrock-raw-stop-reason.test.ts
+- [[BedrockThinkingPayload]] - code - packages/ai/test/bedrock-thinking-payload.test.ts
+- [[CacheControl]] - code - packages/ai/test/openai-completions-cache-control-format.test.ts
+- [[CachedContext]] - code - packages/ai/test/cross-provider-handoff.test.ts
+- [[CalculatorArguments]] - code - packages/ai/test/interleaved-thinking.test.ts
+- [[CalculatorOperation]] - code - packages/ai/test/interleaved-thinking.test.ts
+- [[CapturedAzureClientOptions]] - code - packages/ai/test/azure-openai-base-url.test.ts
+- [[CapturedAzureResponsesPayload]] - code - packages/ai/test/azure-openai-base-url.test.ts
+- [[CapturedCompletionsPayload]] - code - packages/ai/test/openai-completions-prompt-cache.test.ts
+- [[CapturedCompletionsPayload_1]] - code - packages/ai/test/openai-completions-vllm-priority.test.ts
+- [[CapturedHeaders]] - code - packages/ai/test/openai-responses-compat.test.ts
+- [[CapturedParams]] - code - packages/ai/test/openai-completions-cache-control-format.test.ts
+- [[CapturedParams_2]] - code - packages/ai/test/openai-completions-tool-choice.test.ts
+- [[CapturedPayload]] - code - packages/ai/test/anthropic-mid-conversation-effort.test.ts
+- [[CapturedRequest_1]] - code - packages/ai/test/fireworks-models.test.ts
+- [[CapturedRequest_3]] - code - packages/coding-agent/test/model-runtime-cloudflare-compat.test.ts
+- [[CapturedResponsePayload]] - code - packages/ai/test/openai-responses-tool-result-images.test.ts
+- [[CapturedResponsesPayload]] - code - packages/ai/test/openai-responses-compat.test.ts
+- [[ChatCompletionsRequestBody]] - code - packages/ai/test/openai-completions-thinking-as-text.test.ts
+- [[Context]] - code - packages/ai/src/types.ts
+- [[ConverseStreamCommand]] - code - packages/ai/test/bedrock-cache-write-1h-cost.test.ts
+- [[ConverseStreamCommand_3]] - code - packages/ai/test/bedrock-custom-headers.test.ts
+- [[ConverseStreamCommand_4]] - code - packages/ai/test/bedrock-endpoint-resolution.test.ts
+- [[ConverseStreamCommand_5]] - code - packages/ai/test/bedrock-error-metadata.test.ts
+- [[ConverseStreamCommand_6]] - code - packages/ai/test/bedrock-raw-stop-reason.test.ts
+- [[DisableExpectations]] - code - packages/ai/test/google-thinking-disable.test.ts
+- [[DynamicImport]] - code - packages/ai/src/env-api-keys.ts
+- [[FIREWORKS_ANTHROPIC_COMPAT]] - code - packages/ai/test/fireworks-models.test.ts
+- [[FakeAnthropic_2]] - code - packages/ai/test/github-copilot-anthropic.test.ts
+- [[FakeOpenAI]] - code - packages/ai/test/openai-completions-cache-control-format.test.ts
+- [[FakeOpenAI_1]] - code - packages/ai/test/openai-completions-empty-tools.test.ts
+- [[FakeOpenAI_2]] - code - packages/ai/test/openai-completions-prompt-cache.test.ts
+- [[FakeOpenAI_9]] - code - packages/ai/test/openai-completions-tool-choice.test.ts
+- [[FakeOpenAI_10]] - code - packages/ai/test/openai-completions-vllm-priority.test.ts
+- [[FakeOpenAIClientOptions]] - code - packages/ai/test/openai-completions-prompt-cache.test.ts
+- [[FetchFunction]] - code - packages/ai/src/types.ts
+- [[FunctionCallOutputItem]] - code - packages/ai/test/openai-responses-tool-result-images.test.ts
+- [[GoogleGenAI]] - code - packages/ai/test/google-raw-stop-reason.test.ts
+- [[GoogleGenAI_1]] - code - packages/ai/test/google-vertex-api-key-resolution.test.ts
+- [[InputImageItem]] - code - packages/ai/test/openai-responses-tool-result-images.test.ts
+- [[InputTextItem]] - code - packages/ai/test/openai-responses-tool-result-images.test.ts
+- [[MiddlewareHandler]] - code - packages/ai/test/bedrock-custom-headers.test.ts
+- [[MistralToolPayload]] - code - packages/ai/test/mistral-tool-schema.test.ts
+- [[OAuthCredentialEntry]] - code - packages/ai/test/oauth.ts
+- [[OPENROUTER_ANTHROPIC_LATEST_MODEL_IDS]] - code - packages/ai/test/openrouter-cache-control-models.test.ts
+- [[OpenAICompletionsCompat]] - code - packages/ai/src/types.ts
+- [[OverflowResult]] - code - packages/ai/test/context-overflow.test.ts
+- [[PROVIDER_MODEL_PAIRS]] - code - packages/ai/test/cross-provider-handoff.test.ts
+- [[PayloadCaptured]] - code - packages/ai/test/anthropic-empty-thinking-signature-compat.test.ts
+- [[PayloadCaptured_1]] - code - packages/ai/test/anthropic-force-adaptive-thinking.test.ts
+- [[PayloadCaptured_3]] - code - packages/ai/test/anthropic-temperature-compat.test.ts
+- [[PayloadCaptured_4]] - code - packages/ai/test/anthropic-thinking-disable.test.ts
+- [[PayloadCaptured_5]] - code - packages/ai/test/bedrock-thinking-payload.test.ts
+- [[PayloadCaptured_9]] - code - packages/ai/test/xiaomi-token-plan-ams-anthropic-empty-signature-smoke.test.ts
+- [[ProviderModelPair]] - code - packages/ai/test/cross-provider-handoff.test.ts
+- [[ProviderResponse]] - code - packages/ai/src/types.ts
+- [[RegisteredApiProvider]] - code - packages/ai/src/compat.ts
+- [[ResponseContentBlock]] - code - packages/ai/test/anthropic-sse-parsing.test.ts
+- [[RunResult]] - code - packages/ai/test/anthropic-thinking-disable.test.ts
+- [[RunResult_1]] - code - packages/ai/test/google-thinking-disable.test.ts
+- [[SendResult]] - code - packages/ai/test/bedrock-error-metadata.test.ts
+- [[SimpleOptionsWithExtras]] - code - packages/ai/test/google-thinking-disable.test.ts
+- [[StreamOptionsWithExtras]] - code - packages/ai/test/abort.test.ts
+- [[StreamOptionsWithExtras_1]] - code - packages/ai/test/empty.test.ts
+- [[StreamOptionsWithExtras_2]] - code - packages/ai/test/image-tool-result.test.ts
+- [[StreamOptionsWithExtras_3]] - code - packages/ai/test/openai-responses-tool-result-images.test.ts
+- [[StreamOptionsWithExtras_4]] - code - packages/ai/test/responseid.test.ts
+- [[StreamOptionsWithExtras_5]] - code - packages/ai/test/stream.test.ts
+- [[StreamOptionsWithExtras_6]] - code - packages/ai/test/tokens.test.ts
+- [[StreamOptionsWithExtras_7]] - code - packages/ai/test/tool-call-without-result.test.ts
+- [[StreamOptionsWithExtras_8]] - code - packages/ai/test/total-tokens.test.ts
+- [[StreamOptionsWithExtras_9]] - code - packages/ai/test/unicode-surrogate.test.ts
+- [[TextPart]] - code - packages/ai/test/openai-completions-cache-control-format.test.ts
+- [[ToolWithCacheControl]] - code - packages/ai/test/openai-completions-cache-control-format.test.ts
+- [[WireMessage]] - code - packages/ai/test/anthropic-mid-conversation-effort.test.ts
+- [[Symbol.asyncIterator()]] - code - packages/ai/test/openai-completions-cache-control-format.test.ts
+- [[Symbol.asyncIterator()_1]] - code - packages/ai/test/openai-completions-empty-tools.test.ts
+- [[Symbol.asyncIterator()_2]] - code - packages/ai/test/openai-completions-prompt-cache.test.ts
+- [[Symbol.asyncIterator()_9]] - code - packages/ai/test/openai-completions-tool-choice.test.ts
+- [[Symbol.asyncIterator()_10]] - code - packages/ai/test/openai-completions-vllm-priority.test.ts
+- [[__dirname_3]] - code - packages/ai/test/openai-responses-tool-result-images.test.ts
+- [[__dirname_4]] - code - packages/ai/test/stream.test.ts
+- [[__filename_3]] - code - packages/ai/test/openai-responses-tool-result-images.test.ts
+- [[__filename_4]] - code - packages/ai/test/stream.test.ts
+- [[abort.test.ts]] - code - packages/ai/test/abort.test.ts
+- [[aitestmax-thinking.test.ts]] - code - packages/ai/test/max-thinking.test.ts
+- [[anthropic-cache-write-1h-cost.test.ts]] - code - packages/ai/test/anthropic-cache-write-1h-cost.test.ts
+- [[anthropic-empty-thinking-signature-compat.test.ts]] - code - packages/ai/test/anthropic-empty-thinking-signature-compat.test.ts
+- [[anthropic-force-adaptive-thinking.test.ts]] - code - packages/ai/test/anthropic-force-adaptive-thinking.test.ts
+- [[anthropic-mid-conversation-effort.test.ts]] - code - packages/ai/test/anthropic-mid-conversation-effort.test.ts
+- [[anthropic-opus-4-8-smoke.test.ts]] - code - packages/ai/test/anthropic-opus-4-8-smoke.test.ts
+- [[anthropic-sse-parsing.test.ts]] - code - packages/ai/test/anthropic-sse-parsing.test.ts
+- [[anthropic-temperature-compat.test.ts]] - code - packages/ai/test/anthropic-temperature-compat.test.ts
+- [[anthropic-thinking-binding-e2e.test.ts]] - code - packages/ai/test/anthropic-thinking-binding-e2e.test.ts
+- [[anthropic-thinking-disable.test.ts]] - code - packages/ai/test/anthropic-thinking-disable.test.ts
+- [[anthropic-tool-name-normalization.test.ts]] - code - packages/ai/test/anthropic-tool-name-normalization.test.ts
+- [[apiKey]] - code - packages/ai/test/xiaomi-token-plan-ams-anthropic-empty-signature-smoke.test.ts
+- [[apiProviderRegistry]] - code - packages/ai/src/compat.ts
+- [[asCalculatorArguments()]] - code - packages/ai/test/interleaved-thinking.test.ts
+- [[assertSecondToolCallWithInterleavedThinking()]] - code - packages/ai/test/interleaved-thinking.test.ts
+- [[assertTotalTokensEqualsComponents()]] - code - packages/ai/test/total-tokens.test.ts
+- [[assistant()]] - code - packages/ai/test/anthropic-mid-conversation-effort.test.ts
+- [[azure-openai-base-url.test.ts]] - code - packages/ai/test/azure-openai-base-url.test.ts
+- [[azure-utils.ts]] - code - packages/ai/test/azure-utils.ts
+- [[azureMock]] - code - packages/ai/test/azure-openai-base-url.test.ts
+- [[baseten-models.test.ts]] - code - packages/ai/test/baseten-models.test.ts
+- [[basicTextGeneration()]] - code - packages/ai/test/stream.test.ts
+- [[bedrock-cache-write-1h-cost.test.ts]] - code - packages/ai/test/bedrock-cache-write-1h-cost.test.ts
+- [[bedrock-custom-headers.test.ts]] - code - packages/ai/test/bedrock-custom-headers.test.ts
+- [[bedrock-endpoint-resolution.test.ts]] - code - packages/ai/test/bedrock-endpoint-resolution.test.ts
+- [[bedrock-error-metadata.test.ts]] - code - packages/ai/test/bedrock-error-metadata.test.ts
+- [[bedrock-raw-stop-reason.test.ts]] - code - packages/ai/test/bedrock-raw-stop-reason.test.ts
+- [[bedrock-response-headers.test.ts]] - code - packages/ai/test/bedrock-response-headers.test.ts
+- [[bedrock-thinking-payload.test.ts]] - code - packages/ai/test/bedrock-thinking-payload.test.ts
+- [[bedrock-utils.ts]] - code - packages/ai/test/bedrock-utils.ts
+- [[bedrockMock_2]] - code - packages/ai/test/bedrock-custom-headers.test.ts
+- [[bedrockMock_3]] - code - packages/ai/test/bedrock-endpoint-resolution.test.ts
+- [[bedrockMock_4]] - code - packages/ai/test/bedrock-error-metadata.test.ts
+- [[bedrockMock_5]] - code - packages/ai/test/bedrock-raw-stop-reason.test.ts
+- [[buildAssistant()]] - code - packages/ai/test/openai-completions-thinking-as-text.test.ts
+- [[buildContext()]] - code - packages/ai/test/openai-completions-thinking-as-text.test.ts
+- [[buildEmptyToolResult()]] - code - packages/ai/test/openai-completions-tool-result-images.test.ts
+- [[buildEmptyToolResult()_1]] - code - packages/ai/test/openai-responses-empty-tool-result.test.ts
+- [[buildModel()]] - code - packages/ai/test/openai-completions-thinking-as-text.test.ts
+- [[buildPrefilledMessages()]] - code - packages/ai/test/tool-call-id-normalization.test.ts
+- [[buildToolResult()]] - code - packages/ai/test/openai-completions-tool-result-images.test.ts
+- [[builtinApiProviderInstances]] - code - packages/ai/src/compat.ts
+- [[calculateSchema_1]] - code - packages/ai/test/tool-call-without-result.test.ts
+- [[calculateTool_1]] - code - packages/ai/test/tool-call-without-result.test.ts
+- [[calculatorSchema]] - code - packages/ai/test/interleaved-thinking.test.ts
+- [[calculatorSchema_1]] - code - packages/ai/test/stream.test.ts
+- [[calculatorTool]] - code - packages/ai/test/interleaved-thinking.test.ts
+- [[calculatorTool_1]] - code - packages/ai/test/stream.test.ts
+- [[capture()]] - code - packages/ai/test/anthropic-mid-conversation-effort.test.ts
+- [[captureAnthropicRequest()_1]] - code - packages/ai/test/fireworks-models.test.ts
+- [[captureClientBaseUrl()]] - code - packages/ai/test/azure-openai-base-url.test.ts
+- [[captureClientConfig()_1]] - code - packages/ai/test/bedrock-endpoint-resolution.test.ts
+- [[captureClientHeaders()]] - code - packages/ai/test/azure-openai-base-url.test.ts
+- [[captureGoogleHeaders()]] - code - packages/ai/test/google-raw-stop-reason.test.ts
+- [[captureOpenAIResponseHeaders()]] - code - packages/ai/test/openai-responses-compat.test.ts
+- [[capturePayload()]] - code - packages/ai/test/anthropic-empty-thinking-signature-compat.test.ts
+- [[capturePayload()_1]] - code - packages/ai/test/anthropic-force-adaptive-thinking.test.ts
+- [[capturePayload()_2]] - code - packages/ai/test/anthropic-temperature-compat.test.ts
+- [[capturePayload()_3]] - code - packages/ai/test/anthropic-thinking-disable.test.ts
+- [[capturePayload()_6]] - code - packages/ai/test/bedrock-thinking-payload.test.ts
+- [[capturePayload()_8]] - code - packages/ai/test/openai-completions-cache-control-format.test.ts
+- [[captureReplayPayload()]] - code - packages/ai/test/xiaomi-token-plan-ams-anthropic-empty-signature-smoke.test.ts
+- [[captureRequest()]] - code - packages/ai/test/openai-completions-prompt-cache.test.ts
+- [[captureRequest()_1]] - code - packages/ai/test/openai-completions-vllm-priority.test.ts
+- [[captureSimpleParams()]] - code - packages/ai/test/openai-completions-tool-choice.test.ts
+- [[clearApiProviders()]] - code - packages/ai/src/compat.ts
+- [[cloudflare-utils.ts]] - code - packages/ai/test/cloudflare-utils.ts
+- [[collectEvents()_1]] - code - packages/ai/test/openai-completions-thinking-as-text.test.ts
+- [[compat]] - code - packages/ai/test/openai-completions-thinking-as-text.test.ts
+- [[compat_1]] - code - packages/ai/test/openai-completions-tool-result-images.test.ts
+- [[compat-env.test.ts]] - code - packages/ai/test/compat-env.test.ts
+- [[compat.ts]] - code - packages/ai/src/compat.ts
+- [[compatModels]] - code - packages/ai/src/compat.ts
+- [[complete()]] - code - packages/ai/src/compat.ts
+- [[completeSimple()]] - code - packages/ai/src/compat.ts
+- [[context_2]] - code - packages/ai/test/anthropic-cache-write-1h-cost.test.ts
+- [[context_5]] - code - packages/ai/test/azure-openai-base-url.test.ts
+- [[context_6]] - code - packages/ai/test/bedrock-cache-write-1h-cost.test.ts
+- [[context_8]] - code - packages/ai/test/bedrock-custom-headers.test.ts
+- [[context_9]] - code - packages/ai/test/bedrock-endpoint-resolution.test.ts
+- [[context_10]] - code - packages/ai/test/bedrock-error-metadata.test.ts
+- [[context_11]] - code - packages/ai/test/bedrock-raw-stop-reason.test.ts
+- [[context_15]] - code - packages/ai/test/compat-env.test.ts
+- [[context_17]] - code - packages/ai/test/google-raw-stop-reason.test.ts
+- [[context_19]] - code - packages/ai/test/google-vertex-api-key-resolution.test.ts
+- [[context_22]] - code - packages/ai/test/mistral-raw-stop-reason.test.ts
+- [[context-overflow.test.ts]] - code - packages/ai/test/context-overflow.test.ts
+- [[countPongs()]] - code - packages/ai/test/anthropic-thinking-disable.test.ts
+- [[countPongs()_1]] - code - packages/ai/test/google-thinking-disable.test.ts
+- [[createAnthropicModel()]] - code - packages/ai/test/fireworks-models.test.ts
+- [[createBytewiseSseResponse()]] - code - packages/ai/test/mistral-http-transport.test.ts
+- [[createCapturingFetch()]] - code - packages/coding-agent/test/model-runtime-cloudflare-compat.test.ts
+- [[createContext()_1]] - code - packages/ai/test/fireworks-models.test.ts
+- [[createFakeAnthropicClient()]] - code - packages/ai/test/anthropic-cache-write-1h-cost.test.ts
+- [[createFakeAnthropicClient()_1]] - code - packages/ai/test/anthropic-sse-parsing.test.ts
+- [[createFetch()_1]] - code - packages/ai/test/mistral-raw-stop-reason.test.ts
+- [[createFireworksModel()]] - code - packages/ai/test/fireworks-models.test.ts
+- [[createLongSystemPrompt()]] - code - packages/ai/test/openrouter-cache-write-repro.test.ts
+- [[createModel()_5]] - code - packages/ai/test/openai-completions-prompt-cache.test.ts
+- [[createModel()_6]] - code - packages/ai/test/openai-completions-vllm-priority.test.ts
+- [[createOpenRouterModel()]] - code - packages/ai/test/fireworks-models.test.ts
+- [[createResponseModelSseResponse()]] - code - packages/ai/test/anthropic-sse-parsing.test.ts
+- [[createSseResponse()_1]] - code - packages/ai/test/anthropic-cache-write-1h-cost.test.ts
+- [[createSseResponse()_3]] - code - packages/ai/test/anthropic-sse-parsing.test.ts
+- [[createSseResponse()_4]] - code - packages/ai/test/github-copilot-anthropic.test.ts
+- [[createSseResponse()_5]] - code - packages/ai/test/mistral-http-transport.test.ts
+- [[createTerminalEvent()]] - code - packages/ai/test/mistral-http-transport.test.ts
+- [[cross-provider-handoff.test.ts]] - code - packages/ai/test/cross-provider-handoff.test.ts
+- [[cwd_2]] - code - packages/coding-agent/examples/sdk/12-full-control.ts
+- [[driveBedrock()]] - code - packages/ai/test/bedrock-custom-headers.test.ts
+- [[dumpFailurePayload()]] - code - packages/ai/test/cross-provider-handoff.test.ts
+- [[echoTool_1]] - code - packages/ai/test/tool-call-id-normalization.test.ts
+- [[echoToolSchema_1]] - code - packages/ai/test/tool-call-id-normalization.test.ts
+- [[effortMessages()]] - code - packages/ai/test/anthropic-mid-conversation-effort.test.ts
+- [[empty.test.ts]] - code - packages/ai/test/empty.test.ts
+- [[emptySchema]] - code - packages/ai/test/unicode-surrogate.test.ts
+- [[emptyUsage_1]] - code - packages/ai/test/openai-completions-thinking-as-text.test.ts
+- [[emptyUsage_2]] - code - packages/ai/test/openai-completions-tool-result-images.test.ts
+- [[enabled_2]] - code - packages/ai/test/anthropic-thinking-binding-e2e.test.ts
+- [[env-api-keys.test.ts]] - code - packages/ai/test/env-api-keys.test.ts
+- [[env-api-keys.ts]] - code - packages/ai/src/env-api-keys.ts
+- [[evaluateCalculatorCall()]] - code - packages/ai/test/interleaved-thinking.test.ts
+- [[eventsWithCacheCreation()]] - code - packages/ai/test/anthropic-cache-write-1h-cost.test.ts
+- [[expectAnthropicCacheMarkers()]] - code - packages/ai/test/openai-completions-cache-control-format.test.ts
+- [[expectResponseId()]] - code - packages/ai/test/responseid.test.ts
+- [[expectThinkingDisabledE2E()]] - code - packages/ai/test/google-thinking-disable.test.ts
+- [[findCustomHeadersRegistration()]] - code - packages/ai/test/bedrock-custom-headers.test.ts
+- [[findDiagnostic()]] - code - packages/ai/test/bedrock-error-metadata.test.ts
+- [[findEnvKeys()]] - code - packages/ai/src/env-api-keys.ts
+- [[fireworks-models.test.ts]] - code - packages/ai/test/fireworks-models.test.ts
+- [[generateContext()]] - code - packages/ai/test/cross-provider-handoff.test.ts
+- [[generateOverflowContent()]] - code - packages/ai/test/context-overflow.test.ts
+- [[get()_6]] - code - packages/durable/test/provider-session-cache-e2e.test.ts
+- [[getApiKey()]] - code - packages/ai/test/cross-provider-handoff.test.ts
+- [[getApiKeyEnvVars()]] - code - packages/ai/src/env-api-keys.ts
+- [[getApiProvider()]] - code - packages/ai/src/compat.ts
+- [[getApiProviders()]] - code - packages/ai/src/compat.ts
+- [[getBuiltinModel()]] - code - packages/ai/src/providers/all.ts
+- [[getBuiltinProviderForModel()]] - code - packages/ai/src/compat.ts
+- [[getEnvApiKey()]] - code - packages/ai/src/env-api-keys.ts
+- [[getHeader()]] - code - packages/ai/test/openai-responses-compat.test.ts
+- [[getHeaders()]] - code - packages/ai/test/cross-provider-handoff.test.ts
+- [[getImageSchema]] - code - packages/ai/test/openai-responses-tool-result-images.test.ts
+- [[getImageTool]] - code - packages/ai/test/openai-responses-tool-result-images.test.ts
+- [[getInstructionMessage()]] - code - packages/ai/test/openai-completions-cache-control-format.test.ts
+- [[getModel]] - code - packages/ai/src/compat.ts
+- [[getModelFixture()]] - code - packages/ai/test/bedrock-custom-headers.test.ts
+- [[getModelFixture()_1]] - code - packages/ai/test/bedrock-error-metadata.test.ts
+- [[getSupportedThinkingLevels()]] - code - packages/ai/src/models.ts
+- [[getThinkingBlocks()]] - code - packages/ai/test/xiaomi-token-plan-ams-anthropic-empty-signature-smoke.test.ts
+- [[getTools()]] - code - packages/ai/test/fireworks-models.test.ts
+- [[github-copilot-anthropic.test.ts]] - code - packages/ai/test/github-copilot-anthropic.test.ts
+- [[google-raw-stop-reason.test.ts]] - code - packages/ai/test/google-raw-stop-reason.test.ts
+- [[google-thinking-disable.test.ts]] - code - packages/ai/test/google-thinking-disable.test.ts
+- [[google-vertex-api-key-resolution.test.ts]] - code - packages/ai/test/google-vertex-api-key-resolution.test.ts
+- [[googleGenAiMock]] - code - packages/ai/test/google-raw-stop-reason.test.ts
+- [[googleGenAiMock_1]] - code - packages/ai/test/google-vertex-api-key-resolution.test.ts
+- [[handleImage()]] - code - packages/ai/test/stream.test.ts
+- [[handleStreaming()]] - code - packages/ai/test/stream.test.ts
+- [[handleThinking()]] - code - packages/ai/test/stream.test.ts
+- [[handleToolCall()]] - code - packages/ai/test/stream.test.ts
+- [[handleToolWithImageResult()]] - code - packages/ai/test/image-tool-result.test.ts
+- [[handleToolWithTextAndImageResult()]] - code - packages/ai/test/image-tool-result.test.ts
+- [[hasAnyApiKey()]] - code - packages/ai/test/cross-provider-handoff.test.ts
+- [[hasApiKey()]] - code - packages/ai/test/cross-provider-handoff.test.ts
+- [[hasAzureOpenAICredentials()]] - code - packages/ai/test/azure-utils.ts
+- [[hasBedrockCredentials()]] - code - packages/ai/test/bedrock-utils.ts
+- [[hasCloudflareAiGatewayCredentials()]] - code - packages/ai/test/cloudflare-utils.ts
+- [[hasCloudflareWorkersAICredentials()]] - code - packages/ai/test/cloudflare-utils.ts
+- [[hasExplicitApiKey()]] - code - packages/ai/src/compat.ts
+- [[hasResolvedCloudflareAuth()]] - code - packages/ai/src/compat.ts
+- [[hasVertexAdcCredentials()]] - code - packages/ai/src/env-api-keys.ts
+- [[image-tool-result.test.ts]] - code - packages/ai/test/image-tool-result.test.ts
+- [[interleaved-thinking.test.ts]] - code - packages/ai/test/interleaved-thinking.test.ts
+- [[loadAuthStorage()]] - code - packages/ai/test/oauth.ts
+- [[localOpenAICompletionsModel]] - code - packages/ai/test/openai-completions-tool-choice.test.ts
+- [[logResult()]] - code - packages/ai/test/context-overflow.test.ts
+- [[logUsage()]] - code - packages/ai/test/total-tokens.test.ts
+- [[makeContext()]] - code - packages/ai/test/anthropic-empty-thinking-signature-compat.test.ts
+- [[makeContext()_1]] - code - packages/ai/test/anthropic-force-adaptive-thinking.test.ts
+- [[makeContext()_2]] - code - packages/ai/test/anthropic-opus-4-8-smoke.test.ts
+- [[makeContext()_3]] - code - packages/ai/test/anthropic-temperature-compat.test.ts
+- [[makeContext()_4]] - code - packages/ai/test/bedrock-thinking-payload.test.ts
+- [[makeContext()_8]] - code - packages/ai/test/google-thinking-disable.test.ts
+- [[makeContext()_11]] - code - packages/ai/test/xhigh.test.ts
+- [[makeCustomModel()]] - code - packages/ai/test/anthropic-force-adaptive-thinking.test.ts
+- [[makeCustomModel()_1]] - code - packages/ai/test/anthropic-temperature-compat.test.ts
+- [[makeE2EContext()]] - code - packages/ai/test/anthropic-thinking-disable.test.ts
+- [[makeInitialContext()]] - code - packages/ai/test/xiaomi-token-plan-ams-anthropic-empty-signature-smoke.test.ts
+- [[makeModel()]] - code - packages/ai/test/anthropic-empty-thinking-signature-compat.test.ts
+- [[makePayloadCaptureContext()]] - code - packages/ai/test/anthropic-thinking-disable.test.ts
+- [[makeServiceException()]] - code - packages/ai/test/bedrock-error-metadata.test.ts
+- [[managedModel()]] - code - packages/ai/test/anthropic-mid-conversation-effort.test.ts
+- [[message()]] - code - packages/ai/test/compat-env.test.ts
+- [[minimalAnthropicEvents]] - code - packages/ai/test/anthropic-sse-parsing.test.ts
+- [[mistral-http-transport.test.ts]] - code - packages/ai/test/mistral-http-transport.test.ts
+- [[mistral-raw-stop-reason.test.ts]] - code - packages/ai/test/mistral-raw-stop-reason.test.ts
+- [[mistral-tool-schema.test.ts]] - code - packages/ai/test/mistral-tool-schema.test.ts
+- [[mockState_2]] - code - packages/ai/test/github-copilot-anthropic.test.ts
+- [[mockState_3]] - code - packages/ai/test/openai-completions-cache-control-format.test.ts
+- [[mockState_4]] - code - packages/ai/test/openai-completions-empty-tools.test.ts
+- [[mockState_5]] - code - packages/ai/test/openai-completions-prompt-cache.test.ts
+- [[mockState_12]] - code - packages/ai/test/openai-completions-tool-choice.test.ts
+- [[mockState_13]] - code - packages/ai/test/openai-completions-vllm-priority.test.ts
+- [[mockToken()]] - code - packages/ai/test/max-thinking.test.ts
+- [[model_3]] - code - packages/ai/test/anthropic-thinking-binding-e2e.test.ts
+- [[model_5]] - code - packages/ai/test/bedrock-cache-write-1h-cost.test.ts
+- [[model_6]] - code - packages/ai/test/bedrock-raw-stop-reason.test.ts
+- [[model_8]] - code - packages/ai/test/compat-env.test.ts
+- [[model_10]] - code - packages/ai/test/google-vertex-api-key-resolution.test.ts
+- [[model_11]] - code - packages/ai/test/mistral-raw-stop-reason.test.ts
+- [[model_21]] - code - packages/ai/test/xiaomi-token-plan-ams-anthropic-empty-signature-smoke.test.ts
+- [[model_22]] - code - packages/coding-agent/examples/sdk/12-full-control.ts
+- [[model-runtime-cloudflare-compat.test.ts]] - code - packages/coding-agent/test/model-runtime-cloudflare-compat.test.ts
+- [[multiTurn()]] - code - packages/ai/test/stream.test.ts
+- [[nativeAnthropicProvider()]] - code - packages/coding-agent/test/agent-session-dynamic-provider.test.ts
+- [[normalizeContext()]] - code - packages/ai/src/utils/transcript.ts
+- [[openai-codex-cache-affinity-e2e.test.ts]] - code - packages/ai/test/openai-codex-cache-affinity-e2e.test.ts
+- [[openai-completions-cache-control-format.test.ts]] - code - packages/ai/test/openai-completions-cache-control-format.test.ts
+- [[openai-completions-empty-tools.test.ts]] - code - packages/ai/test/openai-completions-empty-tools.test.ts
+- [[openai-completions-prompt-cache.test.ts]] - code - packages/ai/test/openai-completions-prompt-cache.test.ts
+- [[openai-completions-thinking-as-text.test.ts]] - code - packages/ai/test/openai-completions-thinking-as-text.test.ts
+- [[openai-completions-tool-choice.test.ts]] - code - packages/ai/test/openai-completions-tool-choice.test.ts
+- [[openai-completions-tool-result-images.test.ts]] - code - packages/ai/test/openai-completions-tool-result-images.test.ts
+- [[openai-completions-vllm-priority.test.ts]] - code - packages/ai/test/openai-completions-vllm-priority.test.ts
+- [[openai-responses-cache-affinity-e2e.test.ts]] - code - packages/ai/test/openai-responses-cache-affinity-e2e.test.ts
+- [[openai-responses-compat.test.ts]] - code - packages/ai/test/openai-responses-compat.test.ts
+- [[openai-responses-empty-tool-result.test.ts]] - code - packages/ai/test/openai-responses-empty-tool-result.test.ts
+- [[openai-responses-foreign-toolcall-id.test.ts]] - code - packages/ai/test/openai-responses-foreign-toolcall-id.test.ts
+- [[openai-responses-message-id.test.ts]] - code - packages/ai/test/openai-responses-message-id.test.ts
+- [[openai-responses-reasoning-replay-e2e.test.ts]] - code - packages/ai/test/openai-responses-reasoning-replay-e2e.test.ts
+- [[openai-responses-tool-result-images.test.ts]] - code - packages/ai/test/openai-responses-tool-result-images.test.ts
+- [[openrouter-cache-control-models.test.ts]] - code - packages/ai/test/openrouter-cache-control-models.test.ts
+- [[openrouter-cache-write-repro.test.ts]] - code - packages/ai/test/openrouter-cache-write-repro.test.ts
+- [[openrouterKey]] - code - packages/ai/test/tool-call-id-normalization.test.ts
+- [[packages_ai_src_compat_clampthinkinglevel]] - concept
+- [[packages_ai_src_compat_getenvapikey]] - concept
+- [[packages_ai_src_compat_getsupportedthinkinglevels]] - concept
+- [[packages_ai_src_compat_normalizecontext]] - concept
+- [[packages_ai_src_compat_streamoptions]] - concept
+- [[packages_ai_src_compat_tool]] - concept
+- [[parseDeploymentNameMap()_1]] - code - packages/ai/test/azure-utils.ts
+- [[readRequestBody()_1]] - code - packages/ai/test/fireworks-models.test.ts
+- [[ref_anthropic_ai_sdk]] - concept
+- [[registerApiProvider()]] - code - packages/ai/src/compat.ts
+- [[registerBuiltInApiProviders()]] - code - packages/ai/src/compat.ts
+- [[request()]] - code - packages/ai/test/anthropic-thinking-binding-e2e.test.ts
+- [[request()_1]] - code - packages/coding-agent/test/cache-warmer.test.ts
+- [[resetApiProviders()]] - code - packages/ai/src/compat.ts
+- [[resolveApiKey()_2]] - code - packages/ai/test/oauth.ts
+- [[resolveApiProvider()]] - code - packages/ai/src/compat.ts
+- [[resolveAzureDeploymentName()]] - code - packages/ai/test/azure-utils.ts
+- [[resourceLoader_1]] - code - packages/coding-agent/examples/sdk/12-full-control.ts
+- [[respondWithFailingStream()]] - code - packages/ai/test/bedrock-error-metadata.test.ts
+- [[responseid.test.ts]] - code - packages/ai/test/responseid.test.ts
+- [[runBedrock()]] - code - packages/ai/test/bedrock-error-metadata.test.ts
+- [[runWithoutReasoning()]] - code - packages/ai/test/anthropic-thinking-disable.test.ts
+- [[runWithoutReasoning()_1]] - code - packages/ai/test/google-thinking-disable.test.ts
+- [[saveAuthStorage()]] - code - packages/ai/test/oauth.ts
+- [[settingsManager_1]] - code - packages/coding-agent/examples/sdk/12-full-control.ts
+- [[start()_1]] - code - packages/ai/test/mistral-http-transport.test.ts
+- [[startBedrockResponseServer()]] - code - packages/ai/test/bedrock-response-headers.test.ts
+- [[stream()_10]] - code - packages/ai/src/compat.ts
+- [[stream.test.ts]] - code - packages/ai/test/stream.test.ts
+- [[strictBinding()]] - code - packages/ai/test/anthropic-thinking-binding-e2e.test.ts
+- [[supports-xhigh.test.ts]] - code - packages/ai/test/supports-xhigh.test.ts
+- [[testoauth.ts]] - code - packages/ai/test/oauth.ts
+- [[testAbortSignal()]] - code - packages/ai/test/abort.test.ts
+- [[testAbortThenNewMessage()]] - code - packages/ai/test/abort.test.ts
+- [[testContextOverflow()]] - code - packages/ai/test/context-overflow.test.ts
+- [[testEmojiInToolResults()]] - code - packages/ai/test/unicode-surrogate.test.ts
+- [[testEmptyAssistantMessage()]] - code - packages/ai/test/empty.test.ts
+- [[testEmptyMessage()]] - code - packages/ai/test/empty.test.ts
+- [[testEmptyStringMessage()]] - code - packages/ai/test/empty.test.ts
+- [[testImmediateAbort()]] - code - packages/ai/test/abort.test.ts
+- [[testRealWorldLinkedInData()]] - code - packages/ai/test/unicode-surrogate.test.ts
+- [[testTokensOnAbort()]] - code - packages/ai/test/tokens.test.ts
+- [[testTool]] - code - packages/ai/test/cross-provider-handoff.test.ts
+- [[testTool_1]] - code - packages/ai/test/openai-responses-reasoning-replay-e2e.test.ts
+- [[testToolCallWithoutResult()]] - code - packages/ai/test/tool-call-without-result.test.ts
+- [[testToolSchema]] - code - packages/ai/test/cross-provider-handoff.test.ts
+- [[testToolSchema_1]] - code - packages/ai/test/openai-responses-reasoning-replay-e2e.test.ts
+- [[testTotalTokensWithCache()]] - code - packages/ai/test/total-tokens.test.ts
+- [[testUnpairedHighSurrogate()]] - code - packages/ai/test/unicode-surrogate.test.ts
+- [[testWhitespaceOnlyMessage()]] - code - packages/ai/test/empty.test.ts
+- [[together-models.test.ts]] - code - packages/ai/test/together-models.test.ts
+- [[tokens.test.ts]] - code - packages/ai/test/tokens.test.ts
+- [[tool_2]] - code - packages/ai/test/fireworks-models.test.ts
+- [[tool-call-id-normalization.test.ts]] - code - packages/ai/test/tool-call-id-normalization.test.ts
+- [[tool-call-without-result.test.ts]] - code - packages/ai/test/tool-call-without-result.test.ts
+- [[total-tokens.test.ts]] - code - packages/ai/test/total-tokens.test.ts
+- [[typebox-helpers.ts]] - code - packages/ai/src/utils/typebox-helpers.ts
+- [[unicode-surrogate.test.ts]] - code - packages/ai/test/unicode-surrogate.test.ts
+- [[unregisterApiProviders()]] - code - packages/ai/src/compat.ts
+- [[usage_2]] - code - packages/ai/test/openai-responses-empty-tool-result.test.ts
+- [[usage_3]] - code - packages/ai/test/openai-responses-foreign-toolcall-id.test.ts
+- [[usage_4]] - code - packages/ai/test/openai-responses-message-id.test.ts
+- [[user()]] - code - packages/ai/test/anthropic-mid-conversation-effort.test.ts
+- [[user()_1]] - code - packages/ai/test/anthropic-thinking-binding-e2e.test.ts
+- [[verifyToolResultImagesStayInFunctionCallOutput()]] - code - packages/ai/test/openai-responses-tool-result-images.test.ts
+- [[withEnvApiKey()]] - code - packages/ai/src/compat.ts
+- [[wrapStream()]] - code - packages/ai/src/compat.ts
+- [[wrapStreamSimple()]] - code - packages/ai/src/compat.ts
+- [[writeEmptySseResponse()_1]] - code - packages/ai/test/fireworks-models.test.ts
+- [[xhigh.test.ts]] - code - packages/ai/test/xhigh.test.ts
+- [[xiaomi-token-plan-ams-anthropic-empty-signature-smoke.test.ts]] - code - packages/ai/test/xiaomi-token-plan-ams-anthropic-empty-signature-smoke.test.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/AI_模型协议_1
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 117 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 115 edges to [[_COMMUNITY_AI 模型协议 22]]
+- 105 edges to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 96 edges to [[_COMMUNITY_Coding Agent 会话工具 15]]
+- 78 edges to [[_COMMUNITY_AI 模型协议 25]]
+- 61 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 40 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 38 edges to [[_COMMUNITY_AI 模型协议 44]]
+- 37 edges to [[_COMMUNITY_AI 模型协议 130]]
+- 31 edges to [[_COMMUNITY_AI 模型协议 54]]
+- 30 edges to [[_COMMUNITY_AI 模型协议 55]]
+- 29 edges to [[_COMMUNITY_AI 模型协议 63]]
+- 29 edges to [[_COMMUNITY_AI 模型协议 90]]
+- 28 edges to [[_COMMUNITY_AI 模型协议 74]]
+- 27 edges to [[_COMMUNITY_AI 模型协议 52]]
+- 27 edges to [[_COMMUNITY_Coding Agent 会话工具 19]]
+- 20 edges to [[_COMMUNITY_AI 模型协议 106]]
+- 11 edges to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 29]]
+- 9 edges to [[_COMMUNITY_AI 模型协议 102]]
+- 8 edges to [[_COMMUNITY_AI 模型协议 140]]
+- 8 edges to [[_COMMUNITY_AI 模型协议 148]]
+- 8 edges to [[_COMMUNITY_Client 远程连接 14]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 66]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 46]]
+- 6 edges to [[_COMMUNITY_Agent 控制循环 82]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 27]]
+- 6 edges to [[_COMMUNITY_AI 模型协议 35]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 31]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 41]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 65]]
+- 5 edges to [[_COMMUNITY_AI 模型协议 51]]
+- 5 edges to [[_COMMUNITY_Durable 持久任务 21]]
+- 5 edges to [[_COMMUNITY_AI 模型协议 307]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 79]]
+- 5 edges to [[_COMMUNITY_AI 模型协议 232]]
+- 4 edges to [[_COMMUNITY_Agent 控制循环 85]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 237]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 94]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 43]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 249]]
+- 3 edges to [[_COMMUNITY_Durable 持久任务 86]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 69]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 143]]
+- 3 edges to [[_COMMUNITY_Durable 持久任务 5]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 278]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 17]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 24]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 78]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 205]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 39]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 84]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 149]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 56]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 64]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 203]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 156]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 370]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 322]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 9]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 165]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 75]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 23]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 119]]
+- 1 edge to [[_COMMUNITY_Evals 行为评估 183]]
+
+## Top bridge nodes
+- [[compat.ts]] - degree 225, connects to 13 communities
+- [[stream.test.ts]] - degree 44, connects to 11 communities
+- [[openai-responses-tool-result-images.test.ts]] - degree 38, connects to 9 communities
+- [[fireworks-models.test.ts]] - degree 33, connects to 9 communities
+- [[image-tool-result.test.ts]] - degree 31, connects to 9 communities

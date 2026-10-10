@@ -1,0 +1,24 @@
+---
+source_file: "packages/mcp/src/client.ts"
+type: "code"
+community: "Coding Agent 会话工具 50"
+location: "L386"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Coding_Agent_会话工具_50
+---
+
+# .close()
+
+## Connections
+- [[dot-close()_44]] - `calls` [EXTRACTED]
+- [[dot-disposeTransportListeners()]] - `calls` [EXTRACTED]
+- [[dot-markClosed()_2]] - `calls` [EXTRACTED]
+- [[McpConnectionClosedError]] - `calls` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Coding_Agent_会话工具_50
+
+## 源码入口
+
+[packages/mcp/src/client.ts](../../../packages/mcp/src/client.ts)

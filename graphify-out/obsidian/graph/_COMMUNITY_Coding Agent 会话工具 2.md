@@ -1,0 +1,693 @@
+---
+type: community
+cohesion: 0.01
+members: 422
+---
+
+# Coding Agent 会话工具 2
+
+**Cohesion:** 0.01 - loosely connected
+**Members:** 422 nodes
+
+## Members
+- [[dot-_appendEntry()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-_buildIndex()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-_hasConversation()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-_loadEntries()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-_persist()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-_rewriteFile()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-appendContextEdit()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-appendCustomEntry()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-appendLabelChange()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-appendMessage()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-appendModelChange()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-appendSessionInfo()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-appendThinkingLevelChange()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-appendUsage()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-branch()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-branchWithSummary()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-constructor()_120]] - code - packages/coding-agent/src/core/agent-session-runtime.ts
+- [[dot-constructor()_144]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-constructor()_145]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-continueRecent()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-create()_3]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-createBranchedSession()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-diagnostics()]] - code - packages/coding-agent/src/core/agent-session-runtime.ts
+- [[dot-findById()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-forkFrom()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-getChildren()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-getEntry()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-getEntryCount()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-getHeader()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-getLabel()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-getLeafEntry()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-getSessionDir()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-list()_6]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-listAll()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-newSession()_2]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-open()_1]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-registerProvider()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-resetLeaf()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-services()]] - code - packages/coding-agent/src/core/agent-session-runtime.ts
+- [[dot-setSessionFile()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[dot-usesDefaultSessionDir()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[02-custom-model.ts]] - code - packages/coding-agent/examples/sdk/02-custom-model.ts
+- [[04-skills.ts]] - code - packages/coding-agent/examples/sdk/04-skills.ts
+- [[05-tools.ts]] - code - packages/coding-agent/examples/sdk/05-tools.ts
+- [[06-extensions.ts]] - code - packages/coding-agent/examples/sdk/06-extensions.ts
+- [[07-context-files.ts]] - code - packages/coding-agent/examples/sdk/07-context-files.ts
+- [[09-api-keys-and-oauth.ts]] - code - packages/coding-agent/examples/sdk/09-api-keys-and-oauth.ts
+- [[10-settings.ts]] - code - packages/coding-agent/examples/sdk/10-settings.ts
+- [[10285-mcp-tool-renderers.test.ts]] - code - packages/coding-agent/test/suite/regressions/10285-mcp-tool-renderers.test.ts
+- [[11-sessions.ts]] - code - packages/coding-agent/examples/sdk/11-sessions.ts
+- [[13-session-runtime.ts]] - code - packages/coding-agent/examples/sdk/13-session-runtime.ts
+- [[2753-reload-stale-resource-settings.test.ts]] - code - packages/coding-agent/test/suite/regressions/2753-reload-stale-resource-settings.test.ts
+- [[2781-skill-collision-precedence.test.ts]] - code - packages/coding-agent/test/suite/regressions/2781-skill-collision-precedence.test.ts
+- [[2791-fswatch-error-crash.test.ts]] - code - packages/coding-agent/test/suite/regressions/2791-fswatch-error-crash.test.ts
+- [[2835-tools-allowlist-filters-extension-tools.test.ts]] - code - packages/coding-agent/test/suite/regressions/2835-tools-allowlist-filters-extension-tools.test.ts
+- [[2860-replaced-session-context.test.ts]] - code - packages/coding-agent/test/suite/regressions/2860-replaced-session-context.test.ts
+- [[3302-find-path-glob.test.ts]] - code - packages/coding-agent/test/suite/regressions/3302-find-path-glob.test.ts
+- [[3303-find-nested-gitignore.test.ts]] - code - packages/coding-agent/test/suite/regressions/3303-find-nested-gitignore.test.ts
+- [[3592-no-builtin-tools-keeps-extension-tools.test.ts]] - code - packages/coding-agent/test/suite/regressions/3592-no-builtin-tools-keeps-extension-tools.test.ts
+- [[3616-settings-inmemory-reload.test.ts]] - code - packages/coding-agent/test/suite/regressions/3616-settings-inmemory-reload.test.ts
+- [[5303-bash-output-truncation.test.ts]] - code - packages/coding-agent/test/suite/regressions/5303-bash-output-truncation.test.ts
+- [[6260-inline-extension-naming.test.ts]] - code - packages/coding-agent/test/suite/regressions/6260-inline-extension-naming.test.ts
+- [[6596-taskkill-enoent.test.ts]] - code - packages/coding-agent/test/suite/regressions/6596-taskkill-enoent.test.ts
+- [[7187-malformed-package-manifest.test.ts]] - code - packages/coding-agent/test/suite/regressions/7187-malformed-package-manifest.test.ts
+- [[7497-session-discovery-symlink.test.ts]] - code - packages/coding-agent/test/suite/regressions/7497-session-discovery-symlink.test.ts
+- [[8337-utf8-bom-parsing.test.ts]] - code - packages/coding-agent/test/suite/regressions/8337-utf8-bom-parsing.test.ts
+- [[@earendil-workspi-coding-agent_8]] - concept - packages/coding-agent/package.json
+- [[AgentSessionRuntimeDiagnostic]] - code - packages/coding-agent/src/core/agent-session-services.ts
+- [[AgentSessionServices]] - code - packages/coding-agent/src/core/agent-session-services.ts
+- [[BUNDLED_WAD]] - code - packages/coding-agent/examples/extensions/doom-overlay/wad-finder.ts
+- [[BuiltinExtension]] - code - packages/coding-agent/src/core/resource-loader.ts
+- [[CURRENT_SESSION_VERSION]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[CodingAgentPackageJson]] - code - packages/coding-agent/test/package-distribution.test.ts
+- [[Consecutive-hyphen skill name]] - concept - packages/coding-agent/test/fixtures/skills/consecutive-hyphens/SKILL.md
+- [[ContextEditableContent]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[CreateAgentSessionFromServicesOptions]] - code - packages/coding-agent/src/core/agent-session-services.ts
+- [[CreateAgentSessionOptions]] - code - packages/coding-agent/src/core/sdk.ts
+- [[CreateAgentSessionResult]] - code - packages/coding-agent/src/core/sdk.ts
+- [[CreateAgentSessionRuntimeFactory]] - code - packages/coding-agent/src/core/agent-session-runtime.ts
+- [[CreateAgentSessionRuntimeResult]] - code - packages/coding-agent/src/core/agent-session-runtime.ts
+- [[CreateAgentSessionServicesOptions]] - code - packages/coding-agent/src/core/agent-session-services.ts
+- [[DEFAULT_WAD_PATHS]] - code - packages/coding-agent/examples/extensions/doom-overlay/wad-finder.ts
+- [[DefaultResourceLoaderOptions]] - code - packages/coding-agent/src/core/resource-loader.ts
+- [[Directory skill name mismatch]] - concept - packages/coding-agent/test/fixtures/skills/name-mismatch/SKILL.md
+- [[DoomModule]] - code - packages/coding-agent/examples/extensions/doom-overlay/doom-engine.ts
+- [[Dynamic repository summary template]] - concept - packages/coding-agent/examples/extensions/dynamic-resources/dynamic.md
+- [[Dynamic resource skill]] - concept - packages/coding-agent/examples/extensions/dynamic-resources/SKILL.md
+- [[E04 SDK用已有投影创建Agent并注入转换streamFn，然后创建AgentSession]] - rationale - packages/coding-agent/src/core/sdk.ts
+- [[E23 appendMessage推进树leaf，persist开启且有sessionFile时按会话首次userassistant触发创建追加]] - rationale - packages/coding-agent/src/core/session-manager.ts
+- [[EditorCapture]] - code - packages/coding-agent/test/external-editor.test.ts
+- [[ExternalEditorOptions]] - code - packages/coding-agent/src/modes/interactive/external-editor.ts
+- [[ExternalEditorResult]] - code - packages/coding-agent/src/modes/interactive/external-editor.ts
+- [[FIXTURE]] - code - packages/coding-agent/test/mcp-command.test.ts
+- [[FileEntry]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[First calendar skill collision]] - concept - packages/coding-agent/test/fixtures/skills-collision/first/calendar/SKILL.md
+- [[HOST_PROVIDED_EXTENSION_PACKAGES]] - code - packages/coding-agent/src/core/resource-loader.ts
+- [[I01 streamFn注入为独立嵌入和可控测试提供接缝，代价是应用需保持上下文与生命周期契约]] - rationale - packages/coding-agent/src/core/sdk.ts
+- [[Ignored nested root child]] - concept - packages/coding-agent/test/fixtures/skills/root-skill-preferred/nested-child/SKILL.md
+- [[Invalid YAML frontmatter]] - concept - packages/coding-agent/test/fixtures/skills/invalid-yaml/SKILL.md
+- [[Invalid uppercase underscore name]] - concept - packages/coding-agent/test/fixtures/skills/invalid-name-chars/SKILL.md
+- [[LabelEntry]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[Manual-only skill]] - concept - packages/coding-agent/test/fixtures/skills/disable-model-invocation/SKILL.md
+- [[Missing YAML frontmatter]] - concept - packages/coding-agent/test/fixtures/skills/no-frontmatter/SKILL.md
+- [[Missing skill description]] - concept - packages/coding-agent/test/fixtures/skills/missing-description/SKILL.md
+- [[Multiline description normalization]] - concept - packages/coding-agent/test/fixtures/skills/multiline-description/SKILL.md
+- [[Nested child skill]] - concept - packages/coding-agent/test/fixtures/skills/nested/child-skill/SKILL.md
+- [[NewSessionOptions]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[Overlong skill name]] - concept - packages/coding-agent/test/fixtures/skills/long-name/SKILL.md
+- [[PathInputOptions]] - code - packages/coding-agent/src/utils/paths.ts
+- [[ProbeResult]] - code - packages/ai/test/lazy-module-load.test.ts
+- [[RecordedSessionEvent]] - code - packages/coding-agent/test/agent-session-runtime-events.test.ts
+- [[RecordedSessionEvent_1]] - code - packages/coding-agent/test/suite/agent-session-runtime.test.ts
+- [[ResourceCollision]] - code - packages/coding-agent/src/core/diagnostics.ts
+- [[ResourceLoaderReloadOptions]] - code - packages/coding-agent/src/core/resource-loader.ts
+- [[Root skill preference]] - concept - packages/coding-agent/test/fixtures/skills/root-skill-preferred/SKILL.md
+- [[SDK_SPECIFIERS]] - code - packages/ai/test/lazy-module-load.test.ts
+- [[Second calendar skill collision]] - concept - packages/coding-agent/test/fixtures/skills-collision/second/calendar/SKILL.md
+- [[SessionFileCandidate]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[SessionHeader_1]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[SessionHeaderScanLimitError]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[SessionManager]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[SessionStartEvent]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[Skill]] - code - packages/coding-agent/src/core/skills.ts
+- [[TestState]] - code - packages/coding-agent/test/suite/regressions/extension-factory-cache.test.ts
+- [[ThemeFile_1]] - code - packages/coding-agent/test/theme-picker.test.ts
+- [[Tool_3]] - code - packages/coding-agent/src/core/tools/index.ts
+- [[ToolOptions]] - code - packages/coding-agent/test/default-tools-setting.test.ts
+- [[TrailingEntries]] - code - packages/coding-agent/src/core/session-export.ts
+- [[Unknown frontmatter fields]] - concept - packages/coding-agent/test/fixtures/skills/unknown-field/SKILL.md
+- [[Valid Agent Skills fixture]] - concept - packages/coding-agent/test/fixtures/skills/valid-skill/SKILL.md
+- [[catalogPath, outputDir]] - code - scripts/generate-thinking-capabilities.mjs
+- [[__dirname_5]] - code - packages/coding-agent/examples/extensions/doom-overlay/wad-finder.ts
+- [[__dirname_8]] - code - packages/coding-agent/test/extensions-discovery.test.ts
+- [[__dirname_10]] - code - packages/coding-agent/test/rpc.test.ts
+- [[agent-session-branching.test.ts]] - code - packages/coding-agent/test/agent-session-branching.test.ts
+- [[agent-session-dynamic-provider.test.ts]] - code - packages/coding-agent/test/agent-session-dynamic-provider.test.ts
+- [[agent-session-dynamic-tools.test.ts]] - code - packages/coding-agent/test/agent-session-dynamic-tools.test.ts
+- [[agent-session-runtime-events.test.ts]] - code - packages/coding-agent/test/agent-session-runtime-events.test.ts
+- [[agent-session-runtime.test.ts]] - code - packages/coding-agent/test/suite/agent-session-runtime.test.ts
+- [[agent-session-runtime.ts]] - code - packages/coding-agent/src/core/agent-session-runtime.ts
+- [[agent-session-services.ts]] - code - packages/coding-agent/src/core/agent-session-services.ts
+- [[applyExtensionFlagValues()]] - code - packages/coding-agent/src/core/agent-session-services.ts
+- [[assertValidSessionId()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[assistantFrom()]] - code - packages/coding-agent/test/virtual-models.test.ts
+- [[baseDir]] - code - packages/coding-agent/examples/extensions/dynamic-resources/index.ts
+- [[bash-close-hang-windows.test.ts]] - code - packages/coding-agent/test/bash-close-hang-windows.test.ts
+- [[bindSession()]] - code - packages/coding-agent/examples/sdk/13-session-runtime.ts
+- [[boundary.test.ts]] - code - packages/chord/test/boundary.test.ts
+- [[build.sh script]] - code - packages/coding-agent/examples/extensions/doom-overlay/doom/build.sh
+- [[buildSessionInfo()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[buildSessionInfosWithConcurrency()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[buildTestTree()]] - code - packages/coding-agent/test/utilities.ts
+- [[builtin-tool-strict-mode.test.ts]] - code - packages/coding-agent/test/builtin-tool-strict-mode.test.ts
+- [[buncli.ts]] - code - packages/coding-agent/src/bun/cli.ts
+- [[capturePromptBaseUrl()]] - code - packages/coding-agent/test/agent-session-dynamic-provider.test.ts
+- [[catalog_1]] - code - scripts/generate-thinking-capabilities.mjs
+- [[check()_1]] - code - scripts/check-runtime-deps.test.mjs
+- [[check-runtime-deps.test.mjs]] - code - scripts/check-runtime-deps.test.mjs
+- [[child-skillSKILL]] - document - packages/coding-agent/test/fixtures/skills/nested/child-skill/SKILL.md
+- [[child_process]] - code - child_process
+- [[cleanupDetachedChild()]] - code - packages/coding-agent/test/bash-close-hang-windows.test.ts
+- [[clearExtensionCache()]] - code - packages/coding-agent/src/core/extensions/loader.ts
+- [[cliPath]] - code - packages/coding-agent/test/session-file-invalid.test.ts
+- [[cliPath_1]] - code - packages/coding-agent/test/session-id-readonly.test.ts
+- [[cliPath_3]] - code - packages/coding-agent/test/stdout-cleanliness.test.ts
+- [[client_2]] - code - packages/coding-agent/examples/rpc-client.ts
+- [[clientvitest.config.ts]] - code - packages/client/vitest.config.ts
+- [[coding-agentsrcutilstext.ts]] - code - packages/coding-agent/src/utils/text.ts
+- [[coding-agenttestmax-thinking.test.ts]] - code - packages/coding-agent/test/max-thinking.test.ts
+- [[consecutive-hyphensSKILL]] - document - packages/coding-agent/test/fixtures/skills/consecutive-hyphens/SKILL.md
+- [[corediagnostics.ts]] - code - packages/coding-agent/src/core/diagnostics.ts
+- [[createAgentSession()]] - code - packages/coding-agent/src/core/sdk.ts
+- [[createAgentSessionFromServices()]] - code - packages/coding-agent/src/core/agent-session-services.ts
+- [[createAgentSessionRuntime()]] - code - packages/coding-agent/src/core/agent-session-runtime.ts
+- [[createAgentSessionServices()]] - code - packages/coding-agent/src/core/agent-session-services.ts
+- [[createChild()]] - code - packages/coding-agent/test/suite/regressions/5303-bash-output-truncation.test.ts
+- [[createInheritedStdioCommand()]] - code - packages/coding-agent/test/bash-close-hang-windows.test.ts
+- [[createPackageWithSkill()]] - code - packages/coding-agent/test/suite/regressions/2781-skill-collision-precedence.test.ts
+- [[createProjectSkill()]] - code - packages/coding-agent/test/suite/regressions/2781-skill-collision-precedence.test.ts
+- [[createRuntime()]] - code - packages/coding-agent/examples/sdk/13-session-runtime.ts
+- [[createRuntimeForTest()]] - code - packages/coding-agent/test/suite/agent-session-runtime.test.ts
+- [[createRuntimeForTest()_1]] - code - packages/coding-agent/test/suite/regressions/2860-replaced-session-context.test.ts
+- [[createRuntimeHost()]] - code - packages/coding-agent/test/agent-session-runtime-events.test.ts
+- [[createSession()_1]] - code - packages/coding-agent/test/agent-session-branching.test.ts
+- [[createSessionFile()]] - code - packages/coding-agent/test/session-info-modified-timestamp.test.ts
+- [[createSessionId()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[createSessionManager()]] - code - packages/coding-agent/src/main.ts
+- [[createSessionManager()_1]] - code - packages/coding-agent/test/format-resume-command.test.ts
+- [[createSettingsWithPackage()]] - code - packages/coding-agent/test/suite/regressions/2781-skill-collision-precedence.test.ts
+- [[createTempDir()]] - code - packages/coding-agent/test/edit-tool-legacy-input.test.ts
+- [[createTempDir()_3]] - code - packages/coding-agent/test/paths.test.ts
+- [[createTempDir()_4]] - code - packages/coding-agent/test/session-cwd.test.ts
+- [[createTempDir()_5]] - code - packages/coding-agent/test/session-file-invalid.test.ts
+- [[createTempDir()_6]] - code - packages/coding-agent/test/session-id-readonly.test.ts
+- [[createTempDir()_8]] - code - packages/coding-agent/test/stdout-cleanliness.test.ts
+- [[createTempFile()]] - code - packages/coding-agent/test/format-resume-command.test.ts
+- [[createUserSkill()]] - code - packages/coding-agent/test/suite/regressions/2781-skill-collision-precedence.test.ts
+- [[custom-session-id.test.ts]] - code - packages/coding-agent/test/session-manager/custom-session-id.test.ts
+- [[customModel]] - code - packages/coding-agent/examples/sdk/02-custom-model.ts
+- [[customSkill]] - code - packages/coding-agent/examples/sdk/04-skills.ts
+- [[cwd_1]] - code - packages/coding-agent/examples/sdk/10-settings.ts
+- [[default-tools-setting.test.ts]] - code - packages/coding-agent/test/default-tools-setting.test.ts
+- [[directories_3]] - code - packages/coding-agent/test/experimental-server-profile.test.ts
+- [[directory_6]] - code - packages/coding-agent/test/fixtures/fake-external-editor.mjs
+- [[disable-model-invocationSKILL]] - document - packages/coding-agent/test/fixtures/skills/disable-model-invocation/SKILL.md
+- [[doom-engine.ts]] - code - packages/coding-agent/examples/extensions/doom-overlay/doom-engine.ts
+- [[doom-overlayindex.ts]] - code - packages/coding-agent/examples/extensions/doom-overlay/index.ts
+- [[doombuild.sh]] - code - packages/coding-agent/examples/extensions/doom-overlay/doom/build.sh
+- [[dynamic-resourcesSKILL]] - document - packages/coding-agent/examples/extensions/dynamic-resources/SKILL.md
+- [[dynamic-resourcesindex.ts]] - code - packages/coding-agent/examples/extensions/dynamic-resources/index.ts
+- [[dynamic]] - document - packages/coding-agent/examples/extensions/dynamic-resources/dynamic.md
+- [[edit-tool-legacy-input.test.ts]] - code - packages/coding-agent/test/edit-tool-legacy-input.test.ts
+- [[editInExternalEditor()]] - code - packages/coding-agent/src/modes/interactive/external-editor.ts
+- [[editorFixturePath]] - code - packages/coding-agent/test/external-editor.test.ts
+- [[ensureWadFile()]] - code - packages/coding-agent/examples/extensions/doom-overlay/wad-finder.ts
+- [[exampleDirectory]] - code - packages/coding-agent/examples/rpc-client.ts
+- [[examplesrpc-client.ts]] - code - packages/coding-agent/examples/rpc-client.ts
+- [[examplesDir]] - code - packages/coding-agent/test/tool-renderer-examples.test.ts
+- [[expandPath()]] - code - packages/coding-agent/src/core/tools/path-utils.ts
+- [[experimental-cli-entry.test.ts]] - code - packages/coding-agent/test/experimental-cli-entry.test.ts
+- [[experimental-server-lifecycle.test.ts]] - code - packages/coding-agent/test/experimental-server-lifecycle.test.ts
+- [[experimental-server-profile.test.ts]] - code - packages/coding-agent/test/experimental-server-profile.test.ts
+- [[experimental-session-directory.test.ts]] - code - packages/coding-agent/test/experimental-session-directory.test.ts
+- [[experimental.test.ts]] - code - packages/coding-agent/test/experimental.test.ts
+- [[export-jsonl-share.test.ts]] - code - packages/coding-agent/test/export-jsonl-share.test.ts
+- [[exportFromFile()]] - code - packages/coding-agent/src/core/export-html/index.ts
+- [[extension-factory-cache.test.ts]] - code - packages/coding-agent/test/suite/regressions/extension-factory-cache.test.ts
+- [[extensions-discovery.test.ts]] - code - packages/coding-agent/test/extensions-discovery.test.ts
+- [[extensions-input-event.test.ts]] - code - packages/coding-agent/test/extensions-input-event.test.ts
+- [[external-editor.test.ts]] - code - packages/coding-agent/test/external-editor.test.ts
+- [[external-editor.ts]] - code - packages/coding-agent/src/modes/interactive/external-editor.ts
+- [[extractTextContent()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[fake-external-editor.mjs]] - code - packages/coding-agent/test/fixtures/fake-external-editor.mjs
+- [[filePath]] - code - packages/coding-agent/test/fixtures/fake-external-editor.mjs
+- [[findLocalSessionByExactId()]] - code - packages/coding-agent/src/main.ts
+- [[findMostRecentSession()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[findWadFile()]] - code - packages/coding-agent/examples/extensions/doom-overlay/wad-finder.ts
+- [[fireworks-model-generation.test.ts]] - code - packages/ai/test/fireworks-model-generation.test.ts
+- [[firstcalendarSKILL]] - document - packages/coding-agent/test/fixtures/skills-collision/first/calendar/SKILL.md
+- [[fixture()_4]] - code - packages/coding-agent/test/suite/regressions/6260-inline-extension-naming.test.ts
+- [[fixture()_5]] - code - packages/coding-agent/test/suite/regressions/extension-factory-cache.test.ts
+- [[forkSessionOrExit()]] - code - packages/coding-agent/src/main.ts
+- [[format-resume-command.test.ts]] - code - packages/coding-agent/test/format-resume-command.test.ts
+- [[formatPathRelativeToCwdOrAbsolute()]] - code - packages/coding-agent/src/utils/paths.ts
+- [[generate-models-strict.test.ts]] - code - packages/ai/test/generate-models-strict.test.ts
+- [[generate-thinking-capabilities.mjs]] - code - scripts/generate-thinking-capabilities.mjs
+- [[generateFireworksModels()]] - code - packages/ai/test/fireworks-model-generation.test.ts
+- [[generateId()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[getCwdRelativePath()]] - code - packages/coding-agent/src/utils/paths.ts
+- [[getDefaultAgentDir()]] - code - packages/coding-agent/src/core/sdk.ts
+- [[getDefaultSessionDir()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[getDefaultSessionDirPath()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[getMessageActivityTime()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[getSessionHeaderCwd()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[getText()]] - code - packages/coding-agent/test/suite/regressions/2860-replaced-session-context.test.ts
+- [[getTextOutput()_1]] - code - packages/coding-agent/test/bash-close-hang-windows.test.ts
+- [[hasSessionWithId()]] - code - packages/coding-agent/test/session-id-readonly.test.ts
+- [[inMemorySettings]] - code - packages/coding-agent/examples/sdk/10-settings.ts
+- [[invalid-name-charsSKILL]] - document - packages/coding-agent/test/fixtures/skills/invalid-name-chars/SKILL.md
+- [[invalid-yamlSKILL]] - document - packages/coding-agent/test/fixtures/skills/invalid-yaml/SKILL.md
+- [[isLocalPath()]] - code - packages/coding-agent/src/utils/paths.ts
+- [[isMessageWithContent()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[labels.test.ts]] - code - packages/coding-agent/test/session-manager/labels.test.ts
+- [[lazy-module-load.test.ts]] - code - packages/ai/test/lazy-module-load.test.ts
+- [[lazysubpath]] - code - lazy/subpath
+- [[listSessionsFromDir()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[load-entries.test.ts]] - code - packages/coding-agent/test/session-manager/load-entries.test.ts
+- [[loadEntriesFromFile()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[loader]] - code - packages/coding-agent/examples/sdk/04-skills.ts
+- [[loader_1]] - code - packages/coding-agent/examples/sdk/07-context-files.ts
+- [[long-nameSKILL]] - document - packages/coding-agent/test/fixtures/skills/long-name/SKILL.md
+- [[makeDirectory()_1]] - code - packages/coding-agent/test/experimental-server-profile.test.ts
+- [[management-http.test.ts]] - code - packages/coding-agent/test/management-http.test.ts
+- [[mapWithConcurrency()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[mcp-command.test.ts]] - code - packages/coding-agent/test/mcp-command.test.ts
+- [[mcpExtension]] - code - packages/coding-agent/test/suite/regressions/10285-mcp-tool-renderers.test.ts
+- [[migrate-sessions.sh]] - code - packages/coding-agent/scripts/migrate-sessions.sh
+- [[migrate-sessions.sh script]] - code - packages/coding-agent/scripts/migrate-sessions.sh
+- [[migrateToCurrentVersion()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[migrateV1ToV2()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[migrateV2ToV3()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[migration.test.ts]] - code - packages/coding-agent/test/session-manager/migration.test.ts
+- [[missing-descriptionSKILL]] - document - packages/coding-agent/test/fixtures/skills/missing-description/SKILL.md
+- [[model()_5]] - code - packages/coding-agent/test/models-store.test.ts
+- [[models-entry.test.ts]] - code - packages/ai/test/models-entry.test.ts
+- [[models-store.test.ts]] - code - packages/coding-agent/test/models-store.test.ts
+- [[multiline-descriptionSKILL]] - document - packages/coding-agent/test/fixtures/skills/multiline-description/SKILL.md
+- [[name-mismatchSKILL]] - document - packages/coding-agent/test/fixtures/skills/name-mismatch/SKILL.md
+- [[nested-childSKILL]] - document - packages/coding-agent/test/fixtures/skills/root-skill-preferred/nested-child/SKILL.md
+- [[no-frontmatterSKILL]] - document - packages/coding-agent/test/fixtures/skills/no-frontmatter/SKILL.md
+- [[noop()]] - code - packages/coding-agent/test/suite/regressions/6260-inline-extension-naming.test.ts
+- [[normalizePath()]] - code - packages/coding-agent/src/utils/paths.ts
+- [[normalizeWindowsShellPath()]] - code - packages/coding-agent/src/utils/paths.ts
+- [[openSessionOrExit()]] - code - packages/coding-agent/src/main.ts
+- [[opus]] - code - packages/coding-agent/examples/sdk/02-custom-model.ts
+- [[originalStdoutIsTTY]] - code - packages/coding-agent/test/format-resume-command.test.ts
+- [[package-distribution.test.ts]] - code - packages/coding-agent/test/package-distribution.test.ts
+- [[package-manager-ssh.test.ts]] - code - packages/coding-agent/test/package-manager-ssh.test.ts
+- [[packageDirectory]] - code - packages/chord/test/boundary.test.ts
+- [[packageJson_1]] - code - packages/coding-agent/test/package-distribution.test.ts
+- [[packageRoot_2]] - code - packages/ai/test/fireworks-model-generation.test.ts
+- [[packageRoot_3]] - code - packages/ai/test/generate-models-strict.test.ts
+- [[packageRoot_4]] - code - packages/ai/test/lazy-module-load.test.ts
+- [[packageRoot_5]] - code - packages/ai/test/models-entry.test.ts
+- [[packages_ai_src_compat_fauxassistantmessage]] - concept
+- [[packages_ai_src_compat_message]] - concept
+- [[parseSessionEntryLine()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[parseSessionHeaderCandidate()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[path-utils.test.ts]] - code - packages/coding-agent/test/path-utils.test.ts
+- [[paths.test.ts]] - code - packages/coding-agent/test/paths.test.ts
+- [[paths.ts]] - code - packages/coding-agent/src/utils/paths.ts
+- [[persistSession()]] - code - packages/coding-agent/test/session-id-readonly.test.ts
+- [[promptConfirm()]] - code - packages/coding-agent/src/main.ts
+- [[provider-payload.ts]] - code - packages/coding-agent/examples/extensions/provider-payload.ts
+- [[providersDir]] - code - scripts/generate-thinking-capabilities.mjs
+- [[publish-model-catalog.test.mjs]] - code - scripts/publish-model-catalog.test.mjs
+- [[quickjs-wasiquickjs.wasm]] - code - packages/coding-agent/src/bun/quickjs-wasm.d.ts
+- [[quickjs-wasm.d.ts]] - code - packages/coding-agent/src/bun/quickjs-wasm.d.ts
+- [[readFileSync_1]] - code - packages/coding-agent/test/restore-sandbox-env.test.ts
+- [[readManifest()]] - code - scripts/sync-versions.test.mjs
+- [[readSessionHeader()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[readSessionHeaderForDiscovery()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[redirectResponse()]] - code - packages/coding-agent/test/tools-manager.test.ts
+- [[ref_node_child_process]] - concept
+- [[ref_node_fs]] - concept
+- [[ref_node_os]] - concept
+- [[ref_node_path]] - concept
+- [[ref_node_url]] - concept
+- [[ref_node_zlib]] - concept
+- [[ref_readline]] - concept
+- [[ref_string_decoder]] - concept
+- [[registerFauxProvider()]] - code - packages/ai/src/compat.ts
+- [[resetState()]] - code - packages/coding-agent/test/suite/regressions/extension-factory-cache.test.ts
+- [[resolveCliPaths()]] - code - packages/coding-agent/src/main.ts
+- [[resolvePath()_1]] - code - packages/coding-agent/src/utils/paths.ts
+- [[resolveSessionPath()]] - code - packages/coding-agent/src/main.ts
+- [[resource-loader-theme.test.ts]] - code - packages/coding-agent/test/resource-loader-theme.test.ts
+- [[resource-loader.test.ts]] - code - packages/coding-agent/test/resource-loader.test.ts
+- [[resource-loader.ts]] - code - packages/coding-agent/src/core/resource-loader.ts
+- [[resourceLoader]] - code - packages/coding-agent/examples/sdk/06-extensions.ts
+- [[restore-sandbox-env.test.ts]] - code - packages/coding-agent/test/restore-sandbox-env.test.ts
+- [[restore-sandbox-env.ts]] - code - packages/coding-agent/src/bun/restore-sandbox-env.ts
+- [[restoreSandboxEnv()]] - code - packages/coding-agent/src/bun/restore-sandbox-env.ts
+- [[resume()]] - code - packages/coding-agent/test/virtual-models.test.ts
+- [[retention.test.ts]] - code - packages/chord/test/delta-tracker/retention.test.ts
+- [[root_7]] - code - scripts/publish-model-catalog.test.mjs
+- [[root-skill-preferredSKILL]] - document - packages/coding-agent/test/fixtures/skills/root-skill-preferred/SKILL.md
+- [[rpc-client-process-exit.test.ts]] - code - packages/coding-agent/test/rpc-client-process-exit.test.ts
+- [[rpc.test.ts]] - code - packages/coding-agent/test/rpc.test.ts
+- [[run()_1]] - code - packages/coding-agent/test/mcp-command.test.ts
+- [[runCli()]] - code - packages/coding-agent/test/session-file-invalid.test.ts
+- [[runCli()_1]] - code - packages/coding-agent/test/session-id-readonly.test.ts
+- [[runCli()_3]] - code - packages/coding-agent/test/stdout-cleanliness.test.ts
+- [[runEntry()]] - code - packages/coding-agent/test/experimental-cli-entry.test.ts
+- [[runExternalEditor()]] - code - packages/coding-agent/test/external-editor.test.ts
+- [[runFind()]] - code - packages/coding-agent/test/suite/regressions/3302-find-path-glob.test.ts
+- [[runFind()_1]] - code - packages/coding-agent/test/suite/regressions/3303-find-nested-gitignore.test.ts
+- [[runProbe()]] - code - packages/ai/test/lazy-module-load.test.ts
+- [[runSyncVersions()]] - code - scripts/sync-versions.test.mjs
+- [[sandbox-env-setup.ts]] - code - packages/coding-agent/src/bun/sandbox-env-setup.ts
+- [[script_1]] - code - scripts/check-runtime-deps.test.mjs
+- [[sdk-session-manager.test.ts]] - code - packages/coding-agent/test/sdk-session-manager.test.ts
+- [[sdk-skills.test.ts]] - code - packages/coding-agent/test/sdk-skills.test.ts
+- [[sdk.ts]] - code - packages/coding-agent/src/core/sdk.ts
+- [[secondcalendarSKILL]] - document - packages/coding-agent/test/fixtures/skills-collision/second/calendar/SKILL.md
+- [[session-cwd.test.ts]] - code - packages/coding-agent/test/session-cwd.test.ts
+- [[session-export.ts]] - code - packages/coding-agent/src/core/session-export.ts
+- [[session-file-invalid.test.ts]] - code - packages/coding-agent/test/session-file-invalid.test.ts
+- [[session-id-readonly.test.ts]] - code - packages/coding-agent/test/session-id-readonly.test.ts
+- [[session-info-modified-timestamp.test.ts]] - code - packages/coding-agent/test/session-info-modified-timestamp.test.ts
+- [[session-manager.ts]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[sessionCwdMatches()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[setStdoutIsTTY()]] - code - packages/coding-agent/test/format-resume-command.test.ts
+- [[settingsErrors]] - code - packages/coding-agent/examples/sdk/10-settings.ts
+- [[settingsManager]] - code - packages/coding-agent/examples/sdk/10-settings.ts
+- [[settingsManagerFromDisk]] - code - packages/coding-agent/examples/sdk/10-settings.ts
+- [[sharedModelsPath]] - code - packages/coding-agent/test/models-store.test.ts
+- [[sharedTempDir]] - code - packages/coding-agent/test/models-store.test.ts
+- [[sortSessionInfos()]] - code - packages/coding-agent/src/core/session-manager.ts
+- [[sourceDirectory]] - code - packages/chord/test/boundary.test.ts
+- [[sourceGraph()]] - code - packages/durable/test/storage-runtime-boundary.test.ts
+- [[sourceRoot]] - code - packages/durable/test/storage-runtime-boundary.test.ts
+- [[splitBom()]] - code - packages/coding-agent/src/utils/text.ts
+- [[state()_2]] - code - packages/coding-agent/test/suite/regressions/extension-factory-cache.test.ts
+- [[stdout-cleanliness.test.ts]] - code - packages/coding-agent/test/stdout-cleanliness.test.ts
+- [[storage-runtime-boundary.test.ts]] - code - packages/durable/test/storage-runtime-boundary.test.ts
+- [[storedEntries()]] - code - packages/coding-agent/test/session-manager/load-entries.test.ts
+- [[strictToolNames]] - code - packages/coding-agent/test/builtin-tool-strict-mode.test.ts
+- [[sync-versions.test.mjs]] - code - scripts/sync-versions.test.mjs
+- [[syncVersionsScript]] - code - scripts/sync-versions.test.mjs
+- [[tempDirs]] - code - packages/coding-agent/test/edit-tool-legacy-input.test.ts
+- [[tempDirs_1]] - code - packages/coding-agent/test/experimental-cli-entry.test.ts
+- [[tempDirs_3]] - code - packages/coding-agent/test/format-resume-command.test.ts
+- [[tempDirs_4]] - code - packages/coding-agent/test/max-thinking.test.ts
+- [[tempDirs_5]] - code - packages/coding-agent/test/rpc-client-process-exit.test.ts
+- [[tempDirs_7]] - code - packages/coding-agent/test/session-file-invalid.test.ts
+- [[tempDirs_8]] - code - packages/coding-agent/test/session-id-readonly.test.ts
+- [[tempDirs_10]] - code - packages/coding-agent/test/stdout-cleanliness.test.ts
+- [[temporaryRoots]] - code - packages/ai/test/fireworks-model-generation.test.ts
+- [[temporaryRoots_1]] - code - packages/ai/test/generate-models-strict.test.ts
+- [[theme-picker.test.ts]] - code - packages/coding-agent/test/theme-picker.test.ts
+- [[toBashSingleQuotedArg()]] - code - packages/coding-agent/test/bash-close-hang-windows.test.ts
+- [[tool-renderer-examples.test.ts]] - code - packages/coding-agent/test/tool-renderer-examples.test.ts
+- [[tools-manager.test.ts]] - code - packages/coding-agent/test/tools-manager.test.ts
+- [[trust-manager.test.ts]] - code - packages/coding-agent/test/trust-manager.test.ts
+- [[unknown-fieldSKILL]] - document - packages/coding-agent/test/fixtures/skills/unknown-field/SKILL.md
+- [[unsubscribe_1]] - code - packages/coding-agent/examples/rpc-client.ts
+- [[useExtensionCacheCwd()]] - code - packages/coding-agent/src/core/extensions/loader.ts
+- [[userMessage()]] - code - packages/coding-agent/test/session-manager/load-entries.test.ts
+- [[valid-skillSKILL]] - document - packages/coding-agent/test/fixtures/skills/valid-skill/SKILL.md
+- [[wad-finder.ts]] - code - packages/coding-agent/examples/extensions/doom-overlay/wad-finder.ts
+- [[with-depsindex.ts]] - code - packages/coding-agent/examples/extensions/with-deps/index.ts
+- [[withTimeout()]] - code - packages/coding-agent/test/bash-close-hang-windows.test.ts
+- [[withWindowsPlatform()]] - code - packages/coding-agent/test/suite/regressions/6596-taskkill-enoent.test.ts
+- [[writeChildScript()]] - code - packages/coding-agent/test/rpc-client-process-exit.test.ts
+- [[writeCountingExtension()]] - code - packages/coding-agent/test/suite/regressions/extension-factory-cache.test.ts
+- [[writeJson()]] - code - scripts/publish-model-catalog.test.mjs
+- [[writeManifest()]] - code - scripts/sync-versions.test.mjs
+- [[writeSession()]] - code - packages/coding-agent/test/suite/regressions/7497-session-discovery-symlink.test.ts
+- [[writeSessionFile()]] - code - packages/coding-agent/test/session-cwd.test.ts
+- [[{ skills allSkills, diagnostics }]] - code - packages/coding-agent/examples/sdk/04-skills.ts
+- [[{ spawnMock }]] - code - packages/coding-agent/test/suite/regressions/6596-taskkill-enoent.test.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Coding_Agent_会话工具_2
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 241 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 181 edges to [[_COMMUNITY_Coding Agent 会话工具 15]]
+- 122 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 109 edges to [[_COMMUNITY_Coding Agent 会话工具 23]]
+- 108 edges to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 98 edges to [[_COMMUNITY_Coding Agent 会话工具 31]]
+- 96 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 90 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 89 edges to [[_COMMUNITY_Coding Agent 会话工具 41]]
+- 80 edges to [[_COMMUNITY_Coding Agent 会话工具 66]]
+- 73 edges to [[_COMMUNITY_Coding Agent 会话工具 19]]
+- 71 edges to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 64 edges to [[_COMMUNITY_Coding Agent 会话工具 24]]
+- 61 edges to [[_COMMUNITY_AI 模型协议 1]]
+- 42 edges to [[_COMMUNITY_Coding Agent 会话工具 28]]
+- 39 edges to [[_COMMUNITY_Coding Agent 会话工具 56]]
+- 36 edges to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 33 edges to [[_COMMUNITY_TUI 终端组件 6]]
+- 33 edges to [[_COMMUNITY_Coding Agent 会话工具 8]]
+- 28 edges to [[_COMMUNITY_Coding Agent 会话工具 152]]
+- 26 edges to [[_COMMUNITY_Coding Agent 会话工具 75]]
+- 24 edges to [[_COMMUNITY_Coding Agent 会话工具 29]]
+- 22 edges to [[_COMMUNITY_Coding Agent 会话工具 49]]
+- 21 edges to [[_COMMUNITY_Durable 持久任务 18]]
+- 18 edges to [[_COMMUNITY_AI 模型协议 90]]
+- 18 edges to [[_COMMUNITY_Coding Agent 会话工具 116]]
+- 18 edges to [[_COMMUNITY_Coding Agent 会话工具 27]]
+- 17 edges to [[_COMMUNITY_Coding Agent 会话工具 70]]
+- 16 edges to [[_COMMUNITY_Coding Agent 会话工具 78]]
+- 15 edges to [[_COMMUNITY_Coding Agent 会话工具 103]]
+- 15 edges to [[_COMMUNITY_Coding Agent 会话工具 57]]
+- 15 edges to [[_COMMUNITY_TUI 终端组件 26]]
+- 14 edges to [[_COMMUNITY_Coding Agent 会话工具 76]]
+- 14 edges to [[_COMMUNITY_Evals 行为评估 114]]
+- 13 edges to [[_COMMUNITY_Coding Agent 会话工具 43]]
+- 12 edges to [[_COMMUNITY_Server 会话路由 20]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 16]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 32]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 122]]
+- 12 edges to [[_COMMUNITY_Evals 行为评估 222]]
+- 11 edges to [[_COMMUNITY_Coding Agent 会话工具 79]]
+- 10 edges to [[_COMMUNITY_AI 模型协议 134]]
+- 10 edges to [[_COMMUNITY_AI 模型协议 22]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 65]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 99]]
+- 9 edges to [[_COMMUNITY_Coding Agent 会话工具 72]]
+- 9 edges to [[_COMMUNITY_Coding Agent 会话工具 77]]
+- 9 edges to [[_COMMUNITY_Coding Agent 会话工具 69]]
+- 9 edges to [[_COMMUNITY_Coding Agent 会话工具 242]]
+- 9 edges to [[_COMMUNITY_TUI 终端组件 37]]
+- 8 edges to [[_COMMUNITY_Client 远程连接 14]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 170]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 135]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 143]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 42]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 273]]
+- 8 edges to [[_COMMUNITY_Durable 持久任务 58]]
+- 8 edges to [[_COMMUNITY_Evals 行为评估 109]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 268]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 83]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 48]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 33]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 171]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 182]]
+- 7 edges to [[_COMMUNITY_Durable 持久任务 38]]
+- 7 edges to [[_COMMUNITY_跨包 类型基础 199]]
+- 7 edges to [[_COMMUNITY_AI 模型协议 180]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 174]]
+- 6 edges to [[_COMMUNITY_TUI 终端组件 246]]
+- 6 edges to [[_COMMUNITY_MCP 远端工具 227]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 149]]
+- 6 edges to [[_COMMUNITY_MCP 远端工具 96]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 313]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 274]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 39]]
+- 5 edges to [[_COMMUNITY_Chord 服务状态 197]]
+- 5 edges to [[_COMMUNITY_Chord 服务状态 162]]
+- 5 edges to [[_COMMUNITY_Chord 服务状态 225]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 290]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 81]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 384]]
+- 5 edges to [[_COMMUNITY_TUI 终端组件 62]]
+- 5 edges to [[_COMMUNITY_Durable 持久任务 86]]
+- 5 edges to [[_COMMUNITY_Evals 行为评估 113]]
+- 5 edges to [[_COMMUNITY_TUI 终端组件 229]]
+- 5 edges to [[_COMMUNITY_TUI 终端组件 350]]
+- 5 edges to [[_COMMUNITY_跨包 类型基础 145]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 110]]
+- 5 edges to [[_COMMUNITY_跨包 类型基础 247]]
+- 4 edges to [[_COMMUNITY_Agent 控制循环 82]]
+- 4 edges to [[_COMMUNITY_AI 模型协议 25]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 60]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 205]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 111]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 325]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 50]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 127]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 207]]
+- 4 edges to [[_COMMUNITY_Evals 行为评估 221]]
+- 4 edges to [[_COMMUNITY_Evals 行为评估 183]]
+- 4 edges to [[_COMMUNITY_跨包 类型基础 177]]
+- 4 edges to [[_COMMUNITY_跨包 类型基础 198]]
+- 4 edges to [[_COMMUNITY_跨包 类型基础 188]]
+- 4 edges to [[_COMMUNITY_跨包 类型基础 374]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 201]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 138]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 54]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 370]]
+- 3 edges to [[_COMMUNITY_Chord 服务状态 265]]
+- 3 edges to [[_COMMUNITY_Codemode 沙箱执行 186]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 217]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 112]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 371]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 154]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 157]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 163]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 239]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 339]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 220]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 256]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 257]]
+- 3 edges to [[_COMMUNITY_Durable 持久任务 115]]
+- 3 edges to [[_COMMUNITY_Evals 行为评估 120]]
+- 3 edges to [[_COMMUNITY_跨包 类型基础 193]]
+- 3 edges to [[_COMMUNITY_跨包 类型基础 296]]
+- 3 edges to [[_COMMUNITY_跨包 类型基础 352]]
+- 3 edges to [[_COMMUNITY_跨包 类型基础 133]]
+- 3 edges to [[_COMMUNITY_跨包 类型基础 158]]
+- 3 edges to [[_COMMUNITY_跨包 类型基础 284]]
+- 3 edges to [[_COMMUNITY_跨包 类型基础 146]]
+- 3 edges to [[_COMMUNITY_跨包 类型基础 173]]
+- 3 edges to [[_COMMUNITY_跨包 类型基础 184]]
+- 3 edges to [[_COMMUNITY_跨包 类型基础 155]]
+- 3 edges to [[_COMMUNITY_Chord 服务状态 30]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 224]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 234]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 235]]
+- 3 edges to [[_COMMUNITY_TUI 终端组件 9]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 206]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 71]]
+- 2 edges to [[_COMMUNITY_跨包 类型基础 172]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 74]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 226]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 35]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 243]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 190]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 84]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 244]]
+- 2 edges to [[_COMMUNITY_TUI 终端组件 67]]
+- 2 edges to [[_COMMUNITY_跨包 类型基础 315]]
+- 2 edges to [[_COMMUNITY_跨包 类型基础 314]]
+- 2 edges to [[_COMMUNITY_跨包 类型基础 275]]
+- 2 edges to [[_COMMUNITY_跨包 类型基础 366]]
+- 2 edges to [[_COMMUNITY_Evals 行为评估 362]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 286]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 287]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 299]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 300]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 301]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 288]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 302]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 318]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 319]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 303]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 304]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 94]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 240]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 329]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 216]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 51]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 306]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 148]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 194]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 64]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 44]]
+- 1 edge to [[_COMMUNITY_Codemode 沙箱执行 147]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 187]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 166]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 101]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 484]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 349]]
+- 1 edge to [[_COMMUNITY_跨包 类型基础 297]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 211]]
+- 1 edge to [[_COMMUNITY_跨包 类型基础 365]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 378]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 285]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 379]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 405]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 353]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 262]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 317]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 406]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 407]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 380]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 368]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 408]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 409]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 410]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 335]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 320]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 381]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 369]]
+- 1 edge to [[_COMMUNITY_MCP 远端工具 202]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 427]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 414]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 252]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 165]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 289]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 230]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 356]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 253]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 310]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 254]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 238]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 189]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 80]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 311]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 280]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 117]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 88]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 153]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 108]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 181]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 341]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 342]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 312]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 291]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 272]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 276]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 330]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 479]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 480]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 481]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 359]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 360]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 46]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 361]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 292]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 482]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 176]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 245]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 259]]
+- 1 edge to [[_COMMUNITY_MCP 远端工具 34]]
+
+## Top bridge nodes
+- [[@earendil-workspi-coding-agent_8]] - degree 844, connects to 168 communities
+- [[sdk.ts]] - degree 107, connects to 23 communities
+- [[session-manager.ts]] - degree 198, connects to 19 communities
+- [[resource-loader.ts]] - degree 98, connects to 15 communities
+- [[tool-renderer-examples.test.ts]] - degree 27, connects to 12 communities

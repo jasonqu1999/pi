@@ -1,0 +1,319 @@
+{
+  "node_count": 19467,
+  "unverified_node_count": 0,
+  "raw_edge_count": 67108,
+  "non_object_edges": 0,
+  "missing_endpoint_edges": 0,
+  "dangling_endpoint_edges": 1413,
+  "external_reference_edges": 2224,
+  "self_loop_edges": 221,
+  "valid_candidate_edges": 63471,
+  "exact_duplicate_edges": 2584,
+  "directed_unique_endpoint_pairs": 58329,
+  "directed_same_endpoint_collapsed_edges": 5142,
+  "undirected_unique_endpoint_pairs": 58229,
+  "undirected_same_endpoint_collapsed_edges": 5242,
+  "same_endpoint_group_count": 4729,
+  "relation_variant_groups": 1729,
+  "source_file_variant_groups": 0,
+  "source_location_variant_groups": 429,
+  "context_variant_groups": 160,
+  "post_build_graph_type": "DiGraph",
+  "post_build_node_count": 19848,
+  "post_build_edge_count": 61878,
+  "post_build_error": "",
+  "producer_suppression": {
+    "path": "/Users/jason/.local/share/uv/tools/graphifyy/lib/python3.14/site-packages/graphify/extract.py",
+    "total_sites": 12,
+    "sites": [
+      {
+        "line": 1677,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids = {n[\"id\"] for n in nodes}"
+      },
+      {
+        "line": 2210,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids = {n[\"id\"] for n in nodes}"
+      },
+      {
+        "line": 2212,
+        "name": "seen_doc_refs",
+        "tuple_arity": 0,
+        "sample": "seen_doc_refs: set[str] = set()"
+      },
+      {
+        "line": 2629,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = {n[\"id\"] for n in nodes}"
+      },
+      {
+        "line": 2776,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids = {n.get(\"id\") for n in nodes}"
+      },
+      {
+        "line": 3502,
+        "name": "seen_keys",
+        "tuple_arity": 0,
+        "sample": "seen_keys: set[tuple] = set()"
+      },
+      {
+        "line": 3675,
+        "name": "seen_keys",
+        "tuple_arity": 0,
+        "sample": "seen_keys: set[tuple] = set()"
+      },
+      {
+        "line": 5804,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 5912,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 5991,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 6506,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 6507,
+        "name": "seen_edges",
+        "tuple_arity": 4,
+        "sample": "seen_edges: set[tuple[str, str, str, str | None]] = set()"
+      }
+    ],
+    "error": ""
+  },
+  "examples": [
+    {
+      "source": "packages_coding_agent_src_core_extensions_types_extensionapi",
+      "target": "packages_coding_agent_src_core_extensions_types_extensionapi_on",
+      "edge_count": 41,
+      "relations": [
+        "method"
+      ],
+      "source_files": [
+        "packages/coding-agent/src/core/extensions/types.ts"
+      ],
+      "source_locations": [
+        "L1556",
+        "L1557",
+        "L1561",
+        "L1562",
+        "L1563",
+        "L1567",
+        "L1571",
+        "L1575",
+        "L1576",
+        "L1577",
+        "L1578",
+        "L1579",
+        "L1583",
+        "L1584",
+        "L1585",
+        "L1586",
+        "L1590",
+        "L1594",
+        "L1595",
+        "L1596",
+        "L1597",
+        "L1601",
+        "L1602",
+        "L1603",
+        "L1607",
+        "L1608",
+        "L1609",
+        "L1610",
+        "L1611",
+        "L1612",
+        "L1613",
+        "L1614",
+        "L1615",
+        "L1616",
+        "L1617",
+        "L1618",
+        "L1619",
+        "L1620",
+        "L1621",
+        "L1622",
+        "L1623"
+      ],
+      "contexts": [
+        ""
+      ]
+    },
+    {
+      "source": "packages_chord_test_facets_test",
+      "target": "packages_chord_test_facets_test_setup",
+      "edge_count": 27,
+      "relations": [
+        "contains"
+      ],
+      "source_files": [
+        "packages/chord/test/facets.test.ts"
+      ],
+      "source_locations": [
+        "L118",
+        "L129",
+        "L164",
+        "L173",
+        "L204",
+        "L232",
+        "L258",
+        "L267",
+        "L302",
+        "L312",
+        "L344",
+        "L358",
+        "L364",
+        "L403",
+        "L416",
+        "L439",
+        "L453",
+        "L506",
+        "L538",
+        "L594",
+        "L607",
+        "L628",
+        "L642",
+        "L653",
+        "L668",
+        "L70",
+        "L89"
+      ],
+      "contexts": [
+        ""
+      ]
+    },
+    {
+      "source": "packages_agent_test_agent_loop_test",
+      "target": "packages_agent_test_agent_loop_test_execute",
+      "edge_count": 23,
+      "relations": [
+        "contains"
+      ],
+      "source_files": [
+        "packages/agent/test/agent-loop.test.ts"
+      ],
+      "source_locations": [
+        "L1009",
+        "L1074",
+        "L1183",
+        "L1273",
+        "L1469",
+        "L1546",
+        "L1600",
+        "L1698",
+        "L1750",
+        "L1808",
+        "L1865",
+        "L1930",
+        "L2100",
+        "L2114",
+        "L344",
+        "L423",
+        "L495",
+        "L573",
+        "L641",
+        "L729",
+        "L841",
+        "L922",
+        "L940"
+      ],
+      "contexts": [
+        ""
+      ]
+    },
+    {
+      "source": "packages_coding_agent_src_utils_syntax_highlight",
+      "target": "ref_highlight_js",
+      "edge_count": 22,
+      "relations": [
+        "imports_from"
+      ],
+      "source_files": [
+        "packages/coding-agent/src/utils/syntax-highlight.ts"
+      ],
+      "source_locations": [
+        "L1",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L19",
+        "L2",
+        "L20",
+        "L21",
+        "L22",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "L9"
+      ],
+      "contexts": [
+        "import"
+      ]
+    },
+    {
+      "source": "packages_ai_test_openai_codex_stream_test",
+      "target": "packages_ai_test_openai_codex_stream_test_start",
+      "edge_count": 20,
+      "relations": [
+        "contains"
+      ],
+      "source_files": [
+        "packages/ai/test/openai-codex-stream.test.ts"
+      ],
+      "source_locations": [
+        "L1029",
+        "L1130",
+        "L1227",
+        "L144",
+        "L1622",
+        "L1768",
+        "L2226",
+        "L2466",
+        "L2565",
+        "L2645",
+        "L269",
+        "L330",
+        "L444",
+        "L589",
+        "L663",
+        "L713",
+        "L763",
+        "L807",
+        "L873",
+        "L928"
+      ],
+      "contexts": [
+        ""
+      ]
+    }
+  ]
+}

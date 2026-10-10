@@ -1,0 +1,315 @@
+---
+type: community
+cohesion: 0.02
+members: 242
+---
+
+# Client 远程连接 14
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 242 nodes
+
+## Members
+- [[dot-assertNotDisposed()]] - code - packages/client/src/client.ts
+- [[dot-deliverServiceUpdate()]] - code - packages/client/src/client.ts
+- [[dot-failAndClose()]] - code - packages/client/src/connection.ts
+- [[dot-handleClose()]] - code - packages/client/src/connection.ts
+- [[dot-handleConnectionStateChange()]] - code - packages/client/src/client.ts
+- [[dot-handleData()]] - code - packages/client/src/connection.ts
+- [[dot-handleMessage()]] - code - packages/client/src/client.ts
+- [[dot-handleMessage()_1]] - code - packages/client/src/connection.ts
+- [[dot-isCurrent()]] - code - packages/client/src/connection.ts
+- [[dot-openTransport()]] - code - packages/client/src/connection.ts
+- [[dot-rejectPendingRequests()]] - code - packages/client/src/client.ts
+- [[dot-reportListenerError()]] - code - packages/client/src/client.ts
+- [[dot-setAttachment()]] - code - packages/client/src/client.ts
+- [[dot-takePendingRequest()]] - code - packages/client/src/client.ts
+- [[dot-targetIsCurrent()]] - code - packages/client/src/client.ts
+- [[dot-write()_2]] - code - packages/client/src/unix.ts
+- [[dot-Symbol.asyncDispose()]] - code - packages/client/src/client.ts
+- [[dot-cleanup()]] - code - packages/client/src/client.ts
+- [[dot-close()_6]] - code - packages/client/src/transport.ts
+- [[dot-close()_7]] - code - packages/client/src/unix.ts
+- [[dot-completeWrite()]] - code - packages/server/test/unix-connection.test.ts
+- [[dot-connect()_1]] - code - packages/client/src/client.ts
+- [[dot-connect()_2]] - code - packages/client/src/connection.ts
+- [[dot-connect()_3]] - code - packages/client/test/support.ts
+- [[dot-connected()]] - code - packages/client/src/client.ts
+- [[dot-connectionState()]] - code - packages/client/src/client.ts
+- [[dot-constructor()_78]] - code - packages/client/src/client.ts
+- [[dot-constructor()_79]] - code - packages/client/src/connection.ts
+- [[dot-constructor()_82]] - code - packages/client/src/errors.ts
+- [[dot-constructor()_81]] - code - packages/client/src/errors.ts
+- [[dot-constructor()_80]] - code - packages/client/src/errors.ts
+- [[dot-constructor()_83]] - code - packages/client/src/unix.ts
+- [[dot-constructor()_84]] - code - packages/client/test/support.ts
+- [[dot-constructor()_304]] - code - packages/protocol/src/codec.ts
+- [[dot-constructor()_302]] - code - packages/protocol/src/codec.ts
+- [[dot-constructor()_305]] - code - packages/protocol/src/codec.ts
+- [[dot-constructor()_303]] - code - packages/protocol/src/codec.ts
+- [[dot-constructor()_307]] - code - packages/protocol/src/framing.ts
+- [[dot-constructor()_306]] - code - packages/protocol/src/framing.ts
+- [[dot-destroy()]] - code - packages/server/test/unix-connection.test.ts
+- [[dot-disconnect()]] - code - packages/client/src/client.ts
+- [[dot-disconnect()_1]] - code - packages/client/src/connection.ts
+- [[dot-disconnect()_2]] - code - packages/client/test/support.ts
+- [[dot-dispose()_15]] - code - packages/client/src/client.ts
+- [[dot-dispose()_16]] - code - packages/client/src/types.ts
+- [[dot-disposed()]] - code - packages/client/src/client.ts
+- [[dot-end()_4]] - code - packages/protocol/src/codec.ts
+- [[dot-end()_5]] - code - packages/protocol/src/codec.ts
+- [[dot-end()_3]] - code - packages/protocol/src/codec.ts
+- [[dot-end()_6]] - code - packages/protocol/src/framing.ts
+- [[dot-end()_7]] - code - packages/server/test/unix-connection.test.ts
+- [[dot-error()]] - code - packages/client/test/support.ts
+- [[dot-fail()_1]] - code - packages/client/src/connection.ts
+- [[dot-fail()_6]] - code - packages/protocol/src/framing.ts
+- [[dot-hello()]] - code - packages/client/src/client.ts
+- [[dot-maxFrameLength()]] - code - packages/client/src/connection.ts
+- [[dot-onAttachmentChange()]] - code - packages/client/src/client.ts
+- [[dot-onClose()]] - code - packages/client/src/transport.ts
+- [[dot-onConnectionStateChange()]] - code - packages/client/src/client.ts
+- [[dot-onData()]] - code - packages/client/src/transport.ts
+- [[dot-onError()]] - code - packages/client/src/transport.ts
+- [[dot-onHandshake()]] - code - packages/client/src/connection.ts
+- [[dot-onMessage()]] - code - packages/client/src/connection.ts
+- [[dot-onStateChange()]] - code - packages/client/src/connection.ts
+- [[dot-push()_4]] - code - packages/protocol/src/codec.ts
+- [[dot-push()_5]] - code - packages/protocol/src/codec.ts
+- [[dot-push()_3]] - code - packages/protocol/src/codec.ts
+- [[dot-push()_6]] - code - packages/protocol/src/framing.ts
+- [[dot-reconnect()]] - code - packages/client/src/client.ts
+- [[dot-reject()]] - code - packages/client/src/client.ts
+- [[dot-reject()_1]] - code - packages/client/src/promise.ts
+- [[dot-request()]] - code - packages/client/src/client.ts
+- [[dot-resolve()_2]] - code - packages/client/src/client.ts
+- [[dot-resolve()_3]] - code - packages/client/src/promise.ts
+- [[dot-resolveMessageWaiters()]] - code - packages/client/test/support.ts
+- [[dot-send()_11]] - code - packages/client/src/connection.ts
+- [[dot-send()_12]] - code - packages/client/src/transport.ts
+- [[dot-send()_13]] - code - packages/client/src/unix.ts
+- [[dot-send()_14]] - code - packages/client/test/support.ts
+- [[dot-sendFragmentedMessage()]] - code - packages/server/src/testing/client.ts
+- [[dot-sendRaw()]] - code - packages/client/test/support.ts
+- [[dot-serverId()]] - code - packages/client/src/client.ts
+- [[dot-serviceCatalogue()]] - code - packages/client/src/client.ts
+- [[dot-start()_2]] - code - packages/client/src/types.ts
+- [[dot-state()_2]] - code - packages/client/src/connection.ts
+- [[dot-waitForMessages()]] - code - packages/client/test/support.ts
+- [[dot-write()_13]] - code - packages/server/test/unix-connection.test.ts
+- [[@earendil-workspi-client_3]] - concept - packages/client/package.json
+- [[@earendil-workspi-protocol_10]] - concept - packages/protocol/package.json
+- [[ActiveConnection]] - code - packages/client/src/connection.ts
+- [[ActiveServiceListener]] - code - packages/client/src/client.ts
+- [[AttachmentChangeListener]] - code - packages/client/src/types.ts
+- [[AttachmentEnvelope]] - code - packages/protocol/src/protocol.ts
+- [[AttachmentEnvelopeSchema]] - code - packages/protocol/src/protocol.ts
+- [[ByteTransport]] - code - packages/client/src/transport.ts
+- [[ByteTransportFactory]] - code - packages/client/src/transport.ts
+- [[ByteTransportHandlers]] - code - packages/client/src/transport.ts
+- [[CancelEnvelope]] - code - packages/protocol/src/protocol.ts
+- [[CancelEnvelopeSchema]] - code - packages/protocol/src/protocol.ts
+- [[Client_1]] - code - packages/client/src/client.ts
+- [[ClientDisposedError]] - code - packages/client/src/errors.ts
+- [[ClientHello]] - code - packages/protocol/src/protocol.ts
+- [[ClientHelloSchema]] - code - packages/protocol/src/protocol.ts
+- [[ClientMessage]] - code - packages/protocol/src/protocol.ts
+- [[ClientMessageDecoder]] - code - packages/protocol/src/codec.ts
+- [[ClientMessageSchema]] - code - packages/protocol/src/protocol.ts
+- [[ClientOptions]] - code - packages/client/src/types.ts
+- [[Connection]] - code - packages/client/src/connection.ts
+- [[ConnectionLifecycle]] - code - packages/client/src/connection.ts
+- [[ConnectionOptions]] - code - packages/client/src/connection.ts
+- [[ConnectionState]] - code - packages/client/src/types.ts
+- [[ConnectionStateChange]] - code - packages/client/src/types.ts
+- [[ControlledSocket]] - code - packages/server/test/unix-connection.test.ts
+- [[DEFAULT_MAX_FRAME_LENGTH]] - code - packages/protocol/src/framing.ts
+- [[DecoderState]] - code - packages/protocol/src/framing.ts
+- [[DisconnectedError]] - code - packages/client/src/errors.ts
+- [[DiscoverUnixServersOptions]] - code - packages/client/src/unix.ts
+- [[Durable SessionMetadata]] - concept - packages/protocol/CHANGELOG.md
+- [[FrameDecoder]] - code - packages/protocol/src/framing.ts
+- [[FrameDecoderOptions]] - code - packages/protocol/src/framing.ts
+- [[FrameError]] - code - packages/protocol/src/framing.ts
+- [[IdSchema]] - code - packages/protocol/src/protocol.ts
+- [[ListenerErrorHandler]] - code - packages/client/src/types.ts
+- [[MemoryByteServer]] - code - packages/client/test/support.ts
+- [[MessageWaiter]] - code - packages/server/src/testing/client.ts
+- [[OpaqueJsonValueSchema_1]] - code - packages/protocol/src/protocol.ts
+- [[PROTOCOL_VERSION]] - code - packages/protocol/src/protocol.ts
+- [[PendingRequest]] - code - packages/client/src/client.ts
+- [[Pi protocol history]] - concept - packages/protocol/CHANGELOG.md
+- [[PromiseResolvers]] - code - packages/client/src/promise.ts
+- [[ProtocolError]] - code - packages/protocol/src/protocol.ts
+- [[ProtocolErrorCode]] - code - packages/protocol/src/protocol.ts
+- [[ProtocolErrorSchema]] - code - packages/protocol/src/protocol.ts
+- [[ProtocolValidationError]] - code - packages/protocol/src/codec.ts
+- [[RequestEnvelope]] - code - packages/protocol/src/protocol.ts
+- [[RequestEnvelopeSchema]] - code - packages/protocol/src/protocol.ts
+- [[ResponseEnvelopeSchema]] - code - packages/protocol/src/protocol.ts
+- [[RpcTarget]] - code - packages/protocol/src/protocol.ts
+- [[RpcTargetSchema]] - code - packages/protocol/src/protocol.ts
+- [[ServerError]] - code - packages/client/src/errors.ts
+- [[ServerHello]] - code - packages/protocol/src/protocol.ts
+- [[ServerHelloError]] - code - packages/protocol/src/protocol.ts
+- [[ServerHelloErrorSchema]] - code - packages/protocol/src/protocol.ts
+- [[ServerHelloSchema]] - code - packages/protocol/src/protocol.ts
+- [[ServerIdSchema]] - code - packages/protocol/src/protocol.ts
+- [[ServerMessage]] - code - packages/protocol/src/protocol.ts
+- [[ServerMessageDecoder]] - code - packages/protocol/src/codec.ts
+- [[ServerMessageSchema]] - code - packages/protocol/src/protocol.ts
+- [[ServerTargetSchema]] - code - packages/protocol/src/protocol.ts
+- [[ServiceEventEnvelope]] - code - packages/protocol/src/protocol.ts
+- [[ServiceEventEnvelopeSchema]] - code - packages/protocol/src/protocol.ts
+- [[ServiceResult]] - code - packages/client/src/client.ts
+- [[ServiceStateDecoder]] - code - packages/chord/src/services/state-codec.ts
+- [[ServiceSubscription_1]] - code - packages/client/src/types.ts
+- [[SessionTarget]] - code - packages/protocol/src/protocol.ts
+- [[SessionTargetSchema]] - code - packages/protocol/src/protocol.ts
+- [[StrictObject()_1]] - code - packages/protocol/src/protocol.ts
+- [[UnixByteTransport]] - code - packages/client/src/unix.ts
+- [[UnixDiscoveryTimeoutError]] - code - packages/client/src/unix.ts
+- [[UnixTransportOptions]] - code - packages/client/src/unix.ts
+- [[Unsubscribe]] - code - packages/client/src/types.ts
+- [[ValidatedMessageDecoder]] - code - packages/protocol/src/codec.ts
+- [[abortError()_1]] - code - packages/client/src/client.ts
+- [[agent_3]] - code - scripts/browser-smoke-entry.ts
+- [[attachClient()]] - code - packages/client/test/client.test.ts
+- [[boundedErrorMessage()]] - code - packages/protocol/src/codec.ts
+- [[browser-smoke-entry.ts]] - code - scripts/browser-smoke-entry.ts
+- [[clientindex.ts]] - code - packages/coding-agent/src/client/index.ts
+- [[clientsrcclient.ts]] - code - packages/client/src/client.ts
+- [[clientsrcconnection.ts]] - code - packages/client/src/connection.ts
+- [[clientsrcerrors.ts]] - code - packages/client/src/errors.ts
+- [[clientsrcindex.ts]] - code - packages/client/src/index.ts
+- [[clientsrctypes.ts]] - code - packages/client/src/types.ts
+- [[clienttestclient.test.ts]] - code - packages/client/test/client.test.ts
+- [[clienttestfixturesstale-socket-server.mjs]] - code - packages/client/test/fixtures/stale-socket-server.mjs
+- [[clientHello_1]] - code - packages/protocol/test/protocol.test.ts
+- [[close()_1]] - code - packages/client/test/client.test.ts
+- [[codec.ts]] - code - packages/protocol/src/codec.ts
+- [[concatenate()]] - code - packages/protocol/test/framing.test.ts
+- [[connectClient()]] - code - packages/client/test/client.test.ts
+- [[connectUnixSocket()]] - code - packages/client/src/unix.ts
+- [[createClientServiceTransport()]] - code - packages/client/src/client.ts
+- [[createPromiseResolvers()]] - code - packages/client/src/promise.ts
+- [[createServiceCatalogueCall()]] - code - packages/chord/src/services/wire.ts
+- [[discoverUnixServers()]] - code - packages/client/src/unix.ts
+- [[encodeClientMessage()]] - code - packages/protocol/src/codec.ts
+- [[encodeFrame()]] - code - packages/protocol/src/framing.ts
+- [[encodeProtocolMessage()]] - code - packages/protocol/src/codec.ts
+- [[encodeServerMessage()]] - code - packages/protocol/src/codec.ts
+- [[framing.test.ts]] - code - packages/protocol/test/framing.test.ts
+- [[framing.ts]] - code - packages/protocol/src/framing.ts
+- [[isErrorCode()]] - code - packages/client/src/unix.ts
+- [[isSupportedProtocolVersion()]] - code - packages/protocol/src/codec.ts
+- [[listen()]] - code - packages/client/test/unix-transport.test.ts
+- [[makeSocketPath()]] - code - packages/client/test/unix-transport.test.ts
+- [[model_35]] - code - scripts/browser-smoke-entry.ts
+- [[packages_agent_src_index_streamproxy]] - concept
+- [[packages_protocol_src_index_clientmessagedecoder]] - concept
+- [[packages_protocol_src_index_decodecbor]] - concept
+- [[packages_protocol_src_index_default_max_frame_length]] - concept
+- [[packages_protocol_src_index_encodecbor]] - concept
+- [[packages_protocol_src_index_encodeclientmessage]] - concept
+- [[packages_protocol_src_index_encodeframe]] - concept
+- [[packages_protocol_src_index_encodeservermessage]] - concept
+- [[packages_protocol_src_index_framedecoder]] - concept
+- [[packages_protocol_src_index_frameerror]] - concept
+- [[packages_protocol_src_index_parseclientmessage]] - concept
+- [[packages_protocol_src_index_parseservermessage]] - concept
+- [[packages_protocol_src_index_protocolvalidationerror]] - concept
+- [[packages_protocol_src_index_servermessagedecoder]] - concept
+- [[parseClientMessage()]] - code - packages/protocol/src/codec.ts
+- [[parseServerMessage()]] - code - packages/protocol/src/codec.ts
+- [[probeUnixServer()]] - code - packages/client/src/unix.ts
+- [[promise.ts]] - code - packages/client/src/promise.ts
+- [[protocolCHANGELOG]] - document - packages/protocol/CHANGELOG.md
+- [[protocolsrcindex.ts]] - code - packages/protocol/src/index.ts
+- [[protocoltestprotocol.test.ts]] - code - packages/protocol/test/protocol.test.ts
+- [[protocolvitest.config.ts]] - code - packages/protocol/vitest.config.ts
+- [[ref_node_events]] - concept
+- [[ref_node_net]] - concept
+- [[resolveMaxFrameLength()]] - code - packages/protocol/src/framing.ts
+- [[schema]] - code - scripts/browser-smoke-entry.ts
+- [[send()]] - code - packages/client/test/client.test.ts
+- [[server]] - code - packages/client/test/fixtures/stale-socket-server.mjs
+- [[serverHello_1]] - code - packages/protocol/test/protocol.test.ts
+- [[serverId()]] - code - packages/client/test/unix.test.ts
+- [[serverTarget]] - code - packages/client/test/client.test.ts
+- [[servers]] - code - packages/client/test/unix-transport.test.ts
+- [[session()]] - code - packages/coding-agent/test/experimental-client-tui.test.ts
+- [[sockets]] - code - packages/client/test/unix-transport.test.ts
+- [[srcprotocol.ts]] - code - packages/protocol/src/protocol.ts
+- [[srctransport.ts]] - code - packages/client/src/transport.ts
+- [[stream_1]] - code - scripts/browser-smoke-entry.ts
+- [[support.ts]] - code - packages/client/test/support.ts
+- [[tempDirectories]] - code - packages/client/test/unix-transport.test.ts
+- [[testingclient.ts]] - code - packages/server/src/testing/client.ts
+- [[toDisconnectedError()]] - code - packages/client/src/errors.ts
+- [[toError()_3]] - code - packages/client/src/errors.ts
+- [[unix-connection.test.ts]] - code - packages/server/test/unix-connection.test.ts
+- [[unix-transport.test.ts]] - code - packages/client/test/unix-transport.test.ts
+- [[unix.ts]] - code - packages/client/src/unix.ts
+- [[validateUnixTransportOptions()]] - code - packages/client/src/unix.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Client_远程连接_14
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 95 edges to [[_COMMUNITY_Server 会话路由 20]]
+- 46 edges to [[_COMMUNITY_Coding Agent 会话工具 8]]
+- 28 edges to [[_COMMUNITY_Chord 服务状态 95]]
+- 19 edges to [[_COMMUNITY_Protocol 传输协议 104]]
+- 15 edges to [[_COMMUNITY_Coding Agent 会话工具 48]]
+- 13 edges to [[_COMMUNITY_Coding Agent 会话工具 28]]
+- 12 edges to [[_COMMUNITY_Coding Agent 会话工具 72]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 8 edges to [[_COMMUNITY_AI 模型协议 1]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 7 edges to [[_COMMUNITY_Coding Agent 会话工具 15]]
+- 6 edges to [[_COMMUNITY_Chord 服务状态 30]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 33]]
+- 5 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 3 edges to [[_COMMUNITY_Server 会话路由 192]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 90]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 31]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 69]]
+- 2 edges to [[_COMMUNITY_MCP 远端工具 96]]
+- 2 edges to [[_COMMUNITY_TUI 终端组件 349]]
+- 2 edges to [[_COMMUNITY_TUI 终端组件 350]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 130]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 74]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 140]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 13]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 36]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 63]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 83]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 110]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 207]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 56]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 244]]
+- 1 edge to [[_COMMUNITY_MCP 远端工具 93]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 67]]
+- 1 edge to [[_COMMUNITY_Agent 控制循环 82]]
+- 1 edge to [[_COMMUNITY_Client 远程连接 426]]
+- 1 edge to [[_COMMUNITY_Client 远程连接 367]]
+- 1 edge to [[_COMMUNITY_Client 远程连接 129]]
+- 1 edge to [[_COMMUNITY_Client 远程连接 309]]
+- 1 edge to [[_COMMUNITY_Client 远程连接 251]]
+- 1 edge to [[_COMMUNITY_Protocol 传输协议 355]]
+- 1 edge to [[_COMMUNITY_Protocol 传输协议 144]]
+- 1 edge to [[_COMMUNITY_Protocol 传输协议 346]]
+- 1 edge to [[_COMMUNITY_Protocol 传输协议 332]]
+
+## Top bridge nodes
+- [[@earendil-workspi-client_3]] - degree 21, connects to 8 communities
+- [[clientsrcclient.ts]] - degree 56, connects to 7 communities
+- [[browser-smoke-entry.ts]] - degree 28, connects to 7 communities
+- [[srcprotocol.ts]] - degree 42, connects to 6 communities
+- [[@earendil-workspi-protocol_10]] - degree 20, connects to 6 communities

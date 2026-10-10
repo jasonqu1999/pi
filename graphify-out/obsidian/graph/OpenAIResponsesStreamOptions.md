@@ -1,0 +1,22 @@
+---
+source_file: "packages/ai/src/api/openai-responses-shared.ts"
+type: "code"
+community: "AI 模型协议 106"
+location: "L110"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/AI_模型协议_106
+---
+
+# OpenAIResponsesStreamOptions
+
+## Connections
+- [[StreamOptions]] - `references` [EXTRACTED]
+- [[Usage_1]] - `references` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/AI_模型协议_106
+
+## 源码入口
+
+[packages/ai/src/api/openai-responses-shared.ts](../../../packages/ai/src/api/openai-responses-shared.ts)

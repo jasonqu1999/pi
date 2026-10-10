@@ -1,0 +1,226 @@
+---
+type: community
+cohesion: 0.03
+members: 156
+---
+
+# Chord 服务状态 30
+
+**Cohesion:** 0.03 - loosely connected
+**Members:** 156 nodes
+
+## Members
+- [[dot-deliverAll()]] - code - packages/chord/src/services/state.ts
+- [[dot-fail()]] - code - packages/chord/src/services/state.ts
+- [[dot-receive()]] - code - packages/chord/src/services/state.ts
+- [[dot-report()_1]] - code - packages/chord/src/services/state.ts
+- [[dot-report()]] - code - packages/chord/src/services/state.ts
+- [[dot-resume()]] - code - packages/chord/src/services/state.ts
+- [[dot-activate()_2]] - code - packages/chord/src/services/state.ts
+- [[dot-adopt()]] - code - packages/chord/src/delta/tracker.ts
+- [[dot-beginChange()]] - code - packages/chord/src/delta/tracker.ts
+- [[dot-call()_1]] - code - packages/chord/test/services.test.ts
+- [[dot-change()]] - code - packages/chord/src/services/state.ts
+- [[dot-clear()_4]] - code - packages/chord/src/services/state.ts
+- [[dot-clear()_3]] - code - packages/chord/src/services/state.ts
+- [[dot-close()_4]] - code - packages/chord/src/services/state.ts
+- [[dot-constructor()_52]] - code - packages/chord/src/delta/index.ts
+- [[dot-constructor()_51]] - code - packages/chord/src/delta/index.ts
+- [[dot-constructor()_74]] - code - packages/chord/src/services/state.ts
+- [[dot-constructor()_73]] - code - packages/chord/src/services/state.ts
+- [[dot-constructor()_72]] - code - packages/chord/src/services/state.ts
+- [[dot-constructor()_75]] - code - packages/chord/src/services/state.ts
+- [[dot-constructor()_71]] - code - packages/chord/src/services/state.ts
+- [[dot-decode()]] - code - packages/chord/src/delta/index.ts
+- [[dot-dispose()_8]] - code - packages/chord/src/services/state.ts
+- [[dot-drain()_1]] - code - packages/chord/src/services/state.ts
+- [[dot-encode()_1]] - code - packages/chord/src/delta/index.ts
+- [[dot-hydrate()_1]] - code - packages/chord/src/services/state.ts
+- [[dot-prepareReplace()]] - code - packages/chord/src/delta/tracker.ts
+- [[dot-prepareSession()]] - code - packages/coding-agent/src/experimental/services/plugins.ts
+- [[dot-publish()_1]] - code - packages/chord/src/services/state.ts
+- [[dot-push()_1]] - code - packages/chord/src/services/state.ts
+- [[dot-reload()_9]] - code - packages/coding-agent/src/experimental/services/plugins.ts
+- [[dot-replace()_2]] - code - packages/chord/src/services/state.ts
+- [[dot-scanTasks()_4]] - code - packages/durable/src/types.ts
+- [[dot-snapshot()_2]] - code - packages/chord/src/services/state.ts
+- [[dot-subscribe()_6]] - code - packages/chord/src/services/state.ts
+- [[dot-subscribe()_5]] - code - packages/chord/src/services/state.ts
+- [[dot-subscribe()_4]] - code - packages/chord/src/services/state.ts
+- [[dot-subscribe()_7]] - code - packages/chord/src/services/state.ts
+- [[dot-subscribeSource()]] - code - packages/chord/src/services/state.ts
+- [[dot-update()_3]] - code - packages/chord/src/services/state.ts
+- [[dot-validate()]] - code - packages/chord/src/delta/revision-validator.ts
+- [[dot-value()_6]] - code - packages/chord/src/services/state.ts
+- [[dot-value()_5]] - code - packages/chord/src/services/state.ts
+- [[dot-value()_4]] - code - packages/chord/src/services/state.ts
+- [[dot-value()_7]] - code - packages/chord/src/services/state.ts
+- [[@earendil-workschord_15]] - concept - packages/chord/package.json
+- [[AttachedReplicatedStateImpl]] - code - packages/chord/src/services/state.ts
+- [[DeepNode]] - code - packages/chord/test/delta-tracker/tracker.test.ts
+- [[Dictionary]] - code - packages/chord/test/delta-clone.test.ts
+- [[Document]] - code - packages/chord/test/delta-apply-immutable.test.ts
+- [[Document_3]] - code - packages/chord/test/delta-tracker/tracker.test.ts
+- [[Document_4]] - code - packages/chord/test/state-fuzz.test.ts
+- [[Item]] - code - packages/chord/test/state-fuzz.test.ts
+- [[JsonContainer_1]] - code - packages/chord/src/delta/revision-validator.ts
+- [[JsonPassthrough]] - code - packages/chord/test/services.test.ts
+- [[JsonRevisionValidator]] - code - packages/chord/src/delta/revision-validator.ts
+- [[JsonValue_1]] - code - packages/chord/src/types.ts
+- [[Kind]] - code - packages/chord/test/state-delivery.test.ts
+- [[MutableDocument]] - code - packages/chord/test/state-fuzz.test.ts
+- [[MutableReplicatedStateImpl]] - code - packages/chord/src/services/state.ts
+- [[PathError]] - code - packages/chord/src/delta/index.ts
+- [[PathRef]] - code - packages/chord/src/delta/index.ts
+- [[Publication]] - code - packages/chord/src/services/state.ts
+- [[ReplicatedStatePublisher]] - code - packages/chord/src/services/state.ts
+- [[ReplicatedStateReplica]] - code - packages/chord/src/services/state.ts
+- [[Root_3]] - code - packages/chord/test/delta-tracker/retention.worker.ts
+- [[Row_2]] - code - packages/chord/test/delta-tracker/tracker.test.ts
+- [[SourceListener]] - code - packages/chord/src/services/state.ts
+- [[StateDelivery]] - code - packages/chord/src/services/state.ts
+- [[StateListener]] - code - packages/chord/src/services/state.ts
+- [[StateSubscriber]] - code - packages/chord/src/services/state.ts
+- [[TODO Add delivery-scoped cancellation or metadata if deliveries gain an owned…]] - rationale - packages/chord/src/services/state.ts
+- [[Tracker]] - code - packages/chord/src/delta/tracker.ts
+- [[UnsafePathError]] - code - packages/chord/src/delta/index.ts
+- [[Value]] - code - packages/chord/test/state-delivery.test.ts
+- [[WireOp]] - code - packages/chord/src/delta/index.ts
+- [[abortedPayload()]] - code - packages/chord/test/delta-tracker/retention.worker.ts
+- [[apply()]] - code - packages/chord/src/delta/index.ts
+- [[applyImmutable()]] - code - packages/chord/src/delta/index.ts
+- [[applyImmutableBatches()]] - code - packages/chord/src/delta/index.ts
+- [[applyOps()]] - code - packages/chord/src/delta/index.ts
+- [[assertCursor()]] - code - packages/chord/src/services/state.ts
+- [[assertDenseArray()]] - code - packages/chord/src/delta/revision-validator.ts
+- [[assertIndexInRange()]] - code - packages/chord/src/delta/index.ts
+- [[assertPathArg()]] - code - packages/chord/src/delta/index.ts
+- [[assertPermutation()]] - code - packages/chord/src/delta/index.ts
+- [[assertPlainObject()]] - code - packages/chord/src/delta/revision-validator.ts
+- [[assertPrimitive()]] - code - packages/chord/src/delta/revision-validator.ts
+- [[assertRetained()]] - code - packages/chord/test/delta-tracker/retention.worker.ts
+- [[assertSafePath()]] - code - packages/chord/src/delta/index.ts
+- [[assertValidOp()]] - code - packages/chord/src/delta/index.ts
+- [[assertValidWireOp()]] - code - packages/chord/src/delta/index.ts
+- [[attachReplicatedStateSource()]] - code - packages/chord/src/services/state.ts
+- [[clone()]] - code - packages/chord/test/delta-apply-immutable.test.ts
+- [[clone()_1]] - code - packages/chord/test/delta-tracker/tracker.test.ts
+- [[clone()_2]] - code - packages/chord/test/state-fuzz.test.ts
+- [[collect()_2]] - code - packages/chord/test/delta-tracker/retention.worker.ts
+- [[copyContainers()]] - code - packages/chord/src/delta/index.ts
+- [[decoder]] - code - packages/chord/src/delta/index.ts
+- [[deferred()]] - code - packages/chord/test/state-delivery.test.ts
+- [[delta-apply-immutable.test.ts]] - code - packages/chord/test/delta-apply-immutable.test.ts
+- [[delta-clone.test.ts]] - code - packages/chord/test/delta-clone.test.ts
+- [[delta-diff.test.ts]] - code - packages/chord/test/delta-diff.test.ts
+- [[delta.test.ts]] - code - packages/chord/test/delta.test.ts
+- [[deltaindex.ts]] - code - packages/chord/src/delta/index.ts
+- [[diffRevisions()]] - code - packages/chord/src/delta/diff.ts
+- [[draftProxies()]] - code - packages/chord/test/delta-tracker/retention.worker.ts
+- [[encoder]] - code - packages/chord/src/delta/index.ts
+- [[expectAliasFree()]] - code - packages/chord/test/delta-tracker/tracker.test.ts
+- [[expectAliasFree()_1]] - code - packages/chord/test/state-fuzz.test.ts
+- [[expectDiff()]] - code - packages/chord/test/delta-diff.test.ts
+- [[expectDiff()_1]] - code - packages/chord/test/state-diff.test.ts
+- [[fixture()_3]] - code - packages/chord/test/state-delivery.test.ts
+- [[freezeDeep()]] - code - packages/chord/test/delta-apply-immutable.test.ts
+- [[get()]] - code - packages/chord/test/delta-apply-immutable.test.ts
+- [[get()_1]] - code - packages/chord/test/delta-clone.test.ts
+- [[get()_3]] - code - packages/chord/test/delta.test.ts
+- [[get()_2]] - code - packages/chord/test/delta-tracker/tracker.test.ts
+- [[invalidOperationBatches()]] - code - packages/chord/test/delta-apply-immutable.test.ts
+- [[isBase()]] - code - packages/chord/src/delta/index.ts
+- [[isContainer()_2]] - code - packages/chord/src/delta/revision-validator.ts
+- [[isObj()]] - code - packages/chord/src/delta/index.ts
+- [[isPromiseLike()_1]] - code - packages/chord/src/services/state.ts
+- [[isReplace()]] - code - packages/chord/src/delta/index.ts
+- [[mutate()]] - code - packages/chord/test/state-fuzz.test.ts
+- [[pathKey()]] - code - packages/chord/src/delta/index.ts
+- [[random()]] - code - packages/chord/test/state-fuzz.test.ts
+- [[registerReplicatedStateInternals()]] - code - packages/chord/src/services/state-internals.ts
+- [[replay()]] - code - packages/chord/test/delta-tracker/tracker.test.ts
+- [[replay()_1]] - code - packages/durable/test/harness-view.test.ts
+- [[reportErrorAsync()]] - code - packages/chord/src/services/state.ts
+- [[resolve()]] - code - packages/chord/src/delta/index.ts
+- [[resolveValue()_1]] - code - packages/chord/src/delta/index.ts
+- [[retainedLargePrepared]] - code - packages/chord/test/delta-tracker/retention.worker.ts
+- [[retainedSettledChanges]] - code - packages/chord/test/delta-tracker/retention.worker.ts
+- [[retainedSettledObjects]] - code - packages/chord/test/delta-tracker/retention.worker.ts
+- [[retention.worker.ts]] - code - packages/chord/test/delta-tracker/retention.worker.ts
+- [[revision-validator.ts]] - code - packages/chord/src/delta/revision-validator.ts
+- [[serviceDeliveryContext()]] - code - packages/chord/src/services/state.ts
+- [[set()_1]] - code - packages/chord/test/delta.test.ts
+- [[set()]] - code - packages/chord/test/delta-tracker/tracker.test.ts
+- [[settle()]] - code - packages/chord/test/delta-tracker/tracker.test.ts
+- [[settledLifecycle()]] - code - packages/chord/test/delta-tracker/retention.worker.ts
+- [[state-delivery.test.ts]] - code - packages/chord/test/state-delivery.test.ts
+- [[state-diff.test.ts]] - code - packages/chord/test/state-diff.test.ts
+- [[state-draft.test.ts]] - code - packages/chord/test/state-draft.test.ts
+- [[state-fuzz.test.ts]] - code - packages/chord/test/state-fuzz.test.ts
+- [[state-value.test.ts]] - code - packages/chord/test/state-value.test.ts
+- [[state.ts]] - code - packages/chord/src/services/state.ts
+- [[throwCollectedErrors()_1]] - code - packages/chord/src/services/state.ts
+- [[throwingBatches()]] - code - packages/chord/test/delta-apply-immutable.test.ts
+- [[toError()_2]] - code - packages/chord/src/services/state.ts
+- [[track()]] - code - packages/chord/src/delta/tracker.ts
+- [[tracker.test.ts]] - code - packages/chord/test/delta-tracker/tracker.test.ts
+- [[unadoptedPrepared()]] - code - packages/chord/test/delta-tracker/retention.worker.ts
+- [[valueOf()]] - code - packages/chord/test/delta-tracker/tracker.test.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Chord_服务状态_30
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 51 edges to [[_COMMUNITY_Coding Agent 会话工具 8]]
+- 45 edges to [[_COMMUNITY_Durable 持久任务 4]]
+- 28 edges to [[_COMMUNITY_Durable 持久任务 5]]
+- 23 edges to [[_COMMUNITY_Chord 服务状态 36]]
+- 23 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 16 edges to [[_COMMUNITY_Chord 服务状态 53]]
+- 15 edges to [[_COMMUNITY_Chord 服务状态 95]]
+- 12 edges to [[_COMMUNITY_Chord 服务状态 160]]
+- 10 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 9 edges to [[_COMMUNITY_Coding Agent 会话工具 33]]
+- 9 edges to [[_COMMUNITY_Server 会话路由 20]]
+- 8 edges to [[_COMMUNITY_Chord 服务状态 59]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 28]]
+- 8 edges to [[_COMMUNITY_Durable 持久任务 21]]
+- 7 edges to [[_COMMUNITY_Chord 服务状态 87]]
+- 6 edges to [[_COMMUNITY_Chord 服务状态 137]]
+- 6 edges to [[_COMMUNITY_Chord 服务状态 141]]
+- 6 edges to [[_COMMUNITY_Chord 服务状态 196]]
+- 6 edges to [[_COMMUNITY_Chord 服务状态 125]]
+- 6 edges to [[_COMMUNITY_Client 远程连接 14]]
+- 4 edges to [[_COMMUNITY_Chord 服务状态 264]]
+- 4 edges to [[_COMMUNITY_Chord 服务状态 265]]
+- 4 edges to [[_COMMUNITY_Durable 持久任务 119]]
+- 3 edges to [[_COMMUNITY_Durable 持久任务 45]]
+- 3 edges to [[_COMMUNITY_Chord 服务状态 231]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 2 edges to [[_COMMUNITY_Durable 持久任务 38]]
+- 2 edges to [[_COMMUNITY_Durable 持久任务 115]]
+- 2 edges to [[_COMMUNITY_Durable 持久任务 18]]
+- 2 edges to [[_COMMUNITY_Server 会话路由 192]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 6]]
+- 1 edge to [[_COMMUNITY_TUI 终端组件 349]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 170]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 180]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 86]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 58]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 132]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 107]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 197]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 162]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 225]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 337]]
+
+## Top bridge nodes
+- [[@earendil-workschord_15]] - degree 69, connects to 21 communities
+- [[deltaindex.ts]] - degree 85, connects to 8 communities
+- [[state.ts]] - degree 48, connects to 7 communities
+- [[state-delivery.test.ts]] - degree 22, connects to 7 communities
+- [[delta.test.ts]] - degree 20, connects to 5 communities

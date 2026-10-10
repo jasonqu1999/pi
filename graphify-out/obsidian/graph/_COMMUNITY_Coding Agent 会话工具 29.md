@@ -1,0 +1,226 @@
+---
+type: community
+cohesion: 0.03
+members: 156
+---
+
+# Coding Agent 会话工具 29
+
+**Cohesion:** 0.03 - loosely connected
+**Members:** 156 nodes
+
+## Members
+- [[dot-_addPersistedDefaultToNonEmptyScope()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_afterToolCall()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_appendCustomMessage()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_applyBoundaryDrafts()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_applyToolLoadout()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_beforeToolCall()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_bindExtensionCore()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_buildBoundaryContext()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_buildRuntime()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_clampThinkingLevel()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_commitBoundaryDrafts()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_compactBeforeNextAssistantResponse()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_createBoundaryPreviewManager()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_cycleAvailableModel()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_cycleScopedModel()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_disconnectFromAgent()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_dispatchTurnEndBoundary()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_emit()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_emitAgentSettled()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_emitExtensionEvent()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_emitModelSelect()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_emitQueueUpdate()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_executeNestedToolCall()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_expandSkillCommand()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_findLastAssistantMessage()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_findPersistedMessageEntryId()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_finishCancelledRetry()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_flushPendingBashMessages()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_flushPendingCustomMessages()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_getCallableTools()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_getIdleWaitPromise()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_getPendingBoundaryMessages()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_getThinkingLevelForModelSwitch()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_getToolExposure()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_handleAgentEvent()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_handlePostAgentRun()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_installAgentBoundaryHooks()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_installAgentForcedPromptProjection()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_installAgentNextTurnRefresh()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_installAgentToolHooks()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_installHiddenDeclarationsProjection()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_isActivatedOnRegistration()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_isAllowedTool()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_isDeclarable()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_isRetryableError()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_limitsModel()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_modelForMessage()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_normalizePromptGuidelines()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_normalizePromptImages()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_normalizePromptSnippet()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_omitRecoveryAttempt()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_preparePromptAndToolLoadout()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_prepareRetry()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_queueFollowUp()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_queueSteer()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_queueUserInput()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_rebuildSystemPrompt()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_refreshCurrentModelFromRegistry()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_refreshFinalizedContext()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_refreshToolRegistry()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_replaceMessageInPlace()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_reportInvalidBoundaryContinuation()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_runAgentPrompt()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_runBeforeSettleBoundary()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_runInputHandlers()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_setActiveTools()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_throwIfExtensionCommand()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_tryExecuteExtensionCommand()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-_willRetryAfterAgentEnd()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-abort()_7]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-abortBash()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-abortBranchSummary()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-abortCompaction()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-abortRetry()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-autoCompactionEnabled()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-autoRetryEnabled()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-bindExtensions()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-clearQueue()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-constructor()_121]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-createReplacedSessionContext()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-cycleModel()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-cycleThinkingLevel()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-dispose()_28]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-exportToHtml()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-extendResourcesFromExtensions()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-followUp()_1]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-followUpMode()_1]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-getActiveToolNames()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-getAllModelThinkingLevels()]] - code - packages/coding-agent/src/core/settings-manager.ts
+- [[dot-getAllTools()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-getAvailableThinkingLevels()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-getCallableToolNames()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-getDefaultThinkingLevel()]] - code - packages/coding-agent/src/core/settings-manager.ts
+- [[dot-getFollowUpMessages()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-getModelThinkingLevel()]] - code - packages/coding-agent/src/core/settings-manager.ts
+- [[dot-getSteeringMessages()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-getToolDefinition()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-getUserMessagesForForking()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-hasExtensionHandlers()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-hasHandlers()]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[dot-hasPendingBashMessages()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-isBashRunning()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-isCompacting()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-isIdle()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-isRetrying()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-isStreaming()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-pendingMessageCount()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-prompt()_2]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-recordBashResult()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-refreshContext()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-reload()_2]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-retryAttempt()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-scopedModels()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-sendCustomMessage()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-sendMessage()_1]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-sendMessage()]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-sessionFile()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-sessionName()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-setActiveToolsByName()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-setAutoCompactionEnabled()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-setAutoRetryEnabled()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-setFollowUpMode()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-setModel()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-setScopedModels()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-setSession()]] - code - packages/coding-agent/src/modes/interactive/components/footer.ts
+- [[dot-setSessionName()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-setSteeringMode()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-setThinkingLevel()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-setThinkingLevel()_1]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[dot-steer()_1]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-steeringMode()_1]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-supportsThinking()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-syncQueueModesFromSettings()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-thinkingLevel()]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[dot-waitForIdle()_1]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[AgentSession]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[AgentSessionConfig]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[CustomMessage_1]] - code - packages/coding-agent/src/core/messages.ts
+- [[E10 会话prompt处理输入模板认证与消息构造，应用工具及system sections后进入_runAgentPrompt]] - rationale - packages/coding-agent/src/core/agent-session.ts
+- [[E17 会话先扩展公开通知，再于message_end追加普通消息条目；turn_end刷新pending自定义消息]] - rationale - packages/coding-agent/src/core/agent-session.ts
+- [[E19 轮间刷新先压缩投影，再更新工具装载与system sections；请求前还可重建canonical投影]] - rationale - packages/coding-agent/src/core/agent-session.ts
+- [[E21 _runAgentPrompt可在低层结束后重试恢复消费新队列收束钩子再continue，finally发agent_settled]] - rationale - packages/coding-agent/src/core/agent-session.ts
+- [[E22 自动重试按可重试模型错误预算决定，保留原始失败尝试但省略其模型投影]] - rationale - packages/coding-agent/src/core/agent-session.ts
+- [[E24 会话abort取消重试压缩摘要并发Agent signal，等待会话idle]] - rationale - packages/coding-agent/src/core/agent-session.ts
+- [[E25 会话把beforeafterToolCall映射到扩展tool_calltool_result；runToolCall复用嵌套调用钩子]] - rationale - packages/coding-agent/src/core/agent-session.ts
+- [[InputSource]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[PromptOptions]] - code - packages/coding-agent/src/core/agent-session.ts
+- [[ReplacedSessionContext]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SessionBoundaryDraft]] - code - packages/coding-agent/src/core/extensions/types.ts
+- [[SessionStats_1]] - code - packages/coding-agent/src/modes/interactive/components/footer.ts
+- [[ThinkingLevel]] - code - packages/agent/src/types.ts
+- [[UsageTotals]] - code - packages/coding-agent/src/core/usage-totals.ts
+- [[createToolDefinitionFromAgentTool()]] - code - packages/coding-agent/src/core/tools/tool-definition-wrapper.ts
+- [[diffSystemPromptSections()]] - code - packages/coding-agent/src/core/system-prompt.ts
+- [[emitSessionShutdownEvent()]] - code - packages/coding-agent/src/core/extensions/runner.ts
+- [[isContextOverflow()]] - code - packages/ai/src/utils/overflow.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Coding_Agent_会话工具_29
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 79 edges to [[_COMMUNITY_Coding Agent 会话工具 19]]
+- 39 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 36 edges to [[_COMMUNITY_Coding Agent 会话工具 27]]
+- 27 edges to [[_COMMUNITY_Coding Agent 会话工具 15]]
+- 24 edges to [[_COMMUNITY_Coding Agent 会话工具 2]]
+- 24 edges to [[_COMMUNITY_Coding Agent 会话工具 42]]
+- 19 edges to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 16 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 15 edges to [[_COMMUNITY_Coding Agent 会话工具 152]]
+- 13 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 10 edges to [[_COMMUNITY_AI 模型协议 1]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 31]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 8 edges to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 116]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 24]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 75]]
+- 5 edges to [[_COMMUNITY_Evals 行为评估 114]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 66]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 41]]
+- 4 edges to [[_COMMUNITY_Durable 持久任务 21]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 112]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 99]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 78]]
+- 3 edges to [[_COMMUNITY_TUI 终端组件 26]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 25]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 135]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 103]]
+- 2 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 100]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 39]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 56]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 8]]
+- 1 edge to [[_COMMUNITY_Agent 控制循环 85]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 143]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 51]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 54]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 206]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 16]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 84]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 101]]
+- 1 edge to [[_COMMUNITY_Evals 行为评估 183]]
+
+## Top bridge nodes
+- [[AgentSession]] - degree 242, connects to 16 communities
+- [[AgentSessionConfig]] - degree 15, connects to 9 communities
+- [[dot-_preparePromptAndToolLoadout()]] - degree 12, connects to 5 communities
+- [[dot-_applyBoundaryDrafts()]] - degree 14, connects to 4 communities
+- [[dot-_bindExtensionCore()]] - degree 22, connects to 3 communities

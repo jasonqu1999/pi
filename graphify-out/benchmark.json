@@ -1,0 +1,25 @@
+{
+  "corpus_tokens": 2392405,
+  "corpus_words": 1794304,
+  "nodes": 19848,
+  "edges": 61877,
+  "avg_query_tokens": 2529,
+  "reduction_ratio": 946.0,
+  "per_question": [
+    {
+      "question": "streamAssistantResponse createToolResultMessage",
+      "query_tokens": 147,
+      "reduction": 16274.9
+    },
+    {
+      "question": "AgentSession prepareRequest buildSessionProjection",
+      "query_tokens": 459,
+      "reduction": 5212.2
+    },
+    {
+      "question": "Agent agent_end agent_settled",
+      "query_tokens": 6983,
+      "reduction": 342.6
+    }
+  ]
+}

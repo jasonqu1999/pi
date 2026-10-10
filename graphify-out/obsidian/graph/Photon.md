@@ -1,0 +1,18 @@
+---
+source_file: "packages/coding-agent/src/utils/exif-orientation.ts"
+type: "code"
+community: "Coding Agent 会话工具 291"
+location: "L3"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Coding_Agent_会话工具_291
+---
+
+# Photon
+
+#graphify/code #graphify/EXTRACTED #community/Coding_Agent_会话工具_291
+
+## 源码入口
+
+[packages/coding-agent/src/utils/exif-orientation.ts](../../../packages/coding-agent/src/utils/exif-orientation.ts)

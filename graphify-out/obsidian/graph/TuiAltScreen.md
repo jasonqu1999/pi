@@ -1,0 +1,108 @@
+---
+source_file: "packages/tui/src/tui-alt-screen.ts"
+type: "code"
+community: "TUI 终端组件 9"
+location: "L202"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/TUI_终端组件_9
+---
+
+# TuiAltScreen
+
+## Connections
+- [[dot-afterTerminalStop()]] - `method` [EXTRACTED]
+- [[dot-applyMouseDispatchResult()]] - `method` [EXTRACTED]
+- [[dot-applySearchHighlights()]] - `method` [EXTRACTED]
+- [[dot-applySearchTextHighlight()]] - `method` [EXTRACTED]
+- [[dot-applySelection()]] - `method` [EXTRACTED]
+- [[dot-applySelectionHighlight()]] - `method` [EXTRACTED]
+- [[dot-autoScrollSelection()]] - `method` [EXTRACTED]
+- [[dot-beforeTerminalStart()]] - `method` [EXTRACTED]
+- [[dot-beforeTerminalStop()]] - `method` [EXTRACTED]
+- [[dot-clearComponentMouseGesture()]] - `method` [EXTRACTED]
+- [[dot-clearTextSelection()]] - `method` [EXTRACTED]
+- [[dot-closeSearch()]] - `method` [EXTRACTED]
+- [[dot-compositeFlashes()]] - `method` [EXTRACTED]
+- [[dot-compositeScrollToEndIndicator()]] - `method` [EXTRACTED]
+- [[dot-constructor()_344]] - `method` [EXTRACTED]
+- [[dot-copyActiveSelectionToClipboard()]] - `method` [EXTRACTED]
+- [[dot-copySelectionToClipboard()]] - `method` [EXTRACTED]
+- [[dot-copyTextToClipboard()]] - `method` [EXTRACTED]
+- [[dot-createMouseEvent()]] - `method` [EXTRACTED]
+- [[dot-decodeMouseButton()]] - `method` [EXTRACTED]
+- [[dot-deleteKittyImages()]] - `method` [EXTRACTED]
+- [[dot-dispatchMouseToLayout()]] - `method` [EXTRACTED]
+- [[dot-dispatchMouseToTarget()]] - `method` [EXTRACTED]
+- [[dot-doRender()]] - `method` [EXTRACTED]
+- [[dot-flash()_1]] - `method` [EXTRACTED]
+- [[dot-getActiveSelectionText()]] - `method` [EXTRACTED]
+- [[dot-getClickCount()]] - `method` [EXTRACTED]
+- [[dot-getComponentClickCount()]] - `method` [EXTRACTED]
+- [[dot-getCopyOnSelect()]] - `method` [EXTRACTED]
+- [[dot-getLineSelection()]] - `method` [EXTRACTED]
+- [[dot-getMountedRoots()]] - `method` [EXTRACTED]
+- [[dot-getPrimaryScrollView()]] - `method` [EXTRACTED]
+- [[dot-getScreenLines()]] - `method` [EXTRACTED]
+- [[dot-getScrollSelectionPoint()]] - `method` [EXTRACTED]
+- [[dot-getScrollbarTargetAt()]] - `method` [EXTRACTED]
+- [[dot-getSearchNavigationDirectionAt()]] - `method` [EXTRACTED]
+- [[dot-getSelectionBounds()]] - `method` [EXTRACTED]
+- [[dot-getSelectionColumns()]] - `method` [EXTRACTED]
+- [[dot-getSelectionPoint()]] - `method` [EXTRACTED]
+- [[dot-getSelectionSourceLine()]] - `method` [EXTRACTED]
+- [[dot-getWordSelection()]] - `method` [EXTRACTED]
+- [[dot-handleMouseEvent()]] - `method` [EXTRACTED]
+- [[dot-handleRightClickPaste()_1]] - `method` [EXTRACTED]
+- [[dot-handleScrollToEndIndicatorMouseEvent()]] - `method` [EXTRACTED]
+- [[dot-handleScrollbarMouseEvent()]] - `method` [EXTRACTED]
+- [[dot-handleSearchMouseEvent()]] - `method` [EXTRACTED]
+- [[dot-handleSelectionMouseEvent()]] - `method` [EXTRACTED]
+- [[dot-handleViewportInput()]] - `method` [EXTRACTED]
+- [[dot-hasActiveSelection()]] - `method` [EXTRACTED]
+- [[dot-isFollowingOutput()]] - `method` [EXTRACTED]
+- [[dot-isMouseSequence()]] - `method` [EXTRACTED]
+- [[dot-navigateSearch()]] - `method` [EXTRACTED]
+- [[dot-parseSgrMouseEvent()]] - `method` [EXTRACTED]
+- [[dot-parseWheelEvent()]] - `method` [EXTRACTED]
+- [[dot-prepareKittyScreen()]] - `method` [EXTRACTED]
+- [[dot-refreshSearch()]] - `method` [EXTRACTED]
+- [[dot-render()_77]] - `method` [EXTRACTED]
+- [[dot-resetRenderState()]] - `method` [EXTRACTED]
+- [[dot-routeWheel()]] - `method` [EXTRACTED]
+- [[dot-scrollBy()_1]] - `method` [EXTRACTED]
+- [[dot-scrollScrollbarToPointer()]] - `method` [EXTRACTED]
+- [[dot-scrollToBottom()]] - `method` [EXTRACTED]
+- [[dot-scrollToPrompt()]] - `method` [EXTRACTED]
+- [[dot-scrollToTop()]] - `method` [EXTRACTED]
+- [[dot-setCopyOnSelect()]] - `method` [EXTRACTED]
+- [[dot-setLayoutRoot()]] - `method` [EXTRACTED]
+- [[dot-setScrollbarHover()]] - `method` [EXTRACTED]
+- [[dot-setWheelScrollLines()]] - `method` [EXTRACTED]
+- [[dot-shouldDeferViewportInputToOverlay()]] - `method` [EXTRACTED]
+- [[dot-stopScrollbarDrag()]] - `method` [EXTRACTED]
+- [[dot-stopScrollbarHover()]] - `method` [EXTRACTED]
+- [[dot-stopSelectionAutoScroll()]] - `method` [EXTRACTED]
+- [[dot-toggleSearch()]] - `method` [EXTRACTED]
+- [[dot-updateScrollbarHover()]] - `method` [EXTRACTED]
+- [[dot-updateSearchQuery()]] - `method` [EXTRACTED]
+- [[dot-updateSelectionAutoScroll()]] - `method` [EXTRACTED]
+- [[dot-updateSelectionFocus()]] - `method` [EXTRACTED]
+- [[dot-viewportTop()]] - `method` [EXTRACTED]
+- [[AltScreenFlashContainer]] - `references` [EXTRACTED]
+- [[Component]] - `references` [EXTRACTED]
+- [[ImageProtocol]] - `references` [EXTRACTED]
+- [[LayoutFrame]] - `references` [EXTRACTED]
+- [[ScrollView]] - `references` [EXTRACTED]
+- [[TerminalCapabilities]] - `references` [EXTRACTED]
+- [[TuiBase]] - `inherits` [EXTRACTED]
+- [[TuiMouseDispatchTarget]] - `references` [EXTRACTED]
+- [[ViewportTUI]] - `implements` [EXTRACTED]
+- [[WheelScrollAccelerator]] - `references` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/TUI_终端组件_9
+
+## 源码入口
+
+[packages/tui/src/tui-alt-screen.ts](../../../packages/tui/src/tui-alt-screen.ts)

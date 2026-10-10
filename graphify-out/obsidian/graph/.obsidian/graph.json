@@ -1,0 +1,3448 @@
+{
+  "colorGroups": [
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_0",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_1",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_2",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_3",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_4",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_5",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_6",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_7",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_8",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_9",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_10",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_11",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_12",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_13",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Client_\u8fdc\u7a0b\u8fde\u63a5_14",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_15",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_16",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_17",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_18",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_19",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Server_\u4f1a\u8bdd\u8def\u7531_20",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_21",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_22",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_23",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_24",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_25",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_26",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_27",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_28",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_29",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_30",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_31",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_32",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_33",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/MCP_\u8fdc\u7aef\u5de5\u5177_34",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_35",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_36",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_37",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_38",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_39",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_40",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_41",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_42",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_43",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_44",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_45",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_46",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_47",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_48",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_49",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_50",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_51",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_52",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_53",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_54",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_55",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_56",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_57",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_58",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_59",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_60",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/MCP_\u8fdc\u7aef\u5de5\u5177_61",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_62",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_63",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_64",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_65",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_66",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_67",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_68",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_69",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_70",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_71",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_72",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_73",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_74",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_75",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_76",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_77",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_78",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_79",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_80",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_81",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Agent_\u63a7\u5236\u5faa\u73af_82",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_83",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_84",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Agent_\u63a7\u5236\u5faa\u73af_85",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_86",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_87",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_88",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_89",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_90",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_91",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_92",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/MCP_\u8fdc\u7aef\u5de5\u5177_93",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_94",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_95",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/MCP_\u8fdc\u7aef\u5de5\u5177_96",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_97",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_98",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_99",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_100",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_101",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_102",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_103",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Protocol_\u4f20\u8f93\u534f\u8bae_104",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_105",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_106",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_107",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_108",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Evals_\u884c\u4e3a\u8bc4\u4f30_109",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_110",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_111",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_112",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Evals_\u884c\u4e3a\u8bc4\u4f30_113",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Evals_\u884c\u4e3a\u8bc4\u4f30_114",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_115",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_116",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_117",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_118",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_119",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Evals_\u884c\u4e3a\u8bc4\u4f30_120",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/MCP_\u8fdc\u7aef\u5de5\u5177_121",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_122",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Server_\u4f1a\u8bdd\u8def\u7531_123",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_124",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_125",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_126",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_127",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_128",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Client_\u8fdc\u7a0b\u8fde\u63a5_129",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_130",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Telemetry_\u9065\u6d4b\u5951\u7ea6_131",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_132",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_133",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_134",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_135",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_136",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_137",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_138",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Agent_\u63a7\u5236\u5faa\u73af_139",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_140",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_141",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_142",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_143",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Protocol_\u4f20\u8f93\u534f\u8bae_144",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_145",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_146",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Codemode_\u6c99\u7bb1\u6267\u884c_147",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_148",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_149",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Telemetry_\u9065\u6d4b\u5951\u7ea6_150",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Codemode_\u6c99\u7bb1\u6267\u884c_151",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_152",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_153",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_154",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_155",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_156",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_157",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_158",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_159",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_160",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_161",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_162",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_163",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_164",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_165",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_166",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Evals_\u884c\u4e3a\u8bc4\u4f30_167",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_168",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_169",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_170",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_171",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_172",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_173",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_174",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_175",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_176",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_177",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_178",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_179",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_180",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_181",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_182",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Evals_\u884c\u4e3a\u8bc4\u4f30_183",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_184",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_185",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Codemode_\u6c99\u7bb1\u6267\u884c_186",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_187",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_188",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_189",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_190",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_191",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Server_\u4f1a\u8bdd\u8def\u7531_192",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_193",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_194",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_195",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_196",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_197",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_198",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_199",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_200",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_201",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/MCP_\u8fdc\u7aef\u5de5\u5177_202",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_203",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Codemode_\u6c99\u7bb1\u6267\u884c_204",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_205",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_206",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_207",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_208",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_209",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_210",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_211",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_212",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Telemetry_\u9065\u6d4b\u5951\u7ea6_213",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_214",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_215",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_216",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_217",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_218",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_219",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_220",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Evals_\u884c\u4e3a\u8bc4\u4f30_221",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Evals_\u884c\u4e3a\u8bc4\u4f30_222",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Telemetry_\u9065\u6d4b\u5951\u7ea6_223",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_224",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_225",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_226",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/MCP_\u8fdc\u7aef\u5de5\u5177_227",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Telemetry_\u9065\u6d4b\u5951\u7ea6_228",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_229",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_230",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_231",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_232",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_233",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_234",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_235",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Codemode_\u6c99\u7bb1\u6267\u884c_236",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_237",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_238",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_239",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_240",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_241",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_242",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_243",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_244",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_245",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_246",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_247",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Telemetry_\u9065\u6d4b\u5951\u7ea6_248",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_249",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_250",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Client_\u8fdc\u7a0b\u8fde\u63a5_251",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_252",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_253",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_254",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_255",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_256",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_257",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_258",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_259",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_260",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_261",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_262",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_263",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_264",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_265",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Codemode_\u6c99\u7bb1\u6267\u884c_266",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Codemode_\u6c99\u7bb1\u6267\u884c_267",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_268",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_269",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_270",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_271",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_272",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_273",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_274",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_275",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_276",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Agent_\u63a7\u5236\u5faa\u73af_277",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_278",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Codemode_\u6c99\u7bb1\u6267\u884c_279",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_280",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_281",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_282",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_283",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_284",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_285",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_286",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_287",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_288",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_289",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_290",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_291",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_292",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_293",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_294",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Server_\u4f1a\u8bdd\u8def\u7531_295",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_296",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_297",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_298",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_299",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_300",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_301",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_302",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_303",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_304",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Agent_\u63a7\u5236\u5faa\u73af_305",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_306",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_307",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_308",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Client_\u8fdc\u7a0b\u8fde\u63a5_309",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_310",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_311",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_312",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_313",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_314",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_315",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_316",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_317",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_318",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_319",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_320",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Server_\u4f1a\u8bdd\u8def\u7531_321",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_322",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_323",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_324",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_325",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_326",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_327",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_328",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_329",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_330",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Evals_\u884c\u4e3a\u8bc4\u4f30_331",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Protocol_\u4f20\u8f93\u534f\u8bae_332",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_333",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_334",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_335",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_336",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Chord_\u670d\u52a1\u72b6\u6001_337",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Codemode_\u6c99\u7bb1\u6267\u884c_338",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_339",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_340",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_341",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_342",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_343",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/MCP_\u8fdc\u7aef\u5de5\u5177_344",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/MCP_\u8fdc\u7aef\u5de5\u5177_345",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Protocol_\u4f20\u8f93\u534f\u8bae_346",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Server_\u4f1a\u8bdd\u8def\u7531_347",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Telemetry_\u9065\u6d4b\u5951\u7ea6_348",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_349",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_350",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_351",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_352",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_353",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Evals_\u884c\u4e3a\u8bc4\u4f30_354",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Protocol_\u4f20\u8f93\u534f\u8bae_355",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_356",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_357",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_358",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_359",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_360",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_361",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Evals_\u884c\u4e3a\u8bc4\u4f30_362",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_363",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_364",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_365",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_366",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Client_\u8fdc\u7a0b\u8fde\u63a5_367",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_368",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_369",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_370",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_371",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_372",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_373",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_374",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_375",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_376",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Agent_\u63a7\u5236\u5faa\u73af_377",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_378",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_379",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_380",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_381",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/MCP_\u8fdc\u7aef\u5de5\u5177_382",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_383",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_384",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_385",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_386",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_387",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_388",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_389",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_390",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_391",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_392",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_393",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_394",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_395",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_396",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_397",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_398",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_399",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_400",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_401",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_402",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_403",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Codemode_\u6c99\u7bb1\u6267\u884c_404",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_405",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_406",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_407",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_408",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_409",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_410",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_411",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_412",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/AI_\u6a21\u578b\u534f\u8bae_413",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_414",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_415",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_416",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_417",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/TUI_\u7ec8\u7aef\u7ec4\u4ef6_418",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_419",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_420",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_421",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_422",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_423",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_424",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_425",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Client_\u8fdc\u7a0b\u8fde\u63a5_426",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_427",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Telemetry_\u9065\u6d4b\u5951\u7ea6_428",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_429",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_430",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_431",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_432",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_433",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_434",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_435",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_436",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_437",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_438",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_439",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_440",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_441",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_442",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_443",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_444",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_445",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_446",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_447",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_448",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_449",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_450",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_451",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_452",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_453",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_454",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_455",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_456",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_457",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_458",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_459",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_460",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_461",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_462",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_463",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_464",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_465",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_466",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_467",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_468",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_469",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_470",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_471",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_472",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_473",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_474",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_475",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_476",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_477",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_478",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_479",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_480",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_481",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_482",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_483",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Durable_\u6301\u4e45\u4efb\u52a1_484",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_485",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_486",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Coding_Agent_\u4f1a\u8bdd\u5de5\u5177_487",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_488",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_489",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_490",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/\u8de8\u5305_\u7c7b\u578b\u57fa\u7840_491",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    }
+  ]
+}

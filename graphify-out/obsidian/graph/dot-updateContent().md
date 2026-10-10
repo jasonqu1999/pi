@@ -1,0 +1,27 @@
+---
+source_file: "packages/coding-agent/src/modes/interactive/components/assistant-message.ts"
+type: "code"
+community: "Coding Agent 会话工具 46"
+location: "L91"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Coding_Agent_会话工具_46
+---
+
+# .updateContent()
+
+## Connections
+- [[dot-updateContent()]] - `calls` [EXTRACTED]
+- [[AssistantMessage]] - `references` [EXTRACTED]
+- [[Markdown]] - `calls` [EXTRACTED]
+- [[MouseRegion]] - `calls` [EXTRACTED]
+- [[Spacer]] - `calls` [EXTRACTED]
+- [[Text_6]] - `calls` [EXTRACTED]
+- [[createMarkdownTransform()]] - `calls` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Coding_Agent_会话工具_46
+
+## 源码入口
+
+[packages/coding-agent/src/modes/interactive/components/assistant-message.ts](../../../packages/coding-agent/src/modes/interactive/components/assistant-message.ts)

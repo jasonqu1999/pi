@@ -1,0 +1,276 @@
+---
+type: community
+cohesion: 0.02
+members: 203
+---
+
+# Durable 持久任务 21
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 203 nodes
+
+## Members
+- [[dot-publish()_4]] - code - packages/durable/src/harness/registry.ts
+- [[dot-afterTool()]] - code - packages/durable/src/harness/types.ts
+- [[dot-appendEntry()_2]] - code - packages/durable/src/types.ts
+- [[dot-beforeTool()]] - code - packages/durable/src/harness/types.ts
+- [[dot-compact()_6]] - code - packages/durable/src/harness/harness.ts
+- [[dot-constructor()_16]] - code - packages/ai/src/utils/retry.ts
+- [[dot-constructor()_260]] - code - packages/durable/src/harness/registry.ts
+- [[dot-conversation()_8]] - code - packages/durable/src/types.ts
+- [[dot-createSubmission()_1]] - code - packages/durable/src/types.ts
+- [[dot-createTask()_2]] - code - packages/durable/src/types.ts
+- [[dot-doc()_1]] - code - packages/durable/src/types.ts
+- [[dot-entry()_5]] - code - packages/durable/src/types.ts
+- [[dot-extension()]] - code - packages/durable/src/harness/registry.ts
+- [[dot-forkConversation()_1]] - code - packages/durable/src/types.ts
+- [[dot-install()_3]] - code - packages/durable/src/harness/registry.ts
+- [[dot-installed()]] - code - packages/durable/src/harness/registry.ts
+- [[dot-latestHeadMarker()_1]] - code - packages/durable/src/types.ts
+- [[dot-placeSubmission()_1]] - code - packages/durable/src/types.ts
+- [[dot-report()_2]] - code - packages/durable/src/types.ts
+- [[dot-retireDoc()_1]] - code - packages/durable/src/types.ts
+- [[dot-scanConversations()_4]] - code - packages/durable/src/types.ts
+- [[dot-scanEntries()_4]] - code - packages/durable/src/types.ts
+- [[dot-sections()]] - code - packages/durable/src/harness/registry.ts
+- [[dot-settleSubmission()_1]] - code - packages/durable/src/types.ts
+- [[dot-snapshot()_6]] - code - packages/durable/src/harness/registry.ts
+- [[dot-submissionByRequest()_4]] - code - packages/durable/src/types.ts
+- [[dot-subscribe()_15]] - code - packages/durable/src/harness/registry.ts
+- [[dot-task()]] - code - packages/durable/src/harness/registry.ts
+- [[dot-tasks()]] - code - packages/durable/src/harness/registry.ts
+- [[dot-tools()_2]] - code - packages/durable/src/harness/registry.ts
+- [[dot-uninstall()]] - code - packages/durable/src/harness/registry.ts
+- [[AnyTask]] - code - packages/durable/src/harness/types.ts
+- [[AppTool_1]] - code - packages/durable/test/harness-registry.test.ts
+- [[COMPLETED]] - code - packages/durable/src/harness/tool.ts
+- [[Checked]] - code - packages/durable/src/harness/tool.ts
+- [[CompactionCheckpoint]] - code - packages/durable/src/harness/compaction.ts
+- [[CompactionInput]] - code - packages/durable/src/harness/compaction.ts
+- [[CompactionPolicy]] - code - packages/durable/src/harness/types.ts
+- [[CompactionResult_1]] - code - packages/durable/src/harness/types.ts
+- [[CompactionTask]] - code - packages/durable/src/harness/compaction.ts
+- [[Content_2]] - code - packages/durable/src/harness/tool.ts
+- [[ContextView]] - code - packages/durable/src/harness/types.ts
+- [[ConversationRetryPolicy]] - code - packages/durable/src/harness/types.ts
+- [[ConversationStreamOptions]] - code - packages/durable/src/harness/types.ts
+- [[DEFAULT_COMPACTION_POLICY]] - code - packages/durable/src/harness/agent.ts
+- [[DEFAULT_MAX_AGENT_RETRY_DELAY_MS]] - code - packages/ai/src/utils/retry.ts
+- [[DEFAULT_RETRY_POLICY]] - code - packages/durable/src/harness/agent.ts
+- [[Ending]] - code - packages/durable/src/harness/tool.ts
+- [[Extension_1]] - code - packages/durable/src/harness/types.ts
+- [[GenerationCheckpoint]] - code - packages/durable/src/harness/generation.ts
+- [[GenerationInput]] - code - packages/durable/src/harness/generation.ts
+- [[GenerationResult]] - code - packages/durable/src/harness/generation.ts
+- [[GenerationTask]] - code - packages/durable/src/harness/generation.ts
+- [[HookRegistration]] - code - packages/durable/src/harness/types.ts
+- [[HookResult]] - code - packages/durable/src/harness/types.ts
+- [[HooksOf]] - code - packages/durable/src/harness/types.ts
+- [[INSTRUCTIONS_KEY]] - code - packages/durable/src/harness/agent.ts
+- [[InputSubmissionDraft]] - code - packages/durable/src/harness/types.ts
+- [[JsonContainer_2]] - code - packages/durable/src/harness/json.ts
+- [[JsonRepresentation_1]] - code - packages/chord/src/types.ts
+- [[NON_RETRYABLE_PROVIDER_LIMIT_ERROR_PATTERN]] - code - packages/ai/src/utils/retry.ts
+- [[Next]] - code - packages/durable/src/harness/compaction.ts
+- [[Next_1]] - code - packages/durable/src/harness/generation.ts
+- [[NextTaskState]] - code - packages/durable/src/types.ts
+- [[PromptInput_1]] - code - packages/durable/src/harness/types.ts
+- [[PromptSection]] - code - packages/durable/src/harness/types.ts
+- [[ProviderState]] - code - packages/durable/src/harness/provider.ts
+- [[RETRYABLE_PROVIDER_ERROR_PATTERN]] - code - packages/ai/src/utils/retry.ts
+- [[RUN_TASK_KINDS]] - code - packages/durable/src/harness/live.ts
+- [[RegistryImpl]] - code - packages/durable/src/harness/registry.ts
+- [[RegistryState]] - code - packages/durable/src/harness/registry.ts
+- [[Reported]] - code - packages/durable/src/harness/tool.ts
+- [[Request]] - code - packages/durable/src/harness/generation.ts
+- [[RetrySleepAbortError]] - code - packages/ai/src/utils/retry.ts
+- [[Runtime]] - code - packages/durable/src/harness/compaction.ts
+- [[Runtime_1]] - code - packages/durable/src/harness/generation.ts
+- [[Runtime_2]] - code - packages/durable/src/harness/tool.ts
+- [[SummaryRequest]] - code - packages/durable/src/harness/compaction.ts
+- [[SystemDraft]] - code - packages/durable/src/harness/prompt.ts
+- [[ToolChanges]] - code - packages/durable/src/harness/prompt.ts
+- [[ToolControl]] - code - packages/durable/src/harness/types.ts
+- [[ToolDiagnostic]] - code - packages/durable/src/harness/types.ts
+- [[ToolExecutionMode_1]] - code - packages/durable/src/harness/types.ts
+- [[ToolExecutionResult]] - code - packages/durable/src/harness/types.ts
+- [[ToolHooks]] - code - packages/durable/src/harness/types.ts
+- [[ToolTask]] - code - packages/durable/src/harness/tool.ts
+- [[ToolTaskCheckpoint]] - code - packages/durable/src/harness/tool.ts
+- [[ToolTaskInput]] - code - packages/durable/src/harness/tool.ts
+- [[ToolTaskResult]] - code - packages/durable/src/harness/tool.ts
+- [[Tx]] - code - packages/durable/src/types.ts
+- [[Wrap]] - code - packages/durable/src/harness/types.ts
+- [[addCompactionStatus()]] - code - packages/durable/src/harness/live.ts
+- [[addTools()]] - code - packages/durable/src/harness/agent.ts
+- [[addUsage()]] - code - packages/durable/src/harness/usage.ts
+- [[addUsageState()]] - code - packages/durable/src/harness/usage.ts
+- [[admitSubmission()]] - code - packages/durable/src/harness/submissions.ts
+- [[agentHooks()]] - code - packages/durable/src/harness/agent.ts
+- [[answer()]] - code - packages/durable/src/harness/generation.ts
+- [[appendAssistant()]] - code - packages/durable/src/harness/generation.ts
+- [[appendToolResult()]] - code - packages/durable/src/harness/tool.ts
+- [[apply()_1]] - code - packages/durable/test/harness-prompt.test.ts
+- [[applyBoundary()]] - code - packages/durable/src/harness/inbox.ts
+- [[applyChange()]] - code - packages/durable/src/harness/agent.ts
+- [[applyWrap()]] - code - packages/durable/src/harness/agent.ts
+- [[assignJson()]] - code - packages/durable/src/harness/json.ts
+- [[boundContent()]] - code - packages/durable/src/harness/tool.ts
+- [[buildProviderErrorPattern()]] - code - packages/ai/src/utils/retry.ts
+- [[classify()_3]] - code - packages/durable/src/harness/generation.ts
+- [[clearProgress()]] - code - packages/durable/src/harness/live.ts
+- [[compactionStatus]] - code - packages/durable/src/harness/live.ts
+- [[complete()_1]] - code - packages/durable/src/harness/compaction.ts
+- [[contentText()_1]] - code - packages/durable/src/harness/compaction.ts
+- [[convertPartial()]] - code - packages/durable/src/harness/generation.ts
+- [[copyJson()]] - code - packages/chord/src/json.ts
+- [[createCompaction()]] - code - packages/durable/src/harness/compaction.ts
+- [[createGeneration()]] - code - packages/durable/src/harness/generation.ts
+- [[createToolTask()]] - code - packages/durable/src/harness/generation.ts
+- [[define.ts]] - code - packages/durable/src/harness/define.ts
+- [[endRun()]] - code - packages/durable/src/harness/live.ts
+- [[ensureProviderSessionId()]] - code - packages/durable/src/harness/provider.ts
+- [[errorText()]] - code - packages/durable/src/harness/tool.ts
+- [[estimateContext()]] - code - packages/durable/src/harness/compaction.ts
+- [[failModelError()]] - code - packages/durable/src/harness/generation.ts
+- [[failNoModel()]] - code - packages/durable/src/harness/compaction.ts
+- [[failNoModel()_1]] - code - packages/durable/src/harness/generation.ts
+- [[finalResult()]] - code - packages/durable/src/harness/tool.ts
+- [[finishSlot()]] - code - packages/durable/src/harness/live.ts
+- [[finishToolRound()]] - code - packages/durable/src/harness/generation.ts
+- [[fromSlot()]] - code - packages/durable/src/harness/tool.ts
+- [[generation.ts]] - code - packages/durable/src/harness/generation.ts
+- [[handOver()]] - code - packages/durable/src/harness/generation.ts
+- [[harness-registry.test.ts]] - code - packages/durable/test/harness-registry.test.ts
+- [[harnessagent.ts]] - code - packages/durable/src/harness/agent.ts
+- [[harnesscompaction.ts]] - code - packages/durable/src/harness/compaction.ts
+- [[harnessjson.ts]] - code - packages/durable/src/harness/json.ts
+- [[harnessprompt.ts]] - code - packages/durable/src/harness/prompt.ts
+- [[harnessprovider.ts]] - code - packages/durable/src/harness/provider.ts
+- [[harnesstool.ts]] - code - packages/durable/src/harness/tool.ts
+- [[harnesstypes.ts]] - code - packages/durable/src/harness/types.ts
+- [[harnessError()]] - code - packages/durable/src/harness/tool.ts
+- [[invalid()]] - code - packages/durable/src/harness/tool.ts
+- [[isCandidate()]] - code - packages/durable/src/harness/compaction.ts
+- [[isList()]] - code - packages/durable/src/harness/agent.ts
+- [[isRecord()_11]] - code - packages/durable/src/harness/json.ts
+- [[isRetryableAssistantError()]] - code - packages/ai/src/utils/retry.ts
+- [[isStale()]] - code - packages/durable/src/harness/inbox.ts
+- [[live.ts]] - code - packages/durable/src/harness/live.ts
+- [[names()]] - code - packages/durable/src/harness/agent.ts
+- [[names()_1]] - code - packages/durable/test/harness-registry.test.ts
+- [[packages_ai_src_index_cacheretention]] - concept
+- [[packages_ai_src_index_static]] - concept
+- [[packages_ai_src_index_tool]] - concept
+- [[packages_ai_src_index_toolreference]] - concept
+- [[packages_ai_src_index_tschema]] - concept
+- [[place()]] - code - packages/durable/src/harness/compaction.ts
+- [[placeSummary()]] - code - packages/durable/src/harness/compaction.ts
+- [[planSections()]] - code - packages/durable/src/harness/prompt.ts
+- [[planSystemEntries()]] - code - packages/durable/src/harness/prompt.ts
+- [[prepare()_1]] - code - packages/durable/src/harness/tool.ts
+- [[prepareBoundary()]] - code - packages/durable/src/harness/inbox.ts
+- [[publishProgress()]] - code - packages/durable/src/harness/tool.ts
+- [[readCall()]] - code - packages/durable/src/harness/tool.ts
+- [[readCalls()]] - code - packages/durable/src/harness/generation.ts
+- [[recordUsage()]] - code - packages/durable/src/harness/usage.ts
+- [[registry.ts]] - code - packages/durable/src/harness/registry.ts
+- [[removeCompactionStatus()]] - code - packages/durable/src/harness/live.ts
+- [[renderDiagnostics()]] - code - packages/durable/src/harness/tool.ts
+- [[renderSections()]] - code - packages/durable/src/harness/prompt.ts
+- [[rendered()_1]] - code - packages/durable/test/harness-registry.test.ts
+- [[replaySections()]] - code - packages/durable/src/harness/prompt.ts
+- [[resolve()_2]] - code - packages/durable/test/harness-registry.test.ts
+- [[resolveAgent()]] - code - packages/durable/src/harness/agent.ts
+- [[resolveSettings()]] - code - packages/durable/src/harness/agent.ts
+- [[retry.test.ts]] - code - packages/ai/test/retry.test.ts
+- [[retry.ts]] - code - packages/ai/src/utils/retry.ts
+- [[retryAssistantCall()]] - code - packages/ai/src/utils/retry.ts
+- [[retryDelayMs()]] - code - packages/ai/src/utils/retry.ts
+- [[run()_5]] - code - packages/durable/src/harness/tool.ts
+- [[selectCut()]] - code - packages/durable/src/harness/compaction.ts
+- [[selectExtensions()]] - code - packages/durable/src/harness/agent.ts
+- [[serializeConversation()_1]] - code - packages/durable/src/harness/compaction.ts
+- [[settle()_1]] - code - packages/durable/src/harness/tool.ts
+- [[settleSchedulerOutcome()]] - code - packages/durable/src/harness/live.ts
+- [[sleep()_1]] - code - packages/ai/src/utils/retry.ts
+- [[startRun()]] - code - packages/durable/src/harness/generation.ts
+- [[startToolRound()]] - code - packages/durable/src/harness/generation.ts
+- [[streamResponse()]] - code - packages/durable/src/harness/generation.ts
+- [[summarizedMessages()]] - code - packages/durable/src/harness/compaction.ts
+- [[summaryFailure()]] - code - packages/durable/src/harness/compaction.ts
+- [[summaryPrompt()]] - code - packages/durable/src/harness/compaction.ts
+- [[summaryText()]] - code - packages/durable/src/harness/compaction.ts
+- [[systemEntry()]] - code - packages/durable/src/harness/prompt.ts
+- [[task()_2]] - code - packages/durable/test/harness-registry.test.ts
+- [[thresholdCompaction()]] - code - packages/durable/src/harness/generation.ts
+- [[tool()_3]] - code - packages/durable/test/harness-registry.test.ts
+- [[toolDiagnostic()]] - code - packages/durable/src/harness/tool.ts
+- [[toolSlot]] - code - packages/durable/src/harness/live.ts
+- [[truncate()_2]] - code - packages/durable/src/harness/compaction.ts
+- [[truncated()]] - code - packages/durable/src/harness/tool.ts
+- [[usage.ts]] - code - packages/durable/src/harness/usage.ts
+- [[validate()]] - code - packages/durable/src/harness/tool.ts
+- [[validateExtension()]] - code - packages/durable/src/harness/registry.ts
+- [[withdrawQueuedInputs()]] - code - packages/durable/src/harness/inbox.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Durable_持久任务_21
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 165 edges to [[_COMMUNITY_Durable 持久任务 4]]
+- 129 edges to [[_COMMUNITY_Durable 持久任务 0]]
+- 99 edges to [[_COMMUNITY_Durable 持久任务 5]]
+- 28 edges to [[_COMMUNITY_Durable 持久任务 45]]
+- 22 edges to [[_COMMUNITY_Durable 持久任务 18]]
+- 20 edges to [[_COMMUNITY_AI 模型协议 44]]
+- 19 edges to [[_COMMUNITY_Durable 持久任务 86]]
+- 17 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 14 edges to [[_COMMUNITY_Coding Agent 会话工具 8]]
+- 13 edges to [[_COMMUNITY_Coding Agent 会话工具 65]]
+- 8 edges to [[_COMMUNITY_Chord 服务状态 30]]
+- 8 edges to [[_COMMUNITY_Durable 持久任务 115]]
+- 7 edges to [[_COMMUNITY_Durable 持久任务 119]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 19]]
+- 6 edges to [[_COMMUNITY_AI 模型协议 237]]
+- 6 edges to [[_COMMUNITY_Durable 持久任务 164]]
+- 5 edges to [[_COMMUNITY_AI 模型协议 1]]
+- 5 edges to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 27]]
+- 4 edges to [[_COMMUNITY_Coding Agent 会话工具 29]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 33]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 3]]
+- 3 edges to [[_COMMUNITY_Coding Agent 会话工具 15]]
+- 3 edges to [[_COMMUNITY_AI 模型协议 22]]
+- 3 edges to [[_COMMUNITY_Agent 控制循环 85]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 25]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 78]]
+- 2 edges to [[_COMMUNITY_Chord 服务状态 87]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 41]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 54]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 116]]
+- 2 edges to [[_COMMUNITY_Chord 服务状态 160]]
+- 2 edges to [[_COMMUNITY_Durable 持久任务 364]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 56]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 11]]
+- 1 edge to [[_COMMUNITY_Chord 服务状态 195]]
+- 1 edge to [[_COMMUNITY_Agent 控制循环 82]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 10]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 84]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 40]]
+- 1 edge to [[_COMMUNITY_AI 模型协议 140]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 132]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 38]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 112]]
+- 1 edge to [[_COMMUNITY_Durable 持久任务 58]]
+
+## Top bridge nodes
+- [[harnesstypes.ts]] - degree 135, connects to 20 communities
+- [[generation.ts]] - degree 113, connects to 18 communities
+- [[harnesstool.ts]] - degree 89, connects to 16 communities
+- [[harnesscompaction.ts]] - degree 79, connects to 11 communities
+- [[live.ts]] - degree 46, connects to 8 communities

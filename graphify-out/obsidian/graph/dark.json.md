@@ -1,0 +1,26 @@
+---
+source_file: "packages/coding-agent/src/modes/interactive/theme/dark.json"
+type: "code"
+community: "Coding Agent 会话工具 341"
+location: "L1"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Coding_Agent_会话工具_341
+---
+
+# dark.json
+
+## Connections
+- [[$schema_2]] - `contains` [EXTRACTED]
+- [[appearance]] - `contains` [EXTRACTED]
+- [[colors_2]] - `contains` [EXTRACTED]
+- [[export_1]] - `contains` [EXTRACTED]
+- [[name_15]] - `contains` [EXTRACTED]
+- [[vars_1]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Coding_Agent_会话工具_341
+
+## 源码入口
+
+[packages/coding-agent/src/modes/interactive/theme/dark.json](../../../packages/coding-agent/src/modes/interactive/theme/dark.json)

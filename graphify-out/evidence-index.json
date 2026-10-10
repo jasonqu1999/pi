@@ -1,0 +1,1244 @@
+{
+  "schema_version": 1,
+  "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+  "runtime_observed": false,
+  "categories": {
+    "structure_extracted": "工具结构提取/manifest",
+    "source_confirmed": "实际源码局部核对",
+    "test_expected": "测试写下的预期，未运行",
+    "semantic_inference": "分析者推断"
+  },
+  "claims": [
+    {
+      "id": "E01",
+      "claim": "包职责和workspace直接运行依赖由各包manifest记录；包版本均1.0.2",
+      "category": "structure_extracted",
+      "source_file": "packages/coding-agent/package.json",
+      "symbols": [
+        "name",
+        "dependencies"
+      ],
+      "condition": "各包manifest；运行依赖不含开发依赖",
+      "source_sha256": "17739a1faa0f13a6d43a6db5b9ec57d7210e0b3ad6eacd0e46614224908bd3d2",
+      "graph_node_ids": [
+        "packages_coding_agent_package_dependencies",
+        "packages_coding_agent_package_name"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "name",
+          "text": "{\n\t\"name\": \"@earendil-works/pi-coding-agent\",\n\t\"version\": \"1.0.2\",\n\t\"description\": \"Coding agent CLI with read, bash, edit, write tools and session management\",\n\t\"type\": \"module\","
+        },
+        {
+          "symbol": "dependencies",
+          "text": "\t},\n\t\"dependencies\": {\n\t\t\"@earendil-works/chord\": \"^1.0.2\",\n\t\t\"@earendil-works/pi-agent-core\": \"^1.0.2\",\n\t\t\"@earendil-works/pi-ai\": \"^1.0.2\","
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E02",
+      "claim": "CLI组合cwd服务、SessionManager和会话runtime，再按模式分派",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/main.ts",
+      "symbols": [
+        "main",
+        "createAgentSessionRuntime",
+        "createAgentSessionFromServices"
+      ],
+      "condition": "普通CLI interactive模式；auth/help/package命令可提前返回",
+      "source_sha256": "d5f850220fa7ed946b6e6d21593fee33e2ab7ce815cc40fb380c47a856e0301f",
+      "graph_node_ids": [
+        "packages_coding_agent_src_main_main"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "main",
+          "text": "\nexport async function main(args: string[], options?: MainOptions) {\n\tresetTimings();\n\tconst extensionFactories = [...builtInExtensions, ...(options?.extensionFactories ?? [])];\n\tconst offlineMode = args.includes(\"--offline\") || isTruthyEnvFlag(process.env.PI_OFFLINE);"
+        },
+        {
+          "symbol": "createAgentSessionRuntime",
+          "text": "import { APP_NAME, ENV_SESSION_DIR, expandTildePath, getAgentDir, getPackageDir, VERSION } from \"./config.ts\";\nimport { type CreateAgentSessionRuntimeFactory, createAgentSessionRuntime } from \"./core/agent-session-runtime.ts\";\nimport {\n\ttype AgentSessionRuntimeDiagnostic,\n\tcreateAgentSessionFromServices,"
+        },
+        {
+          "symbol": "createAgentSessionFromServices",
+          "text": "\ttype AgentSessionRuntimeDiagnostic,\n\tcreateAgentSessionFromServices,\n\tcreateAgentSessionServices,\n} from \"./core/agent-session-services.ts\";\nimport { formatNoModelsAvailableMessage } from \"./core/auth-guidance.ts\";"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E03",
+      "claim": "普通编辑器输入经getUserInput进入session.prompt；UI通过会话subscribe消费事件",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/modes/interactive/interactive-mode.ts",
+      "symbols": [
+        "setupEditorSubmitHandler",
+        "getUserInput",
+        "subscribeToAgent",
+        "handleEvent"
+      ],
+      "condition": "普通文本；命令/streaming/compaction分流另有条件",
+      "source_sha256": "7f9e6a7612634f26470026f0e42282ada8d1bbc871d80343c37ab81a2a2d9fe7",
+      "graph_node_ids": [
+        "packages_coding_agent_src_modes_interactive_interactive_mode_interactivemode_getuserinput",
+        "packages_coding_agent_src_modes_interactive_interactive_mode_interactivemode_handleevent",
+        "packages_coding_agent_src_modes_interactive_interactive_mode_interactivemode_setupeditorsubmithandler",
+        "packages_coding_agent_src_modes_interactive_interactive_mode_interactivemode_subscribetoagent"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "setupEditorSubmitHandler",
+          "text": "\t\tthis.setupKeyHandlers();\n\t\tthis.setupEditorSubmitHandler();\n\t\tthis.ui.requestRender();\n\n\t\t// Initialize extensions first so resources are shown before messages"
+        },
+        {
+          "symbol": "getUserInput",
+          "text": "\t\twhile (true) {\n\t\t\tconst userInput = await this.getUserInput();\n\t\t\ttry {\n\t\t\t\tawait this.session.prompt(userInput);\n\t\t\t} catch (error: unknown) {"
+        },
+        {
+          "symbol": "subscribeToAgent",
+          "text": "\t\t\tthis.renderCurrentSessionState();\n\t\t\tthis.subscribeToAgent();\n\t\t}\n\n\t\tawait this.bindCurrentSessionExtensions();"
+        },
+        {
+          "symbol": "handleEvent",
+          "text": "\t\tthis.unsubscribe = this.session.subscribe(async (event) => {\n\t\t\tawait this.handleEvent(event);\n\t\t});\n\t}\n"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E04",
+      "claim": "SDK用已有投影创建Agent并注入转换/streamFn，然后创建AgentSession",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/sdk.ts",
+      "symbols": [
+        "createAgentSession",
+        "convertToLlmWithBlockImages",
+        "new Agent",
+        "new AgentSession"
+      ],
+      "condition": "SDK路径；初始tools为空，后由会话装载",
+      "source_sha256": "1fb8a84ab4dfab28344932b430c8d4abcd234a1c35ae9aebc3049269a813312d",
+      "graph_node_ids": [
+        "packages_coding_agent_src_core_sdk_createagentsession"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "createAgentSession",
+          "text": "\n/** Result from createAgentSession */\nexport interface CreateAgentSessionResult {\n\t/** The created session */\n\tsession: AgentSession;"
+        },
+        {
+          "symbol": "convertToLlmWithBlockImages",
+          "text": "\t// Create convertToLlm wrapper that filters images if blockImages is enabled (defense-in-depth)\n\tconst convertToLlmWithBlockImages = (messages: AgentMessage[]): Message[] => {\n\t\tconst converted = convertToLlm(messages);\n\t\t// Check setting dynamically so mid-session changes take effect\n\t\tif (!settingsManager.getBlockImages()) {"
+        },
+        {
+          "symbol": "new Agent",
+          "text": "\n\tconst agent = new Agent({\n\t\tinitialState: {\n\t\t\tsystemPrompt: \"\",\n\t\t\tmodel,"
+        },
+        {
+          "symbol": "new AgentSession",
+          "text": "\n\tconst session = new AgentSession({\n\t\tagent,\n\t\tsessionManager,\n\t\tsettingsManager,"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E05",
+      "claim": "Agent.prompt创建运行生命周期、上下文快照与loop配置并调用runAgentLoop",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent.ts",
+      "symbols": [
+        "prompt",
+        "runPromptMessages",
+        "createContextSnapshot",
+        "createLoopConfig"
+      ],
+      "condition": "非activeRun；消息规范化后执行",
+      "source_sha256": "7024a3145a6ebc951a0f030164adb1dfb12d33d6e0dbbac15ef0efda49c87457",
+      "graph_node_ids": [
+        "packages_agent_src_agent_agent_createcontextsnapshot",
+        "packages_agent_src_agent_agent_createloopconfig",
+        "packages_agent_src_agent_agent_prompt",
+        "packages_agent_src_agent_agent_runpromptmessages"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "prompt",
+          "text": "\n\t/** Clear conversation state and queues while retaining the replayed prompt/tool baseline. */\n\treset(): void {\n\t\tif (this.activeRun) {\n\t\t\tthrow new Error(\"Agent is already processing. Wait for completion before resetting.\");"
+        },
+        {
+          "symbol": "runPromptMessages",
+          "text": "\t\tconst messages = this.normalizePromptInput(input, images);\n\t\tawait this.runPromptMessages(messages);\n\t}\n\n\t/** Continue from the current transcript. The last message must be a user or tool-result message. */"
+        },
+        {
+          "symbol": "createContextSnapshot",
+          "text": "\t\t\t\tmessages,\n\t\t\t\tthis.createContextSnapshot(),\n\t\t\t\tthis.createLoopConfig(options),\n\t\t\t\t(event) => this.processEvents(event),\n\t\t\t\tsignal,"
+        },
+        {
+          "symbol": "createLoopConfig",
+          "text": "\t\t\t\tthis.createContextSnapshot(),\n\t\t\t\tthis.createLoopConfig(options),\n\t\t\t\t(event) => this.processEvents(event),\n\t\t\t\tsignal,\n\t\t\t\tthis.streamFunction,"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E06",
+      "claim": "loop工作消息数组与Agent顶层数组分离，消息对象可共享",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent.ts",
+      "symbols": [
+        "createContextSnapshot",
+        "messages.slice"
+      ],
+      "condition": "浅拷贝不是深拷贝；低层loop也复制初始数组",
+      "source_sha256": "7024a3145a6ebc951a0f030164adb1dfb12d33d6e0dbbac15ef0efda49c87457",
+      "graph_node_ids": [
+        "packages_agent_src_agent_agent_createcontextsnapshot"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "createContextSnapshot",
+          "text": "\t\t\t\tmessages,\n\t\t\t\tthis.createContextSnapshot(),\n\t\t\t\tthis.createLoopConfig(options),\n\t\t\t\t(event) => this.processEvents(event),\n\t\t\t\tsignal,"
+        },
+        {
+          "symbol": "messages.slice",
+          "text": "\tpeek(): AgentMessage[] {\n\t\tif (this.mode === \"all\") return this.messages.slice();\n\t\tconst first = this.messages[0];\n\t\treturn first ? [first] : [];\n\t}"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E07",
+      "claim": "Agent.processEvents先归约完成消息/partial/待执行调用状态，再顺序await订阅者",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent.ts",
+      "symbols": [
+        "processEvents",
+        "case \"message_end\"",
+        "await listener"
+      ],
+      "condition": "Agent订阅者与会话公开_emit不同",
+      "source_sha256": "7024a3145a6ebc951a0f030164adb1dfb12d33d6e0dbbac15ef0efda49c87457",
+      "graph_node_ids": [
+        "packages_agent_src_agent_agent_processevents"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "processEvents",
+          "text": "\t\t\t\tthis.createLoopConfig(options),\n\t\t\t\t(event) => this.processEvents(event),\n\t\t\t\tsignal,\n\t\t\t\tthis.streamFunction,\n\t\t\t);"
+        },
+        {
+          "symbol": "case \"message_end\"",
+          "text": "\n\t\t\tcase \"message_end\":\n\t\t\t\tthis._state.streamingMessage = undefined;\n\t\t\t\tthis._state.messages.push(event.message);\n\t\t\t\tbreak;"
+        },
+        {
+          "symbol": "await listener",
+          "text": "\t/**\n\t * Reduce internal state for a loop event, then await listeners.\n\t *\n\t * `agent_end` only means no further loop events will be emitted. The run is\n\t * considered idle later, after all awaited listeners for `agent_end` finish"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E08",
+      "claim": "请求前从SessionManager投影构建canonicalContext；投影按leaf/压缩/context_edit生成",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/agent-session.ts",
+      "symbols": [
+        "_installAgentRequestProjection",
+        "buildSessionProjection",
+        "canonicalContext"
+      ],
+      "condition": "默认应用投影；previousPrepareRequest还能返回替换",
+      "source_sha256": "fa1a4f2d84efd0aab8f4a74301d1106395130d3cc59bd665c558280f27dceb03",
+      "graph_node_ids": [
+        "packages_coding_agent_src_core_agent_session_agentsession_installagentrequestprojection"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "_installAgentRequestProjection",
+          "text": "\t\tthis._installAgentNextTurnRefresh();\n\t\tthis._installAgentRequestProjection();\n\t\tthis._installAgentBoundaryHooks();\n\t\tthis._installHiddenDeclarationsProjection();\n\t\tthis._installAgentForcedPromptProjection();"
+        },
+        {
+          "symbol": "buildSessionProjection",
+          "text": "\tprivate async _compactBeforeNextAssistantResponse(context: AgentContext): Promise<AgentContext> {\n\t\tconst projection = this.sessionManager.buildSessionProjection();\n\t\t// A virtual selection is checked in prepareRequest, against the model the request is routed to.\n\t\tconst model = this.model;\n\t\tif (!model || isVirtualModel(model) || !this._exceedsCompactionThreshold(model, projection)) {"
+        },
+        {
+          "symbol": "canonicalContext",
+          "text": "\t\t\t\tconst projection = this.sessionManager.buildSessionProjection();\n\t\t\t\tconst canonicalContext = {\n\t\t\t\t\t...request.context,\n\t\t\t\t\tmessages: projection.messages,\n\t\t\t\t\t// Messages declare the provider-visible loadout; context.tools keeps executable implementations."
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E09",
+      "claim": "transformContext→convertToLlm→normalizeContext→streamFunction构成模型边界",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent-loop.ts",
+      "symbols": [
+        "streamAssistantResponse",
+        "transformContext",
+        "convertToLlm",
+        "normalizeContext"
+      ],
+      "condition": "normalize只给messages时不另加leading system；协议随后仍可转换",
+      "source_sha256": "e773e822a2587caf314e6bb66ea6370fce3468b7eecd26d6a67afe673f81eabc",
+      "graph_node_ids": [
+        "packages_agent_src_agent_loop_streamassistantresponse"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "streamAssistantResponse",
+          "text": "\t\t\t// Stream assistant response\n\t\t\tconst message = await streamAssistantResponse(currentContext, config, signal, emit, streamFunction);\n\t\t\tnewMessages.push(message);\n\n\t\t\tif (message.stopReason === \"error\" || message.stopReason === \"aborted\") {"
+        },
+        {
+          "symbol": "transformContext",
+          "text": "\tlet messages = context.messages;\n\tif (config.transformContext) {\n\t\tmessages = await config.transformContext(messages, signal);\n\t}\n"
+        },
+        {
+          "symbol": "convertToLlm",
+          "text": " * **Important:** The last message in context must convert to a `user` or `toolResult` message\n * via `convertToLlm`. If it doesn't, the LLM provider will reject the request.\n * This cannot be validated here since `convertToLlm` is only called once per turn.\n */\nexport function agentLoopContinue("
+        },
+        {
+          "symbol": "normalizeContext",
+          "text": "\tgetToolStateChanges,\n\tnormalizeContext,\n\ttype SystemMessage,\n\ttype ToolResultMessage,\n\ttype ToolStateChanges,"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E10",
+      "claim": "会话prompt处理输入/模板/认证与消息构造，应用工具及system sections后进入_runAgentPrompt",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/agent-session.ts",
+      "symbols": [
+        "prompt",
+        "_runInputHandlers",
+        "_preparePromptAndToolLoadout",
+        "_runAgentPrompt"
+      ],
+      "condition": "非streaming普通输入；扩展可handled/transform",
+      "source_sha256": "fa1a4f2d84efd0aab8f4a74301d1106395130d3cc59bd665c558280f27dceb03",
+      "graph_node_ids": [
+        "packages_coding_agent_src_core_agent_session_agentsession_preparepromptandtoolloadout",
+        "packages_coding_agent_src_core_agent_session_agentsession_prompt",
+        "packages_coding_agent_src_core_agent_session_agentsession_runagentprompt",
+        "packages_coding_agent_src_core_agent_session_agentsession_runinputhandlers"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "prompt",
+          "text": "import { NestedToolCallRunner } from \"./nested-tool-calls.ts\";\nimport { expandPromptTemplate, type PromptTemplate } from \"./prompt-templates.ts\";\nimport type { ResourceExtensionPaths, ResourceLoader } from \"./resource-loader.ts\";\nimport { exportSessionToJsonl } from \"./session-export.ts\";\nimport {"
+        },
+        {
+          "symbol": "_runInputHandlers",
+          "text": "\n\tprivate async _runInputHandlers(\n\t\ttext: string,\n\t\timages: ImageContent[] | undefined,\n\t\tsource: InputSource,"
+        },
+        {
+          "symbol": "_preparePromptAndToolLoadout",
+          "text": "\t\t\t});\n\t\t\tconst updateMessage = this._preparePromptAndToolLoadout(options, nextContext.messages);\n\t\t\t// Keep session.systemPrompt and ctx.getSystemPrompt() in step with what the provider sees.\n\t\t\tthis._runSystemPromptOptions = options;\n"
+        },
+        {
+          "symbol": "_runAgentPrompt",
+          "text": "\n\tprivate async _runAgentPrompt(messages: AgentMessage | AgentMessage[]): Promise<void> {\n\t\tthis._agentRunAbortRequested = false;\n\t\t// Compaction before the prompt may have scheduled a retry; the new prompt replaces it.\n\t\tthis._failedResponse = undefined;"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E11",
+      "claim": "declareToolChanges比较transcript声明与可执行tools，合并pending system或插入delta",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent-loop.ts",
+      "symbols": [
+        "declareToolChanges",
+        "getToolStateChanges",
+        "withToolChanges"
+      ],
+      "condition": "变化为空不添加声明；工具定义剥离execute字段",
+      "source_sha256": "e773e822a2587caf314e6bb66ea6370fce3468b7eecd26d6a67afe673f81eabc",
+      "graph_node_ids": [
+        "packages_agent_src_agent_loop_declaretoolchanges",
+        "packages_agent_src_agent_loop_withtoolchanges"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "declareToolChanges",
+          "text": "): Promise<AgentMessage[]> {\n\tconst initialMessages = declareToolChanges(context, prompts);\n\tconst newMessages: AgentMessage[] = [...initialMessages];\n\tconst currentContext: AgentContext = {\n\t\t...context,"
+        },
+        {
+          "symbol": "getToolStateChanges",
+          "text": "\tgetCurrentTools,\n\tgetToolStateChanges,\n\tnormalizeContext,\n\ttype SystemMessage,\n\ttype ToolResultMessage,"
+        },
+        {
+          "symbol": "withToolChanges",
+          "text": "\t\t? pendingMessages.map((message, index) =>\n\t\t\t\tindex === systemIndex ? withToolChanges(pending, NO_CHANGES) : message,\n\t\t\t)\n\t\t: pendingMessages;\n\tconst changes = getToolStateChanges("
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E12",
+      "claim": "stream start/delta/final在循环上下文形成partial和最终assistant，发消息事件",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent-loop.ts",
+      "symbols": [
+        "streamAssistantResponse",
+        "case \"start\"",
+        "case \"done\"",
+        "message_end"
+      ],
+      "condition": "provider stream遵循事件/result契约；结束没有start也会补message_start",
+      "source_sha256": "e773e822a2587caf314e6bb66ea6370fce3468b7eecd26d6a67afe673f81eabc",
+      "graph_node_ids": [
+        "packages_agent_src_agent_loop_streamassistantresponse"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "streamAssistantResponse",
+          "text": "\t\t\t// Stream assistant response\n\t\t\tconst message = await streamAssistantResponse(currentContext, config, signal, emit, streamFunction);\n\t\t\tnewMessages.push(message);\n\n\t\t\tif (message.stopReason === \"error\" || message.stopReason === \"aborted\") {"
+        },
+        {
+          "symbol": "case \"start\"",
+          "text": "\t\tswitch (event.type) {\n\t\t\tcase \"start\":\n\t\t\t\tpartialMessage = event.partial;\n\t\t\t\tcontext.messages.push(partialMessage);\n\t\t\t\taddedPartial = true;"
+        },
+        {
+          "symbol": "case \"done\"",
+          "text": "\n\t\t\tcase \"done\":\n\t\t\tcase \"error\": {\n\t\t\t\tconst finalMessage = await result();\n\t\t\t\tif (addedPartial) {"
+        },
+        {
+          "symbol": "message_end",
+          "text": "\t\tawait emit({ type: \"message_start\", message });\n\t\tawait emit({ type: \"message_end\", message });\n\t}\n\n\tawait runLoop(currentContext, newMessages, config, signal, emit, streamFn ?? getDefaultStreamFn());"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E13",
+      "claim": "工具执行按配置/工具executionMode选并行或顺序；查找/准备/校验/前钩子/执行/后钩子",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent-loop.ts",
+      "symbols": [
+        "executeToolCalls",
+        "prepareToolCall",
+        "executePreparedToolCall",
+        "finalizeExecutedToolCall"
+      ],
+      "condition": "unknown/invalid/block走immediate；并行结果按源调用序提交",
+      "source_sha256": "e773e822a2587caf314e6bb66ea6370fce3468b7eecd26d6a67afe673f81eabc",
+      "graph_node_ids": [
+        "packages_agent_src_agent_loop_executepreparedtoolcall",
+        "packages_agent_src_agent_loop_executetoolcalls",
+        "packages_agent_src_agent_loop_finalizeexecutedtoolcall",
+        "packages_agent_src_agent_loop_preparetoolcall"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "executeToolCalls",
+          "text": "\t\t\t\t\t\t? await failToolCallsFromTruncatedMessage(toolCalls, emit)\n\t\t\t\t\t\t: await executeToolCalls(currentContext, message, config, signal, emit);\n\t\t\t\ttoolResults.push(...executedToolBatch.messages);\n\t\t\t\thasMoreToolCalls = !executedToolBatch.terminate;\n"
+        },
+        {
+          "symbol": "prepareToolCall",
+          "text": "\n\t\tconst preparation = await prepareToolCall(currentContext, assistantMessage, toolCall, config, signal);\n\t\tlet finalized: FinalizedToolCallOutcome;\n\t\tif (preparation.kind === \"immediate\") {\n\t\t\tfinalized = {"
+        },
+        {
+          "symbol": "executePreparedToolCall",
+          "text": "\t\t} else {\n\t\t\tconst executed = await executePreparedToolCall(preparation, signal, emitToolExecutionUpdate(toolCall, emit));\n\t\t\tfinalized = await finalizeExecutedToolCall(\n\t\t\t\tcurrentContext,\n\t\t\t\tassistantMessage,"
+        },
+        {
+          "symbol": "finalizeExecutedToolCall",
+          "text": "\t\t\tconst executed = await executePreparedToolCall(preparation, signal, emitToolExecutionUpdate(toolCall, emit));\n\t\t\tfinalized = await finalizeExecutedToolCall(\n\t\t\t\tcurrentContext,\n\t\t\t\tassistantMessage,\n\t\t\t\tpreparation,"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E14",
+      "claim": "read解析cwd路径、检查可读性、读Buffer转UTF8并应用offset/limit/截断；默认ops为本地fs",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/tools/read.ts",
+      "symbols": [
+        "createReadToolDefinition",
+        "defaultReadOperations",
+        "ops.access",
+        "ops.readFile"
+      ],
+      "condition": "小Markdown文本、非图片；自定义ReadOperations可替换",
+      "source_sha256": "297d26092979651091f44de8862a6fd55aaf59e7252f8fb8dd3d7cb3f9771518",
+      "graph_node_ids": [
+        "packages_coding_agent_src_core_tools_read_createreadtooldefinition",
+        "packages_coding_agent_src_core_tools_read_defaultreadoperations"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "createReadToolDefinition",
+          "text": "\nexport function createReadToolDefinition(\n\tcwd: string,\n\toptions?: ReadToolOptions,\n): ToolDefinition<typeof readSchema, ReadToolDetails | undefined> {"
+        },
+        {
+          "symbol": "defaultReadOperations",
+          "text": "\nconst defaultReadOperations: ReadOperations = {\n\treadFile: (path) => fsReadFile(path),\n\taccess: (path) => fsAccess(path, constants.R_OK),\n\tdetectImageMimeType: detectSupportedImageMimeTypeFromFile,"
+        },
+        {
+          "symbol": "ops.access",
+          "text": "\t\t\t\t\t\t\t// Check if file exists and is readable.\n\t\t\t\t\t\t\tawait ops.access(absolutePath);\n\t\t\t\t\t\t\tif (aborted) return;\n\t\t\t\t\t\t\tconst mimeType = ops.detectImageMimeType ? await ops.detectImageMimeType(absolutePath) : undefined;\n\t\t\t\t\t\t\tlet content: (TextContent | ImageContent)[];"
+        },
+        {
+          "symbol": "ops.readFile",
+          "text": "\t\t\t\t\t\t\t\t// Read image as binary.\n\t\t\t\t\t\t\t\tconst buffer = await ops.readFile(absolutePath);\n\t\t\t\t\t\t\t\tconst processed = await processImage(buffer, mimeType, {\n\t\t\t\t\t\t\t\t\tautoResizeImages,\n\t\t\t\t\t\t\t\t\tresizeOptions: ctx?.model?.inputLimits?.images?.resize ?? fallbackResizeOptions,"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E15",
+      "claim": "runLoop回填工具结果，finishTurn及队列决定内外循环继续或agent_end",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent-loop.ts",
+      "symbols": [
+        "runLoop",
+        "currentContext.messages.push(result)",
+        "getFollowUpMessages",
+        "shouldTerminateToolBatch"
+      ],
+      "condition": "工具批次全部terminate影响自然续轮，finishTurn:end提前退出",
+      "source_sha256": "e773e822a2587caf314e6bb66ea6370fce3468b7eecd26d6a67afe673f81eabc",
+      "graph_node_ids": [
+        "packages_agent_src_agent_loop_runloop",
+        "packages_agent_src_agent_loop_shouldterminatetoolbatch"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "runLoop",
+          "text": "\n\tawait runLoop(currentContext, newMessages, config, signal, emit, streamFn ?? getDefaultStreamFn());\n\treturn newMessages;\n}\n"
+        },
+        {
+          "symbol": "currentContext.messages.push(result)",
+          "text": "\t\t\t\tfor (const result of toolResults) {\n\t\t\t\t\tcurrentContext.messages.push(result);\n\t\t\t\t\tnewMessages.push(result);\n\t\t\t\t}\n\t\t\t}"
+        },
+        {
+          "symbol": "getFollowUpMessages",
+          "text": "\t\t// Agent would stop here. Check for follow-up messages.\n\t\tconst followUpMessages = (await config.getFollowUpMessages?.()) || [];\n\t\tif (followUpMessages.length > 0) {\n\t\t\t// Set as pending so inner loop processes them\n\t\t\texplicitContinuation = false;"
+        },
+        {
+          "symbol": "shouldTerminateToolBatch",
+          "text": "\t\tmessages,\n\t\tterminate: shouldTerminateToolBatch(finalizedCalls),\n\t};\n}\n"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E16",
+      "claim": "length响应的所有toolCall不执行而生成错误结果，error/aborted响应直接结束低层",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent-loop.ts",
+      "symbols": [
+        "failToolCallsFromTruncatedMessage",
+        "message.stopReason === \"length\"",
+        "message.stopReason === \"error\""
+      ],
+      "condition": "错误结果仍可引发下一轮；模型error出口不执行工具",
+      "source_sha256": "e773e822a2587caf314e6bb66ea6370fce3468b7eecd26d6a67afe673f81eabc",
+      "graph_node_ids": [
+        "packages_agent_src_agent_loop_failtoolcallsfromtruncatedmessage"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "failToolCallsFromTruncatedMessage",
+          "text": "\t\t\t\t\tmessage.stopReason === \"length\"\n\t\t\t\t\t\t? await failToolCallsFromTruncatedMessage(toolCalls, emit)\n\t\t\t\t\t\t: await executeToolCalls(currentContext, message, config, signal, emit);\n\t\t\t\ttoolResults.push(...executedToolBatch.messages);\n\t\t\t\thasMoreToolCalls = !executedToolBatch.terminate;"
+        },
+        {
+          "symbol": "message.stopReason === \"length\"",
+          "text": "\t\t\t\tconst executedToolBatch =\n\t\t\t\t\tmessage.stopReason === \"length\"\n\t\t\t\t\t\t? await failToolCallsFromTruncatedMessage(toolCalls, emit)\n\t\t\t\t\t\t: await executeToolCalls(currentContext, message, config, signal, emit);\n\t\t\t\ttoolResults.push(...executedToolBatch.messages);"
+        },
+        {
+          "symbol": "message.stopReason === \"error\"",
+          "text": "\n\t\t\tif (message.stopReason === \"error\" || message.stopReason === \"aborted\") {\n\t\t\t\tlastCompletedTurn = {\n\t\t\t\t\tmessage,\n\t\t\t\t\ttoolResults: [],"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E17",
+      "claim": "会话先扩展/公开通知，再于message_end追加普通消息条目；turn_end刷新pending自定义消息",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/agent-session.ts",
+      "symbols": [
+        "_handleAgentEvent",
+        "appendMessage(event.message)",
+        "_emit(event"
+      ],
+      "condition": "普通system/user/assistant/toolResult；其他role有单独持久化路径",
+      "source_sha256": "fa1a4f2d84efd0aab8f4a74301d1106395130d3cc59bd665c558280f27dceb03",
+      "graph_node_ids": [
+        "packages_coding_agent_src_core_agent_session_agentsession_handleagentevent"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "_handleAgentEvent",
+          "text": "\t\t// (session persistence, extensions, auto-compaction, retry logic)\n\t\tthis._unsubscribeAgent = this.agent.subscribe(this._handleAgentEvent);\n\t\tthis._installAgentToolHooks();\n\t\tthis._installAgentNextTurnRefresh();\n\t\tthis._installAgentRequestProjection();"
+        },
+        {
+          "symbol": "appendMessage(event.message)",
+          "text": "\t\t\t\t// Regular LLM message - persist as SessionMessageEntry\n\t\t\t\tentryId = this.sessionManager.appendMessage(event.message);\n\t\t\t}\n\t\t\tif (entryId) this._entryIdsByMessage.set(event.message, entryId);\n\t\t\t// Other message types (bashExecution, compactionSummary, branchSummary) are persisted elsewhere"
+        },
+        {
+          "symbol": "_emit(event",
+          "text": "\t\t\t\tawait this._extensionRunner.emit(event);\n\t\t\t\tthis._emit(event);\n\t\t\t},\n\t\t});\n\t\treturn this._nestedToolCalls.execute(parentToolCallId, name, args, options);"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E18",
+      "claim": "执行错误catch→错误结果；后钩子可改结果；toolResult携带调用id、content与isError",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent-loop.ts",
+      "symbols": [
+        "executePreparedToolCall",
+        "createErrorToolResult",
+        "createToolResultMessage"
+      ],
+      "condition": "after钩子未改写时保留错误；undefined content正规化为[]",
+      "source_sha256": "e773e822a2587caf314e6bb66ea6370fce3468b7eecd26d6a67afe673f81eabc",
+      "graph_node_ids": [
+        "packages_agent_src_agent_loop_createerrortoolresult",
+        "packages_agent_src_agent_loop_createtoolresultmessage",
+        "packages_agent_src_agent_loop_executepreparedtoolcall"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "executePreparedToolCall",
+          "text": "\t\t} else {\n\t\t\tconst executed = await executePreparedToolCall(preparation, signal, emitToolExecutionUpdate(toolCall, emit));\n\t\t\tfinalized = await finalizeExecutedToolCall(\n\t\t\t\tcurrentContext,\n\t\t\t\tassistantMessage,"
+        },
+        {
+          "symbol": "createErrorToolResult",
+          "text": "\t\t\ttoolCall,\n\t\t\tresult: createErrorToolResult(\n\t\t\t\t`Tool call \"${toolCall.name}\" was not executed: the response hit the output token limit, so its arguments may be truncated. Re-issue the tool call with complete arguments.`,\n\t\t\t),\n\t\t\tisError: true,"
+        },
+        {
+          "symbol": "createToolResultMessage",
+          "text": "\t\tawait emitToolExecutionEnd(finalized, emit);\n\t\tconst toolResultMessage = createToolResultMessage(finalized);\n\t\tawait emitToolResultMessage(toolResultMessage, emit);\n\t\tmessages.push(toolResultMessage);\n\t}"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E19",
+      "claim": "轮间刷新先压缩/投影，再更新工具装载与system sections；请求前还可重建canonical投影",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/agent-session.ts",
+      "symbols": [
+        "_installAgentNextTurnRefresh",
+        "_compactBeforeNextAssistantResponse",
+        "_preparePromptAndToolLoadout"
+      ],
+      "condition": "主链只核对接入点；压缩算法未完整审计",
+      "source_sha256": "fa1a4f2d84efd0aab8f4a74301d1106395130d3cc59bd665c558280f27dceb03",
+      "graph_node_ids": [
+        "packages_coding_agent_src_core_agent_session_agentsession_compactbeforenextassistantresponse",
+        "packages_coding_agent_src_core_agent_session_agentsession_installagentnextturnrefresh",
+        "packages_coding_agent_src_core_agent_session_agentsession_preparepromptandtoolloadout"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "_installAgentNextTurnRefresh",
+          "text": "\t\tthis._installAgentToolHooks();\n\t\tthis._installAgentNextTurnRefresh();\n\t\tthis._installAgentRequestProjection();\n\t\tthis._installAgentBoundaryHooks();\n\t\tthis._installHiddenDeclarationsProjection();"
+        },
+        {
+          "symbol": "_compactBeforeNextAssistantResponse",
+          "text": "\n\tprivate async _compactBeforeNextAssistantResponse(context: AgentContext): Promise<AgentContext> {\n\t\tconst projection = this.sessionManager.buildSessionProjection();\n\t\t// A virtual selection is checked in prepareRequest, against the model the request is routed to.\n\t\tconst model = this.model;"
+        },
+        {
+          "symbol": "_preparePromptAndToolLoadout",
+          "text": "\t\t\t});\n\t\t\tconst updateMessage = this._preparePromptAndToolLoadout(options, nextContext.messages);\n\t\t\t// Keep session.systemPrompt and ctx.getSystemPrompt() in step with what the provider sees.\n\t\t\tthis._runSystemPromptOptions = options;\n"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E20",
+      "claim": "agent_end监听者结算后finishRun才清activeRun；run异常有合成失败消息兜底",
+      "category": "source_confirmed",
+      "source_file": "packages/agent/src/agent.ts",
+      "symbols": [
+        "runWithLifecycle",
+        "handleRunFailure",
+        "finishRun",
+        "waitForIdle"
+      ],
+      "condition": "监听者再次抛错的复杂恢复未展开",
+      "source_sha256": "7024a3145a6ebc951a0f030164adb1dfb12d33d6e0dbbac15ef0efda49c87457",
+      "graph_node_ids": [
+        "packages_agent_src_agent_agent_finishrun",
+        "packages_agent_src_agent_agent_handlerunfailure",
+        "packages_agent_src_agent_agent_runwithlifecycle",
+        "packages_agent_src_agent_agent_waitforidle"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "runWithLifecycle",
+          "text": "\t): Promise<void> {\n\t\tawait this.runWithLifecycle(async (signal) => {\n\t\t\tawait runAgentLoop(\n\t\t\t\tmessages,\n\t\t\t\tthis.createContextSnapshot(),"
+        },
+        {
+          "symbol": "handleRunFailure",
+          "text": "\t\t} catch (error) {\n\t\t\tawait this.handleRunFailure(error, abortController.signal.aborted);\n\t\t} finally {\n\t\t\tthis.finishRun();\n\t\t}"
+        },
+        {
+          "symbol": "finishRun",
+          "text": "\t\t} finally {\n\t\t\tthis.finishRun();\n\t\t}\n\t}\n"
+        },
+        {
+          "symbol": "waitForIdle",
+          "text": "\t */\n\twaitForIdle(): Promise<void> {\n\t\treturn this.activeRun?.promise ?? Promise.resolve();\n\t}\n"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E21",
+      "claim": "_runAgentPrompt可在低层结束后重试/恢复/消费新队列/收束钩子再continue，finally发agent_settled",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/agent-session.ts",
+      "symbols": [
+        "_runAgentPrompt",
+        "_handlePostAgentRun",
+        "_runBeforeSettleBoundary",
+        "_emitAgentSettled"
+      ],
+      "condition": "一次会话活动可能含多个低层run；交互进程仍可等待新输入",
+      "source_sha256": "fa1a4f2d84efd0aab8f4a74301d1106395130d3cc59bd665c558280f27dceb03",
+      "graph_node_ids": [
+        "packages_coding_agent_src_core_agent_session_agentsession_emitagentsettled",
+        "packages_coding_agent_src_core_agent_session_agentsession_handlepostagentrun",
+        "packages_coding_agent_src_core_agent_session_agentsession_runagentprompt",
+        "packages_coding_agent_src_core_agent_session_agentsession_runbeforesettleboundary"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "_runAgentPrompt",
+          "text": "\n\tprivate async _runAgentPrompt(messages: AgentMessage | AgentMessage[]): Promise<void> {\n\t\tthis._agentRunAbortRequested = false;\n\t\t// Compaction before the prompt may have scheduled a retry; the new prompt replaces it.\n\t\tthis._failedResponse = undefined;"
+        },
+        {
+          "symbol": "_handlePostAgentRun",
+          "text": "\t\t\twhile (!this._agentRunAbortRequested) {\n\t\t\t\tif (await this._handlePostAgentRun()) {\n\t\t\t\t\tif (this._agentRunAbortRequested) break;\n\t\t\t\t\tawait this.agent.continue();\n\t\t\t\t\tcontinue;"
+        },
+        {
+          "symbol": "_runBeforeSettleBoundary",
+          "text": "\t\t\t\t}\n\t\t\t\tif (this._agentRunAbortRequested || !(await this._runBeforeSettleBoundary())) break;\n\t\t\t\tif (this._agentRunAbortRequested) break;\n\t\t\t\tawait this.agent.continue();\n\t\t\t}"
+        },
+        {
+          "symbol": "_emitAgentSettled",
+          "text": "\n\tprivate async _emitAgentSettled(): Promise<void> {\n\t\tthis._cacheWarmer?.onAgentSettled();\n\t\tthis._isAgentRunActive = false;\n\t\tthis._isEmittingAgentSettled = true;"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E22",
+      "claim": "自动重试按可重试模型错误/预算决定，保留原始失败尝试但省略其模型投影",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/agent-session.ts",
+      "symbols": [
+        "_prepareRetry",
+        "_isRetryableError",
+        "_omitRecoveryAttempt"
+      ],
+      "condition": "非toolResult错误；overflow由压缩恢复处理；未运行验证",
+      "source_sha256": "fa1a4f2d84efd0aab8f4a74301d1106395130d3cc59bd665c558280f27dceb03",
+      "graph_node_ids": [
+        "packages_coding_agent_src_core_agent_session_agentsession_isretryableerror",
+        "packages_coding_agent_src_core_agent_session_agentsession_omitrecoveryattempt",
+        "packages_coding_agent_src_core_agent_session_agentsession_prepareretry"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "_prepareRetry",
+          "text": "\n\t\tif (this._isRetryableError(message) && (await this._prepareRetry(message))) {\n\t\t\tif (this._agentRunAbortRequested) this._finishCancelledRetry();\n\t\t\tthis._failedResponse = message;\n\t\t\treturn !this._agentRunAbortRequested;"
+        },
+        {
+          "symbol": "_isRetryableError",
+          "text": "\t\t\tif (message.role === \"assistant\") {\n\t\t\t\treturn this._isRetryableError(message as AssistantMessage);\n\t\t\t}\n\t\t}\n\t\treturn false;"
+        },
+        {
+          "symbol": "_omitRecoveryAttempt",
+          "text": "\n\tprivate _omitRecoveryAttempt(message: AssistantMessage, toolResults: AgentMessage[] = []): void {\n\t\tconst targets = [message, ...toolResults];\n\t\tconst targetIds = targets.map((target) => this._findPersistedMessageEntryId(target));\n\t\tconst unresolvedProjectedTarget = targets.some("
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E23",
+      "claim": "appendMessage推进树leaf，persist开启且有sessionFile时按会话首次user/assistant触发创建/追加",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/session-manager.ts",
+      "symbols": [
+        "appendMessage",
+        "_appendEntry",
+        "_hasConversation",
+        "_persist"
+      ],
+      "condition": "in-memory不写；setup条目不单独触发文件创建；未观测磁盘行为",
+      "source_sha256": "450d82c529933214e088b8422f00061815e617f352f6c834689787a314064bff",
+      "graph_node_ids": [
+        "packages_coding_agent_src_core_session_manager_sessionmanager_appendentry",
+        "packages_coding_agent_src_core_session_manager_sessionmanager_appendmessage",
+        "packages_coding_agent_src_core_session_manager_sessionmanager_hasconversation",
+        "packages_coding_agent_src_core_session_manager_sessionmanager_persist"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "appendMessage",
+          "text": "\t */\n\tappendMessage(message: Message | CustomMessage | BashExecutionMessage): string {\n\t\tconst entry: SessionMessageEntry = {\n\t\t\ttype: \"message\",\n\t\t\tid: generateId(this.byId),"
+        },
+        {
+          "symbol": "_appendEntry",
+          "text": "\n\tprivate _appendEntry(entry: SessionEntry): void {\n\t\tthis.fileEntries.push(entry);\n\t\tthis.byId.set(entry.id, entry);\n\t\tthis.leafId = entry.id;"
+        },
+        {
+          "symbol": "_hasConversation",
+          "text": "\t */\n\tprivate _hasConversation(): boolean {\n\t\treturn this.fileEntries.some(\n\t\t\t(e) => e.type === \"message\" && (e.message.role === \"user\" || e.message.role === \"assistant\"),\n\t\t);"
+        },
+        {
+          "symbol": "_persist",
+          "text": "\n\t_persist(entry: SessionEntry): void {\n\t\tif (!this.persist || !this.sessionFile) return;\n\n\t\tif (!this.flushed) {"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E24",
+      "claim": "会话abort取消重试/压缩/摘要并发Agent signal，等待会话idle",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/agent-session.ts",
+      "symbols": [
+        "abort",
+        "abortRetry",
+        "abortCompaction",
+        "waitForIdle"
+      ],
+      "condition": "协作取消；不保证撤销底层I/O副作用",
+      "source_sha256": "fa1a4f2d84efd0aab8f4a74301d1106395130d3cc59bd665c558280f27dceb03",
+      "graph_node_ids": [
+        "packages_coding_agent_src_core_agent_session_agentsession_abort",
+        "packages_coding_agent_src_core_agent_session_agentsession_abortcompaction",
+        "packages_coding_agent_src_core_agent_session_agentsession_abortretry",
+        "packages_coding_agent_src_core_agent_session_agentsession_waitforidle"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "abort",
+          "text": "\t\t\tresult: CompactionResult | undefined;\n\t\t\taborted: boolean;\n\t\t\twillRetry: boolean;\n\t\t\terrorMessage?: string;\n\t  }"
+        },
+        {
+          "symbol": "abortRetry",
+          "text": "\t\ttry {\n\t\t\tthis.abortRetry();\n\t\t\tthis.abortCompaction();\n\t\t\tthis.abortBranchSummary();\n\t\t\tthis.abortBash();"
+        },
+        {
+          "symbol": "abortCompaction",
+          "text": "\t\t\tthis.abortRetry();\n\t\t\tthis.abortCompaction();\n\t\t\tthis.abortBranchSummary();\n\t\t\tthis.abortBash();\n\t\t\tthis.agent.abort();"
+        },
+        {
+          "symbol": "waitForIdle",
+          "text": "\t\tthis.agent.abort();\n\t\tawait this.waitForIdle();\n\t}\n\n\tasync waitForIdle(): Promise<void> {"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E25",
+      "claim": "会话把before/afterToolCall映射到扩展tool_call/tool_result；runToolCall复用嵌套调用钩子",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/agent-session.ts",
+      "symbols": [
+        "_installAgentToolHooks",
+        "_beforeToolCall",
+        "_afterToolCall",
+        "_executeNestedToolCall"
+      ],
+      "condition": "只说明候选审批接缝；没有实现审批策略",
+      "source_sha256": "fa1a4f2d84efd0aab8f4a74301d1106395130d3cc59bd665c558280f27dceb03",
+      "graph_node_ids": [
+        "packages_coding_agent_src_core_agent_session_agentsession_aftertoolcall",
+        "packages_coding_agent_src_core_agent_session_agentsession_beforetoolcall",
+        "packages_coding_agent_src_core_agent_session_agentsession_executenestedtoolcall",
+        "packages_coding_agent_src_core_agent_session_agentsession_installagenttoolhooks"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "_installAgentToolHooks",
+          "text": "\t\tthis._unsubscribeAgent = this.agent.subscribe(this._handleAgentEvent);\n\t\tthis._installAgentToolHooks();\n\t\tthis._installAgentNextTurnRefresh();\n\t\tthis._installAgentRequestProjection();\n\t\tthis._installAgentBoundaryHooks();"
+        },
+        {
+          "symbol": "_beforeToolCall",
+          "text": "\tprivate _installAgentToolHooks(): void {\n\t\tthis.agent.beforeToolCall = (context) => this._beforeToolCall(context);\n\t\tthis.agent.afterToolCall = (context) => this._afterToolCall(context);\n\t}\n"
+        },
+        {
+          "symbol": "_afterToolCall",
+          "text": "\t\tthis.agent.beforeToolCall = (context) => this._beforeToolCall(context);\n\t\tthis.agent.afterToolCall = (context) => this._afterToolCall(context);\n\t}\n\n\t/** `tool_call` handlers. `parentToolCallId` is set for calls another tool made. */"
+        },
+        {
+          "symbol": "_executeNestedToolCall",
+          "text": "\t */\n\tprivate async _executeNestedToolCall(\n\t\tparentToolCallId: string,\n\t\tname: string,\n\t\targs: unknown,"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E26",
+      "claim": "SDK注入ModelRuntime.streamSimple，runtime分派到provider API，transcript由协议适配继续转换",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/model-runtime.ts",
+      "symbols": [
+        "streamSimple",
+        "prepared.provider.streamSimple",
+        "normalizeContext"
+      ],
+      "condition": "具体provider协议/网络载荷未验证；认证、payload钩子可继续变换",
+      "source_sha256": "de28a51492788e7f5f4d6f20a57fa8b08e32fd9e766a365211b54a3f3959a177",
+      "graph_node_ids": [
+        "packages_coding_agent_src_core_model_runtime_modelruntime_streamsimple"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "streamSimple",
+          "text": "\n\tstreamSimple(model: Model<Api>, context: Context, options?: ModelsSimpleStreamOptions): AssistantMessageEventStream {\n\t\tconst transcript = normalizeContext(context);\n\t\tif (isVirtualModel(model)) {\n\t\t\t// Requests outside the agent loop are routed here. Callers sized them before routing, so"
+        },
+        {
+          "symbol": "prepared.provider.streamSimple",
+          "text": "\t\t\tconst prepared = await this.prepareRequest(model, options);\n\t\t\treturn prepared.provider.streamSimple(prepared.model, transcript, prepared.options as SimpleStreamOptions);\n\t\t});\n\t}\n"
+        },
+        {
+          "symbol": "normalizeContext",
+          "text": "\ttype MutableModels,\n\tnormalizeContext,\n\ttype Provider,\n\ttype ProviderHeaders,\n\ttype ProviderRequestOptions,"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E27",
+      "claim": "SessionManager从原始树、compaction与context_edit生成保留sourceEntry的投影",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/session-manager.ts",
+      "symbols": [
+        "buildSessionProjection",
+        "buildContextEntries",
+        "projectContextEntry"
+      ],
+      "condition": "当前leaf；原始记录和模型投影不同",
+      "source_sha256": "450d82c529933214e088b8422f00061815e617f352f6c834689787a314064bff",
+      "graph_node_ids": [
+        "packages_coding_agent_src_core_session_manager_buildcontextentries",
+        "packages_coding_agent_src_core_session_manager_buildsessionprojection",
+        "packages_coding_agent_src_core_session_manager_projectcontextentry",
+        "packages_coding_agent_src_core_session_manager_sessionmanager_buildcontextentries",
+        "packages_coding_agent_src_core_session_manager_sessionmanager_buildsessionprojection"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "buildSessionProjection",
+          "text": "\t| \"buildContextEntries\"\n\t| \"buildSessionProjection\"\n\t| \"getHeader\"\n\t| \"getEntries\"\n\t| \"getTree\""
+        },
+        {
+          "symbol": "buildContextEntries",
+          "text": "\t| \"getBranch\"\n\t| \"buildContextEntries\"\n\t| \"buildSessionProjection\"\n\t| \"getHeader\"\n\t| \"getEntries\""
+        },
+        {
+          "symbol": "projectContextEntry",
+          "text": " */\nfunction projectContextEntry(entry: SessionEntry, edit: ContextEditEntry | undefined): AgentMessage[] {\n\tconst messages = sessionEntryToContextMessages(entry);\n\tif (!edit) return messages;\n\tconst replacement = edit.replacement;"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E28",
+      "claim": "工具声明可重放增删delta，normalizeContext仅在外部systemPrompt/tools非空时添加leading message",
+      "category": "source_confirmed",
+      "source_file": "packages/ai/src/utils/transcript.ts",
+      "symbols": [
+        "getCurrentTools",
+        "normalizeContext",
+        "toToolDeclaration"
+      ],
+      "condition": "此主链transcript已带声明，传入仅messages",
+      "source_sha256": "e0814f35bdcc93b017fa45589a6920e46b5480b88fba01ef93e5d2d4e815f0f2",
+      "graph_node_ids": [
+        "packages_ai_src_utils_transcript_getcurrenttools",
+        "packages_ai_src_utils_transcript_normalizecontext",
+        "packages_ai_src_utils_transcript_totooldeclaration"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "getCurrentTools",
+          "text": "/** Resolve the tools available after applying every transcript delta in order. */\nexport function getCurrentTools(messages: TranscriptMessages): Tool[] {\n\tconst tools = new Map<string, Tool>();\n\tfor (const message of messages) {\n\t\tif (!isSystemMessage(message)) continue;"
+        },
+        {
+          "symbol": "normalizeContext",
+          "text": " */\nexport function normalizeContext(context: Context): TranscriptContext {\n\tconst initialMessage = createInitialSystemMessage(context.systemPrompt, context.tools);\n\tconst messages = initialMessage ? [initialMessage, ...context.messages] : context.messages;\n\treturn { messages } as TranscriptContext;"
+        },
+        {
+          "symbol": "toToolDeclaration",
+          "text": "/** Strip executable and display-only fields from a tool before transcript comparison or persistence. */\nexport function toToolDeclaration(tool: Tool): Tool {\n\treturn {\n\t\tname: tool.name,\n\t\tdescription: tool.description,"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "E29",
+      "claim": "ToolDefinition包装为AgentTool保留参数/执行模式，execute转发到定义并提供工具context",
+      "category": "source_confirmed",
+      "source_file": "packages/coding-agent/src/core/tools/tool-definition-wrapper.ts",
+      "symbols": [
+        "wrapToolDefinition",
+        "definition.execute"
+      ],
+      "condition": "ReadOperations可注入；渲染器字段不进入模型声明",
+      "source_sha256": "bae3cdd9f2aa21fb168ef42a47584f3b19536c0815ec14d94389af530eef9358",
+      "graph_node_ids": [
+        "packages_coding_agent_src_core_tools_tool_definition_wrapper_wraptooldefinition"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "wrapToolDefinition",
+          "text": "/** Wrap a ToolDefinition into an AgentTool for the core runtime. */\nexport function wrapToolDefinition<TDetails = unknown>(\n\tdefinition: ToolDefinition<any, TDetails>,\n\tctxFactory?: ToolContextFactory,\n): AgentTool<any, TDetails> {"
+        },
+        {
+          "symbol": "definition.execute",
+          "text": "\t\texecute: (toolCallId, params, signal, onUpdate, ctx?: ExtensionToolContext) =>\n\t\t\tdefinition.execute(\n\t\t\t\ttoolCallId,\n\t\t\t\tparams,\n\t\t\t\tsignal,"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "T01",
+      "claim": "测试表达tool call→执行→toolResult→第二响应的预期",
+      "category": "test_expected",
+      "source_file": "packages/agent/test/agent-loop.test.ts",
+      "symbols": [
+        "should handle tool calls and results"
+      ],
+      "condition": "只读未运行；测试使用echo与mock stream",
+      "source_sha256": "00e7841355c29ec7c673c6ca992302361db6e5fad248363c53210061e3f80c16",
+      "graph_node_ids": [],
+      "source_excerpt": [
+        {
+          "symbol": "should handle tool calls and results",
+          "text": "\n\tit(\"should handle tool calls and results\", async () => {\n\t\tconst toolSchema = Type.Object({ value: Type.String() });\n\t\tconst executed: string[] = [];\n\t\tconst toolUsage = {"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "T02",
+      "claim": "read单元测试表达不存在文件execute拒绝ENOENT/not found的预期",
+      "category": "test_expected",
+      "source_file": "packages/coding-agent/test/tools.test.ts",
+      "symbols": [
+        "should handle non-existent files"
+      ],
+      "condition": "只读未运行",
+      "source_sha256": "9c9a1053db337dfc736c0bcc837681a3b94851a88cfeecfd3157329228f52e7f",
+      "graph_node_ids": [],
+      "source_excerpt": [
+        {
+          "symbol": "should handle non-existent files",
+          "text": "\n\t\tit(\"should handle non-existent files\", async () => {\n\t\t\tconst testFile = join(testDir, \"nonexistent.txt\");\n\n\t\t\tawait expect(readTool.execute(\"test-call-2\", { path: testFile })).rejects.toThrow(/ENOENT|not found/i);"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "T03",
+      "claim": "测试表达并行执行结束按完成序、结果消息按源调用序的预期",
+      "category": "test_expected",
+      "source_file": "packages/agent/test/agent-loop.test.ts",
+      "symbols": [
+        "should emit tool_execution_end in completion order but persist tool results in source order"
+      ],
+      "condition": "只读未运行",
+      "source_sha256": "00e7841355c29ec7c673c6ca992302361db6e5fad248363c53210061e3f80c16",
+      "graph_node_ids": [],
+      "source_excerpt": [
+        {
+          "symbol": "should emit tool_execution_end in completion order but persist tool results in source order",
+          "text": "\n\tit(\"should emit tool_execution_end in completion order but persist tool results in source order\", async () => {\n\t\tconst toolSchema = Type.Object({ value: Type.String() });\n\t\tlet firstResolved = false;\n\t\tlet parallelObserved = false;"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "T04",
+      "claim": "测试表达未知工具、非法参数、block返回isError的预期",
+      "category": "test_expected",
+      "source_file": "packages/agent/test/agent-loop.test.ts",
+      "symbols": [
+        "validates, runs the hooks, and reports failures as error outcomes"
+      ],
+      "condition": "只读未运行",
+      "source_sha256": "00e7841355c29ec7c673c6ca992302361db6e5fad248363c53210061e3f80c16",
+      "graph_node_ids": [],
+      "source_excerpt": [
+        {
+          "symbol": "validates, runs the hooks, and reports failures as error outcomes",
+          "text": "\n\tit(\"validates, runs the hooks, and reports failures as error outcomes\", async () => {\n\t\tconst hookCalls: string[] = [];\n\t\tconst updates: unknown[] = [];\n\t\tconst options = {"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "T05",
+      "claim": "测试表达prompt/waitForIdle等待异步订阅者的预期",
+      "category": "test_expected",
+      "source_file": "packages/agent/test/agent.test.ts",
+      "symbols": [
+        "should await async subscribers before prompt resolves",
+        "waitForIdle should wait for async subscribers"
+      ],
+      "condition": "只读未运行",
+      "source_sha256": "42bfc9e557d64266a168da8c25460fddfcc9fdfbe74822bcce90bcfef634b7bd",
+      "graph_node_ids": [],
+      "source_excerpt": [
+        {
+          "symbol": "should await async subscribers before prompt resolves",
+          "text": "\n\tit(\"should await async subscribers before prompt resolves\", async () => {\n\t\tconst barrier = createDeferred();\n\t\tconst agent = new Agent({\n\t\t\tstreamFn: () => {"
+        },
+        {
+          "symbol": "waitForIdle should wait for async subscribers",
+          "text": "\n\tit(\"waitForIdle should wait for async subscribers\", async () => {\n\t\tconst barrier = createDeferred();\n\t\tconst agent = new Agent({\n\t\t\tstreamFn: () => {"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "T06",
+      "claim": "回归测试表达重试/agent_end新followUp可有多个agent_end且一个agent_settled的预期",
+      "category": "test_expected",
+      "source_file": "packages/coding-agent/test/suite/regressions/6363-agent-settled-event.test.ts",
+      "symbols": [
+        "emits one agent_settled event after automatic retry finishes",
+        "settles only after follow-ups queued by agent_end handlers run"
+      ],
+      "condition": "只读未运行",
+      "source_sha256": "e35475a593becf602a424f3e511a07cfc9be27ac7eaf4aa025de2cc8aaaf185e",
+      "graph_node_ids": [],
+      "source_excerpt": [
+        {
+          "symbol": "emits one agent_settled event after automatic retry finishes",
+          "text": "\n\tit(\"emits one agent_settled event after automatic retry finishes\", async () => {\n\t\tconst extensionEvents: string[] = [];\n\t\tconst publicEvents: string[] = [];\n\t\tconst harness = await createHarness({"
+        },
+        {
+          "symbol": "settles only after follow-ups queued by agent_end handlers run",
+          "text": "\n\tit(\"settles only after follow-ups queued by agent_end handlers run\", async () => {\n\t\tlet queuedFollowUp = false;\n\t\tconst settledIdleStates: boolean[] = [];\n\t\tconst harness = await createHarness({"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "T07",
+      "claim": "测试表达length截断调用不执行且产生下一请求的预期",
+      "category": "test_expected",
+      "source_file": "packages/agent/test/agent-loop.test.ts",
+      "symbols": [
+        "should not execute tool calls from a length-truncated assistant message"
+      ],
+      "condition": "只读未运行",
+      "source_sha256": "00e7841355c29ec7c673c6ca992302361db6e5fad248363c53210061e3f80c16",
+      "graph_node_ids": [],
+      "source_excerpt": [
+        {
+          "symbol": "should not execute tool calls from a length-truncated assistant message",
+          "text": "\n\tit(\"should not execute tool calls from a length-truncated assistant message\", async () => {\n\t\tconst toolSchema = Type.Object({ value: Type.String() });\n\t\tconst executed: string[] = [];\n\t\tconst tool: AgentTool<typeof toolSchema, { value: string }> = {"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "I01",
+      "claim": "streamFn注入为独立嵌入和可控测试提供接缝，代价是应用需保持上下文与生命周期契约",
+      "category": "semantic_inference",
+      "source_file": "packages/coding-agent/src/core/sdk.ts",
+      "symbols": [
+        "createAgentSession",
+        "streamFn"
+      ],
+      "condition": "根据包边界、SDK注入与测试写法分析，设计动机未获作者确认",
+      "source_sha256": "1fb8a84ab4dfab28344932b430c8d4abcd234a1c35ae9aebc3049269a813312d",
+      "graph_node_ids": [
+        "packages_coding_agent_src_core_sdk_createagentsession"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "createAgentSession",
+          "text": "\n/** Result from createAgentSession */\nexport interface CreateAgentSessionResult {\n\t/** The created session */\n\tsession: AgentSession;"
+        },
+        {
+          "symbol": "streamFn",
+          "text": "// Preserve the pre-0.81 fallback for extensions that construct Agent instances\n// or invoke low-level agent loops without supplying streamFn. Agent core remains\n// provider-agnostic and does not import pi-ai/compat itself.\nsetDefaultStreamFn(streamSimple);\n"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    },
+    {
+      "id": "I02",
+      "claim": "原始记录和请求投影分离有利于保留审计历史，同时需要维护者识别修改层级",
+      "category": "semantic_inference",
+      "source_file": "packages/coding-agent/src/core/session-manager.ts",
+      "symbols": [
+        "buildSessionProjection",
+        "sourceEntry"
+      ],
+      "condition": "根据projection及retry省略失败记录推断，非作者动机陈述",
+      "source_sha256": "450d82c529933214e088b8422f00061815e617f352f6c834689787a314064bff",
+      "graph_node_ids": [
+        "packages_coding_agent_src_core_session_manager_buildsessionprojection",
+        "packages_coding_agent_src_core_session_manager_sessionmanager_buildsessionprojection"
+      ],
+      "source_excerpt": [
+        {
+          "symbol": "buildSessionProjection",
+          "text": "\t| \"buildContextEntries\"\n\t| \"buildSessionProjection\"\n\t| \"getHeader\"\n\t| \"getEntries\"\n\t| \"getTree\""
+        },
+        {
+          "symbol": "sourceEntry",
+          "text": "\t/** Raw append-only entry that owns this projected contribution. */\n\tsourceEntry: SessionEntry;\n\t/** Model-visible messages after context edits. Empty for state-only entries and omissions. */\n\tmessages: AgentMessage[];\n}"
+        }
+      ],
+      "revision": "cd32f7725fdbddbaecdff5b1e68491563394e0ca",
+      "runtime_observed": false
+    }
+  ]
+}

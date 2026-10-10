@@ -1,0 +1,21 @@
+---
+source_file: "packages/telemetry/src/index.ts"
+type: "code"
+community: "Telemetry 遥测契约 223"
+location: "L349"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Telemetry_遥测契约_223
+---
+
+# createTypedSpanStarter()
+
+## Connections
+- [[bindTypedSpanStarter()]] - `calls` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Telemetry_遥测契约_223
+
+## 源码入口
+
+[packages/telemetry/src/index.ts](../../../packages/telemetry/src/index.ts)

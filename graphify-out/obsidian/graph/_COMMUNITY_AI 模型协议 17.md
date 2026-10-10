@@ -1,0 +1,265 @@
+---
+type: community
+cohesion: 0.03
+members: 227
+---
+
+# AI 模型协议 17
+
+**Cohesion:** 0.03 - loosely connected
+**Members:** 227 nodes
+
+## Members
+- [[AMAZON_BEDROCK_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/amazon-bedrock.models.ts
+- [[AMAZON_BEDROCK_IMAGE_MODELS]] - code - packages/ai/src/providers/amazon-bedrock.models.ts
+- [[ANTHROPIC_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/anthropic.models.ts
+- [[ANTHROPIC_IMAGE_MODELS]] - code - packages/ai/src/providers/anthropic.models.ts
+- [[ANTHROPIC_MODELS]] - code - packages/ai/src/providers/anthropic.models.ts
+- [[ANT_LING_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/ant-ling.models.ts
+- [[ANT_LING_IMAGE_MODELS]] - code - packages/ai/src/providers/ant-ling.models.ts
+- [[ANT_LING_MODELS]] - code - packages/ai/src/providers/ant-ling.models.ts
+- [[AZURE_OPENAI_RESPONSES_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/azure-openai-responses.models.ts
+- [[AZURE_OPENAI_RESPONSES_IMAGE_MODELS]] - code - packages/ai/src/providers/azure-openai-responses.models.ts
+- [[AZURE_OPENAI_RESPONSES_MODELS]] - code - packages/ai/src/providers/azure-openai-responses.models.ts
+- [[ApiForKey]] - code - packages/ai/src/model-catalog.ts
+- [[BASETEN_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/baseten.models.ts
+- [[BASETEN_IMAGE_MODELS]] - code - packages/ai/src/providers/baseten.models.ts
+- [[BASETEN_MODELS]] - code - packages/ai/src/providers/baseten.models.ts
+- [[CEREBRAS_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/cerebras.models.ts
+- [[CEREBRAS_IMAGE_MODELS]] - code - packages/ai/src/providers/cerebras.models.ts
+- [[CEREBRAS_MODELS]] - code - packages/ai/src/providers/cerebras.models.ts
+- [[CLASSIFIER_MODELS]] - code - packages/ai/src/models.generated.ts
+- [[CLOUDFLARE_AI_GATEWAY_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/cloudflare-ai-gateway.models.ts
+- [[CLOUDFLARE_AI_GATEWAY_IMAGE_MODELS]] - code - packages/ai/src/providers/cloudflare-ai-gateway.models.ts
+- [[CLOUDFLARE_AI_GATEWAY_MODELS]] - code - packages/ai/src/providers/cloudflare-ai-gateway.models.ts
+- [[CLOUDFLARE_WORKERS_AI_CLASSIFIER_MODELS_1]] - code - packages/ai/src/providers/cloudflare-workers-ai.models.ts
+- [[CLOUDFLARE_WORKERS_AI_IMAGE_MODELS]] - code - packages/ai/src/providers/cloudflare-workers-ai.models.ts
+- [[CLOUDFLARE_WORKERS_AI_MODELS]] - code - packages/ai/src/providers/cloudflare-workers-ai.models.ts
+- [[ChatModelCatalog]] - code - packages/ai/src/model-catalog.ts
+- [[ClassifierModelCatalog]] - code - packages/ai/src/model-catalog.ts
+- [[DEEPSEEK_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/deepseek.models.ts
+- [[DEEPSEEK_IMAGE_MODELS]] - code - packages/ai/src/providers/deepseek.models.ts
+- [[DEEPSEEK_MODELS]] - code - packages/ai/src/providers/deepseek.models.ts
+- [[FIREWORKS_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/fireworks.models.ts
+- [[FIREWORKS_IMAGE_MODELS]] - code - packages/ai/src/providers/fireworks.models.ts
+- [[FIREWORKS_MODELS]] - code - packages/ai/src/providers/fireworks.models.ts
+- [[GITHUB_COPILOT_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/github-copilot.models.ts
+- [[GITHUB_COPILOT_IMAGE_MODELS]] - code - packages/ai/src/providers/github-copilot.models.ts
+- [[GITHUB_COPILOT_MODELS]] - code - packages/ai/src/providers/github-copilot.models.ts
+- [[GOOGLE_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/google.models.ts
+- [[GOOGLE_IMAGE_MODELS]] - code - packages/ai/src/providers/google.models.ts
+- [[GOOGLE_MODELS]] - code - packages/ai/src/providers/google.models.ts
+- [[GOOGLE_VERTEX_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/google-vertex.models.ts
+- [[GOOGLE_VERTEX_IMAGE_MODELS]] - code - packages/ai/src/providers/google-vertex.models.ts
+- [[GOOGLE_VERTEX_MODELS]] - code - packages/ai/src/providers/google-vertex.models.ts
+- [[GROQ_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/groq.models.ts
+- [[GROQ_IMAGE_MODELS]] - code - packages/ai/src/providers/groq.models.ts
+- [[GROQ_MODELS]] - code - packages/ai/src/providers/groq.models.ts
+- [[HUGGINGFACE_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/huggingface.models.ts
+- [[HUGGINGFACE_IMAGE_MODELS]] - code - packages/ai/src/providers/huggingface.models.ts
+- [[HUGGINGFACE_MODELS]] - code - packages/ai/src/providers/huggingface.models.ts
+- [[ImageModelCatalog]] - code - packages/ai/src/model-catalog.ts
+- [[KIMI_CODING_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/kimi-coding.models.ts
+- [[KIMI_CODING_IMAGE_MODELS]] - code - packages/ai/src/providers/kimi-coding.models.ts
+- [[KIMI_CODING_MODELS]] - code - packages/ai/src/providers/kimi-coding.models.ts
+- [[KeyForType]] - code - packages/ai/src/model-catalog.ts
+- [[META_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/meta.models.ts
+- [[META_IMAGE_MODELS]] - code - packages/ai/src/providers/meta.models.ts
+- [[META_MODELS]] - code - packages/ai/src/providers/meta.models.ts
+- [[MINIMAX_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/minimax.models.ts
+- [[MINIMAX_CN_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/minimax-cn.models.ts
+- [[MINIMAX_CN_IMAGE_MODELS]] - code - packages/ai/src/providers/minimax-cn.models.ts
+- [[MINIMAX_CN_MODELS]] - code - packages/ai/src/providers/minimax-cn.models.ts
+- [[MINIMAX_IMAGE_MODELS]] - code - packages/ai/src/providers/minimax.models.ts
+- [[MINIMAX_MODELS]] - code - packages/ai/src/providers/minimax.models.ts
+- [[MISTRAL_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/mistral.models.ts
+- [[MISTRAL_IMAGE_MODELS]] - code - packages/ai/src/providers/mistral.models.ts
+- [[MISTRAL_MODELS]] - code - packages/ai/src/providers/mistral.models.ts
+- [[MODELS_1]] - code - packages/ai/src/models.generated.ts
+- [[MOONSHOTAI_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/moonshotai.models.ts
+- [[MOONSHOTAI_CN_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/moonshotai-cn.models.ts
+- [[MOONSHOTAI_CN_IMAGE_MODELS]] - code - packages/ai/src/providers/moonshotai-cn.models.ts
+- [[MOONSHOTAI_CN_MODELS]] - code - packages/ai/src/providers/moonshotai-cn.models.ts
+- [[MOONSHOTAI_IMAGE_MODELS]] - code - packages/ai/src/providers/moonshotai.models.ts
+- [[MOONSHOTAI_MODELS]] - code - packages/ai/src/providers/moonshotai.models.ts
+- [[ModelGroups]] - code - packages/ai/src/model-catalog.ts
+- [[ModelId]] - code - packages/ai/src/model-catalog.ts
+- [[ModelKey]] - code - packages/ai/src/model-catalog.ts
+- [[NVIDIA_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/nvidia.models.ts
+- [[NVIDIA_IMAGE_MODELS]] - code - packages/ai/src/providers/nvidia.models.ts
+- [[NVIDIA_MODELS]] - code - packages/ai/src/providers/nvidia.models.ts
+- [[OPENAI_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/openai.models.ts
+- [[OPENAI_CODEX_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/openai-codex.models.ts
+- [[OPENAI_CODEX_IMAGE_MODELS]] - code - packages/ai/src/providers/openai-codex.models.ts
+- [[OPENAI_CODEX_MODELS]] - code - packages/ai/src/providers/openai-codex.models.ts
+- [[OPENAI_IMAGE_MODELS]] - code - packages/ai/src/providers/openai.models.ts
+- [[OPENAI_MODELS]] - code - packages/ai/src/providers/openai.models.ts
+- [[OPENCODE_CLASSIFIER_MODELS_1]] - code - packages/ai/src/providers/opencode.models.ts
+- [[OPENCODE_GO_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/opencode-go.models.ts
+- [[OPENCODE_GO_IMAGE_MODELS]] - code - packages/ai/src/providers/opencode-go.models.ts
+- [[OPENCODE_GO_MODELS]] - code - packages/ai/src/providers/opencode-go.models.ts
+- [[OPENCODE_IMAGE_MODELS]] - code - packages/ai/src/providers/opencode.models.ts
+- [[OPENCODE_MODELS]] - code - packages/ai/src/providers/opencode.models.ts
+- [[OPENROUTER_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/openrouter.models.ts
+- [[OPENROUTER_IMAGE_MODELS]] - code - packages/ai/src/providers/openrouter.models.ts
+- [[OPENROUTER_MODELS]] - code - packages/ai/src/providers/openrouter.models.ts
+- [[QWEN_TOKEN_PLAN_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/qwen-token-plan.models.ts
+- [[QWEN_TOKEN_PLAN_CN_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/qwen-token-plan-cn.models.ts
+- [[QWEN_TOKEN_PLAN_CN_IMAGE_MODELS]] - code - packages/ai/src/providers/qwen-token-plan-cn.models.ts
+- [[QWEN_TOKEN_PLAN_CN_MODELS]] - code - packages/ai/src/providers/qwen-token-plan-cn.models.ts
+- [[QWEN_TOKEN_PLAN_IMAGE_MODELS]] - code - packages/ai/src/providers/qwen-token-plan.models.ts
+- [[QWEN_TOKEN_PLAN_INDIVIDUAL_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/qwen-token-plan-individual.models.ts
+- [[QWEN_TOKEN_PLAN_INDIVIDUAL_IMAGE_MODELS]] - code - packages/ai/src/providers/qwen-token-plan-individual.models.ts
+- [[QWEN_TOKEN_PLAN_INDIVIDUAL_MODELS]] - code - packages/ai/src/providers/qwen-token-plan-individual.models.ts
+- [[QWEN_TOKEN_PLAN_MODELS]] - code - packages/ai/src/providers/qwen-token-plan.models.ts
+- [[RADIUS_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/radius.models.ts
+- [[RADIUS_IMAGE_MODELS]] - code - packages/ai/src/providers/radius.models.ts
+- [[RADIUS_MODELS]] - code - packages/ai/src/providers/radius.models.ts
+- [[TOGETHER_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/together.models.ts
+- [[TOGETHER_IMAGE_MODELS]] - code - packages/ai/src/providers/together.models.ts
+- [[TOGETHER_MODELS]] - code - packages/ai/src/providers/together.models.ts
+- [[TYPESAFE_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/typesafe.models.ts
+- [[TYPESAFE_IMAGE_MODELS]] - code - packages/ai/src/providers/typesafe.models.ts
+- [[TYPESAFE_MODELS]] - code - packages/ai/src/providers/typesafe.models.ts
+- [[VERCEL_AI_GATEWAY_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/vercel-ai-gateway.models.ts
+- [[VERCEL_AI_GATEWAY_IMAGE_MODELS]] - code - packages/ai/src/providers/vercel-ai-gateway.models.ts
+- [[VERCEL_AI_GATEWAY_MODELS]] - code - packages/ai/src/providers/vercel-ai-gateway.models.ts
+- [[XAI_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/xai.models.ts
+- [[XAI_IMAGE_MODELS]] - code - packages/ai/src/providers/xai.models.ts
+- [[XAI_MODELS]] - code - packages/ai/src/providers/xai.models.ts
+- [[XIAOMI_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/xiaomi.models.ts
+- [[XIAOMI_IMAGE_MODELS]] - code - packages/ai/src/providers/xiaomi.models.ts
+- [[XIAOMI_MODELS]] - code - packages/ai/src/providers/xiaomi.models.ts
+- [[XIAOMI_TOKEN_PLAN_AMS_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/xiaomi-token-plan-ams.models.ts
+- [[XIAOMI_TOKEN_PLAN_AMS_IMAGE_MODELS]] - code - packages/ai/src/providers/xiaomi-token-plan-ams.models.ts
+- [[XIAOMI_TOKEN_PLAN_AMS_MODELS]] - code - packages/ai/src/providers/xiaomi-token-plan-ams.models.ts
+- [[XIAOMI_TOKEN_PLAN_CN_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/xiaomi-token-plan-cn.models.ts
+- [[XIAOMI_TOKEN_PLAN_CN_IMAGE_MODELS]] - code - packages/ai/src/providers/xiaomi-token-plan-cn.models.ts
+- [[XIAOMI_TOKEN_PLAN_CN_MODELS]] - code - packages/ai/src/providers/xiaomi-token-plan-cn.models.ts
+- [[XIAOMI_TOKEN_PLAN_SGP_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/xiaomi-token-plan-sgp.models.ts
+- [[XIAOMI_TOKEN_PLAN_SGP_IMAGE_MODELS]] - code - packages/ai/src/providers/xiaomi-token-plan-sgp.models.ts
+- [[XIAOMI_TOKEN_PLAN_SGP_MODELS]] - code - packages/ai/src/providers/xiaomi-token-plan-sgp.models.ts
+- [[ZAI_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/zai.models.ts
+- [[ZAI_CODING_CN_CLASSIFIER_MODELS]] - code - packages/ai/src/providers/zai-coding-cn.models.ts
+- [[ZAI_CODING_CN_IMAGE_MODELS]] - code - packages/ai/src/providers/zai-coding-cn.models.ts
+- [[ZAI_CODING_CN_MODELS]] - code - packages/ai/src/providers/zai-coding-cn.models.ts
+- [[ZAI_IMAGE_MODELS]] - code - packages/ai/src/providers/zai.models.ts
+- [[ZAI_MODELS]] - code - packages/ai/src/providers/zai.models.ts
+- [[amazon-bedrock.models.ts]] - code - packages/ai/src/providers/amazon-bedrock.models.ts
+- [[ant-ling.models.ts]] - code - packages/ai/src/providers/ant-ling.models.ts
+- [[anthropic.models.ts]] - code - packages/ai/src/providers/anthropic.models.ts
+- [[azure-openai-responses.models.ts]] - code - packages/ai/src/providers/azure-openai-responses.models.ts
+- [[baseten.models.ts]] - code - packages/ai/src/providers/baseten.models.ts
+- [[cerebras.models.ts]] - code - packages/ai/src/providers/cerebras.models.ts
+- [[cloudflare-ai-gateway.models.ts]] - code - packages/ai/src/providers/cloudflare-ai-gateway.models.ts
+- [[cloudflare-workers-ai.models.ts]] - code - packages/ai/src/providers/cloudflare-workers-ai.models.ts
+- [[deepseek.models.ts]] - code - packages/ai/src/providers/deepseek.models.ts
+- [[fireworks.models.ts]] - code - packages/ai/src/providers/fireworks.models.ts
+- [[flattenChatModelCatalog()]] - code - packages/ai/src/model-catalog.ts
+- [[flattenClassifierModelCatalog()]] - code - packages/ai/src/model-catalog.ts
+- [[flattenImageModelCatalog()]] - code - packages/ai/src/model-catalog.ts
+- [[flattenModelCatalog()]] - code - packages/ai/src/model-catalog.ts
+- [[github-copilot.models.ts]] - code - packages/ai/src/providers/github-copilot.models.ts
+- [[google-vertex.models.ts]] - code - packages/ai/src/providers/google-vertex.models.ts
+- [[google.models.ts]] - code - packages/ai/src/providers/google.models.ts
+- [[groq.models.ts]] - code - packages/ai/src/providers/groq.models.ts
+- [[huggingface.models.ts]] - code - packages/ai/src/providers/huggingface.models.ts
+- [[kimi-coding.models.ts]] - code - packages/ai/src/providers/kimi-coding.models.ts
+- [[meta.models.ts]] - code - packages/ai/src/providers/meta.models.ts
+- [[minimax-cn.models.ts]] - code - packages/ai/src/providers/minimax-cn.models.ts
+- [[minimax.models.ts]] - code - packages/ai/src/providers/minimax.models.ts
+- [[mistral.models.ts]] - code - packages/ai/src/providers/mistral.models.ts
+- [[model-catalog-types.test.ts]] - code - packages/ai/test/model-catalog-types.test.ts
+- [[model-catalog.ts]] - code - packages/ai/src/model-catalog.ts
+- [[models.generated.ts]] - code - packages/ai/src/models.generated.ts
+- [[moonshotai-cn.models.ts]] - code - packages/ai/src/providers/moonshotai-cn.models.ts
+- [[moonshotai.models.ts]] - code - packages/ai/src/providers/moonshotai.models.ts
+- [[nvidia.models.ts]] - code - packages/ai/src/providers/nvidia.models.ts
+- [[openai-codex.models.ts]] - code - packages/ai/src/providers/openai-codex.models.ts
+- [[openai.models.ts]] - code - packages/ai/src/providers/openai.models.ts
+- [[opencode-go.models.ts]] - code - packages/ai/src/providers/opencode-go.models.ts
+- [[opencode.models.ts]] - code - packages/ai/src/providers/opencode.models.ts
+- [[openrouter.models.ts]] - code - packages/ai/src/providers/openrouter.models.ts
+- [[packages_ai_src_providers_data_amazon_bedrock]] - concept
+- [[packages_ai_src_providers_data_ant_ling]] - concept
+- [[packages_ai_src_providers_data_anthropic]] - concept
+- [[packages_ai_src_providers_data_azure_openai_responses]] - concept
+- [[packages_ai_src_providers_data_baseten]] - concept
+- [[packages_ai_src_providers_data_cerebras]] - concept
+- [[packages_ai_src_providers_data_cloudflare_ai_gateway]] - concept
+- [[packages_ai_src_providers_data_cloudflare_workers_ai]] - concept
+- [[packages_ai_src_providers_data_deepseek]] - concept
+- [[packages_ai_src_providers_data_fireworks]] - concept
+- [[packages_ai_src_providers_data_github_copilot]] - concept
+- [[packages_ai_src_providers_data_google]] - concept
+- [[packages_ai_src_providers_data_google_vertex]] - concept
+- [[packages_ai_src_providers_data_groq]] - concept
+- [[packages_ai_src_providers_data_huggingface]] - concept
+- [[packages_ai_src_providers_data_kimi_coding]] - concept
+- [[packages_ai_src_providers_data_meta]] - concept
+- [[packages_ai_src_providers_data_minimax]] - concept
+- [[packages_ai_src_providers_data_minimax_cn]] - concept
+- [[packages_ai_src_providers_data_mistral]] - concept
+- [[packages_ai_src_providers_data_moonshotai]] - concept
+- [[packages_ai_src_providers_data_moonshotai_cn]] - concept
+- [[packages_ai_src_providers_data_nvidia]] - concept
+- [[packages_ai_src_providers_data_openai]] - concept
+- [[packages_ai_src_providers_data_openai_codex]] - concept
+- [[packages_ai_src_providers_data_opencode]] - concept
+- [[packages_ai_src_providers_data_opencode_go]] - concept
+- [[packages_ai_src_providers_data_openrouter]] - concept
+- [[packages_ai_src_providers_data_qwen_token_plan]] - concept
+- [[packages_ai_src_providers_data_qwen_token_plan_cn]] - concept
+- [[packages_ai_src_providers_data_qwen_token_plan_individual]] - concept
+- [[packages_ai_src_providers_data_radius]] - concept
+- [[packages_ai_src_providers_data_together]] - concept
+- [[packages_ai_src_providers_data_typesafe]] - concept
+- [[packages_ai_src_providers_data_vercel_ai_gateway]] - concept
+- [[packages_ai_src_providers_data_xai]] - concept
+- [[packages_ai_src_providers_data_xiaomi]] - concept
+- [[packages_ai_src_providers_data_xiaomi_token_plan_ams]] - concept
+- [[packages_ai_src_providers_data_xiaomi_token_plan_cn]] - concept
+- [[packages_ai_src_providers_data_xiaomi_token_plan_sgp]] - concept
+- [[packages_ai_src_providers_data_zai]] - concept
+- [[packages_ai_src_providers_data_zai_coding_cn]] - concept
+- [[qwen-token-plan-cn.models.ts]] - code - packages/ai/src/providers/qwen-token-plan-cn.models.ts
+- [[qwen-token-plan-individual.models.ts]] - code - packages/ai/src/providers/qwen-token-plan-individual.models.ts
+- [[qwen-token-plan.models.ts]] - code - packages/ai/src/providers/qwen-token-plan.models.ts
+- [[radius.models.ts]] - code - packages/ai/src/providers/radius.models.ts
+- [[together.models.ts]] - code - packages/ai/src/providers/together.models.ts
+- [[typesafe.models.ts]] - code - packages/ai/src/providers/typesafe.models.ts
+- [[vercel-ai-gateway.models.ts]] - code - packages/ai/src/providers/vercel-ai-gateway.models.ts
+- [[xai.models.ts]] - code - packages/ai/src/providers/xai.models.ts
+- [[xiaomi-token-plan-ams.models.ts]] - code - packages/ai/src/providers/xiaomi-token-plan-ams.models.ts
+- [[xiaomi-token-plan-cn.models.ts]] - code - packages/ai/src/providers/xiaomi-token-plan-cn.models.ts
+- [[xiaomi-token-plan-sgp.models.ts]] - code - packages/ai/src/providers/xiaomi-token-plan-sgp.models.ts
+- [[xiaomi.models.ts]] - code - packages/ai/src/providers/xiaomi.models.ts
+- [[zai-coding-cn.models.ts]] - code - packages/ai/src/providers/zai-coding-cn.models.ts
+- [[zai.models.ts]] - code - packages/ai/src/providers/zai.models.ts
+- [[zen.test.ts]] - code - packages/ai/test/zen.test.ts
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/AI_模型协议_17
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 137 edges to [[_COMMUNITY_AI 模型协议 22]]
+- 6 edges to [[_COMMUNITY_AI 模型协议 25]]
+- 6 edges to [[_COMMUNITY_Coding Agent 会话工具 12]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 13]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 148]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 203]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 63]]
+- 2 edges to [[_COMMUNITY_Coding Agent 会话工具 7]]
+- 2 edges to [[_COMMUNITY_AI 模型协议 1]]
+- 1 edge to [[_COMMUNITY_Coding Agent 会话工具 11]]
+
+## Top bridge nodes
+- [[zen.test.ts]] - degree 8, connects to 4 communities
+- [[model-catalog.ts]] - degree 64, connects to 3 communities
+- [[models.generated.ts]] - degree 176, connects to 2 communities
+- [[amazon-bedrock.models.ts]] - degree 14, connects to 1 community
+- [[model-catalog-types.test.ts]] - degree 6, connects to 1 community
